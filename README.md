@@ -1,8 +1,10 @@
 # WhitneyRoots
 
-> **Reinventing samskrtam.ru/whitney-roots/roots.html**
+> **Reinventing [samskrtam.ru/whitney-roots/roots.html](http://samskrtam.ru/whitney-roots/roots.html)**
 > 
+> 📂 **GitHub Repository:** [https://github.com/gasyoun/WhitneyRoots](https://github.com/gasyoun/WhitneyRoots)
 > 🌐 **Live Website:** [https://gasyoun.github.io/WhitneyRoots/](https://gasyoun.github.io/WhitneyRoots/)
+> 📚 **Zaliznyak Index:** [https://samskrtam.ru/z](https://samskrtam.ru/z)
 
 ## About
 
