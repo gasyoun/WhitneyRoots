@@ -1,0 +1,2299 @@
+==============================================================================================================
+  WHITNEY ROOTS → PP-ДЕРИВАТЫ В MW
+  Деривативная мощность: сколько PP-соединений породил каждый корень
+==============================================================================================================
+
+#Уит  √Корень            Кл       Дер.
+Σ(Л+П)   PP-формы с [Л]/[П]
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+── D ──
+393   √dhā               1/2/3/4  19    133      hita[23/33]  vihita[8/13]  saṃhita[1/10]  dhita[0/8]  nihita[3/5]  sahita[3/2] ...
+       hita                   L= 23 R= 33  Л:hita-kara;
+       hita-kāma | П:antar-hita; arśo-hita
+       vihita                 L=  8 R= 13 [+vi]  Л:vihita-kṣaṇa;
+       vihita-tva | П:aveda-vihita; aśāstra-vihita
+       saṃhita                L=  1 R= 10 [+sam]  Л:saṃhita-puṣpikā |
+       П:anṛta-saṃhita; āgama-saṃhita
+       dhita                  L=  0 R=  8  П:tad-dhita;
+       tvad-dhita
+       nihita                 L=  3 R=  5 [+ni]  Л:nihita-daṇḍa;
+       nihita-nayana | П:antar-nihita; upari-nihita
+       sahita                 L=  3 R=  2 [+sa]  Л:sahita-kumbhaka;
+       sahita-tva | П:vārṣṇeya-sahita; sakhī-sahita
+       abhihita               L=  2 R=  1 [+abhi]  Л:abhihita-tā;
+       abhihita-tva | П:prāg-abhihita
+       ahita                  L=  3 R=  0 [+a]  Л:ahita-kārin;
+       ahita-nāman
+       āhita                  L=  3 R=  0 [+a]  Л:āhita-klama;
+       āhita-lakṣaṇa
+       saṃdhita               L=  0 R=  3 [+sam]  П:mṛtyu-saṃdhita;
+       sama-saṃdhita
+       avahita                L=  2 R=  0 [+ava]  Л:avahita-tā;
+       avahita-pāṇi
+       sādhita                L=  0 R=  2 [+sa]  П:siddha-sādhita;
+       su-sādhita
+       suhita                 L=  0 R=  2 [+su]  П:ati-suhita;
+       bhuktvā-suhita
+       adhīta                 L=  1 R=  0 [+a]  Л:adhīta-veda
+       ādhīta                 L=  1 R=  0 [+a]  Л:ādhīta-yajus
+       upahita                L=  0 R=  1 [+upa]  П:nir-upahita
+     
+       dhīta                  L=  1 R=  0  Л:dhīta-rasa
+       prahita                L=  1 R=  0 [+pra]  Л:prahita-ṃ-gama
+       ṣaṃhita                L=  0 R=  1 [+sam]  П:dvi-ṣaṃhita
+
+
+── H ──
+911   √hā      
+           1/3      14    224      hīna[43/63]  hata[62/24]  saṃhata[14/3]  āhata[2/0]  ahata[2/0]  upahata[1/1] ...
+       hīna                   L= 43 R= 63  Л:hīna-karman;
+       hīna-kula | П:aṅga-hīna; artha-hīna
+       hata                   L= 62 R= 24  Л:hata-kaṇṭaka;
+       hata-kilbiṣa | П:akāma-hata; ayo-hata
+       saṃhata                L= 14 R=  3 [+sam]  Л:saṃhata-kulīna;
+       saṃhata-jānu | П:adri-saṃhata; vajra-saṃhata
+       āhata                  L=  2 R=  0 [+a]  Л:āhata-lakṣaṇa;
+       āhata-visarga-tā
+       ahata                  L=  2 R=  0 [+a]  Л:ahata-tā;
+       ahata-vāsas
+       upahata                L=  1 R=  1 [+upa]  Л:upahata-dhī |
+       П:nir-upahata
+       prahata                L=  1 R=  1 [+pra]  Л:prahata-muraja |
+       П:jaṅghā-prahata
+       apahata                L=  1 R=  0 [+apa]  Л:apahata-pāpman
+       jahita                 L=  0 R=  1  П:prā-jahita
+       nirhata                L=  0 R=  1 [+nir]  П:ulkā-nirhata
+       
+       nihata                 L=  0 R=  1 [+ni]  П:śoka-nihata
+       vihata                 L=  0 R=  1 [+vi]  П:vajra-vihata
+       saṃhāta                L=  0 R=  1 [+sam]  П:akṣara-saṃhāta
+       hāta     
+               L=  1 R=  0  Л:hāta-vat
+
+
+── S ──
+874   √sthā              1        11    100      sthita[12/54]  saṃsthita[3/12]  upasthita[3/1]  pratiṣṭhita[0/4]  prasthita[2/1]  anuṣṭhita[0/2] ...
+       sthita                 L= 12 R= 54  Л:sthita-tā;
+       sthita-dhī | П:antara-sthita; ayathā-sthita
+       saṃsthita              L=  3 R= 12 [+sam]  Л:saṃsthita-yajus;
+       saṃsthita-vat | П:cira-saṃsthita; duḥ-saṃsthita
+       upasthita              L=  3 R=  1 [+upa]  Л:upasthita-pracupita;
+       upasthita-vaktṛ | П:svayam-upasthita
+       pratiṣṭhita            L=  0 R=  4 [+prati]  П:antaḥ-pratiṣṭhita;
+       ākāśa-pratiṣṭhita
+       prasthita              L=  2 R=  1 [+pra]  Л:prasthita-yājyā;
+       prasthita-vat | П:pūrva-prasthita
+       anuṣṭhita              L=  0 R=  2 [+anu]  П:dur-anuṣṭhita;
+       viṣṇv-anuṣṭhita
+       ṣṭhita                 L=  0 R=  2  П:prāti-ṣṭhita;
+       su-ṣṭhita
+       adhiṣṭhita             L=  0 R=  1 [+adhi]  П:dur-adhiṣṭhita
+       anusthita              L=  0 R=  1 [+anu]  П:viṣṇv-anusthita
+       niṣṭhita               L=  0 R=  1 [+ni]  П:su-niṣṭhita
+       viṣṭhita      
+          L=  0 R=  1 [+vi]  П:su-viṣṭhita
+
+
+── G ──
+170   √gam               1/2      10    231      gata[54/126]  vigata[19/1]  āgata[11/5]  saṃgata[2/5]  apagata[2/0]  nirgata[0/2] ...
+       gata                   L= 54 R=126  Л:gata-kalmaṣa;
+       gata-kāla | П:akṣi-gata; aṅka-gata
+       vigata                 L= 19 R=  1  Л:vigata-kalmaṣa;
+       vigata-klama | П:vidūra-vigata
+       āgata                  L= 11 R=  5 [+a]  Л:āgata-kṣobha;
+       āgata-tva | П:tiryag-āgata; dig-āgata
+       saṃgata                L=  2 R=  5 [+sam]  Л:saṃgata-gātra;
+       saṃgata-saṃdhi | П:ku-saṃgata; kula-saṃgata
+       apagata                L=  2 R=  0 [+apa]  Л:apagata-kālaka;
+       apagata-vyādhi
+       nirgata                L=  0 R=  2 [+nir]  П:cira-nirgata;
+       su-nirgata
+       adhigata               L=  0 R=  1 [+adhi]  П:svayam-adhigata
+       antargata              L=  1 R=  0 [+antar]  Л:antargata-manas
+       udgata                 L=  1 R=  0 [+ud]  Л:udgata-śṛṅga
+       upagata  
+               L=  1 R=  0 [+upa]  Л:upagata-vat
+
+
+── J ──
+249   √jan               1/2/3/4  10    214      jāta[62/109]  pārijāta[0/11]  saṃjāta[8/0]  ajāta[6/0]  sajāta[5/0]  upajāta[4/0] ...
+       jāta                   L= 62 R=109  Л:jāta-karman;
+       jāta-kalā@pa | П:akāla-jāta; aṅga-jāta
+       pārijāta               L=  0 R= 11 [+pari]  П:dāna-pārijāta;
+       nyāya-pārijāta
+       saṃjāta                L=  8 R=  0 [+sam]  Л:saṃjāta-kopa;
+       saṃjāta-kautuka
+       ajāta                  L=  6 R=  0 [+a]  Л:ajāta-kakud;
+       ajāta-pakṣa
+       sajāta                 L=  5 R=  0 [+sa]  Л:sajāta-kāma;
+       sajāta-vat
+       upajāta                L=  4 R=  0 [+upa]  Л:upajāta-kopa;
+       upajāta-krodha
+       prajāta                L=  0 R=  3 [+pra]  П:ṛta-prajāta;
+       puru-prajāta
+       abhijāta               L=  2 R=  0 [+abhi]  Л:abhijāta-tā;
+       abhijāta-vāc
+       janita                 L=  1 R=  1  Л:janita-svana |
+       П:viraha-janita
+       sujāta                 L=  0 R=  2 [+su]  П:ubhayataḥ-sujāta;
+       sanat-sujāta
+
+
+── K ──
+106   √kṛ (skṛ)          1/2/5/8  9     419      kṛta[169/222]  akṛta[10/0]  vikṛta[10/0]  niṣkṛta[0/2]  sukṛta[0/2]  adhikṛta[1/0] ...
+       kṛta                   L=169 R=222  Л:kṛta-ṃjaya;
+       kṛta-kapaṭa | П:akṣṇayā-kṛta; agni-kṛta
+       akṛta                  L= 10 R=  0 [+a]  Л:akṛta-kāram;
+       akṛta-kārya
+       vikṛta                 L= 10 R=  0 [+vi]  Л:vikṛta-janana-śānti-vidhāna;
+       vikṛta-tva
+       niṣkṛta                L=  0 R=  2 [+nis]  П:punar-niṣkṛta;
+       su-niṣkṛta
+       sukṛta                 L=  0 R=  2 [+su]  П:kṣīṇa-sukṛta;
+       vi-sukṛta
+       adhikṛta               L=  1 R=  0 [+adhi]  Л:adhikṛta-tva
+       nikṛta                 L=  0 R=  1 [+ni]  П:bāṇa-nikṛta
+       prakṛta                L=  0 R=  1 [+pra]  П:tat-prakṛta
+       
+       pratikṛta              L=  0 R=  1 [+prati]  П:kṛta-pratikṛta
+
+
+── B ──
+528   √bhū               1        9     332      bhūta[128/165]  prabhūta[12/0]  sambhūta[4/4]  abhūta[7/0]  vibhūta[4/1]  udbhūta[3/0] ...
+       bhūta                  L=128 R=165  
+       Л:bhūta-karaṇa; bhūta-kartṛ | П:aṃśa-bhūta; atharva-bhūta
+       prabhūta               L= 12 R=  0 [+pra]  Л:prabhūta-jihvatā;
+       prabhūta-tā
+       sambhūta               L=  4 R=  4 [+sam]  Л:sambhūta-tva;
+       sambhūta-bhūri-gaja-vāji-padāti-sainya | П:kṣetra-sambhūta; nāga
+       abhūta                 L=  7 R=  0 [+a]  Л:abhūta-tadbhāva;
+       abhūta-tva
+       vibhūta                L=  4 R=  1 [+vi]  Л:vibhūta-ṃ-gamā;
+       vibhūta-dyumna | П:mahā-vibhūta
+       udbhūta                L=  3 R=  0 [+ud]  Л:udbhūta-tva;
+       udbhūta-rūpa
+       paribhūta              L=  0 R=  2 [+pari]  П:sadā-paribhūta;
+       su-paribhūta
+       antarbhūta             L=  1 R=  0 [+antar]  Л:antarbhūta-tva
+       abhibhūta              L=  0 R=  1 [+abhi]  П:vāyv-abhibhūta
+
+
+── D ──
+349   √dā                1/2/3/4  9     194      datta[17/155]  ātta[11/1]  upātta[3/0]  avatta[0/2]  anutta[1/0] 
+  anudātta[1/0] ...
+       datta                  L= 17 R=155  Л:datta-karṇa;
+       datta-kṣaṇa | П:agni-datta; anitya-datta
+       ātta                   L= 11 R=  1 [+a]  Л:ātta-kānti;
+       ātta-gandha | П:punar-ātta
+       upātta                 L=  3 R=  0 [+upa]  Л:upātta-raṃhas;
+       upātta-vidya
+       avatta                 L=  0 R=  2 [+ava]  П:catur-avatta;
+       ṣaḍ-avatta
+       anutta                 L=  1 R=  0 [+anu]  Л:anutta-manya
+       anudātta               L=  1 R=  0 [+anu]  Л:anudātta-tara
+       avadāta                L=  1 R=  0 [+ava]  Л:avadāta-vasana
+       
+       paridatta              L=  0 R=  1 [+pari]  П:su-paridatta
+       pratta                 L=  1 R=  0 [+pra]  Л:pratta-vat
+
+
+── Y ──
+608   √yuj               2/6/7    9     126      yukta[23/69]  saṃyukta[4/12]  prayukta[2/5]  ayukta[6/0]  upayukta[0/1]  niyukta[0/1] 
+...
+       yukta                  L= 23 R= 69  Л:yukta-karman;
+       yukta-kārin | П:adhyavasāya-yukta; amedhya-yukta
+       saṃyukta               L=  4 R= 12 [+sam]  Л:saṃyukta-saṃcaya-piṭaka;
+       saṃyukta-saṃyoga | П:ātma-saṃyukta; guṇa-saṃyukta
+       prayukta               L=  2 R=  5 [+pra]  Л:prayukta-tama;
+       prayukta-saṃskāra | П:duṣ-prayukta; phala-prayukta
+       ayukta                 L=  6 R=  0 [+a]  Л:ayukta-kṛt;
+       ayukta-cāra
+       upayukta               L=  0 R=  1 [+upa]  П:dur-upayukta
+       niyukta                L=  0 R=  1 [+ni]  П:su-niyukta
+       niryukta               L=  0 R=  1 [+nir]  П:su-niryukta
+       viyukta  
+               L=  1 R=  0 [+vi]  Л:viyukta-tā
+       ṣaṃyukta               L=  0 R=  1 [+sam]  П:tri-ṣaṃyukta
+
+
+── R ──
+635   √rā                1/2/3    8     76       rata[18/25]  rāta[3/15]  uparata[4/0]  surata[0/4]  nirata[0/2]  virata[2/0] 
+...
+       rata                   L= 18 R= 25  Л:rata-kīla;
+       rata-kūjita | П:anta-rata; kari-rata
+       rāta                   L=  3 R= 15  Л:rāta-manas;
+       rāta-havis | П:asmad-rāta; kīrti-rāta
+       uparata                L=  4 R=  0 [+upa]  Л:uparata-rāsa;
+       uparata-viṣayā@bhilāṣa
+       surata                 L=  0 R=  4 [+su]  П:caurī-surata;
+       caurya-surata
+       nirata                 L=  0 R=  2 [+ni]  П:ahiṃsā-nirata;
+       videśa-nirata
+       virata                 L=  2 R=  0 [+vi]  Л:virata-tva;
+       virata-prasaṅga
+       sūrata                 L=  2 R=  0 [+su]  Л:sūrata-kalpa-taru;
+       sūrata-siṃha
+       arata                  L=  1 R=  0 [+a]  Л:arata-trapa
+
+
+── Y ──
+603   √yā                2        8     58       yata[14/5]  āyata[10/5]  saṃyata[8/0]  yāta[2/5]  udyata[5/1]  avayāta[1/0] ...
+       yata        
+            L= 14 R=  5  Л:yata-kṛt; yata-gir |
+       П:tva-yata; vāg-yata
+       āyata                  L= 10 R=  5 [+a]  Л:āyata-caturasra;
+       āyata-cchadā | П:udag-āyata; tiryag-āyata
+       saṃyata                L=  8 R=  0 [+sam]  Л:saṃyata-cetas;
+       saṃyata-prā@ṇa
+       yāta                   L=  2 R=  5  Л:yāta-yāma;
+       yāta-yāman | П:unmārga-yāta; cira-yāta
+       udyata                 L=  5 R=  1 [+ud]  Л:udyata-kārmuka;
+       udyata-gada | П:svayam-udyata
+       avayāta                L=  1 R=  0 [+ava]  Л:avayāta-heḷas
+       niyata                 L=  0 R=  1 [+ni]  П:su-niyata
+       pratiyāta              L=  0 R=  1 [+prati]  П:agaṇita-pratiyāta
+
+
+── G ──
+196   √grabh 
+             1/9      8     52       gṛhīta[24/19]  parigṛhīta[0/2]  saṃgṛhīta[1/1]  agṛbhīta[1/0]  agṛhīta[1/0]  abhigṛhīta[1/0] ...
+       gṛhīta                 L= 24 R= 19  Л:gṛhīta-khaḍga-carman;
+       gṛhīta-garbhā | П:aṣṭa-gṛhīta; aṣṭā-gṛhīta
+       parigṛhīta             L=  0 R=  2 [+pari]  П:ubhayataḥ-parigṛhīta;
+       prathama-parigṛhīta
+       saṃgṛhīta              L=  1 R=  1 [+sam]  Л:saṃgṛhīta-rāṣṭra |
+       П:su-saṃgṛhīta
+       agṛbhīta               L=  1 R=  0 [+a]  Л:agṛbhīta-śocis
+       agṛhīta                L=  1 R=  0 [+a]  Л:agṛhīta-diś
+       abhigṛhīta             L=  1 R=  0 [+abhi]  Л:abhigṛhīta-pāṇi
+       gṛbhīta    
+             L=  1 R=  0  Л:gṛbhīta-tāti
+       pratigṛhīta            L=  0 R=  1 [+prati]  П:su-pratigṛhīta
+
+
+── J ──
+269   √jñā               1/9      8     23       jñāta[7/0]  ajñāta[6/0]  vijñāta[2/2]  parijñāta[0/2]  ājñāta[1/0]  anujñāta[0/1] ...
+     
+       jñāta                  L=  7 R=  0  Л:jñāta-kulīna;
+       jñāta-tā
+       ajñāta                 L=  6 R=  0 [+a]  Л:ajñāta-kula-śīla;
+       ajñāta-keta
+       vijñāta                L=  2 R=  2 [+vi]  Л:vijñāta-vīrya;
+       vijñāta-sthālī | П:anivedita-vijñāta; loka-vijñāta
+       parijñāta              L=  0 R=  2 [+pari]  П:ku-parijñāta;
+       su-parijñāta
+       ājñāta                 L=  1 R=  0 [+a]  Л:ājñāta-kauṇḍinya
+       anujñāta               L=  0 R=  1 [+anu]  П:dur-anujñāta
+       abhijñāta              L=  0 R=  1 [+abhi]  П:ṣaḍ-abhijñāta
+       saṃjñāta  
+               L=  1 R=  0 [+sam]  Л:saṃjñāta-rūpa
+
+
+── S ──
+846   √su                3/5      7     176      suta[25/109]  sūta[17/8]  prasūta[0/10]  prasuta[0/2]  ṣūta[0/2]  ṣuta[0/2] ...
+       suta                   L= 25 R=109  
+       Л:suta-kīrti; suta-pa | П:ambikā-suta; arka-suta
+       sūta                   L= 17 R=  8  Л:sūta-maho@dadhi;
+       sūta-rāj | П:aśva-sūta; baddha-sūta
+       prasūta                L=  0 R= 10 [+pra]  П:indra-prasūta;
+       kula-prasūta
+       prasuta                L=  0 R=  2 [+pra]  П:mahā-prasuta;
+       vāja-prasuta
+       ṣūta                   L=  0 R=  2  П:nṛ-ṣūta;
+       su-ṣūta
+       ṣuta                   L=  0 R=  2  П:adri-ṣuta;
+       su-ṣuta
+       abhiṣuta               L=  0 R=  1 [+abhi]  П:sakṛd-abhiṣuta
+
+
+── V ──
+744   √vṛt               1/2/3    7     168      vṛtta[74/79]  pravṛtta[0/6]  āvṛtta[0/3]  nivṛtta[0/2]  vivṛtta[2/0]  apavṛtta[1/0] ...
+       vṛtta                 
+       L= 74 R= 79  Л:vṛtta-karkaṭī; vṛtta-karṣita | П:akṣa-vṛtta;
+       anyāya-vṛtta
+       pravṛtta               L=  0 R=  6 [+pra]  П:ārya-pravṛtta;
+       kṣaya-pravṛtta
+       āvṛtta                 L=  0 R=  3 [+a]  П:udag-āvṛtta;
+       parāṅ-āvṛtta
+       nivṛtta                L=  0 R=  2 [+ni]  П:anāśaka-nivṛtta;
+       dur-nivṛtta
+       vivṛtta                L=  2 R=  0 [+vi]  Л:vivṛtta-daṃṣṭra;
+       vivṛtta-vadana
+       apavṛtta               L=  1 R=  0 [+apa]  Л:apavṛtta-bhāva
+       saṃvṛtta               L=  0 R=  1 [+sam]  П:su-saṃvṛtta
+
+
+── S ──
+837   √sā                1/5/6/9  7     106      sita[88/4]  sīta[0/4]  avasita[2/1]  
+       śita[0/3]  viṣita[2/0]  prāśita[0/1] ...
+       sita                   L= 88 R=  4  Л:sita-kaṭabhī;
+       sita-kaṇṭā | П:bhūti-sita; sa-sita
+       sīta                   L=  0 R=  4  П:kṛṣṇa-sīta;
+       catuḥ-sīta
+       avasita                L=  2 R=  1 [+ava]  Л:avasita-kārya;
+       avasita-maṇḍana | П:dur-avasita
+       śita                   L=  0 R=  3  П:dhārā-śita;
+       śilā-śita
+       viṣita                 L=  2 R=  0 [+vi]  Л:viṣita-stuka;
+       viṣita-stupa
+       prāśita                L=  0 R=  1 [+pra]  П:prati-prāśita
+       ṣita                   L=  0 R=  1  П:su-ṣita
+
+898   √srīv              4        7     91      
+       śruta[59/21]  viśruta[2/3]  aśruta[2/0]  parisruta[0/1]  prasruta[0/1]  suśruta[0/1] ...
+       śruta                  L= 59 R= 21  Л:śruta-ṛṣi;
+       śruta-kakṣa | П:ardha-śruta; uttama-śruta
+       viśruta                L=  2 R=  3 [+vi]  Л:viśruta-deva;
+       viśruta-vat | П:puru-viśruta; loka-viśruta
+       aśruta                 L=  2 R=  0 [+a]  Л:aśruta-vat;
+       aśruta-vraṇa
+       parisruta              L=  0 R=  1 [+pari]  П:su-parisruta
+       prasruta               L=  0 R=  1 [+pra]  П:tri-prasruta
+       suśruta                L=  0 R=  1 [+su]  П:vṛddha-suśruta
+       sruta   
+               L=  1 R=  0  Л:sruta-jala
+
+
+── J ──
+258   √ji                1/2      7     47       jita[19/14]  vijita[2/2]  ajita[3/0]  jīta[3/0]  prajita[0/2]  ajīta[1/0] ...
+       jita                   L= 19 
+       R= 14  Л:jita-kāśi; jita-kāśin | П:astrī-jita; karma-jita
+       vijita                 L=  2 R=  2 [+vi]  Л:vijita-rūpa;
+       vijita-vat | П:puṇya-vijita; strī-vijita
+       ajita                  L=  3 R=  0 [+a]  Л:ajita-keśa-kambala;
+       ajita-balā
+       jīta                   L=  3 R=  0  Л:jīta-kalpa-sūtra;
+       jīta-dhara
+       prajita                L=  0 R=  2 [+pra]  П:tottra-prajita;
+       daṇḍa-prajita
+       ajīta                  L=  1 R=  0 [+a]  Л:ajīta-punarvaṇya
+       nirjita                L=  0 R=  1 [+nir]  П:strī-nirjita
+
+
+── V ──
+756   √vyā               4        7     39   
+           vīta[29/1]  saṃvīta[1/2]  vita[0/2]  upavīta[0/1]  prativīta[1/0]  pravīta[0/1] ...
+       vīta                   L= 29 R=  1  Л:vīta-tama;
+       vīta-pṛṣṭha | П:kṛtsna-vīta
+       saṃvīta                L=  1 R=  2 [+sam]  Л:saṃvīta-rāga |
+       П:valkala-saṃvīta; su-saṃvīta
+       vita                   L=  0 R=  2  П:gaurī-vita;
+       su-vita
+       upavīta                L=  0 R=  1 [+upa]  П:vy-upavīta
+       prativīta              L=  1 R=  0 [+prati]  Л:prativīta-tama
+       pravīta                L=  0 R=  1 [+pra]  П:ṛta-pravīta
+       vivīta  
+               L=  1 R=  0 [+vi]  Л:vivīta-bhartṛ
+
+
+── N ──
+416   √nam               1        7     35       nata[15/3]  vinata[2/3]  avanata[3/1]  saṃnata[2/1]  ṇata[0/2]  pariṇata[0/2] ...
+       nata                   
+       L= 15 R=  3  Л:nata-kaṃdhara; nata-kāla | П:paścān-nata;
+       vāma-nata
+       vinata                 L=  2 R=  3 [+vi]  Л:vinata-kāya;
+       vinata-tā | П:go-vinata; tri-vinata
+       avanata                L=  3 R=  1 [+ava]  Л:avanata-kaya;
+       avanata-mukha | П:try-avanata
+       saṃnata                L=  2 R=  1 [+sam]  Л:saṃnata-tara;
+       saṃnata-bhrū | П:su-saṃnata
+       ṇata                   L=  0 R=  2  П:indra-ṇata;
+       tri-ṇata
+       pariṇata               L=  0 R=  2 [+pari]  П:jarā-pariṇata;
+       su-pariṇata
+       ānata                  L=  1 R=  0 [+a]  Л:ānata-ja
+
+427   √nī                1/2/3    7     33       vinīta[10/4]  nīta[2/8]  praṇīta[0/4]  ṇīta[0/2]  ānīta[0/1]  anita[1/0] ...
+       vinīta              
+          L= 10 R=  4 [+vi]  Л:vinīta-tā; vinīta-tva | П:āpad-vinīta;
+       dur-vinīta
+       nīta                   L=  2 R=  8  Л:nīta-dakṣiṇa;
+       nīta-miśra | П:asu-nīta; ku-nīta
+       praṇīta                L=  0 R=  4 [+pra]  П:aśva-praṇīta;
+       duṣ-praṇīta
+       ṇīta                   L=  0 R=  2  П:dur-ṇīta;
+       svar-ṇīta
+       ānīta                  L=  0 R=  1 [+a]  П:svayam-ānīta
+       anita                  L=  1 R=  0 [+a]  Л:anita-bhā
+       pariṇīta               L=  0 R=  1 [+pari]  П:su-pariṇīta
+
+
+── S ──
+767   √śak               5        7     32       saṃsakta[8/0]  sakta[6/1]  śākta[5/0]  āsakta[4/0]  prasakta[2/2]  śakta[0/3] ...
+       saṃsakta               L=  8 R=  0 [+sam]  Л:saṃsakta-citta;
+       saṃsakta-cetas
+       sakta                  L=  6 R=  1  Л:sakta-tā;
+       sakta-tva | П:ramaṇī-sakta
+       śākta                  L=  5 R=  0  Л:śākta-krama;
+       śākta-tantra
+       āsakta                 L=  4 R=  0 [+a]  Л:āsakta-citta;
+       āsakta-cetas
+       prasakta               L=  2 R=  2 [+pra]  Л:prasakta-dhī;
+       prasakta-hṛdaya | П:dhātu-prasakta; pāna-prasakta
+       śakta                  L=  0 R=  3  П:ati-śakta;
+       duḥ-śakta
+       viṣakta                L=  1 R=  0 [+vi]  Л:viṣakta-tva
+
+852   √sṛ                1/3      7     19       śṛta[5/5]  prasṛta[3/0]  sṛta[2/0]  anusṛta[1/0]  āsṛta[0/1]  upasṛta[1/0] ...
+       śṛta              
+             L=  5 R=  5  Л:śṛta-kāma; śṛta-tva | П:kṛṣṇa-śṛta;
+       duḥ-śṛta
+       prasṛta                L=  3 R=  0 [+pra]  Л:prasṛta-ja;
+       prasṛta-mātra
+       sṛta                   L=  2 R=  0  Л:sṛta-java;
+       sṛta-ṃ-jaya
+       anusṛta                L=  1 R=  0 [+anu]  Л:anusṛta-vatsā
+       āsṛta                  L=  0 R=  1 [+a]  П:punar-āsṛta
+       upasṛta                L=  1 R=  0 [+upa]  Л:upasṛta-vat
+     
+       saṃsṛta                L=  0 R=  1 [+sam]  П:dharma-saṃsṛta
+
+
+── R ──
+616   √raj               1/4      6     217      rakta[182/23]  virakta[4/2]  anurakta[2/0]  saṃrakta[2/0]  arakta[1/0]  ārakta[1/0]
+       rakta                  L=182 R= 
+       23  Л:rakta-kaṅgu; rakta-kaṇṭa | П:aṅga-rakta; ati-rakta
+       virakta                L=  4 R=  2 [+vi]  Л:virakta-citta;
+       virakta-prakṛti | П:kathā-virakta; rakta-virakta
+       anurakta               L=  2 R=  0 [+anu]  Л:anurakta-praja;
+       anurakta-loka
+       saṃrakta               L=  2 R=  0 [+sam]  Л:saṃrakta-nayana;
+       saṃrakta-locana
+       arakta                 L=  1 R=  0 [+a]  Л:arakta-tāmra
+       ārakta                 L=  1 R=  0 [+a]  Л:ārakta-puṣpī
+
+
+── H ──
+908   √han               1/2/6/8  6     87       ghāta[7/44]  
+       saṃghāta[8/13]  nirghāta[3/2]  āghāta[2/2]  vighāta[0/4]  pratighāta[0/2]
+       ghāta                  L=  7 R= 44  Л:ghāta-kara;
+       ghāta-kṛcchra | П:antar-ghāta; anyonya-ghāta
+       saṃghāta               L=  8 R= 13 [+sam]  Л:saṃghāta-kaṭhina;
+       saṃghāta-cārin | П:akṣara-saṃghāta; asthi-saṃghāta
+       nirghāta               L=  3 R=  2 [+nir]  Л:nirghāta-kara;
+       nirghāta-duḥsaha | П:doṣa-nirghāta; sa-nirghāta
+       āghāta                 L=  2 R=  2 [+a]  Л:āghāta-kāla;
+       āghāta-sthāna | П:cārv-āghāta; yaṣṭy-āghāta
+       vighāta                L=  0 R=  4 [+vi]  П:danta-vighāta;
+       praṇaya-vighāta
+       pratighāta             L=  0 R=  2 [+prati]  П:ājñā-pratighāta;
+       mūtra-pratighāta
+
+
+── M ──
+546   √man               4/8      6     60       mata[10/35]  sammata[0/8]  māta[0/3]  anumata[2/0]  abhimata[1/0]  amata[1/0]
+       mata                   L= 10 R= 35  Л:mata-khaṇḍana-stotra;
+       mata-ṃ-ga | П:ku-mata; kuṇḍalikā-mata
+       sammata                L=  0 R=  8 [+sam]  П:dhana-sammata;
+       parama-sammata
+       māta                   L=  0 R=  3  П:gārgī-māta;
+       deva-māta
+       anumata                L=  2 R=  0 [+anu]  Л:anumata-karma-kārin;
+       anumata-vajra
+       abhimata               L=  1 R=  0 [+abhi]  Л:abhimata-tā
+       amata                  L=  1 R=  0 [+a]  Л:amata-padā@rtha
+
+
+── T ──
+293   √tan               8        6     44    
+       satata[13/0]  tāta[3/7]  tata[6/2]  saṃtata[4/3]  vitata[3/2]  avatata[1/0]
+       satata                 L= 13 R=  0 [+sa]  Л:satata-ga;
+       satata-gati
+       tāta                   L=  3 R=  7  Л:tāta-gu;
+       tāta-janayitrī | П:kṣudra-tāta; kṣulla-tāta
+       tata                   L=  6 R=  2  Л:tata-tata;
+       tata-druh | П:tata-tata; sa-tata
+       saṃtata                L=  4 R=  3 [+sam]  Л:saṃtata-jvara;
+       saṃtata-druma | П:tantu-saṃtata; dhamani-saṃtata
+       vitata                 L=  3 R=  2 [+vi]  Л:vitata-tva;
+       vitata-dhanvan | П:go-vitata; su-vitata
+       avatata                L=  1 R=  0 [+ava]  Л:avatata-dhanvan
+
+
+── S ──
+766   √śaṃs              1        6     40       saṃśita[3/12]  praśasta[8/6]  śasta[2/6]  aśasta[1/0]  praśaṃsita[0/1]  śāsta[0/1]
+       saṃśita          
+             L=  3 R= 12  Л:saṃśita-tapas; saṃśita-vāc | П:antarikṣa-saṃśita;
+       apsu-saṃśita
+       praśasta               L=  8 R=  6 [+pra]  Л:praśasta-kara;
+       praśasta-kalaśa | П:kavi-praśasta; puru-praśasta
+       śasta                  L=  2 R=  6  Л:śasta-keśaka;
+       śasta-tā | П:ati-śasta; kavi-śasta
+       aśasta                 L=  1 R=  0 [+a]  Л:aśasta-vāra
+       praśaṃsita             L=  0 R=  1 [+pra]  П:su-praśaṃsita
+       śāsta                  L=  0 R=  1  П:agastya-śāsta
+
+
+── V ──
+740   √vṛ                1/5/9    6     31       vṛta[2/11]  vivṛta[7/2]  saṃvṛta[4/2]  āvṛta[0/1]  nirvṛta[0/1]  prāvṛta[0/1]
+       vṛta                   L=  2 R= 11  Л:vṛta-pattrā;
+       vṛta-kṣaya | П:ūrdhva-vṛta; kṛtsna-vṛta
+       vivṛta                 L=  7 R=  2 [+vi]  Л:vivṛta-tā;
+       vivṛta-dvāra | П:īṣad-vivṛta; su-vivṛta
+       saṃvṛta                L=  4 R=  2 [+sam]  Л:saṃvṛta-tā;
+       saṃvṛta-tva | П:su-saṃvṛta; sva-saṃvṛta
+       āvṛta                  L=  0 R=  1 [+a]  П:vy-āvṛta
+       nirvṛta                L=  0 R=  1 [+nir]  П:su-nirvṛta
+       prāvṛta                L=  0 R=  1 [+pra]  П:kaṇṭha-prāvṛta
+
+
+── Y 
+──
+606   √yu                2/6/9    5     37       yuta[1/19]  ayuta[8/0]  saṃyuta[0/7]  niyuta[0/1]  yūta[0/1]
+       yuta                   L=  1 R= 19  Л:yuta-dveṣas |
+       П:agni-yuta; kāla-yuta
+       ayuta                  L=  8 R=  0 [+a]  Л:ayuta-siddha;
+       ayuta-siddhi
+       saṃyuta                L=  0 R=  7 [+sam]  П:amala-saṃyuta;
+       praiṣya-saṃyuta
+       niyuta                 L=  0 R=  1 [+ni]  П:mahā-niyuta
+       yūta                   L=  0 R=  1  П:gav-yūta
+
+
+── S ──
+903   √svap              1/2      5     37     
+       supta[20/9]  prasupta[1/2]  saṃsupta[0/2]  ṣupta[0/2]  asupta[1/0]
+       supta                  L= 20 R=  9  Л:supta-ghātaka;
+       supta-ghna | П:alīka-supta; divā-supta
+       prasupta               L=  1 R=  2 [+pra]  Л:prasupta-tā |
+       П:mithyā-prasupta; sukha-prasupta
+       saṃsupta               L=  0 R=  2 [+sam]  П:viśrambha-saṃsupta;
+       sukha-saṃsupta
+       ṣupta                  L=  0 R=  2  П:duḥ-ṣupta;
+       su-ṣupta
+       asupta                 L=  1 R=  0 [+a]  Л:asupta-dṛś
+
+
+── T ──
+296   √tap               1/4      5     36       tapta[19/7]  saṃtapta[4/2]  atapta[2/0]  uttapta[1/0]  niṣṭapta[0/1]
+       tapta               
+          L= 19 R=  7  Л:tapta-kumbha; tapta-kūpa | П:agni-tapta;
+       antas-tapta
+       saṃtapta               L=  4 R=  2 [+sam]  Л:saṃtapta-cāmīkara;
+       saṃtapta-rajata | П:ati-saṃtapta; śoka-saṃtapta
+       atapta                 L=  2 R=  0 [+a]  Л:atapta-tanū;
+       atapta-tapas
+       uttapta                L=  1 R=  0 [+ut]  Л:uttapta-vaiḍūrya-nirbhāsa
+       niṣṭapta               L=  0 R=  1 [+nis]  П:su-niṣṭapta
+
+
+── M ──
+548   √mā                2/3/4    5     32       mita[18/3]  
+       nirmita[0/6]  nimita[0/2]  vimita[0/2]  pramita[0/1]
+       mita                   L= 18 R=  3  Л:mita-jñu;
+       mita-dru | П:pāṇi-mita; su-mita
+       nirmita                L=  0 R=  6 [+nir]  П:deva-nirmita;
+       daiva-nirmita
+       nimita                 L=  0 R=  2 [+ni]  П:cakṣur-nimita;
+       dur-nimita
+       vimita                 L=  0 R=  2 [+vi]  П:dīkṣita-vimita;
+       hiraṇya-vimita
+       pramita                L=  0 R=  1 [+pra]  П:māsa-pramita
+
+
+── H ──
+923   √hṛ                1/2/3    5     26       hṛta[13/6]  āhṛta[1/2]  prahṛta[0/2]  apahṛta[1/0]  vihṛta[1/0]
+       hṛta                 
+          L= 13 R=  6  Л:hṛta-candra; hṛta-jñāna | П:ananya-hṛta;
+       caura-hṛta
+       āhṛta                  L=  1 R=  2 [+a]  Л:āhṛta-yajña-kratu |
+       П:sakṛd-āhṛta; svayam-āhṛta
+       prahṛta                L=  0 R=  2 [+pra]  П:jaṅghā-prahṛta;
+       jānu-prahṛta
+       apahṛta                L=  1 R=  0 [+apa]  Л:apahṛta-vijñāna
+       vihṛta                 L=  1 R=  0 [+vi]  Л:vihṛta-ṣoḍaśī
+
+
+── D ──
+400   √dhū               2/5/6/9  5     21       dhūta[7/4]  vidhūta[5/0] 
+       avadhūta[2/0]  dhuta[2/0]  uddhūta[1/0]
+       dhūta                  L=  7 R=  4  Л:dhūta-kalmaṣa;
+       dhūta-guṇa | П:kala-dhūta; nṛ-dhūta
+       vidhūta                L=  5 R=  0 [+vi]  Л:vidhūta-kalmaṣa;
+       vidhūta-keśa
+       avadhūta               L=  2 R=  0 [+ava]  Л:avadhūta-praṇipāta;
+       avadhūta-veṣa
+       dhuta                  L=  2 R=  0  Л:dhuta-guṇa;
+       dhuta-pāpa
+       uddhūta                L=  1 R=  0 [+ud]  Л:uddhūta-pāpa
+
+
+── C ──
+224   √cāy               1        5     17       cita[1/9]  saṃcita[1/3]  upacita[1/0]  niścita[0/1]  paricita[0/1]
+       cita              
+             L=  1 R=  9  Л:cita-vistara | П:alaja-cita;
+       aśma-cita
+       saṃcita                L=  1 R=  3 [+sam]  Л:saṃcita-karman |
+       П:cira-saṃcita; pūrva-saṃcita
+       upacita                L=  1 R=  0 [+upa]  Л:upacita-rasa
+       niścita                L=  0 R=  1 [+nis]  П:su-niścita
+       paricita               L=  0 R=  1 [+pari]  П:cira-paricita
+
+
+── G ──
+183   √gup  
+               1        4     107      gupta[21/83]  upagupta[1/0]  pragupta[0/1]  saṃgupta[0/1]
+       gupta                  L= 21 R= 83  Л:gupta-kathā;
+       gupta-gati | П:ati-gupta; abhinava-gupta
+       upagupta               L=  1 R=  0 [+upa]  Л:upagupta-vitta
+       pragupta               L=  0 R=  1 [+pra]  П:su-pragupta
+       saṃgupta               L=  0 R=  1 [+sam]  П:su-saṃgupta
+
+
+── B ──
+505   √bhaj  
+             1/2      4     88       bhakta[36/43]  vibhakta[3/3]  abhakta[2/0]  nirbhakta[0/1]
+       bhakta                 L= 36 R= 43  Л:bhakta-kaṃsa;
+       bhakta-kara | П:antarā-bhakta; upari-bhakta
+       vibhakta               L=  3 R=  3 [+vi]  Л:vibhakta-gātra;
+       vibhakta-ja | П:catur-vibhakta; sama-vibhakta
+       abhakta                L=  2 R=  0 [+a]  Л:abhakta-cchanda;
+       abhakta-ruci
+       nirbhakta              L=  0 R=  1 [+nir]  П:su-nirbhakta
+
+
+── M ──
+564   √muc               6        4     65       mukta[33/19]  vimukta[7/2]  amukta[3/0]  nirmukta[0/1]
+       mukta                  
+       L= 33 R= 19  Л:mukta-kaccha; mukta-kañcuka | П:ati-mukta; ākarṇa-mukta
+       vimukta                L=  7 R=  2 [+vi]  Л:vimukta-kaṇṭha;
+       vimukta-keśa | П:jīvan-vimukta; śraddhā-vimukta
+       amukta                 L=  3 R=  0 [+a]  Л:amukta-viśrambha;
+       amukta-hasta
+       nirmukta               L=  0 R=  1 [+nir]  П:hima-nirmukta
+
+
+── A ──
+26    √āp                5        4     40       āpta[18/0]  samāpta[8/3]  paryāpta[8/1]  vyāpta[1/1]
+       āpta               
+          L= 18 R=  0  Л:āpta-kāma;
+       āpta-kārin
+       samāpta                L=  8 R=  3 [+sam]  Л:samāpta-cinta;
+       samāpta-punar-ātta | П:karma-samāpta; mahā-samāpta
+       paryāpta               L=  8 R=  1 [+pary]  Л:paryāpta-kala;
+       paryāpta-kāma | П:su-paryāpta
+       vyāpta                 L=  1 R=  1 [+vy]  Л:vyāpta-tama |
+       П:ati-vyāpta
+
+
+── B ──
+530   √bhṛ               1/2/3    4     39       bhṛta[2/23]  sambhṛta[7/5]  nibhṛta[1/0]  prābhṛta[0/1]
+       bhṛta                  L=  2 R= 23  Л:bhṛta-bhūti;
+       bhṛta-randhra | П:ati-bhṛta; adhama-bhṛta
+       sambhṛta               L=  7 R=  5 [+sam]  Л:sambhṛta-kratu;
+       sambhṛta-tama | П:cira-sambhṛta; puru-sambhṛta
+       nibhṛta                L=  1 R=  0 [+ni]  Л:nibhṛta-sthita
+       prābhṛta               L=  0 R=  1 [+pra]  П:cikitsā-prābhṛta
+
+
+── V ──
+699   √vac               2/3      4     33     
+       ukta[11/10]  nirukta[8/2]  pratyukta[0/1]  vyukta[0/1]
+       ukta                   L= 11 R= 10  Л:ukta-tva;
+       ukta-nirvāha | П:apunar-ukta; dur-ukta
+       nirukta                L=  8 R=  2 [+nir]  Л:nirukta-kāra;
+       nirukta-kṛt | П:brahma-nirukta; yāska-nirukta
+       pratyukta              L=  0 R=  1 [+praty]  П:ukta-pratyukta
+       vyukta                 L=  0 R=  1 [+vy]  П:asamaya-vyukta
+
+
+── K ──
+143   √kṣip              6        4     29    
+       saṃkṣipta[17/0]  kṣipta[6/2]  vikṣipta[2/1]  parikṣipta[0/1]
+       saṃkṣipta              L= 17 R=  0 [+sam]  Л:saṃkṣipta-kādambarī;
+       saṃkṣipta-gati
+       kṣipta                 L=  6 R=  2  Л:kṣipta-citta;
+       kṣipta-tā | П:tiryak-kṣipta; pavana-kṣipta
+       vikṣipta               L=  2 R=  1 [+vi]  Л:vikṣipta-citta;
+       vikṣipta-bhrū | П:mada-vikṣipta
+       parikṣipta             L=  0 R=  1 [+pari]  П:vetasa-parikṣipta
+
+
+── S ──
+779   √śā                3/6      4     28       śāta[22/1]  sāta[0/3]  aśata[1/0]  sata[0/1]
+       śāta                  
+       L= 22 R=  1  Л:śāta-śikha; śāta-śṛṅgin |
+       П:ati-śāta
+       sāta                   L=  0 R=  3  П:ṛta-sāta;
+       vāja-sāta
+       aśata                  L=  1 R=  0 [+a]  Л:aśata-dakṣiṇa
+       sata                   L=  0 R=  1  П:dvaya-sata
+
+
+── P ──
+485   √plu               1/2      4     26   
+       pluta[4/12]  vipluta[4/2]  paripluta[0/3]  āpluta[1/0]
+       pluta                  L=  4 R= 12  Л:pluta-gati;
+       pluta-tva | П:anta-pluta; aśva-pluta
+       vipluta                L=  4 R=  2 [+vi]  Л:vipluta-netra;
+       vipluta-locana | П:bhaya-vipluta; sādhvasa-vipluta
+       paripluta              L=  0 R=  3 [+pari]  П:aśru-paripluta;
+       mūrchā-paripluta
+       āpluta                 L=  1 R=  0 [+a]  Л:āpluta-vratin
+
+
+── A ──
+28    √ās                1/2/4    4     25       asita[15/0]  aśīta[3/5]  āsita[0/1]  aśita[1/0]
+       asita                 
+       L= 15 R=  0  Л:asita-keśā@nta; asita-gati
+       aśīta                  L=  3 R=  5  Л:aśīta-kara;
+       aśīta-tanu | П:arvāg-aśīta; catur-aśīta
+       āsita                  L=  0 R=  1  П:dur-āsita
+       aśita                  L=  1 R=  0  Л:aśita-ṃ-gavīna
+
+
+── B ──
+524   √bhuj              1/7      4     20   
+       bhukta[11/5]  abhukta[2/0]  upabhukta[1/0]  vibhukta[0/1]
+       bhukta                 L= 11 R=  5  Л:bhukta-pīta;
+       bhukta-pūrvin | П:ajñāta-bhukta; ku-bhukta
+       abhukta                L=  2 R=  0 [+a]  Л:abhukta-pūrva;
+       abhukta-vat
+       upabhukta              L=  1 R=  0 [+upa]  Л:upabhukta-dhana
+       vibhukta               L=  0 R=  1 [+vi]  П:bhukta-vibhukta
+
+
+── S ──
+867   √stu               1/2/5/6  4     16       stuta[4/1]  ṣṭuta[0/5]  prastuta[2/2]  saṃstuta[2/0]
+ 
+       stuta                  L=  4 R=  1  Л:stuta-vat;
+       stuta-śastra | П:su-stuta
+       ṣṭuta                  L=  0 R=  5  П:ari-ṣṭuta;
+       ṛṣi-ṣṭuta
+       prastuta               L=  2 R=  2 [+pra]  Л:prastuta-tva;
+       prastuta-yajña | П:prāk-prastuta; svayam-prastuta
+       saṃstuta               L=  2 R=  0 [+sam]  Л:saṃstuta-tva;
+       saṃstuta-prā@ya
+
+772   √śap               1/4      4     12       sāpta[8/0]  śapta[1/1]  ṣapta[0/1]  saṃśapta[1/0]
+       sāpta                  L=  8 R=  0  Л:sāpta-tantava;
+       sāpta-daśya
+       śapta                  L=  1 R=  1  Л:śapta-vat |
+       П:dvija-śapta
+       ṣapta                  L=  0 R=  1  П:tri-ṣapta
+       saṃśapta               L=  1 R=  0 [+sam]  Л:saṃśapta-vat
+
+813   √śrī               9        4     10       
+       śrita[3/1]  āśrita[1/2]  saṃśrita[1/1]  śrīta[0/1]
+       śrita                  L=  3 R=  1  Л:śrita-kṣama;
+       śrita-vat | П:kaṣṭa-śrita
+       āśrita                 L=  1 R=  2 [+a]  Л:āśrita-tva |
+       П:sad-āśrita; sarid-āśrita
+       saṃśrita               L=  1 R=  1 [+sam]  Л:saṃśrita-vat |
+       П:su-saṃśrita
+       śrīta                  L=  0 R=  1  П:go-śrīta
+
+
+── V ──
+704   √vad               1        4     7        udita[1/2]  vādita[0/2]  abhyudita[1/0]  pravādita[0/1]
+       udita              
+          L=  1 R=  2  Л:udita-homin | П:śruty-udita;
+       svayam-udita
+       vādita                 L=  0 R=  2  П:jala-vādita;
+       sad-vādita
+       abhyudita              L=  1 R=  0 [+abhy]  Л:abhyudita-śāyi-tā
+       pravādita              L=  0 R=  1 [+pra]  П:su-pravādita
+
+
+── S ──
+841   √sic               1/6      4     7        sikta[1/3]  utsikta[1/0] 
+       saṃsikta[1/0]  ṣikta[0/1]
+       sikta                  L=  1 R=  3  Л:sikta-tā |
+       П:jala-sikta; su-sikta
+       utsikta                L=  1 R=  0 [+ut]  Л:utsikta-manas
+       saṃsikta               L=  1 R=  0 [+sam]  Л:saṃsikta-reṇu
+       ṣikta                  L=  0 R=  1  П:su-ṣikta
+
+
+── C ──
+220   √car 
+               1        3     55       carita[4/49]  ācarita[1/0]  vicārita[0/1]
+       carita                 L=  4 R= 49  Л:carita-guṇa-tva;
+       carita-pūrva | П:anucaraṇa-carita; udāra-carita
+       ācarita                L=  1 R=  0 [+a]  Л:ācarita-tva
+       vicārita               L=  0 R=  1 [+vi]  П:su-vicārita
+
+237   √cyu               1        3     43     
+       cyuta[4/25]  acyuta[12/0]  pracyuta[0/2]
+       cyuta                  L=  4 R= 25  Л:cyuta-dattā@kṣara;
+       cyuta-pathaka | П:kārya-cyuta; kula-cyuta
+       acyuta                 L= 12 R=  0 [+a]  Л:acyuta-kṣit;
+       acyuta-cakravartin
+       pracyuta               L=  0 R=  2 [+pra]  П:vāyu-pracyuta;
+       sthāna-pracyuta
+
+
+── H ──
+923   √hṛ                1        3     38       harita[24/4]  hārīta[5/3]  hārita[0/2]
+       harita                 L= 24 R=  4  Л:harita-kapiśa;
+       harita-kātya | П:pīta-harita; śāda-harita
+       hārīta                 L=  5 R=  3  Л:hārīta-dharma-śāstra;
+       hārīta-bandha | П:ku-hārīta; laghu-hārīta
+       hārita                 L=  0 R=  2  П:kumāra-hārita;
+       kṛṣṇa-hārita
+
+
+── G ──
+176   √gā                1/4      3     36       gīta[15/19]  pragīta[0/1]  vigīta[1/0]
+       gīta                   L= 15 R= 19  Л:gīta-kaṇḍikā;
+       gīta-krama | П:upāṅga-gīta; komala-gīta
+       pragīta                L=  0 R=  1 [+pra]  П:madhura-pragīta
+       vigīta                 L=  1 R=  0 [+vi]  Л:vigīta-tva
+
+
+── N ──
+418   √naś               1/4      3     32   
+       naṣṭa[27/2]  nasta[2/0]  nāśita[1/0]
+       naṣṭa                  L= 27 R=  2  Л:naṣṭa-kāryā@rtha;
+       naṣṭa-kriya | П:jāta-naṣṭa; dṛṣṭa-naṣṭa
+       nasta                  L=  2 R=  0  Л:nasta-karaṇa;
+       nasta-tas
+       nāśita                 L=  1 R=  0  Л:nāśita-saṃgraha
+
+
+── V ──
+743   √vṛj               1/7      3     30       varjita[0/24]  vivarjita[0/5]  apavarjita[1/0]
+       varjita                L=  0 R= 
+       24  П:artha-varjita; ācāra-varjita
+       vivarjita              L=  0 R=  5 [+vi]  П:kāma-vivarjita;
+       dāva-vivarjita
+       apavarjita             L=  1 R=  0 [+apa]  Л:apavarjita-taila-pūra
+
+
+── H ──
+919   √hu                2/3      3     30       huta[12/14]  hūta[1/2]  āhūta[1/0]
+       huta                   L= 12 R= 
+       14  Л:huta-jātavedas; huta-bhakṣa | П:agni-huta; dur-huta
+       hūta                   L=  1 R=  2  Л:hūta-vat |
+       П:puru-hūta; pauru-hūta
+       āhūta                  L=  1 R=  0 [+a]  Л:āhūta-prapalāyin
+
+
+── A ──
+2     √akṣ               1        3     25       vyasta[10/3]  samasta[10/1]  abhyasta[0/1]
+       vyasta             
+          L= 10 R=  3 [+vy]  Л:vyasta-keśa; vyasta-tā | П:ati-vyasta;
+       asta-vyasta
+       samasta                L= 10 R=  1 [+sam]  Л:samasta-kāla-nirṇayā@dhikāra;
+       samasta-devatā-pūjā-vidhi | П:yāvat-samasta
+       abhyasta               L=  0 R=  1 [+abhy]  П:dvir-abhyasta
+
+
+── K ──
+157   √khan              1        3     19       khāta[3/13]  nikhāta[0/2]  saṃkhāta[0/1]
+       khāta                  
+       L=  3 R= 13  Л:khāta-bhū; khāta-mūla | П:adhaḥ-khāta;
+       abhri-khāta
+       nikhāta                L=  0 R=  2 [+ni]  П:antar-nikhāta;
+       su-nikhāta
+       saṃkhāta               L=  0 R=  1 [+sam]  П:hima-saṃkhāta
+
+
+── L ──
+682   √lip               6        3     17       lipta[3/11]  avalipta[2/0]  vilipta[0/1]
+       lipta                  L= 
+        3 R= 11  Л:lipta-vat; lipta-vāsita | П:abhra-lipta; amedhya-lipta
+       avalipta               L=  2 R=  0 [+ava]  Л:avalipta-tā;
+       avalipta-tva
+       vilipta                L=  0 R=  1 [+vi]  П:abhra-vilipta
+
+
+── B ──
+518   √bhāṣ              1        3     16       bhāṣita[1/13]  pratibhāsita[0/1]  bhāsita[0/1]
+       bhāṣita                L=  1 
+       R= 13  Л:bhāṣita-puṃska | П:ākāśa-bhāṣita; guhya-bhāṣita
+       pratibhāsita           L=  0 R=  1 [+prati]  П:prajñā-pratibhāsita
+       bhāsita                L=  0 R=  1  П:smara-bhāsita
+
+
+── R ──
+69    √ṛ                 2/3/5/6/9 3     14       ārta[6/2]  āvarta[0/4] 
+       samṛta[2/0]
+       ārta                   L=  6 R=  2 [+a]  Л:ārta-gala;
+       ārta-tara | П:rug-ārta; vyādhy-ārta
+       āvarta                 L=  0 R=  4 [+ava]  П:dur-āvarta;
+       punar-āvarta
+       samṛta                 L=  2 R=  0 [+sam]  Л:samṛta-yajña;
+       samṛta-soma
+
+
+── P ──
+480   √prī               4/9      3     10       prīta[4/3]  samprīta[1/1]  āprīta[1/0]
+       prīta                  L=  4 R=  3  Л:prīta-citta;
+       prīta-tara | П:parama-prīta; manu-prīta
+       samprīta               L=  1 R=  1 [+sam]  Л:samprīta-mānasa |
+       П:su-samprīta
+       āprīta                 L=  1 R=  0 [+a]  Л:āprīta-pā
+
+
+── B ──
+516   √bhā               2        3     10       prabhāta[5/2]  vibhāta[0/2]  bhāta[0/1]
+       prabhāta               L=  
+       5 R=  2 [+pra]  Л:prabhāta-karaṇīya; prabhāta-kalpa | П:kāla-prabhāta;
+       su-prabhāta
+       vibhāta                L=  0 R=  2 [+vi]  П:sakṛd-vibhāta;
+       su-vibhāta
+       bhāta                  L=  0 R=  1  П:dvi-bhāta
+
+
+── K ──
+165   √khyā              2        3     9        khyāta[3/2]  vikhyāta[0/2]  saṃkhyāta[1/1]
+       khyāta                 
+       L=  3 R=  2  Л:khyāta-garhaṇa; khyāta-garhita | П:mahā-khyāta;
+       su-khyāta
+       vikhyāta               L=  0 R=  2 [+vi]  П:viśva-vikhyāta;
+       sarva-vikhyāta
+       saṃkhyāta              L=  1 R=  1 [+sam]  Л:saṃkhyāta-saṃkhyeya |
+       П:sama-saṃkhyāta
+
+
+── V ──
+719   √vā                2/4      3     9        vata[0/7]  nivāta[1/0]  pravāta[0/1]
+       vata                   L=  0 R=  7  П:pātnī-vata;
+       bhāga-vata
+       nivāta                 L=  1 R=  0 [+ni]  Л:nivāta-kavaca
+       pravāta                L=  0 R=  1 [+pra]  П:saṃvatsara-pravāta
+
+
+── M ──
+570   √mūrch             1        3     8      
+       amūrta[3/0]  mūrta[2/1]  mūrchita[0/2]
+       amūrta                 L=  3 R=  0 [+a]  Л:amūrta-rajas;
+       amūrta-rajasa
+       mūrta                  L=  2 R=  1  Л:mūrta-tva;
+       mūrta-mātra | П:svayam-mūrta
+       mūrchita               L=  0 R=  2  П:krodha-mūrchita;
+       śoka-mūrchita
+
+
+── T ──
+319   √tṛ                1/3/4/6/8 3     6        tīrṇa[2/1]  atūrta[2/0]  trita[1/0]
+       tīrṇa                  L=  2 R=  1  Л:tīrṇa-padī;
+       tīrṇa-pratijña | П:dus-tīrṇa
+       atūrta                 L=  2 R=  0 [+a]  Л:atūrta-dakṣa;
+       atūrta-pathin
+       trita                  L=  1 R=  0  Л:trita-kūpa
+
+
+── S ──
+894   √smṛ“remember”     1        3     6        vismṛta[3/1]  asmṛta[1/0]  smṛta[1/0]
+       vismṛta                L=  3 R=  1 [+vi]  Л:vismṛta-pūrva-saṃskāra;
+       vismṛta-vat | П:śruta-vismṛta
+       asmṛta                 L=  1 R=  0 [+a]  Л:asmṛta-dhru
+       smṛta                  L=  1 R=  0  Л:smṛta-mātra
+
+
+── N ──
+433   √nṛt               4        3     6 
+        nṛtta[3/1]  ninṛtta[0/1]  pranṛtta[0/1]
+       nṛtta                  L=  3 R=  1  Л:nṛtta-jña;
+       nṛtta-prayoga | П:ābhyantara-nṛtta
+       ninṛtta                L=  0 R=  1 [+ni]  П:punar-ninṛtta
+       pranṛtta               L=  0 R=  1 [+pra]  П:su-pranṛtta
+
+
+── I ──
+29    √i                 1/2/4/5  3     4       
+       ita[0/2]  anvita[0/1]  niśita[0/1]
+       ita                    L=  0 R=  2  П:dur-ita;
+       daur-ita
+       anvita                 L=  0 R=  1 [+anv]  П:rug-anvita
+       niśita                 L=  0 R=  1 [+nis]  П:su-niśita
+
+
+── T ──
+326   √tras              1/4      3     4      
+       saṃtrasta[1/1]  trasta[0/1]  vitrasta[0/1]
+       saṃtrasta              L=  1 R=  1 [+sam]  Л:saṃtrasta-gocara |
+       П:su-saṃtrasta
+       trasta                 L=  0 R=  1  П:bhaya-trasta
+       vitrasta               L=  0 R=  1 [+vi]  П:nitya-vitrasta
+
+
+── C ──
+227   √cit               1        2     115      
+       citta[54/59]  acitta[2/0]
+       citta                  L= 54 R= 59  Л:citta-kalita;
+       citta-kheda | П:ananya-citta; anavasthita-citta
+       acitta                 L=  2 R=  0 [+a]  Л:acitta-pājas;
+       acitta-manas
+
+
+── P ──
+448   √pā                1/2/3    2     103      pīta[76/24]  vipīta[1/2]
+       pīta                   L= 76 R= 24  Л:pīta-kośa;
+       pīta-taila | П:ardha-pīta; āṇḍa-pīta
+       vipīta                 L=  1 R=  2 [+vi]  Л:vipīta-vat |
+       П:gardabhī-vipīta; pīta-vipīta
+
+
+── R ──
+662   √ruh               1        2     79       lohita[49/13]  rohita[9/8]
+       lohita                 L= 49 R= 13  Л:lohita-kalmāṣa;
+       lohita-kūṭa | П:ati-lohita; kṛṣṇa-lohita
+       rohita                 L=  9 R=  8  Л:rohita-kūla;
+       rohita-kūlīya | П:ṛju-rohita; karkandhu-rohita
+
+
+── M ──
+571   √mṛ                1        2     63       mṛta[52/10]  mrita[1/0]
+       mṛta                   L= 52 R= 10  Л:mṛta-kambala;
+       mṛta-kalpa | П:acira-mṛta; antar-mṛta
+       mrita                  L=  1 R=  0  Л:mrita-saṃjīvaka
+
+
+── D ──
+402   √dhṛ               1        2     40       dhṛta[31/8]  uddhṛta[1/0]
+       dhṛta                
+          L= 31 R=  8  Л:dhṛta-kanaka-māla; dhṛta-kārmu-ke@ṣu | П:kara-dhṛta;
+       garbha-dhṛta
+       uddhṛta                L=  1 R=  0 [+ud]  Л:uddhṛta-sneha
+
+
+── A ──
+7     √añj               7        2     35       vyakta[20/3]  avyakta[12/0]
+       vyakta                 L= 20 
+       R=  3  Л:vyakta-kṛtya; vyakta-gaṇita | П:avyakta-vyakta; tāvad-vyakta
+       avyakta                L= 12 R=  0 [+a]  Л:avyakta-kriyā;
+       avyakta-gaṇita
+
+
+── M ──
+545   √mad               1/2/3/4  2     34       matta[14/12]  pramatta[7/1]
+       matta                  L= 14 R= 12  Л:matta-kāla;
+       matta-kāśinī | П:artha-matta; kadā-matta
+       pramatta               L=  7 R=  1 [+pra]  Л:pramatta-gīta;
+       pramatta-citta | П:vi-pramatta
+
+
+── D ──
+362   √dīp               4        2     29       dīpta[21/7]  saṃdīpta[0/1]
+       dīpta                  L= 21 R=  7  Л:dīpta-kiraṇa;
+       dīpta-kīrti | П:agni-dīpta; kopa-dīpta
+       saṃdīpta               L=  0 R=  1 [+sam]  П:su-saṃdīpta
+
+
+── S ──
+780   √śās               1/2      2     28       śiṣṭa[10/16]  śāsita[0/2]
+       śiṣṭa                  L= 10 
+       R= 16  Л:śiṣṭa-tā; śiṣṭa-tva | П:anvācaya-śiṣṭa; apratyakṣa-śiṣṭa
+       śāsita                 L=  0 R=  2  П:mātṛ-śāsita;
+       su-śāsita
+
+
+── K ──
+141   √kṣi               1/2/4/5/9 2     26       kṣīṇa[21/3]  kṣita[0/2]
+       kṣīṇa                  L= 21 R=  3  Л:kṣīṇa-karman;
+       kṣīṇa-kalmaṣa | П:kṣāra-kṣīṇa; mlāna-kṣīṇa
+       kṣita                  L=  0 R=  2  П:parī-kṣita;
+       pāri-kṣita
+
+
+── S ──
+863   √stambh            1/5/9    2     23       stabdha[20/0]  stambhita[3/0]
+       stabdha                L= 20 R=  0  Л:stabdha-karṇa;
+       stabdha-gātra
+       stambhita              L=  3 R=  0  Л:stambhita-tva;
+       stambhita-bāṣpa-vṛtti
+
+
+── R ──
+634   √rah               1        2     22       rahita[3/17]  virahita[0/2]
+       rahita                 L=  3 R= 17  Л:rahita-tva;
+       rahita-ratna | П:abhidheya-rahita; uttara-rahita
+       virahita               L=  0 R=  2 [+vi]  П:vīrya-virahita;
+       śraddhā-virahita
+
+
+── B ──
+523   √bhī               1/3      2     21       bhīta[8/12]  abhīta[1/0]
+       bhīta                  L=  8 R= 12  Л:bhīta-gāyana;
+       bhīta-ṃ-kāram | П:jarā-bhīta; divā-bhīta
+       abhīta                 L=  1 R=  0 [+a]  Л:abhīta-vat
+
+
+── P ──
+440   √pat               1        2     20       patita[7/12]  pātita[0/1]
+       patita                
+       L=  7 R= 12  Л:patita-garbhā; patita-tyāga-vidhi | П:antara-patita;
+       kāṇḍa-patita
+       pātita                 L=  0 R=  1  П:antaḥ-pātita
+
+
+── R ──
+613   √rakṣ              1        2     19       rakṣita[1/17]  parirakṣita[0/1]
+       rakṣita                L=  1 R= 17 
+       Л:rakṣita-vat | П:jina-rakṣita; deva-rakṣita
+       parirakṣita            L=  0 R=  1 [+pari]  П:su-parirakṣita
+
+
+── S ──
+893   √smi               1        2     18       smita[6/8]  vismita[1/3]
+       smita                  L=  
+       6 R=  8  Л:smita-dṛś; smita-pūrva | П:antaḥ-smita; ku-smita
+       vismita                L=  1 R=  3 [+vi]  Л:vismita-mānasa |
+       П:parama-vismita; bhṛśa-vismita
+
+
+── V ──
+725   √vic               3/7      2     16       vivikta[13/2]  saṃvikta[0/1]
+       vivikta                L= 13 R=  2 [+vi]  Л:vivikta-ga;
+       vivikta-carita | П:cintā-vivikta; su-vivikta
+       saṃvikta               L=  0 R=  1 [+sam]  П:huta-saṃvikta
+
+
+── S ──
+896   √sraṃs             1        2     16       visrasta[8/0]  srasta[7/1]
+       visrasta               L=  8 R=  
+       0 [+vi]  Л:visrasta-kusuma-sraj; visrasta-cetas
+       srasta                 L=  7 R=  1  Л:srasta-kara;
+       srasta-gātra | П:svayaṃ-srasta
+
+
+── L ──
+681   √likh              6        2     15       likhita[5/9]  ālikhita[0/1]
+       likhita                L=  5 R=  9  Л:likhita-tva;
+       likhita-pāṭha | П:ardha-likhita; citra-likhita
+       ālikhita               L=  0 R=  1 [+a]  П:try-ālikhita
+
+691   √lup               6        2     14       lupta[7/6]  alupta[1/0]
+       lupta                  L=  
+       7 R=  6  Л:lupta-tā; lupta-daṇḍaka | П:anartha-lupta; ādi-lupta
+       alupta                 L=  1 R=  0 [+a]  Л:alupta-mahiman
+
+
+── S ──
+875   √snā               ?
+       2     12       snāta[3/8]  pratiṣṇāta[0/1]
+       snāta                  L=  3 R=  8  Л:snāta-vat;
+       snāta-vasya | П:mṛta-snāta; rajaḥ-snāta
+       pratiṣṇāta             L=  0 R=  1 [+prati]  П:su-pratiṣṇāta
+
+
+── L ──
+692   √lubh              1/4/6    2     12       lubdha[4/7]  vilubhita[1/0]
+       lubdha                 L=  4 R=  7  Л:lubdha-jana;
+       lubdha-jātake | П:ati-lubdha; artha-lubdha
+       vilubhita              L=  1 R=  0 [+vi]  Л:vilubhita-plava
+
+
+── T ──
+324   √tyaj              1        2     10       tyakta[7/1]  parityakta[0/2]
+       tyakta                 L=  7 
+       R=  1  Л:tyakta-jīvita; tyakta-punaḥ-svi-kṛta | П:svayaṃ-tyakta
+       parityakta             L=  0 R=  2 [+pari]  П:upapatti-parityakta;
+       saṃkhyā-parityakta
+
+
+── G ──
+185   √gur               6        2     9        gūrta[3/5]  abhigūrta[0/1]
+       gūrta                  L=  3 R=  5  Л:gūrta-manas;
+       gūrta-vacas | П:ari-gūrta; puru-gūrta
+       abhigūrta              L=  0 R=  1 [+abhi]  П:svayam-abhigūrta
+
+
+── K ──
+120   √krī               9        2     9        krīta[1/7]  vikrīta[0/1]
+       krīta                  
+       L=  1 R=  7  Л:krīta-tva | П:alpa-krīta;
+       aśva-krīta
+       vikrīta                L=  0 R=  1 [+vi]  П:svayaṃ-vikrīta
+
+
+── M ──
+566   √mud               1        2     9        mudita[3/3]  pramudita[0/3]
+       mudita                 L=  
+       3 R=  3  Л:mudita-puṣpā; mudita-bhadra | П:prahṛṣṭa-mudita; sadā-mudita
+       pramudita              L=  0 R=  3 [+pra]  П:asat-pramudita;
+       nitya-pramudita
+
+
+── R ──
+652   √ru                1/2/6    2     9        ruta[3/5]  viruta[0/1]
+       ruta                   L=  3 R=  5  Л:ruta-jña;
+       ruta-vettṛ | П:garuḍa-ruta; go-ruta
+       viruta                 L=  0 R=  1 [+vi]  П:ali-viruta
+
+
+── C ──
+236   √ceṣṭ              1        2     8        ceṣṭita[0/6]  viceṣṭita[0/2]
+       ceṣṭita                
+       L=  0 R=  6  П:alpa-ceṣṭita; krūra-ceṣṭita
+       viceṣṭita              L=  0 R=  2 [+vi]  П:bhrū-viceṣṭita;
+       manda-viceṣṭita
+
+
+── M ──
+567   √muṣ               1/6/9    2     8        muṣita[3/2]  musta[1/2]
+       muṣita                 L=  3 R=  2  Л:muṣita-cetas;
+       muṣita-trapa | П:nagna-muṣita; su-muṣita
+       musta                  L=  1 R=  2  Л:musta-giri |
+       П:kaivarta-musta; bhadra-musta
+
+
+── S ──
+856   √sev               1        2     7        sevita[1/4]  niṣevita[0/2]
+       sevita                 L=  1 R=  4  Л:sevita-manmatha |
+       П:ugra-sevita; muni-sevita
+       niṣevita               L=  0 R=  2 [+ni]  П:amanuṣya-niṣevita;
+       dvija-niṣevita
+
+
+── Y ──
+600   √yam               1        2     7        prayata[6/0]  prayāta[0/1]
+       prayata                L=  6 R=  0  Л:prayata-tā;
+       prayata-tva
+       prayāta                L=  0 R=  1  П:bhujaṃga-prayāta
+
+
+── M ──
+538   √maṃh              1        2     7        samāhita[4/2]  mahita[0/1]
+       samāhita               L=  4 R=  2 
+       [+sa]  Л:samāhita-dhī; samāhita-mati | П:bhāva-samāhita; su-samāhita
+       mahita                 L=  0 R=  1  П:martya-mahita
+
+
+── V ──
+708   √vap               1        2     6        upta[3/0]  vyupta[3/0]
+       upta             
+             L=  3 R=  0  Л:upta-keśa;
+       upta-kṛṣṭa
+       vyupta                 L=  3 R=  0 [+vy]  Л:vyupta-keśa;
+       vyupta-keśa
+
+
+── J ──
+274   √jval              1        2     6        jvalita[3/2]  prajvalita[0/1]
+       jvalita                L=  3 R=  2  Л:jvalita-cakṣus;
+       jvalita-nayana | П:kopa-jvalita; sambhrama-jvalita
+       prajvalita             L=  0 R=  1 [+pra]  П:svayam-prajvalita
+
+
+── T ──
+321   √tṛp               1/4/5/6  2     5        tṛpta[1/3]  atṛpta[1/0]
+       tṛpta                  L=  1 R=  3  
+       Л:tṛpta-tā | П:ākaṇṭha-tṛpta; ātma-tṛpta
+       atṛpta                 L=  1 R=  0 [+a]  Л:atṛpta-dṛś
+
+
+── Y ──
+598   √yat               1        2     5        āyatta[3/1]  saṃyatta[0/1]
+       āyatta               
+         L=  3 R=  1 [+a]  Л:āyatta-tā; āyatta-tva |
+       П:yuṣmad-āyatta
+       saṃyatta               L=  0 R=  1 [+sam]  П:su-saṃyatta
+
+
+── G ──
+201   √ghaṭ              1        2     5        ghaṭita[1/2]  udghāṭita[1/1]
+       ghaṭita                L=  1 R=  
+       2  Л:ghaṭita-tva | П:kāṣṭha-ghaṭita; su-ghaṭita
+       udghāṭita              L=  1 R=  1 [+ud]  Л:udghāṭita-jña |
+       П:svayam-udghāṭita
+
+
+── M ──
+544   √math              1/9      2     5        mathita[1/3]  upamathita[0/1]
+       mathita                L=  1 R=  3  Л:mathita-pādapa |
+       П:reṣma-mathita; śiśira-mathita
+       upamathita             L=  0 R=  1 [+upa]  П:sakṛd-upamathita
+
+
+── P ──
+472   √pṛc               1/3/7    2     5        pṛkta[0/3]  sampṛkta[1/1]
+       pṛkta                  L=  0 R=  3  
+       П:ghṛta-pṛkta; jala-pṛkta
+       sampṛkta               L=  1 R=  1 [+sam]  Л:sampṛkta-tva |
+       П:bhūta-sampṛkta
+
+
+── U ──
+57    √uc                4        2     4        ucita[3/0]  samucita[0/1]
+       ucita                  L=  3 R=  0  Л:ucita-jña;
+       ucita-tva
+       samucita               L=  0 R=  1 [+sam]  П:priya-samucita
+
+
+── K ──
+121   √krīḍ              1        2     4        krīḍita[0/2]  vikrīḍita[0/2]
+       krīḍita                L=  0 R=  
+       2  П:upāṃśu-krīḍita; kṛṣṇa-krīḍita
+       vikrīḍita              L=  0 R=  2 [+vi]  П:śārdūla-vikrīḍita;
+       siṃha-vikrīḍita
+
+
+── G ──
+173   √garh              1        2     4        garhita[0/2]  vigarhita[0/2]
+       garhita                L=  0 R=  2  П:khyāta-garhita;
+       su-garhita
+       vigarhita              L=  0 R=  2 [+vi]  П:sad-vigarhita;
+       sādhu-vigarhita
+
+
+── N ──
+431   √nud               6        2     4        praṇutta[0/3]  nutta[0/1]
+       praṇutta               L=  0 R=  3 [+pra]  П:bṛhaspati-praṇutta;
+       vaibādha-praṇutta
+       nutta                  L=  0 R=  1  П:brahma-nutta
+
+
+── K ──
+109   √kṛt               1/6      2     3        kṛtta[1/1]  akṛtta[1/0]
+       kṛtta                  L=  
+       1 R=  1  Л:kṛtta-ruhā | П:sadyaḥ-kṛtta
+       akṛtta                 L=  1 R=  0 [+a]  Л:akṛtta-ruc
+
+
+── A ──
+8     √aṭ                1        2     3        atīta[2/0]  vyatīta[1/0]
+       atīta        
+                  L=  2 R=  0  Л:atīta-kāla;
+       atīta-nauka
+       vyatīta                L=  1 R=  0 [+vy]  Л:vyatīta-kāla
+
+
+── S ──
+870   √stṛ               1/5/9    2     3        vistṛta[0/2]  astṛta[1/0]
+       vistṛta                L=  0 R=  2 [+vi] 
+       П:vyoma-vistṛta; ṣoḍaśa-vistṛta
+       astṛta                 L=  1 R=  0 [+a]  Л:astṛta-yajvan
+
+
+── V ──
+715   √vas               2/6      2     3        paryuṣita[0/2]  uṣita[1/0]
+       paryuṣita              L=  0 R= 
+        2 [+pary]  П:rātri-paryuṣita; sadyaḥ-paryuṣita
+       uṣita                  L=  1 R=  0  Л:uṣita-ṃ-gavīna
+
+
+── C ──
+223   √cal               1        2     3        calita[1/1]  pracalita[0/1]
+       calita             
+           L=  1 R=  1  Л:calita-sthāna |
+       П:catuś-calita
+       pracalita              L=  0 R=  1 [+pra]  П:antaḥ-pracalita
+
+
+── M ──
+562   √mīl               1        2     3        nimīlita[0/2]  milita[0/1]
+       nimīlita               L=  0 R=  2 
+       [+ni]  П:gaja-nimīlita; rajo-nimīlita
+       milita                 L=  0 R=  1  П:saṃketa-milita
+
+
+── P ──
+479   √prā               2        2     3        sāmprata[1/1]  prāta[0/1]
+       sāmprata               L= 
+        1 R=  1 [+sam]  Л:sāmprata-kāla | П:sarva-sāmprata
+       prāta                  L=  0 R=  1  П:su-prāta
+
+
+── V ──
+724   √vāh               1        2     3        vāhita[0/2]  vahita[0/1]
+       vāhita         
+                L=  0 R=  2  П:dur-vāhita;
+       preta-vāhita
+       vahita                 L=  0 R=  1  П:sva-vahita
+
+743   √vṛj               7        2     3        vṛkta[1/1]  saṃvṛkta[1/0]
+       vṛkta                  L=  1 
+       R=  1  Л:vṛkta-barhis | П:bāhu-vṛkta
+       saṃvṛkta               L=  1 R=  0 [+sam]  Л:saṃvṛkta-dhṛṣṇu
+
+
+── N ──
+426   √nind              1        2     2        anindita[0/1]  nindita[0/1]
+       anindita               
+       L=  0 R=  1 [+a]  П:sādhv-anindita
+       nindita                L=  0 R=  1  П:loka-nindita
+
+
+── Y ──
+604   √yāc               1        2     2        ayācita[1/0]  yācita[0/1]
+       ayācita            
+           L=  1 R=  0 [+a]  Л:ayācita-vrata
+       yācita                 L=  0 R=  1  П:yathā-yācita
+
+
+── H ──
+937   √hvṛ               1/3/9    2     2        āhruta[1/0]  ahruta[1/0]
+       āhruta           
+            L=  1 R=  0 [+a]  Л:āhruta-bheṣaja
+       ahruta                 L=  1 R=  0 [+a]  Л:ahruta-psu
+
+
+── G ──
+202   √ghaṭṭ             1        2     2        ghaṭṭita[0/1]  vighaṭṭita[0/1]
+       ghaṭṭita      
+                L=  0 R=  1  П:su-ghaṭṭita
+       vighaṭṭita             L=  0 R=  1 [+vi]  П:bāhu-vighaṭṭita
+
+
+── T ──
+288   √tak               1/2      2     2        takta[0/1]  pratakta[0/1]
+       takta        
+                  L=  0 R=  1  П:sarga-takta
+       pratakta               L=  0 R=  1 [+pra]  П:sarga-pratakta
+
+
+── N ──
+425   √nij               2/3      2     2        nikta[1/0]  nirṇikta[0/1]
+       nikta     
+                   L=  1 R=  0  Л:nikta-hasta
+       nirṇikta               L=  0 R=  1 [+nir]  П:su-nirṇikta
+
+
+── V ──
+757   √vraj              1        2     2        pravrajita[0/1]  vrajita[0/1]
+       pravrajita 
+                   L=  0 R=  1 [+pra]  П:su-pravrajita
+       vrajita                L=  0 R=  1  П:dur-vrajita
+
+
+── M ──
+579   √mṛd               1/9      2     2        mṛdita[1/0]  vimṛdita[1/0]
+       mṛdita  
+                     L=  1 R=  0  Л:mṛdita-kukṣika
+       vimṛdita               L=  1 R=  0 [+vi]  Л:vimṛdita-dhvaja
+
+
+── V ──
+719   √vā                4        2     2        vyuta[0/1]  samuta[0/1]
+    
+       vyuta                  L=  0 R=  1 [+vy]  П:vardhra-vyuta
+       samuta                 L=  0 R=  1 [+sam]  П:tardma-samuta
+
+
+── S ──
+773   √śam               1/2/4/9  2     2        śamita[1/0]  samita[0/1]
+  
+       śamita                 L=  1 R=  0  Л:śamita-ruci
+       samita                 L=  0 R=  1  П:pātre-samita
+
+842   √sidh              1        1     137      siddha[102/35]
+    
+       siddha                 L=102 R= 35  Л:siddha-kajjala;
+       siddha-kalpa | П:anubhava-siddha; anyathā-siddha
+
+
+── V ──
+745   √vṛdh              1        1     134      vṛddha[98/36]
+       vṛddha                 L= 98 R= 36  Л:vṛddha-karman;
+       vṛddha-kāka | П:ardha-vṛddha; kuru-vṛddha
+
+
+── B ──
+494   √bandh             1/9      1     89       baddha[56/33]
+       baddha                 L= 56 R= 33  Л:baddha-kakṣya;
+       baddha-kadambaka | П:asi-baddha; kāma-baddha
+
+
+── P ──
+469   √pṛ                3/4/5/6/9 1     81       pūrṇa[60/21]
+       pūrṇa                  L= 60 R= 21  Л:pūrṇa-kaṃsa;
+       pūrṇa-kakud | П:anna-pūrṇa; ardha-pūrṇa
+
+
+── B ──
+521   √bhid              7        1     79       bhinna[60/19]
+       bhinna                 L= 60 R= 19  Л:bhinna-kaṭa;
+       bhinna-karaṭa | П:antar-bhinna; ūru-bhinna
+
+
+── Y ──
+609   √yudh              1/2/4    1     72       yuddha[46/26]
+       yuddha                 L= 46 R= 26  Л:yuddha-kāṇḍa;
+       yuddha-kārin | П:kadamba-yuddha; kūṭa-yuddha
+
+
+── S ──
+792   √śudh              1/2/4    1     72       śuddha[62/10]
+       śuddha                 L= 62 R= 10  Л:śuddha-karṇa;
+       śuddha-karman | П:uda-śuddha; udaka-śuddha
+
+
+── B ──
+497   √budh              1/4      1     58       buddha[47/11]
+       buddha                 L= 47 R= 11  Л:buddha-kapālinī;
+       buddha-kalpa | П:ādi-buddha; ghoṣa-buddha
+
+
+── D ──
+375   √dṛś               4        1     47       dṛṣṭa[28/19]
+       dṛṣṭa                  L= 28 R= 19  Л:dṛṣṭa-karman;
+       dṛṣṭa-kaṣṭa | П:anapāya-dṛṣṭa; ku-dṛṣṭa
+
+
+── L ──
+668   √lag               1        1     42       lagna[25/17]
+       lagna                  L= 25 R= 17  Л:lagna-kāla;
+       lagna-graha | П:asta-lagna; kaṇṭha-lagna
+
+673   √labh              1        1     35       labdha[29/6]
+       labdha                 L= 29 R=  6  Л:labdha-kāma;
+       labdha-kīrti | П:cira-labdha; puṇya-labdha
+
+
+── G ──
+187   √guh               1        1     34       gūḍha[27/7]
+       gūḍha                  L= 27 R=  7  Л:gūḍha-gulphatā;
+       gūḍha-caturtha-pāda-prahelikā | П:upānad-gūḍha; tri-gūḍha
+
+
+── B ──
+506   √bhañj             7        1     34       bhagna[30/4]
+       bhagna                 L= 30 R=  4  Л:bhagna-kāma;
+       bhagna-krama | П:kāṇḍa-bhagna; dur-bhagna
+
+
+── J ──
+260   √jīv               1        1     32       jīvita[18/14]
+       jīvita                 L= 18 R= 14  Л:jīvita-kāla;
+       jīvita-kṣaya | П:ujjihāna-jīvita; kṣīṇa-jīvita
+
+
+── C ──
+242   √chid              7        1     29       chinna[26/3]
+       chinna                 L= 26 R=  3  Л:chinna-karṇa;
+       chinna-karṇa | П:duś-chinna; reṣma-chinna
+
+
+── D ──
+348   √dah               1/2/4    1     29       dagdha[12/17]
+       dagdha                 L= 12 R= 17  Л:dagdha-kāka;
+       dagdha-kilbiṣa | П:agni-dagdha; agni-dagdha
+
+
+── L ──
+676   √lal               1        1     29       lalita[18/11]
+       lalita                 L= 18 R= 11  Л:lalita-caitya;
+       lalita-tāla | П:aśva-lalita; gaurī-lalita
+
+
+── D ──
+409   √dhvṛ              1        1     28       dhūrta[17/11]
+       dhūrta                 L= 17 R= 11  Л:dhūrta-kitava;
+       dhūrta-kṛt | П:akṣa-dhūrta; kaṭha-dhūrta
+
+
+── M ──
+568   √muh               4        1     27       mūḍha[18/9]
+       mūḍha                  L= 18 R=  9  Л:mūḍha-garbha;
+       mūḍha-grāha | П:agni-mūḍha; kāma-mūḍha
+
+
+── I ──
+42    √iṣ                1/4/6    1     24       iṣṭa[20/4]
+       iṣṭa                   L= 20 R=  4  Л:iṣṭa-karman;
+       iṣṭa-kāma-duh | П:dur-iṣṭa; dur-iṣṭa
+
+
+── D ──
+360   √dīkṣ              1        1     24       dīkṣita[9/15]
+       dīkṣita                L=  9 R= 15  Л:dīkṣita-tva;
+       dīkṣita-dhuṇḍhi-rāja | П:apyaya-dīkṣita; kṛṣṇa-dīkṣita
+
+
+── R ──
+662   √ruh               1/6      1     23       rūḍha[18/5]
+       rūḍha                  L= 18 R=  5  Л:rūḍha-granthi;
+       rūḍha-tṛṇā@ṅkura | П:ardha-rūḍha; dū-rūḍha
+
+
+── J ──
+265   √jṛ                1/4/6    1     22       jīrṇa[20/2]
+       jīrṇa                  L= 20 R=  2  Л:jīrṇa-jvara;
+       jīrṇa-ṭīkā | П:ati-jīrṇa; su-jīrṇa
+
+
+── D ──
+395   √dhāv              1        1     20       dhauta[11/9]
+       dhauta                 L= 11 R=  9  Л:dhauta-kaṭa;
+       dhauta-kuṣṭha | П:kala-dhauta; kupya-dhauta
+
+
+── M ──
+548   √mā                2/3      1     19       sammita[2/17]
+       sammita                L=  2 R= 17  Л:sammita-tva;
+       sammita-varṇā | П:ātma-sammita; āsya-sammita
+
+
+── D ──
+384   √dru               1        1     15       druta[14/1]
+       druta                  L= 14 R=  1  Л:druta-gati;
+       druta-caurya | П:bhaya-druta
+
+
+── V ──
+754   √vyadh             4        1     15       viddha[5/10]
+       viddha                 L=  5 R= 10  Л:viddha-karṇa;
+       viddha-tva | П:apāpa-viddha; kāma-viddha
+
+
+── S ──
+797   √śṛ                4/6/9    1     15       śīrṇa[13/2]
+       śīrṇa                  L= 13 R=  2  Л:śīrṇa-tā;
+       śīrṇa-tva | П:antaḥ-śīrṇa; svayaṃ-śīrṇa
+
+
+── A ──
+13    √am                1/2      1     14       amita[14/0]
+       amita                  L= 14 R=  0  Л:amita-kratu;
+       amita-gati
+
+
+── M ──
+545   √mad               4        1     14       unmatta[14/0]
+       unmatta                L= 14 R=  0  Л:unmatta-kīrti;
+       unmatta-gaṅgam
+
+
+── G ──
+197   √gras              1        1     13       grasta[1/12]
+       grasta                 L=  1 R= 12  Л:grasta-tva |
+       П:āpad-grasta; graha-grasta
+
+
+── J ──
+262   √juṣ               2/6      1     13       juṣṭa[2/11]
+       juṣṭa                  L=  2 R= 11  Л:juṣṭa-tama;
+       juṣṭa-tara | П:anārya-juṣṭa; avīra-juṣṭa
+
+
+── P ──
+460   √pīḍ               ?
+       1     13       pīḍita[2/11]
+       pīḍita                 L=  2 R= 11  Л:pīḍita-tā;
+       pīḍita-tva | П:asukha-pīḍita; kāma-pīḍita
+
+
+── J ──
+263   √jū                1/9      1     11       jūta[0/11]
+       jūta                   L=  0 R= 11  П:adri-jūta;
+       āditya-jūta
+
+
+── P ──
+466   √pūj               1        1     11       pūjita[2/9]
+       pūjita                 L=  2 R=  9  Л:pūjita-pattra-phalā;
+       pūjita-pūjaka | П:dānava-pūjita; deva-pūjita
+
+
+── S ──
+883   √spṛś              1/6      1     11       spṛṣṭa[4/7]
+       spṛṣṭa                 L=  4 R=  7  Л:spṛṣṭa-tā;
+       spṛṣṭa-pūrva | П:ardha-spṛṣṭa; īṣat-spṛṣṭa
+
+
+── R ──
+615   √rac               ?
+       1     8        racita[7/1]
+       racita                 L=  7 R=  1  Л:racita-tva;
+       racita-dhī | П:śāka-racita
+
+75    √ṛdh               4/5/7    1     8        samṛddha[3/5]
+       samṛddha               L=  3 R=  5 [+sam]  Л:samṛddha-tejas;
+       samṛddha-yaśas | П:tri-samṛddha; rūpa-samṛddha
+
+
+── S ──
+866   √stim              4        1     8        stimita[8/0]
+       stimita                L=  8 R=  0  Л:stimita-java;
+       stimita-tā
+
+820   √śliṣ              1/4      1     8        śliṣṭa[3/5]
+       śliṣṭa                 L=  3 R=  5  Л:śliṣṭa-paramparita-rūpaka;
+       śliṣṭa-rūpaka | П:danta-śliṣṭa; prā-śliṣṭa
+
+904   √svar              1        1     8        svarita[4/4]
+       svarita                L=  4 R=  4  Л:svarita-tva;
+       svarita-tva | П:anta-svarita; ādi-svarita
+
+
+── P ──
+455   √piś               6        1     7        piśita[7/0]
+       piśita                 L=  7 R=  0  Л:piśita-nibha;
+       piśita-paṅkā@vanaddhā@sthi-pañjara-maya
+
+
+── L ──
+693   √lul               1        1     7        lulita[5/2]
+       lulita                 L=  5 R=  2  Л:lulita-kuṇḍala;
+       lulita-pallava | П:ati-lulita; su-lulita
+
+
+── S ──
+862   √stan              1/2      1     7        stanita[5/2]
+       stanita                L=  5 R=  2  Л:stanita-kumāra;
+       stanita-phala | П:megha-stanita; vaṃśa-stanita
+
+
+── K ──
+86    √kal               1/3      1     6        kalita[1/5]
+       kalita                 L=  1 R=  5  Л:kalita-kusuma |
+       П:kelī-kalita; citta-kalita
+
+
+── G ──
+174   √gal               1        1     6        galita[6/0]
+       galita                 L=  6 R=  0  Л:galita-kuṣṭha;
+       galita-danta
+
+
+── D ──
+344   √day               1        1     6        dayita[0/6]
+       dayita                 L=  0 R=  6  П:indirā-dayita;
+       prāṇa-dayita
+
+
+── K ──
+81    √kath              ?
+       1     5        kathita[1/4]
+       kathita                L=  1 R=  4  Л:kathita-pada |
+       П:prathama-kathita; yathā-kathita
+
+130   √klid              1/4      1     5        klinna[4/1]
+       klinna                 L=  4 R=  1  Л:klinna-tva;
+       klinna-netra | П:lālā-klinna
+
+
+── D ──
+368   √duṣ               4        1     5        dūṣita[1/4]
+       dūṣita                 L=  1 R=  4  Л:dūṣita-tva |
+       П:agni-dūṣita; doṣa-dūṣita
+
+
+── P ──
+478   √prath             1        1     5        prathita[5/0]
+       prathita               L=  5 R=  0  Л:prathita-tithi-nirṇaya;
+       prathita-tva
+
+
+── S ──
+822   √śvas              1/2      1     5        viśvasta[4/1]
+       viśvasta               L=  4 R=  1 [+vi]  Л:viśvasta-ghātaka;
+       viśvasta-ghātin | П:su-viśvasta
+
+768   √śaṅk              1        1     5        śaṅkita[3/2]
+       śaṅkita                L=  3 R=  2  Л:śaṅkita-dṛṣṭi;
+       śaṅkita-manas | П:anya-śaṅkita; nitya-śaṅkita
+
+861   √skhal             1        1     5        skhalita[4/1]
+       skhalita               L=  4 R=  1  Л:skhalita-gati;
+       skhalita-vat | П:bhāva-skhalita
+
+
+── I ──
+31    √iṅg “stir”        1        1     4        iṅgita[4/0]
+       iṅgita                 L=  4 R=  0  Л:iṅgita-lakṣya;
+       iṅgita-kovida
+
+
+── C ──
+211   √cak               1        1     4        cakita[2/2]
+       cakita                 L=  2 R=  2  Л:cakita-cakita;
+       cakita-hṛdaya | П:kuhaka-cakita; cakita-cakita
+
+
+── M ──
+543   √maṇḍ              1        1     4        maṇḍita[1/3]
+       maṇḍita                L=  1 R=  3  Л:maṇḍita-putra |
+       П:kari-maṇḍita; pulina-maṇḍita
+
+
+── L ──
+667   √lakṣ              1        1     4        lakṣita[2/2]
+       lakṣita                L=  2 R=  2  Л:lakṣita-tva;
+       lakṣita-lakṣaṇa | П:vi-lakṣita; su-lakṣita
+
+
+── V ──
+735   √viṣ               1/3      1     4        vista[0/4]
+       vista                  L=  0 R=  4  П:kuru-vista;
+       tri-vista
+
+
+── H ──
+910   √has               1        1     4        hasita[0/4]
+       hasita                 L=  0 R=  4  П:aṭṭa-hasita;
+       ati-hasita
+
+
+── G ──
+171   √garj              1        1     3        garjita[1/2]
+       garjita                L=  1 R=  2  Л:garjita-rava |
+       П:kari-garjita; ghana-garjita
+
+195   √grath             1/7/9    1     3        grathita[0/3]
+       grathita               L=  0 R=  3  П:balāsa-grathita;
+       bāṣpa-grathita
+
+
+── C ──
+222   √carv              4        1     3        carvita[3/0]
+       carvita                L=  3 R=  0  Л:carvita-carvaṇa;
+       carvita-pātra
+
+228   √cint              ?
+       1     3        cintita[0/3]
+       cintita                L=  0 R=  3  П:duś-cintita;
+       yathā-cintita
+
+
+── L ──
+672   √lap               1/4      1     3        pralapita[0/3]
+       pralapita              L=  0 R=  3 [+pra]  П:unmatta-pralapita;
+       bālaka-pralapita
+
+
+── M ──
+539   √majj              1        1     3        magna[0/3]
+       magna                  L=  0 R=  3  П:jala-magna;
+       paṅka-magna
+
+
+── R ──
+657   √rud               1/2/6    1     3        rudita[0/3]
+       rudita                 L=  0 R=  3  П:araṇya-rudita;
+       prabala-rudita
+
+
+── L ──
+687   √luñc              1        1     3        luñcita[2/1]
+       luñcita                L=  2 R=  1  Л:luñcita-keśa;
+       luñcita-mūrdhaja | П:mṛṣṭa-luñcita
+
+
+── V ──
+700   √vaj               1        1     3        vājita[0/3]
+       vājita                 L=  0 R=  3  П:kaṅka-vājita;
+       gārdhra-vājita
+
+711   √val               1        1     3        valita[3/0]
+       valita                 L=  3 R=  0  Л:valita-kaṃdhara;
+       valita-grīva
+
+
+── L ──
+677   √laṣ               1/4      1     3        vilasita[0/3]
+       vilasita               L=  0 R=  3 [+vi]  П:dur-vilasita;
+       bhramaṇa-vilasita
+
+
+── V ──
+750   √veṣṭ              ?
+       1     3        veṣṭita[1/2]
+       veṣṭita                L=  1 R=  2  Л:veṣṭita-śiras |
+       П:latā-veṣṭita; vastra-veṣṭita
+
+
+── A ──
+16    √arj               ?
+       1     2        arjita[0/2]
+       arjita                 L=  0 R=  2  П:pitr-arjita;
+       svayam-arjita
+
+
+── I ──
+51    √īś                1/2      1     2        iṣita[2/0]
+       iṣita                  L=  2 R=  0  Л:iṣita-tvatā;
+       iṣita-sena
+
+
+── K ──
+102   √kūj               1        1     2        kūjita[0/2]
+       kūjita                 L=  0 R=  2  П:kukṣi-kūjita;
+       rata-kūjita
+
+99    √kup               4        1     2        kupita[1/1]
+       kupita                 L=  1 R=  1  Л:kupita-vāyu |
+       П:praṇaya-kupita
+
+132   √kvaṇ              1        1     2        kvaṇita[1/1]
+       kvaṇita                L=  1 R=  1  Л:kvaṇita-veṇu |
+       П:mañjīra-kvaṇita
+
+148   √kṣubh             1/4/5/9  1     2        kṣubdha[1/1]
+       kṣubdha                L=  1 R=  1  Л:kṣubdha-tā |
+       П:su-kṣubdha
+
+161   √khād              1        1     2        khādita[1/1]
+       khādita                L=  1 R=  1  Л:khādita-vat |
+       П:su-khādita
+
+
+── G ──
+182   √guṇṭh             ?
+       1     2        guṇṭhita[0/2]
+       guṇṭhita               L=  0 R=  2  П:pāṃsu-guṇṭhita;
+       reṇu-guṇṭhita
+
+
+── C ──
+241   √chā               ?
+       1     2        chata[0/2]
+       chata                  L=  0 R=  2  П:tāvac-chata;
+       hanumac-chata
+
+
+── J ──
+254   √jalp              1        1     2        jalpita[0/2]
+       jalpita                L=  0 R=  2  П:mithyā-jalpita;
+       hata-jalpita
+
+
+── T ──
+317   √tuṣ               4        1     2        tuṣita[1/1]
+       tuṣita                 L=  1 R=  1  Л:tuṣita-kāyika |
+       П:mahā-tuṣita
+
+
+── N ──
+421   √nah               1/4      1     2        naddha[1/1]
+       naddha                 L=  1 R=  1  Л:naddha-vimokṣa |
+       П:giri-naddha
+
+
+── P ──
+438   √paṭh              1        1     2        paṭhita[2/0]
+       paṭhita                L=  2 R=  0  Л:paṭhita-tva;
+       paṭhita-siddha
+
+
+── B ──
+504   √bhakṣ             1        1     2        bhakṣita[0/2]
+       bhakṣita               L=  0 R=  2  П:ikṣu-bhakṣita;
+       palāṇḍu-bhakṣita
+
+508   √bhaṇ              1        1     2        bhaṇita[0/2]
+       bhaṇita                L=  0 R=  2  П:vakra-bhaṇita;
+       su-bhaṇita
+
+
+── R ──
+661   √ruṣ               1/4/6    1     2        rūṣita[0/2]
+       rūṣita                 L=  0 R=  2  П:rudhira-rūṣita;
+       reṇu-rūṣita
+
+
+── V ──
+722   √vāñch             1        1     2        vāñchita[0/2]
+       vāñchita               L=  0 R=  2  П:amogha-vāñchita;
+       mano-vāñchita
+
+712   √valg              1        1     2        valgita[2/0]
+       valgita                L=  2 R=  0  Л:valgita-kaṇṭha;
+       valgita-bhrū
+
+723   √vāś               1/4      1     2        vāsita[0/2]
+       vāsita                 L=  0 R=  2  П:lipta-vāsita;
+       su-vāsita
+
+
+── J ──
+267   √jṛmbh             1        1     2        vijṛmbhita[0/2]
+       vijṛmbhita             L=  0 R=  2 [+vi]  П:bhujaṃga-vijṛmbhita;
+       siṃha-vijṛmbhita
+
+
+── T ──
+289   √takṣ              1/2/5    1     2        vitasta[1/1]
+       vitasta                L=  1 R=  1 [+vi]  Л:vitasta-datta |
+       П:tri-vitasta
+
+
+── V ──
+728   √vid               1/2/6    1     2        vidita[0/2]
+       vidita                 L=  0 R=  2  П:bhuvana-vidita;
+       su-vidita
+
+
+── K ──
+101   √kū                2/6      1     2        sākūta[2/0]
+       sākūta                 L=  2 R=  0 [+sa]  Л:sākūta-smita;
+       sākūta-hasita
+
+
+── I ──
+53    √īh                1        1     2        samīhita[0/2]
+       samīhita               L=  0 R=  2 [+sam]  П:yathā-samīhita;
+       su-samīhita
+
+
+── S ──
+788   √śī                1/2      1     2        śayita[1/1]
+       śayita                 L=  1 R=  1  Л:śayita-vat |
+       П:sukha-śayita
+
+782   √śikṣ              ?
+       1     2        śikṣita[0/2]
+       śikṣita                L=  0 R=  2  П:duḥ-śikṣita;
+       su-śikṣita
+
+906   √svid               1/4      1     2        svinna[0/2]
+       svinna                 L=  0 R=  2  П:ati-svinna;
+       su-svinna
+
+
+── H ──
+932   √hrī               3        1     2        hrīta[2/0]
+       hrīta                  L=  2 R=  0  Л:hrīta-mukha;
+       hrīta-mukhin
+
+
+── A ──
+7     √añj               1/7      1     1        ākta[1/0]
+       ākta                   L=  1 R=  0  Л:ākta-kha
+
+5     √ac                1      
+         1     1        ācita[0/1]
+       ācita                  L=  0 R=  1  П:dvy-ācita
+
+
+── M ──
+585   √mnā               1/2      1     1        āmnāta[0/1]
+       āmnāta       
+                  L=  0 R=  1 [+a]  П:dvy-āmnāta
+
+
+── S ──
+845   √sīv               4        1     1        utsyūta[0/1]
+       utsyūta                L=  0 R=  1 [+ut]  П:punar-utsyūta
+
+
+── K ──
+131   √kliś     
+                 4/9      1     1        kliśita[1/0]
+       kliśita                L=  1 R=  0  Л:kliśita-vat
+
+133   √kvath             1        1     1        kvathita[1/0]
+     
+         kvathita               L=  1 R=  0  Л:kvathita-drava
+
+140   √kṣā               4        1     1        kṣaita[1/0]
+       kṣaita                 L=  1 R=  0  Л:kṣaita-vat
+
+139   √kṣal   
+                   ?
+       1     1        kṣālita[0/1]
+       kṣālita                L=  0 R=  1  П:sudhā-kṣālita
+
+144   √kṣu               2        1     1        kṣuta[1/0]
+       kṣuta           
+               L=  1 R=  0  Л:kṣuta-vat
+
+154   √khac              1        1     1        khacita[0/1]
+       khacita                L=  0 R=  1  П:ratna-khacita
+
+
+── G ──
+167   √gad             
+         1        1     1        gadita[0/1]
+       gadita                 L=  0 R=  1  П:śrī-gadita
+
+
+── C ──
+216   √cat               1        1     1        catta[1/0]
+     
+         catta                  L=  1 R=  0  Л:catta-rātra
+
+
+── J ──
+258   √ji                1/5      1     1        jinvita[0/1]
+       jinvita                L=  0 R=  1  П:parjanya-jinvita
+
+
+── T ──
+292   √taḍ               2        1     1        tādita[0/1]
+       tādita                 L=  0 R=  1  П:vṛṣṭi-tādita
+
+279   √ṭal               1        1     
+       1        tālita[1/0]
+       tālita                 L=  1 R=  0  Л:tālita-nagara
+
+315   √tul               1        1     1        tulita[0/1]
+       tulita               
+         L=  0 R=  1  П:sama-tulita
+
+
+── D ──
+336   √daṃs              ?
+       1     1        daṃśita[0/1]
+       daṃśita                L=  0 R=  1  П:su-daṃśita
+
+405   √dhyā              2/4      1     1        dhyāta[1/0]
+       dhyāta              
+           L=  1 R=  0  Л:dhyāta-mātra
+
+408   √dhvan             1        1     1        dhvānita[1/0]
+       dhvānita               L=  1 R=  0  Л:dhvānita-dundubhi
+
+
+── R ──
+660   √rup               4    
+           1     1        nirūpita[0/1]
+       nirūpita               L=  0 R=  1 [+ni]  П:su-nirūpita
+
+
+── K ──
+87    √kaṣ               1        1     1        niṣkāśita[0/1]
+       niṣkāśita    
+                  L=  0 R=  1 [+nis]  П:danta-niṣkāśita
+
+
+── P ──
+439   √paṇ               1        1     1        paṇita[0/1]
+       paṇita                 L=  0 R=  1  П:saṃghaṭṭa-paṇita
+
+
+── C ──
+230   √cup     
+                  1        1     1        pracupita[0/1]
+       pracupita              L=  0 R=  1 [+pra]  П:upasthita-pracupita
+
+
+── S ──
+830   √sad               1/2      1     1        prasatta[0/1]
+ 
+       prasatta               L=  0 R=  1 [+pra]  П:ghṛta-prasatta
+
+
+── P ──
+483   √pruṣ              4/5/6/9  1     1        pruṣita[1/0]
+       pruṣita                L=  1 R=  0  Л:pruṣita-psu
+
+
+── B ──
+496   √bādh  
+                   1        1     1        bādhita[1/0]
+       bādhita                L=  1 R=  0  Л:bādhita-tva
+
+520   √bhikṣ             1        1     1        
+       bhikṣita[0/1]
+       bhikṣita               L=  0 R=  1  П:śūdra-bhikṣita
+
+529   √bhūṣ              1        1     1        bhūṣita[0/1]
+       bhūṣita                L=  0 R=  1  П:puṣpa-bhūṣita
+
+
+── M ──
+541   √maṇ               ?
+       1     1        mānita[1/0]
+       mānita                 L=  1 R=  0  Л:mānita-sena
+
+576   √mṛj               1/2/6/7  1     1        mārjita[0/1]
+       mārjita                
+       L=  0 R=  1  П:śikhā-mārjita
+
+574   √mṛc               4        1     1        mṛkta[1/0]
+       mṛkta                  L=  1 R=  0  Л:mṛkta-vāhas
+
+
+── R ──
+616   √raj               ?
+       1     1        rājita[0/1]
+       rājita                 L=  0 R=  1  П:gārdhra-rājita
+
+628   √rabh              1        1     1        rabhita[0/1]
+       rabhita           
+            L=  0 R=  1  П:su-rabhita
+
+629   √ram               1/9      1     1        ramita[1/0]
+       ramita                 L=  1 R=  0  Л:ramita-ṃ-gama
+
+639   √rās               1  
+             1     1        rasita[1/0]
+       rasita                 L=  1 R=  0  Л:rasita-vat
+
+646   √riph              1/6      1     1        riphita[0/1]
+       riphita       
+                 L=  0 R=  1  П:vi-riphita
+
+654   √ruc               1        1     1        rucita[1/0]
+       rucita                 L=  1 R=  0  Л:rucita-vat
+
+
+── L ──
+670   √lajj         
+            6        1     1        lajjita[0/1]
+       lajjita                L=  0 R=  1  П:sa-lajjita
+
+669   √laṅgh             1        1     1        laṅghita[0/1]
+       
+       laṅghita               L=  0 R=  1  П:su-laṅghita
+
+
+── V ──
+701   √vañc              1        1     1        vañcita[0/1]
+       vañcita                L=  0 R=  1  П:bhrū-vañcita
+
+
+── K ──
+135   √kṣan   
+                 8        1     1        vikṣata[0/1]
+       vikṣata                L=  0 R=  1  П:kṣata-vikṣata
+
+
+── V ──
+751   √vyac              3/6      1     1        
+       vicita[0/1]
+       vicita                 L=  0 R=  1  П:su-vicita
+
+
+── L ──
+675   √lamb              1        1     1        vilambita[0/1]
+       vilambita              L=  0 R=  1 [+vi]  
+       П:druta-vilambita
+
+
+── S ──
+891   √sphūrj            1        1     1        visphūrjita[0/1]
+       visphūrjita            L=  0 R=  1 [+vi]  П:megha-visphūrjita
+
+
+── H ──
+936   √hval              1        1     1   
+            vihvalita[0/1]
+       vihvalita              L=  0 R=  1 [+vi]  П:mada-vihvalita
+
+
+── V ──
+759   √vran              1        1     1        vraṇita[1/0]
+       vraṇita                L=  1 
+       R=  0  Л:vraṇita-hṛdaya
+
+
+── S ──
+793   √śubh              1/6      1     1        śumbhita[0/1]
+       śumbhita               L=  0 R=  1  П:brahma-śumbhita
+
+889   √sphuṭ             1/6      1     1  
+             sphuṭita[1/0]
+       sphuṭita               L=  1 R=  0  Л:sphuṭita-caraṇa
+
+892   √sphṛ              6        1     1        sphurita[1/0]
+       sphurita               L=  1 R=  
+       0  Л:sphurita-śatahrada
+
+805   √śyā               4        1     1        śyaita[0/1]
+       śyaita                 L=  0 R=  1  П:naudhasa-śyaita
+
+810   √śrā               2/4/9    1     1 
+              śrāta[0/1]
+       śrāta                  L=  0 R=  1  П:su-śrāta
+
+905   √svād              ?
+       1     1        svadita[0/1]
+       svadita                L=  0 R=  1  П:saṃvatsara-svadita
+
+
+── H ──
+925   √hṛṣ               1/4      1     1        hṛṣita[1/0]
+       hṛṣita           
+            L=  1 R=  0  Л:hṛṣita-srag-rajo-hīna
+
+==============================================================================================================
+  Корней с PP-дериватами в MW: 289
+  PP-форм с привязкой к корню: 680/1485
+==============================================================================================================
