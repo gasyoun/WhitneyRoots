@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whitney Roots - Sanskrit Dhatu</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark-mode">
+  <header>
+    <div class="container">
+      <h1>Whitney Roots</h1>
+      <nav>
+        <a href="#v1/roots/list">Lexicon</a>
+        <a href="#v1/quiz">Quiz</a>
+      </nav>
+      <div class="search-bar">
+        <input type="text" id="global-search" placeholder="Search roots or meanings...">
+      </div>
+    </div>
+  </header>
+
+  <main id="app" class="container">
+    <div class="loading">Loading Whitney Roots...</div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 WhitneyRoots Project. Built with Zalizniakiada Architecture.</p>
+    </div>
+  </footer>
+
+  <!-- For development, we use modular imports. For production, use v3_app.js -->
+  <script type="module" src="src/entry.js"></script>
+</body>
+</html>

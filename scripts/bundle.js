@@ -14,10 +14,16 @@ const FILES_ORDER = [
   'core/data.js',
   'core/search.js',
   'core/router.js',
+  'core/quiz.js',
+  'core/analytics.js',
+  'core/achievements.js',
+  'core/ai.js',
   'utils/dom.js',
   'utils/linguistics.js',
   'renderers/cards.js',
   'renderers/lists.js',
+  'renderers/quiz.js',
+  'renderers/detail.js',
   'entry.js'
 ];
 
