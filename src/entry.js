@@ -10,6 +10,7 @@ import { renderRootList } from './renderers/lists.js';
 import { renderQuiz } from './renderers/quiz.js';
 import { renderDetailView } from './renderers/detail.js';
 import { performSearch } from './core/search.js';
+import { trackProgress } from './core/achievements.js';
 
 async function initApp() {
   console.log('🚀 WhitneyRoots Initializing...');
@@ -22,7 +23,13 @@ async function initApp() {
   const searchInput = document.getElementById('global-search');
   if (searchInput) {
     searchInput.addEventListener('input', (e) => {
-      updateState({ searchQuery: e.target.value });
+      const query = e.target.value;
+      const progress = trackProgress(state, 'SEARCH');
+      updateState({ 
+        searchQuery: query, 
+        stats: progress.stats, 
+        unlockedAchievements: progress.unlocked 
+      });
     });
   }
 
@@ -48,6 +55,12 @@ function renderApp(currentState) {
   }
 
   if (currentState.view === 'detail') {
+    // Tracking
+    const progress = trackProgress(currentState, 'VIEW_ROOT');
+    if (progress.newlyUnlocked.length > 0) {
+      console.log('🏆 New Achievement:', progress.newlyUnlocked[0].title);
+      Object.assign(currentState, { stats: progress.stats, unlockedAchievements: progress.unlocked });
+    }
     appContainer.appendChild(renderDetailView(currentState.selectedItem, currentState.data));
     return;
   }

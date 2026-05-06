@@ -115,7 +115,7 @@ nav a:hover {
   box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2);
 }
 
-.root-list {
+.root-list, .root-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 25px;
@@ -206,6 +206,24 @@ section h3 {
   grid-column: span 2;
   background: linear-gradient(135deg, rgba(56, 189, 248, 0.05) 0%, rgba(129, 140, 248, 0.05) 100%);
   border-color: rgba(56, 189, 248, 0.2);
+}
+
+.prefix-suggestions {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.prefix-badge {
+  background-color: var(--accent-color);
+  color: var(--bg-primary);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
 }
 
 .external-link.large {
@@ -299,4 +317,47 @@ footer {
   padding: 100px 0;
   font-size: 1.2rem;
   color: var(--text-secondary);
+}
+
+/* Clusters and Topic Filters */
+.clusters-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+}
+
+.cluster-label {
+  font-weight: 600;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.cluster-btn {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.cluster-btn:hover {
+  border-color: var(--accent-color);
+  background-color: rgba(56, 189, 248, 0.1);
+  transform: translateY(-2px);
+}
+
+.root-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  padding-bottom: 60px;
 }

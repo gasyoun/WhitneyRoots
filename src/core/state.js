@@ -8,7 +8,13 @@ export const state = {
   searchQuery: '',
   selectedItem: null,
   data: null,
-  isLoading: true
+  isLoading: true,
+  stats: {
+    rootsViewed: 0,
+    perfectQuizzes: 0,
+    searches: 0
+  },
+  unlockedAchievements: []
 };
 
 export function updateState(newState) {

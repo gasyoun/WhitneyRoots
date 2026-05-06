@@ -27,8 +27,21 @@ The repository contains processed data files, source code, and structured Markdo
 * [`MW_PP-purva_vs_uttara.txt`](./MW_PP-purva_vs_uttara.txt) - Data analyzing *pūrva* (prior) vs. *uttara* (subsequent) members in Monier-Williams.
 * [`MW_compounds_12610.txt`](./MW_compounds_12610.txt) - A comprehensive dataset of 12,610 compounds extracted from the Monier-Williams Sanskrit-English Dictionary.
 
-### 💻 Code & Resources
-* [`/src/`](./src/) - Source code and scripts used for parsing, processing, and generating the markdown/text files.
+### 💻 Interactive Web Application
+The project now features a high-performance, state-driven web interface for exploring Whitney's roots:
+*   **Lexicon Explorer**: Search 935 roots with diacritic-aware normalization.
+*   **Grammar Insights**: View Verb Classes (Ganas) and Past Passive Participle (PPP) forms.
+*   **Interactive Quiz**: Test your knowledge of roots and meanings.
+*   **AI-Powered Philology**: Get heuristic insights and prefix combination suggestions.
+### 📁 Repository Structure
+*   [`index.html`](./index.html) - Application entry point.
+*   [`index.css`](./index.css) - Premium dark-mode design system.
+*   [`v3_app.js`](./v3_app.js) - Compiled production bundle.
+*   [`/src/`](./src/) - Modular source code:
+    *   [`/core/`](./src/core/) - State, Routing, Search, and Analytics logic.
+    *   [`/renderers/`](./src/renderers/) - Functional UI components.
+    *   [`/utils/`](./src/utils/) - Sanskrit linguistics and DOM utilities.
+*   [`claude.md`](./claude.md) - Documentation for AI coding assistants.
 
 ### 🗂️ Tolchelnikov Directory
 The [`/Tolchelnikov/`](./Tolchelnikov/) directory contains specific educational resources and linguistic guides authored by I.E. Tolchelnikov, particularly the "Guide to Sanskrit Morphonology" (Руководство по санскритской морфонологии) and its accompanying exercises. Key files include:

@@ -6,7 +6,7 @@
 import { createElement } from '../utils/dom.js';
 import { updateState } from '../core/state.js';
 import { iastToDevanagari } from '../utils/linguistics.js';
-import { getAIInsights } from '../core/ai.js';
+import { getAIInsights, getPrefixSuggestions } from '../core/ai.js';
 
 export function renderDetailView(rootId, data) {
   const rootItem = data.lexicon.find(r => r.id === rootId);
@@ -14,6 +14,7 @@ export function renderDetailView(rootId, data) {
 
   const devanagari = iastToDevanagari(rootItem.root);
   const aiInsight = getAIInsights(rootItem);
+  const prefixSuggestions = getPrefixSuggestions(rootItem);
 
   return createElement('div', { class: 'detail-view' }, [
     createElement('button', { 
@@ -49,7 +50,11 @@ export function renderDetailView(rootId, data) {
 
       createElement('section', { class: 'ai-insights-section' }, [
         createElement('h3', {}, ['AI Insights']),
-        createElement('p', {}, [aiInsight])
+        createElement('p', {}, [aiInsight]),
+        createElement('div', { class: 'prefix-suggestions' }, [
+          createElement('strong', {}, ['Common Prefix Combinations: ']),
+          ...prefixSuggestions.map(p => createElement('span', { class: 'prefix-badge' }, [p]))
+        ])
       ]),
 
       createElement('section', {}, [

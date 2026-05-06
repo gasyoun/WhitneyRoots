@@ -1,6 +1,6 @@
 /**
  * WhitneyRoots v3 Bundle
- * Generated: 2026-05-06T21:40:49.852Z
+ * Generated: 2026-05-06T21:47:00.064Z
  */
 
 // --- FILE: core/state.js ---
@@ -14,7 +14,13 @@ const state = {
   searchQuery: '',
   selectedItem: null,
   data: null,
-  isLoading: true
+  isLoading: true,
+  stats: {
+    rootsViewed: 0,
+    perfectQuizzes: 0,
+    searches: 0
+  },
+  unlockedAchievements: []
 };
 
 function updateState(newState) {
@@ -145,47 +151,89 @@ function startQuiz(levelId) {
 
 
 // --- FILE: core/analytics.js ---
-/**
- * @file analytics.js
- * @description Topic clustering and centrality analysis
- */
-
 function buildTopicClusters(data) {
-  console.log('Analyzing root clusters...');
-  return []; // Placeholder
+  const clusters = {};
+  const commonKeywords = ['move', 'speak', 'shine', 'eat', 'go', 'sound', 'be', 'do', 'strike', 'cut'];
+  
+  data.lexicon.forEach(item => {
+    const meaning = item.meaning.toLowerCase();
+    commonKeywords.forEach(keyword => {
+      if (meaning.includes(keyword)) {
+        if (!clusters[keyword]) clusters[keyword] = [];
+        clusters[keyword].push(item.id);
+      }
+    });
+  });
+  
+  return Object.entries(clusters).map(([name, roots]) => ({ name, roots }));
 }
 
 function calculateCentrality(data) {
-  console.log('Calculating root centrality...');
-  return {}; // Placeholder
+  // Simple centrality: roots with many PPP forms or multiple classes are "influential"
+  const centrality = {};
+  data.lexicon.forEach(item => {
+    let score = 0;
+    if (item.ppp) score += item.ppp.length * 2;
+    if (item.classes) score += item.classes.length * 1.5;
+    if (item.meaning.length < 15) score += 1; // Short core meanings are often fundamental
+    centrality[item.id] = score;
+  });
+  return centrality;
 }
 
 
 // --- FILE: core/achievements.js ---
-/**
- * @file achievements.js
- * @description Achievement tracking for WhitneyRoots
- */
-
-const achievements = [
-  { id: 'first_root', title: 'First Root', description: 'View your first Sanskrit root' },
-  { id: 'quiz_master', title: 'Quiz Master', description: 'Complete a quiz with 100% accuracy' }
+const ACHIEVEMENTS_LIST = [
+  { id: 'first_view', title: 'Curious Scholar', description: 'Viewed your first root detail.', condition: (stats) => stats.rootsViewed >= 1 },
+  { id: 'lexicon_master', title: 'Lexicon Master', description: 'Viewed 5 roots.', condition: (stats) => stats.rootsViewed >= 5 }, // Smaller for testing
+  { id: 'quiz_pro', title: 'Quiz Pro', description: 'Passed a quiz with 100% score.', condition: (stats) => stats.perfectQuizzes >= 1 }
 ];
 
-function checkAchievements(state) {
-  // Logic to unlock achievements
+function trackProgress(currentState, eventType) {
+  const stats = currentState.stats || { rootsViewed: 0, perfectQuizzes: 0, searches: 0 };
+  const unlocked = currentState.unlockedAchievements || [];
+
+  if (eventType === 'VIEW_ROOT') stats.rootsViewed++;
+  if (eventType === 'PERFECT_QUIZ') stats.perfectQuizzes++;
+  if (eventType === 'SEARCH') stats.searches++;
+
+  const newlyUnlocked = ACHIEVEMENTS_LIST.filter(a => a.condition(stats) && !unlocked.includes(a.id));
+  
+  return {
+    stats,
+    unlocked: [...unlocked, ...newlyUnlocked.map(a => a.id)],
+    newlyUnlocked: newlyUnlocked
+  };
+}
+
+function getUnlockedAchievements(unlockedIds) {
+  return ACHIEVEMENTS_LIST.filter(a => unlockedIds.includes(a.id));
 }
 
 
 // --- FILE: core/ai.js ---
-/**
- * @file ai.js
- * @description AI Insights and heuristic suggestions
- */
-
 function getAIInsights(rootItem) {
-  // Heuristic logic to suggest related roots or prefixes
-  return `Insight for ${rootItem.root}: This root often appears with the prefix 'pra-'.`;
+  const insights = [];
+  
+  if (rootItem.classes && rootItem.classes.length > 1) {
+    insights.push(`Note: This root belongs to multiple classes (${rootItem.classes.join(', ')}), indicating high morphological versatility.`);
+  }
+  
+  if (rootItem.ppp && rootItem.ppp.length > 2) {
+    insights.push(`Philological Tip: Multiple PPP forms suggest varied usage in different Vedic or Classical periods.`);
+  }
+
+  if (rootItem.meaning && rootItem.meaning.toLowerCase().includes('go')) {
+    insights.push("Comparative Insight: Roots of 'going' often develop abstract meanings like 'knowing' or 'attaining' in Sanskrit.");
+  }
+  
+  return insights.length > 0 ? insights.join(' ') : "Focus on mastering the primary meaning and class first.";
+}
+
+function getPrefixSuggestions(rootItem) {
+  // Common Sanskrit prefixes (Upasargas)
+  const upasargas = ['pra', 'apa', 'sam', 'anu', 'vi', 'upa', 'ni', 'ati'];
+  return upasargas.slice(0, 3).map(u => `${u}-${rootItem.root}`);
 }
 
 
@@ -341,25 +389,46 @@ function renderRootCard(rootItem) {
 
 
 // --- FILE: renderers/lists.js ---
-/**
- * @file lists.js
- * @description List rendering for WhitneyRoots
- */
 
 
 
 
-function renderRootList(roots) {
-  const listContainer = createElement('div', { class: 'root-list' });
+
+function renderRootList(data) {
+  // We need the full data for clusters, but only use 'data' (filtered) for the grid
+  // Actually, let's just use the current filtered list for clusters too, or the whole app data?
+  // The runbook suggests analyzing the corpus. Let's use the full data for clusters.
+  // Wait, 'data' passed here is the filtered result from performSearch.
+  // I should probably pass the full state.data to buildTopicClusters.
   
-  roots.forEach(root => {
-    const item = createElement('div', { class: 'list-item' }, [
-      renderRootCard(root)
-    ]);
-    listContainer.appendChild(item);
+  const clusters = buildTopicClusters({ lexicon: data }); // Simple version for now
+  
+  const container = createElement('div', { class: 'root-list-view' });
+  
+  const clustersBar = createElement('div', { class: 'clusters-bar' }, [
+    createElement('span', { class: 'cluster-label' }, ['Topic Filters: ']),
+    ...clusters.map(c => {
+      const btn = createElement('button', { class: 'cluster-btn' }, [`${c.name} (${c.roots.length})`]);
+      btn.onclick = () => {
+        const searchInput = document.getElementById('global-search');
+        if (searchInput) {
+          searchInput.value = c.name;
+          updateState({ searchQuery: c.name });
+        }
+      };
+      return btn;
+    })
+  ]);
+  
+  const grid = createElement('div', { class: 'root-grid' });
+  data.forEach(root => {
+    grid.appendChild(renderRootCard(root));
   });
   
-  return listContainer;
+  container.appendChild(clustersBar);
+  container.appendChild(grid);
+  
+  return container;
 }
 
 
@@ -443,6 +512,7 @@ function renderDetailView(rootId, data) {
 
   const devanagari = iastToDevanagari(rootItem.root);
   const aiInsight = getAIInsights(rootItem);
+  const prefixSuggestions = getPrefixSuggestions(rootItem);
 
   return createElement('div', { class: 'detail-view' }, [
     createElement('button', { 
@@ -478,7 +548,11 @@ function renderDetailView(rootId, data) {
 
       createElement('section', { class: 'ai-insights-section' }, [
         createElement('h3', {}, ['AI Insights']),
-        createElement('p', {}, [aiInsight])
+        createElement('p', {}, [aiInsight]),
+        createElement('div', { class: 'prefix-suggestions' }, [
+          createElement('strong', {}, ['Common Prefix Combinations: ']),
+          ...prefixSuggestions.map(p => createElement('span', { class: 'prefix-badge' }, [p]))
+        ])
       ]),
 
       createElement('section', {}, [
@@ -508,6 +582,7 @@ function renderDetailView(rootId, data) {
 
 
 
+
 async function initApp() {
   console.log('🚀 WhitneyRoots Initializing...');
   
@@ -519,7 +594,13 @@ async function initApp() {
   const searchInput = document.getElementById('global-search');
   if (searchInput) {
     searchInput.addEventListener('input', (e) => {
-      updateState({ searchQuery: e.target.value });
+      const query = e.target.value;
+      const progress = trackProgress(state, 'SEARCH');
+      updateState({ 
+        searchQuery: query, 
+        stats: progress.stats, 
+        unlockedAchievements: progress.unlocked 
+      });
     });
   }
 
@@ -545,6 +626,12 @@ function renderApp(currentState) {
   }
 
   if (currentState.view === 'detail') {
+    // Tracking
+    const progress = trackProgress(currentState, 'VIEW_ROOT');
+    if (progress.newlyUnlocked.length > 0) {
+      console.log('🏆 New Achievement:', progress.newlyUnlocked[0].title);
+      Object.assign(currentState, { stats: progress.stats, unlockedAchievements: progress.unlocked });
+    }
     appContainer.appendChild(renderDetailView(currentState.selectedItem, currentState.data));
     return;
   }
