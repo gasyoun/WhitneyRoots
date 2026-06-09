@@ -49,6 +49,10 @@ function renderApp(currentState) {
     return;
   }
 
+  // Clear previous render before re-rendering (statechange fires on every
+  // search / sort / filter toggle; otherwise renders stack up).
+  appContainer.innerHTML = '';
+
   if (currentState.view === 'quiz') {
     appContainer.appendChild(renderQuiz());
     return;

@@ -1,6 +1,6 @@
 /**
  * WhitneyRoots v3 Bundle
- * Generated: 2026-06-09T22:16:55.427Z
+ * Generated: 2026-06-09T22:24:29.579Z
  */
 
 // --- FILE: core/state.js ---
@@ -857,6 +857,10 @@ function renderApp(currentState) {
     appContainer.innerHTML = '<div class="loading">Loading Whitney Roots...</div>';
     return;
   }
+
+  // Clear previous render before re-rendering (statechange fires on every
+  // search / sort / filter toggle; otherwise renders stack up).
+  appContainer.innerHTML = '';
 
   if (currentState.view === 'quiz') {
     appContainer.appendChild(renderQuiz());
