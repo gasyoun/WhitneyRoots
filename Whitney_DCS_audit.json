@@ -52,7 +52,9 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "ākṣāṇa"
+   ],
    "existence": "attested"
   },
   {
@@ -79,7 +81,9 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "ākṣāṇa"
+   ],
    "existence": "attested"
   },
   {
@@ -173,7 +177,11 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "'kta",
+    "'ktaṃ",
+    "ānajāna"
+   ],
    "existence": "attested"
   },
   {
@@ -276,6 +284,7 @@
    "whitney_ppp": [],
    "ppp_results": [],
    "dcs_extra_ppp": [
+    "attaṃ",
     "atta"
    ],
    "existence": "attested"
@@ -372,7 +381,10 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "'rcitavatīṃ",
+    "'rcitaṃ"
+   ],
    "existence": "attested"
   },
   {
@@ -480,7 +492,11 @@
    "ppp_results": [],
    "dcs_extra_ppp": [
     "aśita",
-    "aṣṭa"
+    "aśitaṃ",
+    "ānaśāna",
+    "aṣṭa",
+    "'śitaṃ",
+    "'śita"
    ],
    "existence": "attested"
   },
@@ -504,7 +520,11 @@
    "ppp_results": [],
    "dcs_extra_ppp": [
     "aśita",
-    "aṣṭa"
+    "aśitaṃ",
+    "ānaśāna",
+    "aṣṭa",
+    "'śitaṃ",
+    "'śita"
    ],
    "existence": "attested"
   },
@@ -527,7 +547,12 @@
    "whitney_ppp": [],
    "ppp_results": [],
    "dcs_extra_ppp": [
-    "asta"
+    "asta",
+    "astaṃ",
+    "astās",
+    "astāṃ",
+    "astair",
+    "astāṃś"
    ],
    "existence": "attested"
   },
@@ -550,7 +575,12 @@
    "whitney_ppp": [],
    "ppp_results": [],
    "dcs_extra_ppp": [
-    "asta"
+    "asta",
+    "astaṃ",
+    "astās",
+    "astāṃ",
+    "astair",
+    "astāṃś"
    ],
    "existence": "attested"
   },
@@ -616,7 +646,10 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "āpāna",
+    "āpānāsa"
+   ],
    "existence": "attested"
   },
   {
@@ -677,10 +710,11 @@
    ],
    "dcs_extra_ppp": [
     "āsīna",
-    "āsīnebhya",
-    "āsīnāsu",
-    "āsīnāsa",
-    "āsīnābhya"
+    "āsīnaṃ",
+    "āsīnāṃ",
+    "āsīnānāṃ",
+    "āsīnās",
+    "āsīnaś"
    ],
    "existence": "attested"
   },
@@ -717,7 +751,14 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "eyiva",
+    "īyiva",
+    "īyuṣa",
+    "eyuṣa",
+    "īyuṣīṇa",
+    "īyivasa"
+   ],
    "existence": "attested"
   },
   {
@@ -753,7 +794,14 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "eyiva",
+    "īyiva",
+    "īyuṣa",
+    "eyuṣa",
+    "īyuṣīṇa",
+    "īyivasa"
+   ],
    "existence": "attested"
   },
   {
@@ -974,7 +1022,7 @@
    "dcs_extra_ppp": [
     "iṣita",
     "_",
-    "iṣṭebhya"
+    "iṣitaṃ"
    ],
    "existence": "attested"
   },
@@ -1008,7 +1056,7 @@
    "dcs_extra_ppp": [
     "iṣita",
     "_",
-    "iṣṭebhya"
+    "iṣitaṃ"
    ],
    "existence": "attested"
   },
@@ -1123,8 +1171,9 @@
     }
    ],
    "dcs_extra_ppp": [
-    "īḍitebhi",
     "īﾱita",
+    "īḍitebhir",
+    "īḍitebhi",
     "_"
    ],
    "existence": "attested"
@@ -1202,7 +1251,11 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "īśāna",
+    "īśānaṃ",
+    "īśānas"
+   ],
    "existence": "attested"
   },
   {
@@ -1342,7 +1395,10 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "ūcuṣa",
+    "okivāṃsa"
+   ],
    "existence": "attested"
   },
   {
@@ -1568,7 +1624,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "ohasānaṃ"
+   ],
    "existence": "attested"
   },
   {
@@ -1601,7 +1659,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "ohasānaṃ"
+   ],
    "existence": "attested"
   },
   {
@@ -1660,7 +1720,9 @@
    "class_verdict": "partial-overlap",
    "whitney_ppp": [],
    "ppp_results": [],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "ṛñjasāna"
+   ],
    "existence": "attested"
   },
   {
@@ -1683,7 +1745,9 @@
    "class_verdict": "partial-overlap",
    "whitney_ppp": [],
    "ppp_results": [],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "ṛñjasāna"
+   ],
    "existence": "attested"
   },
   {
@@ -1754,7 +1818,10 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "ṛdhat",
+    "ṛdhanta"
+   ],
    "existence": "attested"
   },
   {
@@ -1923,7 +1990,12 @@
    "class_verdict": "conflict",
    "whitney_ppp": [],
    "ppp_results": [],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "cakāna",
+    "cakānaś",
+    "cakānas",
+    "caka"
+   ],
    "existence": "attested"
   },
   {
@@ -1949,6 +2021,8 @@
     }
    ],
    "dcs_extra_ppp": [
+    "cakamāna",
+    "kāntaṃ",
     "kānta"
    ],
    "existence": "attested"
@@ -2277,6 +2351,11 @@
     }
    ],
    "dcs_extra_ppp": [
+    "kupitaṃ",
+    "kupitair",
+    "kupitas",
+    "kupitaś",
+    "kupitānāṃ",
     "kupitaya"
    ],
    "existence": "attested"
@@ -2467,11 +2546,11 @@
    "ppp_results": [],
    "dcs_extra_ppp": [
     "kṛta",
+    "kṛtaṃ",
+    "kṛtava",
     "kṛtavan",
     "kīrṇa",
-    "kṛtava",
-    "kṛtavatī",
-    "kṛtavanta"
+    "kṛtāny"
    ],
    "existence": "attested"
   },
@@ -2496,11 +2575,11 @@
    "ppp_results": [],
    "dcs_extra_ppp": [
     "kṛta",
+    "kṛtaṃ",
+    "kṛtava",
     "kṛtavan",
     "kīrṇa",
-    "kṛtava",
-    "kṛtavatī",
-    "kṛtavanta"
+    "kṛtāny"
    ],
    "existence": "attested"
   },
@@ -2525,11 +2604,11 @@
    "ppp_results": [],
    "dcs_extra_ppp": [
     "kṛta",
+    "kṛtaṃ",
+    "kṛtava",
     "kṛtavan",
     "kīrṇa",
-    "kṛtava",
-    "kṛtavatī",
-    "kṛtavanta"
+    "kṛtāny"
    ],
    "existence": "attested"
   },
@@ -2632,7 +2711,7 @@
    "ppp_results": [
     {
      "stem": "krsita",
-     "verdict": "unattested"
+     "verdict": "confirmed"
     }
    ],
    "dcs_extra_ppp": [],
@@ -2778,7 +2857,10 @@
    ],
    "dcs_extra_ppp": [
     "krānta",
-    "krāntavan"
+    "krāntaṃ",
+    "cakramāṇa",
+    "krāntānāṃ",
+    "krāntava"
    ],
    "existence": "attested"
   },
@@ -2807,7 +2889,7 @@
     }
    ],
    "dcs_extra_ppp": [
-    "cikrītavan"
+    "cikrītava"
    ],
    "existence": "attested"
   },
@@ -2875,9 +2957,7 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [
-    "kruddhebhya"
-   ],
+   "dcs_extra_ppp": [],
    "existence": "attested"
   },
   {
@@ -2973,7 +3053,9 @@
     }
    ],
    "dcs_extra_ppp": [
-    "klānta"
+    "klānta",
+    "klāntaṃ",
+    "klāntāṃ"
    ],
    "existence": "attested"
   },
@@ -3091,7 +3173,10 @@
    "whitney_ppp": [],
    "ppp_results": [],
    "dcs_extra_ppp": [
-    "kvathita"
+    "kvathita",
+    "kvathitaṃ",
+    "kvathitāṃ",
+    "kvathitair"
    ],
    "existence": "attested"
   },
@@ -3112,7 +3197,9 @@
    "class_verdict": "agree",
    "whitney_ppp": [],
    "ppp_results": [],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "cakṣadāna"
+   ],
    "existence": "attested"
   },
   {
@@ -3197,8 +3284,9 @@
    ],
    "dcs_extra_ppp": [
     "kṣānta",
+    "kṣāntaṃ",
     "kṣāntavan",
-    "kṣāntavanta",
+    "kṣāntava",
     "kṣāntāsu"
    ],
    "existence": "attested"
@@ -3297,8 +3385,10 @@
    "dcs_extra_ppp": [
     "kṣīṇa",
     "kṣita",
-    "kṣīṇāsu",
-    "kṣīṇaya"
+    "kṣīṇaṃ",
+    "kṣīṇānāṃ",
+    "kṣīṇāṃ",
+    "kṣīṇāyāṃ"
    ],
    "existence": "attested"
   },
@@ -3324,8 +3414,10 @@
    "dcs_extra_ppp": [
     "kṣīṇa",
     "kṣita",
-    "kṣīṇāsu",
-    "kṣīṇaya"
+    "kṣīṇaṃ",
+    "kṣīṇānāṃ",
+    "kṣīṇāṃ",
+    "kṣīṇāyāṃ"
    ],
    "existence": "attested"
   },
@@ -3441,8 +3533,7 @@
     }
    ],
    "dcs_extra_ppp": [
-    "kṣudhitebhya",
-    "_"
+    "kṣudhitebhya"
    ],
    "existence": "attested"
   },
@@ -3761,7 +3852,10 @@
    "ppp_results": [],
    "dcs_extra_ppp": [
     "khādita",
-    "khāditavan"
+    "khāditaṃ",
+    "khāditava",
+    "khāditaś",
+    "khāditair"
    ],
    "existence": "attested"
   },
@@ -3972,8 +4066,7 @@
     }
    ],
    "dcs_extra_ppp": [
-    "gatebhya",
-    "_"
+    "jagmiva"
    ],
    "existence": "attested"
   },
@@ -3995,7 +4088,8 @@
    "whitney_ppp": [],
    "ppp_results": [],
    "dcs_extra_ppp": [
-    "garjita"
+    "garjita",
+    "garjitaṃ"
    ],
    "existence": "attested"
   },
@@ -4116,9 +4210,11 @@
    "ppp_results": [],
    "dcs_extra_ppp": [
     "gīta",
+    "gītaṃ",
+    "gītāṃ",
     "gītaya",
-    "gītavan",
-    "_"
+    "gītava",
+    "gītas"
    ],
    "existence": "attested"
   },
@@ -4143,9 +4239,11 @@
    "ppp_results": [],
    "dcs_extra_ppp": [
     "gīta",
+    "gītaṃ",
+    "gītāṃ",
     "gītaya",
-    "gītavan",
-    "_"
+    "gītava",
+    "gītas"
    ],
    "existence": "attested"
   },
@@ -4392,7 +4490,10 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "gūﾱha",
+    "guhamāna"
+   ],
    "existence": "attested"
   },
   {
@@ -4443,7 +4544,9 @@
    "ppp_results": [],
    "dcs_extra_ppp": [
     "gīrṇa",
-    "gilita"
+    "gīrṇaṃ",
+    "gīrṇeṣv",
+    "gilitaṃ"
    ],
    "existence": "attested"
   },
@@ -4467,7 +4570,9 @@
    "ppp_results": [],
    "dcs_extra_ppp": [
     "gīrṇa",
-    "gilita"
+    "gīrṇaṃ",
+    "gīrṇeṣv",
+    "gilitaṃ"
    ],
    "existence": "attested"
   },
@@ -4491,7 +4596,9 @@
    "ppp_results": [],
    "dcs_extra_ppp": [
     "gīrṇa",
-    "gilita"
+    "gīrṇaṃ",
+    "gīrṇeṣv",
+    "gilitaṃ"
    ],
    "existence": "attested"
   },
@@ -4603,7 +4710,9 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_"
+    "jagrasāna",
+    "_",
+    "jagrasānāṁ"
    ],
    "existence": "attested"
   },
@@ -4759,7 +4868,9 @@
    "class_verdict": "agree",
    "whitney_ppp": [],
    "ppp_results": [],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "jakṣivāṃsa"
+   ],
    "existence": "attested"
   },
   {
@@ -4895,6 +5006,7 @@
    ],
    "dcs_extra_ppp": [
     "ghṛṣṭa",
+    "ghṛṣṭaṃ",
     "ghṛṣṭāsu"
    ],
    "existence": "attested"
@@ -5237,7 +5349,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "celiva"
+   ],
    "existence": "attested"
   },
   {
@@ -5295,7 +5409,8 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_"
+    "cikyāna",
+    "cikyānas"
    ],
    "existence": "attested"
   },
@@ -5327,7 +5442,8 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_"
+    "cikyāna",
+    "cikyānas"
    ],
    "existence": "attested"
   },
@@ -5365,7 +5481,14 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "cikituṣa",
+    "cikitva",
+    "cikitvāṁ",
+    "cikitāna",
+    "cikitvann",
+    "cikitvan"
+   ],
    "existence": "attested"
   },
   {
@@ -5593,7 +5716,6 @@
    ],
    "dcs_extra_ppp": [
     "cyutebhya",
-    "_",
     "ścyuta",
     "cyutebhi"
    ],
@@ -5643,7 +5765,10 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "channeṣv",
+    "cchanna"
+   ],
    "existence": "attested"
   },
   {
@@ -5721,9 +5846,7 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [
-    "_"
-   ],
+   "dcs_extra_ppp": [],
    "existence": "attested"
   },
   {
@@ -5894,9 +6017,8 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_",
-    "jātebhya",
-    "jātebhi"
+    "jajñāna",
+    "jajñānaṃ"
    ],
    "existence": "attested"
   },
@@ -6077,7 +6199,10 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_"
+    "jigyuṣa",
+    "_",
+    "jigīvāṁ",
+    "jigīvāṃsa"
    ],
    "existence": "attested"
   },
@@ -6107,7 +6232,10 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_"
+    "jigyuṣa",
+    "_",
+    "jigīvāṁ",
+    "jigīvāṃsa"
    ],
    "existence": "attested"
   },
@@ -6187,6 +6315,10 @@
     }
    ],
    "dcs_extra_ppp": [
+    "juṣāṇa",
+    "jujuṣāṇa",
+    "juṣāṇāv",
+    "juṣāṇaṃ",
     "_"
    ],
    "existence": "attested"
@@ -6226,7 +6358,11 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "jūjuvāṁ",
+    "jūjuvānebhir",
+    "jūjuvāna"
+   ],
    "existence": "attested"
   },
   {
@@ -6281,7 +6417,10 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "jujurvāṁ",
+    "vastuṣu"
+   ],
    "existence": "attested"
   },
   {
@@ -6316,7 +6455,10 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "jujurvāṁ",
+    "vastuṣu"
+   ],
    "existence": "attested"
   },
   {
@@ -6392,6 +6534,7 @@
     }
    ],
    "dcs_extra_ppp": [
+    "jajñiva",
     "jñātebhya"
    ],
    "existence": "attested"
@@ -6985,7 +7128,8 @@
    ],
    "dcs_extra_ppp": [
     "taptebhya",
-    "_",
+    "tepāna",
+    "tepānād",
     "taptebhi"
    ],
    "existence": "attested"
@@ -7020,7 +7164,9 @@
     }
    ],
    "dcs_extra_ppp": [
-    "tānta"
+    "tānta",
+    "tāntāyāṃ",
+    "tāntaṃ"
    ],
    "existence": "attested"
   },
@@ -7277,7 +7423,10 @@
    "class_verdict": "partial-overlap",
    "whitney_ppp": [],
    "ppp_results": [],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "tūtujāna",
+    "tūtujānas"
+   ],
    "existence": "attested"
   },
   {
@@ -7459,7 +7608,10 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "titirvāṃsa",
+    "titirva"
+   ],
    "existence": "attested"
   },
   {
@@ -7487,7 +7639,9 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "tatṛdāna"
+   ],
    "existence": "attested"
   },
   {
@@ -7518,7 +7672,7 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_"
+    "tṛpteṣv"
    ],
    "existence": "attested"
   },
@@ -7551,7 +7705,12 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "tātṛṣāṇa",
+    "tatṛṣāṇa",
+    "tṛṣāṇa",
+    "tṛṣāṇāṁ"
+   ],
    "existence": "attested"
   },
   {
@@ -7576,7 +7735,7 @@
    "ppp_results": [
     {
      "stem": "trdha",
-     "verdict": "confirmed"
+     "verdict": "unattested"
     }
    ],
    "dcs_extra_ppp": [
@@ -7720,7 +7879,9 @@
    "whitney_ppp": [],
    "ppp_results": [],
    "dcs_extra_ppp": [
-    "truṭita"
+    "truṭita",
+    "truṭitaṃ",
+    "truṭitāṃ"
    ],
    "existence": "attested"
   },
@@ -7844,7 +8005,9 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "titviṣāṇa"
+   ],
    "existence": "attested"
   },
   {
@@ -8049,9 +8212,12 @@
     }
    ],
    "dcs_extra_ppp": [
-    "dāntaya",
-    "dāntebhya",
-    "dāntāsu"
+    "dāntaṃ",
+    "dāntānāṃ",
+    "dāntair",
+    "dāntaś",
+    "dāntas",
+    "dāntās"
    ],
    "existence": "attested"
   },
@@ -8152,7 +8318,9 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "dasamāna"
+   ],
    "existence": "attested"
   },
   {
@@ -8181,10 +8349,7 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [
-    "_",
-    "dagdhebhya"
-   ],
+   "dcs_extra_ppp": [],
    "existence": "attested"
   },
   {
@@ -8227,9 +8392,7 @@
    ],
    "dcs_extra_ppp": [
     "dina",
-    "_",
-    "dita",
-    "dattebhya"
+    "daduṣa"
    ],
    "existence": "attested"
   },
@@ -8273,9 +8436,7 @@
    ],
    "dcs_extra_ppp": [
     "dina",
-    "_",
-    "dita",
-    "dattebhya"
+    "daduṣa"
    ],
    "existence": "attested"
   },
@@ -8319,9 +8480,7 @@
    ],
    "dcs_extra_ppp": [
     "dina",
-    "_",
-    "dita",
-    "dattebhya"
+    "daduṣa"
    ],
    "existence": "attested"
   },
@@ -8343,11 +8502,11 @@
    "ppp_results": [],
    "dcs_extra_ppp": [
     "datta",
-    "dattavan",
-    "dattaya",
+    "dattaṃ",
     "dattava",
-    "dina",
-    "dattavatī"
+    "dattāṃ",
+    "dattaya",
+    "dattavan"
    ],
    "existence": "attested"
   },
@@ -8370,7 +8529,12 @@
    "class_verdict": "partial-overlap",
    "whitney_ppp": [],
    "ppp_results": [],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "dāśuṣa",
+    "dāśvāṃsa",
+    "dadāśuṣa",
+    "dāśvāṁ"
+   ],
    "existence": "attested"
   },
   {
@@ -8524,7 +8688,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "pravargyeṇa"
+   ],
    "existence": "attested"
   },
   {
@@ -8589,7 +8755,7 @@
    "ppp_results": [
     {
      "stem": "dyuta",
-     "verdict": "unattested"
+     "verdict": "confirmed"
     }
    ],
    "dcs_extra_ppp": [
@@ -8619,7 +8785,7 @@
    "ppp_results": [
     {
      "stem": "dyuta",
-     "verdict": "unattested"
+     "verdict": "confirmed"
     }
    ],
    "dcs_extra_ppp": [
@@ -8753,7 +8919,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "duduhāna"
+   ],
    "existence": "attested"
   },
   {
@@ -8800,7 +8968,11 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "dadruṣīṇa",
+    "dadrāṇaṃ",
+    "dadṛvāṃsa"
+   ],
    "existence": "attested"
   },
   {
@@ -8834,7 +9006,11 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "dadruṣīṇa",
+    "dadrāṇaṃ",
+    "dadṛvāṃsa"
+   ],
    "existence": "attested"
   },
   {
@@ -8857,8 +9033,11 @@
    "ppp_results": [],
    "dcs_extra_ppp": [
     "dṛpta",
-    "dṛpitebhi",
-    "dṛpita"
+    "dṛptaṃ",
+    "dṛptānāṃ",
+    "dṛptair",
+    "dṛptās",
+    "dṛptayor"
    ],
    "existence": "attested"
   },
@@ -8910,8 +9089,8 @@
     }
    ],
    "dcs_extra_ppp": [
-    "darśiva",
-    "dṛṣṭeṇa"
+    "dṛśāna",
+    "dadṛśāna"
    ],
    "existence": "attested"
   },
@@ -8941,7 +9120,11 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "dṛﾱha",
+    "dādṛhāṇa",
+    "dādṛhāṇaṃ"
+   ],
    "existence": "attested"
   },
   {
@@ -8994,7 +9177,14 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "dyutāna",
+    "dyutat",
+    "dyutānas",
+    "didyutāna",
+    "dyutānaṃ",
+    "dyuta"
+   ],
    "existence": "attested"
   },
   {
@@ -9034,7 +9224,10 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "dadrāṇaṃ",
+    "dadrāṇa"
+   ],
    "existence": "attested"
   },
   {
@@ -9061,7 +9254,10 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "dadrāṇaṃ",
+    "dadrāṇa"
+   ],
    "existence": "attested"
   },
   {
@@ -9230,7 +9426,9 @@
    "class_verdict": "agree",
    "whitney_ppp": [],
    "ppp_results": [],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "dadhanvāṁ"
+   ],
    "existence": "attested"
   },
   {
@@ -9252,8 +9450,12 @@
    "whitney_ppp": [],
    "ppp_results": [],
    "dcs_extra_ppp": [
+    "dhmātaṃ",
     "dhmāta",
-    "dhamita"
+    "dhamita",
+    "dhmātāṃ",
+    "dhmātas",
+    "dhamitaṃ"
    ],
    "existence": "attested"
   },
@@ -9311,6 +9513,7 @@
     }
    ],
    "dcs_extra_ppp": [
+    "hiteṣv",
     "_"
    ],
    "existence": "attested"
@@ -9349,6 +9552,7 @@
     }
    ],
    "dcs_extra_ppp": [
+    "hiteṣv",
     "_"
    ],
    "existence": "attested"
@@ -9380,7 +9584,10 @@
    ],
    "dcs_extra_ppp": [
     "dhauta",
-    "dhautaya"
+    "dhautaṃ",
+    "dhautair",
+    "dhautaya",
+    "dhautānāṃ"
    ],
    "existence": "attested"
   },
@@ -9411,7 +9618,10 @@
    ],
    "dcs_extra_ppp": [
     "dhauta",
-    "dhautaya"
+    "dhautaṃ",
+    "dhautair",
+    "dhautaya",
+    "dhautānāṃ"
    ],
    "existence": "attested"
   },
@@ -9563,8 +9773,7 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_",
-    "dhṛtebhya"
+    "_"
    ],
    "existence": "attested"
   },
@@ -9599,7 +9808,14 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "dhṛṣata",
+    "dhṛṣat",
+    "dhṛṣan",
+    "dhṛṣāṇaṃ",
+    "dhṛṣāṇa",
+    "dhṛṣamāṇa"
+   ],
    "existence": "attested"
   },
   {
@@ -9641,8 +9857,8 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_",
-    "dhyāyita"
+    "dhyāyitaṃ",
+    "_"
    ],
    "existence": "attested"
   },
@@ -9841,7 +10057,10 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "neduṣa",
+    "neduṣāṃ"
+   ],
    "existence": "attested"
   },
   {
@@ -10188,7 +10407,7 @@
    ],
    "dcs_extra_ppp": [
     "ninditebhya",
-    "_"
+    "nidāna"
    ],
    "existence": "attested"
   },
@@ -10218,7 +10437,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "au5"
+   ],
    "existence": "attested"
   },
   {
@@ -10366,7 +10587,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "nṛtamāna"
+   ],
    "existence": "attested"
   },
   {
@@ -10668,7 +10891,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "paspaśāna"
+   ],
    "existence": "attested"
   },
   {
@@ -10695,7 +10920,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "paspaśāna"
+   ],
    "existence": "attested"
   },
   {
@@ -10727,8 +10954,9 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_",
-    "pītebhya"
+    "papivāṃsa",
+    "papivāṃsaś",
+    "papivāṁ"
    ],
    "existence": "attested"
   },
@@ -10761,8 +10989,9 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_",
-    "pītebhya"
+    "papivāṃsa",
+    "papivāṃsaś",
+    "papivāṁ"
    ],
    "existence": "attested"
   },
@@ -10795,8 +11024,9 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_",
-    "pītebhya"
+    "papivāṃsa",
+    "papivāṃsaś",
+    "papivāṁ"
    ],
    "existence": "attested"
   },
@@ -10905,7 +11135,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "piśāna"
+   ],
    "existence": "attested"
   },
   {
@@ -11045,6 +11277,7 @@
    "whitney_ppp": [],
    "ppp_results": [],
    "dcs_extra_ppp": [
+    "puṭitaṃ",
     "puṭita"
    ],
    "existence": "attested"
@@ -11210,7 +11443,8 @@
    "dcs_extra_ppp": [
     "pūrita",
     "pūrta",
-    "pūrṇebhya"
+    "pūritaṃ",
+    "pūrtaṃ"
    ],
    "existence": "attested"
   },
@@ -11251,7 +11485,8 @@
    "dcs_extra_ppp": [
     "pūrita",
     "pūrta",
-    "pūrṇebhya"
+    "pūritaṃ",
+    "pūrtaṃ"
    ],
    "existence": "attested"
   },
@@ -11292,7 +11527,8 @@
    "dcs_extra_ppp": [
     "pūrita",
     "pūrta",
-    "pūrṇebhya"
+    "pūritaṃ",
+    "pūrtaṃ"
    ],
    "existence": "attested"
   },
@@ -11332,7 +11568,9 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "pṛcānas"
+   ],
    "existence": "attested"
   },
   {
@@ -11404,7 +11642,10 @@
     }
    ],
    "dcs_extra_ppp": [
-    "pīna"
+    "pīpyāna",
+    "pipyuṣīr",
+    "pīna",
+    "pipyuṣī"
    ],
    "existence": "attested"
   },
@@ -11449,7 +11690,13 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "paprathāna",
+    "papratha",
+    "prathāna",
+    "paprathānebhir",
+    "pratha"
+   ],
    "existence": "attested"
   },
   {
@@ -11819,9 +12066,7 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [
-    "_"
-   ],
+   "dcs_extra_ppp": [],
    "existence": "attested"
   },
   {
@@ -11862,7 +12107,7 @@
     }
    ],
    "dcs_extra_ppp": [
-    "bādhitebhya"
+    "bādhitebhyaś"
    ],
    "existence": "attested"
   },
@@ -11891,7 +12136,10 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "bubudhāna",
+    "budhāna"
+   ],
    "existence": "attested"
   },
   {
@@ -11922,7 +12170,9 @@
    "class_verdict": "whitney-missing",
    "whitney_ppp": [],
    "ppp_results": [],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "babṛhāṇa"
+   ],
    "existence": "attested"
   },
   {
@@ -12049,7 +12299,10 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "bhejāna",
+    "bhejānāsa"
+   ],
    "existence": "attested"
   },
   {
@@ -12420,9 +12673,7 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [
-    "_"
-   ],
+   "dcs_extra_ppp": [],
    "existence": "attested"
   },
   {
@@ -12472,7 +12723,8 @@
     }
    ],
    "dcs_extra_ppp": [
-    "bhītebhya"
+    "bibhyuṣa",
+    "bhiyāna"
    ],
    "existence": "attested"
   },
@@ -12502,11 +12754,11 @@
    ],
    "dcs_extra_ppp": [
     "bhukta",
-    "bhuktavanta",
+    "bhuktaṃ",
     "bhuktavata",
     "bhuktavatsu",
-    "bhuktavan",
-    "bhuktavat"
+    "bhuktava",
+    "bhuktavan"
    ],
    "existence": "attested"
   },
@@ -12536,11 +12788,11 @@
    ],
    "dcs_extra_ppp": [
     "bhukta",
-    "bhuktavanta",
+    "bhuktaṃ",
     "bhuktavata",
     "bhuktavatsu",
-    "bhuktavan",
-    "bhuktavat"
+    "bhuktava",
+    "bhuktavan"
    ],
    "existence": "attested"
   },
@@ -12658,7 +12910,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "babhrāṇa"
+   ],
    "existence": "attested"
   },
   {
@@ -12739,9 +12993,7 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [
-    "_"
-   ],
+   "dcs_extra_ppp": [],
    "existence": "attested"
   },
   {
@@ -12771,7 +13023,11 @@
    ],
    "dcs_extra_ppp": [
     "bhrānta",
-    "bhrāntavan"
+    "bhrāntaṃ",
+    "bhrāntas",
+    "bhrāntava",
+    "bhrāntās",
+    "bhrāntai"
    ],
    "existence": "attested"
   },
@@ -13007,6 +13263,7 @@
     }
    ],
    "dcs_extra_ppp": [
+    "mandāna",
     "mattebhya"
    ],
    "existence": "attested"
@@ -13038,7 +13295,7 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_"
+    "manāna"
    ],
    "existence": "attested"
   },
@@ -13057,7 +13314,10 @@
    "class_verdict": "whitney-missing",
    "whitney_ppp": [],
    "ppp_results": [],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "māmahāna",
+    "māmahānaṃ"
+   ],
    "existence": "attested"
   },
   {
@@ -13399,7 +13659,11 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "mīḍhuṣa",
+    "mīﾱha",
+    "mīﾱhuṣa"
+   ],
    "existence": "attested"
   },
   {
@@ -13427,7 +13691,7 @@
    "ppp_results": [
     {
      "stem": "mita",
-     "verdict": "unattested"
+     "verdict": "confirmed"
     },
     {
      "stem": "metos",
@@ -13516,7 +13780,7 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_"
+    "mumucāna"
    ],
    "existence": "attested"
   },
@@ -13595,7 +13859,7 @@
     },
     {
      "stem": "musta",
-     "verdict": "confirmed"
+     "verdict": "unattested"
     }
    ],
    "dcs_extra_ppp": [],
@@ -13636,8 +13900,7 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_",
-    "mūḍhebhya"
+    "_"
    ],
    "existence": "attested"
   },
@@ -13712,8 +13975,7 @@
     }
    ],
    "dcs_extra_ppp": [
-    "mṛtebhya",
-    "_"
+    "mṛteṣv"
    ],
    "existence": "attested"
   },
@@ -13743,8 +14005,7 @@
     }
    ],
    "dcs_extra_ppp": [
-    "mṛtebhya",
-    "_"
+    "mṛteṣv"
    ],
    "existence": "attested"
   },
@@ -14365,8 +14626,12 @@
     }
    ],
    "dcs_extra_ppp": [
+    "ījāna",
     "iṣṭebhya",
-    "yaṣṭa"
+    "ījānād",
+    "ījānaṃ",
+    "ījānānāṃ",
+    "ījānaś"
    ],
    "existence": "attested"
   },
@@ -14399,7 +14664,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "yatāna"
+   ],
    "existence": "attested"
   },
   {
@@ -14447,7 +14714,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "yemāna"
+   ],
    "existence": "attested"
   },
   {
@@ -14657,10 +14926,7 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [
-    "_",
-    "yuktebhya"
-   ],
+   "dcs_extra_ppp": [],
    "existence": "attested"
   },
   {
@@ -14689,7 +14955,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "yodhāna"
+   ],
    "existence": "attested"
   },
   {
@@ -14761,7 +15029,9 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "rārahāṇa"
+   ],
    "existence": "attested"
   },
   {
@@ -14788,7 +15058,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "rārakṣāṇa"
+   ],
    "existence": "attested"
   },
   {
@@ -15249,7 +15521,10 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "rarāṇa",
+    "raruṣa"
+   ],
    "existence": "attested"
   },
   {
@@ -15284,7 +15559,10 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "rarāṇa",
+    "raruṣa"
+   ],
    "existence": "attested"
   },
   {
@@ -15306,7 +15584,8 @@
    "whitney_ppp": [],
    "ppp_results": [],
    "dcs_extra_ppp": [
-    "rājita"
+    "rājita",
+    "rājitaṃ"
    ],
    "existence": "attested"
   },
@@ -15447,6 +15726,8 @@
     }
    ],
    "dcs_extra_ppp": [
+    "riricāna",
+    "ririkvāṃsas",
     "_"
    ],
    "existence": "attested"
@@ -15576,7 +15857,11 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "rīṣata",
+    "riṣata",
+    "rīṣanta"
+   ],
    "existence": "attested"
   },
   {
@@ -15696,7 +15981,10 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "rucāna",
+    "rurucāna"
+   ],
    "existence": "attested"
   },
   {
@@ -15791,9 +16079,11 @@
    "ppp_results": [],
    "dcs_extra_ppp": [
     "ruddha",
+    "ruddhaṃ",
+    "ruddhāṃ",
     "ruddhāsu",
     "ruddhaya",
-    "ruddhavan"
+    "ruddhāś"
    ],
    "existence": "attested"
   },
@@ -15817,9 +16107,11 @@
    "ppp_results": [],
    "dcs_extra_ppp": [
     "ruddha",
+    "ruddhaṃ",
+    "ruddhāṃ",
     "ruddhāsu",
     "ruddhaya",
-    "ruddhavan"
+    "ruddhāś"
    ],
    "existence": "attested"
   },
@@ -15915,6 +16207,8 @@
     }
    ],
    "dcs_extra_ppp": [
+    "ruhāṇa",
+    "ruhāṇās",
     "_"
    ],
    "existence": "attested"
@@ -16000,7 +16294,8 @@
    "whitney_ppp": [],
    "ppp_results": [],
    "dcs_extra_ppp": [
-    "lakṣita"
+    "lakṣita",
+    "lakṣitas"
    ],
    "existence": "attested"
   },
@@ -16029,7 +16324,12 @@
     }
    ],
    "dcs_extra_ppp": [
-    "lagnaya"
+    "lagnaṃ",
+    "lagnaya",
+    "lagnāṃ",
+    "lagnas",
+    "lagnāny",
+    "lagnās"
    ],
    "existence": "attested"
   },
@@ -16167,9 +16467,7 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [
-    "_"
-   ],
+   "dcs_extra_ppp": [],
    "existence": "attested"
   },
   {
@@ -16455,7 +16753,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "līneṣv"
+   ],
    "existence": "attested"
   },
   {
@@ -16484,7 +16784,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "līneṣv"
+   ],
    "existence": "attested"
   },
   {
@@ -16614,7 +16916,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "eva"
+   ],
    "existence": "attested"
   },
   {
@@ -16810,7 +17114,8 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_"
+    "_",
+    "ūciva"
    ],
    "existence": "attested"
   },
@@ -16981,7 +17286,9 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "vavanvāṃsa"
+   ],
    "existence": "attested"
   },
   {
@@ -17045,9 +17352,7 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [
-    "_"
-   ],
+   "dcs_extra_ppp": [],
    "existence": "attested"
   },
   {
@@ -17084,9 +17389,7 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [
-    "_"
-   ],
+   "dcs_extra_ppp": [],
    "existence": "attested"
   },
   {
@@ -17116,7 +17419,8 @@
    ],
    "dcs_extra_ppp": [
     "vānta",
-    "vāntavan"
+    "vāntaṃ",
+    "vāntava"
    ],
    "existence": "attested"
   },
@@ -17219,7 +17523,10 @@
    "class_verdict": "partial-overlap",
    "whitney_ppp": [],
    "ppp_results": [],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "vāvaśāna",
+    "vāvaśānās"
+   ],
    "existence": "attested"
   },
   {
@@ -17260,7 +17567,9 @@
     }
    ],
    "dcs_extra_ppp": [
+    "vasāna",
     "vasita",
+    "vāvasāna",
     "uṣitebhya"
    ],
    "existence": "attested"
@@ -17303,7 +17612,9 @@
     }
    ],
    "dcs_extra_ppp": [
+    "vasāna",
     "vasita",
+    "vāvasāna",
     "uṣitebhya"
    ],
    "existence": "attested"
@@ -17346,7 +17657,9 @@
     }
    ],
    "dcs_extra_ppp": [
+    "vasāna",
     "vasita",
+    "vāvasāna",
     "uṣitebhya"
    ],
    "existence": "attested"
@@ -17382,7 +17695,10 @@
     }
    ],
    "dcs_extra_ppp": [
-    "voḍhaya"
+    "uhāṇa",
+    "voḍhaṃ",
+    "voḍhaya",
+    "ūﾱha"
    ],
    "existence": "attested"
   },
@@ -17413,7 +17729,7 @@
     },
     {
      "stem": "vana",
-     "verdict": "confirmed"
+     "verdict": "unattested"
     }
    ],
    "dcs_extra_ppp": [],
@@ -17446,7 +17762,7 @@
     },
     {
      "stem": "vana",
-     "verdict": "confirmed"
+     "verdict": "unattested"
     }
    ],
    "dcs_extra_ppp": [],
@@ -17479,7 +17795,7 @@
     },
     {
      "stem": "vana",
-     "verdict": "confirmed"
+     "verdict": "unattested"
     }
    ],
    "dcs_extra_ppp": [],
@@ -17509,9 +17825,7 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [
-    "_"
-   ],
+   "dcs_extra_ppp": [],
    "existence": "attested"
   },
   {
@@ -17539,7 +17853,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "vāvaśāna"
+   ],
    "existence": "attested"
   },
   {
@@ -17582,7 +17898,9 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "vivikvāṁ"
+   ],
    "existence": "attested"
   },
   {
@@ -17610,7 +17928,9 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "vivikvāṁ"
+   ],
    "existence": "attested"
   },
   {
@@ -17674,9 +17994,12 @@
     }
    ],
    "dcs_extra_ppp": [
+    "vidvāṃsa",
+    "viduṣa",
+    "vidvāṁ",
     "vitta",
-    "vinna",
-    "vinnāsu"
+    "vittaṃ",
+    "vidvat"
    ],
    "existence": "attested"
   },
@@ -17708,9 +18031,12 @@
     }
    ],
    "dcs_extra_ppp": [
+    "vidvāṃsa",
+    "viduṣa",
+    "vidvāṁ",
     "vitta",
-    "vinna",
-    "vinnāsu"
+    "vittaṃ",
+    "vidvat"
    ],
    "existence": "attested"
   },
@@ -17788,7 +18114,9 @@
    "class_verdict": "agree",
    "whitney_ppp": [],
    "ppp_results": [],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "vipāna"
+   ],
    "existence": "attested"
   },
   {
@@ -17902,7 +18230,9 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "vītaṃ"
+   ],
    "existence": "attested"
   },
   {
@@ -17970,7 +18300,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "urāṇa"
+   ],
    "existence": "attested"
   },
   {
@@ -18000,7 +18332,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "urāṇa"
+   ],
    "existence": "attested"
   },
   {
@@ -18054,7 +18388,10 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "varjuṣīṇa",
+    "vavarjuṣīṇa"
+   ],
    "existence": "attested"
   },
   {
@@ -18111,7 +18448,12 @@
     }
    ],
    "dcs_extra_ppp": [
-    "vṛddhebhya"
+    "vāvṛdhāna",
+    "vṛdhāna",
+    "vṛddhebhya",
+    "vṛdhanta",
+    "vāvṛdhānaṃ",
+    "vāvṛdhānāv"
    ],
    "existence": "attested"
   },
@@ -18140,7 +18482,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "vāvṛṣāṇa"
+   ],
    "existence": "attested"
   },
   {
@@ -18613,7 +18957,10 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "śaṃsiva",
+    "chastaṃ"
+   ],
    "existence": "attested"
   },
   {
@@ -18650,7 +18997,9 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "chakta"
+   ],
    "existence": "attested"
   },
   {
@@ -18709,6 +19058,9 @@
    "whitney_ppp": [],
    "ppp_results": [],
    "dcs_extra_ppp": [
+    "śāśadāna",
+    "śāśada",
+    "chāśadāna",
     "śanna"
    ],
    "existence": "attested"
@@ -18729,6 +19081,9 @@
    "whitney_ppp": [],
    "ppp_results": [],
    "dcs_extra_ppp": [
+    "śāśadāna",
+    "śāśada",
+    "chāśadāna",
     "śanna"
    ],
    "existence": "attested"
@@ -18795,11 +19150,11 @@
    ],
    "dcs_extra_ppp": [
     "śānta",
+    "śāntaṃ",
+    "śaśamāna",
     "_",
-    "śāntāsu",
-    "śāntaya",
-    "śāntāyai",
-    "śāntavan"
+    "śāntābhir",
+    "śāntāyāṃ"
    ],
    "existence": "attested"
   },
@@ -18832,11 +19187,11 @@
    ],
    "dcs_extra_ppp": [
     "śānta",
+    "śāntaṃ",
+    "śaśamāna",
     "_",
-    "śāntāsu",
-    "śāntaya",
-    "śāntāyai",
-    "śāntavan"
+    "śāntābhir",
+    "śāntāyāṃ"
    ],
    "existence": "attested"
   },
@@ -18869,11 +19224,11 @@
    ],
    "dcs_extra_ppp": [
     "śānta",
+    "śāntaṃ",
+    "śaśamāna",
     "_",
-    "śāntāsu",
-    "śāntaya",
-    "śāntāyai",
-    "śāntavan"
+    "śāntābhir",
+    "śāntāyāṃ"
    ],
    "existence": "attested"
   },
@@ -19167,7 +19522,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "chiṣṭa"
+   ],
    "existence": "attested"
   },
   {
@@ -19189,7 +19546,11 @@
    "ppp_results": [],
    "dcs_extra_ppp": [
     "śayita",
-    "śayitaya"
+    "śayitaṃ",
+    "śaśayāna",
+    "śayitaya",
+    "śayitānāṃ",
+    "śayitāv"
    ],
    "existence": "attested"
   },
@@ -19212,7 +19573,11 @@
    "ppp_results": [],
    "dcs_extra_ppp": [
     "śayita",
-    "śayitaya"
+    "śayitaṃ",
+    "śaśayāna",
+    "śayitaya",
+    "śayitānāṃ",
+    "śayitāv"
    ],
    "existence": "attested"
   },
@@ -19242,7 +19607,14 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "śuśucāna",
+    "śuktaṃ",
+    "śucāna",
+    "śuśukvāṁ",
+    "śuśucānāsa",
+    "chuśucāna"
+   ],
    "existence": "attested"
   },
   {
@@ -19260,7 +19632,9 @@
    "class_verdict": "whitney-missing",
    "whitney_ppp": [],
    "ppp_results": [],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "śūśujāna"
+   ],
    "existence": "attested"
   },
   {
@@ -19291,7 +19665,8 @@
    ],
    "dcs_extra_ppp": [
     "śuddhebhya",
-    "_"
+    "_",
+    "śuddheṣv"
    ],
    "existence": "attested"
   },
@@ -19330,7 +19705,10 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "śubhāna",
+    "śumbhānas"
+   ],
    "existence": "attested"
   },
   {
@@ -19733,7 +20111,11 @@
    ],
    "dcs_extra_ppp": [
     "śrānta",
-    "śrāntebhya"
+    "śrāntaṃ",
+    "śrāntebhyas",
+    "śrāntānāṃ",
+    "śrāntābhyas",
+    "śrāntāṃ"
    ],
    "existence": "attested"
   },
@@ -19809,7 +20191,10 @@
     }
    ],
    "dcs_extra_ppp": [
+    "śiśriyāṇa",
+    "śiśriyāṇaṃ",
     "śritebhya",
+    "śiśriyāṇas",
     "_"
    ],
    "existence": "attested"
@@ -19863,11 +20248,11 @@
    ],
    "dcs_extra_ppp": [
     "śṛta",
+    "śṛtaṃ",
     "śrāta",
-    "śṛtāsa",
-    "śṛtaya",
-    "śṛtebhya",
-    "śṛtāsu"
+    "śrātaṃ",
+    "śṛtāṃ",
+    "śṛtaya"
    ],
    "existence": "attested"
   },
@@ -19902,11 +20287,11 @@
    ],
    "dcs_extra_ppp": [
     "śṛta",
+    "śṛtaṃ",
     "śrāta",
-    "śṛtāsa",
-    "śṛtaya",
-    "śṛtebhya",
-    "śṛtāsu"
+    "śrātaṃ",
+    "śṛtāṃ",
+    "śṛtaya"
    ],
    "existence": "attested"
   },
@@ -19936,8 +20321,9 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_",
-    "śrutebhi"
+    "śuśruvāṃsa",
+    "chrutaṃ",
+    "chruta"
    ],
    "existence": "attested"
   },
@@ -20228,7 +20614,9 @@
    "class_verdict": "partial-overlap",
    "whitney_ppp": [],
    "ppp_results": [],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "sacāna"
+   ],
    "existence": "attested"
   },
   {
@@ -20278,7 +20666,10 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "sanneṣv",
+    "sadanta"
+   ],
    "existence": "attested"
   },
   {
@@ -20316,7 +20707,14 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "sasavāṃsa",
+    "sanat",
+    "sasavāṁ",
+    "sātāṃ",
+    "sananta",
+    "sasavāṃsaś"
+   ],
    "existence": "attested"
   },
   {
@@ -20424,7 +20822,14 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "sāsahāna",
+    "sehāna",
+    "sahasāna",
+    "sāhvāṁ",
+    "sāsahvāṁ",
+    "sakṣanta"
+   ],
    "existence": "attested"
   },
   {
@@ -20691,6 +21096,11 @@
     }
    ],
    "dcs_extra_ppp": [
+    "suvāna",
+    "suvānāsa",
+    "suṣuvāṇa",
+    "suṣvāṇa",
+    "suṣvāṇāsa",
     "sutebhi"
    ],
    "existence": "attested"
@@ -20836,7 +21246,14 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "sasṛvāṃsa",
+    "sasruṣī",
+    "sasruṣīs",
+    "sasruṣīr",
+    "sasrāṇa",
+    "sasṛmāṇa"
+   ],
    "existence": "attested"
   },
   {
@@ -20878,7 +21295,8 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_"
+    "sṛjāna",
+    "sasṛjāna"
    ],
    "existence": "attested"
   },
@@ -20991,7 +21409,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "caskabhāna"
+   ],
    "existence": "attested"
   },
   {
@@ -21127,7 +21547,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "tastabhāna"
+   ],
    "existence": "attested"
   },
   {
@@ -21206,7 +21628,10 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_"
+    "tuṣṭuvāna",
+    "_",
+    "tuṣṭuvāṃsas",
+    "tuṣṭuvāṃsa"
    ],
    "existence": "attested"
   },
@@ -21238,7 +21663,10 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_"
+    "tuṣṭuvāna",
+    "_",
+    "tuṣṭuvāṃsas",
+    "tuṣṭuvāṃsa"
    ],
    "existence": "attested"
   },
@@ -21301,7 +21729,9 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "tistirāṇa"
+   ],
    "existence": "attested"
   },
   {
@@ -21381,8 +21811,8 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_",
-    "sthitebhya"
+    "tasthiva",
+    "tasthivāṃsa"
    ],
    "existence": "attested"
   },
@@ -21408,9 +21838,7 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [
-    "_"
-   ],
+   "dcs_extra_ppp": [],
    "existence": "attested"
   },
   {
@@ -21542,7 +21970,9 @@
    "whitney_ppp": [],
    "ppp_results": [],
    "dcs_extra_ppp": [
-    "spṛta"
+    "spṛta",
+    "spṛtaṃ",
+    "spṛtāś"
    ],
    "existence": "attested"
   },
@@ -21571,7 +22001,12 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "paspṛdhānāsa",
+    "paspṛdhānaṃ",
+    "paspṛdhānebhya",
+    "spṛdhāna"
+   ],
    "existence": "attested"
   },
   {
@@ -21600,7 +22035,7 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_"
+    "pasparśiva"
    ],
    "existence": "attested"
   },
@@ -21730,7 +22165,9 @@
    "ppp_results": [],
    "dcs_extra_ppp": [
     "sphurita",
-    "sphuritaya"
+    "sphuritaṃ",
+    "sphuritaya",
+    "sphuritāṃ"
    ],
    "existence": "attested"
   },
@@ -21803,7 +22240,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "siṣmiyāṇa"
+   ],
    "existence": "attested"
   },
   {
@@ -21823,8 +22262,11 @@
    "ppp_results": [],
    "dcs_extra_ppp": [
     "smṛta",
+    "smṛtaṃ",
+    "smṛtas",
+    "smṛtava",
     "_",
-    "smṛtavan"
+    "smṛtaś"
    ],
    "existence": "attested"
   },
@@ -21849,7 +22291,7 @@
    "ppp_results": [
     {
      "stem": "syanna",
-     "verdict": "unattested"
+     "verdict": "confirmed"
     }
    ],
    "dcs_extra_ppp": [],
@@ -21899,7 +22341,9 @@
    "class_verdict": "agree",
    "whitney_ppp": [],
    "ppp_results": [],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "sridhāna"
+   ],
    "existence": "attested"
   },
   {
@@ -22008,7 +22452,8 @@
     }
    ],
    "dcs_extra_ppp": [
-    "svadita"
+    "svadita",
+    "svaditaṃ"
    ],
    "existence": "attested"
   },
@@ -22066,8 +22511,9 @@
     }
    ],
    "dcs_extra_ppp": [
-    "suptebhya",
-    "svapita"
+    "supteṣv",
+    "suṣupuṣī",
+    "suptebhya"
    ],
    "existence": "attested"
   },
@@ -22139,7 +22585,9 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "siṣvidāna"
+   ],
    "existence": "attested"
   },
   {
@@ -22192,7 +22640,8 @@
     }
    ],
    "dcs_extra_ppp": [
-    "_"
+    "jaghniva",
+    "jaghanvāṁ"
    ],
    "existence": "attested"
   },
@@ -22372,7 +22821,9 @@
      "verdict": "unattested"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "hiyāna"
+   ],
    "existence": "attested"
   },
   {
@@ -22476,7 +22927,9 @@
      "verdict": "confirmed"
     }
    ],
-   "dcs_extra_ppp": [],
+   "dcs_extra_ppp": [
+    "jihīḍāna"
+   ],
    "existence": "attested"
   },
   {
@@ -22505,7 +22958,8 @@
     }
    ],
    "dcs_extra_ppp": [
-    "hutebhya"
+    "hutebhya",
+    "tad"
    ],
    "existence": "attested"
   },

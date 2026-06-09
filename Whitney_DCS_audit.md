@@ -132,7 +132,7 @@ _Source: `dcs_full.sqlite` (2026 CoNLL-U); generated 2026-06-10._
 | 2 sidh | 1 | 1,4 | 2028 |
 | 1 gā | 1,2 | 2,4 | 1911 |
 
-## PPP: Whitney stems unattested in corpus (206 roots)
+## PPP: Whitney stems unattested in corpus (207 roots)
 
 | root | DCS lemma | unattested PPP | tokens |
 |---|---|---|---|
@@ -188,14 +188,14 @@ _Source: `dcs_full.sqlite` (2026 CoNLL-U); generated 2026-06-10._
 | 1 vap | vap | upita E1, vapta E1 | 320 |
 | 2 vap | vap | upita E1, vapta E1 | 320 |
 | mṛj | mṛj | mrjita, marjita | 298 |
+| 1 vā | vā | vana | 298 |
+| 2 vā | vā | vana | 298 |
+| 3 vā | vā | vana | 298 |
 | vṛj | vṛj | vrktvi, vrjya | 283 |
 | 1 śṛ | śṛ | sirta, surta ? RV1 | 278 |
 | 2 śṛ | śṛ | sirta, surta ? RV1 | 278 |
 | 3 śṛ | śṛ | sirta, surta ? RV1 | 278 |
 | tras | tras | trasas K | 267 |
-| cit | cit | cite ?, citaye | 266 |
-| riṣ | riṣ | rise rises | 257 |
-| kṣubh | kṣubh | ksobdhos | 236 |
 
 ## Lexicon-only roots (37) — DCS lists, corpus never attests
 

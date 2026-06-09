@@ -45,6 +45,8 @@ DEFAULT_APP_DATA = os.path.join(REPO, "src", "app_data.json")
 DEFAULT_OUT_FREQ = os.path.join(REPO, "src", "dcs_freq.json")
 DEFAULT_OUT_AUDIT_JSON = os.path.join(REPO, "Whitney_DCS_audit.json")
 DEFAULT_OUT_AUDIT_MD = os.path.join(REPO, "Whitney_DCS_audit.md")
+DEFAULT_OUT_PINDEX = os.path.join(REPO, "src", "participle_index.json")
+DEFAULT_OUT_PINDEX_DCS = os.path.join(REPO, "src", "participle_index_dcs.json")
 
 DCS_SNAPSHOT = "2026 CoNLL-U"
 
@@ -219,7 +221,6 @@ def stream_detail(conn, wanted):
             "verbforms": Counter(),
             "tenses": Counter(),
             "voices": Counter(),
-            "ppp_forms": Counter(),
             "present_signal": Counter(),
         }
         for k in wanted
@@ -238,8 +239,6 @@ def stream_detail(conn, wanted):
         d["tenses"][tense or "—"] += 1
         d["voices"][voice or "Active"] += 1
         stem = muns or form or ""
-        if vf == "Part" and tense is None:
-            d["ppp_forms"][stem] += 1
         # present-stem signal: finite (vf NULL), Pres, active (voice NULL)
         if vf is None and tense == "Pres" and voice is None:
             d["present_signal"][present_class_bucket(stem)] += 1
@@ -261,6 +260,119 @@ def present_signal(sig: Counter):
     return {"dominant": dom, "evidence": ev}
 
 
+# --------------------------------------------------------------------------
+# Participle system — the classical 9, as far as DCS tagging + endings allow.
+# DCS natively tags ~6 buckets (verbform Part/Gdv × tense × voice); the
+# active/middle split and the perfect participle are inferred from the form
+# ending (heuristic). Absolutive (Conv) and infinitive (Inf) are NOT
+# participles and are excluded.
+# --------------------------------------------------------------------------
+PARTICIPLE_ORDER = [
+    "present-active", "present-middle", "present-passive",
+    "past-passive", "past-active", "perfect-active",
+    "future-active", "future-middle", "gerundive",
+]
+PARTICIPLE_LABELS = {
+    "present-active": "Present active (-at/-ant)",
+    "present-middle": "Present middle (-māna/-āna)",
+    "present-passive": "Present passive (-yamāna)",
+    "past-passive": "Past passive — PPP (-ta/-na)",
+    "past-active": "Past active (-tavant)",
+    "perfect-active": "Perfect active (-vas/-vāṃs)",
+    "future-active": "Future active (-syant)",
+    "future-middle": "Future middle (-syamāna)",
+    "gerundive": "Gerundive / FPP (-tavya/-anīya/-ya)",
+}
+_MIDDLE_END = ("māna", "māne", "mānaḥ", "mānam", "mānā", "mānau", "mānāḥ", "mānāt",
+               "āna", "āṇa", "ānaḥ", "āṇaḥ", "ānam", "āṇam", "ānā", "āṇā", "ānāḥ", "āṇāḥ")
+_PERFECT_END = ("vāṃs", "vāṃsam", "vān", "vānam", "vuṣaḥ", "vuṣā", "ivān", "ivāṃs",
+                "uṣīm", "uṣī", "uṣaḥ")
+_TAVANT = re.compile(r"tav(ant|ān|at|atī|antam|atā)?$")
+
+
+def _is_middle(f: str) -> bool:
+    return f.endswith(_MIDDLE_END)
+
+
+def participle_category(vf, tense, voice, form):
+    """Return one of PARTICIPLE_ORDER, or None if not a participle."""
+    f = form or ""
+    if vf == "Gdv":
+        return "gerundive"
+    if vf != "Part":
+        return None
+    # -tavant past active participle (kṛtavān) — check before perfect (-vān clash)
+    if _TAVANT.search(f) or "tavant" in f:
+        return "past-active"
+    # perfect active participle (cakṛvān, vidvāṃs) — -vas/-vāṃs without 'tav'
+    if f.endswith(_PERFECT_END):
+        return "perfect-active"
+    if voice == "Pass":
+        return "present-passive"
+    if tense == "Pres":
+        return "present-middle" if _is_middle(f) else "present-active"
+    if tense == "Fut":
+        return "future-middle" if _is_middle(f) else "future-active"
+    # tense Past/None, non-tavant → PPP
+    return "past-passive"
+
+
+def scan_participles(conn, linked):
+    """One scan over participle/gerundive tokens across ALL verbal lemmas.
+
+    linked: lemma_str -> list of (whitney_id, root) for linked entries.
+    Returns:
+      part_by_lemma: lemma -> category -> Counter(surface form)
+      whitney_index: surface form -> list[{id, root, category}]  (linked roots)
+      dcs_index:     surface form -> list[{lemma, category}]      (all roots)
+    """
+    part_by_lemma = defaultdict(lambda: defaultdict(Counter))
+    dcs_pairs = defaultdict(set)  # form -> set((lemma, category))
+    q = (
+        "SELECT lemma, form, m_unsandhied, feat_verbform, feat_tense, feat_voice "
+        "FROM token WHERE upos='VERB' AND feat_verbform IN ('Part','Gdv')"
+    )
+    for lemma, form, muns, vf, tense, voice in conn.execute(q):
+        cat = participle_category(vf, tense, voice, muns or form or "")
+        if not cat:
+            continue
+        surf = form or muns or ""
+        if not surf:
+            continue
+        part_by_lemma[lemma][cat][surf] += 1
+        dcs_pairs[surf].add((lemma, cat))
+
+    whitney_index = {}
+    dcs_index = {}
+    for surf, pairs in dcs_pairs.items():
+        dcs_index[surf] = sorted(
+            ({"lemma": lem, "category": cat} for lem, cat in pairs),
+            key=lambda x: (x["lemma"], x["category"]),
+        )
+        wlist = [
+            {"id": wid, "root": root, "category": cat}
+            for lem, cat in pairs
+            for (wid, root) in linked.get(lem, [])
+        ]
+        if wlist:
+            whitney_index[surf] = sorted(wlist, key=lambda x: (x["root"], x["category"]))
+    return part_by_lemma, whitney_index, dcs_index
+
+
+def build_participles_field(parts):
+    """parts: category -> Counter(form). Returns ordered dict for the sidecar."""
+    out = {}
+    for cat in PARTICIPLE_ORDER:
+        c = parts.get(cat)
+        if c:
+            out[cat] = {
+                "label": PARTICIPLE_LABELS[cat],
+                "total": sum(c.values()),
+                "top": [{"form": f, "n": n} for f, n in c.most_common(8)],
+            }
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--db", default=DEFAULT_DB)
@@ -268,6 +380,8 @@ def main():
     ap.add_argument("--out-freq", default=DEFAULT_OUT_FREQ)
     ap.add_argument("--out-audit-json", default=DEFAULT_OUT_AUDIT_JSON)
     ap.add_argument("--out-audit-md", default=DEFAULT_OUT_AUDIT_MD)
+    ap.add_argument("--out-pindex", default=DEFAULT_OUT_PINDEX)
+    ap.add_argument("--out-pindex-dcs", default=DEFAULT_OUT_PINDEX_DCS)
     args = ap.parse_args()
 
     if not os.path.exists(args.db):
@@ -314,6 +428,13 @@ def main():
     print("Streaming verb tokens for matched roots ...")
     wanted = {used for (_, used, _) in resolved if used}
     detail = stream_detail(conn, wanted)
+
+    print("Scanning participles (all 9 categories) + building indexes ...")
+    linked = defaultdict(list)
+    for e, used, _ in resolved:
+        if used:
+            linked[used].append((str(e["id"]), e["root"]))
+    part_by_lemma, whitney_index, dcs_index = scan_participles(conn, linked)
     conn.close()
 
     # ---- build sidecar + audit ----
@@ -332,7 +453,8 @@ def main():
                 "root": e["root"], "dcs_lemma": None, "dcs_status": "unmatched",
                 "total": 0, "rank": None, "grammar_class": [], "grammar_derived": [],
                 "grammar_raw": "", "verbforms": {}, "tenses": {}, "voices": {},
-                "top_forms": [], "ppp": [], "preverbs": [], "present_stem_signal": {},
+                "top_forms": [], "ppp": [], "participles": {}, "preverbs": [],
+                "present_stem_signal": {},
             }
             audit_rows.append({
                 "id": eid, "root": e["root"], "dcs_lemma": None, "status": "unmatched",
@@ -349,7 +471,10 @@ def main():
         d = detail.get(used, {})
         total = totals.get(used, 0)
         gl, derived, raw = parse_classes(grammar_by_lemma.get(used, []))
-        ppp_stems = derive_ppp_stems(d.get("ppp_forms", Counter())) if d else []
+        parts = part_by_lemma.get(used, {})
+        ppp_counter = parts.get("past-passive", Counter())
+        ppp_stems = derive_ppp_stems(ppp_counter)
+        participles = build_participles_field(parts)
         sig = present_signal(d.get("present_signal", Counter())) if d else {"dominant": None, "evidence": []}
         top_forms = [{"form": f, "n": n} for f, n in d.get("forms", Counter()).most_common(15)] if d else []
         # Prefixed forms: lemma must end in the root AND its leading part must
@@ -374,6 +499,7 @@ def main():
             "voices": dict(d.get("voices", Counter())) if d else {},
             "top_forms": top_forms,
             "ppp": ppp_stems,
+            "participles": participles,
             "preverbs": pv,
             "present_stem_signal": sig,
         }
@@ -396,7 +522,7 @@ def main():
 
         # ppp: prefix test against attested PPP forms (robust)
         # PPP confirmation: fold diacritics on both sides (Whitney ppp is ASCII)
-        ppp_folded = [fold(f) for f in (d.get("ppp_forms", Counter()).keys() if d else [])]
+        ppp_folded = [fold(f) for f in ppp_counter.keys()]
         ppp_results = []
         for p in w_ppp:
             pf = fold(p)
@@ -432,12 +558,29 @@ def main():
 
     write_audit_md(args.out_audit_md, meta, audit_rows)
 
+    # ---- participle reverse indexes (surface form -> root/lemma + category) ----
+    pmeta = {
+        "source": os.path.basename(args.db), "dcs_snapshot": DCS_SNAPSHOT,
+        "generated": str(date.today()), "categories": PARTICIPLE_ORDER,
+        "labels": PARTICIPLE_LABELS,
+    }
+    with open(args.out_pindex, "w", encoding="utf-8") as fh:
+        json.dump({"metadata": {**pmeta, "scope": "Whitney-linked roots",
+                                "forms": len(whitney_index)},
+                   "index": whitney_index}, fh, ensure_ascii=False, indent=1)
+    with open(args.out_pindex_dcs, "w", encoding="utf-8") as fh:
+        json.dump({"metadata": {**pmeta, "scope": "all DCS verbal roots",
+                                "forms": len(dcs_index)},
+                   "index": dcs_index}, fh, ensure_ascii=False, indent=1)
+
     print("\n=== summary ===")
     for k in ("matched", "normalized", "homonym_shared", "unmatched"):
         print(f"  {k:15s} {counts[k]}")
-    linked = counts["matched"] + counts["normalized"] + counts["homonym_shared"]
-    print(f"  {'linked total':15s} {linked} / {len(lexicon)}")
-    print(f"\nWrote:\n  {args.out_freq}\n  {args.out_audit_json}\n  {args.out_audit_md}")
+    linked_n = counts["matched"] + counts["normalized"] + counts["homonym_shared"]
+    print(f"  {'linked total':15s} {linked_n} / {len(lexicon)}")
+    print(f"  participle forms: whitney={len(whitney_index)}  dcs-all={len(dcs_index)}")
+    print(f"\nWrote:\n  {args.out_freq}\n  {args.out_audit_json}\n  {args.out_audit_md}"
+          f"\n  {args.out_pindex}\n  {args.out_pindex_dcs}")
 
 
 def write_audit_md(path, meta, rows):
