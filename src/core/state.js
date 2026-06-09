@@ -9,6 +9,8 @@ export const state = {
   selectedItem: null,
   data: null,
   isLoading: true,
+  sortBy: 'default',        // 'default' | 'freq-desc' | 'freq-asc'
+  attestedOnly: false,      // show only roots attested in the DCS corpus
   stats: {
     rootsViewed: 0,
     perfectQuizzes: 0,

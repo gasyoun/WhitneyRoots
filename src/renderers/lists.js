@@ -1,7 +1,38 @@
 import { createElement } from '../utils/dom.js';
 import { renderRootCard } from './cards.js';
 import { buildTopicClusters } from '../core/analytics.js';
-import { updateState } from '../core/state.js';
+import { state, updateState } from '../core/state.js';
+
+/** DCS sort + filter controls for the list view. */
+function renderDcsControls() {
+  const bar = createElement('div', { class: 'dcs-controls' });
+
+  const sortLabel = createElement('label', { class: 'dcs-ctrl-label' }, ['Sort: ']);
+  const select = document.createElement('select');
+  select.className = 'dcs-select';
+  [['default', 'Whitney order'],
+   ['freq-desc', 'Most frequent (DCS)'],
+   ['freq-asc', 'Least frequent (DCS)']].forEach(([val, txt]) => {
+    const opt = document.createElement('option');
+    opt.value = val; opt.textContent = txt;
+    if (state.sortBy === val) opt.selected = true;
+    select.appendChild(opt);
+  });
+  select.onchange = () => updateState({ sortBy: select.value });
+  sortLabel.appendChild(select);
+
+  const filterLabel = createElement('label', { class: 'dcs-ctrl-label' });
+  const cb = document.createElement('input');
+  cb.type = 'checkbox';
+  cb.checked = !!state.attestedOnly;
+  cb.onchange = () => updateState({ attestedOnly: cb.checked });
+  filterLabel.appendChild(cb);
+  filterLabel.appendChild(document.createTextNode(' Corpus-attested only'));
+
+  bar.appendChild(sortLabel);
+  bar.appendChild(filterLabel);
+  return bar;
+}
 
 export function renderRootList(data) {
   // We need the full data for clusters, but only use 'data' (filtered) for the grid
@@ -35,7 +66,8 @@ export function renderRootList(data) {
   });
   
   container.appendChild(clustersBar);
+  container.appendChild(renderDcsControls());
   container.appendChild(grid);
-  
+
   return container;
 }

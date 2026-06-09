@@ -1,6 +1,6 @@
 /**
  * WhitneyRoots v3 Bundle
- * Generated: 2026-05-06T21:47:00.064Z
+ * Generated: 2026-06-09T22:16:55.427Z
  */
 
 // --- FILE: core/state.js ---
@@ -15,6 +15,8 @@ const state = {
   selectedItem: null,
   data: null,
   isLoading: true,
+  sortBy: 'default',        // 'default' | 'freq-desc' | 'freq-asc'
+  attestedOnly: false,      // show only roots attested in the DCS corpus
   stats: {
     rootsViewed: 0,
     perfectQuizzes: 0,
@@ -39,14 +41,38 @@ function updateState(newState) {
 
 export async function loadAppData() {
   try {
-    const response = await fetch('src/app_data.json');
-    const data = await response.json();
+    const [appResp, freqResp] = await Promise.all([
+      fetch('src/app_data.json'),
+      fetch('src/dcs_freq.json').catch(() => null)
+    ]);
+    const data = await appResp.json();
     const migrated = migrateAppDataSchema(data);
+
+    // Optional DCS corpus enrichment (sidecar; app works without it)
+    if (freqResp && freqResp.ok) {
+      try {
+        const freq = await freqResp.json();
+        mergeDcsFreq(migrated, freq);
+      } catch (e) {
+        console.warn('DCS frequency sidecar present but unreadable:', e);
+      }
+    }
+
     updateState({ data: migrated, isLoading: false });
   } catch (error) {
     console.error('Failed to load app data:', error);
     updateState({ isLoading: false });
   }
+}
+
+function mergeDcsFreq(data, freq) {
+  if (!freq || !freq.entries) return data;
+  data.dcsMeta = freq.metadata || null;
+  data.lexicon.forEach(item => {
+    const d = freq.entries[item.id];
+    if (d) item.dcs = d;
+  });
+  return data;
 }
 
 function migrateAppDataSchema(data) {
@@ -117,36 +143,49 @@ function navigateTo(route) {
  * @description Quiz engine for WhitneyRoots
  */
 
-const whitneyQuiz = {
-  levels: [
-    {
-      id: 1,
-      title: "Basic Roots",
-      questions: [
-        {
-          question: "What is the meaning of the root √ad?",
-          options: ["go", "eat", "praise", "be"],
-          answer: "eat"
-        },
-        {
-          question: "Which root means 'to breathe'?",
-          options: ["√an", "√as", "√ah", "√am"],
-          answer: "√an"
-        }
-      ]
+function startQuiz(data, count = 10) {
+  if (!data || !data.lexicon || data.lexicon.length === 0) return null;
+  
+  const questions = [];
+  const lexicon = data.lexicon;
+  
+  for (let i = 0; i < count; i++) {
+    const target = lexicon[Math.floor(Math.random() * lexicon.length)];
+    const type = Math.random() > 0.5 ? 'ROOT_TO_MEANING' : 'MEANING_TO_ROOT';
+    
+    // Get 3 random decoys
+    const decoys = [];
+    while (decoys.length < 3) {
+      const decoy = lexicon[Math.floor(Math.random() * lexicon.length)];
+      if (decoy.id !== target.id && !decoys.includes(decoy)) {
+        decoys.push(decoy);
+      }
     }
-  ]
-};
-
-function startQuiz(levelId) {
-  const level = whitneyQuiz.levels.find(l => l.id === levelId);
-  if (!level) return null;
+    
+    if (type === 'ROOT_TO_MEANING') {
+      questions.push({
+        question: `What is the meaning of the root √${target.root}?`,
+        options: shuffle([target.meaning, ...decoys.map(d => d.meaning)]),
+        answer: target.meaning
+      });
+    } else {
+      questions.push({
+        question: `Which root means '${target.meaning}'?`,
+        options: shuffle([`√${target.root}`, ...decoys.map(d => `√${d.root}`)]),
+        answer: `√${target.root}`
+      });
+    }
+  }
   
   return {
-    ...level,
-    currentQuestion: 0,
+    title: "Dynamic Root Challenge",
+    questions,
     score: 0
   };
+}
+
+function shuffle(array) {
+  return array.sort(() => Math.random() - 0.5);
 }
 
 
@@ -374,7 +413,8 @@ function renderRootCard(rootItem) {
       createElement('h3', {}, [rootItem.root]),
       createElement('span', { class: 'devanagari' }, [devanagari])
     ]),
-    rootItem.classes && rootItem.classes.length > 0 ? 
+    renderDcsBadge(rootItem),
+    rootItem.classes && rootItem.classes.length > 0 ?
       createElement('div', { class: 'classes' }, rootItem.classes.map(c => createElement('span', { class: 'class-badge' }, [c]))) : 
       null,
     rootItem.ppp && rootItem.ppp.length > 0 ?
@@ -387,12 +427,60 @@ function renderRootCard(rootItem) {
   ]);
 }
 
+/**
+ * Compact DCS corpus-frequency badge for a card.
+ * Attested roots get a token count + corpus rank; unmatched / zero-attestation
+ * roots get a neutral "not in DCS corpus" tag (no judgement implied).
+ */
+function renderDcsBadge(rootItem) {
+  const dcs = rootItem.dcs;
+  if (!dcs) return null;
+  if (dcs.total > 0) {
+    return createElement('div', { class: 'dcs-badge', title: 'Digital Corpus of Sanskrit attestations' }, [
+      createElement('span', { class: 'dcs-freq' }, [`${dcs.total.toLocaleString()}×`]),
+      dcs.rank ? createElement('span', { class: 'dcs-rank' }, [`#${dcs.rank}`]) : null
+    ]);
+  }
+  return createElement('span', { class: 'dcs-tag-none' }, ['not in DCS corpus']);
+}
+
 
 // --- FILE: renderers/lists.js ---
 
 
 
 
+
+/** DCS sort + filter controls for the list view. */
+function renderDcsControls() {
+  const bar = createElement('div', { class: 'dcs-controls' });
+
+  const sortLabel = createElement('label', { class: 'dcs-ctrl-label' }, ['Sort: ']);
+  const select = document.createElement('select');
+  select.className = 'dcs-select';
+  [['default', 'Whitney order'],
+   ['freq-desc', 'Most frequent (DCS)'],
+   ['freq-asc', 'Least frequent (DCS)']].forEach(([val, txt]) => {
+    const opt = document.createElement('option');
+    opt.value = val; opt.textContent = txt;
+    if (state.sortBy === val) opt.selected = true;
+    select.appendChild(opt);
+  });
+  select.onchange = () => updateState({ sortBy: select.value });
+  sortLabel.appendChild(select);
+
+  const filterLabel = createElement('label', { class: 'dcs-ctrl-label' });
+  const cb = document.createElement('input');
+  cb.type = 'checkbox';
+  cb.checked = !!state.attestedOnly;
+  cb.onchange = () => updateState({ attestedOnly: cb.checked });
+  filterLabel.appendChild(cb);
+  filterLabel.appendChild(document.createTextNode(' Corpus-attested only'));
+
+  bar.appendChild(sortLabel);
+  bar.appendChild(filterLabel);
+  return bar;
+}
 
 function renderRootList(data) {
   // We need the full data for clusters, but only use 'data' (filtered) for the grid
@@ -426,8 +514,9 @@ function renderRootList(data) {
   });
   
   container.appendChild(clustersBar);
+  container.appendChild(renderDcsControls());
   container.appendChild(grid);
-  
+
   return container;
 }
 
@@ -443,7 +532,7 @@ function renderRootList(data) {
 
 
 function renderQuiz() {
-  const quizState = startQuiz(1); // Default to level 1
+  const quizState = startQuiz(state.data, 10); 
   const container = createElement('div', { class: 'quiz-container' });
   
   function renderQuestion(questionIndex) {
@@ -480,6 +569,12 @@ function renderQuiz() {
 
   function renderResult() {
     container.innerHTML = '';
+    
+    // Tracking perfect scores
+    if (quizState.score === quizState.questions.length) {
+      updateState({ stats: { ...state.stats, perfectQuizzes: state.stats.perfectQuizzes + 1 } });
+    }
+
     container.appendChild(createElement('div', { class: 'quiz-result' }, [
       createElement('h2', {}, ['Quiz Complete!']),
       createElement('p', {}, [`Your score: ${quizState.score} / ${quizState.questions.length}`]),
@@ -541,6 +636,8 @@ function renderDetailView(rootId, data) {
           ]) : null
       ]),
 
+      buildDcsSection(rootItem),
+
       createElement('section', {}, [
         createElement('h3', {}, ['Meaning']),
         createElement('p', { class: 'detail-meaning' }, [rootItem.meaning])
@@ -557,14 +654,155 @@ function renderDetailView(rootId, data) {
 
       createElement('section', {}, [
         createElement('h3', {}, ['References']),
-        createElement('a', { 
-          href: rootItem.link, 
-          target: '_blank', 
-          class: 'external-link large' 
+        createElement('a', {
+          href: rootItem.link,
+          target: '_blank',
+          class: 'external-link large'
         }, ['View full entry on samskrtam.ru'])
       ])
     ])
   ]);
+}
+
+const ROMAN_TO_ARABIC = {
+  I: '1', II: '2', III: '3', IV: '4', V: '5',
+  VI: '6', VII: '7', VIII: '8', IX: '9', X: '10'
+};
+
+function chip(text, cls) {
+  return createElement('span', { class: cls || 'dcs-chip' }, [text]);
+}
+
+/**
+ * The DCS corpus section: frequency/rank, class comparison + verdict,
+ * PPP confirmation, the 9 participle categories, top forms and preverbs.
+ * Falls back to a neutral note when the root is not in the corpus.
+ */
+function buildDcsSection(rootItem) {
+  const dcs = rootItem.dcs;
+  if (!dcs || dcs.total === 0) {
+    return createElement('section', { class: 'dcs-section' }, [
+      createElement('h3', {}, ['DCS Corpus']),
+      createElement('p', { class: 'dcs-none-note' }, [
+        'Not attested in the Digital Corpus of Sanskrit. ' +
+        'This root is listed by Whitney but the corpus offers no usage evidence.'
+      ])
+    ]);
+  }
+
+  // ---- class comparison + verdict ----
+  const wClasses = (rootItem.classes || []).map(c => ROMAN_TO_ARABIC[c] || c);
+  const dClasses = dcs.grammar_class || [];
+  const wset = new Set(wClasses);
+  const dset = new Set(dClasses);
+  let verdict = 'no DCS class', vcls = 'neutral';
+  if (dClasses.length) {
+    const inter = [...wset].filter(x => dset.has(x));
+    const same = wset.size === dset.size && inter.length === wset.size;
+    if (same) { verdict = 'agree'; vcls = 'agree'; }
+    else if (inter.length) { verdict = 'partial overlap'; vcls = 'partial'; }
+    else { verdict = 'differ'; vcls = 'differ'; }
+  }
+  const signal = dcs.present_stem_signal && dcs.present_stem_signal.dominant;
+
+  const classRow = createElement('div', { class: 'dcs-class-compare' }, [
+    createElement('div', { class: 'dcs-cc-col' }, [
+      createElement('span', { class: 'dcs-cc-label' }, ['Whitney']),
+      createElement('span', {}, [wClasses.join(', ') || '—'])
+    ]),
+    createElement('div', { class: 'dcs-cc-col' }, [
+      createElement('span', { class: 'dcs-cc-label' }, ['DCS grammar']),
+      createElement('span', {}, [dClasses.join(', ') || '—'])
+    ]),
+    createElement('div', { class: 'dcs-cc-col' }, [
+      createElement('span', { class: 'dcs-cc-label' }, ['Corpus signal']),
+      createElement('span', {}, [signal || '—'])
+    ]),
+    createElement('span', { class: `dcs-verdict ${vcls}` }, [verdict])
+  ]);
+
+  // ---- PPP confirmation (Whitney's listed PPP vs attested) ----
+  let pppRow = null;
+  const wppp = (rootItem.ppp || []).filter(Boolean);
+  if (wppp.length) {
+    const attested = new Set((dcs.participles && dcs.participles['past-passive']
+      ? dcs.participles['past-passive'].top : []).map(t => fold(t.form)));
+    // also fold the derived ppp stems for a broader confirm set
+    (dcs.ppp || []).forEach(s => attested.add(fold(s.stem)));
+    pppRow = createElement('div', { class: 'dcs-ppp-check' }, [
+      createElement('span', { class: 'dcs-cc-label' }, ['Whitney PPP vs corpus: ']),
+      ...wppp.map(p => {
+        const pf = fold(p);
+        const ok = [...attested].some(a => a === pf || a.startsWith(pf));
+        return chip(`${p} ${ok ? '✓' : '✗'}`, `dcs-chip ${ok ? 'ok' : 'miss'}`);
+      })
+    ]);
+  }
+
+  // ---- participles (the 9 categories) ----
+  let partBlock = null;
+  const parts = dcs.participles || {};
+  const cats = Object.keys(parts);
+  if (cats.length) {
+    partBlock = createElement('div', { class: 'dcs-participles' },
+      cats.map(cat => {
+        const info = parts[cat];
+        return createElement('div', { class: 'dcs-part-cat' }, [
+          createElement('div', { class: 'dcs-part-head' }, [
+            createElement('span', { class: 'dcs-part-label' }, [info.label || cat]),
+            createElement('span', { class: 'dcs-part-n' }, [`${info.total.toLocaleString()}`])
+          ]),
+          createElement('div', { class: 'dcs-part-forms' },
+            (info.top || []).slice(0, 5).map(t => chip(t.form))
+          )
+        ]);
+      })
+    );
+  }
+
+  // ---- top forms + preverbs ----
+  const topForms = (dcs.top_forms || []).slice(0, 12);
+  const preverbs = (dcs.preverbs || []).slice(0, 10);
+
+  return createElement('section', { class: 'dcs-section' }, [
+    createElement('h3', {}, ['DCS Corpus']),
+    createElement('div', { class: 'dcs-freq-line' }, [
+      createElement('span', { class: 'dcs-freq-big' }, [dcs.total.toLocaleString()]),
+      createElement('span', { class: 'dcs-freq-unit' }, ['attestations']),
+      dcs.rank ? createElement('span', { class: 'dcs-rank-pill' }, [`rank #${dcs.rank}`]) : null
+    ]),
+
+    createElement('h4', {}, ['Verb class — Whitney vs corpus']),
+    classRow,
+    createElement('p', { class: 'dcs-foot' }, [
+      'DCS grammar is itself lexicon metadata; the corpus signal is a coarse ' +
+      'present-stem heuristic. Disagreement is not proof Whitney is wrong.'
+    ]),
+
+    pppRow,
+
+    partBlock ? createElement('h4', {}, ['Participles attested in the corpus']) : null,
+    partBlock,
+
+    topForms.length ? createElement('h4', {}, ['Most frequent forms']) : null,
+    topForms.length ? createElement('div', { class: 'dcs-chips' },
+      topForms.map(t => chip(`${t.form} (${t.n})`))) : null,
+
+    preverbs.length ? createElement('h4', {}, ['Preverb compounds']) : null,
+    preverbs.length ? createElement('div', { class: 'dcs-chips' },
+      preverbs.map(p => chip(`${p.form} (${p.n.toLocaleString()})`))) : null
+  ]);
+}
+
+/** Diacritic fold to match Whitney's ASCII PPP against DCS IAST forms. */
+function fold(s) {
+  if (!s) return '';
+  return s.normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/[āīūṛṝḷḹṅñṭḍṇśṣḥṃṁ]/g, m => ({
+      'ā': 'a', 'ī': 'i', 'ū': 'u', 'ṛ': 'r', 'ṝ': 'r', 'ḷ': 'l', 'ḹ': 'l',
+      'ṅ': 'n', 'ñ': 'n', 'ṭ': 't', 'ḍ': 'd', 'ṇ': 'n', 'ś': 's', 'ṣ': 's',
+      'ḥ': 'h', 'ṃ': 'm', 'ṁ': 'm'
+    }[m] || m)).toLowerCase();
 }
 
 
@@ -636,8 +874,19 @@ function renderApp(currentState) {
     return;
   }
 
-  const filteredData = performSearch(currentState.data, currentState.searchQuery);
-  
+  let filteredData = performSearch(currentState.data, currentState.searchQuery);
+
+  // DCS attested-only filter + frequency sort
+  if (currentState.attestedOnly) {
+    filteredData = filteredData.filter(r => r.dcs && r.dcs.total > 0);
+  }
+  const freq = r => (r.dcs && r.dcs.total) || 0;
+  if (currentState.sortBy === 'freq-desc') {
+    filteredData = [...filteredData].sort((a, b) => freq(b) - freq(a));
+  } else if (currentState.sortBy === 'freq-asc') {
+    filteredData = [...filteredData].sort((a, b) => freq(a) - freq(b));
+  }
+
   appContainer.appendChild(renderRootList(filteredData));
 }
 

@@ -361,3 +361,176 @@ footer {
   gap: 25px;
   padding-bottom: 60px;
 }
+
+/* ===================== DCS corpus enrichment ===================== */
+
+/* Card badge */
+.dcs-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+.dcs-freq {
+  color: var(--bg-primary);
+  background: var(--accent-color);
+  padding: 2px 7px;
+  border-radius: 6px;
+}
+.dcs-rank {
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.06);
+  padding: 2px 7px;
+  border-radius: 6px;
+}
+.dcs-tag-none {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px dashed var(--border-color);
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+/* List controls */
+.dcs-controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 4px 0 18px;
+  padding: 10px 14px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+}
+.dcs-ctrl-label {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.dcs-select {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 5px 8px;
+  font-size: 0.85rem;
+}
+
+/* Detail section */
+.dcs-section {
+  border-top: 1px solid var(--border-color);
+  padding-top: 8px;
+}
+.dcs-section h4 {
+  margin: 18px 0 8px;
+  font-size: 0.95rem;
+  color: var(--accent-color);
+}
+.dcs-freq-line {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.dcs-freq-big {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+.dcs-freq-unit { color: var(--text-secondary); }
+.dcs-rank-pill {
+  margin-left: auto;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.06);
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+.dcs-class-compare {
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+  flex-wrap: wrap;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 10px;
+  padding: 12px;
+}
+.dcs-cc-col { display: flex; flex-direction: column; gap: 3px; }
+.dcs-cc-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+}
+.dcs-verdict {
+  margin-left: auto;
+  align-self: center;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 999px;
+  text-transform: uppercase;
+}
+.dcs-verdict.agree { color: #052e16; background: #4ade80; }
+.dcs-verdict.partial { color: #422006; background: #fbbf24; }
+.dcs-verdict.differ { color: #450a0a; background: #f87171; }
+.dcs-verdict.neutral { color: var(--text-secondary); background: rgba(255, 255, 255, 0.08); }
+.dcs-foot {
+  font-size: 0.74rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin: 6px 0 0;
+}
+.dcs-ppp-check { margin-top: 12px; display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.dcs-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.dcs-chip {
+  font-size: 0.82rem;
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-color);
+  padding: 2px 9px;
+  border-radius: 999px;
+}
+.dcs-chip.ok { border-color: #4ade80; color: #4ade80; }
+.dcs-chip.miss { border-color: #f87171; color: #f87171; }
+
+/* Participle grid */
+.dcs-participles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+.dcs-part-cat {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 10px;
+}
+.dcs-part-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 6px;
+}
+.dcs-part-label { font-size: 0.8rem; font-weight: 600; color: var(--text-primary); }
+.dcs-part-n {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent-color);
+}
+.dcs-part-forms { display: flex; flex-wrap: wrap; gap: 5px; }
+.dcs-part-forms .dcs-chip { font-size: 0.76rem; padding: 1px 7px; }
+.dcs-none-note {
+  color: var(--text-secondary);
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  padding: 12px;
+}

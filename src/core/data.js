@@ -7,14 +7,38 @@ import { updateState } from './state.js';
 
 export async function loadAppData() {
   try {
-    const response = await fetch('src/app_data.json');
-    const data = await response.json();
+    const [appResp, freqResp] = await Promise.all([
+      fetch('src/app_data.json'),
+      fetch('src/dcs_freq.json').catch(() => null)
+    ]);
+    const data = await appResp.json();
     const migrated = migrateAppDataSchema(data);
+
+    // Optional DCS corpus enrichment (sidecar; app works without it)
+    if (freqResp && freqResp.ok) {
+      try {
+        const freq = await freqResp.json();
+        mergeDcsFreq(migrated, freq);
+      } catch (e) {
+        console.warn('DCS frequency sidecar present but unreadable:', e);
+      }
+    }
+
     updateState({ data: migrated, isLoading: false });
   } catch (error) {
     console.error('Failed to load app data:', error);
     updateState({ isLoading: false });
   }
+}
+
+export function mergeDcsFreq(data, freq) {
+  if (!freq || !freq.entries) return data;
+  data.dcsMeta = freq.metadata || null;
+  data.lexicon.forEach(item => {
+    const d = freq.entries[item.id];
+    if (d) item.dcs = d;
+  });
+  return data;
 }
 
 export function migrateAppDataSchema(data) {

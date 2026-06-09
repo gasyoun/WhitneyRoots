@@ -65,8 +65,19 @@ function renderApp(currentState) {
     return;
   }
 
-  const filteredData = performSearch(currentState.data, currentState.searchQuery);
-  
+  let filteredData = performSearch(currentState.data, currentState.searchQuery);
+
+  // DCS attested-only filter + frequency sort
+  if (currentState.attestedOnly) {
+    filteredData = filteredData.filter(r => r.dcs && r.dcs.total > 0);
+  }
+  const freq = r => (r.dcs && r.dcs.total) || 0;
+  if (currentState.sortBy === 'freq-desc') {
+    filteredData = [...filteredData].sort((a, b) => freq(b) - freq(a));
+  } else if (currentState.sortBy === 'freq-asc') {
+    filteredData = [...filteredData].sort((a, b) => freq(a) - freq(b));
+  }
+
   appContainer.appendChild(renderRootList(filteredData));
 }
 
