@@ -1,0 +1,313 @@
+id,root,type,whitney,dcs,corpus_signal,corpus_backs,tokens
+170,gam,class,1|2,6,I/VI,ambiguous,18341
+815,śru,class,2|5,4,VIII,ambiguous,10505
+608,yuj,class,2|6|7,1,II/III (athematic),ambiguous,5933
+269,jñā,class,1|9,4,IX,Whitney,5041
+546,man,class,3|4|8,1,I/VI,DCS,4697
+258,1 ji,class,1|2,9,X/caus-denom,ambiguous,4082
+259,2 ji,class,1|2,9,X/caus-denom,ambiguous,4082
+477,prach,class,6,1,I/VI,ambiguous,2851
+909,har,class,4,2|9,I/VI,ambiguous,2792
+854,sṛj,class,1|6,2,I/VI,Whitney,2749
+494,bandh,class,1|9,4,IX,Whitney,2654
+571,1 mṛ,class,1,4|9,IV,DCS,2615
+572,2 mṛ,class,1,4|9,IV,DCS,2615
+324,tyaj,class,1,3,I/VI,Whitney,2417
+792,śudh,class,1|2|4,7,IV,Whitney,2410
+26,āp,class,5,1,V,Whitney,2314
+242,chid,class,7,1,II/III (athematic),ambiguous,2139
+521,bhid,class,7,3,II/III (athematic),ambiguous,2047
+767,śak,class,5,4,V,Whitney,1952
+20,1 aś,class,5|9,1,V,Whitney,1948
+21,2 aś,class,5|9,1,V,Whitney,1948
+613,rakṣ,class,1,4,I/VI,Whitney,1929
+724,vāh,class,1,2,I/VI,Whitney,1845
+766,śaṃs,class,1,2,I/VI,Whitney,1785
+250,jap,class,1,4,I/VI,Whitney,1702
+745,vṛdh,class,1,6,I/VI,ambiguous,1619
+629,ram,class,1|9,4,I/VI,Whitney,1553
+388,dviṣ,class,2|6,1,I/VI,ambiguous,1343
+856,sev,class,1,4,VIII,ambiguous,1328
+705,vadh,class,1,4,I/VI,Whitney,1236
+402,dhṛ,class,1,4,I/VI,Whitney,1229
+141,1 kṣi,class,1|2|6,4,II/III (athematic),ambiguous,1181
+142,2 kṣi,class,1|2|6,4,II/III (athematic),ambiguous,1181
+405,dhyā,class,2|4,3,IV,Whitney,1164
+600,yam,class,1|2,6,I/VI,ambiguous,1093
+384,dru,class,1,9,I/VI,Whitney,1073
+456,piṣ,class,6|7,1,I/VI,ambiguous,1062
+457,pis,class,4,1,I/VI,DCS,1062
+734,viś,class,6,3,I/VI,Whitney,1053
+830,sad,class,1|2,6,I/VI,ambiguous,953
+846,su,class,3|5,6,V,Whitney,878
+369,duh,class,2|4|6,1,I/VI,ambiguous,806
+682,lip,class,6,4,I/VI,Whitney,778
+165,khyā,class,2,4,II/III (athematic),ambiguous,777
+790,śuc,class,1|2|4,6,I/VI,ambiguous,777
+506,bhañj,class,7,4,II/III (athematic),ambiguous,754
+841,sic,class,1|6,4,I/VI,Whitney,687
+813,1 śrī,class,9,4,II/III (athematic),ambiguous,644
+814,2 śrī,class,9,4,II/III (athematic),ambiguous,644
+779,śā,class,3|6,4,I/VI,Whitney,519
+45,īkṣ,class,1,4,I/VI,Whitney,473
+187,guh,class,1,6,I/VI,ambiguous,468
+120,krī,class,9,1,II/III (athematic),ambiguous,439
+464,puṣ,class,1|4|9,6,IV,Whitney,438
+684,lih,class,2|6,4,I/VI,Whitney,405
+75,ṛdh,class,4|5|7,6,V,Whitney,392
+156,khad,class,6,1,I/VI,ambiguous,369
+157,khan,class,1,2,I/VI,Whitney,352
+431,nud,class,6,7,I/VI,Whitney,332
+576,mṛj,class,1|2|6|7,3,I/VI,Whitney,298
+227,cit,class,1,3,I/VI,Whitney,266
+124,kruś,class,1,4,I/VI,Whitney,238
+138,kṣar,class,1,2,I/VI,Whitney,220
+90,kāṅkṣ,class,1,2,I/VI,Whitney,202
+55,1 ukṣ,class,6,4,I/VI,Whitney,191
+56,2 ukṣ,class,6,4,I/VI,Whitney,191
+794,1 śuṣ,class,4,6,IV,Whitney,166
+795,2 śuṣ,class,4,6,IV,Whitney,166
+476,pyā,class,4,2,I/VI,ambiguous,165
+504,bhakṣ,class,1,4,I/VI,Whitney,162
+209,ghṛṣ,class,1,4,I/VI,Whitney,156
+222,carv,class,4,1,,ambiguous,151
+582,mṛṣ,class,1|4,2,IV,Whitney,150
+443,pad,class,2|4,1,IV,Whitney,134
+896,sraṃs,class,1,9,I/VI,Whitney,133
+670,lajj,class,6,1,I/VI,ambiguous,109
+342,dabh,class,1|5,4,II/III (athematic),ambiguous,96
+820,śliṣ,class,1|4,6,IV,Whitney,92
+365,du,class,5,4,V,Whitney,82
+694,lū,class,5|9,8,V,Whitney,81
+385,druh,class,4,6,IV,Whitney,70
+83,kan,class,4,1,,ambiguous,56
+401,dhūrv,class,1,6,I/VI,ambiguous,50
+581,mṛś,class,6,2,I/VI,Whitney,33
+918,hīḍ,class,1,6,,ambiguous,29
+234,cūṣ,class,4,1,I/VI,DCS,22
+580,mṛdh,class,1|6,9,I/VI,Whitney,22
+486,pluṣ,class,1,4,,ambiguous,21
+858,skambh,class,1|5|9,8,IX,Whitney,20
+31,iṅg,class,1,4,I/VI,Whitney,15
+112,kṛś,class,4,1,I/VI,DCS,8
+725,1 vic,class,3|7,4,I/VI,ambiguous,8
+726,2 vic,class,3|7,4,I/VI,ambiguous,8
+660,rup,class,4,6,,ambiguous,6
+2,1 akṣ,class,1,5,?,ambiguous,4
+3,2 akṣ,class,1,5,?,ambiguous,4
+736,viṣṭ,class,1,6,,ambiguous,2
+778,śas,class,1|2,4,II/III (athematic),ambiguous,2
+917,hiṇḍ,class,1,4,,ambiguous,2
+536,bhrī,class,9,7,I/VI,ambiguous,1
+574,mṛc,class,4,6,,ambiguous,1
+859,sku,class,2|5|9,8,,ambiguous,1
+9,aṇṭh,class,6,1,,ambiguous,0
+563,mīv,class,1,6,,ambiguous,0
+349,1 dā,ppp_unattested,tta,,,,12008
+350,2 dā,ppp_unattested,tta,,,,12008
+351,3 dā,ppp_unattested,tta,,,,12008
+249,jan,ppp_unattested,janitos|janitvi,,,,9247
+908,han,ppp_unattested,ghata,,,,8744
+704,vad,ppp_unattested,vadita,,,,3914
+673,labh,ppp_unattested,labdhva|labhya,,,,3345
+911,1 hā,ppp_unattested,hana,,,,2739
+912,2 hā,ppp_unattested,hana,,,,2739
+524,1 bhuj,ppp_unattested,bhugna 1,,,,2725
+525,2 bhuj,ppp_unattested,bhugna 1,,,,2725
+715,1 vas,ppp_unattested,vastave,,,,2538
+716,2 vas,ppp_unattested,vastave,,,,2538
+717,3 vas,ppp_unattested,vastave,,,,2538
+143,kṣip,ppp_unattested,ksipita,,,,2461
+324,tyaj,ppp_unattested,tyajita,,,,2417
+296,tap,ppp_unattested,tapita,,,,2065
+767,śak,ppp_unattested,saktave,,,,1952
+718,vah,ppp_unattested,vodha ? E1,,,,1845
+469,1 pṛ,ppp_unattested,prta S1. purita,,,,1512
+470,2 pṛ,ppp_unattested,prta S1. purita,,,,1512
+471,3 pṛ,ppp_unattested,prta S1. purita,,,,1512
+262,juṣ,ppp_unattested,justvi,,,,1226
+773,1 śam,ppp_unattested,samita,,,,1159
+774,2 śam,ppp_unattested,samita,,,,1159
+775,3 śam,ppp_unattested,samita,,,,1159
+568,muh,ppp_unattested,muhe,,,,1103
+545,mad,ppp_unattested,madita|maditos,,,,1085
+846,su,ppp_unattested,sotave|tos,,,,878
+19,av,ppp_unattested,uta favour|like|delight in,,,,867
+319,tṛ,ppp_unattested,turna,,,,862
+790,śuc,ppp_unattested,sukta ?,,,,777
+737,vī,ppp_unattested,vita 1,,,,770
+813,1 śrī,ppp_unattested,sirta,,,,644
+814,2 śrī,ppp_unattested,sirta,,,,644
+566,mud,ppp_unattested,modam,,,,612
+534,bhram,ppp_unattested,bhramta,,,,592
+793,śubh,ppp_unattested,subhe,,,,547
+332,tvar,ppp_unattested,turta & turna,,,,539
+899,sru,ppp_unattested,sravitave,,,,538
+99,kup,ppp_unattested,kupita RV1,,,,521
+772,śap,ppp_unattested,sapita,,,,484
+413,nad,ppp_unattested,nadita,,,,460
+137,kṣam,ppp_unattested,ksamta,,,,439
+119,kram,ppp_unattested,kramta,,,,414
+808,śram,ppp_unattested,sramta,,,,382
+906,svid,ppp_unattested,svedam,,,,369
+343,dam,ppp_unattested,danta 1,,,,342
+870,stṛ,ppp_unattested,startave,,,,334
+708,1 vap,ppp_unattested,upita E1|vapta E1,,,,320
+709,2 vap,ppp_unattested,upita E1|vapta E1,,,,320
+576,mṛj,ppp_unattested,mrjita|marjita,,,,298
+719,1 vā,ppp_unattested,vana,,,,298
+720,2 vā,ppp_unattested,vana,,,,298
+721,3 vā,ppp_unattested,vana,,,,298
+743,vṛj,ppp_unattested,vrktvi|vrjya,,,,283
+797,1 śṛ,ppp_unattested,sirta|surta ? RV1,,,,278
+798,2 śṛ,ppp_unattested,sirta|surta ? RV1,,,,278
+799,3 śṛ,ppp_unattested,sirta|surta ? RV1,,,,278
+326,tras,ppp_unattested,trasas K,,,,267
+227,cit,ppp_unattested,cite ?|citaye,,,,266
+649,riṣ,ppp_unattested,rise rises,,,,257
+148,kṣubh,ppp_unattested,ksobdhos,,,,236
+668,lag,ppp_unattested,lagna B1.?,,,,236
+914,hi,ppp_unattested,hye,,,,224
+710,vam,ppp_unattested,vamta,,,,223
+138,kṣar,ppp_unattested,ksaradhyai,,,,220
+706,van,ppp_unattested,vata 1,,,,220
+635,1 rā,ppp_unattested,ratave,,,,214
+636,2 rā,ppp_unattested,ratave,,,,214
+831,san,ppp_unattested,sata win|conquer|acquire,,,,196
+882,spṛdh,ppp_unattested,spardhita,,,,186
+476,pyā,ppp_unattested,pyata,,,,165
+504,bhakṣ,ppp_unattested,bhaksita,,,,162
+567,muṣ,ppp_unattested,musta,,,,162
+209,ghṛṣ,ppp_unattested,gharsita,,,,156
+371,1 dṛ,ppp_unattested,drta R,,,,151
+372,2 dṛ,ppp_unattested,drta R,,,,151
+582,mṛṣ,ppp_unattested,mrsita,,,,150
+472,pṛc,ppp_unattested,prgna ? RV1|prce,,,,133
+491,1 phal,ppp_unattested,phalita,,,,127
+492,2 phal,ppp_unattested,phalita,,,,127
+417,nard,ppp_unattested,nardam,,,,116
+561,mī,ppp_unattested,metos,,,,103
+661,ruṣ,ppp_unattested,rusya,,,,102
+297,tam,ppp_unattested,tamta|tamitos,,,,99
+552,1 mi,ppp_unattested,mitya,,,,99
+553,2 mi,ppp_unattested,mitya,,,,99
+67,1 ūh,ppp_unattested,udha,,,,98
+68,2 ūh,ppp_unattested,udha,,,,98
+551,mārg,ppp_unattested,margita,,,,94
+128,klam,ppp_unattested,klamta,,,,90
+263,jū,ppp_unattested,javita|javam,,,,88
+559,miṣ,ppp_unattested,misita,,,,83
+84,kam,ppp_unattested,kamta,,,,82
+365,du,ppp_unattested,duta AA. ? C1,,,,82
+560,mih,ppp_unattested,mihe,,,,70
+178,gāh,ppp_unattested,gahita,,,,69
+628,rabh,ppp_unattested,rabdha,,,,67
+8,aṭ,ppp_unattested,atita,,,,60
+6,aj,ppp_unattested,ajita ?,,,,55
+322,tṛṣ,ppp_unattested,trsita|trsta ? adj,,,,55
+711,val,ppp_unattested,valitva,,,,54
+747,vṛh,ppp_unattested,vrdha brdha,,,,54
+422,nāth,ppp_unattested,nadhita,,,,52
+878,spand,ppp_unattested,spanditum,,,,52
+633,ras,ppp_unattested,rasita 1,,,,51
+937,hvṛ,ppp_unattested,hvrta|hvarita,,,,48
+479,prā,ppp_unattested,prata,,,,40
+320,tṛd,ppp_unattested,trnna,,,,39
+900,svaj,ppp_unattested,svakta,,,,39
+344,day,ppp_unattested,dayita,,,,38
+455,piś,ppp_unattested,pista,,,,36
+581,mṛś,ppp_unattested,mrsita,,,,33
+229,cud,ppp_unattested,cudita,,,,31
+224,cāy,ppp_unattested,cita,,,,30
+735,viṣ,ppp_unattested,vistvi,,,,29
+80,katth,ppp_unattested,katthita,,,,28
+932,hrī,ppp_unattested,hrina,,,,28
+727,vij,ppp_unattested,vikta,,,,27
+672,lap,ppp_unattested,lapta,,,,26
+928,heṣ,ppp_unattested,hesita,,,,26
+208,ghṛ,ppp_unattested,gharam,,,,25
+235,cṛt,ppp_unattested,crtta,,,,25
+515,bhas,ppp_unattested,bhasita,,,,25
+185,gur,ppp_unattested,gurna,,,,22
+347,das,ppp_unattested,dasta suffer want|languish,,,,22
+580,mṛdh,ppp_unattested,mrddha 1,,,,22
+381,1 drā,ppp_unattested,drana,,,,21
+382,2 drā,ppp_unattested,drana,,,,21
+804,śnath,ppp_unattested,snathas,,,,21
+751,vyac,ppp_unattested,vicita,,,,20
+323,tṛh,ppp_unattested,trdha,,,,19
+902,svan,ppp_unattested,svanita,,,,19
+765,vlī,ppp_unattested,vlina|blina|vliya,,,,18
+825,ṣṭhīv,ppp_unattested,styuta|sthivita,,,,18
+152,kṣvid,ppp_unattested,ksvinna|ksvidas,,,,17
+333,tviṣ,ppp_unattested,tvise,,,,16
+806,śrath,ppp_unattested,srthita|slathita,,,,16
+62,ubj,ppp_unattested,ubjita,,,,15
+245,chṛd,ppp_unattested,chrnna,,,,15
+13,am,ppp_unattested,anta|amita,,,,14
+803,ścut,ppp_unattested,scutita,,,,13
+936,hval,ppp_unattested,hvalita|hvalitos|hvalam,,,,13
+409,dhvṛ,ppp_unattested,dhurta|dhruta|dhurvane,,,,12
+784,śiñj,ppp_unattested,sinjita,,,,12
+612,raṃh,ppp_unattested,ramhita,,,,11
+87,kaṣ,ppp_unattested,kasita|kasam,,,,10
+619,raṭ,ppp_unattested,ratita,,,,10
+299,tarj,ppp_unattested,tarjita,,,,9
+583,med,ppp_unattested,minna,,,,9
+10,at,ppp_unattested,atita,,,,8
+366,dudh,ppp_unattested,dudhita,,,,8
+725,1 vic,ppp_unattested,vikta,,,,8
+726,2 vic,ppp_unattested,vikta,,,,8
+241,chā,ppp_unattested,chita,,,,7
+288,tak,ppp_unattested,tankam,,,,7
+306,tim,ppp_unattested,timita R,,,,7
+683,liś,ppp_unattested,lista,,,,7
+74,ṛd,ppp_unattested,ardita =,,,,6
+511,bharts,ppp_unattested,bhartsita,,,,6
+556,mith,ppp_unattested,mithita,,,,6
+660,rup,ppp_unattested,rupita,,,,6
+805,śyā,ppp_unattested,sita|sina,,,,6
+824,śvit,ppp_unattested,svitta,,,,6
+929,hnu,ppp_unattested,hnuta,,,,6
+100,kuṣ,ppp_unattested,kusita pinch|tear|gnaw,,,,5
+2,1 akṣ,ppp_unattested,asta,,,,4
+3,2 akṣ,ppp_unattested,asta,,,,4
+50,īrṣy,ppp_unattested,irsyita,,,,4
+63,ubh,ppp_unattested,umbhita,,,,4
+105,kūrd,ppp_unattested,kurdita,,,,4
+230,cup,ppp_unattested,cupita,,,,4
+290,tañc,ppp_unattested,takta,,,,3
+589,mruc,ppp_unattested,mrukta|mlukta|mlupta,,,,3
+877,snu,ppp_unattested,snuta ?,,,,3
+935,hlād,ppp_unattested,hlanna,,,,3
+202,ghaṭṭ,ppp_unattested,ghattita,,,,2
+460,pīḍ,ppp_unattested,pidita,,,,2
+585,mnā,ppp_unattested,mnata,,,,2
+594,mlech,ppp_unattested,mlechita|mlista,,,,2
+601,yas,ppp_unattested,yasta|yasita,,,,2
+648,riś,ppp_unattested,rista,,,,2
+778,śas,ppp_unattested,sasta,,,,2
+916,hikk,ppp_unattested,hikkita,,,,2
+934,hreṣ,ppp_unattested,hresita,,,,2
+86,kal,ppp_unattested,kalita,,,,1
+101,kū,ppp_unattested,kuta|kavam,,,,1
+140,kṣā,ppp_unattested,ksana ?,,,,1
+182,guṇṭh,ppp_unattested,gunthita veil|conceal|hide,,,,1
+429,1 nu,ppp_unattested,nuta,,,,1
+430,2 nu,ppp_unattested,nuta,,,,1
+573,mṛkṣ,ppp_unattested,mraksita = seq. abhi,,,,1
+574,mṛc,ppp_unattested,mrkta,,,,1
+646,riph,ppp_unattested,riphita,,,,1
+859,sku,ppp_unattested,skuta|skavam,,,,1
+9,aṇṭh,ppp_unattested,anthita,,,,0
+88,kas,ppp_unattested,kasta|kasita,,,,0
+103,kūḍ,ppp_unattested,kulita,,,,0
+168,gadh,ppp_unattested,gadhita RV2,,,,0
+219,cam,ppp_unattested,camta,,,,0
+284,ḍī,ppp_unattested,dina,,,,0
+493,baṃh,ppp_unattested,badha,,,,0
+563,mīv,ppp_unattested,muta,,,,0
+590,mreḍ,ppp_unattested,mredita,,,,0
+677,laṣ,ppp_unattested,lasita,,,,0
+809,śrambh,ppp_unattested,srabdha,,,,0
+931,hrād,ppp_unattested,hradita,,,,0

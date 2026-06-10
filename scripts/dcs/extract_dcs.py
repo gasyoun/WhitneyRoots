@@ -47,6 +47,8 @@ DEFAULT_OUT_AUDIT_JSON = os.path.join(REPO, "Whitney_DCS_audit.json")
 DEFAULT_OUT_AUDIT_MD = os.path.join(REPO, "Whitney_DCS_audit.md")
 DEFAULT_OUT_PINDEX = os.path.join(REPO, "src", "participle_index.json")
 DEFAULT_OUT_PINDEX_DCS = os.path.join(REPO, "src", "participle_index_dcs.json")
+DEFAULT_OUT_WORKLIST_MD = os.path.join(REPO, "Whitney_DCS_worklist.md")
+DEFAULT_OUT_WORKLIST_CSV = os.path.join(REPO, "Whitney_DCS_worklist.csv")
 
 DCS_SNAPSHOT = "2026 CoNLL-U"
 
@@ -398,6 +400,8 @@ def main():
     ap.add_argument("--out-audit-md", default=DEFAULT_OUT_AUDIT_MD)
     ap.add_argument("--out-pindex", default=DEFAULT_OUT_PINDEX)
     ap.add_argument("--out-pindex-dcs", default=DEFAULT_OUT_PINDEX_DCS)
+    ap.add_argument("--out-worklist-md", default=DEFAULT_OUT_WORKLIST_MD)
+    ap.add_argument("--out-worklist-csv", default=DEFAULT_OUT_WORKLIST_CSV)
     args = ap.parse_args()
 
     if not os.path.exists(args.db):
@@ -577,6 +581,8 @@ def main():
         json.dump({"metadata": meta, "rows": audit_rows}, fh, ensure_ascii=False, indent=1)
 
     write_audit_md(args.out_audit_md, meta, audit_rows)
+    wl_a, wl_b, wl_ppp = write_worklist(
+        args.out_worklist_md, args.out_worklist_csv, meta, audit_rows)
 
     # ---- participle reverse indexes (surface form -> root/lemma + category) ----
     pmeta = {
@@ -600,8 +606,104 @@ def main():
                 + counts["aliased"] + counts["homonym_shared"])
     print(f"  {'linked total':15s} {linked_n} / {len(lexicon)}")
     print(f"  participle forms: whitney={len(whitney_index)}  dcs-all={len(dcs_index)}")
+    print(f"  worklist: class-backs-DCS={wl_a}  other-conflicts={wl_b}  ppp-unattested={wl_ppp}")
     print(f"\nWrote:\n  {args.out_freq}\n  {args.out_audit_json}\n  {args.out_audit_md}"
-          f"\n  {args.out_pindex}\n  {args.out_pindex_dcs}")
+          f"\n  {args.out_pindex}\n  {args.out_pindex_dcs}"
+          f"\n  {args.out_worklist_md}\n  {args.out_worklist_csv}")
+
+
+_ROMAN_RE = re.compile(r"\b(I{1,3}|IV|VI{0,3}|IX|X)\b")
+
+
+def sig_classes(signal):
+    """Arabic class set implied by a present-stem signal string (e.g. 'I/VI'
+    -> {1,6}, 'X/caus-denom' -> {10}). The 'athematic' bucket is a catch-all
+    (classes 2/3/5/7/8/9 all look athematic) so it corroborates NOTHING
+    specific — return empty rather than falsely pointing at 2/3."""
+    if not signal or "athematic" in signal:
+        return set()
+    return {_ROMAN_TO_ARABIC[m.group(0)] for m in _ROMAN_RE.finditer(signal)
+            if m.group(0) in _ROMAN_TO_ARABIC}
+
+
+def write_worklist(path_md, path_csv, meta, rows):
+    """Editorial worklist for correcting app_data.json: class conflicts the
+    corpus corroborates against Whitney, plus PPP stems the corpus never shows.
+    Prioritised by corpus frequency."""
+    linked = [r for r in rows if r["dcs_lemma"]]
+
+    # ---- class conflicts, with which side the corpus signal backs ----
+    conf = []
+    for r in linked:
+        if r["class_verdict"] != "conflict":
+            continue
+        w, d = set(r["whitney_classes"]), set(r["dcs_classes"])
+        sc = sig_classes(r.get("present_signal"))
+        if sc & d and not (sc & w):
+            backs = "DCS"        # corpus corroborates DCS -> Whitney correction candidate
+        elif sc & w and not (sc & d):
+            backs = "Whitney"    # corpus corroborates Whitney -> DCS is the outlier
+        else:
+            backs = "ambiguous"
+        conf.append((r, backs))
+    conf.sort(key=lambda rb: -rb[0]["total"])
+    backs_dcs = [rb for rb in conf if rb[1] == "DCS"]
+    backs_other = [rb for rb in conf if rb[1] != "DCS"]
+
+    # ---- Whitney PPP stems unattested in corpus ----
+    ppp = []
+    for r in linked:
+        miss = [x["stem"] for x in r.get("ppp_results", []) if x["verdict"] == "unattested"]
+        if miss:
+            ppp.append((r, miss))
+    ppp.sort(key=lambda rm: -rm[0]["total"])
+
+    def md_tbl(header, rb_list, kind):
+        L = ["| id | root | Whitney | DCS | corpus signal | tokens |",
+             "|---|---|---|---|---|---|"]
+        for r, _ in rb_list:
+            L.append(f"| {r['id']} | {r['root']} | {','.join(r['whitney_classes']) or '—'} "
+                     f"| {','.join(r['dcs_classes']) or '—'} | {r.get('present_signal') or '—'} "
+                     f"| {r['total']} |")
+        return "\n".join(L)
+
+    L = [f"# Whitney ↔ DCS editorial worklist\n",
+         f"_Source: `{meta['source']}` ({meta['dcs_snapshot']}); generated {meta['generated']}._\n",
+         "Actionable discrepancies for correcting `src/app_data.json`. The `id` is the lexicon "
+         "entry id. **This is a review aid, not an oracle** — DCS's grammar field is itself "
+         "lexicon metadata and the corpus signal is a coarse heuristic; confirm before editing.\n",
+         f"## A. Class conflicts the corpus backs AGAINST Whitney ({len(backs_dcs)})\n",
+         "Highest-priority: Whitney's class set is disjoint from DCS **and** the corpus "
+         "present-stem signal points to the DCS class. Consider adding/adjusting the class.\n",
+         md_tbl(None, backs_dcs, "class"), "",
+         f"## B. Other class conflicts — review ({len(backs_other)})\n",
+         "Disjoint class sets where the corpus signal does not corroborate DCS (sometimes it "
+         "backs Whitney, meaning DCS's grammar field is the outlier — do not 'correct' these).\n",
+         md_tbl(None, backs_other, "class"), "",
+         f"## C. Whitney PPP stems unattested in the corpus ({len(ppp)})\n",
+         "PPP forms Whitney lists that never appear in DCS. High-frequency roots first (a missing "
+         "PPP on a common root is more suspect; rare/Vedic roots may simply be unattested).\n",
+         "| id | root | unattested PPP | tokens |", "|---|---|---|---|"]
+    for r, miss in ppp:
+        L.append(f"| {r['id']} | {r['root']} | {', '.join(miss)} | {r['total']} |")
+    L.append("")
+    with open(path_md, "w", encoding="utf-8") as fh:
+        fh.write("\n".join(L))
+
+    # ---- CSV (machine-readable) ----
+    import csv
+    with open(path_csv, "w", encoding="utf-8", newline="") as fh:
+        w = csv.writer(fh)
+        w.writerow(["id", "root", "type", "whitney", "dcs", "corpus_signal",
+                    "corpus_backs", "tokens"])
+        for r, backs in conf:
+            w.writerow([r["id"], r["root"], "class", "|".join(r["whitney_classes"]),
+                        "|".join(r["dcs_classes"]), r.get("present_signal") or "",
+                        backs, r["total"]])
+        for r, miss in ppp:
+            w.writerow([r["id"], r["root"], "ppp_unattested", "|".join(miss),
+                        "", "", "", r["total"]])
+    return len(backs_dcs), len(backs_other), len(ppp)
 
 
 def write_audit_md(path, meta, rows):

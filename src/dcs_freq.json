@@ -2004,13 +2004,13 @@
    },
    "preverbs": [
     {
-     "form": "udav",
-     "preverb": "ud",
+     "form": "samav",
+     "preverb": "sam",
      "n": 1
     },
     {
-     "form": "samav",
-     "preverb": "sam",
+     "form": "udav",
+     "preverb": "ud",
      "n": 1
     }
    ],
@@ -3731,13 +3731,13 @@
      "n": 3
     },
     {
-     "form": "prasamāp",
-     "preverb": "prasam",
+     "form": "upasamāp",
+     "preverb": "upasam",
      "n": 1
     },
     {
-     "form": "upasamāp",
-     "preverb": "upasam",
+     "form": "prasamāp",
+     "preverb": "prasam",
      "n": 1
     }
    ],
@@ -12189,13 +12189,13 @@
    },
    "preverbs": [
     {
-     "form": "ākam",
-     "preverb": "ā",
+     "form": "nikam",
+     "preverb": "ni",
      "n": 1
     },
     {
-     "form": "nikam",
-     "preverb": "ni",
+     "form": "ākam",
+     "preverb": "ā",
      "n": 1
     },
     {
@@ -12497,11 +12497,6 @@
      "n": 4
     },
     {
-     "form": "parikamp",
-     "preverb": "pari",
-     "n": 1
-    },
-    {
      "form": "abhiprakamp",
      "preverb": "abhipra",
      "n": 1
@@ -12512,13 +12507,18 @@
      "n": 1
     },
     {
-     "form": "anuprakamp",
-     "preverb": "anupra",
-     "n": 0
+     "form": "parikamp",
+     "preverb": "pari",
+     "n": 1
     },
     {
      "form": "samanukamp",
      "preverb": "samanu",
+     "n": 0
+    },
+    {
+     "form": "anuprakamp",
+     "preverb": "anupra",
      "n": 0
     }
    ],
@@ -13141,19 +13141,14 @@
      "n": 1
     },
     {
-     "form": "pratiprakāś",
-     "preverb": "pratipra",
-     "n": 1
-    },
-    {
      "form": "utkāś",
      "preverb": "ut",
      "n": 1
     },
     {
-     "form": "anuvikāś",
-     "preverb": "anuvi",
-     "n": 0
+     "form": "pratiprakāś",
+     "preverb": "pratipra",
+     "n": 1
     },
     {
      "form": "abhikāś",
@@ -13161,13 +13156,18 @@
      "n": 0
     },
     {
-     "form": "avakāś",
-     "preverb": "ava",
+     "form": "anuvikāś",
+     "preverb": "anuvi",
      "n": 0
     },
     {
      "form": "abhiprakāś",
      "preverb": "abhipra",
+     "n": 0
+    },
+    {
+     "form": "avakāś",
+     "preverb": "ava",
      "n": 0
     }
    ],
@@ -13628,13 +13628,13 @@
      "n": 4
     },
     {
-     "form": "saṃprakup",
-     "preverb": "saṃpra",
+     "form": "adhikup",
+     "preverb": "adhi",
      "n": 1
     },
     {
-     "form": "adhikup",
-     "preverb": "adhi",
+     "form": "saṃprakup",
+     "preverb": "saṃpra",
      "n": 1
     },
     {
@@ -13695,13 +13695,13 @@
    "participles": {},
    "preverbs": [
     {
-     "form": "vikuṣ",
-     "preverb": "vi",
+     "form": "abhikuṣ",
+     "preverb": "abhi",
      "n": 1
     },
     {
-     "form": "abhikuṣ",
-     "preverb": "abhi",
+     "form": "vikuṣ",
+     "preverb": "vi",
      "n": 1
     },
     {
@@ -13962,13 +13962,13 @@
      "n": 8
     },
     {
-     "form": "upakūj",
-     "preverb": "upa",
+     "form": "vikūj",
+     "preverb": "vi",
      "n": 4
     },
     {
-     "form": "vikūj",
-     "preverb": "vi",
+     "form": "upakūj",
+     "preverb": "upa",
      "n": 4
     },
     {
@@ -13977,18 +13977,18 @@
      "n": 3
     },
     {
-     "form": "anukūj",
-     "preverb": "anu",
-     "n": 2
-    },
-    {
      "form": "utkūj",
      "preverb": "ut",
      "n": 2
     },
     {
-     "form": "abhinikūj",
-     "preverb": "abhini",
+     "form": "anukūj",
+     "preverb": "anu",
+     "n": 2
+    },
+    {
+     "form": "avakūj",
+     "preverb": "ava",
      "n": 1
     },
     {
@@ -13997,8 +13997,8 @@
      "n": 1
     },
     {
-     "form": "avakūj",
-     "preverb": "ava",
+     "form": "abhinikūj",
+     "preverb": "abhini",
      "n": 1
     },
     {
@@ -14007,13 +14007,13 @@
      "n": 1
     },
     {
-     "form": "protkūj",
-     "preverb": "prot",
+     "form": "abhikūj",
+     "preverb": "abhi",
      "n": 0
     },
     {
-     "form": "abhikūj",
-     "preverb": "abhi",
+     "form": "protkūj",
+     "preverb": "prot",
      "n": 0
     }
    ],
@@ -14148,13 +14148,13 @@
      "n": 0
     },
     {
-     "form": "prakūrd",
-     "preverb": "pra",
+     "form": "utkūrd",
+     "preverb": "ut",
      "n": 0
     },
     {
-     "form": "utkūrd",
-     "preverb": "ut",
+     "form": "prakūrd",
+     "preverb": "pra",
      "n": 0
     }
    ],
@@ -15973,11 +15973,6 @@
      "n": 8
     },
     {
-     "form": "saṃnikṛt",
-     "preverb": "saṃni",
-     "n": 3
-    },
-    {
      "form": "abhikṛt",
      "preverb": "abhi",
      "n": 3
@@ -15985,6 +15980,11 @@
     {
      "form": "samutkṛt",
      "preverb": "samut",
+     "n": 3
+    },
+    {
+     "form": "saṃnikṛt",
+     "preverb": "saṃni",
      "n": 3
     }
    ],
@@ -16259,11 +16259,6 @@
      "n": 8
     },
     {
-     "form": "saṃnikṛt",
-     "preverb": "saṃni",
-     "n": 3
-    },
-    {
      "form": "abhikṛt",
      "preverb": "abhi",
      "n": 3
@@ -16271,6 +16266,11 @@
     {
      "form": "samutkṛt",
      "preverb": "samut",
+     "n": 3
+    },
+    {
+     "form": "saṃnikṛt",
+     "preverb": "saṃni",
      "n": 3
     }
    ],
@@ -17168,18 +17168,18 @@
      "n": 2
     },
     {
-     "form": "avakrand",
-     "preverb": "ava",
-     "n": 1
-    },
-    {
      "form": "anukrand",
      "preverb": "anu",
      "n": 1
     },
     {
-     "form": "nikrand",
-     "preverb": "ni",
+     "form": "avakrand",
+     "preverb": "ava",
+     "n": 1
+    },
+    {
+     "form": "abhyavakrand",
+     "preverb": "abhyava",
      "n": 0
     },
     {
@@ -17188,8 +17188,8 @@
      "n": 0
     },
     {
-     "form": "abhyavakrand",
-     "preverb": "abhyava",
+     "form": "nikrand",
+     "preverb": "ni",
      "n": 0
     }
    ],
@@ -17470,13 +17470,13 @@
      "n": 353
     },
     {
-     "form": "upakram",
-     "preverb": "upa",
+     "form": "prakram",
+     "preverb": "pra",
      "n": 291
     },
     {
-     "form": "prakram",
-     "preverb": "pra",
+     "form": "upakram",
+     "preverb": "upa",
      "n": 291
     },
     {
@@ -17812,13 +17812,13 @@
      "n": 4
     },
     {
-     "form": "upakrī",
-     "preverb": "upa",
+     "form": "abhikrī",
+     "preverb": "abhi",
      "n": 3
     },
     {
-     "form": "abhikrī",
-     "preverb": "abhi",
+     "form": "upakrī",
+     "preverb": "upa",
      "n": 3
     },
     {
@@ -18431,8 +18431,8 @@
      "n": 4
     },
     {
-     "form": "ākrudh",
-     "preverb": "ā",
+     "form": "prakrudh",
+     "preverb": "pra",
      "n": 2
     },
     {
@@ -18441,8 +18441,8 @@
      "n": 2
     },
     {
-     "form": "prakrudh",
-     "preverb": "pra",
+     "form": "ākrudh",
+     "preverb": "ā",
      "n": 2
     },
     {
@@ -18698,13 +18698,13 @@
      "n": 4
     },
     {
-     "form": "upakruś",
-     "preverb": "upa",
+     "form": "upākruś",
+     "preverb": "upā",
      "n": 3
     },
     {
-     "form": "upākruś",
-     "preverb": "upā",
+     "form": "upakruś",
+     "preverb": "upa",
      "n": 3
     }
    ],
@@ -20657,13 +20657,13 @@
      "n": 21
     },
     {
-     "form": "abhikṣar",
-     "preverb": "abhi",
+     "form": "atikṣar",
+     "preverb": "ati",
      "n": 11
     },
     {
-     "form": "atikṣar",
-     "preverb": "ati",
+     "form": "abhikṣar",
+     "preverb": "abhi",
      "n": 11
     },
     {
@@ -20682,23 +20682,23 @@
      "n": 2
     },
     {
-     "form": "abhivikṣar",
-     "preverb": "abhivi",
-     "n": 1
-    },
-    {
      "form": "anukṣar",
      "preverb": "anu",
      "n": 1
     },
     {
-     "form": "abhyatikṣar",
-     "preverb": "abhyati",
-     "n": 0
+     "form": "abhivikṣar",
+     "preverb": "abhivi",
+     "n": 1
     },
     {
      "form": "abhiprakṣar",
      "preverb": "abhipra",
+     "n": 0
+    },
+    {
+     "form": "abhyatikṣar",
+     "preverb": "abhyati",
      "n": 0
     }
    ],
@@ -21103,13 +21103,13 @@
      "n": 14
     },
     {
-     "form": "ākṣi",
-     "preverb": "ā",
+     "form": "adhikṣi",
+     "preverb": "adhi",
      "n": 11
     },
     {
-     "form": "adhikṣi",
-     "preverb": "adhi",
+     "form": "ākṣi",
+     "preverb": "ā",
      "n": 11
     },
     {
@@ -21478,13 +21478,13 @@
      "n": 14
     },
     {
-     "form": "ākṣi",
-     "preverb": "ā",
+     "form": "adhikṣi",
+     "preverb": "adhi",
      "n": 11
     },
     {
-     "form": "adhikṣi",
-     "preverb": "adhi",
+     "form": "ākṣi",
+     "preverb": "ā",
      "n": 11
     },
     {
@@ -23842,13 +23842,13 @@
      "n": 5
     },
     {
-     "form": "abhikhan",
-     "preverb": "abhi",
+     "form": "vikhan",
+     "preverb": "vi",
      "n": 4
     },
     {
-     "form": "vikhan",
-     "preverb": "vi",
+     "form": "abhikhan",
+     "preverb": "abhi",
      "n": 4
     },
     {
@@ -25550,11 +25550,6 @@
      "n": 3
     },
     {
-     "form": "pragad",
-     "preverb": "pra",
-     "n": 2
-    },
-    {
      "form": "pratigad",
      "preverb": "prati",
      "n": 2
@@ -25565,13 +25560,18 @@
      "n": 2
     },
     {
-     "form": "abhigad",
-     "preverb": "abhi",
-     "n": 1
+     "form": "pragad",
+     "preverb": "pra",
+     "n": 2
     },
     {
      "form": "pratinigad",
      "preverb": "pratini",
+     "n": 1
+    },
+    {
+     "form": "abhigad",
+     "preverb": "abhi",
      "n": 1
     },
     {
@@ -25609,13 +25609,13 @@
    "participles": {},
    "preverbs": [
     {
-     "form": "āgadh",
-     "preverb": "ā",
+     "form": "parigadh",
+     "preverb": "pari",
      "n": 1
     },
     {
-     "form": "parigadh",
-     "preverb": "pari",
+     "form": "āgadh",
+     "preverb": "ā",
      "n": 1
     }
    ],
@@ -26330,13 +26330,13 @@
      "n": 2
     },
     {
-     "form": "anugarj",
-     "preverb": "anu",
+     "form": "saṃpragarj",
+     "preverb": "saṃpra",
      "n": 1
     },
     {
-     "form": "saṃpragarj",
-     "preverb": "saṃpra",
+     "form": "anugarj",
+     "preverb": "anu",
      "n": 1
     },
     {
@@ -26864,13 +26864,13 @@
      "n": 6
     },
     {
-     "form": "pravigal",
-     "preverb": "pravi",
+     "form": "pragal",
+     "preverb": "pra",
      "n": 3
     },
     {
-     "form": "pragal",
-     "preverb": "pra",
+     "form": "pravigal",
+     "preverb": "pravi",
      "n": 3
     },
     {
@@ -26879,13 +26879,13 @@
      "n": 2
     },
     {
-     "form": "samāgal",
-     "preverb": "samā",
+     "form": "avagal",
+     "preverb": "ava",
      "n": 1
     },
     {
-     "form": "avagal",
-     "preverb": "ava",
+     "form": "samāgal",
+     "preverb": "samā",
      "n": 1
     },
     {
@@ -27961,8 +27961,8 @@
      "n": 3
     },
     {
-     "form": "pragāh",
-     "preverb": "pra",
+     "form": "sampragāh",
+     "preverb": "sampra",
      "n": 2
     },
     {
@@ -27971,9 +27971,19 @@
      "n": 2
     },
     {
-     "form": "sampragāh",
-     "preverb": "sampra",
+     "form": "pragāh",
+     "preverb": "pra",
      "n": 2
+    },
+    {
+     "form": "saṃpravigāh",
+     "preverb": "saṃpravi",
+     "n": 1
+    },
+    {
+     "form": "prativigāh",
+     "preverb": "prativi",
+     "n": 1
     },
     {
      "form": "samavagāh",
@@ -27981,18 +27991,8 @@
      "n": 1
     },
     {
-     "form": "anugāh",
-     "preverb": "anu",
-     "n": 1
-    },
-    {
-     "form": "saṃvigāh",
-     "preverb": "saṃvi",
-     "n": 1
-    },
-    {
-     "form": "saṃpravigāh",
-     "preverb": "saṃpravi",
+     "form": "abhyavagāh",
+     "preverb": "abhyava",
      "n": 1
     }
    ],
@@ -28424,13 +28424,8 @@
      "n": 6
     },
     {
-     "form": "āgup",
-     "preverb": "ā",
-     "n": 1
-    },
-    {
-     "form": "upagup",
-     "preverb": "upa",
+     "form": "pragup",
+     "preverb": "pra",
      "n": 1
     },
     {
@@ -28439,8 +28434,13 @@
      "n": 1
     },
     {
-     "form": "pragup",
-     "preverb": "pra",
+     "form": "upagup",
+     "preverb": "upa",
+     "n": 1
+    },
+    {
+     "form": "āgup",
+     "preverb": "ā",
      "n": 1
     }
    ],
@@ -28947,11 +28947,6 @@
      "n": 2
     },
     {
-     "form": "samupaguh",
-     "preverb": "samupa",
-     "n": 1
-    },
-    {
      "form": "praguh",
      "preverb": "pra",
      "n": 1
@@ -28959,6 +28954,11 @@
     {
      "form": "pratiguh",
      "preverb": "prati",
+     "n": 1
+    },
+    {
+     "form": "samupaguh",
+     "preverb": "samupa",
      "n": 1
     },
     {
@@ -29266,13 +29266,8 @@
      "n": 3
     },
     {
-     "form": "āgṛ",
-     "preverb": "ā",
-     "n": 1
-    },
-    {
-     "form": "saṃpragṛ",
-     "preverb": "saṃpra",
+     "form": "abhyudgṛ",
+     "preverb": "abhyud",
      "n": 1
     },
     {
@@ -29281,13 +29276,18 @@
      "n": 1
     },
     {
-     "form": "abhyudgṛ",
-     "preverb": "abhyud",
+     "form": "saṃpragṛ",
+     "preverb": "saṃpra",
      "n": 1
     },
     {
      "form": "abhipratigṛ",
      "preverb": "abhiprati",
+     "n": 1
+    },
+    {
+     "form": "āgṛ",
+     "preverb": "ā",
      "n": 1
     },
     {
@@ -29558,13 +29558,8 @@
      "n": 3
     },
     {
-     "form": "āgṛ",
-     "preverb": "ā",
-     "n": 1
-    },
-    {
-     "form": "saṃpragṛ",
-     "preverb": "saṃpra",
+     "form": "abhyudgṛ",
+     "preverb": "abhyud",
      "n": 1
     },
     {
@@ -29573,13 +29568,18 @@
      "n": 1
     },
     {
-     "form": "abhyudgṛ",
-     "preverb": "abhyud",
+     "form": "saṃpragṛ",
+     "preverb": "saṃpra",
      "n": 1
     },
     {
      "form": "abhipratigṛ",
      "preverb": "abhiprati",
+     "n": 1
+    },
+    {
+     "form": "āgṛ",
+     "preverb": "ā",
      "n": 1
     },
     {
@@ -29850,13 +29850,8 @@
      "n": 3
     },
     {
-     "form": "āgṛ",
-     "preverb": "ā",
-     "n": 1
-    },
-    {
-     "form": "saṃpragṛ",
-     "preverb": "saṃpra",
+     "form": "abhyudgṛ",
+     "preverb": "abhyud",
      "n": 1
     },
     {
@@ -29865,13 +29860,18 @@
      "n": 1
     },
     {
-     "form": "abhyudgṛ",
-     "preverb": "abhyud",
+     "form": "saṃpragṛ",
+     "preverb": "saṃpra",
      "n": 1
     },
     {
      "form": "abhipratigṛ",
      "preverb": "abhiprati",
+     "n": 1
+    },
+    {
+     "form": "āgṛ",
+     "preverb": "ā",
      "n": 1
     },
     {
@@ -30091,13 +30091,13 @@
      "n": 1
     },
     {
-     "form": "abhigṛdh",
-     "preverb": "abhi",
+     "form": "parigṛdh",
+     "preverb": "pari",
      "n": 1
     },
     {
-     "form": "parigṛdh",
-     "preverb": "pari",
+     "form": "abhigṛdh",
+     "preverb": "abhi",
      "n": 1
     }
    ],
@@ -30477,13 +30477,13 @@
      "n": 2
     },
     {
-     "form": "avagras",
-     "preverb": "ava",
+     "form": "abhigras",
+     "preverb": "abhi",
      "n": 1
     },
     {
-     "form": "abhigras",
-     "preverb": "abhi",
+     "form": "avagras",
+     "preverb": "ava",
      "n": 1
     },
     {
@@ -30492,13 +30492,13 @@
      "n": 1
     },
     {
-     "form": "parigras",
-     "preverb": "pari",
+     "form": "āgras",
+     "preverb": "ā",
      "n": 0
     },
     {
-     "form": "āgras",
-     "preverb": "ā",
+     "form": "parigras",
+     "preverb": "pari",
      "n": 0
     }
    ],
@@ -31524,13 +31524,13 @@
      "n": 3
     },
     {
-     "form": "samudghuṣ",
-     "preverb": "samud",
+     "form": "praghuṣ",
+     "preverb": "pra",
      "n": 2
     },
     {
-     "form": "praghuṣ",
-     "preverb": "pra",
+     "form": "samudghuṣ",
+     "preverb": "samud",
      "n": 2
     },
     {
@@ -31539,18 +31539,8 @@
      "n": 1
     },
     {
-     "form": "abhighuṣ",
-     "preverb": "abhi",
-     "n": 1
-    },
-    {
-     "form": "anughuṣ",
-     "preverb": "anu",
-     "n": 1
-    },
-    {
-     "form": "samāghuṣ",
-     "preverb": "samā",
+     "form": "vyāghuṣ",
+     "preverb": "vyā",
      "n": 1
     },
     {
@@ -31559,8 +31549,18 @@
      "n": 1
     },
     {
-     "form": "vyāghuṣ",
-     "preverb": "vyā",
+     "form": "samāghuṣ",
+     "preverb": "samā",
+     "n": 1
+    },
+    {
+     "form": "anughuṣ",
+     "preverb": "anu",
+     "n": 1
+    },
+    {
+     "form": "abhighuṣ",
+     "preverb": "abhi",
      "n": 1
     }
    ],
@@ -31775,13 +31775,13 @@
      "n": 6
     },
     {
-     "form": "parighūrṇ",
-     "preverb": "pari",
+     "form": "avaghūrṇ",
+     "preverb": "ava",
      "n": 1
     },
     {
-     "form": "avaghūrṇ",
-     "preverb": "ava",
+     "form": "parighūrṇ",
+     "preverb": "pari",
      "n": 1
     },
     {
@@ -32337,23 +32337,23 @@
      "n": 2
     },
     {
-     "form": "parighrā",
-     "preverb": "pari",
-     "n": 1
-    },
-    {
-     "form": "samupaghrā",
-     "preverb": "samupa",
-     "n": 1
-    },
-    {
-     "form": "pratighrā",
-     "preverb": "prati",
+     "form": "nighrā",
+     "preverb": "ni",
      "n": 1
     },
     {
      "form": "atighrā",
      "preverb": "ati",
+     "n": 1
+    },
+    {
+     "form": "parighrā",
+     "preverb": "pari",
+     "n": 1
+    },
+    {
+     "form": "pratighrā",
+     "preverb": "prati",
      "n": 1
     }
    ],
@@ -33724,13 +33724,13 @@
    },
    "preverbs": [
     {
-     "form": "avacarv",
-     "preverb": "ava",
+     "form": "paricarv",
+     "preverb": "pari",
      "n": 1
     },
     {
-     "form": "paricarv",
-     "preverb": "pari",
+     "form": "avacarv",
+     "preverb": "ava",
      "n": 1
     }
    ],
@@ -34533,13 +34533,13 @@
      "n": 5
     },
     {
-     "form": "samupaci",
-     "preverb": "samupa",
+     "form": "adhici",
+     "preverb": "adhi",
      "n": 4
     },
     {
-     "form": "adhici",
-     "preverb": "adhi",
+     "form": "samupaci",
+     "preverb": "samupa",
      "n": 4
     }
    ],
@@ -34966,13 +34966,13 @@
      "n": 5
     },
     {
-     "form": "samupaci",
-     "preverb": "samupa",
+     "form": "adhici",
+     "preverb": "adhi",
      "n": 4
     },
     {
-     "form": "adhici",
-     "preverb": "adhi",
+     "form": "samupaci",
+     "preverb": "samupa",
      "n": 4
     }
    ],
@@ -35253,13 +35253,13 @@
      "n": 1
     },
     {
-     "form": "apacit",
-     "preverb": "apa",
+     "form": "atipracit",
+     "preverb": "atipra",
      "n": 0
     },
     {
-     "form": "atipracit",
-     "preverb": "atipra",
+     "form": "apacit",
+     "preverb": "apa",
      "n": 0
     }
    ],
@@ -35673,8 +35673,8 @@
      "n": 3
     },
     {
-     "form": "praticumb",
-     "preverb": "prati",
+     "form": "abhicumb",
+     "preverb": "abhi",
      "n": 1
     },
     {
@@ -35683,8 +35683,8 @@
      "n": 1
     },
     {
-     "form": "abhicumb",
-     "preverb": "abhi",
+     "form": "praticumb",
+     "preverb": "prati",
      "n": 1
     },
     {
@@ -35947,13 +35947,13 @@
      "n": 4
     },
     {
-     "form": "avacṛt",
-     "preverb": "ava",
+     "form": "upacṛt",
+     "preverb": "upa",
      "n": 4
     },
     {
-     "form": "upacṛt",
-     "preverb": "upa",
+     "form": "avacṛt",
+     "preverb": "ava",
      "n": 4
     },
     {
@@ -36232,18 +36232,13 @@
      "n": 2
     },
     {
+     "form": "aticeṣṭ",
+     "preverb": "ati",
+     "n": 1
+    },
+    {
      "form": "avaceṣṭ",
      "preverb": "ava",
-     "n": 1
-    },
-    {
-     "form": "saṃviceṣṭ",
-     "preverb": "saṃvi",
-     "n": 1
-    },
-    {
-     "form": "vyaticeṣṭ",
-     "preverb": "vyati",
      "n": 1
     },
     {
@@ -36252,8 +36247,13 @@
      "n": 1
     },
     {
-     "form": "aticeṣṭ",
-     "preverb": "ati",
+     "form": "vyaticeṣṭ",
+     "preverb": "vyati",
+     "n": 1
+    },
+    {
+     "form": "saṃviceṣṭ",
+     "preverb": "saṃvi",
      "n": 1
     }
    ],
@@ -36525,13 +36525,13 @@
      "n": 2
     },
     {
-     "form": "abhipracyu",
-     "preverb": "abhipra",
+     "form": "abhicyu",
+     "preverb": "abhi",
      "n": 1
     },
     {
-     "form": "abhicyu",
-     "preverb": "abhi",
+     "form": "abhipracyu",
+     "preverb": "abhipra",
      "n": 1
     }
    ],
@@ -38871,6 +38871,11 @@
      "n": 4
     },
     {
+     "form": "parijalp",
+     "preverb": "pari",
+     "n": 1
+    },
+    {
      "form": "vijalp",
      "preverb": "vi",
      "n": 1
@@ -38878,11 +38883,6 @@
     {
      "form": "upajalp",
      "preverb": "upa",
-     "n": 1
-    },
-    {
-     "form": "parijalp",
-     "preverb": "pari",
      "n": 1
     },
     {
@@ -39462,8 +39462,8 @@
      "n": 4
     },
     {
-     "form": "pratiji",
-     "preverb": "prati",
+     "form": "adhiji",
+     "preverb": "adhi",
      "n": 1
     },
     {
@@ -39477,8 +39477,8 @@
      "n": 1
     },
     {
-     "form": "adhiji",
-     "preverb": "adhi",
+     "form": "upaji",
+     "preverb": "upa",
      "n": 1
     }
    ],
@@ -39933,8 +39933,8 @@
      "n": 4
     },
     {
-     "form": "pratiji",
-     "preverb": "prati",
+     "form": "adhiji",
+     "preverb": "adhi",
      "n": 1
     },
     {
@@ -39948,8 +39948,8 @@
      "n": 1
     },
     {
-     "form": "adhiji",
-     "preverb": "adhi",
+     "form": "upaji",
+     "preverb": "upa",
      "n": 1
     }
    ],
@@ -40522,13 +40522,13 @@
      "n": 5
     },
     {
-     "form": "ājuṣ",
-     "preverb": "ā",
+     "form": "prajuṣ",
+     "preverb": "pra",
      "n": 1
     },
     {
-     "form": "prajuṣ",
-     "preverb": "pra",
+     "form": "ājuṣ",
+     "preverb": "ā",
      "n": 1
     },
     {
@@ -40537,13 +40537,13 @@
      "n": 0
     },
     {
-     "form": "pratijuṣ",
-     "preverb": "prati",
+     "form": "upajuṣ",
+     "preverb": "upa",
      "n": 0
     },
     {
-     "form": "upajuṣ",
-     "preverb": "upa",
+     "form": "pratijuṣ",
+     "preverb": "prati",
      "n": 0
     }
    ],
@@ -41717,6 +41717,11 @@
      "n": 2
     },
     {
+     "form": "prajṛmbh",
+     "preverb": "pra",
+     "n": 1
+    },
+    {
      "form": "parijṛmbh",
      "preverb": "pari",
      "n": 1
@@ -41724,11 +41729,6 @@
     {
      "form": "pravijṛmbh",
      "preverb": "pravi",
-     "n": 1
-    },
-    {
-     "form": "prajṛmbh",
-     "preverb": "pra",
      "n": 1
     },
     {
@@ -42904,13 +42904,13 @@
      "n": 4
     },
     {
-     "form": "abhijval",
-     "preverb": "abhi",
+     "form": "vijval",
+     "preverb": "vi",
      "n": 3
     },
     {
-     "form": "vijval",
-     "preverb": "vi",
+     "form": "abhijval",
+     "preverb": "abhi",
      "n": 3
     },
     {
@@ -43652,23 +43652,23 @@
      "n": 2
     },
     {
-     "form": "avatakṣ",
-     "preverb": "ava",
-     "n": 1
-    },
-    {
      "form": "paritakṣ",
      "preverb": "pari",
      "n": 1
     },
     {
-     "form": "ātakṣ",
-     "preverb": "ā",
-     "n": 0
+     "form": "avatakṣ",
+     "preverb": "ava",
+     "n": 1
     },
     {
      "form": "uttakṣ",
      "preverb": "ut",
+     "n": 0
+    },
+    {
+     "form": "anutakṣ",
+     "preverb": "anu",
      "n": 0
     },
     {
@@ -43677,8 +43677,8 @@
      "n": 0
     },
     {
-     "form": "anutakṣ",
-     "preverb": "anu",
+     "form": "ātakṣ",
+     "preverb": "ā",
      "n": 0
     }
    ],
@@ -43735,13 +43735,13 @@
      "n": 29
     },
     {
-     "form": "abhyātañc",
-     "preverb": "abhyā",
+     "form": "anvātañc",
+     "preverb": "anvā",
      "n": 2
     },
     {
-     "form": "anvātañc",
-     "preverb": "anvā",
+     "form": "abhyātañc",
+     "preverb": "abhyā",
      "n": 2
     }
    ],
@@ -44155,18 +44155,18 @@
      "n": 3
     },
     {
-     "form": "vyavatan",
-     "preverb": "vyava",
-     "n": 2
-    },
-    {
-     "form": "paryātan",
-     "preverb": "paryā",
-     "n": 2
-    },
-    {
      "form": "vyātan",
      "preverb": "vyā",
+     "n": 2
+    },
+    {
+     "form": "uttan",
+     "preverb": "ut",
+     "n": 2
+    },
+    {
+     "form": "vyavatan",
+     "preverb": "vyava",
      "n": 2
     }
    ],
@@ -44523,18 +44523,18 @@
      "n": 3
     },
     {
-     "form": "vyavatan",
-     "preverb": "vyava",
-     "n": 2
-    },
-    {
-     "form": "paryātan",
-     "preverb": "paryā",
-     "n": 2
-    },
-    {
      "form": "vyātan",
      "preverb": "vyā",
+     "n": 2
+    },
+    {
+     "form": "uttan",
+     "preverb": "ut",
+     "n": 2
+    },
+    {
+     "form": "vyavatan",
+     "preverb": "vyava",
      "n": 2
     }
    ],
@@ -44983,13 +44983,13 @@
      "n": 26
     },
     {
-     "form": "atitap",
-     "preverb": "ati",
+     "form": "avatap",
+     "preverb": "ava",
      "n": 4
     },
     {
-     "form": "avatap",
-     "preverb": "ava",
+     "form": "atitap",
+     "preverb": "ati",
      "n": 4
     },
     {
@@ -44998,8 +44998,8 @@
      "n": 3
     },
     {
-     "form": "samupatap",
-     "preverb": "samupa",
+     "form": "samanutap",
+     "preverb": "samanu",
      "n": 2
     }
    ],
@@ -45227,23 +45227,23 @@
      "n": 2
     },
     {
-     "form": "uttam",
-     "preverb": "ut",
-     "n": 2
-    },
-    {
      "form": "upatam",
      "preverb": "upa",
      "n": 2
     },
     {
-     "form": "atipratam",
-     "preverb": "atipra",
-     "n": 1
+     "form": "uttam",
+     "preverb": "ut",
+     "n": 2
     },
     {
      "form": "ātam",
      "preverb": "ā",
+     "n": 1
+    },
+    {
+     "form": "atipratam",
+     "preverb": "atipra",
      "n": 1
     }
    ],
@@ -46189,11 +46189,6 @@
      "n": 6
     },
     {
-     "form": "ātud",
-     "preverb": "ā",
-     "n": 5
-    },
-    {
      "form": "nitud",
      "preverb": "ni",
      "n": 5
@@ -46201,6 +46196,11 @@
     {
      "form": "anunitud",
      "preverb": "anuni",
+     "n": 5
+    },
+    {
+     "form": "ātud",
+     "preverb": "ā",
      "n": 5
     },
     {
@@ -46709,13 +46709,13 @@
      "n": 1
     },
     {
-     "form": "upatuṣ",
-     "preverb": "upa",
+     "form": "pratuṣ",
+     "preverb": "pra",
      "n": 1
     },
     {
-     "form": "pratuṣ",
-     "preverb": "pra",
+     "form": "upatuṣ",
+     "preverb": "upa",
      "n": 1
     },
     {
@@ -47142,18 +47142,18 @@
      "n": 3
     },
     {
-     "form": "abhitṛ",
-     "preverb": "abhi",
-     "n": 2
-    },
-    {
      "form": "anutṛ",
      "preverb": "anu",
      "n": 2
     },
     {
-     "form": "abhyuttṛ",
-     "preverb": "abhyut",
+     "form": "abhitṛ",
+     "preverb": "abhi",
+     "n": 2
+    },
+    {
+     "form": "pravitṛ",
+     "preverb": "pravi",
      "n": 1
     }
    ],
@@ -47328,13 +47328,13 @@
      "n": 1
     },
     {
-     "form": "atitṛd",
-     "preverb": "ati",
+     "form": "nitṛd",
+     "preverb": "ni",
      "n": 0
     },
     {
-     "form": "nitṛd",
-     "preverb": "ni",
+     "form": "atitṛd",
+     "preverb": "ati",
      "n": 0
     },
     {
@@ -47619,23 +47619,23 @@
      "n": 3
     },
     {
-     "form": "anutṛp",
-     "preverb": "anu",
-     "n": 3
-    },
-    {
      "form": "abhitṛp",
      "preverb": "abhi",
      "n": 3
     },
     {
-     "form": "ātṛp",
-     "preverb": "ā",
-     "n": 0
+     "form": "anutṛp",
+     "preverb": "anu",
+     "n": 3
     },
     {
      "form": "apatṛp",
      "preverb": "apa",
+     "n": 0
+    },
+    {
+     "form": "ātṛp",
+     "preverb": "ā",
      "n": 0
     }
    ],
@@ -48032,13 +48032,13 @@
    },
    "preverbs": [
     {
-     "form": "vitṛh",
-     "preverb": "vi",
+     "form": "paritṛh",
+     "preverb": "pari",
      "n": 1
     },
     {
-     "form": "paritṛh",
-     "preverb": "pari",
+     "form": "vitṛh",
+     "preverb": "vi",
      "n": 1
     }
    ],
@@ -48386,13 +48386,13 @@
      "n": 2
     },
     {
-     "form": "pratityaj",
-     "preverb": "prati",
+     "form": "pratyaj",
+     "preverb": "pra",
      "n": 1
     },
     {
-     "form": "pratyaj",
-     "preverb": "pra",
+     "form": "pratityaj",
+     "preverb": "prati",
      "n": 1
     },
     {
@@ -51016,13 +51016,13 @@
      "n": 6
     },
     {
-     "form": "apadas",
-     "preverb": "apa",
+     "form": "pradas",
+     "preverb": "pra",
      "n": 0
     },
     {
-     "form": "pradas",
-     "preverb": "pra",
+     "form": "apadas",
+     "preverb": "apa",
      "n": 0
     }
    ],
@@ -51409,13 +51409,13 @@
      "n": 7
     },
     {
-     "form": "avadah",
-     "preverb": "ava",
+     "form": "upadah",
+     "preverb": "upa",
      "n": 6
     },
     {
-     "form": "upadah",
-     "preverb": "upa",
+     "form": "avadah",
+     "preverb": "ava",
      "n": 6
     },
     {
@@ -53838,13 +53838,13 @@
      "n": 42
     },
     {
-     "form": "pratidīv",
-     "preverb": "prati",
+     "form": "vidīv",
+     "preverb": "vi",
      "n": 4
     },
     {
-     "form": "vidīv",
-     "preverb": "vi",
+     "form": "pratidīv",
+     "preverb": "prati",
      "n": 4
     },
     {
@@ -54109,13 +54109,13 @@
      "n": 26
     },
     {
-     "form": "pratyādiś",
-     "preverb": "pratyā",
+     "form": "pratisamādiś",
+     "preverb": "pratisamā",
      "n": 12
     },
     {
-     "form": "pratisamādiś",
-     "preverb": "pratisamā",
+     "form": "pratyādiś",
+     "preverb": "pratyā",
      "n": 12
     },
     {
@@ -54124,13 +54124,13 @@
      "n": 10
     },
     {
-     "form": "samupadiś",
-     "preverb": "samupa",
+     "form": "atidiś",
+     "preverb": "ati",
      "n": 9
     },
     {
-     "form": "atidiś",
-     "preverb": "ati",
+     "form": "samupadiś",
+     "preverb": "samupa",
      "n": 9
     }
    ],
@@ -54338,6 +54338,11 @@
      "n": 2
     },
     {
+     "form": "nidih",
+     "preverb": "ni",
+     "n": 1
+    },
+    {
      "form": "avadih",
      "preverb": "ava",
      "n": 1
@@ -54345,11 +54350,6 @@
     {
      "form": "abhidih",
      "preverb": "abhi",
-     "n": 1
-    },
-    {
-     "form": "nidih",
-     "preverb": "ni",
      "n": 1
     },
     {
@@ -55233,8 +55233,8 @@
      "n": 27
     },
     {
-     "form": "paridīp",
-     "preverb": "pari",
+     "form": "samuddīp",
+     "preverb": "samud",
      "n": 1
     },
     {
@@ -55243,13 +55243,13 @@
      "n": 1
     },
     {
-     "form": "vidīp",
-     "preverb": "vi",
+     "form": "paridīp",
+     "preverb": "pari",
      "n": 1
     },
     {
-     "form": "samuddīp",
-     "preverb": "samud",
+     "form": "vidīp",
+     "preverb": "vi",
      "n": 1
     },
     {
@@ -55480,13 +55480,13 @@
      "n": 42
     },
     {
-     "form": "pratidīv",
-     "preverb": "prati",
+     "form": "vidīv",
+     "preverb": "vi",
      "n": 4
     },
     {
-     "form": "vidīv",
-     "preverb": "vi",
+     "form": "pratidīv",
+     "preverb": "prati",
      "n": 4
     },
     {
@@ -55707,13 +55707,13 @@
      "n": 42
     },
     {
-     "form": "pratidīv",
-     "preverb": "prati",
+     "form": "vidīv",
+     "preverb": "vi",
      "n": 4
     },
     {
-     "form": "vidīv",
-     "preverb": "vi",
+     "form": "pratidīv",
+     "preverb": "prati",
      "n": 4
     },
     {
@@ -56261,11 +56261,6 @@
      "n": 2
     },
     {
-     "form": "pratiduṣ",
-     "preverb": "prati",
-     "n": 1
-    },
-    {
      "form": "anuduṣ",
      "preverb": "anu",
      "n": 1
@@ -56273,6 +56268,11 @@
     {
      "form": "upaduṣ",
      "preverb": "upa",
+     "n": 1
+    },
+    {
+     "form": "pratiduṣ",
+     "preverb": "prati",
      "n": 1
     }
    ],
@@ -56615,19 +56615,14 @@
      "n": 2
     },
     {
-     "form": "pratiduh",
-     "preverb": "prati",
-     "n": 1
-    },
-    {
      "form": "abhyavaduh",
      "preverb": "abhyava",
      "n": 1
     },
     {
-     "form": "avaduh",
-     "preverb": "ava",
-     "n": 0
+     "form": "pratiduh",
+     "preverb": "prati",
+     "n": 1
     },
     {
      "form": "vipraduh",
@@ -56637,6 +56632,11 @@
     {
      "form": "praviduh",
      "preverb": "pravi",
+     "n": 0
+    },
+    {
+     "form": "avaduh",
+     "preverb": "ava",
      "n": 0
     }
    ],
@@ -57123,16 +57123,6 @@
      "n": 2
     },
     {
-     "form": "abhividṛ",
-     "preverb": "abhivi",
-     "n": 1
-    },
-    {
-     "form": "vyavadṛ",
-     "preverb": "vyava",
-     "n": 1
-    },
-    {
      "form": "uddṛ",
      "preverb": "ud",
      "n": 1
@@ -57143,8 +57133,18 @@
      "n": 1
     },
     {
-     "form": "paridṛ",
-     "preverb": "pari",
+     "form": "vyavadṛ",
+     "preverb": "vyava",
+     "n": 1
+    },
+    {
+     "form": "abhividṛ",
+     "preverb": "abhivi",
+     "n": 1
+    },
+    {
+     "form": "atyādṛ",
+     "preverb": "atyā",
      "n": 0
     },
     {
@@ -57406,16 +57406,6 @@
      "n": 2
     },
     {
-     "form": "abhividṛ",
-     "preverb": "abhivi",
-     "n": 1
-    },
-    {
-     "form": "vyavadṛ",
-     "preverb": "vyava",
-     "n": 1
-    },
-    {
      "form": "uddṛ",
      "preverb": "ud",
      "n": 1
@@ -57426,8 +57416,18 @@
      "n": 1
     },
     {
-     "form": "paridṛ",
-     "preverb": "pari",
+     "form": "vyavadṛ",
+     "preverb": "vyava",
+     "n": 1
+    },
+    {
+     "form": "abhividṛ",
+     "preverb": "abhivi",
+     "n": 1
+    },
+    {
+     "form": "atyādṛ",
+     "preverb": "atyā",
      "n": 0
     },
     {
@@ -58092,13 +58092,13 @@
      "n": 4
     },
     {
-     "form": "parādṛś",
-     "preverb": "parā",
+     "form": "vyādṛś",
+     "preverb": "vyā",
      "n": 1
     },
     {
-     "form": "vyādṛś",
-     "preverb": "vyā",
+     "form": "samupadṛś",
+     "preverb": "samupa",
      "n": 1
     },
     {
@@ -58107,8 +58107,8 @@
      "n": 1
     },
     {
-     "form": "samupadṛś",
-     "preverb": "samupa",
+     "form": "parādṛś",
+     "preverb": "parā",
      "n": 1
     }
    ],
@@ -58568,13 +58568,13 @@
      "n": 49
     },
     {
-     "form": "pradyut",
-     "preverb": "pra",
+     "form": "ādyut",
+     "preverb": "ā",
      "n": 2
     },
     {
-     "form": "ādyut",
-     "preverb": "ā",
+     "form": "pradyut",
+     "preverb": "pra",
      "n": 2
     },
     {
@@ -58583,13 +58583,13 @@
      "n": 1
     },
     {
-     "form": "abhividyut",
-     "preverb": "abhivi",
+     "form": "saṃvidyut",
+     "preverb": "saṃvi",
      "n": 0
     },
     {
-     "form": "saṃvidyut",
-     "preverb": "saṃvi",
+     "form": "abhividyut",
+     "preverb": "abhivi",
      "n": 0
     }
    ],
@@ -59646,13 +59646,13 @@
      "n": 14
     },
     {
-     "form": "anudviṣ",
-     "preverb": "anu",
+     "form": "paridviṣ",
+     "preverb": "pari",
      "n": 1
     },
     {
-     "form": "paridviṣ",
-     "preverb": "pari",
+     "form": "anudviṣ",
+     "preverb": "anu",
      "n": 1
     }
    ],
@@ -59852,13 +59852,13 @@
      "n": 9
     },
     {
-     "form": "anudhanv",
-     "preverb": "anu",
+     "form": "paripradhanv",
+     "preverb": "paripra",
      "n": 0
     },
     {
-     "form": "abhidhanv",
-     "preverb": "abhi",
+     "form": "anudhanv",
+     "preverb": "anu",
      "n": 0
     },
     {
@@ -59867,8 +59867,8 @@
      "n": 0
     },
     {
-     "form": "paripradhanv",
-     "preverb": "paripra",
+     "form": "abhidhanv",
+     "preverb": "abhi",
      "n": 0
     }
    ],
@@ -60201,8 +60201,8 @@
      "n": 3
     },
     {
-     "form": "parādham",
-     "preverb": "parā",
+     "form": "apadham",
+     "preverb": "apa",
      "n": 2
     },
     {
@@ -60211,13 +60211,13 @@
      "n": 2
     },
     {
-     "form": "apadham",
-     "preverb": "apa",
+     "form": "parādham",
+     "preverb": "parā",
      "n": 2
     },
     {
-     "form": "atyādham",
-     "preverb": "atyā",
+     "form": "samupadham",
+     "preverb": "samupa",
      "n": 1
     },
     {
@@ -61293,13 +61293,13 @@
      "n": 12
     },
     {
-     "form": "nidhāv",
-     "preverb": "ni",
+     "form": "saṃpradhāv",
+     "preverb": "saṃpra",
      "n": 7
     },
     {
-     "form": "saṃpradhāv",
-     "preverb": "saṃpra",
+     "form": "nidhāv",
+     "preverb": "ni",
      "n": 7
     },
     {
@@ -61617,13 +61617,13 @@
      "n": 12
     },
     {
-     "form": "nidhāv",
-     "preverb": "ni",
+     "form": "saṃpradhāv",
+     "preverb": "saṃpra",
      "n": 7
     },
     {
-     "form": "saṃpradhāv",
-     "preverb": "saṃpra",
+     "form": "nidhāv",
+     "preverb": "ni",
      "n": 7
     },
     {
@@ -61919,13 +61919,8 @@
      "n": 1
     },
     {
-     "form": "vidhī",
-     "preverb": "vi",
-     "n": 0
-    },
-    {
-     "form": "avadhī",
-     "preverb": "ava",
+     "form": "anvādhī",
+     "preverb": "anvā",
      "n": 0
     },
     {
@@ -61934,13 +61929,18 @@
      "n": 0
     },
     {
-     "form": "anudhī",
-     "preverb": "anu",
+     "form": "avadhī",
+     "preverb": "ava",
      "n": 0
     },
     {
-     "form": "anvādhī",
-     "preverb": "anvā",
+     "form": "vidhī",
+     "preverb": "vi",
+     "n": 0
+    },
+    {
+     "form": "anudhī",
+     "preverb": "anu",
      "n": 0
     }
    ],
@@ -62294,19 +62294,14 @@
      "n": 4
     },
     {
-     "form": "vyādhū",
-     "preverb": "vyā",
-     "n": 3
-    },
-    {
      "form": "abhidhū",
      "preverb": "abhi",
      "n": 3
     },
     {
-     "form": "proddhū",
-     "preverb": "prod",
-     "n": 2
+     "form": "vyādhū",
+     "preverb": "vyā",
+     "n": 3
     },
     {
      "form": "upadhū",
@@ -62314,8 +62309,13 @@
      "n": 2
     },
     {
-     "form": "pravidhū",
-     "preverb": "pravi",
+     "form": "proddhū",
+     "preverb": "prod",
+     "n": 2
+    },
+    {
+     "form": "apadhū",
+     "preverb": "apa",
      "n": 1
     }
    ],
@@ -62793,18 +62793,18 @@
      "n": 4
     },
     {
-     "form": "paridhṛ",
-     "preverb": "pari",
-     "n": 2
-    },
-    {
      "form": "ādhṛ",
      "preverb": "ā",
      "n": 2
     },
     {
-     "form": "nidhṛ",
-     "preverb": "ni",
+     "form": "paridhṛ",
+     "preverb": "pari",
+     "n": 2
+    },
+    {
+     "form": "abhidhṛ",
+     "preverb": "abhi",
      "n": 1
     },
     {
@@ -62813,13 +62813,13 @@
      "n": 1
     },
     {
-     "form": "pratyuddhṛ",
-     "preverb": "pratyud",
+     "form": "nidhṛ",
+     "preverb": "ni",
      "n": 1
     },
     {
-     "form": "abhidhṛ",
-     "preverb": "abhi",
+     "form": "pratyuddhṛ",
+     "preverb": "pratyud",
      "n": 1
     }
    ],
@@ -63094,8 +63094,8 @@
      "n": 2
     },
     {
-     "form": "samādhṛṣ",
-     "preverb": "samā",
+     "form": "apadhṛṣ",
+     "preverb": "apa",
      "n": 1
     },
     {
@@ -63104,8 +63104,8 @@
      "n": 1
     },
     {
-     "form": "apadhṛṣ",
-     "preverb": "apa",
+     "form": "samādhṛṣ",
+     "preverb": "samā",
      "n": 1
     }
    ],
@@ -63485,18 +63485,18 @@
      "n": 2
     },
     {
-     "form": "upadhyā",
-     "preverb": "upa",
-     "n": 1
-    },
-    {
-     "form": "saṃpradhyā",
-     "preverb": "saṃpra",
+     "form": "samapadhyā",
+     "preverb": "samapa",
      "n": 1
     },
     {
      "form": "samādhyā",
      "preverb": "samā",
+     "n": 1
+    },
+    {
+     "form": "saṃpradhyā",
+     "preverb": "saṃpra",
      "n": 1
     }
    ],
@@ -63772,6 +63772,11 @@
      "n": 7
     },
     {
+     "form": "atidhvaṃs",
+     "preverb": "ati",
+     "n": 2
+    },
+    {
      "form": "pravidhvaṃs",
      "preverb": "pravi",
      "n": 2
@@ -63787,13 +63792,13 @@
      "n": 2
     },
     {
-     "form": "atidhvaṃs",
-     "preverb": "ati",
-     "n": 2
+     "form": "abhidhvaṃs",
+     "preverb": "abhi",
+     "n": 1
     },
     {
-     "form": "upadhvaṃs",
-     "preverb": "upa",
+     "form": "vinidhvaṃs",
+     "preverb": "vini",
      "n": 1
     },
     {
@@ -63802,13 +63807,8 @@
      "n": 1
     },
     {
-     "form": "anupradhvaṃs",
-     "preverb": "anupra",
-     "n": 1
-    },
-    {
-     "form": "vinidhvaṃs",
-     "preverb": "vini",
+     "form": "anudhvaṃs",
+     "preverb": "anu",
      "n": 1
     }
    ],
@@ -64248,18 +64248,13 @@
      "n": 5
     },
     {
-     "form": "avanakṣ",
-     "preverb": "ava",
-     "n": 0
-    },
-    {
      "form": "pranakṣ",
      "preverb": "pra",
      "n": 0
     },
     {
-     "form": "acchānakṣ",
-     "preverb": "acchā",
+     "form": "ānakṣ",
+     "preverb": "ā",
      "n": 0
     },
     {
@@ -64268,8 +64263,13 @@
      "n": 0
     },
     {
-     "form": "ānakṣ",
-     "preverb": "ā",
+     "form": "avanakṣ",
+     "preverb": "ava",
+     "n": 0
+    },
+    {
+     "form": "acchānakṣ",
+     "preverb": "acchā",
      "n": 0
     }
    ],
@@ -64555,13 +64555,13 @@
      "n": 0
     },
     {
-     "form": "anunad",
-     "preverb": "anu",
+     "form": "praṇinad",
+     "preverb": "praṇi",
      "n": 0
     },
     {
-     "form": "praṇinad",
-     "preverb": "praṇi",
+     "form": "anunad",
+     "preverb": "anu",
      "n": 0
     }
    ],
@@ -64756,8 +64756,8 @@
      "n": 4
     },
     {
-     "form": "samabhinand",
-     "preverb": "samabhi",
+     "form": "anunand",
+     "preverb": "anu",
      "n": 2
     },
     {
@@ -64766,18 +64766,18 @@
      "n": 2
     },
     {
-     "form": "anunand",
-     "preverb": "anu",
+     "form": "samabhinand",
+     "preverb": "samabhi",
      "n": 2
-    },
-    {
-     "form": "vinand",
-     "preverb": "vi",
-     "n": 0
     },
     {
      "form": "sampratinand",
      "preverb": "samprati",
+     "n": 0
+    },
+    {
+     "form": "vinand",
+     "preverb": "vi",
      "n": 0
     }
    ],
@@ -65088,19 +65088,14 @@
      "n": 14
     },
     {
-     "form": "upāvanam",
-     "preverb": "upāva",
-     "n": 4
-    },
-    {
      "form": "ninam",
      "preverb": "ni",
      "n": 4
     },
     {
-     "form": "upānam",
-     "preverb": "upā",
-     "n": 1
+     "form": "upāvanam",
+     "preverb": "upāva",
+     "n": 4
     },
     {
      "form": "pratyupanam",
@@ -65113,13 +65108,18 @@
      "n": 1
     },
     {
-     "form": "atinam",
-     "preverb": "ati",
+     "form": "upānam",
+     "preverb": "upā",
      "n": 1
     },
     {
      "form": "samānam",
      "preverb": "samā",
+     "n": 1
+    },
+    {
+     "form": "atinam",
+     "preverb": "ati",
      "n": 1
     }
    ],
@@ -65615,8 +65615,8 @@
      "n": 4
     },
     {
-     "form": "acchānaś",
-     "preverb": "acchā",
+     "form": "avanaś",
+     "preverb": "ava",
      "n": 0
     },
     {
@@ -65625,18 +65625,18 @@
      "n": 0
     },
     {
+     "form": "abhinaś",
+     "preverb": "abhi",
+     "n": 0
+    },
+    {
      "form": "pravinaś",
      "preverb": "pravi",
      "n": 0
     },
     {
-     "form": "avanaś",
-     "preverb": "ava",
-     "n": 0
-    },
-    {
-     "form": "abhinaś",
-     "preverb": "abhi",
+     "form": "acchānaś",
+     "preverb": "acchā",
      "n": 0
     }
    ],
@@ -65914,8 +65914,8 @@
      "n": 4
     },
     {
-     "form": "acchānaś",
-     "preverb": "acchā",
+     "form": "avanaś",
+     "preverb": "ava",
      "n": 0
     },
     {
@@ -65924,18 +65924,18 @@
      "n": 0
     },
     {
+     "form": "abhinaś",
+     "preverb": "abhi",
+     "n": 0
+    },
+    {
      "form": "pravinaś",
      "preverb": "pravi",
      "n": 0
     },
     {
-     "form": "avanaś",
-     "preverb": "ava",
-     "n": 0
-    },
-    {
-     "form": "abhinaś",
-     "preverb": "abhi",
+     "form": "acchānaś",
+     "preverb": "acchā",
      "n": 0
     }
    ],
@@ -66701,13 +66701,13 @@
      "n": 8
     },
     {
-     "form": "prāvanij",
-     "preverb": "prāva",
+     "form": "vinij",
+     "preverb": "vi",
      "n": 0
     },
     {
-     "form": "vinij",
-     "preverb": "vi",
+     "form": "prāvanij",
+     "preverb": "prāva",
      "n": 0
     }
    ],
@@ -67395,13 +67395,13 @@
      "n": 419
     },
     {
-     "form": "ninī",
-     "preverb": "ni",
+     "form": "samānī",
+     "preverb": "samā",
      "n": 227
     },
     {
-     "form": "samānī",
-     "preverb": "samā",
+     "form": "ninī",
+     "preverb": "ni",
      "n": 227
     },
     {
@@ -67435,13 +67435,13 @@
      "n": 57
     },
     {
-     "form": "upaninī",
-     "preverb": "upani",
+     "form": "abhinī",
+     "preverb": "abhi",
      "n": 43
     },
     {
-     "form": "abhinī",
-     "preverb": "abhi",
+     "form": "upaninī",
+     "preverb": "upani",
      "n": 43
     }
    ],
@@ -67524,23 +67524,8 @@
      "n": 1
     },
     {
-     "form": "ānu",
-     "preverb": "ā",
-     "n": 0
-    },
-    {
      "form": "anunu",
      "preverb": "anu",
-     "n": 0
-    },
-    {
-     "form": "abhinu",
-     "preverb": "abhi",
-     "n": 0
-    },
-    {
-     "form": "avanu",
-     "preverb": "ava",
      "n": 0
     },
     {
@@ -67549,13 +67534,28 @@
      "n": 0
     },
     {
-     "form": "atinu",
-     "preverb": "ati",
+     "form": "abhinu",
+     "preverb": "abhi",
+     "n": 0
+    },
+    {
+     "form": "ānu",
+     "preverb": "ā",
      "n": 0
     },
     {
      "form": "acchānu",
      "preverb": "acchā",
+     "n": 0
+    },
+    {
+     "form": "atinu",
+     "preverb": "ati",
+     "n": 0
+    },
+    {
+     "form": "avanu",
+     "preverb": "ava",
      "n": 0
     }
    ],
@@ -67599,23 +67599,8 @@
      "n": 1
     },
     {
-     "form": "ānu",
-     "preverb": "ā",
-     "n": 0
-    },
-    {
      "form": "anunu",
      "preverb": "anu",
-     "n": 0
-    },
-    {
-     "form": "abhinu",
-     "preverb": "abhi",
-     "n": 0
-    },
-    {
-     "form": "avanu",
-     "preverb": "ava",
      "n": 0
     },
     {
@@ -67624,13 +67609,28 @@
      "n": 0
     },
     {
-     "form": "atinu",
-     "preverb": "ati",
+     "form": "abhinu",
+     "preverb": "abhi",
+     "n": 0
+    },
+    {
+     "form": "ānu",
+     "preverb": "ā",
      "n": 0
     },
     {
      "form": "acchānu",
      "preverb": "acchā",
+     "n": 0
+    },
+    {
+     "form": "atinu",
+     "preverb": "ati",
+     "n": 0
+    },
+    {
+     "form": "avanu",
+     "preverb": "ava",
      "n": 0
     }
    ],
@@ -67889,13 +67889,13 @@
      "n": 3
     },
     {
-     "form": "vyapānud",
-     "preverb": "vyapā",
+     "form": "atinud",
+     "preverb": "ati",
      "n": 2
     },
     {
-     "form": "atinud",
-     "preverb": "ati",
+     "form": "vyapānud",
+     "preverb": "vyapā",
      "n": 2
     },
     {
@@ -68166,8 +68166,8 @@
      "n": 2
     },
     {
-     "form": "apanṛt",
-     "preverb": "apa",
+     "form": "pratinṛt",
+     "preverb": "prati",
      "n": 1
     },
     {
@@ -68176,13 +68176,8 @@
      "n": 1
     },
     {
-     "form": "pratinṛt",
-     "preverb": "prati",
-     "n": 1
-    },
-    {
-     "form": "anunṛt",
-     "preverb": "anu",
+     "form": "apanṛt",
+     "preverb": "apa",
      "n": 1
     },
     {
@@ -68191,13 +68186,18 @@
      "n": 1
     },
     {
+     "form": "anunṛt",
+     "preverb": "anu",
+     "n": 1
+    },
+    {
      "form": "abhinṛt",
      "preverb": "abhi",
      "n": 1
     },
     {
-     "form": "ninṛt",
-     "preverb": "ni",
+     "form": "adhinṛt",
+     "preverb": "adhi",
      "n": 0
     },
     {
@@ -68547,23 +68547,23 @@
      "n": 1
     },
     {
-     "form": "abhipac",
-     "preverb": "abhi",
-     "n": 1
-    },
-    {
      "form": "abhiprapac",
      "preverb": "abhipra",
      "n": 1
     },
     {
-     "form": "anupac",
-     "preverb": "anu",
-     "n": 0
+     "form": "abhipac",
+     "preverb": "abhi",
+     "n": 1
     },
     {
      "form": "abhisampac",
      "preverb": "abhisam",
+     "n": 0
+    },
+    {
+     "form": "anupac",
+     "preverb": "anu",
      "n": 0
     }
    ],
@@ -68883,6 +68883,11 @@
      "n": 6
     },
     {
+     "form": "sampaṭh",
+     "preverb": "sam",
+     "n": 2
+    },
+    {
      "form": "abhipaṭh",
      "preverb": "abhi",
      "n": 2
@@ -68890,11 +68895,6 @@
     {
      "form": "anupaṭh",
      "preverb": "anu",
-     "n": 2
-    },
-    {
-     "form": "sampaṭh",
-     "preverb": "sam",
      "n": 2
     },
     {
@@ -70229,6 +70229,11 @@
      "n": 6
     },
     {
+     "form": "sampaṭh",
+     "preverb": "sam",
+     "n": 2
+    },
+    {
      "form": "abhipaṭh",
      "preverb": "abhi",
      "n": 2
@@ -70236,11 +70241,6 @@
     {
      "form": "anupaṭh",
      "preverb": "anu",
-     "n": 2
-    },
-    {
-     "form": "sampaṭh",
-     "preverb": "sam",
      "n": 2
     },
     {
@@ -70905,8 +70905,8 @@
      "n": 6
     },
     {
-     "form": "āpaś",
-     "preverb": "ā",
+     "form": "anuvipaś",
+     "preverb": "anuvi",
      "n": 2
     }
    ],
@@ -71247,8 +71247,8 @@
      "n": 6
     },
     {
-     "form": "āpaś",
-     "preverb": "ā",
+     "form": "anuvipaś",
+     "preverb": "anuvi",
      "n": 2
     }
    ],
@@ -71688,13 +71688,13 @@
      "n": 7
     },
     {
-     "form": "anūtpā",
-     "preverb": "anūt",
+     "form": "samāpā",
+     "preverb": "samā",
      "n": 4
     },
     {
-     "form": "samāpā",
-     "preverb": "samā",
+     "form": "anūtpā",
+     "preverb": "anūt",
      "n": 4
     },
     {
@@ -72135,13 +72135,13 @@
      "n": 7
     },
     {
-     "form": "anūtpā",
-     "preverb": "anūt",
+     "form": "samāpā",
+     "preverb": "samā",
      "n": 4
     },
     {
-     "form": "samāpā",
-     "preverb": "samā",
+     "form": "anūtpā",
+     "preverb": "anūt",
      "n": 4
     },
     {
@@ -72582,13 +72582,13 @@
      "n": 7
     },
     {
-     "form": "anūtpā",
-     "preverb": "anūt",
+     "form": "samāpā",
+     "preverb": "samā",
      "n": 4
     },
     {
-     "form": "samāpā",
-     "preverb": "samā",
+     "form": "anūtpā",
+     "preverb": "anūt",
      "n": 4
     },
     {
@@ -73319,6 +73319,11 @@
      "n": 4
     },
     {
+     "form": "āpiṣ",
+     "preverb": "ā",
+     "n": 2
+    },
+    {
      "form": "nipiṣ",
      "preverb": "ni",
      "n": 2
@@ -73329,18 +73334,13 @@
      "n": 2
     },
     {
-     "form": "āpiṣ",
-     "preverb": "ā",
-     "n": 2
-    },
-    {
      "form": "abhipiṣ",
      "preverb": "abhi",
      "n": 2
     },
     {
-     "form": "avapiṣ",
-     "preverb": "ava",
+     "form": "vinipiṣ",
+     "preverb": "vini",
      "n": 1
     },
     {
@@ -73349,13 +73349,13 @@
      "n": 1
     },
     {
-     "form": "vinipiṣ",
-     "preverb": "vini",
+     "form": "avapiṣ",
+     "preverb": "ava",
      "n": 1
     },
     {
-     "form": "anupiṣ",
-     "preverb": "anu",
+     "form": "abhipratipiṣ",
+     "preverb": "abhiprati",
      "n": 0
     }
    ],
@@ -73652,6 +73652,11 @@
      "n": 4
     },
     {
+     "form": "āpiṣ",
+     "preverb": "ā",
+     "n": 2
+    },
+    {
      "form": "nipiṣ",
      "preverb": "ni",
      "n": 2
@@ -73662,18 +73667,13 @@
      "n": 2
     },
     {
-     "form": "āpiṣ",
-     "preverb": "ā",
-     "n": 2
-    },
-    {
      "form": "abhipiṣ",
      "preverb": "abhi",
      "n": 2
     },
     {
-     "form": "avapiṣ",
-     "preverb": "ava",
+     "form": "vinipiṣ",
+     "preverb": "vini",
      "n": 1
     },
     {
@@ -73682,13 +73682,13 @@
      "n": 1
     },
     {
-     "form": "vinipiṣ",
-     "preverb": "vini",
+     "form": "avapiṣ",
+     "preverb": "ava",
      "n": 1
     },
     {
-     "form": "anupiṣ",
-     "preverb": "anu",
+     "form": "abhipratipiṣ",
+     "preverb": "abhiprati",
      "n": 0
     }
    ],
@@ -74741,13 +74741,13 @@
      "n": 5
     },
     {
-     "form": "prapū",
-     "preverb": "pra",
+     "form": "āpū",
+     "preverb": "ā",
      "n": 4
     },
     {
-     "form": "āpū",
-     "preverb": "ā",
+     "form": "prapū",
+     "preverb": "pra",
      "n": 4
     },
     {
@@ -75207,13 +75207,13 @@
      "n": 7
     },
     {
-     "form": "saṃparipṛ",
-     "preverb": "saṃpari",
+     "form": "atipṛ",
+     "preverb": "ati",
      "n": 4
     },
     {
-     "form": "atipṛ",
-     "preverb": "ati",
+     "form": "saṃparipṛ",
+     "preverb": "saṃpari",
      "n": 4
     },
     {
@@ -75222,13 +75222,13 @@
      "n": 1
     },
     {
-     "form": "abhiprapṛ",
-     "preverb": "abhipra",
+     "form": "anupṛ",
+     "preverb": "anu",
      "n": 0
     },
     {
-     "form": "upapṛ",
-     "preverb": "upa",
+     "form": "apapṛ",
+     "preverb": "apa",
      "n": 0
     }
    ],
@@ -75563,13 +75563,13 @@
      "n": 7
     },
     {
-     "form": "saṃparipṛ",
-     "preverb": "saṃpari",
+     "form": "atipṛ",
+     "preverb": "ati",
      "n": 4
     },
     {
-     "form": "atipṛ",
-     "preverb": "ati",
+     "form": "saṃparipṛ",
+     "preverb": "saṃpari",
      "n": 4
     },
     {
@@ -75578,13 +75578,13 @@
      "n": 1
     },
     {
-     "form": "abhiprapṛ",
-     "preverb": "abhipra",
+     "form": "anupṛ",
+     "preverb": "anu",
      "n": 0
     },
     {
-     "form": "upapṛ",
-     "preverb": "upa",
+     "form": "apapṛ",
+     "preverb": "apa",
      "n": 0
     }
    ],
@@ -75919,13 +75919,13 @@
      "n": 7
     },
     {
-     "form": "saṃparipṛ",
-     "preverb": "saṃpari",
+     "form": "atipṛ",
+     "preverb": "ati",
      "n": 4
     },
     {
-     "form": "atipṛ",
-     "preverb": "ati",
+     "form": "saṃparipṛ",
+     "preverb": "saṃpari",
      "n": 4
     },
     {
@@ -75934,13 +75934,13 @@
      "n": 1
     },
     {
-     "form": "abhiprapṛ",
-     "preverb": "abhipra",
+     "form": "anupṛ",
+     "preverb": "anu",
      "n": 0
     },
     {
-     "form": "upapṛ",
-     "preverb": "upa",
+     "form": "apapṛ",
+     "preverb": "apa",
      "n": 0
     }
    ],
@@ -76172,13 +76172,13 @@
      "n": 2
     },
     {
-     "form": "adhipṛc",
-     "preverb": "adhi",
+     "form": "vipṛc",
+     "preverb": "vi",
      "n": 2
     },
     {
-     "form": "vipṛc",
-     "preverb": "vi",
+     "form": "adhipṛc",
+     "preverb": "adhi",
      "n": 2
     },
     {
@@ -76940,13 +76940,13 @@
      "n": 4
     },
     {
-     "form": "samanupracch",
-     "preverb": "samanu",
+     "form": "upapracch",
+     "preverb": "upa",
      "n": 3
     },
     {
-     "form": "upapracch",
-     "preverb": "upa",
+     "form": "samanupracch",
+     "preverb": "samanu",
      "n": 3
     },
     {
@@ -77644,6 +77644,11 @@
      "n": 5
     },
     {
+     "form": "āpru",
+     "preverb": "ā",
+     "n": 2
+    },
+    {
      "form": "atipru",
      "preverb": "ati",
      "n": 2
@@ -77654,18 +77659,13 @@
      "n": 2
     },
     {
-     "form": "āpru",
-     "preverb": "ā",
-     "n": 2
+     "form": "utpru",
+     "preverb": "ut",
+     "n": 0
     },
     {
      "form": "abhipru",
      "preverb": "abhi",
-     "n": 0
-    },
-    {
-     "form": "utpru",
-     "preverb": "ut",
      "n": 0
     }
    ],
@@ -79524,18 +79524,18 @@
      "n": 4
     },
     {
-     "form": "anubādh",
-     "preverb": "anu",
-     "n": 1
-    },
-    {
      "form": "samprabādh",
      "preverb": "sampra",
      "n": 1
     },
     {
-     "form": "vyābādh",
-     "preverb": "vyā",
+     "form": "anubādh",
+     "preverb": "anu",
+     "n": 1
+    },
+    {
+     "form": "abhibādh",
+     "preverb": "abhi",
      "n": 1
     }
    ],
@@ -79886,13 +79886,13 @@
      "n": 11
     },
     {
-     "form": "abhivibudh",
-     "preverb": "abhivi",
+     "form": "abhiprabudh",
+     "preverb": "abhipra",
      "n": 3
     },
     {
-     "form": "abhiprabudh",
-     "preverb": "abhipra",
+     "form": "abhivibudh",
+     "preverb": "abhivi",
      "n": 3
     },
     {
@@ -79901,8 +79901,8 @@
      "n": 3
     },
     {
-     "form": "saṃnibudh",
-     "preverb": "saṃni",
+     "form": "samprabudh",
+     "preverb": "sampra",
      "n": 2
     }
    ],
@@ -80085,13 +80085,13 @@
      "n": 11
     },
     {
-     "form": "vibṛṃh",
-     "preverb": "vi",
+     "form": "udbṛṃh",
+     "preverb": "ud",
      "n": 1
     },
     {
-     "form": "udbṛṃh",
-     "preverb": "ud",
+     "form": "vibṛṃh",
+     "preverb": "vi",
      "n": 1
     }
    ],
@@ -80351,8 +80351,8 @@
      "n": 3
     },
     {
-     "form": "paribrū",
-     "preverb": "pari",
+     "form": "acchābrū",
+     "preverb": "acchā",
      "n": 2
     },
     {
@@ -80361,13 +80361,13 @@
      "n": 2
     },
     {
-     "form": "acchābrū",
-     "preverb": "acchā",
+     "form": "paribrū",
+     "preverb": "pari",
      "n": 2
     },
     {
-     "form": "pratiprabrū",
-     "preverb": "pratipra",
+     "form": "samanubrū",
+     "preverb": "samanu",
      "n": 1
     }
    ],
@@ -80946,8 +80946,8 @@
      "n": 2
     },
     {
-     "form": "abhivibhaj",
-     "preverb": "abhivi",
+     "form": "pratibhaj",
+     "preverb": "prati",
      "n": 1
     }
    ],
@@ -81257,23 +81257,23 @@
      "n": 2
     },
     {
-     "form": "paribhañj",
-     "preverb": "pari",
-     "n": 1
-    },
-    {
      "form": "pravibhañj",
      "preverb": "pravi",
      "n": 1
     },
     {
-     "form": "saṃprabhañj",
-     "preverb": "saṃpra",
+     "form": "pratibhañj",
+     "preverb": "prati",
      "n": 1
     },
     {
-     "form": "pratibhañj",
-     "preverb": "prati",
+     "form": "paribhañj",
+     "preverb": "pari",
+     "n": 1
+    },
+    {
+     "form": "saṃprabhañj",
+     "preverb": "saṃpra",
      "n": 1
     },
     {
@@ -82204,13 +82204,13 @@
      "n": 6
     },
     {
-     "form": "anubhā",
-     "preverb": "anu",
+     "form": "samābhā",
+     "preverb": "samā",
      "n": 4
     },
     {
-     "form": "samābhā",
-     "preverb": "samā",
+     "form": "anubhā",
+     "preverb": "anu",
      "n": 4
     },
     {
@@ -82839,13 +82839,13 @@
      "n": 11
     },
     {
-     "form": "pratibhās",
-     "preverb": "prati",
+     "form": "vibhās",
+     "preverb": "vi",
      "n": 7
     },
     {
-     "form": "vibhās",
-     "preverb": "vi",
+     "form": "pratibhās",
+     "preverb": "prati",
      "n": 7
     },
     {
@@ -83445,13 +83445,13 @@
      "n": 7
     },
     {
-     "form": "pratibhid",
-     "preverb": "prati",
+     "form": "prodbhid",
+     "preverb": "prod",
      "n": 5
     },
     {
-     "form": "prodbhid",
-     "preverb": "prod",
+     "form": "pratibhid",
+     "preverb": "prati",
      "n": 5
     },
     {
@@ -83470,8 +83470,8 @@
      "n": 2
     },
     {
-     "form": "pravibhid",
-     "preverb": "pravi",
+     "form": "anubhid",
+     "preverb": "anu",
      "n": 1
     }
    ],
@@ -84309,8 +84309,8 @@
      "n": 2
     },
     {
-     "form": "samanubhuj",
-     "preverb": "samanu",
+     "form": "pravibhuj",
+     "preverb": "pravi",
      "n": 1
     }
    ],
@@ -84771,8 +84771,8 @@
      "n": 2
     },
     {
-     "form": "samanubhuj",
-     "preverb": "samanu",
+     "form": "pravibhuj",
+     "preverb": "pravi",
      "n": 1
     }
    ],
@@ -85428,21 +85428,6 @@
      "n": 2
     },
     {
-     "form": "sambhūṣ",
-     "preverb": "sam",
-     "n": 0
-    },
-    {
-     "form": "atibhūṣ",
-     "preverb": "ati",
-     "n": 0
-    },
-    {
-     "form": "upabhūṣ",
-     "preverb": "upa",
-     "n": 0
-    },
-    {
      "form": "upābhūṣ",
      "preverb": "upā",
      "n": 0
@@ -85453,6 +85438,11 @@
      "n": 0
     },
     {
+     "form": "upabhūṣ",
+     "preverb": "upa",
+     "n": 0
+    },
+    {
      "form": "upaprabhūṣ",
      "preverb": "upapra",
      "n": 0
@@ -85460,6 +85450,16 @@
     {
      "form": "anuprabhūṣ",
      "preverb": "anupra",
+     "n": 0
+    },
+    {
+     "form": "sambhūṣ",
+     "preverb": "sam",
+     "n": 0
+    },
+    {
+     "form": "atibhūṣ",
+     "preverb": "ati",
      "n": 0
     }
    ],
@@ -85841,13 +85841,13 @@
      "n": 5
     },
     {
-     "form": "apabhṛ",
-     "preverb": "apa",
+     "form": "avabhṛ",
+     "preverb": "ava",
      "n": 4
     },
     {
-     "form": "avabhṛ",
-     "preverb": "ava",
+     "form": "apabhṛ",
+     "preverb": "apa",
      "n": 4
     }
    ],
@@ -86805,23 +86805,23 @@
      "n": 1
     },
     {
-     "form": "prabhrāj",
-     "preverb": "pra",
-     "n": 1
-    },
-    {
      "form": "ābhrāj",
      "preverb": "ā",
      "n": 1
     },
     {
-     "form": "anubhrāj",
-     "preverb": "anu",
-     "n": 0
+     "form": "prabhrāj",
+     "preverb": "pra",
+     "n": 1
     },
     {
      "form": "sambhrāj",
      "preverb": "sam",
+     "n": 0
+    },
+    {
+     "form": "anubhrāj",
+     "preverb": "anu",
      "n": 0
     }
    ],
@@ -87198,19 +87198,14 @@
      "n": 5
     },
     {
-     "form": "vinimajj",
-     "preverb": "vini",
-     "n": 3
-    },
-    {
      "form": "avamajj",
      "preverb": "ava",
      "n": 3
     },
     {
-     "form": "saṃnimajj",
-     "preverb": "saṃni",
-     "n": 2
+     "form": "vinimajj",
+     "preverb": "vini",
+     "n": 3
     },
     {
      "form": "pramajj",
@@ -87218,13 +87213,18 @@
      "n": 2
     },
     {
-     "form": "parimajj",
-     "preverb": "pari",
-     "n": 1
+     "form": "saṃnimajj",
+     "preverb": "saṃni",
+     "n": 2
     },
     {
      "form": "āmajj",
      "preverb": "ā",
+     "n": 1
+    },
+    {
+     "form": "parimajj",
+     "preverb": "pari",
      "n": 1
     },
     {
@@ -87238,13 +87238,13 @@
      "n": 1
     },
     {
-     "form": "upapramajj",
-     "preverb": "upapra",
+     "form": "vimajj",
+     "preverb": "vi",
      "n": 0
     },
     {
-     "form": "vimajj",
-     "preverb": "vi",
+     "form": "upapramajj",
+     "preverb": "upapra",
      "n": 0
     }
    ],
@@ -87675,11 +87675,6 @@
      "n": 3
     },
     {
-     "form": "vyāmath",
-     "preverb": "vyā",
-     "n": 1
-    },
-    {
      "form": "adhimath",
      "preverb": "adhi",
      "n": 1
@@ -87687,6 +87682,11 @@
     {
      "form": "avamath",
      "preverb": "ava",
+     "n": 1
+    },
+    {
+     "form": "vyāmath",
+     "preverb": "vyā",
      "n": 1
     },
     {
@@ -88038,13 +88038,13 @@
      "n": 2
     },
     {
-     "form": "anupramad",
-     "preverb": "anupra",
+     "form": "āmad",
+     "preverb": "ā",
      "n": 1
     },
     {
-     "form": "āmad",
-     "preverb": "ā",
+     "form": "anupramad",
+     "preverb": "anupra",
      "n": 1
     },
     {
@@ -88375,16 +88375,6 @@
      "n": 3
     },
     {
-     "form": "samanuman",
-     "preverb": "samanu",
-     "n": 2
-    },
-    {
-     "form": "adhiman",
-     "preverb": "adhi",
-     "n": 2
-    },
-    {
      "form": "pariman",
      "preverb": "pari",
      "n": 2
@@ -88395,8 +88385,18 @@
      "n": 2
     },
     {
-     "form": "abhipraman",
-     "preverb": "abhipra",
+     "form": "adhiman",
+     "preverb": "adhi",
+     "n": 2
+    },
+    {
+     "form": "samanuman",
+     "preverb": "samanu",
+     "n": 2
+    },
+    {
+     "form": "viman",
+     "preverb": "vi",
      "n": 1
     }
    ],
@@ -90983,13 +90983,13 @@
      "n": 6
     },
     {
-     "form": "abhimih",
-     "preverb": "abhi",
+     "form": "avamih",
+     "preverb": "ava",
      "n": 5
     },
     {
-     "form": "avamih",
-     "preverb": "ava",
+     "form": "abhimih",
+     "preverb": "abhi",
      "n": 5
     },
     {
@@ -92011,13 +92011,13 @@
      "n": 2
     },
     {
-     "form": "samparimud",
-     "preverb": "sampari",
+     "form": "anupramud",
+     "preverb": "anupra",
      "n": 0
     },
     {
-     "form": "anupramud",
-     "preverb": "anupra",
+     "form": "samparimud",
+     "preverb": "sampari",
      "n": 0
     }
    ],
@@ -92259,13 +92259,13 @@
      "n": 2
     },
     {
-     "form": "vimuṣ",
-     "preverb": "vi",
+     "form": "sammuṣ",
+     "preverb": "sam",
      "n": 1
     },
     {
-     "form": "sammuṣ",
-     "preverb": "sam",
+     "form": "vimuṣ",
+     "preverb": "vi",
      "n": 1
     },
     {
@@ -92566,6 +92566,11 @@
      "n": 2
     },
     {
+     "form": "anumuh",
+     "preverb": "anu",
+     "n": 1
+    },
+    {
      "form": "abhimuh",
      "preverb": "abhi",
      "n": 1
@@ -92573,11 +92578,6 @@
     {
      "form": "vipramuh",
      "preverb": "vipra",
-     "n": 1
-    },
-    {
-     "form": "anumuh",
-     "preverb": "anu",
      "n": 1
     }
    ],
@@ -92838,13 +92838,13 @@
      "n": 8
     },
     {
-     "form": "abhimūrch",
-     "preverb": "abhi",
+     "form": "pramūrch",
+     "preverb": "pra",
      "n": 7
     },
     {
-     "form": "pramūrch",
-     "preverb": "pra",
+     "form": "abhimūrch",
+     "preverb": "abhi",
      "n": 7
     },
     {
@@ -94586,13 +94586,13 @@
      "n": 7
     },
     {
-     "form": "saṃpramṛd",
-     "preverb": "saṃpra",
+     "form": "nimṛd",
+     "preverb": "ni",
      "n": 3
     },
     {
-     "form": "nimṛd",
-     "preverb": "ni",
+     "form": "saṃpramṛd",
+     "preverb": "saṃpra",
      "n": 3
     },
     {
@@ -94606,13 +94606,13 @@
      "n": 2
     },
     {
-     "form": "apamṛd",
-     "preverb": "apa",
+     "form": "abhimṛd",
+     "preverb": "abhi",
      "n": 1
     },
     {
-     "form": "abhimṛd",
-     "preverb": "abhi",
+     "form": "apamṛd",
+     "preverb": "apa",
      "n": 1
     }
    ],
@@ -95130,13 +95130,13 @@
    },
    "preverbs": [
     {
-     "form": "vimṛṣ",
-     "preverb": "vi",
+     "form": "pramṛṣ",
+     "preverb": "pra",
      "n": 5
     },
     {
-     "form": "pramṛṣ",
-     "preverb": "pra",
+     "form": "vimṛṣ",
+     "preverb": "vi",
      "n": 5
     },
     {
@@ -95155,6 +95155,11 @@
      "n": 1
     },
     {
+     "form": "apimṛṣ",
+     "preverb": "api",
+     "n": 0
+    },
+    {
      "form": "parimṛṣ",
      "preverb": "pari",
      "n": 0
@@ -95167,11 +95172,6 @@
     {
      "form": "āmṛṣ",
      "preverb": "ā",
-     "n": 0
-    },
-    {
-     "form": "apimṛṣ",
-     "preverb": "api",
      "n": 0
     }
    ],
@@ -95611,13 +95611,13 @@
      "n": 19
     },
     {
-     "form": "upamruc",
-     "preverb": "upa",
+     "form": "vimruc",
+     "preverb": "vi",
      "n": 2
     },
     {
-     "form": "vimruc",
-     "preverb": "vi",
+     "form": "upamruc",
+     "preverb": "upa",
      "n": 2
     },
     {
@@ -95836,13 +95836,13 @@
      "n": 7
     },
     {
-     "form": "vimlā",
-     "preverb": "vi",
+     "form": "abhimlā",
+     "preverb": "abhi",
      "n": 1
     },
     {
-     "form": "abhimlā",
-     "preverb": "abhi",
+     "form": "vimlā",
+     "preverb": "vi",
      "n": 1
     },
     {
@@ -97098,19 +97098,24 @@
      "n": 6
     },
     {
-     "form": "niyat",
-     "preverb": "ni",
+     "form": "viyat",
+     "preverb": "vi",
      "n": 2
     },
     {
-     "form": "viyat",
-     "preverb": "vi",
+     "form": "niyat",
+     "preverb": "ni",
      "n": 2
     },
     {
      "form": "pratiyat",
      "preverb": "prati",
      "n": 1
+    },
+    {
+     "form": "samprayat",
+     "preverb": "sampra",
+     "n": 0
     },
     {
      "form": "anuyat",
@@ -97120,11 +97125,6 @@
     {
      "form": "adhiyat",
      "preverb": "adhi",
-     "n": 0
-    },
-    {
-     "form": "upayat",
-     "preverb": "upa",
      "n": 0
     }
    ],
@@ -97172,13 +97172,13 @@
    "participles": {},
    "preverbs": [
     {
-     "form": "pratiyabh",
-     "preverb": "prati",
+     "form": "prayabh",
+     "preverb": "pra",
      "n": 0
     },
     {
-     "form": "prayabh",
-     "preverb": "pra",
+     "form": "pratiyabh",
+     "preverb": "prati",
      "n": 0
     }
    ],
@@ -98276,13 +98276,13 @@
      "n": 24
     },
     {
-     "form": "prayāc",
-     "preverb": "pra",
+     "form": "abhiyāc",
+     "preverb": "abhi",
      "n": 20
     },
     {
-     "form": "abhiyāc",
-     "preverb": "abhi",
+     "form": "prayāc",
+     "preverb": "pra",
      "n": 20
     },
     {
@@ -98301,11 +98301,6 @@
      "n": 2
     },
     {
-     "form": "pratyanuyāc",
-     "preverb": "pratyanu",
-     "n": 1
-    },
-    {
      "form": "udyāc",
      "preverb": "ud",
      "n": 1
@@ -98313,6 +98308,11 @@
     {
      "form": "samprayāc",
      "preverb": "sampra",
+     "n": 1
+    },
+    {
+     "form": "pratyanuyāc",
+     "preverb": "pratyanu",
      "n": 1
     },
     {
@@ -98572,13 +98572,13 @@
      "n": 8
     },
     {
-     "form": "udyu",
-     "preverb": "ud",
+     "form": "udāyu",
+     "preverb": "udā",
      "n": 7
     },
     {
-     "form": "udāyu",
-     "preverb": "udā",
+     "form": "udyu",
+     "preverb": "ud",
      "n": 7
     },
     {
@@ -98797,13 +98797,13 @@
      "n": 8
     },
     {
-     "form": "udyu",
-     "preverb": "ud",
+     "form": "udāyu",
+     "preverb": "udā",
      "n": 7
     },
     {
-     "form": "udāyu",
-     "preverb": "udā",
+     "form": "udyu",
+     "preverb": "ud",
      "n": 7
     },
     {
@@ -99619,13 +99619,13 @@
      "n": 6
     },
     {
-     "form": "anuyudh",
-     "preverb": "anu",
+     "form": "āyudh",
+     "preverb": "ā",
      "n": 2
     },
     {
-     "form": "āyudh",
-     "preverb": "ā",
+     "form": "anuyudh",
+     "preverb": "anu",
      "n": 2
     },
     {
@@ -100297,13 +100297,13 @@
      "n": 3
     },
     {
-     "form": "samanurakṣ",
-     "preverb": "samanu",
+     "form": "virakṣ",
+     "preverb": "vi",
      "n": 2
     },
     {
-     "form": "virakṣ",
-     "preverb": "vi",
+     "form": "samanurakṣ",
+     "preverb": "samanu",
      "n": 2
     },
     {
@@ -100983,11 +100983,6 @@
    },
    "preverbs": [
     {
-     "form": "niran",
-     "preverb": "ni",
-     "n": 1
-    },
-    {
      "form": "praran",
      "preverb": "pra",
      "n": 1
@@ -100995,6 +100990,11 @@
     {
      "form": "saṃpraran",
      "preverb": "saṃpra",
+     "n": 1
+    },
+    {
+     "form": "niran",
+     "preverb": "ni",
      "n": 1
     }
    ],
@@ -101117,11 +101117,6 @@
    },
    "preverbs": [
     {
-     "form": "niran",
-     "preverb": "ni",
-     "n": 1
-    },
-    {
      "form": "praran",
      "preverb": "pra",
      "n": 1
@@ -101129,6 +101124,11 @@
     {
      "form": "saṃpraran",
      "preverb": "saṃpra",
+     "n": 1
+    },
+    {
+     "form": "niran",
+     "preverb": "ni",
      "n": 1
     }
    ],
@@ -101221,13 +101221,13 @@
    },
    "preverbs": [
     {
-     "form": "prarap",
-     "preverb": "pra",
+     "form": "pratirap",
+     "preverb": "prati",
      "n": 0
     },
     {
-     "form": "pratirap",
-     "preverb": "prati",
+     "form": "prarap",
+     "preverb": "pra",
      "n": 0
     }
    ],
@@ -101476,13 +101476,13 @@
      "n": 3
     },
     {
-     "form": "samparirabh",
-     "preverb": "sampari",
+     "form": "vyārabh",
+     "preverb": "vyā",
      "n": 1
     },
     {
-     "form": "vyārabh",
-     "preverb": "vyā",
+     "form": "samparirabh",
+     "preverb": "sampari",
      "n": 1
     }
    ],
@@ -101806,13 +101806,13 @@
      "n": 19
     },
     {
-     "form": "upāram",
-     "preverb": "upā",
+     "form": "avaram",
+     "preverb": "ava",
      "n": 15
     },
     {
-     "form": "avaram",
-     "preverb": "ava",
+     "form": "upāram",
+     "preverb": "upā",
      "n": 15
     },
     {
@@ -102083,19 +102083,14 @@
    },
    "preverbs": [
     {
-     "form": "abhiras",
-     "preverb": "abhi",
-     "n": 1
-    },
-    {
      "form": "viras",
      "preverb": "vi",
      "n": 1
     },
     {
-     "form": "āras",
-     "preverb": "ā",
-     "n": 0
+     "form": "abhiras",
+     "preverb": "abhi",
+     "n": 1
     },
     {
      "form": "pratiras",
@@ -102105,6 +102100,11 @@
     {
      "form": "anuras",
      "preverb": "anu",
+     "n": 0
+    },
+    {
+     "form": "āras",
+     "preverb": "ā",
      "n": 0
     }
    ],
@@ -102874,8 +102874,8 @@
      "n": 2
     },
     {
-     "form": "prarāj",
-     "preverb": "pra",
+     "form": "pratirāj",
+     "preverb": "prati",
      "n": 1
     },
     {
@@ -102884,9 +102884,19 @@
      "n": 1
     },
     {
-     "form": "pratirāj",
-     "preverb": "prati",
+     "form": "prarāj",
+     "preverb": "pra",
      "n": 1
+    },
+    {
+     "form": "parirāj",
+     "preverb": "pari",
+     "n": 0
+    },
+    {
+     "form": "saṃvirāj",
+     "preverb": "saṃvi",
+     "n": 0
     },
     {
      "form": "anurāj",
@@ -102901,16 +102911,6 @@
     {
      "form": "adhivirāj",
      "preverb": "adhivi",
-     "n": 0
-    },
-    {
-     "form": "parirāj",
-     "preverb": "pari",
-     "n": 0
-    },
-    {
-     "form": "saṃvirāj",
-     "preverb": "saṃvi",
      "n": 0
     }
    ],
@@ -103121,13 +103121,13 @@
      "n": 3
     },
     {
-     "form": "virādh",
-     "preverb": "vi",
+     "form": "prarādh",
+     "preverb": "pra",
      "n": 3
     },
     {
-     "form": "prarādh",
-     "preverb": "pra",
+     "form": "virādh",
+     "preverb": "vi",
      "n": 3
     },
     {
@@ -103588,8 +103588,13 @@
      "n": 16
     },
     {
-     "form": "samatiric",
-     "preverb": "samati",
+     "form": "āric",
+     "preverb": "ā",
+     "n": 1
+    },
+    {
+     "form": "anuric",
+     "preverb": "anu",
      "n": 1
     },
     {
@@ -103598,23 +103603,18 @@
      "n": 1
     },
     {
-     "form": "atyudric",
-     "preverb": "atyud",
-     "n": 1
-    },
-    {
-     "form": "āric",
-     "preverb": "ā",
-     "n": 1
-    },
-    {
      "form": "praric",
      "preverb": "pra",
      "n": 1
     },
     {
-     "form": "anuric",
-     "preverb": "anu",
+     "form": "samatiric",
+     "preverb": "samati",
+     "n": 1
+    },
+    {
+     "form": "atyudric",
+     "preverb": "atyud",
      "n": 1
     },
     {
@@ -104150,13 +104150,13 @@
      "n": 43
     },
     {
-     "form": "abhiriṣ",
-     "preverb": "abhi",
+     "form": "āriṣ",
+     "preverb": "ā",
      "n": 1
     },
     {
-     "form": "āriṣ",
-     "preverb": "ā",
+     "form": "abhiriṣ",
+     "preverb": "abhi",
      "n": 1
     },
     {
@@ -104686,11 +104686,6 @@
      "n": 1
     },
     {
-     "form": "praru",
-     "preverb": "pra",
-     "n": 0
-    },
-    {
      "form": "pratiru",
      "preverb": "prati",
      "n": 0
@@ -104698,6 +104693,11 @@
     {
      "form": "anuru",
      "preverb": "anu",
+     "n": 0
+    },
+    {
+     "form": "praru",
+     "preverb": "pra",
      "n": 0
     }
    ],
@@ -104921,11 +104921,6 @@
      "n": 1
     },
     {
-     "form": "praru",
-     "preverb": "pra",
-     "n": 0
-    },
-    {
      "form": "pratiru",
      "preverb": "prati",
      "n": 0
@@ -104933,6 +104928,11 @@
     {
      "form": "anuru",
      "preverb": "anu",
+     "n": 0
+    },
+    {
+     "form": "praru",
+     "preverb": "pra",
      "n": 0
     }
    ],
@@ -105228,8 +105228,13 @@
      "n": 1
     },
     {
-     "form": "āruc",
-     "preverb": "ā",
+     "form": "anuruc",
+     "preverb": "anu",
+     "n": 0
+    },
+    {
+     "form": "uparuc",
+     "preverb": "upa",
      "n": 0
     },
     {
@@ -105238,18 +105243,13 @@
      "n": 0
     },
     {
-     "form": "pratiruc",
-     "preverb": "prati",
+     "form": "āruc",
+     "preverb": "ā",
      "n": 0
     },
     {
      "form": "pariruc",
      "preverb": "pari",
-     "n": 0
-    },
-    {
-     "form": "uparuc",
-     "preverb": "upa",
      "n": 0
     }
    ],
@@ -106139,13 +106139,13 @@
      "n": 4
     },
     {
-     "form": "upanirudh",
-     "preverb": "upani",
+     "form": "abhirudh",
+     "preverb": "abhi",
      "n": 2
     },
     {
-     "form": "pratyavarudh",
-     "preverb": "pratyava",
+     "form": "prarudh",
+     "preverb": "pra",
      "n": 2
     }
    ],
@@ -106484,13 +106484,13 @@
      "n": 4
     },
     {
-     "form": "upanirudh",
-     "preverb": "upani",
+     "form": "abhirudh",
+     "preverb": "abhi",
      "n": 2
     },
     {
-     "form": "pratyavarudh",
-     "preverb": "pratyava",
+     "form": "prarudh",
+     "preverb": "pra",
      "n": 2
     }
    ],
@@ -108216,13 +108216,13 @@
      "n": 7
     },
     {
-     "form": "vyālap",
-     "preverb": "vyā",
+     "form": "samālap",
+     "preverb": "samā",
      "n": 1
     },
     {
-     "form": "samālap",
-     "preverb": "samā",
+     "form": "vyālap",
+     "preverb": "vyā",
      "n": 1
     },
     {
@@ -108590,13 +108590,13 @@
      "n": 28
     },
     {
-     "form": "pralabh",
-     "preverb": "pra",
+     "form": "anvālabh",
+     "preverb": "anvā",
      "n": 18
     },
     {
-     "form": "anvālabh",
-     "preverb": "anvā",
+     "form": "pralabh",
+     "preverb": "pra",
      "n": 18
     },
     {
@@ -108605,18 +108605,18 @@
      "n": 13
     },
     {
-     "form": "paryālabh",
-     "preverb": "paryā",
-     "n": 5
-    },
-    {
      "form": "anulabh",
      "preverb": "anu",
      "n": 5
     },
     {
-     "form": "vilabh",
-     "preverb": "vi",
+     "form": "paryālabh",
+     "preverb": "paryā",
+     "n": 5
+    },
+    {
+     "form": "abhilabh",
+     "preverb": "abhi",
      "n": 4
     }
    ],
@@ -109175,13 +109175,13 @@
      "n": 20
     },
     {
-     "form": "ālaṣ",
-     "preverb": "ā",
+     "form": "parilaṣ",
+     "preverb": "pari",
      "n": 0
     },
     {
-     "form": "parilaṣ",
-     "preverb": "pari",
+     "form": "ālaṣ",
+     "preverb": "ā",
      "n": 0
     }
    ],
@@ -110239,6 +110239,11 @@
      "n": 5
     },
     {
+     "form": "nilih",
+     "preverb": "ni",
+     "n": 1
+    },
+    {
      "form": "anulih",
      "preverb": "anu",
      "n": 1
@@ -110246,11 +110251,6 @@
     {
      "form": "upalih",
      "preverb": "upa",
-     "n": 1
-    },
-    {
-     "form": "nilih",
-     "preverb": "ni",
      "n": 1
     },
     {
@@ -110514,13 +110514,13 @@
      "n": 5
     },
     {
-     "form": "saṃnilī",
-     "preverb": "saṃni",
+     "form": "upalī",
+     "preverb": "upa",
      "n": 3
     },
     {
-     "form": "upalī",
-     "preverb": "upa",
+     "form": "saṃnilī",
+     "preverb": "saṃni",
      "n": 3
     },
     {
@@ -110793,13 +110793,13 @@
      "n": 5
     },
     {
-     "form": "saṃnilī",
-     "preverb": "saṃni",
+     "form": "upalī",
+     "preverb": "upa",
      "n": 3
     },
     {
-     "form": "upalī",
-     "preverb": "upa",
+     "form": "saṃnilī",
+     "preverb": "saṃni",
      "n": 3
     },
     {
@@ -111526,13 +111526,13 @@
      "n": 7
     },
     {
-     "form": "ālup",
-     "preverb": "ā",
+     "form": "parilup",
+     "preverb": "pari",
      "n": 6
     },
     {
-     "form": "parilup",
-     "preverb": "pari",
+     "form": "ālup",
+     "preverb": "ā",
      "n": 6
     },
     {
@@ -111541,8 +111541,8 @@
      "n": 4
     },
     {
-     "form": "abhilup",
-     "preverb": "abhi",
+     "form": "pravilup",
+     "preverb": "pravi",
      "n": 2
     },
     {
@@ -111551,18 +111551,18 @@
      "n": 2
     },
     {
-     "form": "sampralup",
-     "preverb": "sampra",
-     "n": 2
-    },
-    {
      "form": "vyālup",
      "preverb": "vyā",
      "n": 2
     },
     {
-     "form": "pravilup",
-     "preverb": "pravi",
+     "form": "abhilup",
+     "preverb": "abhi",
+     "n": 2
+    },
+    {
+     "form": "sampralup",
+     "preverb": "sampra",
      "n": 2
     }
    ],
@@ -111943,13 +111943,13 @@
      "n": 18
     },
     {
-     "form": "abhilul",
-     "preverb": "abhi",
+     "form": "ālul",
+     "preverb": "ā",
      "n": 1
     },
     {
-     "form": "ālul",
-     "preverb": "ā",
+     "form": "abhilul",
+     "preverb": "abhi",
      "n": 1
     },
     {
@@ -112119,11 +112119,6 @@
      "n": 5
     },
     {
-     "form": "pralū",
-     "preverb": "pra",
-     "n": 2
-    },
-    {
      "form": "pratilū",
      "preverb": "prati",
      "n": 2
@@ -112131,6 +112126,11 @@
     {
      "form": "ālū",
      "preverb": "ā",
+     "n": 2
+    },
+    {
+     "form": "pralū",
+     "preverb": "pra",
      "n": 2
     },
     {
@@ -112825,13 +112825,13 @@
      "n": 4
     },
     {
-     "form": "āvac",
-     "preverb": "ā",
+     "form": "adhivac",
+     "preverb": "adhi",
      "n": 3
     },
     {
-     "form": "adhivac",
-     "preverb": "adhi",
+     "form": "atyanuvac",
+     "preverb": "atyanu",
      "n": 3
     }
    ],
@@ -113747,13 +113747,13 @@
      "n": 3
     },
     {
-     "form": "abhivadh",
-     "preverb": "abhi",
+     "form": "pravadh",
+     "preverb": "pra",
      "n": 1
     },
     {
-     "form": "pravadh",
-     "preverb": "pra",
+     "form": "abhivadh",
+     "preverb": "abhi",
      "n": 1
     },
     {
@@ -113762,13 +113762,13 @@
      "n": 0
     },
     {
-     "form": "abhyāvadh",
-     "preverb": "abhyā",
+     "form": "vivadh",
+     "preverb": "vi",
      "n": 0
     },
     {
-     "form": "vivadh",
-     "preverb": "vi",
+     "form": "abhyāvadh",
+     "preverb": "abhyā",
      "n": 0
     }
    ],
@@ -114309,8 +114309,8 @@
      "n": 3
     },
     {
-     "form": "upavand",
-     "preverb": "upa",
+     "form": "parivand",
+     "preverb": "pari",
      "n": 1
     },
     {
@@ -114319,13 +114319,13 @@
      "n": 1
     },
     {
-     "form": "parivand",
-     "preverb": "pari",
+     "form": "prativand",
+     "preverb": "prati",
      "n": 1
     },
     {
-     "form": "prativand",
-     "preverb": "prati",
+     "form": "upavand",
+     "preverb": "upa",
      "n": 1
     }
    ],
@@ -114636,13 +114636,13 @@
      "n": 9
     },
     {
-     "form": "apavap",
-     "preverb": "apa",
+     "form": "upanivap",
+     "preverb": "upani",
      "n": 8
     },
     {
-     "form": "upanivap",
-     "preverb": "upani",
+     "form": "apavap",
+     "preverb": "apa",
      "n": 8
     }
    ],
@@ -114953,13 +114953,13 @@
      "n": 9
     },
     {
-     "form": "apavap",
-     "preverb": "apa",
+     "form": "upanivap",
+     "preverb": "upani",
      "n": 8
     },
     {
-     "form": "upanivap",
-     "preverb": "upani",
+     "form": "apavap",
+     "preverb": "apa",
      "n": 8
     }
    ],
@@ -115200,13 +115200,13 @@
      "n": 2
     },
     {
-     "form": "vivam",
-     "preverb": "vi",
+     "form": "parāvam",
+     "preverb": "parā",
      "n": 1
     },
     {
-     "form": "parāvam",
-     "preverb": "parā",
+     "form": "vivam",
+     "preverb": "vi",
      "n": 1
     }
    ],
@@ -115581,11 +115581,6 @@
      "n": 6
     },
     {
-     "form": "abhivalg",
-     "preverb": "abhi",
-     "n": 2
-    },
-    {
      "form": "vyāvalg",
      "preverb": "vyā",
      "n": 2
@@ -115593,6 +115588,11 @@
     {
      "form": "vivalg",
      "preverb": "vi",
+     "n": 2
+    },
+    {
+     "form": "abhivalg",
+     "preverb": "abhi",
      "n": 2
     },
     {
@@ -117614,8 +117614,8 @@
      "n": 2
     },
     {
-     "form": "anuvivā",
-     "preverb": "anuvi",
+     "form": "ativā",
+     "preverb": "ati",
      "n": 1
     },
     {
@@ -117624,8 +117624,8 @@
      "n": 1
     },
     {
-     "form": "ativā",
-     "preverb": "ati",
+     "form": "anuvivā",
+     "preverb": "anuvi",
      "n": 1
     },
     {
@@ -117863,8 +117863,8 @@
      "n": 2
     },
     {
-     "form": "anuvivā",
-     "preverb": "anuvi",
+     "form": "ativā",
+     "preverb": "ati",
      "n": 1
     },
     {
@@ -117873,8 +117873,8 @@
      "n": 1
     },
     {
-     "form": "ativā",
-     "preverb": "ati",
+     "form": "anuvivā",
+     "preverb": "anuvi",
      "n": 1
     },
     {
@@ -118112,8 +118112,8 @@
      "n": 2
     },
     {
-     "form": "anuvivā",
-     "preverb": "anuvi",
+     "form": "ativā",
+     "preverb": "ati",
      "n": 1
     },
     {
@@ -118122,8 +118122,8 @@
      "n": 1
     },
     {
-     "form": "ativā",
-     "preverb": "ati",
+     "form": "anuvivā",
+     "preverb": "anuvi",
      "n": 1
     },
     {
@@ -118587,8 +118587,8 @@
      "n": 1
     },
     {
-     "form": "pravāś",
-     "preverb": "pra",
+     "form": "parivāś",
+     "preverb": "pari",
      "n": 0
     },
     {
@@ -118597,8 +118597,8 @@
      "n": 0
     },
     {
-     "form": "parivāś",
-     "preverb": "pari",
+     "form": "pravāś",
+     "preverb": "pra",
      "n": 0
     }
    ],
@@ -119137,13 +119137,13 @@
      "n": 2
     },
     {
-     "form": "adhyapavic",
-     "preverb": "adhyapa",
+     "form": "udvic",
+     "preverb": "ud",
      "n": 1
     },
     {
-     "form": "udvic",
-     "preverb": "ud",
+     "form": "adhyapavic",
+     "preverb": "adhyapa",
      "n": 1
     }
    ],
@@ -119249,13 +119249,13 @@
      "n": 2
     },
     {
-     "form": "adhyapavic",
-     "preverb": "adhyapa",
+     "form": "udvic",
+     "preverb": "ud",
      "n": 1
     },
     {
-     "form": "udvic",
-     "preverb": "ud",
+     "form": "adhyapavic",
+     "preverb": "adhyapa",
      "n": 1
     }
    ],
@@ -119431,13 +119431,13 @@
      "n": 5
     },
     {
-     "form": "pravij",
-     "preverb": "pra",
+     "form": "prativij",
+     "preverb": "prati",
      "n": 2
     },
     {
-     "form": "prativij",
-     "preverb": "prati",
+     "form": "pravij",
+     "preverb": "pra",
      "n": 2
     },
     {
@@ -119893,23 +119893,23 @@
      "n": 16
     },
     {
-     "form": "adhivid",
-     "preverb": "adhi",
-     "n": 12
-    },
-    {
      "form": "nivid",
      "preverb": "ni",
      "n": 12
     },
     {
-     "form": "abhivid",
-     "preverb": "abhi",
-     "n": 4
+     "form": "adhivid",
+     "preverb": "adhi",
+     "n": 12
     },
     {
      "form": "prativid",
      "preverb": "prati",
+     "n": 4
+    },
+    {
+     "form": "abhivid",
+     "preverb": "abhi",
      "n": 4
     },
     {
@@ -120383,23 +120383,23 @@
      "n": 16
     },
     {
-     "form": "adhivid",
-     "preverb": "adhi",
-     "n": 12
-    },
-    {
      "form": "nivid",
      "preverb": "ni",
      "n": 12
     },
     {
-     "form": "abhivid",
-     "preverb": "abhi",
-     "n": 4
+     "form": "adhivid",
+     "preverb": "adhi",
+     "n": 12
     },
     {
      "form": "prativid",
      "preverb": "prati",
+     "n": 4
+    },
+    {
+     "form": "abhivid",
+     "preverb": "abhi",
      "n": 4
     },
     {
@@ -121651,24 +121651,14 @@
      "n": 2
     },
     {
-     "form": "udvī",
-     "preverb": "ud",
-     "n": 1
-    },
-    {
      "form": "āvī",
      "preverb": "ā",
      "n": 1
     },
     {
-     "form": "upavī",
-     "preverb": "upa",
-     "n": 0
-    },
-    {
-     "form": "prativī",
-     "preverb": "prati",
-     "n": 0
+     "form": "udvī",
+     "preverb": "ud",
+     "n": 1
     },
     {
      "form": "nivī",
@@ -121678,6 +121668,16 @@
     {
      "form": "apavī",
      "preverb": "apa",
+     "n": 0
+    },
+    {
+     "form": "prativī",
+     "preverb": "prati",
+     "n": 0
+    },
+    {
+     "form": "upavī",
+     "preverb": "upa",
      "n": 0
     }
    ],
@@ -122797,13 +122797,13 @@
      "n": 5
     },
     {
-     "form": "adhivṛj",
-     "preverb": "adhi",
+     "form": "avavṛj",
+     "preverb": "ava",
      "n": 3
     },
     {
-     "form": "avavṛj",
-     "preverb": "ava",
+     "form": "adhivṛj",
+     "preverb": "adhi",
      "n": 3
     },
     {
@@ -122812,8 +122812,8 @@
      "n": 2
     },
     {
-     "form": "anupravṛj",
-     "preverb": "anupra",
+     "form": "nivṛj",
+     "preverb": "ni",
      "n": 1
     },
     {
@@ -122822,13 +122822,13 @@
      "n": 1
     },
     {
-     "form": "nivṛj",
-     "preverb": "ni",
+     "form": "apāvṛj",
+     "preverb": "apā",
      "n": 1
     },
     {
-     "form": "parāvṛj",
-     "preverb": "parā",
+     "form": "samāvṛj",
+     "preverb": "samā",
      "n": 1
     }
    ],
@@ -123574,13 +123574,13 @@
      "n": 2
     },
     {
-     "form": "anupravṛdh",
-     "preverb": "anupra",
+     "form": "prativṛdh",
+     "preverb": "prati",
      "n": 1
     },
     {
-     "form": "prativṛdh",
-     "preverb": "prati",
+     "form": "nivṛdh",
+     "preverb": "ni",
      "n": 1
     }
    ],
@@ -123873,13 +123873,13 @@
      "n": 3
     },
     {
-     "form": "prativṛṣ",
-     "preverb": "prati",
+     "form": "parivṛṣ",
+     "preverb": "pari",
      "n": 1
     },
     {
-     "form": "parivṛṣ",
-     "preverb": "pari",
+     "form": "prativṛṣ",
+     "preverb": "prati",
      "n": 1
     },
     {
@@ -123893,13 +123893,13 @@
      "n": 1
     },
     {
-     "form": "samabhivṛṣ",
-     "preverb": "samabhi",
+     "form": "āvṛṣ",
+     "preverb": "ā",
      "n": 0
     },
     {
-     "form": "āvṛṣ",
-     "preverb": "ā",
+     "form": "samabhivṛṣ",
+     "preverb": "samabhi",
      "n": 0
     }
    ],
@@ -124522,6 +124522,11 @@
      "n": 3
     },
     {
+     "form": "anuveṣṭ",
+     "preverb": "anu",
+     "n": 2
+    },
+    {
      "form": "āveṣṭ",
      "preverb": "ā",
      "n": 2
@@ -124532,13 +124537,13 @@
      "n": 2
     },
     {
-     "form": "anuveṣṭ",
-     "preverb": "anu",
-     "n": 2
+     "form": "saṃpariveṣṭ",
+     "preverb": "saṃpari",
+     "n": 1
     },
     {
-     "form": "vyativeṣṭ",
-     "preverb": "vyati",
+     "form": "vyāveṣṭ",
+     "preverb": "vyā",
      "n": 1
     },
     {
@@ -124547,13 +124552,8 @@
      "n": 1
     },
     {
-     "form": "abhyanuveṣṭ",
-     "preverb": "abhyanu",
-     "n": 1
-    },
-    {
-     "form": "saṃpariveṣṭ",
-     "preverb": "saṃpari",
+     "form": "vyativeṣṭ",
+     "preverb": "vyati",
      "n": 1
     },
     {
@@ -124562,8 +124562,8 @@
      "n": 1
     },
     {
-     "form": "vyāveṣṭ",
-     "preverb": "vyā",
+     "form": "abhyanuveṣṭ",
+     "preverb": "abhyanu",
      "n": 1
     }
    ],
@@ -125431,13 +125431,13 @@
      "n": 3
     },
     {
-     "form": "avavye",
-     "preverb": "ava",
+     "form": "apavye",
+     "preverb": "apa",
      "n": 2
     },
     {
-     "form": "apavye",
-     "preverb": "apa",
+     "form": "avavye",
+     "preverb": "ava",
      "n": 2
     },
     {
@@ -125981,11 +125981,6 @@
      "n": 1
     },
     {
-     "form": "avavraśc",
-     "preverb": "ava",
-     "n": 0
-    },
-    {
      "form": "apivraśc",
      "preverb": "api",
      "n": 0
@@ -125993,6 +125988,11 @@
     {
      "form": "nivraśc",
      "preverb": "ni",
+     "n": 0
+    },
+    {
+     "form": "avavraśc",
+     "preverb": "ava",
      "n": 0
     }
    ],
@@ -126779,13 +126779,13 @@
      "n": 4
     },
     {
-     "form": "udāśaṃs",
-     "preverb": "udā",
+     "form": "anupraśaṃs",
+     "preverb": "anupra",
      "n": 2
     },
     {
-     "form": "anupraśaṃs",
-     "preverb": "anupra",
+     "form": "udāśaṃs",
+     "preverb": "udā",
      "n": 2
     },
     {
@@ -126794,8 +126794,8 @@
      "n": 2
     },
     {
-     "form": "samabhipraśaṃs",
-     "preverb": "samabhipra",
+     "form": "pariśaṃs",
+     "preverb": "pari",
      "n": 1
     }
    ],
@@ -127090,8 +127090,8 @@
      "n": 2
     },
     {
-     "form": "vyatiśak",
-     "preverb": "vyati",
+     "form": "pariśak",
+     "preverb": "pari",
      "n": 1
     },
     {
@@ -127100,8 +127100,8 @@
      "n": 1
     },
     {
-     "form": "pariśak",
-     "preverb": "pari",
+     "form": "vyatiśak",
+     "preverb": "vyati",
      "n": 1
     },
     {
@@ -127110,13 +127110,13 @@
      "n": 0
     },
     {
-     "form": "praśak",
-     "preverb": "pra",
+     "form": "anuśak",
+     "preverb": "anu",
      "n": 0
     },
     {
-     "form": "anuśak",
-     "preverb": "anu",
+     "form": "praśak",
+     "preverb": "pra",
      "n": 0
     }
    ],
@@ -127436,13 +127436,18 @@
      "n": 11
     },
     {
+     "form": "nirāśaṅk",
+     "preverb": "nirā",
+     "n": 1
+    },
+    {
      "form": "praśaṅk",
      "preverb": "pra",
      "n": 1
     },
     {
-     "form": "nirāśaṅk",
-     "preverb": "nirā",
+     "form": "upaśaṅk",
+     "preverb": "upa",
      "n": 1
     },
     {
@@ -127453,11 +127458,6 @@
     {
      "form": "upāśaṅk",
      "preverb": "upā",
-     "n": 1
-    },
-    {
-     "form": "upaśaṅk",
-     "preverb": "upa",
      "n": 1
     }
    ],
@@ -128051,6 +128051,11 @@
      "n": 2
     },
     {
+     "form": "pratiśap",
+     "preverb": "prati",
+     "n": 1
+    },
+    {
      "form": "pariśap",
      "preverb": "pari",
      "n": 1
@@ -128058,11 +128063,6 @@
     {
      "form": "avaśap",
      "preverb": "ava",
-     "n": 1
-    },
-    {
-     "form": "pratiśap",
-     "preverb": "prati",
      "n": 1
     }
    ],
@@ -128354,13 +128354,8 @@
      "n": 3
     },
     {
-     "form": "vyavaśam",
-     "preverb": "vyava",
-     "n": 2
-    },
-    {
-     "form": "pratiśam",
-     "preverb": "prati",
+     "form": "samupaśam",
+     "preverb": "samupa",
      "n": 2
     },
     {
@@ -128369,8 +128364,13 @@
      "n": 2
     },
     {
-     "form": "samupaśam",
-     "preverb": "samupa",
+     "form": "pratiśam",
+     "preverb": "prati",
+     "n": 2
+    },
+    {
+     "form": "vyavaśam",
+     "preverb": "vyava",
      "n": 2
     },
     {
@@ -128379,8 +128379,8 @@
      "n": 1
     },
     {
-     "form": "abhiśam",
-     "preverb": "abhi",
+     "form": "anuśam",
+     "preverb": "anu",
      "n": 0
     }
    ],
@@ -128672,13 +128672,8 @@
      "n": 3
     },
     {
-     "form": "vyavaśam",
-     "preverb": "vyava",
-     "n": 2
-    },
-    {
-     "form": "pratiśam",
-     "preverb": "prati",
+     "form": "samupaśam",
+     "preverb": "samupa",
      "n": 2
     },
     {
@@ -128687,8 +128682,13 @@
      "n": 2
     },
     {
-     "form": "samupaśam",
-     "preverb": "samupa",
+     "form": "pratiśam",
+     "preverb": "prati",
+     "n": 2
+    },
+    {
+     "form": "vyavaśam",
+     "preverb": "vyava",
      "n": 2
     },
     {
@@ -128697,8 +128697,8 @@
      "n": 1
     },
     {
-     "form": "abhiśam",
-     "preverb": "abhi",
+     "form": "anuśam",
+     "preverb": "anu",
      "n": 0
     }
    ],
@@ -128990,13 +128990,8 @@
      "n": 3
     },
     {
-     "form": "vyavaśam",
-     "preverb": "vyava",
-     "n": 2
-    },
-    {
-     "form": "pratiśam",
-     "preverb": "prati",
+     "form": "samupaśam",
+     "preverb": "samupa",
      "n": 2
     },
     {
@@ -129005,8 +129000,13 @@
      "n": 2
     },
     {
-     "form": "samupaśam",
-     "preverb": "samupa",
+     "form": "pratiśam",
+     "preverb": "prati",
+     "n": 2
+    },
+    {
+     "form": "vyavaśam",
+     "preverb": "vyava",
      "n": 2
     },
     {
@@ -129015,8 +129015,8 @@
      "n": 1
     },
     {
-     "form": "abhiśam",
-     "preverb": "abhi",
+     "form": "anuśam",
+     "preverb": "anu",
      "n": 0
     }
    ],
@@ -129307,13 +129307,13 @@
      "n": 545
     },
     {
-     "form": "āśā",
-     "preverb": "ā",
+     "form": "niḥśā",
+     "preverb": "niḥ",
      "n": 1
     },
     {
-     "form": "niḥśā",
-     "preverb": "niḥ",
+     "form": "āśā",
+     "preverb": "ā",
      "n": 1
     },
     {
@@ -129647,13 +129647,13 @@
      "n": 2
     },
     {
-     "form": "avaśās",
-     "preverb": "ava",
+     "form": "sampraśās",
+     "preverb": "sampra",
      "n": 1
     },
     {
-     "form": "sampraśās",
-     "preverb": "sampra",
+     "form": "abhyanuśās",
+     "preverb": "abhyanu",
      "n": 1
     },
     {
@@ -129662,8 +129662,8 @@
      "n": 1
     },
     {
-     "form": "abhyanuśās",
-     "preverb": "abhyanu",
+     "form": "avaśās",
+     "preverb": "ava",
      "n": 1
     },
     {
@@ -129993,13 +129993,13 @@
      "n": 2
     },
     {
-     "form": "avaśās",
-     "preverb": "ava",
+     "form": "sampraśās",
+     "preverb": "sampra",
      "n": 1
     },
     {
-     "form": "sampraśās",
-     "preverb": "sampra",
+     "form": "abhyanuśās",
+     "preverb": "abhyanu",
      "n": 1
     },
     {
@@ -130008,8 +130008,8 @@
      "n": 1
     },
     {
-     "form": "abhyanuśās",
-     "preverb": "abhyanu",
+     "form": "avaśās",
+     "preverb": "ava",
      "n": 1
     },
     {
@@ -130673,23 +130673,23 @@
      "n": 2
     },
     {
-     "form": "praśiṣ",
-     "preverb": "pra",
-     "n": 1
-    },
-    {
      "form": "niravaśiṣ",
      "preverb": "nirava",
      "n": 1
     },
     {
-     "form": "apaśiṣ",
-     "preverb": "apa",
-     "n": 0
+     "form": "praśiṣ",
+     "preverb": "pra",
+     "n": 1
     },
     {
      "form": "praviśiṣ",
      "preverb": "pravi",
+     "n": 0
+    },
+    {
+     "form": "apaśiṣ",
+     "preverb": "apa",
      "n": 0
     }
    ],
@@ -130974,13 +130974,13 @@
      "n": 33
     },
     {
-     "form": "āśī",
-     "preverb": "ā",
+     "form": "pariśī",
+     "preverb": "pari",
      "n": 22
     },
     {
-     "form": "pariśī",
-     "preverb": "pari",
+     "form": "āśī",
+     "preverb": "ā",
      "n": 22
     },
     {
@@ -131304,13 +131304,13 @@
      "n": 33
     },
     {
-     "form": "āśī",
-     "preverb": "ā",
+     "form": "pariśī",
+     "preverb": "pari",
      "n": 22
     },
     {
-     "form": "pariśī",
-     "preverb": "pari",
+     "form": "āśī",
+     "preverb": "ā",
      "n": 22
     },
     {
@@ -131698,6 +131698,11 @@
      "n": 1
     },
     {
+     "form": "āśuc",
+     "preverb": "ā",
+     "n": 0
+    },
+    {
      "form": "niḥśuc",
      "preverb": "niḥ",
      "n": 0
@@ -131705,11 +131710,6 @@
     {
      "form": "anupraśuc",
      "preverb": "anupra",
-     "n": 0
-    },
-    {
-     "form": "āśuc",
-     "preverb": "ā",
      "n": 0
     }
    ],
@@ -132248,13 +132248,13 @@
      "n": 3
     },
     {
-     "form": "abhiśubh",
-     "preverb": "abhi",
+     "form": "viśubh",
+     "preverb": "vi",
      "n": 2
     },
     {
-     "form": "viśubh",
-     "preverb": "vi",
+     "form": "abhiśubh",
+     "preverb": "abhi",
      "n": 2
     },
     {
@@ -132263,13 +132263,8 @@
      "n": 1
     },
     {
-     "form": "praśubh",
-     "preverb": "pra",
-     "n": 0
-    },
-    {
-     "form": "atiśubh",
-     "preverb": "ati",
+     "form": "samabhiśubh",
+     "preverb": "samabhi",
      "n": 0
     },
     {
@@ -132278,8 +132273,13 @@
      "n": 0
     },
     {
-     "form": "samabhiśubh",
-     "preverb": "samabhi",
+     "form": "atiśubh",
+     "preverb": "ati",
+     "n": 0
+    },
+    {
+     "form": "praśubh",
+     "preverb": "pra",
      "n": 0
     }
    ],
@@ -132531,13 +132531,13 @@
      "n": 1
     },
     {
-     "form": "pratiśuṣ",
-     "preverb": "prati",
+     "form": "apaśuṣ",
+     "preverb": "apa",
      "n": 1
     },
     {
-     "form": "apaśuṣ",
-     "preverb": "apa",
+     "form": "pratiśuṣ",
+     "preverb": "prati",
      "n": 1
     },
     {
@@ -132794,13 +132794,13 @@
      "n": 1
     },
     {
-     "form": "pratiśuṣ",
-     "preverb": "prati",
+     "form": "apaśuṣ",
+     "preverb": "apa",
      "n": 1
     },
     {
-     "form": "apaśuṣ",
-     "preverb": "apa",
+     "form": "pratiśuṣ",
+     "preverb": "prati",
      "n": 1
     },
     {
@@ -133119,13 +133119,13 @@
      "n": 2
     },
     {
-     "form": "niśṛ",
-     "preverb": "ni",
+     "form": "vyavaśṛ",
+     "preverb": "vyava",
      "n": 1
     },
     {
-     "form": "anuviśṛ",
-     "preverb": "anuvi",
+     "form": "abhiviśṛ",
+     "preverb": "abhivi",
      "n": 1
     },
     {
@@ -133430,13 +133430,13 @@
      "n": 2
     },
     {
-     "form": "niśṛ",
-     "preverb": "ni",
+     "form": "vyavaśṛ",
+     "preverb": "vyava",
      "n": 1
     },
     {
-     "form": "anuviśṛ",
-     "preverb": "anuvi",
+     "form": "abhiviśṛ",
+     "preverb": "abhivi",
      "n": 1
     },
     {
@@ -133741,13 +133741,13 @@
      "n": 2
     },
     {
-     "form": "niśṛ",
-     "preverb": "ni",
+     "form": "vyavaśṛ",
+     "preverb": "vyava",
      "n": 1
     },
     {
-     "form": "anuviśṛ",
-     "preverb": "anuvi",
+     "form": "abhiviśṛ",
+     "preverb": "abhivi",
      "n": 1
     },
     {
@@ -134621,13 +134621,13 @@
      "n": 20
     },
     {
-     "form": "pariviśram",
-     "preverb": "parivi",
+     "form": "upaśram",
+     "preverb": "upa",
      "n": 3
     },
     {
-     "form": "upaśram",
-     "preverb": "upa",
+     "form": "pariviśram",
+     "preverb": "parivi",
      "n": 3
     },
     {
@@ -134641,13 +134641,13 @@
      "n": 1
     },
     {
-     "form": "niśram",
-     "preverb": "ni",
+     "form": "āśram",
+     "preverb": "ā",
      "n": 1
     },
     {
-     "form": "āśram",
-     "preverb": "ā",
+     "form": "niśram",
+     "preverb": "ni",
      "n": 1
     }
    ],
@@ -135312,13 +135312,13 @@
      "n": 2
     },
     {
-     "form": "pariśrī",
-     "preverb": "pari",
+     "form": "viśrī",
+     "preverb": "vi",
      "n": 1
     },
     {
-     "form": "viśrī",
-     "preverb": "vi",
+     "form": "pariśrī",
+     "preverb": "pari",
      "n": 1
     },
     {
@@ -135591,13 +135591,13 @@
      "n": 2
     },
     {
-     "form": "pariśrī",
-     "preverb": "pari",
+     "form": "viśrī",
+     "preverb": "vi",
      "n": 1
     },
     {
-     "form": "viśrī",
-     "preverb": "vi",
+     "form": "pariśrī",
+     "preverb": "pari",
      "n": 1
     },
     {
@@ -136046,13 +136046,13 @@
      "n": 10
     },
     {
-     "form": "pratyupaśru",
-     "preverb": "pratyupa",
+     "form": "samāśru",
+     "preverb": "samā",
      "n": 1
     },
     {
-     "form": "samāśru",
-     "preverb": "samā",
+     "form": "pratyupaśru",
+     "preverb": "pratyupa",
      "n": 1
     },
     {
@@ -136061,8 +136061,8 @@
      "n": 1
     },
     {
-     "form": "atipraśru",
-     "preverb": "atipra",
+     "form": "praśru",
+     "preverb": "pra",
      "n": 0
     }
    ],
@@ -137116,11 +137116,6 @@
      "n": 11
     },
     {
-     "form": "abhiniṣṭhīv",
-     "preverb": "abhini",
-     "n": 2
-    },
-    {
      "form": "adhiṣṭhīv",
      "preverb": "adhi",
      "n": 2
@@ -137128,6 +137123,11 @@
     {
      "form": "avaniṣṭhīv",
      "preverb": "avani",
+     "n": 2
+    },
+    {
+     "form": "abhiniṣṭhīv",
+     "preverb": "abhini",
      "n": 2
     },
     {
@@ -137387,8 +137387,8 @@
      "n": 1
     },
     {
-     "form": "apasac",
-     "preverb": "apa",
+     "form": "āsac",
+     "preverb": "ā",
      "n": 0
     },
     {
@@ -137402,8 +137402,8 @@
      "n": 0
     },
     {
-     "form": "āsac",
-     "preverb": "ā",
+     "form": "apasac",
+     "preverb": "apa",
      "n": 0
     }
    ],
@@ -137746,18 +137746,18 @@
      "n": 12
     },
     {
-     "form": "abhyāsad",
-     "preverb": "abhyā",
-     "n": 6
-    },
-    {
      "form": "upotsad",
      "preverb": "upot",
      "n": 6
     },
     {
-     "form": "upāsad",
-     "preverb": "upā",
+     "form": "abhyāsad",
+     "preverb": "abhyā",
+     "n": 6
+    },
+    {
+     "form": "vyavasad",
+     "preverb": "vyava",
      "n": 5
     }
    ],
@@ -138019,13 +138019,13 @@
    },
    "preverbs": [
     {
-     "form": "prasan",
-     "preverb": "pra",
+     "form": "āsan",
+     "preverb": "ā",
      "n": 0
     },
     {
-     "form": "āsan",
-     "preverb": "ā",
+     "form": "prasan",
+     "preverb": "pra",
      "n": 0
     }
    ],
@@ -138718,11 +138718,6 @@
      "n": 1
     },
     {
-     "form": "samprasah",
-     "preverb": "sampra",
-     "n": 1
-    },
-    {
      "form": "anusah",
      "preverb": "anu",
      "n": 1
@@ -138730,6 +138725,11 @@
     {
      "form": "abhiprasah",
      "preverb": "abhipra",
+     "n": 1
+    },
+    {
+     "form": "samprasah",
+     "preverb": "sampra",
      "n": 1
     },
     {
@@ -138942,13 +138942,13 @@
      "n": 7
     },
     {
-     "form": "prāvasā",
-     "preverb": "prāva",
+     "form": "pratyavasā",
+     "preverb": "pratyava",
      "n": 3
     },
     {
-     "form": "pratyavasā",
-     "preverb": "pratyava",
+     "form": "prāvasā",
+     "preverb": "prāva",
      "n": 3
     },
     {
@@ -138957,13 +138957,13 @@
      "n": 2
     },
     {
-     "form": "atisā",
-     "preverb": "ati",
+     "form": "upāvasā",
+     "preverb": "upāva",
      "n": 1
     },
     {
-     "form": "upāvasā",
-     "preverb": "upāva",
+     "form": "atisā",
+     "preverb": "ati",
      "n": 1
     }
    ],
@@ -139175,13 +139175,13 @@
      "n": 7
     },
     {
-     "form": "prāvasā",
-     "preverb": "prāva",
+     "form": "pratyavasā",
+     "preverb": "pratyava",
      "n": 3
     },
     {
-     "form": "pratyavasā",
-     "preverb": "pratyava",
+     "form": "prāvasā",
+     "preverb": "prāva",
      "n": 3
     },
     {
@@ -139190,13 +139190,13 @@
      "n": 2
     },
     {
-     "form": "atisā",
-     "preverb": "ati",
+     "form": "upāvasā",
+     "preverb": "upāva",
      "n": 1
     },
     {
-     "form": "upāvasā",
-     "preverb": "upāva",
+     "form": "atisā",
+     "preverb": "ati",
      "n": 1
     }
    ],
@@ -139801,6 +139801,11 @@
      "n": 3
     },
     {
+     "form": "pratyāsic",
+     "preverb": "pratyā",
+     "n": 2
+    },
+    {
      "form": "samprasic",
      "preverb": "sampra",
      "n": 2
@@ -139808,11 +139813,6 @@
     {
      "form": "upotsic",
      "preverb": "upot",
-     "n": 2
-    },
-    {
-     "form": "vyāsic",
-     "preverb": "vyā",
      "n": 2
     }
    ],
@@ -140057,13 +140057,13 @@
      "n": 4
     },
     {
-     "form": "anusidh",
-     "preverb": "anu",
+     "form": "saṃprasidh",
+     "preverb": "saṃpra",
      "n": 2
     },
     {
-     "form": "saṃprasidh",
-     "preverb": "saṃpra",
+     "form": "anusidh",
+     "preverb": "anu",
      "n": 2
     },
     {
@@ -140327,13 +140327,13 @@
      "n": 4
     },
     {
-     "form": "anusidh",
-     "preverb": "anu",
+     "form": "saṃprasidh",
+     "preverb": "saṃpra",
      "n": 2
     },
     {
-     "form": "saṃprasidh",
-     "preverb": "saṃpra",
+     "form": "anusidh",
+     "preverb": "anu",
      "n": 2
     },
     {
@@ -141228,8 +141228,8 @@
      "n": 3
     },
     {
-     "form": "anuprasū",
-     "preverb": "anupra",
+     "form": "pratiprasū",
+     "preverb": "pratipra",
      "n": 1
     },
     {
@@ -141238,28 +141238,28 @@
      "n": 1
     },
     {
-     "form": "utsū",
-     "preverb": "ut",
-     "n": 1
-    },
-    {
-     "form": "pratiprasū",
-     "preverb": "pratipra",
-     "n": 1
-    },
-    {
      "form": "abhiprasū",
      "preverb": "abhipra",
      "n": 1
     },
     {
-     "form": "apasū",
-     "preverb": "apa",
-     "n": 0
+     "form": "anuprasū",
+     "preverb": "anupra",
+     "n": 1
+    },
+    {
+     "form": "utsū",
+     "preverb": "ut",
+     "n": 1
     },
     {
      "form": "adhiprasū",
      "preverb": "adhipra",
+     "n": 0
+    },
+    {
+     "form": "apasū",
+     "preverb": "apa",
      "n": 0
     }
    ],
@@ -142449,8 +142449,8 @@
      "n": 8
     },
     {
-     "form": "samutsṛp",
-     "preverb": "samut",
+     "form": "samprasṛp",
+     "preverb": "sampra",
      "n": 6
     }
    ],
@@ -142799,19 +142799,14 @@
      "n": 6
     },
     {
-     "form": "abhisev",
-     "preverb": "abhi",
-     "n": 3
-    },
-    {
      "form": "anusev",
      "preverb": "anu",
      "n": 3
     },
     {
-     "form": "pratisev",
-     "preverb": "prati",
-     "n": 2
+     "form": "abhisev",
+     "preverb": "abhi",
+     "n": 3
     },
     {
      "form": "samāsev",
@@ -142819,9 +142814,9 @@
      "n": 2
     },
     {
-     "form": "vyatisev",
-     "preverb": "vyati",
-     "n": 1
+     "form": "pratisev",
+     "preverb": "prati",
+     "n": 2
     },
     {
      "form": "prasev",
@@ -142831,6 +142826,11 @@
     {
      "form": "avasev",
      "preverb": "ava",
+     "n": 1
+    },
+    {
+     "form": "vyatisev",
+     "preverb": "vyati",
      "n": 1
     },
     {
@@ -143028,13 +143028,13 @@
      "n": 3
     },
     {
-     "form": "upaskand",
-     "preverb": "upa",
+     "form": "samāskand",
+     "preverb": "samā",
      "n": 1
     },
     {
-     "form": "samāskand",
-     "preverb": "samā",
+     "form": "upaskand",
+     "preverb": "upa",
      "n": 1
     },
     {
@@ -145329,13 +145329,13 @@
      "n": 3
     },
     {
-     "form": "anuprastṛ",
-     "preverb": "anupra",
+     "form": "abhistṛ",
+     "preverb": "abhi",
      "n": 2
     },
     {
-     "form": "abhistṛ",
-     "preverb": "abhi",
+     "form": "anuprastṛ",
+     "preverb": "anupra",
      "n": 2
     }
    ],
@@ -146875,13 +146875,13 @@
      "n": 4
     },
     {
-     "form": "avaspṛ",
-     "preverb": "ava",
+     "form": "apaspṛ",
+     "preverb": "apa",
      "n": 1
     },
     {
-     "form": "apaspṛ",
-     "preverb": "apa",
+     "form": "avaspṛ",
+     "preverb": "ava",
      "n": 1
     },
     {
@@ -147485,6 +147485,11 @@
      "n": 2
     },
     {
+     "form": "upāspṛś",
+     "preverb": "upā",
+     "n": 1
+    },
+    {
      "form": "vispṛś",
      "preverb": "vi",
      "n": 1
@@ -147495,18 +147500,13 @@
      "n": 1
     },
     {
-     "form": "upāspṛś",
-     "preverb": "upā",
-     "n": 1
-    },
-    {
      "form": "sampraspṛś",
      "preverb": "sampra",
      "n": 0
     },
     {
-     "form": "utspṛś",
-     "preverb": "ut",
+     "form": "adhispṛś",
+     "preverb": "adhi",
      "n": 0
     }
    ],
@@ -148167,18 +148167,8 @@
      "n": 8
     },
     {
-     "form": "avasphur",
-     "preverb": "ava",
-     "n": 0
-    },
-    {
      "form": "vyapasphur",
      "preverb": "vyapa",
-     "n": 0
-    },
-    {
-     "form": "niḥsphur",
-     "preverb": "niḥ",
      "n": 0
     },
     {
@@ -148187,8 +148177,18 @@
      "n": 0
     },
     {
+     "form": "avasphur",
+     "preverb": "ava",
+     "n": 0
+    },
+    {
      "form": "pratisphur",
      "preverb": "prati",
+     "n": 0
+    },
+    {
+     "form": "niḥsphur",
+     "preverb": "niḥ",
      "n": 0
     }
    ],
@@ -149134,13 +149134,13 @@
    },
    "preverbs": [
     {
-     "form": "prasyand",
-     "preverb": "pra",
+     "form": "āsyand",
+     "preverb": "ā",
      "n": 6
     },
     {
-     "form": "āsyand",
-     "preverb": "ā",
+     "form": "prasyand",
+     "preverb": "pra",
      "n": 6
     },
     {
@@ -149149,13 +149149,8 @@
      "n": 2
     },
     {
-     "form": "nisyand",
-     "preverb": "ni",
-     "n": 0
-    },
-    {
-     "form": "avasyand",
-     "preverb": "ava",
+     "form": "niḥsyand",
+     "preverb": "niḥ",
      "n": 0
     },
     {
@@ -149164,8 +149159,13 @@
      "n": 0
     },
     {
-     "form": "niḥsyand",
-     "preverb": "niḥ",
+     "form": "avasyand",
+     "preverb": "ava",
+     "n": 0
+    },
+    {
+     "form": "nisyand",
+     "preverb": "ni",
      "n": 0
     },
     {
@@ -149377,13 +149377,13 @@
      "n": 0
     },
     {
-     "form": "avavisraṃs",
-     "preverb": "avavi",
+     "form": "atisraṃs",
+     "preverb": "ati",
      "n": 0
     },
     {
-     "form": "atisraṃs",
-     "preverb": "ati",
+     "form": "avavisraṃs",
+     "preverb": "avavi",
      "n": 0
     }
    ],
@@ -149769,13 +149769,13 @@
      "n": 7
     },
     {
-     "form": "samavasru",
-     "preverb": "samava",
+     "form": "nisru",
+     "preverb": "ni",
      "n": 4
     },
     {
-     "form": "nisru",
-     "preverb": "ni",
+     "form": "samavasru",
+     "preverb": "samava",
      "n": 4
     },
     {
@@ -149784,8 +149784,8 @@
      "n": 3
     },
     {
-     "form": "abhiprasru",
-     "preverb": "abhipra",
+     "form": "avasru",
+     "preverb": "ava",
      "n": 2
     }
    ],
@@ -150164,11 +150164,6 @@
    },
    "preverbs": [
     {
-     "form": "nisvan",
-     "preverb": "ni",
-     "n": 2
-    },
-    {
      "form": "niḥsvan",
      "preverb": "niḥ",
      "n": 2
@@ -150179,18 +150174,23 @@
      "n": 2
     },
     {
+     "form": "nisvan",
+     "preverb": "ni",
+     "n": 2
+    },
+    {
      "form": "prasvan",
      "preverb": "pra",
      "n": 1
     },
     {
-     "form": "visvan",
-     "preverb": "vi",
+     "form": "avasvan",
+     "preverb": "ava",
      "n": 0
     },
     {
-     "form": "avasvan",
-     "preverb": "ava",
+     "form": "visvan",
+     "preverb": "vi",
      "n": 0
     }
    ],
@@ -150970,13 +150970,13 @@
      "n": 2
     },
     {
-     "form": "āsvid",
-     "preverb": "ā",
+     "form": "upasvid",
+     "preverb": "upa",
      "n": 1
     },
     {
-     "form": "upasvid",
-     "preverb": "upa",
+     "form": "āsvid",
+     "preverb": "ā",
      "n": 1
     }
    ],
@@ -151443,13 +151443,13 @@
      "n": 64
     },
     {
-     "form": "prahan",
-     "preverb": "pra",
+     "form": "abhyāhan",
+     "preverb": "abhyā",
      "n": 48
     },
     {
-     "form": "abhyāhan",
-     "preverb": "abhyā",
+     "form": "prahan",
+     "preverb": "pra",
      "n": 48
     }
    ],
@@ -152150,13 +152150,13 @@
      "n": 8
     },
     {
-     "form": "samprahas",
-     "preverb": "sampra",
+     "form": "parihas",
+     "preverb": "pari",
      "n": 5
     },
     {
-     "form": "parihas",
-     "preverb": "pari",
+     "form": "samprahas",
+     "preverb": "sampra",
      "n": 5
     },
     {
@@ -152170,13 +152170,13 @@
      "n": 1
     },
     {
-     "form": "saṃvihas",
-     "preverb": "saṃvi",
+     "form": "vyatihas",
+     "preverb": "vyati",
      "n": 0
     },
     {
-     "form": "vyatihas",
-     "preverb": "vyati",
+     "form": "saṃvihas",
+     "preverb": "saṃvi",
      "n": 0
     }
    ],
@@ -152558,13 +152558,13 @@
      "n": 4
     },
     {
-     "form": "nihā",
-     "preverb": "ni",
+     "form": "samprahā",
+     "preverb": "sampra",
      "n": 3
     },
     {
-     "form": "samprahā",
-     "preverb": "sampra",
+     "form": "abhihā",
+     "preverb": "abhi",
      "n": 3
     }
    ],
@@ -152950,13 +152950,13 @@
      "n": 4
     },
     {
-     "form": "nihā",
-     "preverb": "ni",
+     "form": "samprahā",
+     "preverb": "sampra",
      "n": 3
     },
     {
-     "form": "samprahā",
-     "preverb": "sampra",
+     "form": "abhihā",
+     "preverb": "abhi",
      "n": 3
     }
    ],
@@ -153246,6 +153246,11 @@
      "n": 433
     },
     {
+     "form": "parihi",
+     "preverb": "pari",
+     "n": 2
+    },
+    {
      "form": "pratiprahi",
      "preverb": "pratipra",
      "n": 2
@@ -153256,18 +153261,13 @@
      "n": 2
     },
     {
-     "form": "parihi",
-     "preverb": "pari",
-     "n": 2
+     "form": "prāhi",
+     "preverb": "prā",
+     "n": 1
     },
     {
      "form": "abhiprahi",
      "preverb": "abhipra",
-     "n": 1
-    },
-    {
-     "form": "prāhi",
-     "preverb": "prā",
      "n": 1
     },
     {
@@ -153281,13 +153281,13 @@
      "n": 0
     },
     {
-     "form": "upaprahi",
-     "preverb": "upapra",
+     "form": "apahi",
+     "preverb": "apa",
      "n": 0
     },
     {
-     "form": "apahi",
-     "preverb": "apa",
+     "form": "upaprahi",
+     "preverb": "upapra",
      "n": 0
     }
    ],
@@ -153736,13 +153736,13 @@
      "n": 2
     },
     {
-     "form": "upāhiṇḍ",
-     "preverb": "upā",
+     "form": "parihiṇḍ",
+     "preverb": "pari",
      "n": 1
     },
     {
-     "form": "parihiṇḍ",
-     "preverb": "pari",
+     "form": "upāhiṇḍ",
+     "preverb": "upā",
      "n": 1
     }
    ],
@@ -154432,13 +154432,13 @@
    },
    "preverbs": [
     {
-     "form": "anuhūrch",
-     "preverb": "anu",
+     "form": "vihūrch",
+     "preverb": "vi",
      "n": 1
     },
     {
-     "form": "vihūrch",
-     "preverb": "vi",
+     "form": "anuhūrch",
+     "preverb": "anu",
      "n": 1
     }
    ],
@@ -155547,8 +155547,8 @@
      "n": 2
     },
     {
-     "form": "apahṛṣ",
-     "preverb": "apa",
+     "form": "abhihṛṣ",
+     "preverb": "abhi",
      "n": 1
     },
     {
@@ -155557,18 +155557,18 @@
      "n": 1
     },
     {
-     "form": "abhihṛṣ",
-     "preverb": "abhi",
+     "form": "apahṛṣ",
+     "preverb": "apa",
      "n": 1
-    },
-    {
-     "form": "nihṛṣ",
-     "preverb": "ni",
-     "n": 0
     },
     {
      "form": "pratihṛṣ",
      "preverb": "prati",
+     "n": 0
+    },
+    {
+     "form": "nihṛṣ",
+     "preverb": "ni",
      "n": 0
     }
    ],
@@ -155865,14 +155865,19 @@
      "n": 18
     },
     {
+     "form": "parihnu",
+     "preverb": "pari",
+     "n": 1
+    },
+    {
      "form": "vinihnu",
      "preverb": "vini",
      "n": 1
     },
     {
-     "form": "parihnu",
-     "preverb": "pari",
-     "n": 1
+     "form": "apanihnu",
+     "preverb": "apani",
+     "n": 0
     },
     {
      "form": "apihnu",
@@ -155882,11 +155887,6 @@
     {
      "form": "vihnu",
      "preverb": "vi",
-     "n": 0
-    },
-    {
-     "form": "apanihnu",
-     "preverb": "apani",
      "n": 0
     }
    ],
