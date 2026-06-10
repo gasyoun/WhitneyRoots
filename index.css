@@ -534,3 +534,45 @@ footer {
   border-radius: 8px;
   padding: 12px;
 }
+
+/* Participle form-lookup results */
+.participle-lookup {
+  margin-bottom: 22px;
+  padding: 14px 16px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-left: 3px solid var(--accent-color);
+  border-radius: 12px;
+}
+.plk-head {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+}
+.plk-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 8px;
+}
+.plk-hit {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 10px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+}
+.plk-hit.clickable { cursor: pointer; transition: border-color 0.2s, transform 0.2s; }
+.plk-hit.clickable:hover { border-color: var(--accent-color); transform: translateY(-1px); }
+.plk-form { font-weight: 700; color: var(--text-primary); }
+.plk-arrow { color: var(--text-secondary); }
+.plk-root { font-weight: 700; color: var(--accent-color); }
+.plk-cat {
+  margin-left: auto;
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  text-align: right;
+}

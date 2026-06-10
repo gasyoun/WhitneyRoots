@@ -6,10 +6,10 @@
 import { state, updateState } from './core/state.js';
 import { loadAppData } from './core/data.js';
 import { initRouter } from './core/router.js';
-import { renderRootList } from './renderers/lists.js';
+import { renderRootList, renderParticipleMatches } from './renderers/lists.js';
 import { renderQuiz } from './renderers/quiz.js';
 import { renderDetailView } from './renderers/detail.js';
-import { performSearch } from './core/search.js';
+import { performSearch, findParticipleMatches } from './core/search.js';
 import { trackProgress } from './core/achievements.js';
 
 async function initApp() {
@@ -80,6 +80,14 @@ function renderApp(currentState) {
     filteredData = [...filteredData].sort((a, b) => freq(b) - freq(a));
   } else if (currentState.sortBy === 'freq-asc') {
     filteredData = [...filteredData].sort((a, b) => freq(a) - freq(b));
+  }
+
+  // Participle form-lookup: surface corpus participle forms matching the query
+  const pMatches = findParticipleMatches(
+    currentState.data.participleIndex, currentState.searchQuery);
+  if (pMatches.length) {
+    appContainer.appendChild(
+      renderParticipleMatches(pMatches, currentState.data.participleLabels));
   }
 
   appContainer.appendChild(renderRootList(filteredData));

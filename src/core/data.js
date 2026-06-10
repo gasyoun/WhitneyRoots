@@ -7,9 +7,10 @@ import { updateState } from './state.js';
 
 export async function loadAppData() {
   try {
-    const [appResp, freqResp] = await Promise.all([
+    const [appResp, freqResp, pidxResp] = await Promise.all([
       fetch('src/app_data.json'),
-      fetch('src/dcs_freq.json').catch(() => null)
+      fetch('src/dcs_freq.json').catch(() => null),
+      fetch('src/participle_index.json').catch(() => null)
     ]);
     const data = await appResp.json();
     const migrated = migrateAppDataSchema(data);
@@ -21,6 +22,17 @@ export async function loadAppData() {
         mergeDcsFreq(migrated, freq);
       } catch (e) {
         console.warn('DCS frequency sidecar present but unreadable:', e);
+      }
+    }
+
+    // Optional participle -> root lookup index
+    if (pidxResp && pidxResp.ok) {
+      try {
+        const pidx = await pidxResp.json();
+        migrated.participleIndex = pidx.index || {};
+        migrated.participleLabels = (pidx.metadata && pidx.metadata.labels) || {};
+      } catch (e) {
+        console.warn('Participle index present but unreadable:', e);
       }
     }
 

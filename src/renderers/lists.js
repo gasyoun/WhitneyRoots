@@ -3,6 +3,32 @@ import { renderRootCard } from './cards.js';
 import { buildTopicClusters } from '../core/analytics.js';
 import { state, updateState } from '../core/state.js';
 
+/**
+ * Results panel for a participle form-lookup: each hit links to its root and
+ * names the participle category. Shown above the grid when the search query
+ * matches attested participle forms in the DCS index.
+ */
+export function renderParticipleMatches(matches, labels) {
+  const panel = createElement('div', { class: 'participle-lookup' });
+  panel.appendChild(createElement('div', { class: 'plk-head' }, [
+    `Participle forms (${matches.length}) — corpus forms matching your search`
+  ]));
+  const grid = createElement('div', { class: 'plk-grid' });
+  matches.forEach(m => {
+    const label = (labels && labels[m.category]) || m.category;
+    const row = createElement('div', { class: 'plk-hit clickable' }, [
+      createElement('span', { class: 'plk-form' }, [m.form]),
+      createElement('span', { class: 'plk-arrow' }, ['→']),
+      createElement('span', { class: 'plk-root' }, [m.root]),
+      createElement('span', { class: 'plk-cat' }, [label])
+    ]);
+    row.onclick = () => { window.location.hash = `#v1/roots/item/${m.id}`; };
+    grid.appendChild(row);
+  });
+  panel.appendChild(grid);
+  return panel;
+}
+
 /** DCS sort + filter controls for the list view. */
 function renderDcsControls() {
   const bar = createElement('div', { class: 'dcs-controls' });

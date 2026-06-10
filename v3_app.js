@@ -1,6 +1,6 @@
 /**
  * WhitneyRoots v3 Bundle
- * Generated: 2026-06-09T22:24:29.579Z
+ * Generated: 2026-06-10T02:46:17.785Z
  */
 
 // --- FILE: core/state.js ---
@@ -41,9 +41,10 @@ function updateState(newState) {
 
 export async function loadAppData() {
   try {
-    const [appResp, freqResp] = await Promise.all([
+    const [appResp, freqResp, pidxResp] = await Promise.all([
       fetch('src/app_data.json'),
-      fetch('src/dcs_freq.json').catch(() => null)
+      fetch('src/dcs_freq.json').catch(() => null),
+      fetch('src/participle_index.json').catch(() => null)
     ]);
     const data = await appResp.json();
     const migrated = migrateAppDataSchema(data);
@@ -55,6 +56,17 @@ export async function loadAppData() {
         mergeDcsFreq(migrated, freq);
       } catch (e) {
         console.warn('DCS frequency sidecar present but unreadable:', e);
+      }
+    }
+
+    // Optional participle -> root lookup index
+    if (pidxResp && pidxResp.ok) {
+      try {
+        const pidx = await pidxResp.json();
+        migrated.participleIndex = pidx.index || {};
+        migrated.participleLabels = (pidx.metadata && pidx.metadata.labels) || {};
+      } catch (e) {
+        console.warn('Participle index present but unreadable:', e);
       }
     }
 
@@ -94,12 +106,35 @@ function migrateAppDataSchema(data) {
 
 function performSearch(data, query) {
   if (!query) return data.lexicon;
-  
+
   const normalizedQuery = normalizeSanskrit(query);
   return data.lexicon.filter(item => {
     return normalizeSanskrit(item.root).includes(normalizedQuery) ||
            normalizeSanskrit(item.meaning).includes(normalizedQuery);
   });
+}
+
+/**
+ * Look up a (possibly inflected) participle surface form in the DCS index and
+ * return the roots it belongs to. Diacritic-insensitive so users can paste
+ * either IAST or plain ASCII (kriyamāṇe / kriyamane).
+ */
+function findParticipleMatches(index, query, limit = 60) {
+  if (!index || !query) return [];
+  const nq = normalizeSanskrit(query);
+  if (nq.length < 2) return [];
+  const exact = [];
+  const prefix = [];
+  for (const form in index) {
+    const nf = normalizeSanskrit(form);
+    if (nf === nq) {
+      index[form].forEach(hit => exact.push({ form, ...hit }));
+    } else if (nf.startsWith(nq)) {
+      index[form].forEach(hit => prefix.push({ form, ...hit }));
+    }
+    if (exact.length + prefix.length > limit * 3) break;
+  }
+  return exact.concat(prefix).slice(0, limit);
 }
 
 
@@ -450,6 +485,32 @@ function renderDcsBadge(rootItem) {
 
 
 
+
+/**
+ * Results panel for a participle form-lookup: each hit links to its root and
+ * names the participle category. Shown above the grid when the search query
+ * matches attested participle forms in the DCS index.
+ */
+function renderParticipleMatches(matches, labels) {
+  const panel = createElement('div', { class: 'participle-lookup' });
+  panel.appendChild(createElement('div', { class: 'plk-head' }, [
+    `Participle forms (${matches.length}) — corpus forms matching your search`
+  ]));
+  const grid = createElement('div', { class: 'plk-grid' });
+  matches.forEach(m => {
+    const label = (labels && labels[m.category]) || m.category;
+    const row = createElement('div', { class: 'plk-hit clickable' }, [
+      createElement('span', { class: 'plk-form' }, [m.form]),
+      createElement('span', { class: 'plk-arrow' }, ['→']),
+      createElement('span', { class: 'plk-root' }, [m.root]),
+      createElement('span', { class: 'plk-cat' }, [label])
+    ]);
+    row.onclick = () => { window.location.hash = `#v1/roots/item/${m.id}`; };
+    grid.appendChild(row);
+  });
+  panel.appendChild(grid);
+  return panel;
+}
 
 /** DCS sort + filter controls for the list view. */
 function renderDcsControls() {
@@ -889,6 +950,14 @@ function renderApp(currentState) {
     filteredData = [...filteredData].sort((a, b) => freq(b) - freq(a));
   } else if (currentState.sortBy === 'freq-asc') {
     filteredData = [...filteredData].sort((a, b) => freq(a) - freq(b));
+  }
+
+  // Participle form-lookup: surface corpus participle forms matching the query
+  const pMatches = findParticipleMatches(
+    currentState.data.participleIndex, currentState.searchQuery);
+  if (pMatches.length) {
+    appContainer.appendChild(
+      renderParticipleMatches(pMatches, currentState.data.participleLabels));
   }
 
   appContainer.appendChild(renderRootList(filteredData));
