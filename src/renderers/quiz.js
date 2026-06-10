@@ -4,11 +4,11 @@
  */
 
 import { createElement } from '../utils/dom.js';
-import { whitneyQuiz, startQuiz } from '../core/quiz.js';
-import { updateState } from '../core/state.js';
+import { startQuiz } from '../core/quiz.js';
+import { state, updateState } from '../core/state.js';
 
 export function renderQuiz() {
-  const quizState = startQuiz(1); // Default to level 1
+  const quizState = startQuiz(state.data, 10); 
   const container = createElement('div', { class: 'quiz-container' });
   
   function renderQuestion(questionIndex) {
@@ -45,6 +45,12 @@ export function renderQuiz() {
 
   function renderResult() {
     container.innerHTML = '';
+    
+    // Tracking perfect scores
+    if (quizState.score === quizState.questions.length) {
+      updateState({ stats: { ...state.stats, perfectQuizzes: state.stats.perfectQuizzes + 1 } });
+    }
+
     container.appendChild(createElement('div', { class: 'quiz-result' }, [
       createElement('h2', {}, ['Quiz Complete!']),
       createElement('p', {}, [`Your score: ${quizState.score} / ${quizState.questions.length}`]),
