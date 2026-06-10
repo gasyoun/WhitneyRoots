@@ -88,6 +88,22 @@ def dcs_key(root: str) -> str:
     return s.strip()
 
 
+# Curated aliases: Whitney citation/sandhi spelling -> DCS lemma. Hand-verified
+# against dcs_full.sqlite (each target is an attested verbal lemma). Covers what
+# auto-normalization cannot bridge: present-stem citations (gach=gam, yach=yam,
+# prach=pracch, ich=iṣ), guṇa/vṛddhi citations (har=hṛ, vāh=vah), vowel-length
+# and retroflex/dental variants (path=paṭh, pis=piṣ, khad=khād, iḍ=īḍ, div=dīv,
+# dū=du, rī=ri, turv=tūrv, kṣvid=kṣviḍ), and vyā=vye. Wrong proximity matches
+# were rejected (e.g. hū≠hu 'sacrifice', nṛ≠nṛt 'dance').
+ALIASES = {
+    "gach": "gam", "yach": "yam", "prach": "pracch", "ich": "iṣ",
+    "har": "hṛ", "vāh": "vah",
+    "path": "paṭh", "pis": "piṣ", "khad": "khād", "iḍ": "īḍ",
+    "div": "dīv", "dū": "du", "rī": "ri", "turv": "tūrv",
+    "kṣvid": "kṣviḍ", "vyā": "vye",
+}
+
+
 # --------------------------------------------------------------------------
 # Gaṇa class from lemma.grammar  (e.g. "1.P.,4.P.,4.Ā." / "8.P.,5.Ā." / "Desid. P.")
 # --------------------------------------------------------------------------
@@ -415,10 +431,13 @@ def main():
         key = dcs_key(e["root"])
         in_db_raw = raw in verbal_lemmas or raw in totals
         in_db_norm = key in verbal_lemmas or key in totals
+        alias = ALIASES.get(raw) or ALIASES.get(key)
         if in_db_raw:
             status, used = "matched", raw
         elif in_db_norm:
             status, used = "normalized", key
+        elif alias and (alias in verbal_lemmas or alias in totals):
+            status, used = "aliased", alias
         else:
             status, used = "unmatched", None
         if used:
@@ -548,7 +567,8 @@ def main():
         "source": os.path.basename(args.db), "dcs_snapshot": DCS_SNAPSHOT,
         "generated": str(date.today()), "total": len(lexicon),
         "matched": counts["matched"], "normalized": counts["normalized"],
-        "homonym_shared": counts["homonym_shared"], "unmatched": counts["unmatched"],
+        "aliased": counts["aliased"], "homonym_shared": counts["homonym_shared"],
+        "unmatched": counts["unmatched"],
     }
 
     with open(args.out_freq, "w", encoding="utf-8") as fh:
@@ -574,9 +594,10 @@ def main():
                    "index": dcs_index}, fh, ensure_ascii=False, indent=1)
 
     print("\n=== summary ===")
-    for k in ("matched", "normalized", "homonym_shared", "unmatched"):
+    for k in ("matched", "normalized", "aliased", "homonym_shared", "unmatched"):
         print(f"  {k:15s} {counts[k]}")
-    linked_n = counts["matched"] + counts["normalized"] + counts["homonym_shared"]
+    linked_n = (counts["matched"] + counts["normalized"]
+                + counts["aliased"] + counts["homonym_shared"])
     print(f"  {'linked total':15s} {linked_n} / {len(lexicon)}")
     print(f"  participle forms: whitney={len(whitney_index)}  dcs-all={len(dcs_index)}")
     print(f"\nWrote:\n  {args.out_freq}\n  {args.out_audit_json}\n  {args.out_audit_md}"
@@ -610,9 +631,11 @@ def write_audit_md(path, meta, rows):
              "present-stem signal is a coarse heuristic shown for context only.\n")
     L.append("## Coverage\n")
     L.append(f"- Whitney entries: **{meta['total']}**")
-    L.append(f"- Linked to DCS: **{meta['matched'] + meta['normalized'] + meta['homonym_shared']}** "
+    linked_total = (meta['matched'] + meta['normalized']
+                    + meta.get('aliased', 0) + meta['homonym_shared'])
+    L.append(f"- Linked to DCS: **{linked_total}** "
              f"(matched {meta['matched']}, normalized {meta['normalized']}, "
-             f"homonym-shared {meta['homonym_shared']})")
+             f"aliased {meta.get('aliased', 0)}, homonym-shared {meta['homonym_shared']})")
     L.append(f"- Unmatched (no DCS lemma; citation-form/Vedic): **{meta['unmatched']}**")
     L.append(f"- Lexicon-only (DCS lemma but 0 corpus tokens): **{len(lexicon_only)}**\n")
     L.append("## Class verdicts (Whitney vs DCS grammar field)\n")

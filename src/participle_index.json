@@ -26,7 +26,7 @@
    "gerundive": "Gerundive / FPP (-tavya/-anīya/-ya)"
   },
   "scope": "Whitney-linked roots",
-  "forms": 16027
+  "forms": 16115
  },
  "index": {
   "hata": [
@@ -59,6 +59,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    },
    {
@@ -256,6 +261,11 @@
     "id": "718",
     "root": "vah",
     "category": "gerundive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "gerundive"
    }
   ],
   "vadhyād": [
@@ -419,6 +429,11 @@
    }
   ],
   "gata": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -858,6 +873,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "past-passive"
    }
   ],
   "jīrṇām": [
@@ -893,12 +913,22 @@
   ],
   "piṣṭaṃ": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
    }
   ],
   "gate": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -944,6 +974,11 @@
    }
   ],
   "piṣṭam": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -1354,6 +1389,11 @@
   ],
   "gatam": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -1497,6 +1537,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    },
    {
@@ -1664,7 +1709,26 @@
     "category": "gerundive"
    }
   ],
+  "pṛṣṭavantaḥ": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
+   }
+  ],
+  "pṛcchantaṃ": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
+   }
+  ],
   "paṭhatāṃ": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "present-active"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -1676,6 +1740,18 @@
     "id": "815",
     "root": "śru",
     "category": "present-active"
+   }
+  ],
+  "pṛṣṭavān": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
+   },
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "perfect-active"
    }
   ],
   "dṛśyam": [
@@ -1766,6 +1842,11 @@
    }
   ],
   "gatā": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -1858,12 +1939,22 @@
   ],
   "gataḥ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
    }
   ],
   "gatām": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -1946,12 +2037,22 @@
   ],
   "gatāḥ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
    }
   ],
   "paṭhantaṃ": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "present-active"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -1987,9 +2088,19 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "past-passive"
    }
   ],
   "paṭhitaṃ": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "past-passive"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -1997,6 +2108,11 @@
    }
   ],
   "gato": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -2284,6 +2400,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "past-passive"
    }
   ],
   "hṛtavāṃś": [
@@ -2295,6 +2416,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "past-passive"
    }
   ],
@@ -2357,6 +2483,11 @@
   ],
   "gataṃ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -2406,6 +2537,11 @@
   ],
   "gatau": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -2440,6 +2576,16 @@
    }
   ],
   "gatavān": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-active"
+   },
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -2615,6 +2761,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -2867,6 +3018,13 @@
     "category": "past-passive"
    }
   ],
+  "pṛṣṭāḥ": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
+   }
+  ],
   "jñātā": [
    {
     "id": "269",
@@ -3025,6 +3183,11 @@
   ],
   "paṭhataḥ": [
    {
+    "id": "442",
+    "root": "path",
+    "category": "present-active"
+   },
+   {
     "id": "438",
     "root": "paṭh",
     "category": "present-active"
@@ -3072,6 +3235,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -3183,6 +3351,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -3455,6 +3628,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
    }
   ],
   "tūtujāna": [
@@ -3708,6 +3886,11 @@
     "id": "365",
     "root": "du",
     "category": "past-passive"
+   },
+   {
+    "id": "370",
+    "root": "dū",
+    "category": "past-passive"
    }
   ],
   "satyo": [
@@ -3954,6 +4137,11 @@
     "category": "present-active"
    },
    {
+    "id": "596",
+    "root": "yach",
+    "category": "past-passive"
+   },
+   {
     "id": "600",
     "root": "yam",
     "category": "past-passive"
@@ -4185,6 +4373,11 @@
    }
   ],
   "gacchantīṃ": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -4631,6 +4824,11 @@
     "category": "past-passive"
    },
    {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
+   },
+   {
     "id": "597",
     "root": "yaj",
     "category": "past-passive"
@@ -4781,6 +4979,11 @@
    }
   ],
   "gacchatī": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -4958,6 +5161,11 @@
   ],
   "īḍyāya": [
    {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
+   {
     "id": "48",
     "root": "īḍ",
     "category": "gerundive"
@@ -4972,6 +5180,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "future-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "future-active"
    }
   ],
@@ -5035,6 +5248,11 @@
     "id": "30",
     "root": "2 i",
     "category": "present-active"
+   },
+   {
+    "id": "596",
+    "root": "yach",
+    "category": "past-passive"
    },
    {
     "id": "600",
@@ -5217,6 +5435,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    }
   ],
@@ -5433,6 +5656,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
    }
   ],
   "manyamānā": [
@@ -5590,6 +5818,11 @@
    }
   ],
   "yatam": [
+   {
+    "id": "596",
+    "root": "yach",
+    "category": "past-passive"
+   },
    {
     "id": "600",
     "root": "yam",
@@ -5842,6 +6075,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-active"
    }
   ],
   "vittā": [
@@ -5987,6 +6225,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "gerundive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "gerundive"
    }
   ],
@@ -6269,6 +6512,11 @@
     "id": "718",
     "root": "vah",
     "category": "perfect-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "perfect-active"
    }
   ],
   "eṣiṣyamāṇasya": [
@@ -6280,6 +6528,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "future-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "future-active"
    }
   ],
@@ -6763,6 +7016,11 @@
   ],
   "īﾱito": [
    {
+    "id": "34",
+    "root": "iḍ",
+    "category": "past-passive"
+   },
+   {
     "id": "48",
     "root": "īḍ",
     "category": "past-passive"
@@ -7031,6 +7289,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-passive"
    }
   ],
@@ -7542,6 +7805,13 @@
    {
     "id": "521",
     "root": "bhid",
+    "category": "past-passive"
+   }
+  ],
+  "pṛṣṭaḥ": [
+   {
+    "id": "477",
+    "root": "prach",
     "category": "past-passive"
    }
   ],
@@ -8132,6 +8402,11 @@
     "category": "past-passive"
    },
    {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
+   },
+   {
     "id": "597",
     "root": "yaj",
     "category": "past-passive"
@@ -8345,6 +8620,11 @@
     "category": "past-passive"
    },
    {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
+   },
+   {
     "id": "597",
     "root": "yaj",
     "category": "past-passive"
@@ -8362,6 +8642,11 @@
     "category": "past-passive"
    },
    {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
+   },
+   {
     "id": "597",
     "root": "yaj",
     "category": "past-passive"
@@ -8376,6 +8661,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    },
    {
@@ -8473,6 +8763,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "past-passive"
    }
   ],
@@ -8899,6 +9194,11 @@
     "category": "past-passive"
    },
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "174",
     "root": "gal",
     "category": "past-passive"
@@ -8927,6 +9227,16 @@
     "id": "910",
     "root": "has",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
+   },
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "past-passive"
    },
    {
     "id": "249",
@@ -9187,6 +9497,11 @@
   ],
   "paṭhitam": [
    {
+    "id": "442",
+    "root": "path",
+    "category": "past-passive"
+   },
+   {
     "id": "438",
     "root": "paṭh",
     "category": "past-passive"
@@ -9321,6 +9636,13 @@
     "category": "past-passive"
    }
   ],
+  "pṛcchati": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
+   }
+  ],
   "tāmyator": [
    {
     "id": "297",
@@ -9429,6 +9751,11 @@
   ],
   "gantavye": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "gerundive"
@@ -9482,6 +9809,11 @@
    }
   ],
   "gatān": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -9631,6 +9963,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-active"
    }
   ],
@@ -9828,6 +10165,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "past-passive"
    }
   ],
   "smita": [
@@ -9885,6 +10227,11 @@
    }
   ],
   "gacchantī": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -10048,6 +10395,11 @@
    }
   ],
   "gantavyaṃ": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -10425,6 +10777,13 @@
     "category": "past-passive"
    }
   ],
+  "pṛṣṭā": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
+   }
+  ],
   "kurvataḥ": [
    {
     "id": "106",
@@ -10451,6 +10810,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    },
    {
@@ -10754,6 +11118,13 @@
    {
     "id": "145",
     "root": "kṣud",
+    "category": "past-passive"
+   }
+  ],
+  "pṛṣṭo": [
+   {
+    "id": "477",
+    "root": "prach",
     "category": "past-passive"
    }
   ],
@@ -11130,6 +11501,11 @@
   ],
   "piṣṭa": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -11310,6 +11686,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-passive"
    }
   ],
@@ -11528,6 +11909,20 @@
     "category": "gerundive"
    }
   ],
+  "pṛcchyaṃ": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "gerundive"
+   }
+  ],
+  "pṛcchyam": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "gerundive"
+   }
+  ],
   "śrāntam": [
    {
     "id": "808",
@@ -11670,6 +12065,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "past-passive"
    }
   ],
   "tyaktāṃ": [
@@ -11715,6 +12115,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "bhuktā": [
@@ -11737,6 +12142,11 @@
    }
   ],
   "gacchataḥ": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -11765,6 +12175,11 @@
    }
   ],
   "piṣṭaḥ": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -12195,6 +12610,11 @@
     "category": "past-passive"
    },
    {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
+   },
+   {
     "id": "597",
     "root": "yaj",
     "category": "past-passive"
@@ -12297,6 +12717,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-passive"
    }
   ],
@@ -12876,6 +13301,11 @@
   ],
   "īḍyaḥ": [
    {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
+   {
     "id": "48",
     "root": "īḍ",
     "category": "gerundive"
@@ -13125,6 +13555,11 @@
   ],
   "khāditān": [
    {
+    "id": "156",
+    "root": "khad",
+    "category": "past-passive"
+   },
+   {
     "id": "161",
     "root": "khād",
     "category": "past-passive"
@@ -13201,6 +13636,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -13499,6 +13939,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    },
    {
@@ -14057,6 +14502,11 @@
   ],
   "piṃṣatī": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "present-active"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "present-active"
@@ -14348,6 +14798,11 @@
   ],
   "piṣṭā": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -14522,6 +14977,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
    }
   ],
   "iṣitāś": [
@@ -14533,6 +14993,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    }
   ],
@@ -14738,6 +15203,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "iṣitām": [
@@ -14749,6 +15219,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    }
   ],
@@ -15052,9 +15527,19 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "gerundive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "gerundive"
    }
   ],
   "īḍānāḥ": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "present-middle"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -15098,6 +15583,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "past-passive"
    }
   ],
@@ -15493,6 +15983,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
    }
   ],
   "madantaḥ": [
@@ -15753,6 +16248,11 @@
    }
   ],
   "vīta": [
+   {
+    "id": "756",
+    "root": "vyā",
+    "category": "past-passive"
+   },
    {
     "id": "737",
     "root": "vī",
@@ -16056,6 +16556,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "dahann": [
@@ -16157,12 +16662,22 @@
     "id": "365",
     "root": "du",
     "category": "past-passive"
+   },
+   {
+    "id": "370",
+    "root": "dū",
+    "category": "past-passive"
    }
   ],
   "dūnāḥ": [
    {
     "id": "365",
     "root": "du",
+    "category": "past-passive"
+   },
+   {
+    "id": "370",
+    "root": "dū",
     "category": "past-passive"
    }
   ],
@@ -16395,6 +16910,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-middle"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-middle"
    }
   ],
   "vandamāna": [
@@ -16413,6 +16933,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-middle"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-middle"
    }
   ],
@@ -16925,6 +17450,11 @@
     "category": "past-passive"
    },
    {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
+   },
+   {
     "id": "597",
     "root": "yaj",
     "category": "past-passive"
@@ -17032,6 +17562,11 @@
    }
   ],
   "īḍyo": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -17186,6 +17721,11 @@
    }
   ],
   "khādanta": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "present-active"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -17357,6 +17897,11 @@
   ],
   "īḍāno": [
    {
+    "id": "34",
+    "root": "iḍ",
+    "category": "present-middle"
+   },
+   {
     "id": "48",
     "root": "īḍ",
     "category": "present-middle"
@@ -17443,6 +17988,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "past-passive"
    }
   ],
@@ -17554,6 +18104,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -17714,6 +18269,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
    }
   ],
   "santaḥ": [
@@ -17744,6 +18304,11 @@
    {
     "id": "364",
     "root": "2 dīv",
+    "category": "present-active"
+   },
+   {
+    "id": "355",
+    "root": "div",
     "category": "present-active"
    }
   ],
@@ -18180,6 +18745,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "juṣṭo": [
@@ -18301,6 +18871,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-middle"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-middle"
    }
   ],
   "bharamāṇāḥ": [
@@ -18366,6 +18941,11 @@
    }
   ],
   "gatānām": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -18531,6 +19111,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    }
   ],
@@ -19046,6 +19631,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-active"
    }
   ],
   "āsīna": [
@@ -19128,6 +19718,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -19625,6 +20220,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "vakṣyataḥ": [
@@ -19843,6 +20443,11 @@
    }
   ],
   "gatasya": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -20107,6 +20712,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "gerundive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "gerundive"
    }
   ],
   "mṛtāḥ": [
@@ -20327,6 +20937,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "gerundive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "gerundive"
    }
   ],
   "dadat": [
@@ -20453,6 +21068,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-passive"
    }
   ],
   "piśyamānā": [
@@ -20573,6 +21193,11 @@
    {
     "id": "641",
     "root": "ri",
+    "category": "present-active"
+   },
+   {
+    "id": "651",
+    "root": "rī",
     "category": "present-active"
    }
   ],
@@ -20813,6 +21438,13 @@
     "category": "present-active"
    }
   ],
+  "pṛcchamānāv": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-middle"
+   }
+  ],
   "baddhām": [
    {
     "id": "494",
@@ -20930,6 +21562,11 @@
   ],
   "īḍyam": [
    {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
+   {
     "id": "48",
     "root": "īḍ",
     "category": "gerundive"
@@ -20975,6 +21612,11 @@
     "category": "present-active"
    },
    {
+    "id": "596",
+    "root": "yach",
+    "category": "past-passive"
+   },
+   {
     "id": "600",
     "root": "yam",
     "category": "past-passive"
@@ -21001,6 +21643,11 @@
   ],
   "jaganvān": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "perfect-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "perfect-active"
@@ -21015,6 +21662,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    },
    {
@@ -21072,6 +21724,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-middle"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-middle"
    }
   ],
@@ -21349,6 +22006,11 @@
   ],
   "īḍito": [
    {
+    "id": "34",
+    "root": "iḍ",
+    "category": "past-passive"
+   },
+   {
     "id": "48",
     "root": "īḍ",
     "category": "past-passive"
@@ -21529,6 +22191,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-active"
    }
   ],
   "trāyamāṇam": [
@@ -21588,6 +22255,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-passive"
    }
   ],
   "jvalita": [
@@ -21619,6 +22291,11 @@
    }
   ],
   "kṣveḍita": [
+   {
+    "id": "152",
+    "root": "kṣvid",
+    "category": "past-passive"
+   },
    {
     "id": "151",
     "root": "kṣviḍ",
@@ -21653,6 +22330,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    },
    {
@@ -21707,6 +22389,11 @@
    }
   ],
   "gantavyam": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -21857,6 +22544,11 @@
   ],
   "gacchator": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-active"
@@ -21965,6 +22657,13 @@
    {
     "id": "352",
     "root": "4 dā",
+    "category": "past-passive"
+   }
+  ],
+  "pṛṣṭaś": [
+   {
+    "id": "477",
+    "root": "prach",
     "category": "past-passive"
    }
   ],
@@ -22078,6 +22777,11 @@
    }
   ],
   "khādanīyena": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "gerundive"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -22218,6 +22922,11 @@
   ],
   "gatāni": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -22286,6 +22995,11 @@
    }
   ],
   "gacchantam": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -22912,6 +23626,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "gerundive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "gerundive"
    }
   ],
   "bhāṣyamāṇasya": [
@@ -23015,6 +23734,11 @@
   ],
   "gatāyām": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -23116,12 +23840,22 @@
   ],
   "gantavyā": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "gerundive"
    }
   ],
   "gantavyāḥ": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -23264,12 +23998,22 @@
   ],
   "gatayā": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
    }
   ],
   "gataiḥ": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -23504,6 +24248,11 @@
   ],
   "gatena": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -23524,6 +24273,11 @@
    }
   ],
   "gamanīyā": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -23939,6 +24693,11 @@
     "id": "364",
     "root": "2 dīv",
     "category": "present-active"
+   },
+   {
+    "id": "355",
+    "root": "div",
+    "category": "present-active"
    }
   ],
   "vṛddhābhyaḥ": [
@@ -24208,6 +24967,11 @@
   ],
   "gantavya": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "gerundive"
@@ -24402,6 +25166,11 @@
    }
   ],
   "gacchan": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -25268,6 +26037,11 @@
     "category": "past-passive"
    },
    {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
+   },
+   {
     "id": "597",
     "root": "yaj",
     "category": "past-passive"
@@ -25499,6 +26273,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-active"
    }
   ],
@@ -25743,6 +26522,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "svinna": [
@@ -25828,6 +26612,11 @@
    }
   ],
   "piṣṭair": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -26001,6 +26790,11 @@
   ],
   "piṣṭaiḥ": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -26166,6 +26960,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "sravantaṃ": [
@@ -26259,6 +27058,11 @@
    }
   ],
   "gatāṃ": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -26470,6 +27274,11 @@
   ],
   "gacchat": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-active"
@@ -26516,6 +27325,11 @@
    }
   ],
   "piṣṭān": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -26869,6 +27683,11 @@
     "category": "past-passive"
    },
    {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
+   },
+   {
     "id": "597",
     "root": "yaj",
     "category": "past-passive"
@@ -26961,6 +27780,11 @@
   ],
   "gamiṣyataḥ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "future-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "future-active"
@@ -26975,6 +27799,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "past-passive"
    }
   ],
@@ -27029,6 +27858,11 @@
    }
   ],
   "kṣveḍan": [
+   {
+    "id": "152",
+    "root": "kṣvid",
+    "category": "present-active"
+   },
    {
     "id": "151",
     "root": "kṣviḍ",
@@ -27417,6 +28251,11 @@
    }
   ],
   "gacchann": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -28414,6 +29253,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "śṛtair": [
@@ -28439,6 +29283,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-active"
    }
   ],
@@ -28476,6 +29325,11 @@
    }
   ],
   "piṣṭām": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -28811,6 +29665,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "yuktāṃ": [
@@ -28842,6 +29701,11 @@
    }
   ],
   "piṣṭābhyāṃ": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -28957,6 +29821,11 @@
   ],
   "piṣṭe": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -29036,6 +29905,11 @@
    }
   ],
   "piṣṭāḥ": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -29134,6 +30008,11 @@
   ],
   "piṣṭena": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -29158,12 +30037,22 @@
   ],
   "piṣṭāṃ": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
    }
   ],
   "gacchati": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -29255,6 +30144,11 @@
   ],
   "khādann": [
    {
+    "id": "156",
+    "root": "khad",
+    "category": "present-active"
+   },
+   {
     "id": "161",
     "root": "khād",
     "category": "present-active"
@@ -29300,6 +30194,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "past-passive"
    }
   ],
@@ -29448,6 +30347,11 @@
   ],
   "piṣṭayā": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -29506,6 +30410,11 @@
    }
   ],
   "khādan": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "present-active"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -29593,6 +30502,11 @@
    }
   ],
   "gateṣu": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -29690,6 +30604,11 @@
    }
   ],
   "piṣṭās": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -29857,12 +30776,22 @@
   ],
   "paṭhito": [
    {
+    "id": "442",
+    "root": "path",
+    "category": "past-passive"
+   },
+   {
     "id": "438",
     "root": "paṭh",
     "category": "past-passive"
    }
   ],
   "peṣyaḥ": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "gerundive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -29899,6 +30828,11 @@
    }
   ],
   "peṣyair": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "gerundive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -29960,12 +30894,22 @@
   ],
   "piṣṭo": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
    }
   ],
   "peṣyasya": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "gerundive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -30370,6 +31314,11 @@
     "category": "past-passive"
    },
    {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
+   },
+   {
     "id": "597",
     "root": "yaj",
     "category": "past-passive"
@@ -30390,6 +31339,11 @@
    }
   ],
   "piṣṭais": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -30425,6 +31379,11 @@
    }
   ],
   "peṣyā": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "gerundive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -30505,6 +31464,11 @@
    }
   ],
   "peṣyaṃ": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "gerundive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -30680,6 +31644,11 @@
    }
   ],
   "khādanto": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "present-active"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -30949,6 +31918,11 @@
   ],
   "piṣṭāni": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -30969,6 +31943,11 @@
    }
   ],
   "piṣṭau": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -31211,6 +32190,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "kvathite": [
@@ -31252,6 +32236,11 @@
    }
   ],
   "khādantaḥ": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "present-active"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -31359,6 +32348,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -31583,6 +32577,11 @@
   ],
   "piṣṭasya": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -31619,6 +32618,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "gerundive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "gerundive"
    }
   ],
   "varjyaṃ": [
@@ -31636,6 +32640,11 @@
    }
   ],
   "peṣyāṇi": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "gerundive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -31677,6 +32686,11 @@
   ],
   "gacchatāṃ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-active"
@@ -31716,6 +32730,11 @@
    }
   ],
   "paṭhan": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "present-active"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -31842,6 +32861,13 @@
     "category": "gerundive"
    }
   ],
+  "pṛṣṭam": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
+   }
+  ],
   "kurvatām": [
    {
     "id": "106",
@@ -31902,6 +32928,11 @@
    }
   ],
   "gatābhir": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -32085,6 +33116,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "patanīyānāṃ": [
@@ -32241,6 +33277,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-active"
    }
   ],
@@ -32507,6 +33548,11 @@
   ],
   "gataś": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -32575,6 +33621,11 @@
    }
   ],
   "īḍitaḥ": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "past-passive"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -32765,6 +33816,11 @@
    }
   ],
   "gmantā": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -32992,6 +34048,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-active"
    }
   ],
   "dadatā": [
@@ -33113,6 +34174,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "kāryas": [
@@ -33133,6 +34199,11 @@
    }
   ],
   "gacchato": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -33256,6 +34327,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-passive"
    }
   ],
   "tarantīṃ": [
@@ -33367,6 +34443,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -33540,6 +34621,11 @@
     "category": "past-passive"
    },
    {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
+   },
+   {
     "id": "597",
     "root": "yaj",
     "category": "past-passive"
@@ -33690,6 +34776,11 @@
    }
   ],
   "īḍya": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -33956,6 +35047,11 @@
   ],
   "īḍitā": [
    {
+    "id": "34",
+    "root": "iḍ",
+    "category": "past-passive"
+   },
+   {
     "id": "48",
     "root": "īḍ",
     "category": "past-passive"
@@ -34115,6 +35211,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-middle"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-middle"
    }
   ],
   "dīkṣiṣyamāṇo": [
@@ -34240,6 +35341,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "labdho": [
@@ -34271,6 +35377,11 @@
    }
   ],
   "paṭhantaḥ": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "present-active"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -34424,6 +35535,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "past-passive"
    }
   ],
   "stabdhasya": [
@@ -34470,6 +35586,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "past-passive"
    }
   ],
@@ -34716,6 +35837,11 @@
    }
   ],
   "gamiṣyantaḥ": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "future-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -34981,6 +36107,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "past-passive"
    }
   ],
   "śita": [
@@ -35034,6 +36165,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    }
   ],
@@ -35189,6 +36325,11 @@
   ],
   "gamyāṃ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "gerundive"
@@ -35310,6 +36451,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "īkṣitam": [
@@ -35363,6 +36509,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -35495,6 +36646,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "past-passive"
    }
   ],
@@ -35770,6 +36926,13 @@
     "category": "past-passive"
    }
   ],
+  "pṛcchataḥ": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
+   }
+  ],
   "sṛjyaṃ": [
    {
     "id": "854",
@@ -35852,6 +37015,11 @@
     "id": "718",
     "root": "vah",
     "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "past-passive"
    }
   ],
   "jṛmbhato": [
@@ -35872,6 +37040,13 @@
    {
     "id": "908",
     "root": "han",
+    "category": "present-active"
+   }
+  ],
+  "pṛcchato": [
+   {
+    "id": "477",
+    "root": "prach",
     "category": "present-active"
    }
   ],
@@ -36040,6 +37215,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-active"
    }
   ],
   "yācato": [
@@ -36144,9 +37324,19 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-active"
    }
   ],
   "īḍita": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "past-passive"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -36277,6 +37467,11 @@
   ],
   "īḍyamānāt": [
    {
+    "id": "34",
+    "root": "iḍ",
+    "category": "present-passive"
+   },
+   {
     "id": "48",
     "root": "īḍ",
     "category": "present-passive"
@@ -36287,6 +37482,13 @@
     "id": "790",
     "root": "śuc",
     "category": "gerundive"
+   }
+  ],
+  "pṛṣṭaṃ": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
    }
   ],
   "śrutavatyā": [
@@ -36376,6 +37578,11 @@
   ],
   "gatānāṃ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -36443,6 +37650,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "sṛjato": [
@@ -36487,6 +37699,13 @@
    {
     "id": "638",
     "root": "rādh",
+    "category": "past-passive"
+   }
+  ],
+  "pṛṣṭās": [
+   {
+    "id": "477",
+    "root": "prach",
     "category": "past-passive"
    }
   ],
@@ -36608,6 +37827,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-active"
    }
   ],
   "vrīḍitas": [
@@ -36680,6 +37904,11 @@
    }
   ],
   "gatāyā": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -36824,6 +38053,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-active"
    }
   ],
@@ -37163,6 +38397,13 @@
     "id": "124",
     "root": "kruś",
     "category": "present-active"
+   }
+  ],
+  "pṛṣṭa": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
    }
   ],
   "kliṣṭānāṃ": [
@@ -37523,6 +38764,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "bhajanty": [
@@ -37771,6 +39017,11 @@
    }
   ],
   "vītaḥ": [
+   {
+    "id": "756",
+    "root": "vyā",
+    "category": "past-passive"
+   },
    {
     "id": "737",
     "root": "vī",
@@ -38095,6 +39346,11 @@
     "id": "365",
     "root": "du",
     "category": "present-active"
+   },
+   {
+    "id": "370",
+    "root": "dū",
+    "category": "present-active"
    }
   ],
   "rudaty": [
@@ -38268,6 +39524,13 @@
     "id": "775",
     "root": "3 śam",
     "category": "past-passive"
+   }
+  ],
+  "pṛcchate": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
    }
   ],
   "krīḍann": [
@@ -38452,6 +39715,11 @@
   ],
   "yacchato": [
    {
+    "id": "596",
+    "root": "yach",
+    "category": "present-active"
+   },
+   {
     "id": "600",
     "root": "yam",
     "category": "present-active"
@@ -38528,6 +39796,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "magnaḥ": [
@@ -38559,6 +39832,11 @@
    }
   ],
   "gacchatīm": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -38769,6 +40047,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-passive"
    }
   ],
@@ -39536,6 +40819,11 @@
   ],
   "gamyam": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "gerundive"
@@ -39609,6 +40897,11 @@
   ],
   "gatāyāḥ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -39656,6 +40949,11 @@
    {
     "id": "365",
     "root": "du",
+    "category": "present-passive"
+   },
+   {
+    "id": "370",
+    "root": "dū",
     "category": "present-passive"
    }
   ],
@@ -39832,6 +41130,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-passive"
    }
   ],
@@ -40122,6 +41425,11 @@
   ],
   "īḍyaiḥ": [
    {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
+   {
     "id": "48",
     "root": "īḍ",
     "category": "gerundive"
@@ -40131,6 +41439,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-passive"
    }
   ],
@@ -40236,6 +41549,13 @@
     "category": "present-passive"
    }
   ],
+  "pṛcchatāṃ": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
+   }
+  ],
   "śṛṇvantau": [
    {
     "id": "815",
@@ -40327,6 +41647,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -40488,6 +41813,13 @@
     "id": "405",
     "root": "dhyā",
     "category": "present-passive"
+   }
+  ],
+  "pṛṣṭas": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
    }
   ],
   "sthitas": [
@@ -40804,6 +42136,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-middle"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-middle"
    }
   ],
   "snātāyai": [
@@ -40911,6 +42248,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-active"
    }
   ],
@@ -41355,6 +42697,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "āsīnau": [
@@ -41368,6 +42715,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-active"
    }
   ],
@@ -41420,6 +42772,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-active"
    }
   ],
@@ -41722,6 +43079,13 @@
     "category": "present-passive"
    }
   ],
+  "pṛṣṭena": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
+   }
+  ],
   "khyātā": [
    {
     "id": "165",
@@ -41745,6 +43109,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    }
   ],
@@ -41791,12 +43160,22 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "uhyamānān": [
    {
     "id": "718",
     "root": "vah",
+    "category": "present-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-passive"
    }
   ],
@@ -41906,6 +43285,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "gerundive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "gerundive"
    }
   ],
@@ -42600,6 +43984,11 @@
   ],
   "gatavan": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -42613,6 +44002,11 @@
    }
   ],
   "gatāyāṃ": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -42855,6 +44249,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-active"
    }
   ],
   "bhetavyam": [
@@ -42918,6 +44317,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "past-passive"
    }
   ],
@@ -43173,6 +44577,13 @@
     "id": "528",
     "root": "bhū",
     "category": "gerundive"
+   }
+  ],
+  "pṛṣṭe": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
    }
   ],
   "dṛśye": [
@@ -43514,6 +44925,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
    }
   ],
   "bhāṣamāṇo": [
@@ -43527,6 +44943,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "gerundive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "gerundive"
    }
   ],
@@ -44207,6 +45628,11 @@
   ],
   "piṃṣan": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "present-active"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "present-active"
@@ -44346,6 +45772,11 @@
     "id": "718",
     "root": "vah",
     "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "past-passive"
    }
   ],
   "sevyāya": [
@@ -44447,6 +45878,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "past-passive"
    }
   ],
@@ -44812,6 +46248,13 @@
     "category": "present-active"
    }
   ],
+  "pṛcchat": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
+   }
+  ],
   "lubdhena": [
    {
     "id": "692",
@@ -45166,6 +46609,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "jṛmbhamāṇaṃ": [
@@ -45492,6 +46940,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-active"
    }
   ],
   "pūtaiḥ": [
@@ -45559,6 +47012,11 @@
   ],
   "gacchantaṃ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-active"
@@ -45621,6 +47079,13 @@
     "id": "717",
     "root": "3 vas",
     "category": "present-active"
+   }
+  ],
+  "pṛṣṭāsu": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
    }
   ],
   "trastaḥ": [
@@ -45742,6 +47207,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "past-passive"
    }
   ],
@@ -46000,6 +47470,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "īhamānāḥ": [
@@ -46056,6 +47531,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-active"
    }
   ],
@@ -46335,6 +47815,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "hantavyā": [
@@ -46486,6 +47971,11 @@
     "category": "past-passive"
    },
    {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
+   },
+   {
     "id": "597",
     "root": "yaj",
     "category": "past-passive"
@@ -46594,6 +48084,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "gerundive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "gerundive"
    }
   ],
@@ -46849,6 +48344,11 @@
   ],
   "khāditavyam": [
    {
+    "id": "156",
+    "root": "khad",
+    "category": "gerundive"
+   },
+   {
     "id": "161",
     "root": "khād",
     "category": "gerundive"
@@ -47017,6 +48517,11 @@
     "id": "718",
     "root": "vah",
     "category": "gerundive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "gerundive"
    }
   ],
   "caritaḥ": [
@@ -47065,6 +48570,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-active"
    }
   ],
@@ -47336,6 +48846,11 @@
   ],
   "gamyāḥ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "gerundive"
@@ -47456,6 +48971,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "past-passive"
    }
   ],
   "tasthuṣī": [
@@ -47548,6 +49068,11 @@
    }
   ],
   "gamanīya": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -47882,6 +49407,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-active"
    }
   ],
@@ -48477,6 +50007,11 @@
   ],
   "gamyām": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "gerundive"
@@ -48542,6 +50077,11 @@
    }
   ],
   "gatayoḥ": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -48649,6 +50189,11 @@
   ],
   "gacchatā": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-active"
@@ -48727,6 +50272,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "past-passive"
    }
   ],
   "vanditās": [
@@ -48756,6 +50306,16 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "past-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "past-passive"
    }
   ],
   "kruddhena": [
@@ -48779,7 +50339,33 @@
     "category": "past-passive"
    }
   ],
+  "pṛṣṭaiś": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
+   }
+  ],
+  "pṛṣṭasya": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
+   }
+  ],
+  "pṛṣṭau": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
+   }
+  ],
   "gatas": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -48952,6 +50538,11 @@
   ],
   "gacchatsu": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-active"
@@ -49043,6 +50634,20 @@
    {
     "id": "603",
     "root": "yā",
+    "category": "past-passive"
+   }
+  ],
+  "praṣṭavyaś": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "gerundive"
+   }
+  ],
+  "pṛṣṭayā": [
+   {
+    "id": "477",
+    "root": "prach",
     "category": "past-passive"
    }
   ],
@@ -49248,6 +50853,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "gerundive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "gerundive"
    }
   ],
   "rakṣataś": [
@@ -49397,6 +51007,11 @@
    }
   ],
   "paṭhantīḥ": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "present-active"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -49556,6 +51171,11 @@
   ],
   "gacchatoḥ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-active"
@@ -49703,12 +51323,24 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "siñcatī": [
    {
     "id": "841",
     "root": "sic",
+    "category": "present-active"
+   }
+  ],
+  "pṛcchatyai": [
+   {
+    "id": "477",
+    "root": "prach",
     "category": "present-active"
    }
   ],
@@ -49831,6 +51463,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-active"
    }
   ],
@@ -50151,10 +51788,24 @@
     "category": "past-passive"
    }
   ],
+  "praṣṭavyāv": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "gerundive"
+   }
+  ],
   "draṣṭavyāv": [
    {
     "id": "375",
     "root": "dṛś",
+    "category": "gerundive"
+   }
+  ],
+  "praṣṭavyau": [
+   {
+    "id": "477",
+    "root": "prach",
     "category": "gerundive"
    }
   ],
@@ -50531,6 +52182,11 @@
   ],
   "khāditā": [
    {
+    "id": "156",
+    "root": "khad",
+    "category": "past-passive"
+   },
+   {
     "id": "161",
     "root": "khād",
     "category": "past-passive"
@@ -50665,6 +52321,11 @@
   ],
   "gamiṣyantaṃ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "future-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "future-active"
@@ -50742,6 +52403,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "gerundive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "gerundive"
    }
   ],
@@ -50878,6 +52544,11 @@
    }
   ],
   "gatāt": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -51034,6 +52705,11 @@
    }
   ],
   "paṭhadbhiś": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "present-active"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -51210,6 +52886,11 @@
   ],
   "gacchantyāḥ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-active"
@@ -51311,6 +52992,20 @@
     "category": "present-active"
    }
   ],
+  "praṣṭavyāḥ": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "gerundive"
+   }
+  ],
+  "praṣṭavyaḥ": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "gerundive"
+   }
+  ],
   "majjantaḥ": [
    {
     "id": "539",
@@ -51327,6 +53022,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -51419,6 +53119,11 @@
   ],
   "gamiṣyatsu": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "future-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "future-active"
@@ -51477,6 +53182,11 @@
    }
   ],
   "gamiṣyatā": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "future-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -51804,6 +53514,11 @@
   ],
   "paṭhann": [
    {
+    "id": "442",
+    "root": "path",
+    "category": "present-active"
+   },
+   {
     "id": "438",
     "root": "paṭh",
     "category": "present-active"
@@ -51817,6 +53532,11 @@
    }
   ],
   "paṭhatā": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "present-active"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -51839,6 +53559,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    }
   ],
@@ -51920,6 +53645,13 @@
     "id": "534",
     "root": "bhram",
     "category": "present-active"
+   }
+  ],
+  "pṛṣṭavatī": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
    }
   ],
   "bādhitaḥ": [
@@ -52031,6 +53763,18 @@
     "id": "364",
     "root": "2 dīv",
     "category": "present-active"
+   },
+   {
+    "id": "355",
+    "root": "div",
+    "category": "present-active"
+   }
+  ],
+  "pṛṣṭavantau": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
    }
   ],
   "gṛddheṣu": [
@@ -52102,6 +53846,11 @@
    }
   ],
   "gatair": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -52328,6 +54077,11 @@
   ],
   "khādita": [
    {
+    "id": "156",
+    "root": "khad",
+    "category": "past-passive"
+   },
+   {
     "id": "161",
     "root": "khād",
     "category": "past-passive"
@@ -52417,6 +54171,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -52518,6 +54277,11 @@
    }
   ],
   "piṣṭānām": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -52638,6 +54402,11 @@
    }
   ],
   "gamyānām": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -52874,6 +54643,11 @@
     "category": "past-passive"
    },
    {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
+   },
+   {
     "id": "597",
     "root": "yaj",
     "category": "past-passive"
@@ -52884,6 +54658,13 @@
     "id": "321",
     "root": "tṛp",
     "category": "present-active"
+   }
+  ],
+  "pṛṣṭavan": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
    }
   ],
   "sarpanto": [
@@ -53066,12 +54847,22 @@
   ],
   "khādyam": [
    {
+    "id": "156",
+    "root": "khad",
+    "category": "gerundive"
+   },
+   {
     "id": "161",
     "root": "khād",
     "category": "gerundive"
    }
   ],
   "khāditaṃ": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "past-passive"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -53142,6 +54933,11 @@
   ],
   "khāditāt": [
    {
+    "id": "156",
+    "root": "khad",
+    "category": "past-passive"
+   },
+   {
     "id": "161",
     "root": "khād",
     "category": "past-passive"
@@ -53191,6 +54987,11 @@
   ],
   "gamyābhiḥ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "gerundive"
@@ -53205,6 +55006,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    }
   ],
@@ -53380,6 +55186,11 @@
   ],
   "gacchantaḥ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-active"
@@ -53415,6 +55226,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "gerundive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "gerundive"
    }
   ],
@@ -53677,6 +55493,11 @@
     "category": "past-passive"
    },
    {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
+   },
+   {
     "id": "597",
     "root": "yaj",
     "category": "past-passive"
@@ -53759,6 +55580,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -54015,6 +55841,11 @@
     "category": "past-passive"
    },
    {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
+   },
+   {
     "id": "597",
     "root": "yaj",
     "category": "past-passive"
@@ -54098,6 +55929,11 @@
     "category": "past-passive"
    },
    {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
+   },
+   {
     "id": "597",
     "root": "yaj",
     "category": "past-passive"
@@ -54154,6 +55990,11 @@
    }
   ],
   "peṣya": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "gerundive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -54318,6 +56159,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
    }
   ],
   "ghuṣṭāḥ": [
@@ -54397,6 +56243,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-active"
    }
   ],
@@ -54481,6 +56332,11 @@
    }
   ],
   "khādantam": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "present-active"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -54684,6 +56540,13 @@
     "category": "present-middle"
    }
   ],
+  "pṛcchan": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
+   }
+  ],
   "vyathamānān": [
    {
     "id": "753",
@@ -54714,6 +56577,11 @@
   ],
   "gacchatyaḥ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-active"
@@ -54742,6 +56610,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -55033,6 +56906,11 @@
    }
   ],
   "gamyamānasya": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -55326,6 +57204,11 @@
   ],
   "gamya": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "gerundive"
@@ -55346,6 +57229,11 @@
    }
   ],
   "gamyaṃ": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -55377,6 +57265,11 @@
    {
     "id": "365",
     "root": "du",
+    "category": "present-passive"
+   },
+   {
+    "id": "370",
+    "root": "dū",
     "category": "present-passive"
    }
   ],
@@ -55593,6 +57486,11 @@
    }
   ],
   "gantavyāṃ": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -55853,6 +57751,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-passive"
    }
   ],
   "ghaṭata": [
@@ -56080,12 +57983,22 @@
   ],
   "paṭhantaś": [
    {
+    "id": "442",
+    "root": "path",
+    "category": "present-active"
+   },
+   {
     "id": "438",
     "root": "paṭh",
     "category": "present-active"
    }
   ],
   "paṭhadbhiḥ": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "present-active"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -56278,6 +58191,11 @@
    }
   ],
   "gamanīyam": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -56489,6 +58407,11 @@
   ],
   "khādanīyaṃ": [
    {
+    "id": "156",
+    "root": "khad",
+    "category": "gerundive"
+   },
+   {
     "id": "161",
     "root": "khād",
     "category": "gerundive"
@@ -56523,6 +58446,11 @@
    }
   ],
   "khādanīya": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "gerundive"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -56693,6 +58621,11 @@
    }
   ],
   "gamyāni": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -57404,6 +59337,11 @@
   ],
   "gatās": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -57425,6 +59363,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-passive"
    }
   ],
@@ -57511,6 +59454,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-middle"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-middle"
    }
   ],
   "janiṣyamāṇānām": [
@@ -57578,6 +59526,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-passive"
    }
   ],
   "tiṣṭhanta": [
@@ -57629,6 +59582,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -57822,6 +59780,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-passive"
    }
   ],
   "manthiṣyantaḥ": [
@@ -57860,6 +59823,11 @@
     "id": "364",
     "root": "2 dīv",
     "category": "past-passive"
+   },
+   {
+    "id": "355",
+    "root": "div",
+    "category": "past-passive"
    }
   ],
   "hariṣyatsu": [
@@ -57871,6 +59839,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "future-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "future-active"
    }
   ],
@@ -57986,6 +59959,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-passive"
    }
   ],
   "vrajitaḥ": [
@@ -58005,6 +59983,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-active"
    }
   ],
   "hriyamāṇāni": [
@@ -58016,6 +59999,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-passive"
    }
   ],
@@ -58117,6 +60105,11 @@
    }
   ],
   "gamyaḥ": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -58460,6 +60453,11 @@
   ],
   "gamyāsu": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "gerundive"
@@ -58527,6 +60525,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -58676,6 +60679,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "gerundive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "gerundive"
    }
   ],
@@ -58851,6 +60859,11 @@
   ],
   "khādat": [
    {
+    "id": "156",
+    "root": "khad",
+    "category": "present-active"
+   },
+   {
     "id": "161",
     "root": "khād",
     "category": "present-active"
@@ -58936,6 +60949,11 @@
   ],
   "gatāsu": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -58956,6 +60974,11 @@
    }
   ],
   "gantavyaḥ": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -59062,6 +61085,11 @@
   ],
   "gantavyāni": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "gerundive"
@@ -59126,6 +61154,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "gerundive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "gerundive"
    }
   ],
@@ -59373,6 +61406,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -59778,6 +61816,11 @@
     "id": "718",
     "root": "vah",
     "category": "gerundive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "gerundive"
    }
   ],
   "āsyaḥ": [
@@ -60046,6 +62089,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -60888,6 +62936,11 @@
   ],
   "paṭhanīyam": [
    {
+    "id": "442",
+    "root": "path",
+    "category": "gerundive"
+   },
+   {
     "id": "438",
     "root": "paṭh",
     "category": "gerundive"
@@ -61037,6 +63090,11 @@
     "id": "365",
     "root": "du",
     "category": "past-passive"
+   },
+   {
+    "id": "370",
+    "root": "dū",
+    "category": "past-passive"
    }
   ],
   "paśyantyāḥ": [
@@ -61064,6 +63122,11 @@
    }
   ],
   "gatavati": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -61167,6 +63230,11 @@
     "id": "718",
     "root": "vah",
     "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "past-passive"
    }
   ],
   "boddhavyaḥ": [
@@ -61231,6 +63299,11 @@
     "id": "718",
     "root": "vah",
     "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "past-passive"
    }
   ],
   "harato": [
@@ -61242,6 +63315,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-active"
    }
   ],
@@ -61365,6 +63443,11 @@
   ],
   "paṭhita": [
    {
+    "id": "442",
+    "root": "path",
+    "category": "past-passive"
+   },
+   {
     "id": "438",
     "root": "paṭh",
     "category": "past-passive"
@@ -61378,6 +63461,11 @@
    }
   ],
   "yacchan": [
+   {
+    "id": "596",
+    "root": "yach",
+    "category": "present-active"
+   },
    {
     "id": "600",
     "root": "yam",
@@ -62293,6 +64381,13 @@
     "category": "past-passive"
    }
   ],
+  "pṛcchyamānā": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-passive"
+   }
+  ],
   "kṣāntaṃ": [
    {
     "id": "137",
@@ -62383,6 +64478,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    }
   ],
@@ -62623,6 +64723,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "past-passive"
    }
   ],
@@ -62944,6 +65049,11 @@
   ],
   "gantavyo": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "gerundive"
@@ -63109,6 +65219,11 @@
   ],
   "gatāyās": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -63122,6 +65237,11 @@
    }
   ],
   "gateṣv": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -63329,6 +65449,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "gerundive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "gerundive"
    }
   ],
@@ -63737,6 +65862,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "plutavān": [
@@ -63757,6 +65887,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-passive"
    }
   ],
@@ -63927,6 +66062,13 @@
     "category": "past-passive"
    }
   ],
+  "pṛcchanto": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
+   }
+  ],
   "sīdamānaḥ": [
    {
     "id": "830",
@@ -64021,6 +66163,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "gerundive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "gerundive"
    }
   ],
@@ -64176,6 +66323,11 @@
    }
   ],
   "gantavyas": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -64460,6 +66612,11 @@
    }
   ],
   "yamyamāneṣu": [
+   {
+    "id": "596",
+    "root": "yach",
+    "category": "present-passive"
+   },
    {
     "id": "600",
     "root": "yam",
@@ -64810,6 +66967,11 @@
   ],
   "kṣveḍamāṇaiś": [
    {
+    "id": "152",
+    "root": "kṣvid",
+    "category": "present-active"
+   },
+   {
     "id": "151",
     "root": "kṣviḍ",
     "category": "present-active"
@@ -64934,6 +67096,11 @@
   ],
   "gamyā": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "gerundive"
@@ -65012,6 +67179,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-passive"
    }
   ],
   "klānto": [
@@ -65084,6 +67256,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-middle"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-middle"
    }
   ],
@@ -65198,6 +67375,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-active"
    }
   ],
   "stavyo": [
@@ -65274,6 +67456,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "past-passive"
    }
   ],
   "dīptāyāṃ": [
@@ -65299,6 +67486,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-passive"
    }
   ],
@@ -65326,6 +67518,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "past-passive"
    }
   ],
   "chrutaṃ": [
@@ -65351,6 +67548,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "past-passive"
    }
   ],
@@ -65407,6 +67609,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-passive"
    }
   ],
@@ -65736,6 +67943,13 @@
     "category": "future-active"
    }
   ],
+  "pṛcchatas": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
+   }
+  ],
   "gīto": [
    {
     "id": "176",
@@ -66037,6 +68251,11 @@
   ],
   "paṭhato": [
    {
+    "id": "442",
+    "root": "path",
+    "category": "present-active"
+   },
+   {
     "id": "438",
     "root": "paṭh",
     "category": "present-active"
@@ -66191,6 +68410,11 @@
    {
     "id": "365",
     "root": "du",
+    "category": "present-passive"
+   },
+   {
+    "id": "370",
+    "root": "dū",
     "category": "present-passive"
    }
   ],
@@ -66371,6 +68595,13 @@
     "category": "past-passive"
    }
   ],
+  "pṛcchadbhiḥ": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
+   }
+  ],
   "nayadbhiḥ": [
    {
     "id": "427",
@@ -66386,6 +68617,11 @@
    }
   ],
   "gatābhyām": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -66636,6 +68872,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "bhañjantībhir": [
@@ -66660,6 +68901,11 @@
    }
   ],
   "paṭhitaḥ": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "past-passive"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -66728,6 +68974,11 @@
    }
   ],
   "paṭhati": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "present-active"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -67513,6 +69764,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "gerundive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "gerundive"
    }
   ],
   "sphuradbhir": [
@@ -67704,6 +69960,11 @@
   ],
   "paṭhyamāna": [
    {
+    "id": "442",
+    "root": "path",
+    "category": "present-passive"
+   },
+   {
     "id": "438",
     "root": "paṭh",
     "category": "present-passive"
@@ -67831,6 +70092,13 @@
     "category": "future-active"
    }
   ],
+  "pṛṣṭāś": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
+   }
+  ],
   "dhriyamāṇā": [
    {
     "id": "402",
@@ -67883,6 +70151,11 @@
     "id": "365",
     "root": "du",
     "category": "present-passive"
+   },
+   {
+    "id": "370",
+    "root": "dū",
+    "category": "present-passive"
    }
   ],
   "ucitena": [
@@ -67920,6 +70193,13 @@
    {
     "id": "348",
     "root": "dah",
+    "category": "present-active"
+   }
+  ],
+  "pṛcchantī": [
+   {
+    "id": "477",
+    "root": "prach",
     "category": "present-active"
    }
   ],
@@ -67974,6 +70254,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-passive"
    }
   ],
@@ -68212,6 +70497,11 @@
   ],
   "gamyena": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "gerundive"
@@ -68295,6 +70585,11 @@
     "id": "365",
     "root": "du",
     "category": "present-passive"
+   },
+   {
+    "id": "370",
+    "root": "dū",
+    "category": "present-passive"
    }
   ],
   "rakṣaṇīya": [
@@ -68326,6 +70621,11 @@
    }
   ],
   "gatavatī": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -68406,6 +70706,13 @@
     "category": "present-active"
    }
   ],
+  "praṣṭavyo": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "gerundive"
+   }
+  ],
   "kṣatā": [
    {
     "id": "135",
@@ -68470,6 +70777,13 @@
     "category": "present-active"
    }
   ],
+  "pṛcchann": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
+   }
+  ],
   "klidyat": [
    {
     "id": "130",
@@ -68495,6 +70809,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "past-passive"
    }
   ],
@@ -68673,6 +70992,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-middle"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-middle"
    }
   ],
   "mṛddhasya": [
@@ -68766,6 +71090,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "svapatsu": [
@@ -68822,6 +71151,11 @@
   ],
   "gatāsv": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -68849,6 +71183,11 @@
    }
   ],
   "khāditaś": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "past-passive"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -68911,6 +71250,11 @@
    }
   ],
   "khāditāni": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "past-passive"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -69026,6 +71370,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "śvasann": [
@@ -69036,6 +71385,11 @@
    }
   ],
   "gacchatas": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -69086,12 +71440,22 @@
   ],
   "khādito": [
    {
+    "id": "156",
+    "root": "khad",
+    "category": "past-passive"
+   },
+   {
     "id": "161",
     "root": "khād",
     "category": "past-passive"
    }
   ],
   "khāditam": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "past-passive"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -69272,6 +71636,11 @@
   ],
   "gacchaṃś": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-active"
@@ -69292,6 +71661,11 @@
    }
   ],
   "khāditavān": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "past-passive"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -69377,6 +71751,11 @@
   ],
   "yatau": [
    {
+    "id": "596",
+    "root": "yach",
+    "category": "past-passive"
+   },
+   {
     "id": "600",
     "root": "yam",
     "category": "past-passive"
@@ -69405,6 +71784,11 @@
   ],
   "khāditāḥ": [
    {
+    "id": "156",
+    "root": "khad",
+    "category": "past-passive"
+   },
+   {
     "id": "161",
     "root": "khād",
     "category": "past-passive"
@@ -69412,12 +71796,22 @@
   ],
   "khāditavyaḥ": [
    {
+    "id": "156",
+    "root": "khad",
+    "category": "gerundive"
+   },
+   {
     "id": "161",
     "root": "khād",
     "category": "gerundive"
    }
   ],
   "khāditavyo": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "gerundive"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -69523,6 +71917,11 @@
   ],
   "khāditaḥ": [
    {
+    "id": "156",
+    "root": "khad",
+    "category": "past-passive"
+   },
+   {
     "id": "161",
     "root": "khād",
     "category": "past-passive"
@@ -69549,6 +71948,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    }
   ],
@@ -70405,6 +72809,11 @@
     "category": "present-active"
    },
    {
+    "id": "596",
+    "root": "yach",
+    "category": "past-passive"
+   },
+   {
     "id": "600",
     "root": "yam",
     "category": "past-passive"
@@ -70540,6 +72949,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "past-passive"
    }
   ],
@@ -71118,6 +73532,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "gerundive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "gerundive"
    }
   ],
   "jaratī": [
@@ -71375,6 +73794,13 @@
     "category": "present-active"
    }
   ],
+  "pṛcchatoḥ": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
+   }
+  ],
   "bhrāntau": [
    {
     "id": "534",
@@ -71623,6 +74049,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "past-passive"
    }
   ],
@@ -72138,6 +74569,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "kṣiptāṃ": [
@@ -72242,6 +74678,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-active"
    }
   ],
@@ -72471,6 +74912,13 @@
     "category": "gerundive"
    }
   ],
+  "pṛcchatām": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
+   }
+  ],
   "kṣubdhasya": [
    {
     "id": "148",
@@ -72556,6 +75004,13 @@
     "id": "876",
     "root": "snih",
     "category": "present-active"
+   }
+  ],
+  "pṛṣṭavatīṃ": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
    }
   ],
   "pibatoḥ": [
@@ -72773,6 +75228,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "past-passive"
    }
   ],
   "bhaviṣyantīm": [
@@ -72849,6 +75309,11 @@
    }
   ],
   "khādantīṃ": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "present-active"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -73008,6 +75473,13 @@
     "category": "past-passive"
    }
   ],
+  "pṛcchyamāno": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-passive"
+   }
+  ],
   "garhaṇīyo": [
    {
     "id": "173",
@@ -73110,6 +75582,13 @@
     "id": "692",
     "root": "lubh",
     "category": "past-passive"
+   }
+  ],
+  "praṣṭavyā": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "gerundive"
    }
   ],
   "vṛṣṭaiḥ": [
@@ -73290,6 +75769,11 @@
   ],
   "gacchantyā": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-active"
@@ -73299,6 +75783,13 @@
    {
     "id": "854",
     "root": "sṛj",
+    "category": "present-active"
+   }
+  ],
+  "pṛcchantīṃ": [
+   {
+    "id": "477",
+    "root": "prach",
     "category": "present-active"
    }
   ],
@@ -73344,6 +75835,13 @@
    {
     "id": "297",
     "root": "tam",
+    "category": "present-active"
+   }
+  ],
+  "pṛcchantyai": [
+   {
+    "id": "477",
+    "root": "prach",
     "category": "present-active"
    }
   ],
@@ -73408,6 +75906,11 @@
     "category": "past-passive"
    },
    {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
+   },
+   {
     "id": "597",
     "root": "yaj",
     "category": "past-passive"
@@ -73421,6 +75924,11 @@
    }
   ],
   "gacchadbhis": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -73585,6 +76093,11 @@
   ],
   "paṭhantīm": [
    {
+    "id": "442",
+    "root": "path",
+    "category": "present-active"
+   },
+   {
     "id": "438",
     "root": "paṭh",
     "category": "present-active"
@@ -73748,6 +76261,11 @@
   ],
   "gacchatām": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-active"
@@ -73769,6 +76287,11 @@
   ],
   "gamiṣyan": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "future-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "future-active"
@@ -73782,6 +76305,11 @@
    }
   ],
   "gatavator": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -73923,6 +76451,11 @@
    }
   ],
   "paṭhat": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "present-active"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -74127,6 +76660,11 @@
   ],
   "gatayor": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -74137,6 +76675,13 @@
     "id": "603",
     "root": "yā",
     "category": "present-active"
+   }
+  ],
+  "pṛṣṭāt": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
    }
   ],
   "tṛptau": [
@@ -74191,6 +76736,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "gerundive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "gerundive"
    }
   ],
   "hṛṣṭābhiḥ": [
@@ -74226,6 +76776,13 @@
     "id": "629",
     "root": "ram",
     "category": "gerundive"
+   }
+  ],
+  "pṛcchaty": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
    }
   ],
   "yaṣṭavya": [
@@ -74264,6 +76821,11 @@
    }
   ],
   "gacchataś": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -74304,6 +76866,11 @@
    }
   ],
   "gacchatsv": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -74421,6 +76988,27 @@
     "category": "present-passive"
    }
   ],
+  "pṛcchantam": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
+   }
+  ],
+  "pṛṣṭāyāś": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
+   }
+  ],
+  "pṛṣṭāc": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
+   }
+  ],
   "hṛteṣv": [
    {
     "id": "923",
@@ -74430,6 +77018,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "past-passive"
    }
   ],
@@ -74468,6 +77061,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "past-passive"
    }
   ],
@@ -74520,6 +77118,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "past-passive"
    }
   ],
@@ -74586,12 +77189,22 @@
   ],
   "īḍyā": [
    {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
+   {
     "id": "48",
     "root": "īḍ",
     "category": "gerundive"
    }
   ],
   "īḍyān": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -74726,6 +77339,11 @@
    }
   ],
   "yatāyai": [
+   {
+    "id": "596",
+    "root": "yach",
+    "category": "past-passive"
+   },
    {
     "id": "600",
     "root": "yam",
@@ -75017,6 +77635,11 @@
     "id": "718",
     "root": "vah",
     "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "past-passive"
    }
   ],
   "dadatam": [
@@ -75271,6 +77894,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "gerundive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "gerundive"
    }
   ],
   "sravantībhir": [
@@ -75315,6 +77943,11 @@
   ],
   "īḍitam": [
    {
+    "id": "34",
+    "root": "iḍ",
+    "category": "past-passive"
+   },
+   {
     "id": "48",
     "root": "īḍ",
     "category": "past-passive"
@@ -75337,6 +77970,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "iṣyan": [
@@ -75348,6 +77986,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -75367,6 +78010,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-middle"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-middle"
    }
   ],
@@ -75524,6 +78172,11 @@
   ],
   "īḍyaṃ": [
    {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
+   {
     "id": "48",
     "root": "īḍ",
     "category": "gerundive"
@@ -75662,6 +78315,11 @@
    }
   ],
   "manasā": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -76195,6 +78853,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "citāni": [
@@ -76218,6 +78881,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "past-passive"
    }
   ],
@@ -76342,6 +79010,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "dadhan": [
@@ -76411,6 +79084,11 @@
     "id": "364",
     "root": "2 dīv",
     "category": "past-passive"
+   },
+   {
+    "id": "355",
+    "root": "div",
+    "category": "past-passive"
    }
   ],
   "bibhrāṇas": [
@@ -76456,6 +79134,11 @@
     "id": "364",
     "root": "2 dīv",
     "category": "present-active"
+   },
+   {
+    "id": "355",
+    "root": "div",
+    "category": "present-active"
    }
   ],
   "nītāni": [
@@ -76492,6 +79175,11 @@
    }
   ],
   "gamyas": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -76547,6 +79235,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "gerundive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "gerundive"
    }
   ],
@@ -76622,6 +79315,11 @@
    {
     "id": "365",
     "root": "du",
+    "category": "past-passive"
+   },
+   {
+    "id": "370",
+    "root": "dū",
     "category": "past-passive"
    }
   ],
@@ -76790,6 +79488,11 @@
   ],
   "gatāya": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -76817,6 +79520,11 @@
    }
   ],
   "yacchate": [
+   {
+    "id": "596",
+    "root": "yach",
+    "category": "present-active"
+   },
    {
     "id": "600",
     "root": "yam",
@@ -76972,6 +79680,11 @@
     "id": "365",
     "root": "du",
     "category": "present-passive"
+   },
+   {
+    "id": "370",
+    "root": "dū",
+    "category": "present-passive"
    }
   ],
   "gāhyamānam": [
@@ -77004,6 +79717,11 @@
   ],
   "gatavato": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -77025,6 +79743,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "gerundive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "gerundive"
    }
   ],
@@ -77079,6 +79802,13 @@
    {
     "id": "912",
     "root": "2 hā",
+    "category": "present-active"
+   }
+  ],
+  "pṛcchatīnām": [
+   {
+    "id": "477",
+    "root": "prach",
     "category": "present-active"
    }
   ],
@@ -77277,6 +80007,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "gerundive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "gerundive"
    }
   ],
   "yācitavyo": [
@@ -77381,6 +80116,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "gerundive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "gerundive"
    }
   ],
   "krandator": [
@@ -77409,6 +80149,13 @@
     "id": "608",
     "root": "yuj",
     "category": "past-passive"
+   }
+  ],
+  "pṛcchantau": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
    }
   ],
   "pīyamānaṃ": [
@@ -77715,6 +80462,11 @@
   ],
   "gamyaiḥ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "gerundive"
@@ -77737,9 +80489,19 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "gerundive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "gerundive"
    }
   ],
   "gamye": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -77795,6 +80557,11 @@
   ],
   "gamyād": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "gerundive"
@@ -77810,6 +80577,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "labhamānāyāḥ": [
@@ -77820,6 +80592,11 @@
    }
   ],
   "gamyeṣu": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -77865,6 +80642,11 @@
    }
   ],
   "piṣṭābhir": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -78028,6 +80810,11 @@
   ],
   "vītam": [
    {
+    "id": "756",
+    "root": "vyā",
+    "category": "past-passive"
+   },
+   {
     "id": "737",
     "root": "vī",
     "category": "past-passive"
@@ -78056,6 +80843,13 @@
    {
     "id": "505",
     "root": "bhaj",
+    "category": "past-passive"
+   }
+  ],
+  "pṛṣṭaiḥ": [
+   {
+    "id": "477",
+    "root": "prach",
     "category": "past-passive"
    }
   ],
@@ -78317,6 +81111,11 @@
     "id": "718",
     "root": "vah",
     "category": "gerundive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "gerundive"
    }
   ],
   "dohya": [
@@ -78353,12 +81152,22 @@
     "id": "718",
     "root": "vah",
     "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "past-passive"
    }
   ],
   "ūḍhayā": [
    {
     "id": "718",
     "root": "vah",
+    "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "past-passive"
    }
   ],
@@ -78594,6 +81403,11 @@
   ],
   "khādati": [
    {
+    "id": "156",
+    "root": "khad",
+    "category": "present-active"
+   },
+   {
     "id": "161",
     "root": "khād",
     "category": "present-active"
@@ -78795,6 +81609,11 @@
     "id": "718",
     "root": "vah",
     "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "past-passive"
    }
   ],
   "Zeichenjh]": [
@@ -78837,6 +81656,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    }
   ],
@@ -78946,6 +81770,11 @@
    }
   ],
   "gamyamāne": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -79110,6 +81939,11 @@
    }
   ],
   "yatāḥ": [
+   {
+    "id": "596",
+    "root": "yach",
+    "category": "past-passive"
+   },
    {
     "id": "600",
     "root": "yam",
@@ -79618,6 +82452,11 @@
   ],
   "jagmuṣe": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -79682,6 +82521,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "sṛṣṭas": [
@@ -79706,6 +82550,11 @@
    }
   ],
   "gamyāya": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -79787,6 +82636,11 @@
    {
     "id": "364",
     "root": "2 dīv",
+    "category": "present-active"
+   },
+   {
+    "id": "355",
+    "root": "div",
     "category": "present-active"
    }
   ],
@@ -79905,6 +82759,13 @@
     "category": "present-active"
    }
   ],
+  "pṛṣṭavatyo": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
+   }
+  ],
   "yuñjataḥ": [
    {
     "id": "608",
@@ -79928,6 +82789,11 @@
   ],
   "jagmivān": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -79949,6 +82815,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    }
   ],
@@ -80248,6 +83119,11 @@
    }
   ],
   "paṭhitavyo": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "gerundive"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -80656,6 +83532,11 @@
   ],
   "gamyamānaḥ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-passive"
@@ -80954,6 +83835,11 @@
   ],
   "paṭhite": [
    {
+    "id": "442",
+    "root": "path",
+    "category": "past-passive"
+   },
+   {
     "id": "438",
     "root": "paṭh",
     "category": "past-passive"
@@ -81211,6 +84097,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    }
   ],
@@ -81903,6 +84794,11 @@
     "id": "364",
     "root": "2 dīv",
     "category": "present-active"
+   },
+   {
+    "id": "355",
+    "root": "div",
+    "category": "present-active"
    }
   ],
   "gāyataḥ": [
@@ -82132,6 +85028,11 @@
    }
   ],
   "paṭhyamānam": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "present-passive"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -82407,6 +85308,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-active"
    }
   ],
   "nītavyaṃ": [
@@ -82417,6 +85323,11 @@
    }
   ],
   "paṭhitavyaṃ": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "gerundive"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -82603,6 +85514,11 @@
   ],
   "khādamānaḥ": [
    {
+    "id": "156",
+    "root": "khad",
+    "category": "present-middle"
+   },
+   {
     "id": "161",
     "root": "khād",
     "category": "present-middle"
@@ -82772,6 +85688,11 @@
    }
   ],
   "paṭhamānaḥ": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "present-middle"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -83510,6 +86431,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "rakṣitavyāḥ": [
@@ -83562,6 +86488,11 @@
    }
   ],
   "khāditair": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "past-passive"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -83621,6 +86552,11 @@
    }
   ],
   "yataṃ": [
+   {
+    "id": "596",
+    "root": "yach",
+    "category": "past-passive"
+   },
    {
     "id": "600",
     "root": "yam",
@@ -83956,6 +86892,11 @@
     "category": "past-passive"
    },
    {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
+   },
+   {
     "id": "597",
     "root": "yaj",
     "category": "past-passive"
@@ -84016,6 +86957,16 @@
    }
   ],
   "jagmuṣī": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "perfect-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -84212,6 +87163,11 @@
   ],
   "khādantyo": [
    {
+    "id": "156",
+    "root": "khad",
+    "category": "present-active"
+   },
+   {
     "id": "161",
     "root": "khād",
     "category": "present-active"
@@ -84286,6 +87242,13 @@
     "id": "121",
     "root": "krīḍ",
     "category": "present-active"
+   }
+  ],
+  "pṛcchyamānāḥ": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-passive"
    }
   ],
   "rudantaḥ": [
@@ -84534,6 +87497,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "past-passive"
    }
   ],
   "krośatī": [
@@ -84724,6 +87692,11 @@
   ],
   "gacchantyau": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-active"
@@ -84766,6 +87739,11 @@
    }
   ],
   "gacchatyāḥ": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -84823,6 +87801,11 @@
    }
   ],
   "gacchamāno": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-middle"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -84978,6 +87961,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-active"
    }
   ],
@@ -85803,6 +88791,11 @@
   ],
   "kṣveḍantaḥ": [
    {
+    "id": "152",
+    "root": "kṣvid",
+    "category": "present-active"
+   },
+   {
     "id": "151",
     "root": "kṣviḍ",
     "category": "present-active"
@@ -85889,6 +88882,11 @@
    }
   ],
   "gacchantīm": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -86216,6 +89214,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "dṛṣṭavatyo": [
@@ -86299,6 +89302,11 @@
    }
   ],
   "gamiṣyantyā": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "future-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -86450,6 +89458,11 @@
    }
   ],
   "khādatā": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "present-active"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -86838,6 +89851,11 @@
   ],
   "khādataḥ": [
    {
+    "id": "156",
+    "root": "khad",
+    "category": "present-active"
+   },
+   {
     "id": "161",
     "root": "khād",
     "category": "present-active"
@@ -86907,6 +89925,11 @@
     "id": "364",
     "root": "2 dīv",
     "category": "present-active"
+   },
+   {
+    "id": "355",
+    "root": "div",
+    "category": "present-active"
    }
   ],
   "dīvyamānāḥ": [
@@ -86918,6 +89941,11 @@
    {
     "id": "364",
     "root": "2 dīv",
+    "category": "present-middle"
+   },
+   {
+    "id": "355",
+    "root": "div",
     "category": "present-middle"
    }
   ],
@@ -86964,6 +89992,11 @@
     "id": "364",
     "root": "2 dīv",
     "category": "present-active"
+   },
+   {
+    "id": "355",
+    "root": "div",
+    "category": "present-active"
    }
   ],
   "hīnataḥ": [
@@ -87008,6 +90041,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "past-passive"
    }
   ],
@@ -87098,6 +90136,11 @@
    {
     "id": "364",
     "root": "2 dīv",
+    "category": "gerundive"
+   },
+   {
+    "id": "355",
+    "root": "div",
     "category": "gerundive"
    }
   ],
@@ -87752,6 +90795,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
    }
   ],
   "chṛṇvatoḥ": [
@@ -87784,6 +90832,11 @@
    {
     "id": "364",
     "root": "2 dīv",
+    "category": "present-middle"
+   },
+   {
+    "id": "355",
+    "root": "div",
     "category": "present-middle"
    }
   ],
@@ -87915,6 +90968,13 @@
     "id": "530",
     "root": "bhṛ",
     "category": "gerundive"
+   }
+  ],
+  "pṛcchantyā": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
    }
   ],
   "rudantyau": [
@@ -88350,6 +91410,11 @@
     "id": "718",
     "root": "vah",
     "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "past-passive"
    }
   ],
   "hūyamānāyāṃ": [
@@ -88524,6 +91589,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "vṛttābhyām": [
@@ -88548,6 +91618,11 @@
    }
   ],
   "paṭhyamāneṣu": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "present-passive"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -89106,6 +92181,13 @@
     "category": "present-middle"
    }
   ],
+  "pṛcchataś": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
+   }
+  ],
   "garjamānam": [
    {
     "id": "171",
@@ -89405,6 +92487,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    }
   ],
@@ -90007,6 +93094,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "past-passive"
    }
   ],
   "tapyatāṃ": [
@@ -90147,6 +93239,11 @@
   ],
   "khādatāṃ": [
    {
+    "id": "156",
+    "root": "khad",
+    "category": "present-active"
+   },
+   {
     "id": "161",
     "root": "khād",
     "category": "present-active"
@@ -90198,6 +93295,11 @@
    }
   ],
   "paṭhyamānaṃ": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "present-passive"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -90321,9 +93423,19 @@
     "id": "718",
     "root": "vah",
     "category": "present-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-passive"
    }
   ],
   "gamanīyo": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -90359,6 +93471,11 @@
    }
   ],
   "yamya": [
+   {
+    "id": "596",
+    "root": "yach",
+    "category": "gerundive"
+   },
    {
     "id": "600",
     "root": "yam",
@@ -90890,6 +94007,11 @@
     "id": "364",
     "root": "2 dīv",
     "category": "present-middle"
+   },
+   {
+    "id": "355",
+    "root": "div",
+    "category": "present-middle"
    }
   ],
   "jitavanto": [
@@ -90927,6 +94049,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "gerundive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "gerundive"
    }
   ],
@@ -90966,6 +94093,11 @@
    }
   ],
   "īḍyas": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -91161,6 +94293,11 @@
    }
   ],
   "yataiḥ": [
+   {
+    "id": "596",
+    "root": "yach",
+    "category": "past-passive"
+   },
    {
     "id": "600",
     "root": "yam",
@@ -91454,6 +94591,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "majjantīṃ": [
@@ -91579,6 +94721,11 @@
     "id": "718",
     "root": "vah",
     "category": "gerundive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "gerundive"
    }
   ],
   "tudann": [
@@ -91597,6 +94744,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -91646,6 +94798,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "past-passive"
    }
   ],
@@ -92246,6 +95403,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-passive"
    }
   ],
   "japta": [
@@ -92379,6 +95541,11 @@
   ],
   "gamiṣyatāṃ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "future-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "future-active"
@@ -92442,6 +95609,11 @@
    }
   ],
   "gacchanto": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -93806,6 +96978,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-passive"
    }
   ],
   "astāṃ": [
@@ -93829,6 +97006,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-passive"
    }
   ],
@@ -94504,6 +97686,11 @@
   ],
   "gacchamāne": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-middle"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-middle"
@@ -94633,6 +97820,11 @@
    }
   ],
   "gacchate": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -94947,6 +98139,11 @@
   ],
   "gacchad": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-active"
@@ -95193,6 +98390,11 @@
   ],
   "gatābhiḥ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -95420,6 +98622,11 @@
    }
   ],
   "gacchamānaṃ": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-middle"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -96043,6 +99250,11 @@
     "id": "365",
     "root": "du",
     "category": "present-passive"
+   },
+   {
+    "id": "370",
+    "root": "dū",
+    "category": "present-passive"
    }
   ],
   "rakṣyamāṇaś": [
@@ -96074,6 +99286,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "stūyamānāya": [
@@ -96104,6 +99321,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "gerundive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "gerundive"
    }
   ],
@@ -96741,6 +99963,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-passive"
    }
   ],
@@ -97615,6 +100842,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-active"
    }
   ],
   "nayatīm": [
@@ -97935,6 +101167,13 @@
     "category": "present-active"
    }
   ],
+  "pṛcchyamānena": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-passive"
+   }
+  ],
   "śīrṇaḥ": [
    {
     "id": "797",
@@ -98123,6 +101362,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
    }
   ],
   "dveṣyāṇi": [
@@ -98273,6 +101517,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -98436,6 +101685,11 @@
   ],
   "gatebhyaḥ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -98471,6 +101725,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-passive"
    }
   ],
@@ -98661,6 +101920,11 @@
    }
   ],
   "yantavyā": [
+   {
+    "id": "596",
+    "root": "yach",
+    "category": "gerundive"
+   },
    {
     "id": "600",
     "root": "yam",
@@ -98922,6 +102186,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "gerundive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "gerundive"
    }
   ],
   "ceṣṭitavyaṃ": [
@@ -98961,6 +102230,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-middle"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-middle"
    }
   ],
@@ -99065,6 +102339,11 @@
   ],
   "gacchamānān": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-active"
@@ -99105,6 +102384,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "gerundive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "gerundive"
    }
   ],
@@ -99164,6 +102448,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    }
   ],
@@ -99225,6 +102514,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-passive"
    }
   ],
   "mriyamāṇau": [
@@ -99248,6 +102542,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-passive"
    }
   ],
@@ -99396,6 +102695,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-active"
    }
   ],
@@ -99669,6 +102973,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-passive"
    }
   ],
   "viśamānān": [
@@ -99828,6 +103137,11 @@
   ],
   "yateṣu": [
    {
+    "id": "596",
+    "root": "yach",
+    "category": "past-passive"
+   },
+   {
     "id": "600",
     "root": "yam",
     "category": "past-passive"
@@ -99947,6 +103261,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "śliṣṭāni": [
@@ -99978,6 +103297,11 @@
    }
   ],
   "īḍitavyam": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -100121,6 +103445,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "uktāsu": [
@@ -100162,6 +103491,11 @@
    }
   ],
   "gatavatyaḥ": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -100283,6 +103617,13 @@
     "category": "present-middle"
    }
   ],
+  "pṛcchamānāya": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
+   }
+  ],
   "juhvānā": [
    {
     "id": "919",
@@ -100292,12 +103633,22 @@
   ],
   "gantavyau": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "gerundive"
    }
   ],
   "yatā": [
+   {
+    "id": "596",
+    "root": "yach",
+    "category": "past-passive"
+   },
    {
     "id": "600",
     "root": "yam",
@@ -100342,6 +103693,11 @@
   ],
   "khādantaṃ": [
    {
+    "id": "156",
+    "root": "khad",
+    "category": "present-active"
+   },
+   {
     "id": "161",
     "root": "khād",
     "category": "present-active"
@@ -100370,6 +103726,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "gerundive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "gerundive"
    }
   ],
@@ -100486,12 +103847,22 @@
   ],
   "gatavāñ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
    }
   ],
   "gacchantyaḥ": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -100579,6 +103950,11 @@
     "id": "364",
     "root": "2 dīv",
     "category": "present-active"
+   },
+   {
+    "id": "355",
+    "root": "div",
+    "category": "present-active"
    }
   ],
   "dattāyāḥ": [
@@ -100627,6 +104003,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "gerundive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "gerundive"
    }
   ],
   "hartavyo": [
@@ -100638,6 +104019,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "gerundive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "gerundive"
    }
   ],
@@ -100852,6 +104238,11 @@
   ],
   "yatasya": [
    {
+    "id": "596",
+    "root": "yach",
+    "category": "past-passive"
+   },
+   {
     "id": "600",
     "root": "yam",
     "category": "past-passive"
@@ -101064,6 +104455,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-active"
    }
   ],
   "ghuṣṭa": [
@@ -101108,6 +104504,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-active"
    }
   ],
@@ -101507,6 +104908,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "gerundive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "gerundive"
    }
   ],
   "kṣubhitena": [
@@ -101649,6 +105055,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "past-passive"
    }
   ],
   "ghaṭān": [
@@ -101659,6 +105070,11 @@
    }
   ],
   "paṭhitān": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "past-passive"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -101678,6 +105094,11 @@
    }
   ],
   "paṭhitāḥ": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "past-passive"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -101902,6 +105323,11 @@
   ],
   "gatāny": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -102037,6 +105463,11 @@
    }
   ],
   "īḍite": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "past-passive"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -102194,6 +105625,11 @@
   ],
   "īḍyāḥ": [
    {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
+   {
     "id": "48",
     "root": "īḍ",
     "category": "gerundive"
@@ -102331,6 +105767,11 @@
   ],
   "yantavyāḥ": [
    {
+    "id": "596",
+    "root": "yach",
+    "category": "gerundive"
+   },
+   {
     "id": "600",
     "root": "yam",
     "category": "gerundive"
@@ -102345,6 +105786,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-active"
    }
   ],
@@ -102994,6 +106440,13 @@
     "category": "present-active"
    }
   ],
+  "vītāya": [
+   {
+    "id": "756",
+    "root": "vyā",
+    "category": "past-passive"
+   }
+  ],
   "vañcate": [
    {
     "id": "701",
@@ -103101,6 +106554,11 @@
    }
   ],
   "tūrvan": [
+   {
+    "id": "314",
+    "root": "turv",
+    "category": "present-active"
+   },
    {
     "id": "318",
     "root": "tūrv",
@@ -103244,6 +106702,11 @@
    }
   ],
   "īḍenyo": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -103485,6 +106948,11 @@
    }
   ],
   "īḍyaś": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -104644,6 +108112,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "past-passive"
    }
   ],
   "bhogyāsu": [
@@ -104767,6 +108240,11 @@
    }
   ],
   "paṭhyamānaiḥ": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "present-passive"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -105733,6 +109211,11 @@
   ],
   "gacchantīnāṃ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-active"
@@ -106233,6 +109716,11 @@
   ],
   "piṣṭaiś": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -106512,6 +110000,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-active"
    }
   ],
   "jñāyamāneṣu": [
@@ -106723,6 +110216,11 @@
   ],
   "gamyamāna": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-passive"
@@ -106816,12 +110314,22 @@
   ],
   "gamyamānaṃ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-passive"
    }
   ],
   "gamyamānāt": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -106946,6 +110454,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-passive"
    }
   ],
   "śṛṇvantaś": [
@@ -106993,6 +110506,13 @@
     "id": "741",
     "root": "2 vṛ",
     "category": "past-active"
+   }
+  ],
+  "praṣṭavya": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "gerundive"
    }
   ],
   "karaṇīyasya": [
@@ -107068,6 +110588,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-passive"
    }
   ],
@@ -107172,6 +110697,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "gerundive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "gerundive"
    }
   ],
   "vakṣyamāṇair": [
@@ -107241,6 +110771,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-passive"
    }
   ],
   "nunnaṃ": [
@@ -107293,6 +110828,11 @@
    }
   ],
   "piṣan": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "present-active"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -107533,6 +111073,11 @@
    }
   ],
   "yatāya": [
+   {
+    "id": "596",
+    "root": "yach",
+    "category": "past-passive"
+   },
    {
     "id": "600",
     "root": "yam",
@@ -107864,6 +111409,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "nindyāṃ": [
@@ -107899,6 +111449,13 @@
     "id": "852",
     "root": "sṛ",
     "category": "past-passive"
+   }
+  ],
+  "praṣṭavyās": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "gerundive"
    }
   ],
   "muṣite": [
@@ -108237,9 +111794,19 @@
     "id": "718",
     "root": "vah",
     "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "past-passive"
    }
   ],
   "īḍitebhir": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "past-passive"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -108254,6 +111821,11 @@
    }
   ],
   "īḍitebhiḥ": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "past-passive"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -108342,6 +111914,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "perfect-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "perfect-active"
    }
   ],
@@ -108505,6 +112082,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-active"
    }
   ],
@@ -108726,12 +112308,22 @@
     "id": "718",
     "root": "vah",
     "category": "perfect-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "perfect-active"
    }
   ],
   "ūhuṣaḥ": [
    {
     "id": "718",
     "root": "vah",
+    "category": "perfect-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "perfect-active"
    }
   ],
@@ -108920,6 +112512,11 @@
    }
   ],
   "gacchaṃs": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -109206,6 +112803,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "gerundive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "gerundive"
    }
   ],
@@ -109613,6 +113215,11 @@
   ],
   "peṣyam": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "gerundive"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "gerundive"
@@ -109960,6 +113567,11 @@
   ],
   "peṣye": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "gerundive"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "gerundive"
@@ -110046,6 +113658,11 @@
    }
   ],
   "piṣṭābhyām": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -110136,6 +113753,11 @@
    }
   ],
   "khādyāś": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "gerundive"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -110252,6 +113874,11 @@
   ],
   "piṣṭād": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -110265,6 +113892,11 @@
    }
   ],
   "piṣṭāt": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -110321,6 +113953,11 @@
   ],
   "piṣyo": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "gerundive"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "gerundive"
@@ -110353,6 +113990,11 @@
    }
   ],
   "peṣṭavyaṃ": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "gerundive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -110532,6 +114174,11 @@
    }
   ],
   "peṣaṇīyam": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "gerundive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -110861,12 +114508,22 @@
   ],
   "gamyo": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "gerundive"
    }
   ],
   "khādyaḥ": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "gerundive"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -110995,6 +114652,11 @@
   ],
   "paṭhitau": [
    {
+    "id": "442",
+    "root": "path",
+    "category": "past-passive"
+   },
+   {
     "id": "438",
     "root": "paṭh",
     "category": "past-passive"
@@ -111018,6 +114680,11 @@
    }
   ],
   "jagmuṣāṃ": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -111678,6 +115345,11 @@
   ],
   "gamiṣyantam": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "future-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "future-active"
@@ -111967,8 +115639,20 @@
   ],
   "gacchantau": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
+   {
     "id": "170",
     "root": "gam",
+    "category": "present-active"
+   }
+  ],
+  "pṛcchantaḥ": [
+   {
+    "id": "477",
+    "root": "prach",
     "category": "present-active"
    }
   ],
@@ -112075,6 +115759,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-middle"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-middle"
    }
   ],
@@ -112209,6 +115898,11 @@
   ],
   "gacchantyo": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-active"
@@ -112234,6 +115928,11 @@
    }
   ],
   "gacchanti": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -112598,6 +116297,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "gerundive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "gerundive"
    }
   ],
   "naśyantaṃ": [
@@ -112676,6 +116380,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-passive"
    }
   ],
   "hriyamāṇāyāṃ": [
@@ -112687,6 +116396,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-passive"
    }
   ],
@@ -112774,6 +116488,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "past-passive"
    }
   ],
   "śuṣyamāṇa": [
@@ -112823,6 +116542,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -112874,6 +116598,11 @@
    }
   ],
   "khādato": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "present-active"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -112953,6 +116682,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-passive"
    }
   ],
@@ -113168,6 +116902,13 @@
     "category": "gerundive"
    }
   ],
+  "praṣṭavyāś": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "gerundive"
+   }
+  ],
   "sevyāni": [
    {
     "id": "856",
@@ -113176,6 +116917,11 @@
    }
   ],
   "kṣveḍanto": [
+   {
+    "id": "152",
+    "root": "kṣvid",
+    "category": "present-active"
+   },
    {
     "id": "151",
     "root": "kṣviḍ",
@@ -113762,6 +117508,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-active"
    }
   ],
   "pluto": [
@@ -113869,6 +117620,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-passive"
    }
   ],
@@ -114117,6 +117873,11 @@
    }
   ],
   "yatāni": [
+   {
+    "id": "596",
+    "root": "yach",
+    "category": "past-passive"
+   },
    {
     "id": "600",
     "root": "yam",
@@ -114770,6 +118531,11 @@
   ],
   "khādate": [
    {
+    "id": "156",
+    "root": "khad",
+    "category": "present-active"
+   },
+   {
     "id": "161",
     "root": "khād",
     "category": "present-active"
@@ -115221,6 +118987,11 @@
     "id": "364",
     "root": "2 dīv",
     "category": "present-active"
+   },
+   {
+    "id": "355",
+    "root": "div",
+    "category": "present-active"
    }
   ],
   "gṛddha": [
@@ -115422,9 +119193,19 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "īḍyām": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -115783,6 +119564,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "past-passive"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "past-passive"
    }
   ],
   "jāyatī": [
@@ -116052,6 +119838,13 @@
     "category": "present-passive"
    }
   ],
+  "pracchan": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
+   }
+  ],
   "dhyāyamāne": [
    {
     "id": "405",
@@ -116136,6 +119929,13 @@
     "category": "present-active"
    }
   ],
+  "pṛcchatyāḥ": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
+   }
+  ],
   "gīyamāno": [
    {
     "id": "176",
@@ -116146,6 +119946,13 @@
     "id": "177",
     "root": "2 gā",
     "category": "present-passive"
+   }
+  ],
+  "pṛcchito": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
    }
   ],
   "dhunan": [
@@ -116171,6 +119978,11 @@
   ],
   "gatābhyāṃ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -116191,6 +120003,11 @@
    }
   ],
   "gacchamānāḥ": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-middle"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -116231,6 +120048,11 @@
    }
   ],
   "paṭhamānaṃ": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "present-middle"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -116398,6 +120220,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "kṣīṇair": [
@@ -116413,6 +120240,11 @@
    }
   ],
   "paṭhitaiḥ": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "past-passive"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -116724,6 +120556,11 @@
   ],
   "gamyānāṃ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "gerundive"
@@ -116908,6 +120745,11 @@
    }
   ],
   "khāditasya": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "past-passive"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -117287,6 +121129,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "siddhābhyām": [
@@ -117345,6 +121192,11 @@
    }
   ],
   "piṣṭābhiḥ": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -117491,6 +121343,11 @@
    }
   ],
   "piṣṭeṣu": [
+   {
+    "id": "457",
+    "root": "pis",
+    "category": "past-passive"
+   },
    {
     "id": "456",
     "root": "piṣ",
@@ -118114,6 +121971,13 @@
     "category": "past-passive"
    }
   ],
+  "pṛcchatī": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-active"
+   }
+  ],
   "labdhavataḥ": [
    {
     "id": "673",
@@ -118153,6 +122017,11 @@
    }
   ],
   "gatavanto": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -118263,6 +122132,11 @@
   ],
   "gatāś": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -118291,6 +122165,11 @@
   ],
   "gatād": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -118298,12 +122177,22 @@
   ],
   "gamyāt": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "gerundive"
    }
   ],
   "gamyāś": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -119202,6 +123091,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-passive"
    }
   ],
   "īśyamāṇam": [
@@ -119220,6 +123114,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-passive"
    }
   ],
@@ -119376,6 +123275,13 @@
     "category": "past-passive"
    }
   ],
+  "pṛcchyamānaś": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-passive"
+   }
+  ],
   "luñcitāṃl": [
    {
     "id": "687",
@@ -119419,6 +123325,11 @@
    }
   ],
   "gantavyāny": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -119533,6 +123444,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "gerundive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "gerundive"
    }
   ],
   "ghūrṇitasya": [
@@ -119639,6 +123555,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "gerundive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "gerundive"
    }
   ],
   "vedyāni": [
@@ -119741,6 +123662,11 @@
    }
   ],
   "paṭhatoḥ": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "present-active"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -120020,6 +123946,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "past-passive"
    }
   ],
   "śiñjan": [
@@ -120058,6 +123989,11 @@
    }
   ],
   "īḍenya": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -120261,6 +124197,13 @@
     "category": "present-active"
    }
   ],
+  "pṛṣṭām": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
+   }
+  ],
   "vṛścyamānam": [
    {
     "id": "760",
@@ -120363,6 +124306,11 @@
    }
   ],
   "īlenyo": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -120487,6 +124435,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -120818,6 +124771,11 @@
     "id": "718",
     "root": "vah",
     "category": "gerundive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "gerundive"
    }
   ],
   "śreyo": [
@@ -120974,6 +124932,11 @@
    }
   ],
   "paṭhataś": [
+   {
+    "id": "442",
+    "root": "path",
+    "category": "present-active"
+   },
    {
     "id": "438",
     "root": "paṭh",
@@ -121170,6 +125133,13 @@
     "category": "present-active"
    }
   ],
+  "praṣṭavyaṃ": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "gerundive"
+   }
+  ],
   "pibaty": [
    {
     "id": "448",
@@ -121263,6 +125233,13 @@
     "id": "419",
     "root": "2 naś",
     "category": "past-passive"
+   }
+  ],
+  "praṣṭavyam": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "gerundive"
    }
   ],
   "jñātaś": [
@@ -121366,6 +125343,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-active"
    }
   ],
@@ -121800,6 +125782,11 @@
     "id": "718",
     "root": "vah",
     "category": "future-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "future-active"
    }
   ],
   "sasanivāṃsaṃ": [
@@ -121813,6 +125800,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "perfect-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "perfect-active"
    }
   ],
@@ -122072,6 +126064,11 @@
   ],
   "piṣyan": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "present-active"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "present-active"
@@ -122267,6 +126264,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    }
   ],
@@ -122498,6 +126500,11 @@
   ],
   "khādyāḥ": [
    {
+    "id": "156",
+    "root": "khad",
+    "category": "gerundive"
+   },
+   {
     "id": "161",
     "root": "khād",
     "category": "gerundive"
@@ -122545,6 +126552,11 @@
    }
   ],
   "khādyaṃ": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "gerundive"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -122685,6 +126697,11 @@
   ],
   "peṣyāḥ": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "gerundive"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "gerundive"
@@ -122765,6 +126782,11 @@
    }
   ],
   "khādya": [
+   {
+    "id": "156",
+    "root": "khad",
+    "category": "gerundive"
+   },
    {
     "id": "161",
     "root": "khād",
@@ -123156,6 +127178,11 @@
   ],
   "piṃṣann": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "present-active"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "present-active"
@@ -123225,6 +127252,13 @@
     "id": "19",
     "root": "av",
     "category": "present-active"
+   }
+  ],
+  "pṛṣṭāni": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "past-passive"
    }
   ],
   "pīyamānam": [
@@ -123334,6 +127368,11 @@
     "id": "718",
     "root": "vah",
     "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "past-passive"
    }
   ],
   "śakanīyam": [
@@ -123368,6 +127407,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "past-passive"
    }
   ],
@@ -123411,6 +127455,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "śaṃsantyaḥ": [
@@ -123431,6 +127480,11 @@
    {
     "id": "365",
     "root": "du",
+    "category": "past-passive"
+   },
+   {
+    "id": "370",
+    "root": "dū",
     "category": "past-passive"
    }
   ],
@@ -123523,6 +127577,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "gerundive"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "gerundive"
    }
   ],
@@ -123624,6 +127683,11 @@
    }
   ],
   "yacchataḥ": [
+   {
+    "id": "596",
+    "root": "yach",
+    "category": "present-active"
+   },
    {
     "id": "600",
     "root": "yam",
@@ -123759,6 +127823,11 @@
   ],
   "paṭhanīyaḥ": [
    {
+    "id": "442",
+    "root": "path",
+    "category": "gerundive"
+   },
+   {
     "id": "438",
     "root": "paṭh",
     "category": "gerundive"
@@ -123773,6 +127842,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -123938,6 +128012,11 @@
     "id": "364",
     "root": "2 dīv",
     "category": "past-passive"
+   },
+   {
+    "id": "355",
+    "root": "div",
+    "category": "past-passive"
    }
   ],
   "ukṣamāṇāḥ": [
@@ -123958,6 +128037,11 @@
    }
   ],
   "gamanīyām": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "gerundive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -124205,6 +128289,11 @@
   ],
   "yacchantīṣu": [
    {
+    "id": "596",
+    "root": "yach",
+    "category": "present-active"
+   },
+   {
     "id": "600",
     "root": "yam",
     "category": "present-active"
@@ -124316,6 +128405,11 @@
   ],
   "piṃṣanto": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "present-active"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "present-active"
@@ -124368,6 +128462,11 @@
   ],
   "īḍenyaḥ": [
    {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
+   {
     "id": "48",
     "root": "īḍ",
     "category": "gerundive"
@@ -124381,6 +128480,11 @@
    }
   ],
   "īḍenyā": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -124403,12 +128507,22 @@
   ],
   "īḍenyān": [
    {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
+   {
     "id": "48",
     "root": "īḍ",
     "category": "gerundive"
    }
   ],
   "īḍenyāḥ": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -124424,6 +128538,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-middle"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-middle"
    }
   ],
@@ -124773,6 +128892,11 @@
    }
   ],
   "yatās": [
+   {
+    "id": "596",
+    "root": "yach",
+    "category": "past-passive"
+   },
    {
     "id": "600",
     "root": "yam",
@@ -125145,6 +129269,11 @@
   ],
   "piṣyamāṇānām": [
    {
+    "id": "457",
+    "root": "pis",
+    "category": "present-passive"
+   },
+   {
     "id": "456",
     "root": "piṣ",
     "category": "present-passive"
@@ -125208,6 +129337,11 @@
    {
     "id": "641",
     "root": "ri",
+    "category": "present-middle"
+   },
+   {
+    "id": "651",
+    "root": "rī",
     "category": "present-middle"
    }
   ],
@@ -125711,6 +129845,13 @@
    {
     "id": "254",
     "root": "jalp",
+    "category": "past-passive"
+   }
+  ],
+  "pṛṣṭābhyāṃ": [
+   {
+    "id": "477",
+    "root": "prach",
     "category": "past-passive"
    }
   ],
@@ -126323,6 +130464,11 @@
   ],
   "gamiṣyantīṃ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "future-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "future-active"
@@ -126330,12 +130476,22 @@
   ],
   "gamiṣyann": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "future-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "future-active"
    }
   ],
   "gamiṣyantī": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "future-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -126591,6 +130747,11 @@
   ],
   "īḍyās": [
    {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
+   {
     "id": "48",
     "root": "īḍ",
     "category": "gerundive"
@@ -126672,6 +130833,11 @@
     "id": "924",
     "root": "2 hṛ",
     "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
+    "category": "present-active"
    }
   ],
   "venantā": [
@@ -126707,6 +130873,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -127192,6 +131363,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-middle"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-middle"
    }
   ],
@@ -127946,6 +132122,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-active"
    }
   ],
   "śnathitam": [
@@ -128140,6 +132321,11 @@
    }
   ],
   "jagmuṣīr": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -128656,6 +132842,11 @@
   ],
   "īﾱenyo": [
    {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
+   {
     "id": "48",
     "root": "īḍ",
     "category": "gerundive"
@@ -128918,6 +133109,11 @@
    }
   ],
   "yatāsaḥ": [
+   {
+    "id": "596",
+    "root": "yach",
+    "category": "past-passive"
+   },
    {
     "id": "600",
     "root": "yam",
@@ -129205,6 +133401,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "veṣantīr": [
@@ -129375,6 +133576,11 @@
    }
   ],
   "īḍānāya": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "present-active"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -129922,6 +134128,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -130587,6 +134798,11 @@
   ],
   "yemānam": [
    {
+    "id": "596",
+    "root": "yach",
+    "category": "past-passive"
+   },
+   {
     "id": "600",
     "root": "yam",
     "category": "past-passive"
@@ -130665,6 +134881,13 @@
     "category": "past-passive"
    }
   ],
+  "pṛcchyamānaḥ": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-passive"
+   }
+  ],
   "bhidantaḥ": [
    {
     "id": "521",
@@ -130712,6 +134935,13 @@
     "id": "379",
     "root": "dyut",
     "category": "past-passive"
+   }
+  ],
+  "pṛcchyamānas": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-passive"
    }
   ],
   "nidānā": [
@@ -130832,6 +135062,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "present-active"
    }
   ],
@@ -131017,6 +135252,11 @@
    }
   ],
   "yemāna": [
+   {
+    "id": "596",
+    "root": "yach",
+    "category": "past-passive"
+   },
    {
     "id": "600",
     "root": "yam",
@@ -131253,6 +135493,11 @@
   ],
   "yemāno": [
    {
+    "id": "596",
+    "root": "yach",
+    "category": "past-passive"
+   },
+   {
     "id": "600",
     "root": "yam",
     "category": "past-passive"
@@ -131449,6 +135694,11 @@
   ],
   "īﾱitā": [
    {
+    "id": "34",
+    "root": "iḍ",
+    "category": "past-passive"
+   },
+   {
     "id": "48",
     "root": "īḍ",
     "category": "past-passive"
@@ -131462,6 +135712,11 @@
    }
   ],
   "īﾱenyaṃ": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -131518,6 +135773,11 @@
    }
   ],
   "īﾱānā": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "present-middle"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -131957,6 +136217,11 @@
   ],
   "jaganvāṃsā": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -132255,6 +136520,11 @@
   ],
   "tūrvanto": [
    {
+    "id": "314",
+    "root": "turv",
+    "category": "present-active"
+   },
+   {
     "id": "318",
     "root": "tūrv",
     "category": "present-active"
@@ -132374,6 +136644,11 @@
    }
   ],
   "tūrvann": [
+   {
+    "id": "314",
+    "root": "turv",
+    "category": "present-active"
+   },
    {
     "id": "318",
     "root": "tūrv",
@@ -132704,6 +136979,11 @@
     "id": "718",
     "root": "vah",
     "category": "past-passive"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "past-passive"
    }
   ],
   "cikituṣā": [
@@ -132872,6 +137152,13 @@
     "id": "836",
     "root": "sah",
     "category": "present-active"
+   }
+  ],
+  "pṛcchamāna": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-middle"
    }
   ],
   "jahatīr": [
@@ -133100,6 +137387,11 @@
   ],
   "jagmuṣo": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "perfect-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "perfect-active"
@@ -133174,6 +137466,11 @@
    }
   ],
   "yacchamānāḥ": [
+   {
+    "id": "596",
+    "root": "yach",
+    "category": "present-middle"
+   },
    {
     "id": "600",
     "root": "yam",
@@ -133411,6 +137708,11 @@
   ],
   "yacchantīr": [
    {
+    "id": "596",
+    "root": "yach",
+    "category": "present-active"
+   },
+   {
     "id": "600",
     "root": "yam",
     "category": "present-active"
@@ -133461,6 +137763,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-middle"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-middle"
    }
   ],
@@ -134035,6 +138342,11 @@
   ],
   "jaganvāṃsaḥ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "past-passive"
@@ -134373,6 +138685,11 @@
   ],
   "īﾱenyaḥ": [
    {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
+   {
     "id": "48",
     "root": "īḍ",
     "category": "gerundive"
@@ -134584,6 +138901,11 @@
   ],
   "gacchañ": [
    {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
+   {
     "id": "170",
     "root": "gam",
     "category": "present-active"
@@ -134677,6 +138999,11 @@
    }
   ],
   "gacchanta": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "present-active"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -134831,6 +139158,11 @@
   ],
   "yemānaḥ": [
    {
+    "id": "596",
+    "root": "yach",
+    "category": "past-passive"
+   },
+   {
     "id": "600",
     "root": "yam",
     "category": "past-passive"
@@ -134852,6 +139184,11 @@
    {
     "id": "43",
     "root": "2 iṣ",
+    "category": "past-passive"
+   },
+   {
+    "id": "32",
+    "root": "ich",
     "category": "past-passive"
    }
   ],
@@ -135033,6 +139370,13 @@
     "category": "past-passive"
    }
   ],
+  "pṛcchamānāḥ": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-middle"
+   }
+  ],
   "pāntaḥ": [
    {
     "id": "448",
@@ -135191,6 +139535,11 @@
   ],
   "īḍyasya": [
    {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
+   {
     "id": "48",
     "root": "īḍ",
     "category": "gerundive"
@@ -135252,6 +139601,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-middle"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-middle"
    }
   ],
@@ -135371,6 +139725,11 @@
     "id": "718",
     "root": "vah",
     "category": "present-middle"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-middle"
    }
   ],
   "sunvat": [
@@ -135461,6 +139820,13 @@
     "id": "266",
     "root": "2 jṛ",
     "category": "present-active"
+   }
+  ],
+  "pṛcchamānaḥ": [
+   {
+    "id": "477",
+    "root": "prach",
+    "category": "present-middle"
    }
   ],
   "śūśujānaḥ": [
@@ -135598,6 +139964,11 @@
   ],
   "īḍenyam": [
    {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
+   {
     "id": "48",
     "root": "īḍ",
     "category": "gerundive"
@@ -135625,9 +139996,19 @@
     "id": "718",
     "root": "vah",
     "category": "present-middle"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
+    "category": "present-middle"
    }
   ],
   "īḍyāṁ": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "gerundive"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -135658,6 +140039,11 @@
     "id": "43",
     "root": "2 iṣ",
     "category": "present-active"
+   },
+   {
+    "id": "32",
+    "root": "ich",
+    "category": "present-active"
    }
   ],
   "kṛṇvāne": [
@@ -135678,6 +140064,11 @@
    }
   ],
   "jagmāno": [
+   {
+    "id": "166",
+    "root": "gach",
+    "category": "past-passive"
+   },
    {
     "id": "170",
     "root": "gam",
@@ -135720,6 +140111,11 @@
    }
   ],
   "īḍānā": [
+   {
+    "id": "34",
+    "root": "iḍ",
+    "category": "present-middle"
+   },
    {
     "id": "48",
     "root": "īḍ",
@@ -135957,6 +140353,11 @@
    {
     "id": "718",
     "root": "vah",
+    "category": "present-active"
+   },
+   {
+    "id": "724",
+    "root": "vāh",
     "category": "present-active"
    }
   ],
@@ -136709,6 +141110,11 @@
    {
     "id": "924",
     "root": "2 hṛ",
+    "category": "present-active"
+   },
+   {
+    "id": "909",
+    "root": "har",
     "category": "present-active"
    }
   ],

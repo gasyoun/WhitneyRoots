@@ -4,10 +4,11 @@
   "dcs_snapshot": "2026 CoNLL-U",
   "generated": "2026-06-10",
   "total": 935,
-  "matched": 600,
+  "matched": 589,
   "normalized": 0,
-  "homonym_shared": 139,
-  "unmatched": 196
+  "aliased": 2,
+  "homonym_shared": 164,
+  "unmatched": 180
  },
  "entries": {
   "1": {
@@ -2003,13 +2004,13 @@
    },
    "preverbs": [
     {
-     "form": "samav",
-     "preverb": "sam",
+     "form": "udav",
+     "preverb": "ud",
      "n": 1
     },
     {
-     "form": "udav",
-     "preverb": "ud",
+     "form": "samav",
+     "preverb": "sam",
      "n": 1
     }
    ],
@@ -5070,21 +5071,364 @@
   },
   "32": {
    "root": "ich",
-   "dcs_lemma": null,
-   "dcs_status": "unmatched",
-   "total": 0,
-   "rank": null,
-   "grammar_class": [],
+   "dcs_lemma": "iṣ",
+   "dcs_status": "homonym_shared",
+   "total": 4842,
+   "rank": 23,
+   "grammar_class": [
+    "1",
+    "6"
+   ],
    "grammar_derived": [],
-   "grammar_raw": "",
-   "verbforms": {},
-   "tenses": {},
-   "voices": {},
-   "top_forms": [],
-   "ppp": [],
-   "participles": {},
-   "preverbs": [],
-   "present_stem_signal": {}
+   "grammar_raw": "1. P.; 6. P.; f",
+   "verbforms": {
+    "Part": 1554,
+    "Finite": 3230,
+    "Gdv": 39,
+    "Conv": 17,
+    "Inf": 2
+   },
+   "tenses": {
+    "—": 908,
+    "Pres": 3667,
+    "Past": 105,
+    "Fut": 9,
+    "Impf": 153
+   },
+   "voices": {
+    "Active": 4454,
+    "Pass": 388
+   },
+   "top_forms": [
+    {
+     "form": "icchāmi",
+     "n": 805
+    },
+    {
+     "form": "icchasi",
+     "n": 465
+    },
+    {
+     "form": "icchati",
+     "n": 408
+    },
+    {
+     "form": "iṣyate",
+     "n": 372
+    },
+    {
+     "form": "icchanti",
+     "n": 237
+    },
+    {
+     "form": "icchet",
+     "n": 202
+    },
+    {
+     "form": "iṣṭa",
+     "n": 194
+    },
+    {
+     "form": "iṣṭam",
+     "n": 170
+    },
+    {
+     "form": "icchatā",
+     "n": 156
+    },
+    {
+     "form": "icchan",
+     "n": 152
+    },
+    {
+     "form": "iṣṭaṃ",
+     "n": 75
+    },
+    {
+     "form": "aicchat",
+     "n": 70
+    },
+    {
+     "form": "iyeṣa",
+     "n": 57
+    },
+    {
+     "form": "iṣṭā",
+     "n": 53
+    },
+    {
+     "form": "iṣṭaḥ",
+     "n": 52
+    }
+   ],
+   "ppp": [
+    {
+     "stem": "iṣṭa",
+     "n": 670
+    },
+    {
+     "stem": "iṣṭaṃ",
+     "n": 75
+    },
+    {
+     "stem": "iṣita",
+     "n": 47
+    },
+    {
+     "stem": "iṣṭāṃ",
+     "n": 25
+    },
+    {
+     "stem": "iṣṭābhir",
+     "n": 6
+    },
+    {
+     "stem": "iṣṭānāṃ",
+     "n": 5
+    },
+    {
+     "stem": "_",
+     "n": 4
+    },
+    {
+     "stem": "iṣitaṃ",
+     "n": 3
+    },
+    {
+     "stem": "iṣṭavan",
+     "n": 3
+    },
+    {
+     "stem": "iṣṭair",
+     "n": 3
+    },
+    {
+     "stem": "iṣṭaya",
+     "n": 3
+    },
+    {
+     "stem": "iṣṭāś",
+     "n": 2
+    }
+   ],
+   "participles": {
+    "present-active": {
+     "label": "Present active (-at/-ant)",
+     "total": 637,
+     "top": [
+      {
+       "form": "icchatā",
+       "n": 156
+      },
+      {
+       "form": "icchan",
+       "n": 152
+      },
+      {
+       "form": "icchatām",
+       "n": 45
+      },
+      {
+       "form": "icchataḥ",
+       "n": 45
+      },
+      {
+       "form": "icchann",
+       "n": 29
+      },
+      {
+       "form": "icchantī",
+       "n": 28
+      },
+      {
+       "form": "icchantaḥ",
+       "n": 27
+      },
+      {
+       "form": "icchanto",
+       "n": 22
+      }
+     ]
+    },
+    "present-middle": {
+     "label": "Present middle (-māna/-āna)",
+     "total": 45,
+     "top": [
+      {
+       "form": "icchamānaḥ",
+       "n": 18
+      },
+      {
+       "form": "icchamānāḥ",
+       "n": 8
+      },
+      {
+       "form": "icchamāno",
+       "n": 5
+      },
+      {
+       "form": "icchamānā",
+       "n": 5
+      },
+      {
+       "form": "icchamānau",
+       "n": 3
+      },
+      {
+       "form": "icchamānam",
+       "n": 2
+      },
+      {
+       "form": "icchamānaṃ",
+       "n": 2
+      },
+      {
+       "form": "icchamānāś",
+       "n": 1
+      }
+     ]
+    },
+    "present-passive": {
+     "label": "Present passive (-yamāna)",
+     "total": 9,
+     "top": [
+      {
+       "form": "iṣyamāṇa",
+       "n": 3
+      },
+      {
+       "form": "iṣyamāṇaṃ",
+       "n": 3
+      },
+      {
+       "form": "iṣyamāṇe",
+       "n": 1
+      },
+      {
+       "form": "iṣyamāṇāyāḥ",
+       "n": 1
+      },
+      {
+       "form": "iṣyamāṇam",
+       "n": 1
+      }
+     ]
+    },
+    "past-passive": {
+     "label": "Past passive — PPP (-ta/-na)",
+     "total": 861,
+     "top": [
+      {
+       "form": "iṣṭa",
+       "n": 194
+      },
+      {
+       "form": "iṣṭam",
+       "n": 170
+      },
+      {
+       "form": "iṣṭaṃ",
+       "n": 75
+      },
+      {
+       "form": "iṣṭā",
+       "n": 53
+      },
+      {
+       "form": "iṣṭaḥ",
+       "n": 52
+      },
+      {
+       "form": "iṣṭān",
+       "n": 31
+      },
+      {
+       "form": "iṣṭām",
+       "n": 25
+      },
+      {
+       "form": "iṣṭāṃ",
+       "n": 25
+      }
+     ]
+    },
+    "future-active": {
+     "label": "Future active (-syant)",
+     "total": 2,
+     "top": [
+      {
+       "form": "eṣiṣyamāṇasya",
+       "n": 2
+      }
+     ]
+    },
+    "gerundive": {
+     "label": "Gerundive / FPP (-tavya/-anīya/-ya)",
+     "total": 39,
+     "top": [
+      {
+       "form": "eṣṭavyā",
+       "n": 11
+      },
+      {
+       "form": "eṣyam",
+       "n": 5
+      },
+      {
+       "form": "eṣṭavyāḥ",
+       "n": 4
+      },
+      {
+       "form": "eṣṭavyam",
+       "n": 4
+      },
+      {
+       "form": "eṣṭavyaḥ",
+       "n": 3
+      },
+      {
+       "form": "eṣṭavyo",
+       "n": 2
+      },
+      {
+       "form": "eṣitavyaṃ",
+       "n": 2
+      },
+      {
+       "form": "eṣyo",
+       "n": 1
+      }
+     ]
+    }
+   },
+   "preverbs": [
+    {
+     "form": "samiṣ",
+     "preverb": "sam",
+     "n": 2
+    }
+   ],
+   "present_stem_signal": {
+    "dominant": "I/VI",
+    "evidence": [
+     {
+      "bucket": "I/VI",
+      "n": 2056
+     },
+     {
+      "bucket": "?",
+      "n": 529
+     },
+     {
+      "bucket": "IV",
+      "n": 11
+     },
+     {
+      "bucket": "II/III (athematic)",
+      "n": 1
+     }
+    ]
+   }
   },
   "33": {
    "root": "iṭ",
@@ -5106,21 +5450,258 @@
   },
   "34": {
    "root": "iḍ",
-   "dcs_lemma": null,
-   "dcs_status": "unmatched",
-   "total": 0,
-   "rank": null,
-   "grammar_class": [],
+   "dcs_lemma": "īḍ",
+   "dcs_status": "homonym_shared",
+   "total": 352,
+   "rank": 477,
+   "grammar_class": [
+    "2"
+   ],
    "grammar_derived": [],
-   "grammar_raw": "",
-   "verbforms": {},
-   "tenses": {},
-   "voices": {},
-   "top_forms": [],
-   "ppp": [],
-   "participles": {},
-   "preverbs": [],
-   "present_stem_signal": {}
+   "grammar_raw": "2. P.",
+   "verbforms": {
+    "Finite": 159,
+    "Gdv": 129,
+    "Part": 64
+   },
+   "tenses": {
+    "Pres": 162,
+    "—": 179,
+    "Past": 11
+   },
+   "voices": {
+    "Active": 348,
+    "Pass": 4
+   },
+   "top_forms": [
+    {
+     "form": "īḍe",
+     "n": 43
+    },
+    {
+     "form": "īḍyaḥ",
+     "n": 32
+    },
+    {
+     "form": "īḍate",
+     "n": 27
+    },
+    {
+     "form": "īṭṭe",
+     "n": 21
+    },
+    {
+     "form": "īḍyam",
+     "n": 20
+    },
+    {
+     "form": "īḍitaḥ",
+     "n": 20
+    },
+    {
+     "form": "īﾱate",
+     "n": 18
+    },
+    {
+     "form": "īḍyo",
+     "n": 16
+    },
+    {
+     "form": "īﾱe",
+     "n": 13
+    },
+    {
+     "form": "īḍya",
+     "n": 11
+    },
+    {
+     "form": "īḍito",
+     "n": 9
+    },
+    {
+     "form": "īḍyaṃ",
+     "n": 9
+    },
+    {
+     "form": "īḍita",
+     "n": 8
+    },
+    {
+     "form": "īḍiṣva",
+     "n": 7
+    },
+    {
+     "form": "īḍenyo",
+     "n": 6
+    }
+   ],
+   "ppp": [
+    {
+     "stem": "īḍita",
+     "n": 47
+    },
+    {
+     "stem": "īﾱita",
+     "n": 6
+    },
+    {
+     "stem": "īḍitebhir",
+     "n": 1
+    },
+    {
+     "stem": "īḍitebhi",
+     "n": 1
+    },
+    {
+     "stem": "_",
+     "n": 1
+    }
+   ],
+   "participles": {
+    "present-active": {
+     "label": "Present active (-at/-ant)",
+     "total": 1,
+     "top": [
+      {
+       "form": "īḍānāya",
+       "n": 1
+      }
+     ]
+    },
+    "present-middle": {
+     "label": "Present middle (-māna/-āna)",
+     "total": 6,
+     "top": [
+      {
+       "form": "īḍānāḥ",
+       "n": 2
+      },
+      {
+       "form": "īḍāno",
+       "n": 2
+      },
+      {
+       "form": "īﾱānā",
+       "n": 1
+      },
+      {
+       "form": "īḍānā",
+       "n": 1
+      }
+     ]
+    },
+    "present-passive": {
+     "label": "Present passive (-yamāna)",
+     "total": 1,
+     "top": [
+      {
+       "form": "īḍyamānāt",
+       "n": 1
+      }
+     ]
+    },
+    "past-passive": {
+     "label": "Past passive — PPP (-ta/-na)",
+     "total": 56,
+     "top": [
+      {
+       "form": "īḍitaḥ",
+       "n": 20
+      },
+      {
+       "form": "īḍito",
+       "n": 9
+      },
+      {
+       "form": "īḍita",
+       "n": 8
+      },
+      {
+       "form": "īﾱito",
+       "n": 5
+      },
+      {
+       "form": "īḍitam",
+       "n": 5
+      },
+      {
+       "form": "īḍitā",
+       "n": 4
+      },
+      {
+       "form": "īḍite",
+       "n": 1
+      },
+      {
+       "form": "īḍitebhir",
+       "n": 1
+      }
+     ]
+    },
+    "gerundive": {
+     "label": "Gerundive / FPP (-tavya/-anīya/-ya)",
+     "total": 129,
+     "top": [
+      {
+       "form": "īḍyaḥ",
+       "n": 32
+      },
+      {
+       "form": "īḍyam",
+       "n": 20
+      },
+      {
+       "form": "īḍyo",
+       "n": 16
+      },
+      {
+       "form": "īḍya",
+       "n": 11
+      },
+      {
+       "form": "īḍyaṃ",
+       "n": 9
+      },
+      {
+       "form": "īḍenyo",
+       "n": 6
+      },
+      {
+       "form": "īḍyā",
+       "n": 5
+      },
+      {
+       "form": "īḍenya",
+       "n": 3
+      }
+     ]
+    }
+   },
+   "preverbs": [
+    {
+     "form": "samīḍ",
+     "preverb": "sam",
+     "n": 1
+    },
+    {
+     "form": "prasamīḍ",
+     "preverb": "prasam",
+     "n": 0
+    }
+   ],
+   "present_stem_signal": {
+    "dominant": "I/VI",
+    "evidence": [
+     {
+      "bucket": "I/VI",
+      "n": 128
+     },
+     {
+      "bucket": "?",
+      "n": 23
+     }
+    ]
+   }
   },
   "35": {
    "root": "idh",
@@ -6776,7 +7357,7 @@
   "48": {
    "root": "īḍ",
    "dcs_lemma": "īḍ",
-   "dcs_status": "matched",
+   "dcs_status": "homonym_shared",
    "total": 352,
    "rank": 477,
    "grammar_class": [
@@ -9458,13 +10039,13 @@
      "n": 16
     },
     {
-     "form": "abhisamūh",
-     "preverb": "abhisam",
+     "form": "vyudūh",
+     "preverb": "vyud",
      "n": 5
     },
     {
-     "form": "vyudūh",
-     "preverb": "vyud",
+     "form": "abhisamūh",
+     "preverb": "abhisam",
      "n": 5
     },
     {
@@ -9692,13 +10273,13 @@
      "n": 16
     },
     {
-     "form": "abhisamūh",
-     "preverb": "abhisam",
+     "form": "vyudūh",
+     "preverb": "vyud",
      "n": 5
     },
     {
-     "form": "vyudūh",
-     "preverb": "vyud",
+     "form": "abhisamūh",
+     "preverb": "abhisam",
      "n": 5
     },
     {
@@ -11916,13 +12497,13 @@
      "n": 4
     },
     {
-     "form": "abhiprakamp",
-     "preverb": "abhipra",
+     "form": "parikamp",
+     "preverb": "pari",
      "n": 1
     },
     {
-     "form": "parikamp",
-     "preverb": "pari",
+     "form": "abhiprakamp",
+     "preverb": "abhipra",
      "n": 1
     },
     {
@@ -12432,13 +13013,13 @@
      "n": 6
     },
     {
-     "form": "prakāṅkṣ",
-     "preverb": "pra",
+     "form": "vikāṅkṣ",
+     "preverb": "vi",
      "n": 5
     },
     {
-     "form": "vikāṅkṣ",
-     "preverb": "vi",
+     "form": "prakāṅkṣ",
+     "preverb": "pra",
      "n": 5
     },
     {
@@ -12555,6 +13136,11 @@
      "n": 2
     },
     {
+     "form": "ākāś",
+     "preverb": "ā",
+     "n": 1
+    },
+    {
      "form": "pratiprakāś",
      "preverb": "pratipra",
      "n": 1
@@ -12565,18 +13151,8 @@
      "n": 1
     },
     {
-     "form": "ākāś",
-     "preverb": "ā",
-     "n": 1
-    },
-    {
      "form": "anuvikāś",
      "preverb": "anuvi",
-     "n": 0
-    },
-    {
-     "form": "abhiprakāś",
-     "preverb": "abhipra",
      "n": 0
     },
     {
@@ -12587,6 +13163,11 @@
     {
      "form": "avakāś",
      "preverb": "ava",
+     "n": 0
+    },
+    {
+     "form": "abhiprakāś",
+     "preverb": "abhipra",
      "n": 0
     }
    ],
@@ -13114,13 +13695,13 @@
    "participles": {},
    "preverbs": [
     {
-     "form": "abhikuṣ",
-     "preverb": "abhi",
+     "form": "vikuṣ",
+     "preverb": "vi",
      "n": 1
     },
     {
-     "form": "vikuṣ",
-     "preverb": "vi",
+     "form": "abhikuṣ",
+     "preverb": "abhi",
      "n": 1
     },
     {
@@ -13381,13 +13962,13 @@
      "n": 8
     },
     {
-     "form": "vikūj",
-     "preverb": "vi",
+     "form": "upakūj",
+     "preverb": "upa",
      "n": 4
     },
     {
-     "form": "upakūj",
-     "preverb": "upa",
+     "form": "vikūj",
+     "preverb": "vi",
      "n": 4
     },
     {
@@ -13396,19 +13977,14 @@
      "n": 3
     },
     {
-     "form": "utkūj",
-     "preverb": "ut",
-     "n": 2
-    },
-    {
      "form": "anukūj",
      "preverb": "anu",
      "n": 2
     },
     {
-     "form": "avakūj",
-     "preverb": "ava",
-     "n": 1
+     "form": "utkūj",
+     "preverb": "ut",
+     "n": 2
     },
     {
      "form": "abhinikūj",
@@ -13421,18 +13997,23 @@
      "n": 1
     },
     {
+     "form": "avakūj",
+     "preverb": "ava",
+     "n": 1
+    },
+    {
      "form": "pratikūj",
      "preverb": "prati",
      "n": 1
     },
     {
-     "form": "abhikūj",
-     "preverb": "abhi",
+     "form": "protkūj",
+     "preverb": "prot",
      "n": 0
     },
     {
-     "form": "protkūj",
-     "preverb": "prot",
+     "form": "abhikūj",
+     "preverb": "abhi",
      "n": 0
     }
    ],
@@ -13567,13 +14148,13 @@
      "n": 0
     },
     {
-     "form": "utkūrd",
-     "preverb": "ut",
+     "form": "prakūrd",
+     "preverb": "pra",
      "n": 0
     },
     {
-     "form": "prakūrd",
-     "preverb": "pra",
+     "form": "utkūrd",
+     "preverb": "ut",
      "n": 0
     }
    ],
@@ -16597,11 +17178,6 @@
      "n": 1
     },
     {
-     "form": "abhyavakrand",
-     "preverb": "abhyava",
-     "n": 0
-    },
-    {
      "form": "nikrand",
      "preverb": "ni",
      "n": 0
@@ -16609,6 +17185,11 @@
     {
      "form": "prakrand",
      "preverb": "pra",
+     "n": 0
+    },
+    {
+     "form": "abhyavakrand",
+     "preverb": "abhyava",
      "n": 0
     }
    ],
@@ -16889,13 +17470,13 @@
      "n": 353
     },
     {
-     "form": "prakram",
-     "preverb": "pra",
+     "form": "upakram",
+     "preverb": "upa",
      "n": 291
     },
     {
-     "form": "upakram",
-     "preverb": "upa",
+     "form": "prakram",
+     "preverb": "pra",
      "n": 291
     },
     {
@@ -17246,8 +17827,8 @@
      "n": 2
     },
     {
-     "form": "apakrī",
-     "preverb": "apa",
+     "form": "prativikrī",
+     "preverb": "prativi",
      "n": 1
     },
     {
@@ -17256,8 +17837,8 @@
      "n": 1
     },
     {
-     "form": "prativikrī",
-     "preverb": "prativi",
+     "form": "apakrī",
+     "preverb": "apa",
      "n": 1
     }
    ],
@@ -17558,11 +18139,6 @@
      "n": 2
     },
     {
-     "form": "adhikrīḍ",
-     "preverb": "adhi",
-     "n": 1
-    },
-    {
      "form": "samākrīḍ",
      "preverb": "samā",
      "n": 1
@@ -17570,6 +18146,11 @@
     {
      "form": "prākrīḍ",
      "preverb": "prā",
+     "n": 1
+    },
+    {
+     "form": "adhikrīḍ",
+     "preverb": "adhi",
      "n": 1
     },
     {
@@ -17850,11 +18431,6 @@
      "n": 4
     },
     {
-     "form": "prakrudh",
-     "preverb": "pra",
-     "n": 2
-    },
-    {
      "form": "ākrudh",
      "preverb": "ā",
      "n": 2
@@ -17862,6 +18438,11 @@
     {
      "form": "pratikrudh",
      "preverb": "prati",
+     "n": 2
+    },
+    {
+     "form": "prakrudh",
+     "preverb": "pra",
      "n": 2
     },
     {
@@ -18117,13 +18698,13 @@
      "n": 4
     },
     {
-     "form": "upākruś",
-     "preverb": "upā",
+     "form": "upakruś",
+     "preverb": "upa",
      "n": 3
     },
     {
-     "form": "upakruś",
-     "preverb": "upa",
+     "form": "upākruś",
+     "preverb": "upā",
      "n": 3
     }
    ],
@@ -19527,6 +20108,11 @@
      "n": 4
     },
     {
+     "form": "ākṣan",
+     "preverb": "ā",
+     "n": 1
+    },
+    {
      "form": "abhikṣan",
      "preverb": "abhi",
      "n": 1
@@ -19534,11 +20120,6 @@
     {
      "form": "vinikṣan",
      "preverb": "vini",
-     "n": 1
-    },
-    {
-     "form": "ākṣan",
-     "preverb": "ā",
      "n": 1
     }
    ],
@@ -20076,13 +20657,13 @@
      "n": 21
     },
     {
-     "form": "atikṣar",
-     "preverb": "ati",
+     "form": "abhikṣar",
+     "preverb": "abhi",
      "n": 11
     },
     {
-     "form": "abhikṣar",
-     "preverb": "abhi",
+     "form": "atikṣar",
+     "preverb": "ati",
      "n": 11
     },
     {
@@ -20101,13 +20682,13 @@
      "n": 2
     },
     {
-     "form": "anukṣar",
-     "preverb": "anu",
+     "form": "abhivikṣar",
+     "preverb": "abhivi",
      "n": 1
     },
     {
-     "form": "abhivikṣar",
-     "preverb": "abhivi",
+     "form": "anukṣar",
+     "preverb": "anu",
      "n": 1
     },
     {
@@ -21319,18 +21900,18 @@
      "n": 30
     },
     {
-     "form": "samākṣip",
-     "preverb": "samā",
-     "n": 28
-    },
-    {
      "form": "pratikṣip",
      "preverb": "prati",
      "n": 28
     },
     {
-     "form": "niḥkṣip",
-     "preverb": "niḥ",
+     "form": "samākṣip",
+     "preverb": "samā",
+     "n": 28
+    },
+    {
+     "form": "vyākṣip",
+     "preverb": "vyā",
      "n": 25
     }
    ],
@@ -22303,7 +22884,7 @@
   "151": {
    "root": "kṣviḍ",
    "dcs_lemma": "kṣviḍ",
-   "dcs_status": "matched",
+   "dcs_status": "homonym_shared",
    "total": 17,
    "rank": 2980,
    "grammar_class": [
@@ -22417,21 +22998,118 @@
   },
   "152": {
    "root": "kṣvid",
-   "dcs_lemma": null,
-   "dcs_status": "unmatched",
-   "total": 0,
-   "rank": null,
-   "grammar_class": [],
+   "dcs_lemma": "kṣviḍ",
+   "dcs_status": "homonym_shared",
+   "total": 17,
+   "rank": 2980,
+   "grammar_class": [
+    "1"
+   ],
    "grammar_derived": [],
-   "grammar_raw": "",
-   "verbforms": {},
-   "tenses": {},
-   "voices": {},
-   "top_forms": [],
-   "ppp": [],
-   "participles": {},
+   "grammar_raw": "1. Ā.",
+   "verbforms": {
+    "Part": 10,
+    "Finite": 7
+   },
+   "tenses": {
+    "Pres": 16,
+    "—": 1
+   },
+   "voices": {
+    "Active": 17
+   },
+   "top_forms": [
+    {
+     "form": "kṣveḍantaḥ",
+     "n": 4
+    },
+    {
+     "form": "kṣveḍanti",
+     "n": 4
+    },
+    {
+     "form": "kṣveḍan",
+     "n": 2
+    },
+    {
+     "form": "kṣveḍanto",
+     "n": 2
+    },
+    {
+     "form": "kṣveḍamāṇaiś",
+     "n": 1
+    },
+    {
+     "form": "kṣvedet",
+     "n": 1
+    },
+    {
+     "form": "kṣveḍen",
+     "n": 1
+    },
+    {
+     "form": "kṣveḍita",
+     "n": 1
+    },
+    {
+     "form": "kṣveḍati",
+     "n": 1
+    }
+   ],
+   "ppp": [
+    {
+     "stem": "kṣveḍita",
+     "n": 1
+    }
+   ],
+   "participles": {
+    "present-active": {
+     "label": "Present active (-at/-ant)",
+     "total": 9,
+     "top": [
+      {
+       "form": "kṣveḍantaḥ",
+       "n": 4
+      },
+      {
+       "form": "kṣveḍan",
+       "n": 2
+      },
+      {
+       "form": "kṣveḍanto",
+       "n": 2
+      },
+      {
+       "form": "kṣveḍamāṇaiś",
+       "n": 1
+      }
+     ]
+    },
+    "past-passive": {
+     "label": "Past passive — PPP (-ta/-na)",
+     "total": 1,
+     "top": [
+      {
+       "form": "kṣveḍita",
+       "n": 1
+      }
+     ]
+    }
+   },
    "preverbs": [],
-   "present_stem_signal": {}
+   "present_stem_signal": {
+    "dominant": "I/VI",
+    "evidence": [
+     {
+      "bucket": "I/VI",
+      "n": 5
+     },
+     {
+      "bucket": "?",
+      "n": 2
+     }
+    ]
+   }
   },
   "153": {
    "root": "kṣvel",
@@ -22639,21 +23317,266 @@
   },
   "156": {
    "root": "khad",
-   "dcs_lemma": null,
-   "dcs_status": "unmatched",
-   "total": 0,
-   "rank": null,
-   "grammar_class": [],
+   "dcs_lemma": "khād",
+   "dcs_status": "homonym_shared",
+   "total": 369,
+   "rank": 459,
+   "grammar_class": [
+    "1"
+   ],
    "grammar_derived": [],
-   "grammar_raw": "",
-   "verbforms": {},
-   "tenses": {},
-   "voices": {},
-   "top_forms": [],
-   "ppp": [],
-   "participles": {},
-   "preverbs": [],
-   "present_stem_signal": {}
+   "grammar_raw": "1. Ā.",
+   "verbforms": {
+    "Finite": 232,
+    "Part": 82,
+    "Gdv": 43,
+    "Conv": 4,
+    "Inf": 8
+   },
+   "tenses": {
+    "Pres": 281,
+    "—": 85,
+    "Past": 3
+   },
+   "voices": {
+    "Active": 366,
+    "Pass": 3
+   },
+   "top_forms": [
+    {
+     "form": "khādet",
+     "n": 117
+    },
+    {
+     "form": "khādati",
+     "n": 33
+    },
+    {
+     "form": "khādan",
+     "n": 20
+    },
+    {
+     "form": "khādanti",
+     "n": 17
+    },
+    {
+     "form": "khāded",
+     "n": 16
+    },
+    {
+     "form": "khādanīya",
+     "n": 15
+    },
+    {
+     "form": "khādanīyena",
+     "n": 10
+    },
+    {
+     "form": "khāden",
+     "n": 7
+    },
+    {
+     "form": "khāda",
+     "n": 6
+    },
+    {
+     "form": "khādita",
+     "n": 6
+    },
+    {
+     "form": "khāditaṃ",
+     "n": 6
+    },
+    {
+     "form": "khādanīyaṃ",
+     "n": 6
+    },
+    {
+     "form": "khādataḥ",
+     "n": 5
+    },
+    {
+     "form": "khādata",
+     "n": 5
+    },
+    {
+     "form": "khādann",
+     "n": 4
+    }
+   ],
+   "ppp": [
+    {
+     "stem": "khādita",
+     "n": 20
+    },
+    {
+     "stem": "khāditaṃ",
+     "n": 6
+    },
+    {
+     "stem": "khāditava",
+     "n": 2
+    },
+    {
+     "stem": "khāditaś",
+     "n": 1
+    },
+    {
+     "stem": "khāditair",
+     "n": 1
+    }
+   ],
+   "participles": {
+    "present-active": {
+     "label": "Present active (-at/-ant)",
+     "total": 51,
+     "top": [
+      {
+       "form": "khādan",
+       "n": 20
+      },
+      {
+       "form": "khādann",
+       "n": 4
+      },
+      {
+       "form": "khādanto",
+       "n": 4
+      },
+      {
+       "form": "khādantaḥ",
+       "n": 4
+      },
+      {
+       "form": "khādataḥ",
+       "n": 4
+      },
+      {
+       "form": "khādat",
+       "n": 3
+      },
+      {
+       "form": "khādantyo",
+       "n": 2
+      },
+      {
+       "form": "khādatāṃ",
+       "n": 2
+      }
+     ]
+    },
+    "present-middle": {
+     "label": "Present middle (-māna/-āna)",
+     "total": 1,
+     "top": [
+      {
+       "form": "khādamānaḥ",
+       "n": 1
+      }
+     ]
+    },
+    "past-passive": {
+     "label": "Past passive — PPP (-ta/-na)",
+     "total": 30,
+     "top": [
+      {
+       "form": "khādita",
+       "n": 6
+      },
+      {
+       "form": "khāditaṃ",
+       "n": 6
+      },
+      {
+       "form": "khāditā",
+       "n": 3
+      },
+      {
+       "form": "khāditān",
+       "n": 2
+      },
+      {
+       "form": "khāditāni",
+       "n": 2
+      },
+      {
+       "form": "khāditam",
+       "n": 2
+      },
+      {
+       "form": "khāditavān",
+       "n": 2
+      },
+      {
+       "form": "khāditāt",
+       "n": 1
+      }
+     ]
+    },
+    "gerundive": {
+     "label": "Gerundive / FPP (-tavya/-anīya/-ya)",
+     "total": 43,
+     "top": [
+      {
+       "form": "khādanīya",
+       "n": 15
+      },
+      {
+       "form": "khādanīyena",
+       "n": 10
+      },
+      {
+       "form": "khādanīyaṃ",
+       "n": 6
+      },
+      {
+       "form": "khādyaṃ",
+       "n": 3
+      },
+      {
+       "form": "khāditavyam",
+       "n": 2
+      },
+      {
+       "form": "khādyam",
+       "n": 1
+      },
+      {
+       "form": "khāditavyaḥ",
+       "n": 1
+      },
+      {
+       "form": "khāditavyo",
+       "n": 1
+      }
+     ]
+    }
+   },
+   "preverbs": [
+    {
+     "form": "ākhād",
+     "preverb": "ā",
+     "n": 2
+    },
+    {
+     "form": "prakhād",
+     "preverb": "pra",
+     "n": 0
+    }
+   ],
+   "present_stem_signal": {
+    "dominant": "I/VI",
+    "evidence": [
+     {
+      "bucket": "?",
+      "n": 168
+     },
+     {
+      "bucket": "I/VI",
+      "n": 58
+     }
+    ]
+   }
   },
   "157": {
    "root": "khan",
@@ -22919,13 +23842,13 @@
      "n": 5
     },
     {
-     "form": "vikhan",
-     "preverb": "vi",
+     "form": "abhikhan",
+     "preverb": "abhi",
      "n": 4
     },
     {
-     "form": "abhikhan",
-     "preverb": "abhi",
+     "form": "vikhan",
+     "preverb": "vi",
      "n": 4
     },
     {
@@ -22934,13 +23857,13 @@
      "n": 3
     },
     {
-     "form": "parikhan",
-     "preverb": "pari",
+     "form": "avakhan",
+     "preverb": "ava",
      "n": 2
     },
     {
-     "form": "avakhan",
-     "preverb": "ava",
+     "form": "parikhan",
+     "preverb": "pari",
      "n": 2
     },
     {
@@ -23056,7 +23979,7 @@
   "161": {
    "root": "khād",
    "dcs_lemma": "khād",
-   "dcs_status": "matched",
+   "dcs_status": "homonym_shared",
    "total": 369,
    "rank": 459,
    "grammar_class": [
@@ -23969,21 +24892,468 @@
   },
   "166": {
    "root": "gach",
-   "dcs_lemma": null,
-   "dcs_status": "unmatched",
-   "total": 0,
-   "rank": null,
-   "grammar_class": [],
+   "dcs_lemma": "gam",
+   "dcs_status": "homonym_shared",
+   "total": 18341,
+   "rank": 5,
+   "grammar_class": [
+    "6"
+   ],
    "grammar_derived": [],
-   "grammar_raw": "",
-   "verbforms": {},
-   "tenses": {},
-   "voices": {},
-   "top_forms": [],
-   "ppp": [],
-   "participles": {},
-   "preverbs": [],
-   "present_stem_signal": {}
+   "grammar_raw": "6. Ā.; m",
+   "verbforms": {
+    "Part": 7389,
+    "Conv": 1948,
+    "Finite": 8296,
+    "Inf": 360,
+    "Gdv": 348
+   },
+   "tenses": {
+    "—": 9470,
+    "Past": 3019,
+    "Pres": 4775,
+    "Fut": 760,
+    "Impf": 308,
+    "Plp": 7,
+    "Pqp": 2
+   },
+   "voices": {
+    "Active": 18052,
+    "Pass": 289
+   },
+   "top_forms": [
+    {
+     "form": "gatvā",
+     "n": 1938
+    },
+    {
+     "form": "gataḥ",
+     "n": 1522
+    },
+    {
+     "form": "gatam",
+     "n": 1155
+    },
+    {
+     "form": "jagāma",
+     "n": 1140
+    },
+    {
+     "form": "gacchati",
+     "n": 966
+    },
+    {
+     "form": "gaccha",
+     "n": 890
+    },
+    {
+     "form": "gata",
+     "n": 788
+    },
+    {
+     "form": "gatāḥ",
+     "n": 730
+    },
+    {
+     "form": "gate",
+     "n": 727
+    },
+    {
+     "form": "gacchet",
+     "n": 518
+    },
+    {
+     "form": "gatā",
+     "n": 490
+    },
+    {
+     "form": "gacchanti",
+     "n": 397
+    },
+    {
+     "form": "gato",
+     "n": 293
+    },
+    {
+     "form": "jagmuḥ",
+     "n": 253
+    },
+    {
+     "form": "agamat",
+     "n": 247
+    }
+   ],
+   "ppp": [
+    {
+     "stem": "gata",
+     "n": 6538
+    },
+    {
+     "stem": "gataṃ",
+     "n": 121
+    },
+    {
+     "stem": "gatava",
+     "n": 19
+    },
+    {
+     "stem": "gatāṃ",
+     "n": 17
+    },
+    {
+     "stem": "gatas",
+     "n": 16
+    },
+    {
+     "stem": "gatāyāṃ",
+     "n": 15
+    },
+    {
+     "stem": "gatānāṃ",
+     "n": 11
+    },
+    {
+     "stem": "gataś",
+     "n": 10
+    },
+    {
+     "stem": "gatavan",
+     "n": 10
+    },
+    {
+     "stem": "gatās",
+     "n": 10
+    },
+    {
+     "stem": "jagmiva",
+     "n": 9
+    },
+    {
+     "stem": "gatāsu",
+     "n": 8
+    }
+   ],
+   "participles": {
+    "present-active": {
+     "label": "Present active (-at/-ant)",
+     "total": 464,
+     "top": [
+      {
+       "form": "gacchan",
+       "n": 95
+      },
+      {
+       "form": "gacchataḥ",
+       "n": 51
+      },
+      {
+       "form": "gacchati",
+       "n": 36
+      },
+      {
+       "form": "gacchantaṃ",
+       "n": 33
+      },
+      {
+       "form": "gacchantam",
+       "n": 30
+      },
+      {
+       "form": "gacchann",
+       "n": 30
+      },
+      {
+       "form": "gacchato",
+       "n": 29
+      },
+      {
+       "form": "gacchatā",
+       "n": 26
+      }
+     ]
+    },
+    "present-middle": {
+     "label": "Present middle (-māna/-āna)",
+     "total": 8,
+     "top": [
+      {
+       "form": "gacchamānaṃ",
+       "n": 3
+      },
+      {
+       "form": "gacchamāno",
+       "n": 2
+      },
+      {
+       "form": "gacchamāne",
+       "n": 2
+      },
+      {
+       "form": "gacchamānāḥ",
+       "n": 1
+      }
+     ]
+    },
+    "present-passive": {
+     "label": "Present passive (-yamāna)",
+     "total": 24,
+     "top": [
+      {
+       "form": "gamyamānaṃ",
+       "n": 7
+      },
+      {
+       "form": "gamyamāna",
+       "n": 6
+      },
+      {
+       "form": "gamyamāne",
+       "n": 5
+      },
+      {
+       "form": "gamyamānasya",
+       "n": 4
+      },
+      {
+       "form": "gamyamānaḥ",
+       "n": 1
+      },
+      {
+       "form": "gamyamānāt",
+       "n": 1
+      }
+     ]
+    },
+    "past-passive": {
+     "label": "Past passive — PPP (-ta/-na)",
+     "total": 6845,
+     "top": [
+      {
+       "form": "gataḥ",
+       "n": 1522
+      },
+      {
+       "form": "gatam",
+       "n": 1089
+      },
+      {
+       "form": "gata",
+       "n": 775
+      },
+      {
+       "form": "gatāḥ",
+       "n": 730
+      },
+      {
+       "form": "gate",
+       "n": 727
+      },
+      {
+       "form": "gatā",
+       "n": 488
+      },
+      {
+       "form": "gato",
+       "n": 293
+      },
+      {
+       "form": "gatām",
+       "n": 163
+      }
+     ]
+    },
+    "past-active": {
+     "label": "Past active (-tavant)",
+     "total": 22,
+     "top": [
+      {
+       "form": "gatavān",
+       "n": 19
+      },
+      {
+       "form": "gatavatī",
+       "n": 2
+      },
+      {
+       "form": "gatavanto",
+       "n": 1
+      }
+     ]
+    },
+    "perfect-active": {
+     "label": "Perfect active (-vas/-vāṃs)",
+     "total": 8,
+     "top": [
+      {
+       "form": "jaganvān",
+       "n": 6
+      },
+      {
+       "form": "jagmuṣī",
+       "n": 1
+      },
+      {
+       "form": "jagmuṣo",
+       "n": 1
+      }
+     ]
+    },
+    "future-active": {
+     "label": "Future active (-syant)",
+     "total": 18,
+     "top": [
+      {
+       "form": "gamiṣyataḥ",
+       "n": 3
+      },
+      {
+       "form": "gamiṣyan",
+       "n": 3
+      },
+      {
+       "form": "gamiṣyantaḥ",
+       "n": 2
+      },
+      {
+       "form": "gamiṣyatāṃ",
+       "n": 2
+      },
+      {
+       "form": "gamiṣyantaṃ",
+       "n": 1
+      },
+      {
+       "form": "gamiṣyatsu",
+       "n": 1
+      },
+      {
+       "form": "gamiṣyatā",
+       "n": 1
+      },
+      {
+       "form": "gamiṣyantyā",
+       "n": 1
+      }
+     ]
+    },
+    "gerundive": {
+     "label": "Gerundive / FPP (-tavya/-anīya/-ya)",
+     "total": 348,
+     "top": [
+      {
+       "form": "gantavyaṃ",
+       "n": 82
+      },
+      {
+       "form": "gantavyam",
+       "n": 50
+      },
+      {
+       "form": "gamyam",
+       "n": 42
+      },
+      {
+       "form": "gamyaḥ",
+       "n": 18
+      },
+      {
+       "form": "gamya",
+       "n": 17
+      },
+      {
+       "form": "gantavyā",
+       "n": 13
+      },
+      {
+       "form": "gamyā",
+       "n": 13
+      },
+      {
+       "form": "gamyāya",
+       "n": 11
+      }
+     ]
+    }
+   },
+   "preverbs": [
+    {
+     "form": "āgam",
+     "preverb": "ā",
+     "n": 4640
+    },
+    {
+     "form": "anugam",
+     "preverb": "anu",
+     "n": 792
+    },
+    {
+     "form": "samāgam",
+     "preverb": "samā",
+     "n": 744
+    },
+    {
+     "form": "adhigam",
+     "preverb": "adhi",
+     "n": 631
+    },
+    {
+     "form": "upagam",
+     "preverb": "upa",
+     "n": 600
+    },
+    {
+     "form": "abhigam",
+     "preverb": "abhi",
+     "n": 575
+    },
+    {
+     "form": "upāgam",
+     "preverb": "upā",
+     "n": 406
+    },
+    {
+     "form": "vigam",
+     "preverb": "vi",
+     "n": 401
+    },
+    {
+     "form": "avagam",
+     "preverb": "ava",
+     "n": 388
+    },
+    {
+     "form": "abhyāgam",
+     "preverb": "abhyā",
+     "n": 227
+    },
+    {
+     "form": "samanvāgam",
+     "preverb": "samanvā",
+     "n": 150
+    },
+    {
+     "form": "apagam",
+     "preverb": "apa",
+     "n": 143
+    }
+   ],
+   "present_stem_signal": {
+    "dominant": "I/VI",
+    "evidence": [
+     {
+      "bucket": "?",
+      "n": 2413
+     },
+     {
+      "bucket": "I/VI",
+      "n": 1598
+     },
+     {
+      "bucket": "II/III (athematic)",
+      "n": 8
+     }
+    ]
+   }
   },
   "167": {
    "root": "gad",
@@ -24275,7 +25645,7 @@
   "170": {
    "root": "gam",
    "dcs_lemma": "gam",
-   "dcs_status": "matched",
+   "dcs_status": "homonym_shared",
    "total": 18341,
    "rank": 5,
    "grammar_class": [
@@ -24975,13 +26345,13 @@
      "n": 1
     },
     {
-     "form": "samabhigarj",
-     "preverb": "samabhi",
+     "form": "atigarj",
+     "preverb": "ati",
      "n": 0
     },
     {
-     "form": "atigarj",
-     "preverb": "ati",
+     "form": "samabhigarj",
+     "preverb": "samabhi",
      "n": 0
     },
     {
@@ -25494,13 +26864,13 @@
      "n": 6
     },
     {
-     "form": "pragal",
-     "preverb": "pra",
+     "form": "pravigal",
+     "preverb": "pravi",
      "n": 3
     },
     {
-     "form": "pravigal",
-     "preverb": "pravi",
+     "form": "pragal",
+     "preverb": "pra",
      "n": 3
     },
     {
@@ -25509,23 +26879,23 @@
      "n": 2
     },
     {
-     "form": "avagal",
-     "preverb": "ava",
-     "n": 1
-    },
-    {
      "form": "samāgal",
      "preverb": "samā",
      "n": 1
     },
     {
-     "form": "paryāgal",
-     "preverb": "paryā",
-     "n": 0
+     "form": "avagal",
+     "preverb": "ava",
+     "n": 1
     },
     {
      "form": "nigal",
      "preverb": "ni",
+     "n": 0
+    },
+    {
+     "form": "paryāgal",
+     "preverb": "paryā",
      "n": 0
     }
    ],
@@ -26591,13 +27961,13 @@
      "n": 3
     },
     {
-     "form": "abhipragāh",
-     "preverb": "abhipra",
+     "form": "pragāh",
+     "preverb": "pra",
      "n": 2
     },
     {
-     "form": "pragāh",
-     "preverb": "pra",
+     "form": "abhipragāh",
+     "preverb": "abhipra",
      "n": 2
     },
     {
@@ -26606,8 +27976,8 @@
      "n": 2
     },
     {
-     "form": "prativigāh",
-     "preverb": "prativi",
+     "form": "samavagāh",
+     "preverb": "samava",
      "n": 1
     },
     {
@@ -26616,13 +27986,13 @@
      "n": 1
     },
     {
-     "form": "abhivigāh",
-     "preverb": "abhivi",
+     "form": "saṃvigāh",
+     "preverb": "saṃvi",
      "n": 1
     },
     {
-     "form": "saṃvigāh",
-     "preverb": "saṃvi",
+     "form": "saṃpravigāh",
+     "preverb": "saṃpravi",
      "n": 1
     }
    ],
@@ -27054,8 +28424,8 @@
      "n": 6
     },
     {
-     "form": "adhigup",
-     "preverb": "adhi",
+     "form": "āgup",
+     "preverb": "ā",
      "n": 1
     },
     {
@@ -27064,8 +28434,8 @@
      "n": 1
     },
     {
-     "form": "āgup",
-     "preverb": "ā",
+     "form": "adhigup",
+     "preverb": "adhi",
      "n": 1
     },
     {
@@ -27214,13 +28584,13 @@
      "n": 5
     },
     {
-     "form": "atigur",
-     "preverb": "ati",
+     "form": "pragur",
+     "preverb": "pra",
      "n": 0
     },
     {
-     "form": "pragur",
-     "preverb": "pra",
+     "form": "atigur",
+     "preverb": "ati",
      "n": 0
     }
    ],
@@ -27577,11 +28947,6 @@
      "n": 2
     },
     {
-     "form": "pratiguh",
-     "preverb": "prati",
-     "n": 1
-    },
-    {
      "form": "samupaguh",
      "preverb": "samupa",
      "n": 1
@@ -27592,13 +28957,18 @@
      "n": 1
     },
     {
-     "form": "samabhiguh",
-     "preverb": "samabhi",
-     "n": 0
+     "form": "pratiguh",
+     "preverb": "prati",
+     "n": 1
     },
     {
      "form": "samavaguh",
      "preverb": "samava",
+     "n": 0
+    },
+    {
+     "form": "samabhiguh",
+     "preverb": "samabhi",
      "n": 0
     }
    ],
@@ -27901,13 +29271,13 @@
      "n": 1
     },
     {
-     "form": "anugṛ",
-     "preverb": "anu",
+     "form": "saṃpragṛ",
+     "preverb": "saṃpra",
      "n": 1
     },
     {
-     "form": "abhipratigṛ",
-     "preverb": "abhiprati",
+     "form": "anugṛ",
+     "preverb": "anu",
      "n": 1
     },
     {
@@ -27916,8 +29286,8 @@
      "n": 1
     },
     {
-     "form": "saṃpragṛ",
-     "preverb": "saṃpra",
+     "form": "abhipratigṛ",
+     "preverb": "abhiprati",
      "n": 1
     },
     {
@@ -28193,13 +29563,13 @@
      "n": 1
     },
     {
-     "form": "anugṛ",
-     "preverb": "anu",
+     "form": "saṃpragṛ",
+     "preverb": "saṃpra",
      "n": 1
     },
     {
-     "form": "abhipratigṛ",
-     "preverb": "abhiprati",
+     "form": "anugṛ",
+     "preverb": "anu",
      "n": 1
     },
     {
@@ -28208,8 +29578,8 @@
      "n": 1
     },
     {
-     "form": "saṃpragṛ",
-     "preverb": "saṃpra",
+     "form": "abhipratigṛ",
+     "preverb": "abhiprati",
      "n": 1
     },
     {
@@ -28485,13 +29855,13 @@
      "n": 1
     },
     {
-     "form": "anugṛ",
-     "preverb": "anu",
+     "form": "saṃpragṛ",
+     "preverb": "saṃpra",
      "n": 1
     },
     {
-     "form": "abhipratigṛ",
-     "preverb": "abhiprati",
+     "form": "anugṛ",
+     "preverb": "anu",
      "n": 1
     },
     {
@@ -28500,8 +29870,8 @@
      "n": 1
     },
     {
-     "form": "saṃpragṛ",
-     "preverb": "saṃpra",
+     "form": "abhipratigṛ",
+     "preverb": "abhiprati",
      "n": 1
     },
     {
@@ -28716,8 +30086,8 @@
      "n": 5
     },
     {
-     "form": "parigṛdh",
-     "preverb": "pari",
+     "form": "anugṛdh",
+     "preverb": "anu",
      "n": 1
     },
     {
@@ -28726,8 +30096,8 @@
      "n": 1
     },
     {
-     "form": "anugṛdh",
-     "preverb": "anu",
+     "form": "parigṛdh",
+     "preverb": "pari",
      "n": 1
     }
    ],
@@ -29122,13 +30492,13 @@
      "n": 1
     },
     {
-     "form": "āgras",
-     "preverb": "ā",
+     "form": "parigras",
+     "preverb": "pari",
      "n": 0
     },
     {
-     "form": "parigras",
-     "preverb": "pari",
+     "form": "āgras",
+     "preverb": "ā",
      "n": 0
     }
    ],
@@ -29704,13 +31074,13 @@
      "n": 2
     },
     {
-     "form": "udghaṭ",
-     "preverb": "ud",
+     "form": "avaghaṭ",
+     "preverb": "ava",
      "n": 1
     },
     {
-     "form": "avaghaṭ",
-     "preverb": "ava",
+     "form": "udghaṭ",
+     "preverb": "ud",
      "n": 1
     },
     {
@@ -30164,16 +31534,6 @@
      "n": 2
     },
     {
-     "form": "vyāghuṣ",
-     "preverb": "vyā",
-     "n": 1
-    },
-    {
-     "form": "samāghuṣ",
-     "preverb": "samā",
-     "n": 1
-    },
-    {
      "form": "prodghuṣ",
      "preverb": "prod",
      "n": 1
@@ -30184,13 +31544,23 @@
      "n": 1
     },
     {
+     "form": "anughuṣ",
+     "preverb": "anu",
+     "n": 1
+    },
+    {
+     "form": "samāghuṣ",
+     "preverb": "samā",
+     "n": 1
+    },
+    {
      "form": "vipraghuṣ",
      "preverb": "vipra",
      "n": 1
     },
     {
-     "form": "anughuṣ",
-     "preverb": "anu",
+     "form": "vyāghuṣ",
+     "preverb": "vyā",
      "n": 1
     }
    ],
@@ -30405,13 +31775,13 @@
      "n": 6
     },
     {
-     "form": "avaghūrṇ",
-     "preverb": "ava",
+     "form": "parighūrṇ",
+     "preverb": "pari",
      "n": 1
     },
     {
-     "form": "parighūrṇ",
-     "preverb": "pari",
+     "form": "avaghūrṇ",
+     "preverb": "ava",
      "n": 1
     },
     {
@@ -30693,13 +32063,13 @@
      "n": 5
     },
     {
-     "form": "saṃnighṛṣ",
-     "preverb": "saṃni",
+     "form": "parighṛṣ",
+     "preverb": "pari",
      "n": 3
     },
     {
-     "form": "parighṛṣ",
-     "preverb": "pari",
+     "form": "saṃnighṛṣ",
+     "preverb": "saṃni",
      "n": 3
     },
     {
@@ -30967,6 +32337,11 @@
      "n": 2
     },
     {
+     "form": "parighrā",
+     "preverb": "pari",
+     "n": 1
+    },
+    {
      "form": "samupaghrā",
      "preverb": "samupa",
      "n": 1
@@ -30977,13 +32352,8 @@
      "n": 1
     },
     {
-     "form": "vighrā",
-     "preverb": "vi",
-     "n": 1
-    },
-    {
-     "form": "apaghrā",
-     "preverb": "apa",
+     "form": "atighrā",
+     "preverb": "ati",
      "n": 1
     }
    ],
@@ -31374,13 +32744,13 @@
      "n": 7
     },
     {
-     "form": "udācakṣ",
-     "preverb": "udā",
+     "form": "avacakṣ",
+     "preverb": "ava",
      "n": 3
     },
     {
-     "form": "avacakṣ",
-     "preverb": "ava",
+     "form": "udācakṣ",
+     "preverb": "udā",
      "n": 3
     }
    ],
@@ -34303,11 +35673,6 @@
      "n": 3
     },
     {
-     "form": "abhicumb",
-     "preverb": "abhi",
-     "n": 1
-    },
-    {
      "form": "praticumb",
      "preverb": "prati",
      "n": 1
@@ -34315,6 +35680,11 @@
     {
      "form": "ācumb",
      "preverb": "ā",
+     "n": 1
+    },
+    {
+     "form": "abhicumb",
+     "preverb": "abhi",
      "n": 1
     },
     {
@@ -34862,13 +36232,8 @@
      "n": 2
     },
     {
-     "form": "vyaticeṣṭ",
-     "preverb": "vyati",
-     "n": 1
-    },
-    {
-     "form": "praviceṣṭ",
-     "preverb": "pravi",
+     "form": "avaceṣṭ",
+     "preverb": "ava",
      "n": 1
     },
     {
@@ -34877,8 +36242,13 @@
      "n": 1
     },
     {
-     "form": "avaceṣṭ",
-     "preverb": "ava",
+     "form": "vyaticeṣṭ",
+     "preverb": "vyati",
+     "n": 1
+    },
+    {
+     "form": "praviceṣṭ",
+     "preverb": "pravi",
      "n": 1
     },
     {
@@ -35145,13 +36515,13 @@
      "n": 3
     },
     {
-     "form": "ācyu",
-     "preverb": "ā",
+     "form": "saṃpracyu",
+     "preverb": "saṃpra",
      "n": 2
     },
     {
-     "form": "saṃpracyu",
-     "preverb": "saṃpra",
+     "form": "ācyu",
+     "preverb": "ā",
      "n": 2
     },
     {
@@ -36922,8 +38292,8 @@
      "n": 7
     },
     {
-     "form": "parijan",
-     "preverb": "pari",
+     "form": "avajan",
+     "preverb": "ava",
      "n": 4
     }
    ],
@@ -37501,11 +38871,6 @@
      "n": 4
     },
     {
-     "form": "parijalp",
-     "preverb": "pari",
-     "n": 1
-    },
-    {
      "form": "vijalp",
      "preverb": "vi",
      "n": 1
@@ -37513,6 +38878,11 @@
     {
      "form": "upajalp",
      "preverb": "upa",
+     "n": 1
+    },
+    {
+     "form": "parijalp",
+     "preverb": "pari",
      "n": 1
     },
     {
@@ -38092,8 +39462,8 @@
      "n": 4
     },
     {
-     "form": "adhiji",
-     "preverb": "adhi",
+     "form": "pratiji",
+     "preverb": "prati",
      "n": 1
     },
     {
@@ -38107,8 +39477,8 @@
      "n": 1
     },
     {
-     "form": "upaji",
-     "preverb": "upa",
+     "form": "adhiji",
+     "preverb": "adhi",
      "n": 1
     }
    ],
@@ -38563,8 +39933,8 @@
      "n": 4
     },
     {
-     "form": "adhiji",
-     "preverb": "adhi",
+     "form": "pratiji",
+     "preverb": "prati",
      "n": 1
     },
     {
@@ -38578,8 +39948,8 @@
      "n": 1
     },
     {
-     "form": "upaji",
-     "preverb": "upa",
+     "form": "adhiji",
+     "preverb": "adhi",
      "n": 1
     }
    ],
@@ -39162,13 +40532,13 @@
      "n": 1
     },
     {
-     "form": "pratijuṣ",
-     "preverb": "prati",
+     "form": "anujuṣ",
+     "preverb": "anu",
      "n": 0
     },
     {
-     "form": "anujuṣ",
-     "preverb": "anu",
+     "form": "pratijuṣ",
+     "preverb": "prati",
      "n": 0
     },
     {
@@ -40347,8 +41717,8 @@
      "n": 2
     },
     {
-     "form": "prajṛmbh",
-     "preverb": "pra",
+     "form": "parijṛmbh",
+     "preverb": "pari",
      "n": 1
     },
     {
@@ -40357,18 +41727,18 @@
      "n": 1
     },
     {
-     "form": "parijṛmbh",
-     "preverb": "pari",
+     "form": "prajṛmbh",
+     "preverb": "pra",
      "n": 1
-    },
-    {
-     "form": "abhijṛmbh",
-     "preverb": "abhi",
-     "n": 0
     },
     {
      "form": "vyājṛmbh",
      "preverb": "vyā",
+     "n": 0
+    },
+    {
+     "form": "abhijṛmbh",
+     "preverb": "abhi",
      "n": 0
     }
    ],
@@ -41544,13 +42914,13 @@
      "n": 3
     },
     {
-     "form": "parijval",
-     "preverb": "pari",
+     "form": "pratijval",
+     "preverb": "prati",
      "n": 2
     },
     {
-     "form": "pratijval",
-     "preverb": "prati",
+     "form": "parijval",
+     "preverb": "pari",
      "n": 2
     },
     {
@@ -42292,8 +43662,8 @@
      "n": 1
     },
     {
-     "form": "anutakṣ",
-     "preverb": "anu",
+     "form": "ātakṣ",
+     "preverb": "ā",
      "n": 0
     },
     {
@@ -42307,8 +43677,8 @@
      "n": 0
     },
     {
-     "form": "ātakṣ",
-     "preverb": "ā",
+     "form": "anutakṣ",
+     "preverb": "anu",
      "n": 0
     }
    ],
@@ -42365,13 +43735,13 @@
      "n": 29
     },
     {
-     "form": "anvātañc",
-     "preverb": "anvā",
+     "form": "abhyātañc",
+     "preverb": "abhyā",
      "n": 2
     },
     {
-     "form": "abhyātañc",
-     "preverb": "abhyā",
+     "form": "anvātañc",
+     "preverb": "anvā",
      "n": 2
     }
    ],
@@ -42785,13 +44155,13 @@
      "n": 3
     },
     {
-     "form": "paryātan",
-     "preverb": "paryā",
+     "form": "vyavatan",
+     "preverb": "vyava",
      "n": 2
     },
     {
-     "form": "vyavatan",
-     "preverb": "vyava",
+     "form": "paryātan",
+     "preverb": "paryā",
      "n": 2
     },
     {
@@ -43153,13 +44523,13 @@
      "n": 3
     },
     {
-     "form": "paryātan",
-     "preverb": "paryā",
+     "form": "vyavatan",
+     "preverb": "vyava",
      "n": 2
     },
     {
-     "form": "vyavatan",
-     "preverb": "vyava",
+     "form": "paryātan",
+     "preverb": "paryā",
      "n": 2
     },
     {
@@ -43628,8 +44998,8 @@
      "n": 3
     },
     {
-     "form": "nitap",
-     "preverb": "ni",
+     "form": "samupatap",
+     "preverb": "samupa",
      "n": 2
     }
    ],
@@ -43852,11 +45222,6 @@
      "n": 15
     },
     {
-     "form": "upatam",
-     "preverb": "upa",
-     "n": 2
-    },
-    {
      "form": "paritam",
      "preverb": "pari",
      "n": 2
@@ -43867,13 +45232,18 @@
      "n": 2
     },
     {
-     "form": "ātam",
-     "preverb": "ā",
-     "n": 1
+     "form": "upatam",
+     "preverb": "upa",
+     "n": 2
     },
     {
      "form": "atipratam",
      "preverb": "atipra",
+     "n": 1
+    },
+    {
+     "form": "ātam",
+     "preverb": "ā",
      "n": 1
     }
    ],
@@ -44819,11 +46189,6 @@
      "n": 6
     },
     {
-     "form": "anunitud",
-     "preverb": "anuni",
-     "n": 5
-    },
-    {
      "form": "ātud",
      "preverb": "ā",
      "n": 5
@@ -44831,6 +46196,11 @@
     {
      "form": "nitud",
      "preverb": "ni",
+     "n": 5
+    },
+    {
+     "form": "anunitud",
+     "preverb": "anuni",
      "n": 5
     },
     {
@@ -44955,21 +46325,92 @@
   },
   "314": {
    "root": "turv",
-   "dcs_lemma": null,
-   "dcs_status": "unmatched",
-   "total": 0,
-   "rank": null,
-   "grammar_class": [],
+   "dcs_lemma": "tūrv",
+   "dcs_status": "homonym_shared",
+   "total": 9,
+   "rank": 3887,
+   "grammar_class": [
+    "1"
+   ],
    "grammar_derived": [],
-   "grammar_raw": "",
-   "verbforms": {},
-   "tenses": {},
-   "voices": {},
-   "top_forms": [],
+   "grammar_raw": "1. P.",
+   "verbforms": {
+    "Part": 5,
+    "Finite": 4
+   },
+   "tenses": {
+    "Pres": 9
+   },
+   "voices": {
+    "Active": 9
+   },
+   "top_forms": [
+    {
+     "form": "tūrvan",
+     "n": 3
+    },
+    {
+     "form": "tūrvatha",
+     "n": 2
+    },
+    {
+     "form": "tūrvanto",
+     "n": 1
+    },
+    {
+     "form": "tūrvann",
+     "n": 1
+    },
+    {
+     "form": "tūrvataṃ",
+     "n": 1
+    },
+    {
+     "form": "tūrvasi",
+     "n": 1
+    }
+   ],
    "ppp": [],
-   "participles": {},
-   "preverbs": [],
-   "present_stem_signal": {}
+   "participles": {
+    "present-active": {
+     "label": "Present active (-at/-ant)",
+     "total": 5,
+     "top": [
+      {
+       "form": "tūrvan",
+       "n": 3
+      },
+      {
+       "form": "tūrvanto",
+       "n": 1
+      },
+      {
+       "form": "tūrvann",
+       "n": 1
+      }
+     ]
+    }
+   },
+   "preverbs": [
+    {
+     "form": "pratūrv",
+     "preverb": "pra",
+     "n": 6
+    }
+   ],
+   "present_stem_signal": {
+    "dominant": "I/VI",
+    "evidence": [
+     {
+      "bucket": "?",
+      "n": 3
+     },
+     {
+      "bucket": "I/VI",
+      "n": 1
+     }
+    ]
+   }
   },
   "315": {
    "root": "tul",
@@ -45263,13 +46704,8 @@
      "n": 3
     },
     {
-     "form": "sampratuṣ",
-     "preverb": "sampra",
-     "n": 1
-    },
-    {
-     "form": "pratuṣ",
-     "preverb": "pra",
+     "form": "anutuṣ",
+     "preverb": "anu",
      "n": 1
     },
     {
@@ -45278,8 +46714,13 @@
      "n": 1
     },
     {
-     "form": "anutuṣ",
-     "preverb": "anu",
+     "form": "pratuṣ",
+     "preverb": "pra",
+     "n": 1
+    },
+    {
+     "form": "sampratuṣ",
+     "preverb": "sampra",
      "n": 1
     },
     {
@@ -45309,7 +46750,7 @@
   "318": {
    "root": "tūrv",
    "dcs_lemma": "tūrv",
-   "dcs_status": "matched",
+   "dcs_status": "homonym_shared",
    "total": 9,
    "rank": 3887,
    "grammar_class": [
@@ -45701,18 +47142,18 @@
      "n": 3
     },
     {
-     "form": "anutṛ",
-     "preverb": "anu",
-     "n": 2
-    },
-    {
      "form": "abhitṛ",
      "preverb": "abhi",
      "n": 2
     },
     {
-     "form": "pratyavatṛ",
-     "preverb": "pratyava",
+     "form": "anutṛ",
+     "preverb": "anu",
+     "n": 2
+    },
+    {
+     "form": "abhyuttṛ",
+     "preverb": "abhyut",
      "n": 1
     }
    ],
@@ -45867,13 +47308,13 @@
      "n": 9
     },
     {
-     "form": "avatṛd",
-     "preverb": "ava",
+     "form": "uttṛd",
+     "preverb": "ut",
      "n": 5
     },
     {
-     "form": "uttṛd",
-     "preverb": "ut",
+     "form": "avatṛd",
+     "preverb": "ava",
      "n": 5
     },
     {
@@ -45887,11 +47328,6 @@
      "n": 1
     },
     {
-     "form": "anutṛd",
-     "preverb": "anu",
-     "n": 0
-    },
-    {
      "form": "atitṛd",
      "preverb": "ati",
      "n": 0
@@ -45899,6 +47335,11 @@
     {
      "form": "nitṛd",
      "preverb": "ni",
+     "n": 0
+    },
+    {
+     "form": "anutṛd",
+     "preverb": "anu",
      "n": 0
     }
    ],
@@ -46425,13 +47866,13 @@
      "n": 3
     },
     {
-     "form": "abhitṛṣ",
-     "preverb": "abhi",
+     "form": "anutṛṣ",
+     "preverb": "anu",
      "n": 1
     },
     {
-     "form": "anutṛṣ",
-     "preverb": "anu",
+     "form": "abhitṛṣ",
+     "preverb": "abhi",
      "n": 1
     }
    ],
@@ -46591,13 +48032,13 @@
    },
    "preverbs": [
     {
-     "form": "paritṛh",
-     "preverb": "pari",
+     "form": "vitṛh",
+     "preverb": "vi",
      "n": 1
     },
     {
-     "form": "vitṛh",
-     "preverb": "vi",
+     "form": "paritṛh",
+     "preverb": "pari",
      "n": 1
     }
    ],
@@ -46935,13 +48376,13 @@
      "n": 14
     },
     {
-     "form": "nityaj",
-     "preverb": "ni",
+     "form": "abhityaj",
+     "preverb": "abhi",
      "n": 2
     },
     {
-     "form": "abhityaj",
-     "preverb": "abhi",
+     "form": "nityaj",
+     "preverb": "ni",
      "n": 2
     },
     {
@@ -47259,13 +48700,13 @@
      "n": 3
     },
     {
-     "form": "anutras",
-     "preverb": "anu",
+     "form": "apatras",
+     "preverb": "apa",
      "n": 2
     },
     {
-     "form": "apatras",
-     "preverb": "apa",
+     "form": "anutras",
+     "preverb": "anu",
      "n": 2
     }
    ],
@@ -49575,13 +51016,13 @@
      "n": 6
     },
     {
-     "form": "pradas",
-     "preverb": "pra",
+     "form": "apadas",
+     "preverb": "apa",
      "n": 0
     },
     {
-     "form": "apadas",
-     "preverb": "apa",
+     "form": "pradas",
+     "preverb": "pra",
      "n": 0
     }
    ],
@@ -49958,13 +51399,13 @@
      "n": 8
     },
     {
-     "form": "anudah",
-     "preverb": "anu",
+     "form": "pratidah",
+     "preverb": "prati",
      "n": 7
     },
     {
-     "form": "pratidah",
-     "preverb": "prati",
+     "form": "anudah",
+     "preverb": "anu",
      "n": 7
     },
     {
@@ -52205,21 +53646,230 @@
   },
   "355": {
    "root": "div",
-   "dcs_lemma": null,
-   "dcs_status": "unmatched",
-   "total": 0,
-   "rank": null,
-   "grammar_class": [],
+   "dcs_lemma": "dīv",
+   "dcs_status": "homonym_shared",
+   "total": 110,
+   "rank": 1152,
+   "grammar_class": [
+    "1",
+    "4"
+   ],
    "grammar_derived": [],
-   "grammar_raw": "",
-   "verbforms": {},
-   "tenses": {},
-   "voices": {},
-   "top_forms": [],
-   "ppp": [],
-   "participles": {},
-   "preverbs": [],
-   "present_stem_signal": {}
+   "grammar_raw": "1. Ā.; 4. Ā.; f",
+   "verbforms": {
+    "Finite": 68,
+    "Part": 31,
+    "Inf": 6,
+    "Conv": 3,
+    "Gdv": 2
+   },
+   "tenses": {
+    "Past": 9,
+    "Pres": 81,
+    "—": 12,
+    "Fut": 5,
+    "Impf": 3
+   },
+   "voices": {
+    "Active": 110
+   },
+   "top_forms": [
+    {
+     "form": "dīvyāmi",
+     "n": 19
+    },
+    {
+     "form": "dīvyan",
+     "n": 8
+    },
+    {
+     "form": "devitum",
+     "n": 6
+    },
+    {
+     "form": "dīvya",
+     "n": 6
+    },
+    {
+     "form": "dīvyāva",
+     "n": 5
+    },
+    {
+     "form": "dīvyato",
+     "n": 4
+    },
+    {
+     "form": "dīvyati",
+     "n": 4
+    },
+    {
+     "form": "dideva",
+     "n": 3
+    },
+    {
+     "form": "dīvyāma",
+     "n": 3
+    },
+    {
+     "form": "dīvyataḥ",
+     "n": 3
+    },
+    {
+     "form": "dīvyatāṃ",
+     "n": 3
+    },
+    {
+     "form": "deviṣyāmi",
+     "n": 2
+    },
+    {
+     "form": "dīvyadhvam",
+     "n": 2
+    },
+    {
+     "form": "dīvyāmaḥ",
+     "n": 2
+    },
+    {
+     "form": "devitā",
+     "n": 2
+    }
+   ],
+   "ppp": [
+    {
+     "stem": "dyūta",
+     "n": 3
+    },
+    {
+     "stem": "dyūna",
+     "n": 1
+    }
+   ],
+   "participles": {
+    "present-active": {
+     "label": "Present active (-at/-ant)",
+     "total": 24,
+     "top": [
+      {
+       "form": "dīvyan",
+       "n": 8
+      },
+      {
+       "form": "dīvyato",
+       "n": 4
+      },
+      {
+       "form": "dīvyataḥ",
+       "n": 3
+      },
+      {
+       "form": "dīvyatāṃ",
+       "n": 3
+      },
+      {
+       "form": "dīvyator",
+       "n": 1
+      },
+      {
+       "form": "dīvyatā",
+       "n": 1
+      },
+      {
+       "form": "dīvyanto",
+       "n": 1
+      },
+      {
+       "form": "dīvyantaḥ",
+       "n": 1
+      }
+     ]
+    },
+    "present-middle": {
+     "label": "Present middle (-māna/-āna)",
+     "total": 3,
+     "top": [
+      {
+       "form": "dīvyamānāḥ",
+       "n": 1
+      },
+      {
+       "form": "dīvyamānam",
+       "n": 1
+      },
+      {
+       "form": "dīvyamānaḥ",
+       "n": 1
+      }
+     ]
+    },
+    "past-passive": {
+     "label": "Past passive — PPP (-ta/-na)",
+     "total": 4,
+     "top": [
+      {
+       "form": "dyūtā",
+       "n": 2
+      },
+      {
+       "form": "dyūte",
+       "n": 1
+      },
+      {
+       "form": "dyūnaḥ",
+       "n": 1
+      }
+     ]
+    },
+    "gerundive": {
+     "label": "Gerundive / FPP (-tavya/-anīya/-ya)",
+     "total": 2,
+     "top": [
+      {
+       "form": "devitavyaṃ",
+       "n": 2
+      }
+     ]
+    }
+   },
+   "preverbs": [
+    {
+     "form": "paridīv",
+     "preverb": "pari",
+     "n": 42
+    },
+    {
+     "form": "pratidīv",
+     "preverb": "prati",
+     "n": 4
+    },
+    {
+     "form": "vidīv",
+     "preverb": "vi",
+     "n": 4
+    },
+    {
+     "form": "pradīv",
+     "preverb": "pra",
+     "n": 1
+    }
+   ],
+   "present_stem_signal": {
+    "dominant": "I/VI",
+    "evidence": [
+     {
+      "bucket": "?",
+      "n": 25
+     },
+     {
+      "bucket": "I/VI",
+      "n": 22
+     },
+     {
+      "bucket": "IV",
+      "n": 7
+     }
+    ]
+   }
   },
   "356": {
    "root": "diś",
@@ -52459,13 +54109,13 @@
      "n": 26
     },
     {
-     "form": "pratisamādiś",
-     "preverb": "pratisamā",
+     "form": "pratyādiś",
+     "preverb": "pratyā",
      "n": 12
     },
     {
-     "form": "pratyādiś",
-     "preverb": "pratyā",
+     "form": "pratisamādiś",
+     "preverb": "pratisamā",
      "n": 12
     },
     {
@@ -52474,13 +54124,13 @@
      "n": 10
     },
     {
-     "form": "atidiś",
-     "preverb": "ati",
+     "form": "samupadiś",
+     "preverb": "samupa",
      "n": 9
     },
     {
-     "form": "samupadiś",
-     "preverb": "samupa",
+     "form": "atidiś",
+     "preverb": "ati",
      "n": 9
     }
    ],
@@ -52678,14 +54328,19 @@
      "n": 12
     },
     {
+     "form": "samādih",
+     "preverb": "samā",
+     "n": 2
+    },
+    {
      "form": "vidih",
      "preverb": "vi",
      "n": 2
     },
     {
-     "form": "samādih",
-     "preverb": "samā",
-     "n": 2
+     "form": "avadih",
+     "preverb": "ava",
+     "n": 1
     },
     {
      "form": "abhidih",
@@ -52695,11 +54350,6 @@
     {
      "form": "nidih",
      "preverb": "ni",
-     "n": 1
-    },
-    {
-     "form": "avadih",
-     "preverb": "ava",
      "n": 1
     },
     {
@@ -53583,13 +55233,13 @@
      "n": 27
     },
     {
-     "form": "upādīp",
-     "preverb": "upā",
+     "form": "paridīp",
+     "preverb": "pari",
      "n": 1
     },
     {
-     "form": "paridīp",
-     "preverb": "pari",
+     "form": "upādīp",
+     "preverb": "upā",
      "n": 1
     },
     {
@@ -53603,13 +55253,13 @@
      "n": 1
     },
     {
-     "form": "abhidīp",
-     "preverb": "abhi",
+     "form": "upadīp",
+     "preverb": "upa",
      "n": 0
     },
     {
-     "form": "upadīp",
-     "preverb": "upa",
+     "form": "abhidīp",
+     "preverb": "abhi",
      "n": 0
     },
     {
@@ -53830,13 +55480,13 @@
      "n": 42
     },
     {
-     "form": "vidīv",
-     "preverb": "vi",
+     "form": "pratidīv",
+     "preverb": "prati",
      "n": 4
     },
     {
-     "form": "pratidīv",
-     "preverb": "prati",
+     "form": "vidīv",
+     "preverb": "vi",
      "n": 4
     },
     {
@@ -54057,13 +55707,13 @@
      "n": 42
     },
     {
-     "form": "vidīv",
-     "preverb": "vi",
+     "form": "pratidīv",
+     "preverb": "prati",
      "n": 4
     },
     {
-     "form": "pratidīv",
-     "preverb": "prati",
+     "form": "vidīv",
+     "preverb": "vi",
      "n": 4
     },
     {
@@ -54093,7 +55743,7 @@
   "365": {
    "root": "du",
    "dcs_lemma": "du",
-   "dcs_status": "matched",
+   "dcs_status": "homonym_shared",
    "total": 82,
    "rank": 1383,
    "grammar_class": [
@@ -54601,19 +56251,14 @@
      "n": 4
     },
     {
-     "form": "viduṣ",
-     "preverb": "vi",
-     "n": 2
-    },
-    {
      "form": "apaduṣ",
      "preverb": "apa",
      "n": 2
     },
     {
-     "form": "upaduṣ",
-     "preverb": "upa",
-     "n": 1
+     "form": "viduṣ",
+     "preverb": "vi",
+     "n": 2
     },
     {
      "form": "pratiduṣ",
@@ -54623,6 +56268,11 @@
     {
      "form": "anuduṣ",
      "preverb": "anu",
+     "n": 1
+    },
+    {
+     "form": "upaduṣ",
+     "preverb": "upa",
      "n": 1
     }
    ],
@@ -54980,13 +56630,13 @@
      "n": 0
     },
     {
-     "form": "praviduh",
-     "preverb": "pravi",
+     "form": "vipraduh",
+     "preverb": "vipra",
      "n": 0
     },
     {
-     "form": "vipraduh",
-     "preverb": "vipra",
+     "form": "praviduh",
+     "preverb": "pravi",
      "n": 0
     }
    ],
@@ -55010,21 +56660,233 @@
   },
   "370": {
    "root": "dū",
-   "dcs_lemma": null,
-   "dcs_status": "unmatched",
-   "total": 0,
-   "rank": null,
-   "grammar_class": [],
+   "dcs_lemma": "du",
+   "dcs_status": "homonym_shared",
+   "total": 82,
+   "rank": 1383,
+   "grammar_class": [
+    "4"
+   ],
    "grammar_derived": [],
-   "grammar_raw": "",
-   "verbforms": {},
-   "tenses": {},
-   "voices": {},
-   "top_forms": [],
-   "ppp": [],
-   "participles": {},
-   "preverbs": [],
-   "present_stem_signal": {}
+   "grammar_raw": "4. P.; mf",
+   "verbforms": {
+    "Part": 35,
+    "Finite": 47
+   },
+   "tenses": {
+    "—": 7,
+    "Pres": 73,
+    "Impf": 2
+   },
+   "voices": {
+    "Active": 37,
+    "Pass": 45
+   },
+   "top_forms": [
+    {
+     "form": "dunoti",
+     "n": 19
+    },
+    {
+     "form": "dūyate",
+     "n": 14
+    },
+    {
+     "form": "dūyamānena",
+     "n": 8
+    },
+    {
+     "form": "dūyamāna",
+     "n": 8
+    },
+    {
+     "form": "dūyatā",
+     "n": 3
+    },
+    {
+     "form": "dūyamānaṃ",
+     "n": 3
+    },
+    {
+     "form": "dūyamānaḥ",
+     "n": 3
+    },
+    {
+     "form": "dūyati",
+     "n": 3
+    },
+    {
+     "form": "dunotu",
+     "n": 2
+    },
+    {
+     "form": "dūnā",
+     "n": 2
+    },
+    {
+     "form": "adūyata",
+     "n": 2
+    },
+    {
+     "form": "dūyante",
+     "n": 2
+    },
+    {
+     "form": "dutāḥ",
+     "n": 1
+    },
+    {
+     "form": "dūnāḥ",
+     "n": 1
+    },
+    {
+     "form": "dunvanty",
+     "n": 1
+    }
+   ],
+   "ppp": [
+    {
+     "stem": "dūna",
+     "n": 5
+    },
+    {
+     "stem": "duta",
+     "n": 1
+    },
+    {
+     "stem": "dūnās",
+     "n": 1
+    }
+   ],
+   "participles": {
+    "present-active": {
+     "label": "Present active (-at/-ant)",
+     "total": 3,
+     "top": [
+      {
+       "form": "dūyatā",
+       "n": 3
+      }
+     ]
+    },
+    "present-passive": {
+     "label": "Present passive (-yamāna)",
+     "total": 25,
+     "top": [
+      {
+       "form": "dūyamānena",
+       "n": 8
+      },
+      {
+       "form": "dūyamāna",
+       "n": 8
+      },
+      {
+       "form": "dūyamānaṃ",
+       "n": 3
+      },
+      {
+       "form": "dūyamānaḥ",
+       "n": 3
+      },
+      {
+       "form": "dūyamāne",
+       "n": 1
+      },
+      {
+       "form": "dūyamānām",
+       "n": 1
+      },
+      {
+       "form": "dūyamānā",
+       "n": 1
+      }
+     ]
+    },
+    "past-passive": {
+     "label": "Past passive — PPP (-ta/-na)",
+     "total": 7,
+     "top": [
+      {
+       "form": "dūnā",
+       "n": 2
+      },
+      {
+       "form": "dutāḥ",
+       "n": 1
+      },
+      {
+       "form": "dūnāḥ",
+       "n": 1
+      },
+      {
+       "form": "dūnam",
+       "n": 1
+      },
+      {
+       "form": "dūnās",
+       "n": 1
+      },
+      {
+       "form": "dūna",
+       "n": 1
+      }
+     ]
+    }
+   },
+   "preverbs": [
+    {
+     "form": "vidu",
+     "preverb": "vi",
+     "n": 9
+    },
+    {
+     "form": "pradu",
+     "preverb": "pra",
+     "n": 7
+    },
+    {
+     "form": "abhidu",
+     "preverb": "abhi",
+     "n": 3
+    },
+    {
+     "form": "paridu",
+     "preverb": "pari",
+     "n": 2
+    },
+    {
+     "form": "upādu",
+     "preverb": "upā",
+     "n": 1
+    },
+    {
+     "form": "ādu",
+     "preverb": "ā",
+     "n": 0
+    }
+   ],
+   "present_stem_signal": {
+    "dominant": "V",
+    "evidence": [
+     {
+      "bucket": "V",
+      "n": 20
+     },
+     {
+      "bucket": "?",
+      "n": 3
+     },
+     {
+      "bucket": "IV",
+      "n": 3
+     },
+     {
+      "bucket": "II/III (athematic)",
+      "n": 1
+     }
+    ]
+   }
   },
   "371": {
    "root": "1 dṛ",
@@ -55261,6 +57123,11 @@
      "n": 2
     },
     {
+     "form": "abhividṛ",
+     "preverb": "abhivi",
+     "n": 1
+    },
+    {
      "form": "vyavadṛ",
      "preverb": "vyava",
      "n": 1
@@ -55268,11 +57135,6 @@
     {
      "form": "uddṛ",
      "preverb": "ud",
-     "n": 1
-    },
-    {
-     "form": "abhividṛ",
-     "preverb": "abhivi",
      "n": 1
     },
     {
@@ -55544,6 +57406,11 @@
      "n": 2
     },
     {
+     "form": "abhividṛ",
+     "preverb": "abhivi",
+     "n": 1
+    },
+    {
      "form": "vyavadṛ",
      "preverb": "vyava",
      "n": 1
@@ -55551,11 +57418,6 @@
     {
      "form": "uddṛ",
      "preverb": "ud",
-     "n": 1
-    },
-    {
-     "form": "abhividṛ",
-     "preverb": "abhivi",
      "n": 1
     },
     {
@@ -56230,23 +58092,23 @@
      "n": 4
     },
     {
-     "form": "vyādṛś",
-     "preverb": "vyā",
-     "n": 1
-    },
-    {
      "form": "parādṛś",
      "preverb": "parā",
      "n": 1
     },
     {
-     "form": "samupadṛś",
-     "preverb": "samupa",
+     "form": "vyādṛś",
+     "preverb": "vyā",
      "n": 1
     },
     {
      "form": "vipradṛś",
      "preverb": "vipra",
+     "n": 1
+    },
+    {
+     "form": "samupadṛś",
+     "preverb": "samupa",
      "n": 1
     }
    ],
@@ -56721,13 +58583,13 @@
      "n": 1
     },
     {
-     "form": "saṃvidyut",
-     "preverb": "saṃvi",
+     "form": "abhividyut",
+     "preverb": "abhivi",
      "n": 0
     },
     {
-     "form": "abhividyut",
-     "preverb": "abhivi",
+     "form": "saṃvidyut",
+     "preverb": "saṃvi",
      "n": 0
     }
    ],
@@ -57990,13 +59852,13 @@
      "n": 9
     },
     {
-     "form": "paripradhanv",
-     "preverb": "paripra",
+     "form": "anudhanv",
+     "preverb": "anu",
      "n": 0
     },
     {
-     "form": "anudhanv",
-     "preverb": "anu",
+     "form": "abhidhanv",
+     "preverb": "abhi",
      "n": 0
     },
     {
@@ -58005,8 +59867,8 @@
      "n": 0
     },
     {
-     "form": "abhidhanv",
-     "preverb": "abhi",
+     "form": "paripradhanv",
+     "preverb": "paripra",
      "n": 0
     }
    ],
@@ -58329,19 +60191,14 @@
      "n": 5
     },
     {
-     "form": "samādham",
-     "preverb": "samā",
-     "n": 3
-    },
-    {
      "form": "avadham",
      "preverb": "ava",
      "n": 3
     },
     {
-     "form": "apadham",
-     "preverb": "apa",
-     "n": 2
+     "form": "samādham",
+     "preverb": "samā",
+     "n": 3
     },
     {
      "form": "parādham",
@@ -58354,13 +60211,18 @@
      "n": 2
     },
     {
-     "form": "apidham",
-     "preverb": "api",
+     "form": "apadham",
+     "preverb": "apa",
+     "n": 2
+    },
+    {
+     "form": "atyādham",
+     "preverb": "atyā",
      "n": 1
     },
     {
-     "form": "samupadham",
-     "preverb": "samupa",
+     "form": "apidham",
+     "preverb": "api",
      "n": 1
     }
    ],
@@ -59431,13 +61293,13 @@
      "n": 12
     },
     {
-     "form": "saṃpradhāv",
-     "preverb": "saṃpra",
+     "form": "nidhāv",
+     "preverb": "ni",
      "n": 7
     },
     {
-     "form": "nidhāv",
-     "preverb": "ni",
+     "form": "saṃpradhāv",
+     "preverb": "saṃpra",
      "n": 7
     },
     {
@@ -59755,13 +61617,13 @@
      "n": 12
     },
     {
-     "form": "saṃpradhāv",
-     "preverb": "saṃpra",
+     "form": "nidhāv",
+     "preverb": "ni",
      "n": 7
     },
     {
-     "form": "nidhāv",
-     "preverb": "ni",
+     "form": "saṃpradhāv",
+     "preverb": "saṃpra",
      "n": 7
     },
     {
@@ -60057,23 +61919,23 @@
      "n": 1
     },
     {
-     "form": "pratidhī",
-     "preverb": "prati",
-     "n": 0
-    },
-    {
      "form": "vidhī",
      "preverb": "vi",
      "n": 0
     },
     {
-     "form": "anudhī",
-     "preverb": "anu",
+     "form": "avadhī",
+     "preverb": "ava",
      "n": 0
     },
     {
-     "form": "avadhī",
-     "preverb": "ava",
+     "form": "pratidhī",
+     "preverb": "prati",
+     "n": 0
+    },
+    {
+     "form": "anudhī",
+     "preverb": "anu",
      "n": 0
     },
     {
@@ -60432,13 +62294,13 @@
      "n": 4
     },
     {
-     "form": "abhidhū",
-     "preverb": "abhi",
+     "form": "vyādhū",
+     "preverb": "vyā",
      "n": 3
     },
     {
-     "form": "vyādhū",
-     "preverb": "vyā",
+     "form": "abhidhū",
+     "preverb": "abhi",
      "n": 3
     },
     {
@@ -60452,8 +62314,8 @@
      "n": 2
     },
     {
-     "form": "apadhū",
-     "preverb": "apa",
+     "form": "pravidhū",
+     "preverb": "pravi",
      "n": 1
     }
    ],
@@ -60931,18 +62793,18 @@
      "n": 4
     },
     {
-     "form": "ādhṛ",
-     "preverb": "ā",
-     "n": 2
-    },
-    {
      "form": "paridhṛ",
      "preverb": "pari",
      "n": 2
     },
     {
-     "form": "abhidhṛ",
-     "preverb": "abhi",
+     "form": "ādhṛ",
+     "preverb": "ā",
+     "n": 2
+    },
+    {
+     "form": "nidhṛ",
+     "preverb": "ni",
      "n": 1
     },
     {
@@ -60951,13 +62813,13 @@
      "n": 1
     },
     {
-     "form": "nidhṛ",
-     "preverb": "ni",
+     "form": "pratyuddhṛ",
+     "preverb": "pratyud",
      "n": 1
     },
     {
-     "form": "pratyuddhṛ",
-     "preverb": "pratyud",
+     "form": "abhidhṛ",
+     "preverb": "abhi",
      "n": 1
     }
    ],
@@ -61623,6 +63485,11 @@
      "n": 2
     },
     {
+     "form": "upadhyā",
+     "preverb": "upa",
+     "n": 1
+    },
+    {
      "form": "saṃpradhyā",
      "preverb": "saṃpra",
      "n": 1
@@ -61630,11 +63497,6 @@
     {
      "form": "samādhyā",
      "preverb": "samā",
-     "n": 1
-    },
-    {
-     "form": "upadhyā",
-     "preverb": "upa",
      "n": 1
     }
    ],
@@ -61910,11 +63772,6 @@
      "n": 7
     },
     {
-     "form": "pratidhvaṃs",
-     "preverb": "prati",
-     "n": 2
-    },
-    {
      "form": "pravidhvaṃs",
      "preverb": "pravi",
      "n": 2
@@ -61925,14 +63782,14 @@
      "n": 2
     },
     {
-     "form": "atidhvaṃs",
-     "preverb": "ati",
+     "form": "pratidhvaṃs",
+     "preverb": "prati",
      "n": 2
     },
     {
-     "form": "anudhvaṃs",
-     "preverb": "anu",
-     "n": 1
+     "form": "atidhvaṃs",
+     "preverb": "ati",
+     "n": 2
     },
     {
      "form": "upadhvaṃs",
@@ -61940,13 +63797,18 @@
      "n": 1
     },
     {
-     "form": "ādhvaṃs",
-     "preverb": "ā",
+     "form": "samuddhvaṃs",
+     "preverb": "samud",
      "n": 1
     },
     {
-     "form": "samuddhvaṃs",
-     "preverb": "samud",
+     "form": "anupradhvaṃs",
+     "preverb": "anupra",
+     "n": 1
+    },
+    {
+     "form": "vinidhvaṃs",
+     "preverb": "vini",
      "n": 1
     }
    ],
@@ -62386,6 +64248,11 @@
      "n": 5
     },
     {
+     "form": "avanakṣ",
+     "preverb": "ava",
+     "n": 0
+    },
+    {
      "form": "pranakṣ",
      "preverb": "pra",
      "n": 0
@@ -62396,18 +64263,13 @@
      "n": 0
     },
     {
-     "form": "avanakṣ",
-     "preverb": "ava",
+     "form": "upanakṣ",
+     "preverb": "upa",
      "n": 0
     },
     {
      "form": "ānakṣ",
      "preverb": "ā",
-     "n": 0
-    },
-    {
-     "form": "upanakṣ",
-     "preverb": "upa",
      "n": 0
     }
    ],
@@ -62683,6 +64545,11 @@
      "n": 1
     },
     {
+     "form": "abhivinad",
+     "preverb": "abhivi",
+     "n": 0
+    },
+    {
      "form": "anuvinad",
      "preverb": "anuvi",
      "n": 0
@@ -62695,11 +64562,6 @@
     {
      "form": "praṇinad",
      "preverb": "praṇi",
-     "n": 0
-    },
-    {
-     "form": "abhivinad",
-     "preverb": "abhivi",
      "n": 0
     }
    ],
@@ -63236,8 +65098,13 @@
      "n": 4
     },
     {
-     "form": "apanam",
-     "preverb": "apa",
+     "form": "upānam",
+     "preverb": "upā",
+     "n": 1
+    },
+    {
+     "form": "pratyupanam",
+     "preverb": "pratyupa",
      "n": 1
     },
     {
@@ -63246,18 +65113,13 @@
      "n": 1
     },
     {
-     "form": "upānam",
-     "preverb": "upā",
+     "form": "atinam",
+     "preverb": "ati",
      "n": 1
     },
     {
      "form": "samānam",
      "preverb": "samā",
-     "n": 1
-    },
-    {
-     "form": "pratyupanam",
-     "preverb": "pratyupa",
      "n": 1
     }
    ],
@@ -63472,13 +65334,13 @@
      "n": 2
     },
     {
-     "form": "ānard",
-     "preverb": "ā",
+     "form": "pratinard",
+     "preverb": "prati",
      "n": 1
     },
     {
-     "form": "pratinard",
-     "preverb": "prati",
+     "form": "ānard",
+     "preverb": "ā",
      "n": 1
     },
     {
@@ -63753,8 +65615,8 @@
      "n": 4
     },
     {
-     "form": "abhinaś",
-     "preverb": "abhi",
+     "form": "acchānaś",
+     "preverb": "acchā",
      "n": 0
     },
     {
@@ -63763,18 +65625,18 @@
      "n": 0
     },
     {
+     "form": "pravinaś",
+     "preverb": "pravi",
+     "n": 0
+    },
+    {
      "form": "avanaś",
      "preverb": "ava",
      "n": 0
     },
     {
-     "form": "acchānaś",
-     "preverb": "acchā",
-     "n": 0
-    },
-    {
-     "form": "pravinaś",
-     "preverb": "pravi",
+     "form": "abhinaś",
+     "preverb": "abhi",
      "n": 0
     }
    ],
@@ -64052,8 +65914,8 @@
      "n": 4
     },
     {
-     "form": "abhinaś",
-     "preverb": "abhi",
+     "form": "acchānaś",
+     "preverb": "acchā",
      "n": 0
     },
     {
@@ -64062,18 +65924,18 @@
      "n": 0
     },
     {
+     "form": "pravinaś",
+     "preverb": "pravi",
+     "n": 0
+    },
+    {
      "form": "avanaś",
      "preverb": "ava",
      "n": 0
     },
     {
-     "form": "acchānaś",
-     "preverb": "acchā",
-     "n": 0
-    },
-    {
-     "form": "pravinaś",
-     "preverb": "pravi",
+     "form": "abhinaś",
+     "preverb": "abhi",
      "n": 0
     }
    ],
@@ -65160,13 +67022,13 @@
      "n": 2
     },
     {
-     "form": "parinind",
-     "preverb": "pari",
+     "form": "pratinind",
+     "preverb": "prati",
      "n": 1
     },
     {
-     "form": "pratinind",
-     "preverb": "prati",
+     "form": "parinind",
+     "preverb": "pari",
      "n": 1
     }
    ],
@@ -65662,6 +67524,16 @@
      "n": 1
     },
     {
+     "form": "ānu",
+     "preverb": "ā",
+     "n": 0
+    },
+    {
+     "form": "anunu",
+     "preverb": "anu",
+     "n": 0
+    },
+    {
      "form": "abhinu",
      "preverb": "abhi",
      "n": 0
@@ -65672,8 +67544,8 @@
      "n": 0
     },
     {
-     "form": "acchānu",
-     "preverb": "acchā",
+     "form": "anvānu",
+     "preverb": "anvā",
      "n": 0
     },
     {
@@ -65682,18 +67554,8 @@
      "n": 0
     },
     {
-     "form": "anunu",
-     "preverb": "anu",
-     "n": 0
-    },
-    {
-     "form": "anvānu",
-     "preverb": "anvā",
-     "n": 0
-    },
-    {
-     "form": "ānu",
-     "preverb": "ā",
+     "form": "acchānu",
+     "preverb": "acchā",
      "n": 0
     }
    ],
@@ -65737,6 +67599,16 @@
      "n": 1
     },
     {
+     "form": "ānu",
+     "preverb": "ā",
+     "n": 0
+    },
+    {
+     "form": "anunu",
+     "preverb": "anu",
+     "n": 0
+    },
+    {
      "form": "abhinu",
      "preverb": "abhi",
      "n": 0
@@ -65747,8 +67619,8 @@
      "n": 0
     },
     {
-     "form": "acchānu",
-     "preverb": "acchā",
+     "form": "anvānu",
+     "preverb": "anvā",
      "n": 0
     },
     {
@@ -65757,18 +67629,8 @@
      "n": 0
     },
     {
-     "form": "anunu",
-     "preverb": "anu",
-     "n": 0
-    },
-    {
-     "form": "anvānu",
-     "preverb": "anvā",
-     "n": 0
-    },
-    {
-     "form": "ānu",
-     "preverb": "ā",
+     "form": "acchānu",
+     "preverb": "acchā",
      "n": 0
     }
    ],
@@ -66017,13 +67879,13 @@
      "n": 5
     },
     {
-     "form": "vyapanud",
-     "preverb": "vyapa",
+     "form": "upanud",
+     "preverb": "upa",
      "n": 3
     },
     {
-     "form": "upanud",
-     "preverb": "upa",
+     "form": "vyapanud",
+     "preverb": "vyapa",
      "n": 3
     },
     {
@@ -66319,13 +68181,13 @@
      "n": 1
     },
     {
-     "form": "abhipranṛt",
-     "preverb": "abhipra",
+     "form": "anunṛt",
+     "preverb": "anu",
      "n": 1
     },
     {
-     "form": "anunṛt",
-     "preverb": "anu",
+     "form": "abhipranṛt",
+     "preverb": "abhipra",
      "n": 1
     },
     {
@@ -66334,13 +68196,13 @@
      "n": 1
     },
     {
-     "form": "abhyānṛt",
-     "preverb": "abhyā",
+     "form": "ninṛt",
+     "preverb": "ni",
      "n": 0
     },
     {
-     "form": "adhinṛt",
-     "preverb": "adhi",
+     "form": "abhyānṛt",
+     "preverb": "abhyā",
      "n": 0
     }
    ],
@@ -66680,6 +68542,11 @@
      "n": 6
     },
     {
+     "form": "samprapac",
+     "preverb": "sampra",
+     "n": 1
+    },
+    {
      "form": "abhipac",
      "preverb": "abhi",
      "n": 1
@@ -66687,11 +68554,6 @@
     {
      "form": "abhiprapac",
      "preverb": "abhipra",
-     "n": 1
-    },
-    {
-     "form": "samprapac",
-     "preverb": "sampra",
      "n": 1
     },
     {
@@ -66771,7 +68633,7 @@
   "438": {
    "root": "paṭh",
    "dcs_lemma": "paṭh",
-   "dcs_status": "matched",
+   "dcs_status": "homonym_shared",
    "total": 582,
    "rank": 276,
    "grammar_class": [
@@ -67021,11 +68883,6 @@
      "n": 6
     },
     {
-     "form": "sampaṭh",
-     "preverb": "sam",
-     "n": 2
-    },
-    {
      "form": "abhipaṭh",
      "preverb": "abhi",
      "n": 2
@@ -67033,6 +68890,11 @@
     {
      "form": "anupaṭh",
      "preverb": "anu",
+     "n": 2
+    },
+    {
+     "form": "sampaṭh",
+     "preverb": "sam",
      "n": 2
     },
     {
@@ -68116,21 +69978,290 @@
   },
   "442": {
    "root": "path",
-   "dcs_lemma": null,
-   "dcs_status": "unmatched",
-   "total": 0,
-   "rank": null,
-   "grammar_class": [],
+   "dcs_lemma": "paṭh",
+   "dcs_status": "homonym_shared",
+   "total": 582,
+   "rank": 276,
+   "grammar_class": [
+    "1"
+   ],
    "grammar_derived": [],
-   "grammar_raw": "",
-   "verbforms": {},
-   "tenses": {},
-   "voices": {},
-   "top_forms": [],
-   "ppp": [],
-   "participles": {},
-   "preverbs": [],
-   "present_stem_signal": {}
+   "grammar_raw": "1. Ā.",
+   "verbforms": {
+    "Part": 145,
+    "Finite": 413,
+    "Conv": 18,
+    "Gdv": 4,
+    "Inf": 2
+   },
+   "tenses": {
+    "Pres": 482,
+    "—": 75,
+    "Past": 8,
+    "Impf": 9,
+    "Fut": 8
+   },
+   "voices": {
+    "Active": 510,
+    "Pass": 72
+   },
+   "top_forms": [
+    {
+     "form": "paṭhet",
+     "n": 135
+    },
+    {
+     "form": "paṭhanti",
+     "n": 83
+    },
+    {
+     "form": "paṭhyate",
+     "n": 48
+    },
+    {
+     "form": "paṭhan",
+     "n": 41
+    },
+    {
+     "form": "paṭhati",
+     "n": 34
+    },
+    {
+     "form": "paṭhed",
+     "n": 23
+    },
+    {
+     "form": "paṭhate",
+     "n": 21
+    },
+    {
+     "form": "paṭhitvā",
+     "n": 18
+    },
+    {
+     "form": "paṭhatāṃ",
+     "n": 13
+    },
+    {
+     "form": "paṭhitaḥ",
+     "n": 12
+    },
+    {
+     "form": "paṭhitaṃ",
+     "n": 11
+    },
+    {
+     "form": "paṭhyante",
+     "n": 10
+    },
+    {
+     "form": "paṭhitam",
+     "n": 9
+    },
+    {
+     "form": "paṭheta",
+     "n": 9
+    },
+    {
+     "form": "papāṭha",
+     "n": 8
+    }
+   ],
+   "ppp": [
+    {
+     "stem": "paṭhita",
+     "n": 40
+    },
+    {
+     "stem": "paṭhitaṃ",
+     "n": 11
+    }
+   ],
+   "participles": {
+    "present-active": {
+     "label": "Present active (-at/-ant)",
+     "total": 83,
+     "top": [
+      {
+       "form": "paṭhan",
+       "n": 41
+      },
+      {
+       "form": "paṭhatāṃ",
+       "n": 11
+      },
+      {
+       "form": "paṭhataḥ",
+       "n": 7
+      },
+      {
+       "form": "paṭhann",
+       "n": 5
+      },
+      {
+       "form": "paṭhantaḥ",
+       "n": 3
+      },
+      {
+       "form": "paṭhantaṃ",
+       "n": 2
+      },
+      {
+       "form": "paṭhatā",
+       "n": 2
+      },
+      {
+       "form": "paṭhato",
+       "n": 2
+      }
+     ]
+    },
+    "present-middle": {
+     "label": "Present middle (-māna/-āna)",
+     "total": 2,
+     "top": [
+      {
+       "form": "paṭhamānaḥ",
+       "n": 1
+      },
+      {
+       "form": "paṭhamānaṃ",
+       "n": 1
+      }
+     ]
+    },
+    "present-passive": {
+     "label": "Present passive (-yamāna)",
+     "total": 9,
+     "top": [
+      {
+       "form": "paṭhyamānam",
+       "n": 3
+      },
+      {
+       "form": "paṭhyamānaṃ",
+       "n": 3
+      },
+      {
+       "form": "paṭhyamāna",
+       "n": 1
+      },
+      {
+       "form": "paṭhyamāneṣu",
+       "n": 1
+      },
+      {
+       "form": "paṭhyamānaiḥ",
+       "n": 1
+      }
+     ]
+    },
+    "past-passive": {
+     "label": "Past passive — PPP (-ta/-na)",
+     "total": 51,
+     "top": [
+      {
+       "form": "paṭhitaḥ",
+       "n": 12
+      },
+      {
+       "form": "paṭhitaṃ",
+       "n": 11
+      },
+      {
+       "form": "paṭhitam",
+       "n": 9
+      },
+      {
+       "form": "paṭhita",
+       "n": 7
+      },
+      {
+       "form": "paṭhito",
+       "n": 4
+      },
+      {
+       "form": "paṭhitān",
+       "n": 2
+      },
+      {
+       "form": "paṭhitāḥ",
+       "n": 2
+      },
+      {
+       "form": "paṭhitaiḥ",
+       "n": 2
+      }
+     ]
+    },
+    "gerundive": {
+     "label": "Gerundive / FPP (-tavya/-anīya/-ya)",
+     "total": 4,
+     "top": [
+      {
+       "form": "paṭhanīyam",
+       "n": 1
+      },
+      {
+       "form": "paṭhitavyo",
+       "n": 1
+      },
+      {
+       "form": "paṭhitavyaṃ",
+       "n": 1
+      },
+      {
+       "form": "paṭhanīyaḥ",
+       "n": 1
+      }
+     ]
+    }
+   },
+   "preverbs": [
+    {
+     "form": "paripaṭh",
+     "preverb": "pari",
+     "n": 15
+    },
+    {
+     "form": "prapaṭh",
+     "preverb": "pra",
+     "n": 6
+    },
+    {
+     "form": "abhipaṭh",
+     "preverb": "abhi",
+     "n": 2
+    },
+    {
+     "form": "anupaṭh",
+     "preverb": "anu",
+     "n": 2
+    },
+    {
+     "form": "sampaṭh",
+     "preverb": "sam",
+     "n": 2
+    },
+    {
+     "form": "vyatipaṭh",
+     "preverb": "vyati",
+     "n": 0
+    }
+   ],
+   "present_stem_signal": {
+    "dominant": "I/VI",
+    "evidence": [
+     {
+      "bucket": "?",
+      "n": 186
+     },
+     {
+      "bucket": "I/VI",
+      "n": 140
+     }
+    ]
+   }
   },
   "443": {
    "root": "pad",
@@ -68328,13 +70459,13 @@
      "n": 95
     },
     {
-     "form": "vyāpad",
-     "preverb": "vyā",
+     "form": "samāpad",
+     "preverb": "samā",
      "n": 79
     },
     {
-     "form": "samāpad",
-     "preverb": "samā",
+     "form": "vyāpad",
+     "preverb": "vyā",
      "n": 79
     }
    ],
@@ -68759,13 +70890,13 @@
      "n": 13
     },
     {
-     "form": "parāpaś",
-     "preverb": "parā",
+     "form": "utpaś",
+     "preverb": "ut",
      "n": 7
     },
     {
-     "form": "utpaś",
-     "preverb": "ut",
+     "form": "parāpaś",
+     "preverb": "parā",
      "n": 7
     },
     {
@@ -69101,13 +71232,13 @@
      "n": 13
     },
     {
-     "form": "parāpaś",
-     "preverb": "parā",
+     "form": "utpaś",
+     "preverb": "ut",
      "n": 7
     },
     {
-     "form": "utpaś",
-     "preverb": "ut",
+     "form": "parāpaś",
+     "preverb": "parā",
      "n": 7
     },
     {
@@ -69557,13 +71688,13 @@
      "n": 7
     },
     {
-     "form": "samāpā",
-     "preverb": "samā",
+     "form": "anūtpā",
+     "preverb": "anūt",
      "n": 4
     },
     {
-     "form": "anūtpā",
-     "preverb": "anūt",
+     "form": "samāpā",
+     "preverb": "samā",
      "n": 4
     },
     {
@@ -70004,13 +72135,13 @@
      "n": 7
     },
     {
-     "form": "samāpā",
-     "preverb": "samā",
+     "form": "anūtpā",
+     "preverb": "anūt",
      "n": 4
     },
     {
-     "form": "anūtpā",
-     "preverb": "anūt",
+     "form": "samāpā",
+     "preverb": "samā",
      "n": 4
     },
     {
@@ -70451,13 +72582,13 @@
      "n": 7
     },
     {
-     "form": "samāpā",
-     "preverb": "samā",
+     "form": "anūtpā",
+     "preverb": "anūt",
      "n": 4
     },
     {
-     "form": "anūtpā",
-     "preverb": "anūt",
+     "form": "samāpā",
+     "preverb": "samā",
      "n": 4
     },
     {
@@ -70916,7 +73047,7 @@
   "456": {
    "root": "piṣ",
    "dcs_lemma": "piṣ",
-   "dcs_status": "matched",
+   "dcs_status": "homonym_shared",
    "total": 1062,
    "rank": 158,
    "grammar_class": [
@@ -71188,11 +73319,6 @@
      "n": 4
     },
     {
-     "form": "āpiṣ",
-     "preverb": "ā",
-     "n": 2
-    },
-    {
      "form": "nipiṣ",
      "preverb": "ni",
      "n": 2
@@ -71203,13 +73329,18 @@
      "n": 2
     },
     {
+     "form": "āpiṣ",
+     "preverb": "ā",
+     "n": 2
+    },
+    {
      "form": "abhipiṣ",
      "preverb": "abhi",
      "n": 2
     },
     {
-     "form": "vinipiṣ",
-     "preverb": "vini",
+     "form": "avapiṣ",
+     "preverb": "ava",
      "n": 1
     },
     {
@@ -71218,13 +73349,13 @@
      "n": 1
     },
     {
-     "form": "avapiṣ",
-     "preverb": "ava",
+     "form": "vinipiṣ",
+     "preverb": "vini",
      "n": 1
     },
     {
-     "form": "abhipratipiṣ",
-     "preverb": "abhiprati",
+     "form": "anupiṣ",
+     "preverb": "anu",
      "n": 0
     }
    ],
@@ -71248,21 +73379,336 @@
   },
   "457": {
    "root": "pis",
-   "dcs_lemma": null,
-   "dcs_status": "unmatched",
-   "total": 0,
-   "rank": null,
-   "grammar_class": [],
+   "dcs_lemma": "piṣ",
+   "dcs_status": "homonym_shared",
+   "total": 1062,
+   "rank": 158,
+   "grammar_class": [
+    "1"
+   ],
    "grammar_derived": [],
-   "grammar_raw": "",
-   "verbforms": {},
-   "tenses": {},
-   "voices": {},
-   "top_forms": [],
-   "ppp": [],
-   "participles": {},
-   "preverbs": [],
-   "present_stem_signal": {}
+   "grammar_raw": "1. P.; m",
+   "verbforms": {
+    "Part": 454,
+    "Finite": 71,
+    "Conv": 477,
+    "Gdv": 60
+   },
+   "tenses": {
+    "—": 975,
+    "Past": 22,
+    "Pres": 63,
+    "Impf": 2
+   },
+   "voices": {
+    "Active": 1059,
+    "Pass": 3
+   },
+   "top_forms": [
+    {
+     "form": "piṣṭvā",
+     "n": 476
+    },
+    {
+     "form": "piṣṭaiḥ",
+     "n": 78
+    },
+    {
+     "form": "piṣṭam",
+     "n": 73
+    },
+    {
+     "form": "piṣṭaṃ",
+     "n": 68
+    },
+    {
+     "form": "piṣṭa",
+     "n": 38
+    },
+    {
+     "form": "peṣyaṃ",
+     "n": 35
+    },
+    {
+     "form": "piṣṭaḥ",
+     "n": 33
+    },
+    {
+     "form": "piṣṭena",
+     "n": 23
+    },
+    {
+     "form": "piṣṭāḥ",
+     "n": 22
+    },
+    {
+     "form": "piṣṭair",
+     "n": 17
+    },
+    {
+     "form": "piṣṭāni",
+     "n": 17
+    },
+    {
+     "form": "pinaṣṭi",
+     "n": 16
+    },
+    {
+     "form": "piṣṭā",
+     "n": 14
+    },
+    {
+     "form": "piṣṭān",
+     "n": 11
+    },
+    {
+     "form": "pipeṣa",
+     "n": 11
+    }
+   ],
+   "ppp": [
+    {
+     "stem": "piṣṭa",
+     "n": 342
+    },
+    {
+     "stem": "piṣṭaṃ",
+     "n": 68
+    },
+    {
+     "stem": "piṣṭair",
+     "n": 17
+    },
+    {
+     "stem": "piṣṭaya",
+     "n": 4
+    },
+    {
+     "stem": "piṣṭād",
+     "n": 4
+    },
+    {
+     "stem": "piṣṭāṃ",
+     "n": 3
+    },
+    {
+     "stem": "piṣṭās",
+     "n": 3
+    },
+    {
+     "stem": "piṣṭābhyāṃ",
+     "n": 1
+    },
+    {
+     "stem": "piṣṭābhir",
+     "n": 1
+    },
+    {
+     "stem": "piṣṭaiś",
+     "n": 1
+    },
+    {
+     "stem": "piṣṭābhya",
+     "n": 1
+    }
+   ],
+   "participles": {
+    "present-active": {
+     "label": "Present active (-at/-ant)",
+     "total": 8,
+     "top": [
+      {
+       "form": "piṃṣatī",
+       "n": 2
+      },
+      {
+       "form": "piṣan",
+       "n": 2
+      },
+      {
+       "form": "piṃṣan",
+       "n": 1
+      },
+      {
+       "form": "piṣyan",
+       "n": 1
+      },
+      {
+       "form": "piṃṣann",
+       "n": 1
+      },
+      {
+       "form": "piṃṣanto",
+       "n": 1
+      }
+     ]
+    },
+    "present-passive": {
+     "label": "Present passive (-yamāna)",
+     "total": 1,
+     "top": [
+      {
+       "form": "piṣyamāṇānām",
+       "n": 1
+      }
+     ]
+    },
+    "past-passive": {
+     "label": "Past passive — PPP (-ta/-na)",
+     "total": 445,
+     "top": [
+      {
+       "form": "piṣṭaiḥ",
+       "n": 78
+      },
+      {
+       "form": "piṣṭam",
+       "n": 73
+      },
+      {
+       "form": "piṣṭaṃ",
+       "n": 68
+      },
+      {
+       "form": "piṣṭa",
+       "n": 38
+      },
+      {
+       "form": "piṣṭaḥ",
+       "n": 33
+      },
+      {
+       "form": "piṣṭena",
+       "n": 23
+      },
+      {
+       "form": "piṣṭāḥ",
+       "n": 22
+      },
+      {
+       "form": "piṣṭair",
+       "n": 17
+      }
+     ]
+    },
+    "gerundive": {
+     "label": "Gerundive / FPP (-tavya/-anīya/-ya)",
+     "total": 60,
+     "top": [
+      {
+       "form": "peṣyaṃ",
+       "n": 35
+      },
+      {
+       "form": "peṣyam",
+       "n": 7
+      },
+      {
+       "form": "peṣyāṇi",
+       "n": 4
+      },
+      {
+       "form": "peṣyā",
+       "n": 3
+      },
+      {
+       "form": "peṣyaḥ",
+       "n": 2
+      },
+      {
+       "form": "peṣyair",
+       "n": 2
+      },
+      {
+       "form": "peṣyasya",
+       "n": 1
+      },
+      {
+       "form": "peṣya",
+       "n": 1
+      }
+     ]
+    }
+   },
+   "preverbs": [
+    {
+     "form": "sampiṣ",
+     "preverb": "sam",
+     "n": 86
+    },
+    {
+     "form": "pratipiṣ",
+     "preverb": "prati",
+     "n": 13
+    },
+    {
+     "form": "prapiṣ",
+     "preverb": "pra",
+     "n": 5
+    },
+    {
+     "form": "vipiṣ",
+     "preverb": "vi",
+     "n": 4
+    },
+    {
+     "form": "nipiṣ",
+     "preverb": "ni",
+     "n": 2
+    },
+    {
+     "form": "paripiṣ",
+     "preverb": "pari",
+     "n": 2
+    },
+    {
+     "form": "āpiṣ",
+     "preverb": "ā",
+     "n": 2
+    },
+    {
+     "form": "abhipiṣ",
+     "preverb": "abhi",
+     "n": 2
+    },
+    {
+     "form": "avapiṣ",
+     "preverb": "ava",
+     "n": 1
+    },
+    {
+     "form": "saṃnipiṣ",
+     "preverb": "saṃni",
+     "n": 1
+    },
+    {
+     "form": "vinipiṣ",
+     "preverb": "vini",
+     "n": 1
+    },
+    {
+     "form": "anupiṣ",
+     "preverb": "anu",
+     "n": 0
+    }
+   ],
+   "present_stem_signal": {
+    "dominant": "I/VI",
+    "evidence": [
+     {
+      "bucket": "?",
+      "n": 39
+     },
+     {
+      "bucket": "I/VI",
+      "n": 10
+     },
+     {
+      "bucket": "II/III (athematic)",
+      "n": 3
+     }
+    ]
+   }
   },
   "458": {
    "root": "1 pī",
@@ -71946,13 +74392,13 @@
      "n": 2
     },
     {
-     "form": "abhipuṣ",
-     "preverb": "abhi",
+     "form": "anupuṣ",
+     "preverb": "anu",
      "n": 1
     },
     {
-     "form": "anupuṣ",
-     "preverb": "anu",
+     "form": "abhipuṣ",
+     "preverb": "abhi",
      "n": 1
     }
    ],
@@ -72295,13 +74741,13 @@
      "n": 5
     },
     {
-     "form": "āpū",
-     "preverb": "ā",
+     "form": "prapū",
+     "preverb": "pra",
      "n": 4
     },
     {
-     "form": "prapū",
-     "preverb": "pra",
+     "form": "āpū",
+     "preverb": "ā",
      "n": 4
     },
     {
@@ -72776,8 +75222,8 @@
      "n": 1
     },
     {
-     "form": "apapṛ",
-     "preverb": "apa",
+     "form": "abhiprapṛ",
+     "preverb": "abhipra",
      "n": 0
     },
     {
@@ -73132,8 +75578,8 @@
      "n": 1
     },
     {
-     "form": "apapṛ",
-     "preverb": "apa",
+     "form": "abhiprapṛ",
+     "preverb": "abhipra",
      "n": 0
     },
     {
@@ -73488,8 +75934,8 @@
      "n": 1
     },
     {
-     "form": "apapṛ",
-     "preverb": "apa",
+     "form": "abhiprapṛ",
+     "preverb": "abhipra",
      "n": 0
     },
     {
@@ -73706,13 +76152,13 @@
      "n": 78
     },
     {
-     "form": "upapṛc",
-     "preverb": "upa",
+     "form": "āpṛc",
+     "preverb": "ā",
      "n": 4
     },
     {
-     "form": "āpṛc",
-     "preverb": "ā",
+     "form": "upapṛc",
+     "preverb": "upa",
      "n": 4
     },
     {
@@ -74146,21 +76592,391 @@
   },
   "477": {
    "root": "prach",
-   "dcs_lemma": null,
-   "dcs_status": "unmatched",
-   "total": 0,
-   "rank": null,
-   "grammar_class": [],
+   "dcs_lemma": "pracch",
+   "dcs_status": "aliased",
+   "total": 2851,
+   "rank": 40,
+   "grammar_class": [
+    "1"
+   ],
    "grammar_derived": [],
-   "grammar_raw": "",
-   "verbforms": {},
-   "tenses": {},
-   "voices": {},
-   "top_forms": [],
-   "ppp": [],
-   "participles": {},
-   "preverbs": [],
-   "present_stem_signal": {}
+   "grammar_raw": "1. P.; m",
+   "verbforms": {
+    "Part": 1054,
+    "Finite": 1590,
+    "Gdv": 41,
+    "Conv": 107,
+    "Inf": 59
+   },
+   "tenses": {
+    "—": 1079,
+    "Pres": 916,
+    "Past": 554,
+    "Impf": 284,
+    "Fut": 18
+   },
+   "voices": {
+    "Active": 2810,
+    "Pass": 41
+   },
+   "top_forms": [
+    {
+     "form": "papraccha",
+     "n": 427
+    },
+    {
+     "form": "pṛṣṭaḥ",
+     "n": 291
+    },
+    {
+     "form": "pṛṣṭo",
+     "n": 250
+    },
+    {
+     "form": "pṛcchati",
+     "n": 222
+    },
+    {
+     "form": "pṛcchāmi",
+     "n": 135
+    },
+    {
+     "form": "apṛcchat",
+     "n": 122
+    },
+    {
+     "form": "pṛṣṭvā",
+     "n": 106
+    },
+    {
+     "form": "pṛṣṭā",
+     "n": 91
+    },
+    {
+     "form": "papracchuḥ",
+     "n": 60
+    },
+    {
+     "form": "pṛcchasi",
+     "n": 53
+    },
+    {
+     "form": "pṛṣṭavān",
+     "n": 52
+    },
+    {
+     "form": "pṛccha",
+     "n": 51
+    },
+    {
+     "form": "pṛcchate",
+     "n": 45
+    },
+    {
+     "form": "pṛcchataḥ",
+     "n": 41
+    },
+    {
+     "form": "pṛcchanti",
+     "n": 36
+    }
+   ],
+   "ppp": [
+    {
+     "stem": "pṛṣṭa",
+     "n": 736
+    },
+    {
+     "stem": "pṛṣṭava",
+     "n": 36
+    },
+    {
+     "stem": "pṛṣṭaṃ",
+     "n": 26
+    },
+    {
+     "stem": "pṛṣṭaś",
+     "n": 22
+    },
+    {
+     "stem": "pṛṣṭas",
+     "n": 16
+    },
+    {
+     "stem": "pṛṣṭavan",
+     "n": 7
+    },
+    {
+     "stem": "pṛṣṭās",
+     "n": 5
+    },
+    {
+     "stem": "pṛṣṭaya",
+     "n": 4
+    },
+    {
+     "stem": "pṛṣṭavatī",
+     "n": 3
+    },
+    {
+     "stem": "pṛṣṭāś",
+     "n": 3
+    },
+    {
+     "stem": "pṛṣṭavanta",
+     "n": 2
+    },
+    {
+     "stem": "pṛcchita",
+     "n": 2
+    }
+   ],
+   "participles": {
+    "present-active": {
+     "label": "Present active (-at/-ant)",
+     "total": 150,
+     "top": [
+      {
+       "form": "pṛcchataḥ",
+       "n": 40
+      },
+      {
+       "form": "pṛcchate",
+       "n": 36
+      },
+      {
+       "form": "pṛcchato",
+       "n": 15
+      },
+      {
+       "form": "pṛcchantaṃ",
+       "n": 9
+      },
+      {
+       "form": "pṛcchatām",
+       "n": 6
+      },
+      {
+       "form": "pṛcchantī",
+       "n": 5
+      },
+      {
+       "form": "pṛcchan",
+       "n": 4
+      },
+      {
+       "form": "pṛcchati",
+       "n": 3
+      }
+     ]
+    },
+    "present-middle": {
+     "label": "Present middle (-māna/-āna)",
+     "total": 6,
+     "top": [
+      {
+       "form": "pṛcchamānāv",
+       "n": 2
+      },
+      {
+       "form": "pṛcchamānāḥ",
+       "n": 2
+      },
+      {
+       "form": "pṛcchamāna",
+       "n": 1
+      },
+      {
+       "form": "pṛcchamānaḥ",
+       "n": 1
+      }
+     ]
+    },
+    "present-passive": {
+     "label": "Present passive (-yamāna)",
+     "total": 13,
+     "top": [
+      {
+       "form": "pṛcchyamānā",
+       "n": 4
+      },
+      {
+       "form": "pṛcchyamāno",
+       "n": 3
+      },
+      {
+       "form": "pṛcchyamānāḥ",
+       "n": 2
+      },
+      {
+       "form": "pṛcchyamānena",
+       "n": 1
+      },
+      {
+       "form": "pṛcchyamānaś",
+       "n": 1
+      },
+      {
+       "form": "pṛcchyamānaḥ",
+       "n": 1
+      },
+      {
+       "form": "pṛcchyamānas",
+       "n": 1
+      }
+     ]
+    },
+    "past-passive": {
+     "label": "Past passive — PPP (-ta/-na)",
+     "total": 869,
+     "top": [
+      {
+       "form": "pṛṣṭaḥ",
+       "n": 291
+      },
+      {
+       "form": "pṛṣṭo",
+       "n": 250
+      },
+      {
+       "form": "pṛṣṭā",
+       "n": 91
+      },
+      {
+       "form": "pṛṣṭavān",
+       "n": 36
+      },
+      {
+       "form": "pṛṣṭāḥ",
+       "n": 29
+      },
+      {
+       "form": "pṛṣṭaṃ",
+       "n": 26
+      },
+      {
+       "form": "pṛṣṭena",
+       "n": 25
+      },
+      {
+       "form": "pṛṣṭaś",
+       "n": 22
+      }
+     ]
+    },
+    "perfect-active": {
+     "label": "Perfect active (-vas/-vāṃs)",
+     "total": 16,
+     "top": [
+      {
+       "form": "pṛṣṭavān",
+       "n": 16
+      }
+     ]
+    },
+    "gerundive": {
+     "label": "Gerundive / FPP (-tavya/-anīya/-ya)",
+     "total": 41,
+     "top": [
+      {
+       "form": "praṣṭavyāḥ",
+       "n": 9
+      },
+      {
+       "form": "praṣṭavyaḥ",
+       "n": 7
+      },
+      {
+       "form": "praṣṭavyā",
+       "n": 7
+      },
+      {
+       "form": "praṣṭavyo",
+       "n": 4
+      },
+      {
+       "form": "pṛcchyam",
+       "n": 2
+      },
+      {
+       "form": "praṣṭavya",
+       "n": 2
+      },
+      {
+       "form": "praṣṭavyaṃ",
+       "n": 2
+      },
+      {
+       "form": "praṣṭavyam",
+       "n": 2
+      }
+     ]
+    }
+   },
+   "preverbs": [
+    {
+     "form": "paripracch",
+     "preverb": "pari",
+     "n": 304
+    },
+    {
+     "form": "āpracch",
+     "preverb": "ā",
+     "n": 82
+    },
+    {
+     "form": "sampracch",
+     "preverb": "sam",
+     "n": 29
+    },
+    {
+     "form": "vipracch",
+     "preverb": "vi",
+     "n": 7
+    },
+    {
+     "form": "pratipracch",
+     "preverb": "prati",
+     "n": 4
+    },
+    {
+     "form": "samanupracch",
+     "preverb": "samanu",
+     "n": 3
+    },
+    {
+     "form": "upapracch",
+     "preverb": "upa",
+     "n": 3
+    },
+    {
+     "form": "samāpracch",
+     "preverb": "samā",
+     "n": 2
+    },
+    {
+     "form": "saṃparipracch",
+     "preverb": "saṃpari",
+     "n": 1
+    }
+   ],
+   "present_stem_signal": {
+    "dominant": "I/VI",
+    "evidence": [
+     {
+      "bucket": "I/VI",
+      "n": 503
+     },
+     {
+      "bucket": "?",
+      "n": 216
+     },
+     {
+      "bucket": "II/III (athematic)",
+      "n": 6
+     }
+    ]
+   }
   },
   "478": {
    "root": "prath",
@@ -74828,13 +77644,13 @@
      "n": 5
     },
     {
-     "form": "apapru",
-     "preverb": "apa",
+     "form": "atipru",
+     "preverb": "ati",
      "n": 2
     },
     {
-     "form": "atipru",
-     "preverb": "ati",
+     "form": "apapru",
+     "preverb": "apa",
      "n": 2
     },
     {
@@ -74843,13 +77659,13 @@
      "n": 2
     },
     {
-     "form": "utpru",
-     "preverb": "ut",
+     "form": "abhipru",
+     "preverb": "abhi",
      "n": 0
     },
     {
-     "form": "abhipru",
-     "preverb": "abhi",
+     "form": "utpru",
+     "preverb": "ut",
      "n": 0
     }
    ],
@@ -75341,13 +78157,13 @@
      "n": 14
     },
     {
-     "form": "samāplu",
-     "preverb": "samā",
+     "form": "praplu",
+     "preverb": "pra",
      "n": 8
     },
     {
-     "form": "praplu",
-     "preverb": "pra",
+     "form": "samāplu",
+     "preverb": "samā",
      "n": 8
     }
    ],
@@ -76708,13 +79524,13 @@
      "n": 4
     },
     {
-     "form": "samprabādh",
-     "preverb": "sampra",
+     "form": "anubādh",
+     "preverb": "anu",
      "n": 1
     },
     {
-     "form": "anubādh",
-     "preverb": "anu",
+     "form": "samprabādh",
+     "preverb": "sampra",
      "n": 1
     },
     {
@@ -77070,11 +79886,6 @@
      "n": 11
     },
     {
-     "form": "paribudh",
-     "preverb": "pari",
-     "n": 3
-    },
-    {
      "form": "abhivibudh",
      "preverb": "abhivi",
      "n": 3
@@ -77085,8 +79896,13 @@
      "n": 3
     },
     {
-     "form": "samprabudh",
-     "preverb": "sampra",
+     "form": "paribudh",
+     "preverb": "pari",
+     "n": 3
+    },
+    {
+     "form": "saṃnibudh",
+     "preverb": "saṃni",
      "n": 2
     }
    ],
@@ -77269,13 +80085,13 @@
      "n": 11
     },
     {
-     "form": "udbṛṃh",
-     "preverb": "ud",
+     "form": "vibṛṃh",
+     "preverb": "vi",
      "n": 1
     },
     {
-     "form": "vibṛṃh",
-     "preverb": "vi",
+     "form": "udbṛṃh",
+     "preverb": "ud",
      "n": 1
     }
    ],
@@ -77535,13 +80351,13 @@
      "n": 3
     },
     {
-     "form": "atibrū",
-     "preverb": "ati",
+     "form": "paribrū",
+     "preverb": "pari",
      "n": 2
     },
     {
-     "form": "paribrū",
-     "preverb": "pari",
+     "form": "atibrū",
+     "preverb": "ati",
      "n": 2
     },
     {
@@ -78441,11 +81257,6 @@
      "n": 2
     },
     {
-     "form": "pratibhañj",
-     "preverb": "prati",
-     "n": 1
-    },
-    {
      "form": "paribhañj",
      "preverb": "pari",
      "n": 1
@@ -78458,6 +81269,11 @@
     {
      "form": "saṃprabhañj",
      "preverb": "saṃpra",
+     "n": 1
+    },
+    {
+     "form": "pratibhañj",
+     "preverb": "prati",
      "n": 1
     },
     {
@@ -79388,13 +82204,13 @@
      "n": 6
     },
     {
-     "form": "samābhā",
-     "preverb": "samā",
+     "form": "anubhā",
+     "preverb": "anu",
      "n": 4
     },
     {
-     "form": "anubhā",
-     "preverb": "anu",
+     "form": "samābhā",
+     "preverb": "samā",
      "n": 4
     },
     {
@@ -80644,13 +83460,13 @@
      "n": 4
     },
     {
-     "form": "nibhid",
-     "preverb": "ni",
+     "form": "anusambhid",
+     "preverb": "anusam",
      "n": 2
     },
     {
-     "form": "anusambhid",
-     "preverb": "anusam",
+     "form": "nibhid",
+     "preverb": "ni",
      "n": 2
     },
     {
@@ -81493,8 +84309,8 @@
      "n": 2
     },
     {
-     "form": "nibhuj",
-     "preverb": "ni",
+     "form": "samanubhuj",
+     "preverb": "samanu",
      "n": 1
     }
    ],
@@ -81955,8 +84771,8 @@
      "n": 2
     },
     {
-     "form": "nibhuj",
-     "preverb": "ni",
+     "form": "samanubhuj",
+     "preverb": "samanu",
      "n": 1
     }
    ],
@@ -82597,13 +85413,13 @@
      "n": 5
     },
     {
-     "form": "prabhūṣ",
-     "preverb": "pra",
+     "form": "ābhūṣ",
+     "preverb": "ā",
      "n": 4
     },
     {
-     "form": "ābhūṣ",
-     "preverb": "ā",
+     "form": "prabhūṣ",
+     "preverb": "pra",
      "n": 4
     },
     {
@@ -82617,8 +85433,23 @@
      "n": 0
     },
     {
+     "form": "atibhūṣ",
+     "preverb": "ati",
+     "n": 0
+    },
+    {
+     "form": "upabhūṣ",
+     "preverb": "upa",
+     "n": 0
+    },
+    {
      "form": "upābhūṣ",
      "preverb": "upā",
+     "n": 0
+    },
+    {
+     "form": "abhibhūṣ",
+     "preverb": "abhi",
      "n": 0
     },
     {
@@ -82629,21 +85460,6 @@
     {
      "form": "anuprabhūṣ",
      "preverb": "anupra",
-     "n": 0
-    },
-    {
-     "form": "abhibhūṣ",
-     "preverb": "abhi",
-     "n": 0
-    },
-    {
-     "form": "upabhūṣ",
-     "preverb": "upa",
-     "n": 0
-    },
-    {
-     "form": "atibhūṣ",
-     "preverb": "ati",
      "n": 0
     }
    ],
@@ -84382,13 +87198,13 @@
      "n": 5
     },
     {
-     "form": "avamajj",
-     "preverb": "ava",
+     "form": "vinimajj",
+     "preverb": "vini",
      "n": 3
     },
     {
-     "form": "vinimajj",
-     "preverb": "vini",
+     "form": "avamajj",
+     "preverb": "ava",
      "n": 3
     },
     {
@@ -84849,19 +87665,14 @@
      "n": 8
     },
     {
-     "form": "āmath",
-     "preverb": "ā",
-     "n": 3
-    },
-    {
      "form": "sammath",
      "preverb": "sam",
      "n": 3
     },
     {
-     "form": "avamath",
-     "preverb": "ava",
-     "n": 1
+     "form": "āmath",
+     "preverb": "ā",
+     "n": 3
     },
     {
      "form": "vyāmath",
@@ -84871,6 +87682,11 @@
     {
      "form": "adhimath",
      "preverb": "adhi",
+     "n": 1
+    },
+    {
+     "form": "avamath",
+     "preverb": "ava",
      "n": 1
     },
     {
@@ -85192,13 +88008,13 @@
      "n": 19
     },
     {
-     "form": "vimad",
-     "preverb": "vi",
+     "form": "abhimad",
+     "preverb": "abhi",
      "n": 4
     },
     {
-     "form": "abhimad",
-     "preverb": "abhi",
+     "form": "vimad",
+     "preverb": "vi",
      "n": 4
     },
     {
@@ -85207,8 +88023,8 @@
      "n": 3
     },
     {
-     "form": "upamad",
-     "preverb": "upa",
+     "form": "saṃpramad",
+     "preverb": "saṃpra",
      "n": 2
     },
     {
@@ -85217,18 +88033,18 @@
      "n": 2
     },
     {
-     "form": "saṃpramad",
-     "preverb": "saṃpra",
+     "form": "upamad",
+     "preverb": "upa",
      "n": 2
-    },
-    {
-     "form": "āmad",
-     "preverb": "ā",
-     "n": 1
     },
     {
      "form": "anupramad",
      "preverb": "anupra",
+     "n": 1
+    },
+    {
+     "form": "āmad",
+     "preverb": "ā",
      "n": 1
     },
     {
@@ -85549,13 +88365,13 @@
      "n": 27
     },
     {
-     "form": "pratiman",
-     "preverb": "prati",
+     "form": "abhyavaman",
+     "preverb": "abhyava",
      "n": 3
     },
     {
-     "form": "abhyavaman",
-     "preverb": "abhyava",
+     "form": "pratiman",
+     "preverb": "prati",
      "n": 3
     },
     {
@@ -85569,13 +88385,13 @@
      "n": 2
     },
     {
-     "form": "abhisamman",
-     "preverb": "abhisam",
+     "form": "pariman",
+     "preverb": "pari",
      "n": 2
     },
     {
-     "form": "pariman",
-     "preverb": "pari",
+     "form": "abhisamman",
+     "preverb": "abhisam",
      "n": 2
     },
     {
@@ -89195,13 +92011,13 @@
      "n": 2
     },
     {
-     "form": "anupramud",
-     "preverb": "anupra",
+     "form": "samparimud",
+     "preverb": "sampari",
      "n": 0
     },
     {
-     "form": "samparimud",
-     "preverb": "sampari",
+     "form": "anupramud",
+     "preverb": "anupra",
      "n": 0
     }
    ],
@@ -89443,11 +92259,6 @@
      "n": 2
     },
     {
-     "form": "avamuṣ",
-     "preverb": "ava",
-     "n": 1
-    },
-    {
      "form": "vimuṣ",
      "preverb": "vi",
      "n": 1
@@ -89455,6 +92266,11 @@
     {
      "form": "sammuṣ",
      "preverb": "sam",
+     "n": 1
+    },
+    {
+     "form": "avamuṣ",
+     "preverb": "ava",
      "n": 1
     }
    ],
@@ -89750,13 +92566,13 @@
      "n": 2
     },
     {
-     "form": "vipramuh",
-     "preverb": "vipra",
+     "form": "abhimuh",
+     "preverb": "abhi",
      "n": 1
     },
     {
-     "form": "abhimuh",
-     "preverb": "abhi",
+     "form": "vipramuh",
+     "preverb": "vipra",
      "n": 1
     },
     {
@@ -90037,13 +92853,13 @@
      "n": 1
     },
     {
-     "form": "āmūrch",
-     "preverb": "ā",
+     "form": "avamūrch",
+     "preverb": "ava",
      "n": 0
     },
     {
-     "form": "avamūrch",
-     "preverb": "ava",
+     "form": "āmūrch",
+     "preverb": "ā",
      "n": 0
     }
    ],
@@ -91770,19 +94586,14 @@
      "n": 7
     },
     {
-     "form": "nimṛd",
-     "preverb": "ni",
-     "n": 3
-    },
-    {
      "form": "saṃpramṛd",
      "preverb": "saṃpra",
      "n": 3
     },
     {
-     "form": "upamṛd",
-     "preverb": "upa",
-     "n": 2
+     "form": "nimṛd",
+     "preverb": "ni",
+     "n": 3
     },
     {
      "form": "āmṛd",
@@ -91790,13 +94601,18 @@
      "n": 2
     },
     {
-     "form": "abhimṛd",
-     "preverb": "abhi",
-     "n": 1
+     "form": "upamṛd",
+     "preverb": "upa",
+     "n": 2
     },
     {
      "form": "apamṛd",
      "preverb": "apa",
+     "n": 1
+    },
+    {
+     "form": "abhimṛd",
+     "preverb": "abhi",
      "n": 1
     }
    ],
@@ -92106,13 +94922,13 @@
      "n": 165
     },
     {
-     "form": "parāmṛś",
-     "preverb": "parā",
+     "form": "sammṛś",
+     "preverb": "sam",
      "n": 104
     },
     {
-     "form": "sammṛś",
-     "preverb": "sam",
+     "form": "parāmṛś",
+     "preverb": "parā",
      "n": 104
     },
     {
@@ -92314,13 +95130,13 @@
    },
    "preverbs": [
     {
-     "form": "pramṛṣ",
-     "preverb": "pra",
+     "form": "vimṛṣ",
+     "preverb": "vi",
      "n": 5
     },
     {
-     "form": "vimṛṣ",
-     "preverb": "vi",
+     "form": "pramṛṣ",
+     "preverb": "pra",
      "n": 5
     },
     {
@@ -92329,24 +95145,14 @@
      "n": 3
     },
     {
-     "form": "vyapamṛṣ",
-     "preverb": "vyapa",
-     "n": 1
-    },
-    {
      "form": "pratimṛṣ",
      "preverb": "prati",
      "n": 1
     },
     {
-     "form": "pratyavamṛṣ",
-     "preverb": "pratyava",
-     "n": 0
-    },
-    {
-     "form": "apimṛṣ",
-     "preverb": "api",
-     "n": 0
+     "form": "vyapamṛṣ",
+     "preverb": "vyapa",
+     "n": 1
     },
     {
      "form": "parimṛṣ",
@@ -92354,8 +95160,18 @@
      "n": 0
     },
     {
+     "form": "pratyavamṛṣ",
+     "preverb": "pratyava",
+     "n": 0
+    },
+    {
      "form": "āmṛṣ",
      "preverb": "ā",
+     "n": 0
+    },
+    {
+     "form": "apimṛṣ",
+     "preverb": "api",
      "n": 0
     }
    ],
@@ -93020,8 +95836,8 @@
      "n": 7
     },
     {
-     "form": "āmlā",
-     "preverb": "ā",
+     "form": "vimlā",
+     "preverb": "vi",
      "n": 1
     },
     {
@@ -93030,8 +95846,8 @@
      "n": 1
     },
     {
-     "form": "vimlā",
-     "preverb": "vi",
+     "form": "āmlā",
+     "preverb": "ā",
      "n": 1
     }
    ],
@@ -93183,21 +95999,304 @@
   },
   "596": {
    "root": "yach",
-   "dcs_lemma": null,
-   "dcs_status": "unmatched",
-   "total": 0,
-   "rank": null,
-   "grammar_class": [],
+   "dcs_lemma": "yam",
+   "dcs_status": "homonym_shared",
+   "total": 1093,
+   "rank": 153,
+   "grammar_class": [
+    "6"
+   ],
    "grammar_derived": [],
-   "grammar_raw": "",
-   "verbforms": {},
-   "tenses": {},
-   "voices": {},
-   "top_forms": [],
-   "ppp": [],
-   "participles": {},
-   "preverbs": [],
-   "present_stem_signal": {}
+   "grammar_raw": "6. P.; m",
+   "verbforms": {
+    "Finite": 805,
+    "Part": 258,
+    "Inf": 18,
+    "Conv": 7,
+    "Gdv": 5
+   },
+   "tenses": {
+    "Pres": 596,
+    "—": 262,
+    "Impf": 23,
+    "Past": 191,
+    "Fut": 21
+   },
+   "voices": {
+    "Active": 1071,
+    "Pass": 22
+   },
+   "top_forms": [
+    {
+     "form": "yaccha",
+     "n": 206
+    },
+    {
+     "form": "yata",
+     "n": 180
+    },
+    {
+     "form": "yacchati",
+     "n": 98
+    },
+    {
+     "form": "yacchatu",
+     "n": 30
+    },
+    {
+     "form": "yacchata",
+     "n": 28
+    },
+    {
+     "form": "yacchantu",
+     "n": 26
+    },
+    {
+     "form": "yacchet",
+     "n": 23
+    },
+    {
+     "form": "yataḥ",
+     "n": 22
+    },
+    {
+     "form": "yacchanti",
+     "n": 22
+    },
+    {
+     "form": "yacchatam",
+     "n": 22
+    },
+    {
+     "form": "ayāmi",
+     "n": 19
+    },
+    {
+     "form": "yemire",
+     "n": 19
+    },
+    {
+     "form": "yacchaty",
+     "n": 17
+    },
+    {
+     "form": "yantum",
+     "n": 12
+    },
+    {
+     "form": "yaṃsat",
+     "n": 12
+    }
+   ],
+   "ppp": [
+    {
+     "stem": "yata",
+     "n": 232
+    },
+    {
+     "stem": "yemāna",
+     "n": 7
+    },
+    {
+     "stem": "yataṃ",
+     "n": 3
+    },
+    {
+     "stem": "yatāyai",
+     "n": 2
+    },
+    {
+     "stem": "yatās",
+     "n": 1
+    },
+    {
+     "stem": "yatāsa",
+     "n": 1
+    }
+   ],
+   "participles": {
+    "present-active": {
+     "label": "Present active (-at/-ant)",
+     "total": 10,
+     "top": [
+      {
+       "form": "yacchato",
+       "n": 3
+      },
+      {
+       "form": "yacchan",
+       "n": 3
+      },
+      {
+       "form": "yacchate",
+       "n": 1
+      },
+      {
+       "form": "yacchataḥ",
+       "n": 1
+      },
+      {
+       "form": "yacchantīṣu",
+       "n": 1
+      },
+      {
+       "form": "yacchantīr",
+       "n": 1
+      }
+     ]
+    },
+    "present-middle": {
+     "label": "Present middle (-māna/-āna)",
+     "total": 1,
+     "top": [
+      {
+       "form": "yacchamānāḥ",
+       "n": 1
+      }
+     ]
+    },
+    "present-passive": {
+     "label": "Present passive (-yamāna)",
+     "total": 1,
+     "top": [
+      {
+       "form": "yamyamāneṣu",
+       "n": 1
+      }
+     ]
+    },
+    "past-passive": {
+     "label": "Past passive — PPP (-ta/-na)",
+     "total": 246,
+     "top": [
+      {
+       "form": "yata",
+       "n": 180
+      },
+      {
+       "form": "yataḥ",
+       "n": 22
+      },
+      {
+       "form": "yatā",
+       "n": 8
+      },
+      {
+       "form": "yato",
+       "n": 7
+      },
+      {
+       "form": "yatam",
+       "n": 4
+      },
+      {
+       "form": "yemāno",
+       "n": 4
+      },
+      {
+       "form": "yatāḥ",
+       "n": 3
+      },
+      {
+       "form": "yataṃ",
+       "n": 3
+      }
+     ]
+    },
+    "gerundive": {
+     "label": "Gerundive / FPP (-tavya/-anīya/-ya)",
+     "total": 5,
+     "top": [
+      {
+       "form": "yantavyā",
+       "n": 3
+      },
+      {
+       "form": "yamya",
+       "n": 1
+      },
+      {
+       "form": "yantavyāḥ",
+       "n": 1
+      }
+     ]
+    }
+   },
+   "preverbs": [
+    {
+     "form": "prayam",
+     "preverb": "pra",
+     "n": 1563
+    },
+    {
+     "form": "niyam",
+     "preverb": "ni",
+     "n": 1013
+    },
+    {
+     "form": "āyam",
+     "preverb": "ā",
+     "n": 678
+    },
+    {
+     "form": "upayam",
+     "preverb": "upa",
+     "n": 156
+    },
+    {
+     "form": "samprayam",
+     "preverb": "sampra",
+     "n": 95
+    },
+    {
+     "form": "vyāyam",
+     "preverb": "vyā",
+     "n": 93
+    },
+    {
+     "form": "anuprayam",
+     "preverb": "anupra",
+     "n": 59
+    },
+    {
+     "form": "abhyudyam",
+     "preverb": "abhyud",
+     "n": 50
+    },
+    {
+     "form": "saṃniyam",
+     "preverb": "saṃni",
+     "n": 32
+    },
+    {
+     "form": "abhyāyam",
+     "preverb": "abhyā",
+     "n": 30
+    },
+    {
+     "form": "viniyam",
+     "preverb": "vini",
+     "n": 22
+    },
+    {
+     "form": "utprayam",
+     "preverb": "utpra",
+     "n": 17
+    }
+   ],
+   "present_stem_signal": {
+    "dominant": "I/VI",
+    "evidence": [
+     {
+      "bucket": "?",
+      "n": 427
+     },
+     {
+      "bucket": "I/VI",
+      "n": 156
+     }
+    ]
+   }
   },
   "597": {
    "root": "yaj",
@@ -93667,8 +96766,8 @@
      "n": 3
     },
     {
-     "form": "saṃprayaj",
-     "preverb": "saṃpra",
+     "form": "apayaj",
+     "preverb": "apa",
      "n": 1
     }
    ],
@@ -93999,13 +97098,13 @@
      "n": 6
     },
     {
-     "form": "viyat",
-     "preverb": "vi",
+     "form": "niyat",
+     "preverb": "ni",
      "n": 2
     },
     {
-     "form": "niyat",
-     "preverb": "ni",
+     "form": "viyat",
+     "preverb": "vi",
      "n": 2
     },
     {
@@ -94014,18 +97113,18 @@
      "n": 1
     },
     {
-     "form": "samprayat",
-     "preverb": "sampra",
-     "n": 0
-    },
-    {
-     "form": "atyāyat",
-     "preverb": "atyā",
+     "form": "anuyat",
+     "preverb": "anu",
      "n": 0
     },
     {
      "form": "adhiyat",
      "preverb": "adhi",
+     "n": 0
+    },
+    {
+     "form": "upayat",
+     "preverb": "upa",
      "n": 0
     }
    ],
@@ -94091,7 +97190,7 @@
   "600": {
    "root": "yam",
    "dcs_lemma": "yam",
-   "dcs_status": "matched",
+   "dcs_status": "homonym_shared",
    "total": 1093,
    "rank": 153,
    "grammar_class": [
@@ -95177,13 +98276,13 @@
      "n": 24
     },
     {
-     "form": "abhiyāc",
-     "preverb": "abhi",
+     "form": "prayāc",
+     "preverb": "pra",
      "n": 20
     },
     {
-     "form": "prayāc",
-     "preverb": "pra",
+     "form": "abhiyāc",
+     "preverb": "abhi",
      "n": 20
     },
     {
@@ -95202,13 +98301,13 @@
      "n": 2
     },
     {
-     "form": "udyāc",
-     "preverb": "ud",
+     "form": "pratyanuyāc",
+     "preverb": "pratyanu",
      "n": 1
     },
     {
-     "form": "pratyanuyāc",
-     "preverb": "pratyanu",
+     "form": "udyāc",
+     "preverb": "ud",
      "n": 1
     },
     {
@@ -95493,8 +98592,8 @@
      "n": 5
     },
     {
-     "form": "avayu",
-     "preverb": "ava",
+     "form": "paryāyu",
+     "preverb": "paryā",
      "n": 1
     },
     {
@@ -95503,8 +98602,8 @@
      "n": 1
     },
     {
-     "form": "paryāyu",
-     "preverb": "paryā",
+     "form": "avayu",
+     "preverb": "ava",
      "n": 1
     }
    ],
@@ -95718,8 +98817,8 @@
      "n": 5
     },
     {
-     "form": "avayu",
-     "preverb": "ava",
+     "form": "paryāyu",
+     "preverb": "paryā",
      "n": 1
     },
     {
@@ -95728,8 +98827,8 @@
      "n": 1
     },
     {
-     "form": "paryāyu",
-     "preverb": "paryā",
+     "form": "avayu",
+     "preverb": "ava",
      "n": 1
     }
    ],
@@ -96520,13 +99619,13 @@
      "n": 6
     },
     {
-     "form": "āyudh",
-     "preverb": "ā",
+     "form": "anuyudh",
+     "preverb": "anu",
      "n": 2
     },
     {
-     "form": "anuyudh",
-     "preverb": "anu",
+     "form": "āyudh",
+     "preverb": "ā",
      "n": 2
     },
     {
@@ -97884,8 +100983,8 @@
    },
    "preverbs": [
     {
-     "form": "saṃpraran",
-     "preverb": "saṃpra",
+     "form": "niran",
+     "preverb": "ni",
      "n": 1
     },
     {
@@ -97894,8 +100993,8 @@
      "n": 1
     },
     {
-     "form": "niran",
-     "preverb": "ni",
+     "form": "saṃpraran",
+     "preverb": "saṃpra",
      "n": 1
     }
    ],
@@ -98018,8 +101117,8 @@
    },
    "preverbs": [
     {
-     "form": "saṃpraran",
-     "preverb": "saṃpra",
+     "form": "niran",
+     "preverb": "ni",
      "n": 1
     },
     {
@@ -98028,8 +101127,8 @@
      "n": 1
     },
     {
-     "form": "niran",
-     "preverb": "ni",
+     "form": "saṃpraran",
+     "preverb": "saṃpra",
      "n": 1
     }
    ],
@@ -98122,13 +101221,13 @@
    },
    "preverbs": [
     {
-     "form": "pratirap",
-     "preverb": "prati",
+     "form": "prarap",
+     "preverb": "pra",
      "n": 0
     },
     {
-     "form": "prarap",
-     "preverb": "pra",
+     "form": "pratirap",
+     "preverb": "prati",
      "n": 0
     }
    ],
@@ -98722,13 +101821,13 @@
      "n": 5
     },
     {
-     "form": "anuram",
-     "preverb": "anu",
+     "form": "prativiram",
+     "preverb": "prativi",
      "n": 4
     },
     {
-     "form": "prativiram",
-     "preverb": "prativi",
+     "form": "anuram",
+     "preverb": "anu",
      "n": 4
     },
     {
@@ -99790,8 +102889,8 @@
      "n": 1
     },
     {
-     "form": "adhivirāj",
-     "preverb": "adhivi",
+     "form": "anurāj",
+     "preverb": "anu",
      "n": 0
     },
     {
@@ -99800,18 +102899,18 @@
      "n": 0
     },
     {
-     "form": "saṃvirāj",
-     "preverb": "saṃvi",
-     "n": 0
-    },
-    {
-     "form": "anurāj",
-     "preverb": "anu",
+     "form": "adhivirāj",
+     "preverb": "adhivi",
      "n": 0
     },
     {
      "form": "parirāj",
      "preverb": "pari",
+     "n": 0
+    },
+    {
+     "form": "saṃvirāj",
+     "preverb": "saṃvi",
      "n": 0
     }
    ],
@@ -100017,6 +103116,11 @@
      "n": 6
     },
     {
+     "form": "ārādh",
+     "preverb": "ā",
+     "n": 3
+    },
+    {
      "form": "virādh",
      "preverb": "vi",
      "n": 3
@@ -100024,11 +103128,6 @@
     {
      "form": "prarādh",
      "preverb": "pra",
-     "n": 3
-    },
-    {
-     "form": "ārādh",
-     "preverb": "ā",
      "n": 3
     },
     {
@@ -100108,7 +103207,7 @@
   "641": {
    "root": "ri",
    "dcs_lemma": "ri",
-   "dcs_status": "matched",
+   "dcs_status": "homonym_shared",
    "total": 60,
    "rank": 1665,
    "grammar_class": [
@@ -100215,13 +103314,13 @@
    },
    "preverbs": [
     {
-     "form": "anuri",
-     "preverb": "anu",
+     "form": "prari",
+     "preverb": "pra",
      "n": 1
     },
     {
-     "form": "prari",
-     "preverb": "pra",
+     "form": "anuri",
+     "preverb": "anu",
      "n": 1
     },
     {
@@ -100489,18 +103588,8 @@
      "n": 16
     },
     {
-     "form": "praric",
-     "preverb": "pra",
-     "n": 1
-    },
-    {
-     "form": "anuric",
-     "preverb": "anu",
-     "n": 1
-    },
-    {
-     "form": "atyudric",
-     "preverb": "atyud",
+     "form": "samatiric",
+     "preverb": "samati",
      "n": 1
     },
     {
@@ -100509,13 +103598,23 @@
      "n": 1
     },
     {
+     "form": "atyudric",
+     "preverb": "atyud",
+     "n": 1
+    },
+    {
      "form": "āric",
      "preverb": "ā",
      "n": 1
     },
     {
-     "form": "samatiric",
-     "preverb": "samati",
+     "form": "praric",
+     "preverb": "pra",
+     "n": 1
+    },
+    {
+     "form": "anuric",
+     "preverb": "anu",
      "n": 1
     },
     {
@@ -101244,21 +104343,150 @@
   },
   "651": {
    "root": "rī",
-   "dcs_lemma": null,
-   "dcs_status": "unmatched",
-   "total": 0,
-   "rank": null,
-   "grammar_class": [],
+   "dcs_lemma": "ri",
+   "dcs_status": "homonym_shared",
+   "total": 60,
+   "rank": 1665,
+   "grammar_class": [
+    "9"
+   ],
    "grammar_derived": [],
-   "grammar_raw": "",
-   "verbforms": {},
-   "tenses": {},
-   "voices": {},
-   "top_forms": [],
+   "grammar_raw": "9. Ā.",
+   "verbforms": {
+    "Finite": 54,
+    "Part": 6
+   },
+   "tenses": {
+    "Pres": 45,
+    "Impf": 13,
+    "Past": 2
+   },
+   "voices": {
+    "Active": 60
+   },
+   "top_forms": [
+    {
+     "form": "rīyate",
+     "n": 11
+    },
+    {
+     "form": "riṇāti",
+     "n": 10
+    },
+    {
+     "form": "riṇann",
+     "n": 6
+    },
+    {
+     "form": "ariṇāt",
+     "n": 4
+    },
+    {
+     "form": "riṇanti",
+     "n": 3
+    },
+    {
+     "form": "ariṇā",
+     "n": 3
+    },
+    {
+     "form": "riṇīte",
+     "n": 3
+    },
+    {
+     "form": "ariṇīta",
+     "n": 3
+    },
+    {
+     "form": "rīyata",
+     "n": 2
+    },
+    {
+     "form": "riṇīthaḥ",
+     "n": 2
+    },
+    {
+     "form": "riṇītho",
+     "n": 1
+    },
+    {
+     "form": "riṇāmi",
+     "n": 1
+    },
+    {
+     "form": "ariṇan",
+     "n": 1
+    },
+    {
+     "form": "riṇā",
+     "n": 1
+    },
+    {
+     "form": "rīyamāṇā",
+     "n": 1
+    }
+   ],
    "ppp": [],
-   "participles": {},
-   "preverbs": [],
-   "present_stem_signal": {}
+   "participles": {
+    "present-active": {
+     "label": "Present active (-at/-ant)",
+     "total": 5,
+     "top": [
+      {
+       "form": "riṇann",
+       "n": 5
+      }
+     ]
+    },
+    "present-middle": {
+     "label": "Present middle (-māna/-āna)",
+     "total": 1,
+     "top": [
+      {
+       "form": "rīyamāṇā",
+       "n": 1
+      }
+     ]
+    }
+   },
+   "preverbs": [
+    {
+     "form": "prari",
+     "preverb": "pra",
+     "n": 1
+    },
+    {
+     "form": "anuri",
+     "preverb": "anu",
+     "n": 1
+    },
+    {
+     "form": "āri",
+     "preverb": "ā",
+     "n": 0
+    }
+   ],
+   "present_stem_signal": {
+    "dominant": "IV",
+    "evidence": [
+     {
+      "bucket": "IV",
+      "n": 14
+     },
+     {
+      "bucket": "II/III (athematic)",
+      "n": 10
+     },
+     {
+      "bucket": "I/VI",
+      "n": 8
+     },
+     {
+      "bucket": "?",
+      "n": 7
+     }
+    ]
+   }
   },
   "652": {
    "root": "1 ru",
@@ -102000,8 +105228,13 @@
      "n": 1
     },
     {
-     "form": "uparuc",
-     "preverb": "upa",
+     "form": "āruc",
+     "preverb": "ā",
+     "n": 0
+    },
+    {
+     "form": "samāruc",
+     "preverb": "samā",
      "n": 0
     },
     {
@@ -102010,18 +105243,13 @@
      "n": 0
     },
     {
-     "form": "āruc",
-     "preverb": "ā",
-     "n": 0
-    },
-    {
      "form": "pariruc",
      "preverb": "pari",
      "n": 0
     },
     {
-     "form": "samāruc",
-     "preverb": "samā",
+     "form": "uparuc",
+     "preverb": "upa",
      "n": 0
     }
    ],
@@ -102556,13 +105784,13 @@
      "n": 4
     },
     {
-     "form": "avarud",
-     "preverb": "ava",
+     "form": "anurud",
+     "preverb": "anu",
      "n": 2
     },
     {
-     "form": "anurud",
-     "preverb": "anu",
+     "form": "avarud",
+     "preverb": "ava",
      "n": 2
     },
     {
@@ -102911,13 +106139,13 @@
      "n": 4
     },
     {
-     "form": "prarudh",
-     "preverb": "pra",
+     "form": "upanirudh",
+     "preverb": "upani",
      "n": 2
     },
     {
-     "form": "abhirudh",
-     "preverb": "abhi",
+     "form": "pratyavarudh",
+     "preverb": "pratyava",
      "n": 2
     }
    ],
@@ -103256,13 +106484,13 @@
      "n": 4
     },
     {
-     "form": "prarudh",
-     "preverb": "pra",
+     "form": "upanirudh",
+     "preverb": "upani",
      "n": 2
     },
     {
-     "form": "abhirudh",
-     "preverb": "abhi",
+     "form": "pratyavarudh",
+     "preverb": "pratyava",
      "n": 2
     }
    ],
@@ -104186,13 +107414,13 @@
      "n": 0
     },
     {
-     "form": "sampratilakṣ",
-     "preverb": "samprati",
+     "form": "samālakṣ",
+     "preverb": "samā",
      "n": 0
     },
     {
-     "form": "samālakṣ",
-     "preverb": "samā",
+     "form": "sampratilakṣ",
+     "preverb": "samprati",
      "n": 0
     }
    ],
@@ -104988,13 +108216,13 @@
      "n": 7
     },
     {
-     "form": "samālap",
-     "preverb": "samā",
+     "form": "vyālap",
+     "preverb": "vyā",
      "n": 1
     },
     {
-     "form": "vyālap",
-     "preverb": "vyā",
+     "form": "samālap",
+     "preverb": "samā",
      "n": 1
     },
     {
@@ -105362,13 +108590,13 @@
      "n": 28
     },
     {
-     "form": "anvālabh",
-     "preverb": "anvā",
+     "form": "pralabh",
+     "preverb": "pra",
      "n": 18
     },
     {
-     "form": "pralabh",
-     "preverb": "pra",
+     "form": "anvālabh",
+     "preverb": "anvā",
      "n": 18
     },
     {
@@ -107286,13 +110514,13 @@
      "n": 5
     },
     {
-     "form": "upalī",
-     "preverb": "upa",
+     "form": "saṃnilī",
+     "preverb": "saṃni",
      "n": 3
     },
     {
-     "form": "saṃnilī",
-     "preverb": "saṃni",
+     "form": "upalī",
+     "preverb": "upa",
      "n": 3
     },
     {
@@ -107565,13 +110793,13 @@
      "n": 5
     },
     {
-     "form": "upalī",
-     "preverb": "upa",
+     "form": "saṃnilī",
+     "preverb": "saṃni",
      "n": 3
     },
     {
-     "form": "saṃnilī",
-     "preverb": "saṃni",
+     "form": "upalī",
+     "preverb": "upa",
      "n": 3
     },
     {
@@ -107731,13 +110959,13 @@
      "n": 1
     },
     {
-     "form": "viluñc",
-     "preverb": "vi",
+     "form": "avaluñc",
+     "preverb": "ava",
      "n": 0
     },
     {
-     "form": "avaluñc",
-     "preverb": "ava",
+     "form": "viluñc",
+     "preverb": "vi",
      "n": 0
     }
    ],
@@ -108298,13 +111526,13 @@
      "n": 7
     },
     {
-     "form": "parilup",
-     "preverb": "pari",
+     "form": "ālup",
+     "preverb": "ā",
      "n": 6
     },
     {
-     "form": "ālup",
-     "preverb": "ā",
+     "form": "parilup",
+     "preverb": "pari",
      "n": 6
     },
     {
@@ -108323,8 +111551,8 @@
      "n": 2
     },
     {
-     "form": "pravilup",
-     "preverb": "pravi",
+     "form": "sampralup",
+     "preverb": "sampra",
      "n": 2
     },
     {
@@ -108333,8 +111561,8 @@
      "n": 2
     },
     {
-     "form": "sampralup",
-     "preverb": "sampra",
+     "form": "pravilup",
+     "preverb": "pravi",
      "n": 2
     }
    ],
@@ -108715,13 +111943,13 @@
      "n": 18
     },
     {
-     "form": "ālul",
-     "preverb": "ā",
+     "form": "abhilul",
+     "preverb": "abhi",
      "n": 1
     },
     {
-     "form": "abhilul",
-     "preverb": "abhi",
+     "form": "ālul",
+     "preverb": "ā",
      "n": 1
     },
     {
@@ -108891,13 +112119,13 @@
      "n": 5
     },
     {
-     "form": "pratilū",
-     "preverb": "prati",
+     "form": "pralū",
+     "preverb": "pra",
      "n": 2
     },
     {
-     "form": "pralū",
-     "preverb": "pra",
+     "form": "pratilū",
+     "preverb": "prati",
      "n": 2
     },
     {
@@ -109597,8 +112825,8 @@
      "n": 4
     },
     {
-     "form": "samanuvac",
-     "preverb": "samanu",
+     "form": "āvac",
+     "preverb": "ā",
      "n": 3
     },
     {
@@ -109783,11 +113011,6 @@
    },
    "preverbs": [
     {
-     "form": "parivañc",
-     "preverb": "pari",
-     "n": 1
-    },
-    {
      "form": "vivañc",
      "preverb": "vi",
      "n": 1
@@ -109795,6 +113018,11 @@
     {
      "form": "upavañc",
      "preverb": "upa",
+     "n": 1
+    },
+    {
+     "form": "parivañc",
+     "preverb": "pari",
      "n": 1
     },
     {
@@ -110529,6 +113757,11 @@
      "n": 1
     },
     {
+     "form": "upavadh",
+     "preverb": "upa",
+     "n": 0
+    },
+    {
      "form": "abhyāvadh",
      "preverb": "abhyā",
      "n": 0
@@ -110536,11 +113769,6 @@
     {
      "form": "vivadh",
      "preverb": "vi",
-     "n": 0
-    },
-    {
-     "form": "upavadh",
-     "preverb": "upa",
      "n": 0
     }
    ],
@@ -111081,11 +114309,6 @@
      "n": 3
     },
     {
-     "form": "parivand",
-     "preverb": "pari",
-     "n": 1
-    },
-    {
      "form": "upavand",
      "preverb": "upa",
      "n": 1
@@ -111093,6 +114316,11 @@
     {
      "form": "pravand",
      "preverb": "pra",
+     "n": 1
+    },
+    {
+     "form": "parivand",
+     "preverb": "pari",
      "n": 1
     },
     {
@@ -111972,13 +115200,13 @@
      "n": 2
     },
     {
-     "form": "parāvam",
-     "preverb": "parā",
+     "form": "vivam",
+     "preverb": "vi",
      "n": 1
     },
     {
-     "form": "vivam",
-     "preverb": "vi",
+     "form": "parāvam",
+     "preverb": "parā",
      "n": 1
     }
    ],
@@ -112162,13 +115390,13 @@
    },
    "preverbs": [
     {
-     "form": "anuval",
-     "preverb": "anu",
+     "form": "vival",
+     "preverb": "vi",
      "n": 1
     },
     {
-     "form": "vival",
-     "preverb": "vi",
+     "form": "anuval",
+     "preverb": "anu",
      "n": 1
     }
    ],
@@ -112353,13 +115581,13 @@
      "n": 6
     },
     {
-     "form": "vyāvalg",
-     "preverb": "vyā",
+     "form": "abhivalg",
+     "preverb": "abhi",
      "n": 2
     },
     {
-     "form": "abhivalg",
-     "preverb": "abhi",
+     "form": "vyāvalg",
+     "preverb": "vyā",
      "n": 2
     },
     {
@@ -113753,7 +116981,7 @@
   "718": {
    "root": "vah",
    "dcs_lemma": "vah",
-   "dcs_status": "matched",
+   "dcs_status": "homonym_shared",
    "total": 1845,
    "rank": 75,
    "grammar_class": [
@@ -114386,13 +117614,13 @@
      "n": 2
     },
     {
-     "form": "parivā",
-     "preverb": "pari",
+     "form": "anuvivā",
+     "preverb": "anuvi",
      "n": 1
     },
     {
-     "form": "anuvivā",
-     "preverb": "anuvi",
+     "form": "parivā",
+     "preverb": "pari",
      "n": 1
     },
     {
@@ -114401,8 +117629,8 @@
      "n": 1
     },
     {
-     "form": "parāvā",
-     "preverb": "parā",
+     "form": "atipravā",
+     "preverb": "atipra",
      "n": 0
     }
    ],
@@ -114635,13 +117863,13 @@
      "n": 2
     },
     {
-     "form": "parivā",
-     "preverb": "pari",
+     "form": "anuvivā",
+     "preverb": "anuvi",
      "n": 1
     },
     {
-     "form": "anuvivā",
-     "preverb": "anuvi",
+     "form": "parivā",
+     "preverb": "pari",
      "n": 1
     },
     {
@@ -114650,8 +117878,8 @@
      "n": 1
     },
     {
-     "form": "parāvā",
-     "preverb": "parā",
+     "form": "atipravā",
+     "preverb": "atipra",
      "n": 0
     }
    ],
@@ -114884,13 +118112,13 @@
      "n": 2
     },
     {
-     "form": "parivā",
-     "preverb": "pari",
+     "form": "anuvivā",
+     "preverb": "anuvi",
      "n": 1
     },
     {
-     "form": "anuvivā",
-     "preverb": "anuvi",
+     "form": "parivā",
+     "preverb": "pari",
      "n": 1
     },
     {
@@ -114899,8 +118127,8 @@
      "n": 1
     },
     {
-     "form": "parāvā",
-     "preverb": "parā",
+     "form": "atipravā",
+     "preverb": "atipra",
      "n": 0
     }
    ],
@@ -115394,21 +118622,432 @@
   },
   "724": {
    "root": "vāh",
-   "dcs_lemma": null,
-   "dcs_status": "unmatched",
-   "total": 0,
-   "rank": null,
-   "grammar_class": [],
+   "dcs_lemma": "vah",
+   "dcs_status": "homonym_shared",
+   "total": 1845,
+   "rank": 75,
+   "grammar_class": [
+    "2"
+   ],
    "grammar_derived": [],
-   "grammar_raw": "",
-   "verbforms": {},
-   "tenses": {},
-   "voices": {},
-   "top_forms": [],
-   "ppp": [],
-   "participles": {},
-   "preverbs": [],
-   "present_stem_signal": {}
+   "grammar_raw": "2. Ā.; adj; m",
+   "verbforms": {
+    "Gdv": 33,
+    "Finite": 1377,
+    "Conv": 11,
+    "Part": 355,
+    "Inf": 69
+   },
+   "tenses": {
+    "—": 179,
+    "Pres": 1389,
+    "Past": 191,
+    "Impf": 64,
+    "Fut": 22
+   },
+   "voices": {
+    "Active": 1778,
+    "Pass": 67
+   },
+   "top_forms": [
+    {
+     "form": "vahanti",
+     "n": 208
+    },
+    {
+     "form": "vahati",
+     "n": 200
+    },
+    {
+     "form": "vaha",
+     "n": 199
+    },
+    {
+     "form": "vahantu",
+     "n": 71
+    },
+    {
+     "form": "vahet",
+     "n": 53
+    },
+    {
+     "form": "vahan",
+     "n": 45
+    },
+    {
+     "form": "uvāha",
+     "n": 40
+    },
+    {
+     "form": "vahate",
+     "n": 31
+    },
+    {
+     "form": "vakṣi",
+     "n": 30
+    },
+    {
+     "form": "vahata",
+     "n": 26
+    },
+    {
+     "form": "avahan",
+     "n": 25
+    },
+    {
+     "form": "vahasi",
+     "n": 24
+    },
+    {
+     "form": "voḍhuṃ",
+     "n": 24
+    },
+    {
+     "form": "voḍhum",
+     "n": 24
+    },
+    {
+     "form": "avahat",
+     "n": 24
+    }
+   ],
+   "ppp": [
+    {
+     "stem": "ūḍha",
+     "n": 59
+    },
+    {
+     "stem": "voḍha",
+     "n": 3
+    },
+    {
+     "stem": "uhāṇa",
+     "n": 1
+    },
+    {
+     "stem": "ūḍhāyāṃ",
+     "n": 1
+    },
+    {
+     "stem": "ūḍhaya",
+     "n": 1
+    },
+    {
+     "stem": "voḍhaṃ",
+     "n": 1
+    },
+    {
+     "stem": "voḍhaya",
+     "n": 1
+    },
+    {
+     "stem": "ūﾱha",
+     "n": 1
+    }
+   ],
+   "participles": {
+    "present-active": {
+     "label": "Present active (-at/-ant)",
+     "total": 207,
+     "top": [
+      {
+       "form": "vahan",
+       "n": 45
+      },
+      {
+       "form": "vahantī",
+       "n": 18
+      },
+      {
+       "form": "vahantīr",
+       "n": 17
+      },
+      {
+       "form": "vahantaḥ",
+       "n": 13
+      },
+      {
+       "form": "vahanto",
+       "n": 10
+      },
+      {
+       "form": "vahato",
+       "n": 9
+      },
+      {
+       "form": "vahat",
+       "n": 8
+      },
+      {
+       "form": "vahantīṃ",
+       "n": 8
+      }
+     ]
+    },
+    "present-middle": {
+     "label": "Present middle (-māna/-āna)",
+     "total": 20,
+     "top": [
+      {
+       "form": "vahamānā",
+       "n": 10
+      },
+      {
+       "form": "vahamāno",
+       "n": 4
+      },
+      {
+       "form": "vahamānaḥ",
+       "n": 2
+      },
+      {
+       "form": "vahamānam",
+       "n": 2
+      },
+      {
+       "form": "vahamānau",
+       "n": 1
+      },
+      {
+       "form": "vahamāna",
+       "n": 1
+      }
+     ]
+    },
+    "present-passive": {
+     "label": "Present passive (-yamāna)",
+     "total": 50,
+     "top": [
+      {
+       "form": "uhyamānam",
+       "n": 10
+      },
+      {
+       "form": "uhyamānā",
+       "n": 9
+      },
+      {
+       "form": "uhyamānaḥ",
+       "n": 9
+      },
+      {
+       "form": "uhyamāna",
+       "n": 5
+      },
+      {
+       "form": "uhyamānāḥ",
+       "n": 4
+      },
+      {
+       "form": "uhyamānām",
+       "n": 2
+      },
+      {
+       "form": "uhyamānāṃ",
+       "n": 2
+      },
+      {
+       "form": "uhyamāno",
+       "n": 2
+      }
+     ]
+    },
+    "past-passive": {
+     "label": "Past passive — PPP (-ta/-na)",
+     "total": 68,
+     "top": [
+      {
+       "form": "ūḍhā",
+       "n": 21
+      },
+      {
+       "form": "ūḍha",
+       "n": 10
+      },
+      {
+       "form": "ūḍham",
+       "n": 8
+      },
+      {
+       "form": "ūḍhām",
+       "n": 5
+      },
+      {
+       "form": "ūḍhāḥ",
+       "n": 3
+      },
+      {
+       "form": "ūḍhe",
+       "n": 2
+      },
+      {
+       "form": "ūḍhānām",
+       "n": 2
+      },
+      {
+       "form": "ūḍhaḥ",
+       "n": 2
+      }
+     ]
+    },
+    "perfect-active": {
+     "label": "Perfect active (-vas/-vāṃs)",
+     "total": 7,
+     "top": [
+      {
+       "form": "ūhivān",
+       "n": 3
+      },
+      {
+       "form": "ūḍhuṣaḥ",
+       "n": 1
+      },
+      {
+       "form": "ūhuṣī",
+       "n": 1
+      },
+      {
+       "form": "ūhuṣaḥ",
+       "n": 1
+      },
+      {
+       "form": "ūhivāṃsaṃ",
+       "n": 1
+      }
+     ]
+    },
+    "future-active": {
+     "label": "Future active (-syant)",
+     "total": 3,
+     "top": [
+      {
+       "form": "vakṣyantaṃ",
+       "n": 2
+      },
+      {
+       "form": "vakṣyan",
+       "n": 1
+      }
+     ]
+    },
+    "gerundive": {
+     "label": "Gerundive / FPP (-tavya/-anīya/-ya)",
+     "total": 33,
+     "top": [
+      {
+       "form": "voḍhavyo",
+       "n": 4
+      },
+      {
+       "form": "voḍhavyaṃ",
+       "n": 4
+      },
+      {
+       "form": "vāhya",
+       "n": 4
+      },
+      {
+       "form": "vāhyaṃ",
+       "n": 4
+      },
+      {
+       "form": "vāhyam",
+       "n": 4
+      },
+      {
+       "form": "voḍhavye",
+       "n": 3
+      },
+      {
+       "form": "voḍhavyā",
+       "n": 3
+      },
+      {
+       "form": "vāhyāḥ",
+       "n": 2
+      }
+     ]
+    }
+   },
+   "preverbs": [
+    {
+     "form": "āvah",
+     "preverb": "ā",
+     "n": 245
+    },
+    {
+     "form": "nirvivah",
+     "preverb": "nirvi",
+     "n": 87
+    },
+    {
+     "form": "pravah",
+     "preverb": "pra",
+     "n": 77
+    },
+    {
+     "form": "apavah",
+     "preverb": "apa",
+     "n": 52
+    },
+    {
+     "form": "vivah",
+     "preverb": "vi",
+     "n": 47
+    },
+    {
+     "form": "abhivah",
+     "preverb": "abhi",
+     "n": 45
+    },
+    {
+     "form": "ativah",
+     "preverb": "ati",
+     "n": 35
+    },
+    {
+     "form": "parivah",
+     "preverb": "pari",
+     "n": 29
+    },
+    {
+     "form": "udāvah",
+     "preverb": "udā",
+     "n": 26
+    },
+    {
+     "form": "upavah",
+     "preverb": "upa",
+     "n": 25
+    },
+    {
+     "form": "adhivah",
+     "preverb": "adhi",
+     "n": 22
+    },
+    {
+     "form": "abhipravah",
+     "preverb": "abhipra",
+     "n": 19
+    }
+   ],
+   "present_stem_signal": {
+    "dominant": "I/VI",
+    "evidence": [
+     {
+      "bucket": "?",
+      "n": 547
+     },
+     {
+      "bucket": "I/VI",
+      "n": 543
+     },
+     {
+      "bucket": "II/III (athematic)",
+      "n": 5
+     }
+    ]
+   }
   },
   "725": {
    "root": "1 vic",
@@ -115498,13 +119137,13 @@
      "n": 2
     },
     {
-     "form": "udvic",
-     "preverb": "ud",
+     "form": "adhyapavic",
+     "preverb": "adhyapa",
      "n": 1
     },
     {
-     "form": "adhyapavic",
-     "preverb": "adhyapa",
+     "form": "udvic",
+     "preverb": "ud",
      "n": 1
     }
    ],
@@ -115610,13 +119249,13 @@
      "n": 2
     },
     {
-     "form": "udvic",
-     "preverb": "ud",
+     "form": "adhyapavic",
+     "preverb": "adhyapa",
      "n": 1
     },
     {
-     "form": "adhyapavic",
-     "preverb": "adhyapa",
+     "form": "udvic",
+     "preverb": "ud",
      "n": 1
     }
    ],
@@ -115792,13 +119431,13 @@
      "n": 5
     },
     {
-     "form": "prativij",
-     "preverb": "prati",
+     "form": "pravij",
+     "preverb": "pra",
      "n": 2
     },
     {
-     "form": "pravij",
-     "preverb": "pra",
+     "form": "prativij",
+     "preverb": "prati",
      "n": 2
     },
     {
@@ -116254,13 +119893,13 @@
      "n": 16
     },
     {
-     "form": "nivid",
-     "preverb": "ni",
+     "form": "adhivid",
+     "preverb": "adhi",
      "n": 12
     },
     {
-     "form": "adhivid",
-     "preverb": "adhi",
+     "form": "nivid",
+     "preverb": "ni",
      "n": 12
     },
     {
@@ -116744,13 +120383,13 @@
      "n": 16
     },
     {
-     "form": "nivid",
-     "preverb": "ni",
+     "form": "adhivid",
+     "preverb": "adhi",
      "n": 12
     },
     {
-     "form": "adhivid",
-     "preverb": "adhi",
+     "form": "nivid",
+     "preverb": "ni",
      "n": 12
     },
     {
@@ -117298,13 +120937,13 @@
      "n": 2
     },
     {
-     "form": "abhipravip",
-     "preverb": "abhipra",
+     "form": "ativip",
+     "preverb": "ati",
      "n": 1
     },
     {
-     "form": "ativip",
-     "preverb": "ati",
+     "form": "abhipravip",
+     "preverb": "abhipra",
      "n": 1
     },
     {
@@ -118032,13 +121671,13 @@
      "n": 0
     },
     {
-     "form": "apavī",
-     "preverb": "apa",
+     "form": "nivī",
+     "preverb": "ni",
      "n": 0
     },
     {
-     "form": "nivī",
-     "preverb": "ni",
+     "form": "apavī",
+     "preverb": "apa",
      "n": 0
     }
    ],
@@ -119178,18 +122817,18 @@
      "n": 1
     },
     {
-     "form": "samāvṛj",
-     "preverb": "samā",
-     "n": 1
-    },
-    {
-     "form": "apāvṛj",
-     "preverb": "apā",
-     "n": 1
-    },
-    {
      "form": "prāvṛj",
      "preverb": "prā",
+     "n": 1
+    },
+    {
+     "form": "nivṛj",
+     "preverb": "ni",
+     "n": 1
+    },
+    {
+     "form": "parāvṛj",
+     "preverb": "parā",
      "n": 1
     }
    ],
@@ -119935,13 +123574,13 @@
      "n": 2
     },
     {
-     "form": "nivṛdh",
-     "preverb": "ni",
+     "form": "anupravṛdh",
+     "preverb": "anupra",
      "n": 1
     },
     {
-     "form": "anupravṛdh",
-     "preverb": "anupra",
+     "form": "prativṛdh",
+     "preverb": "prati",
      "n": 1
     }
    ],
@@ -120234,6 +123873,11 @@
      "n": 3
     },
     {
+     "form": "prativṛṣ",
+     "preverb": "prati",
+     "n": 1
+    },
+    {
      "form": "parivṛṣ",
      "preverb": "pari",
      "n": 1
@@ -120246,11 +123890,6 @@
     {
      "form": "ativṛṣ",
      "preverb": "ati",
-     "n": 1
-    },
-    {
-     "form": "prativṛṣ",
-     "preverb": "prati",
      "n": 1
     },
     {
@@ -120883,11 +124522,6 @@
      "n": 3
     },
     {
-     "form": "anuveṣṭ",
-     "preverb": "anu",
-     "n": 2
-    },
-    {
      "form": "āveṣṭ",
      "preverb": "ā",
      "n": 2
@@ -120898,8 +124532,18 @@
      "n": 2
     },
     {
+     "form": "anuveṣṭ",
+     "preverb": "anu",
+     "n": 2
+    },
+    {
      "form": "vyativeṣṭ",
      "preverb": "vyati",
+     "n": 1
+    },
+    {
+     "form": "prativeṣṭ",
+     "preverb": "prati",
      "n": 1
     },
     {
@@ -120920,11 +124564,6 @@
     {
      "form": "vyāveṣṭ",
      "preverb": "vyā",
-     "n": 1
-    },
-    {
-     "form": "prativeṣṭ",
-     "preverb": "prati",
      "n": 1
     }
    ],
@@ -121655,21 +125294,194 @@
   },
   "756": {
    "root": "vyā",
-   "dcs_lemma": null,
-   "dcs_status": "unmatched",
-   "total": 0,
-   "rank": null,
-   "grammar_class": [],
+   "dcs_lemma": "vye",
+   "dcs_status": "aliased",
+   "total": 46,
+   "rank": 1932,
+   "grammar_class": [
+    "2",
+    "4"
+   ],
    "grammar_derived": [],
-   "grammar_raw": "",
-   "verbforms": {},
-   "tenses": {},
-   "voices": {},
-   "top_forms": [],
-   "ppp": [],
-   "participles": {},
-   "preverbs": [],
-   "present_stem_signal": {}
+   "grammar_raw": "2.P.,2.Ā.; 4. Ā.",
+   "verbforms": {
+    "Finite": 40,
+    "Part": 6
+   },
+   "tenses": {
+    "Past": 19,
+    "Pres": 20,
+    "—": 6,
+    "Impf": 1
+   },
+   "voices": {
+    "Active": 46
+   },
+   "top_forms": [
+    {
+     "form": "avyata",
+     "n": 9
+    },
+    {
+     "form": "vyayantām",
+     "n": 7
+    },
+    {
+     "form": "vyayasva",
+     "n": 6
+    },
+    {
+     "form": "vyata",
+     "n": 3
+    },
+    {
+     "form": "vīta",
+     "n": 2
+    },
+    {
+     "form": "vītāya",
+     "n": 2
+    },
+    {
+     "form": "avyayaḥ",
+     "n": 1
+    },
+    {
+     "form": "vyayat",
+     "n": 1
+    },
+    {
+     "form": "vyaye",
+     "n": 1
+    },
+    {
+     "form": "vyayantu",
+     "n": 1
+    },
+    {
+     "form": "vītaḥ",
+     "n": 1
+    },
+    {
+     "form": "vyayate",
+     "n": 1
+    },
+    {
+     "form": "vivya",
+     "n": 1
+    },
+    {
+     "form": "avyayat",
+     "n": 1
+    },
+    {
+     "form": "vyayeyam",
+     "n": 1
+    }
+   ],
+   "ppp": [
+    {
+     "stem": "vīta",
+     "n": 6
+    }
+   ],
+   "participles": {
+    "past-passive": {
+     "label": "Past passive — PPP (-ta/-na)",
+     "total": 6,
+     "top": [
+      {
+       "form": "vīta",
+       "n": 2
+      },
+      {
+       "form": "vītāya",
+       "n": 2
+      },
+      {
+       "form": "vītaḥ",
+       "n": 1
+      },
+      {
+       "form": "vītam",
+       "n": 1
+      }
+     ]
+    }
+   },
+   "preverbs": [
+    {
+     "form": "parivye",
+     "preverb": "pari",
+     "n": 84
+    },
+    {
+     "form": "pravye",
+     "preverb": "pra",
+     "n": 17
+    },
+    {
+     "form": "upavye",
+     "preverb": "upa",
+     "n": 12
+    },
+    {
+     "form": "āvye",
+     "preverb": "ā",
+     "n": 3
+    },
+    {
+     "form": "avavye",
+     "preverb": "ava",
+     "n": 2
+    },
+    {
+     "form": "apavye",
+     "preverb": "apa",
+     "n": 2
+    },
+    {
+     "form": "adhivye",
+     "preverb": "adhi",
+     "n": 1
+    },
+    {
+     "form": "abhivye",
+     "preverb": "abhi",
+     "n": 1
+    },
+    {
+     "form": "nivye",
+     "preverb": "ni",
+     "n": 0
+    },
+    {
+     "form": "apivye",
+     "preverb": "api",
+     "n": 0
+    }
+   ],
+   "present_stem_signal": {
+    "dominant": "X/caus-denom",
+    "evidence": [
+     {
+      "bucket": "?",
+      "n": 16
+     },
+     {
+      "bucket": "X/caus-denom",
+      "n": 2
+     },
+     {
+      "bucket": "I/VI",
+      "n": 1
+     },
+     {
+      "bucket": "IV",
+      "n": 1
+     }
+    ]
+   }
   },
   "757": {
    "root": "vraj",
@@ -121894,8 +125706,8 @@
      "n": 5
     },
     {
-     "form": "udāvraj",
-     "preverb": "udā",
+     "form": "vipravraj",
+     "preverb": "vipra",
      "n": 3
     }
    ],
@@ -122169,8 +125981,8 @@
      "n": 1
     },
     {
-     "form": "nivraśc",
-     "preverb": "ni",
+     "form": "avavraśc",
+     "preverb": "ava",
      "n": 0
     },
     {
@@ -122179,8 +125991,8 @@
      "n": 0
     },
     {
-     "form": "avavraśc",
-     "preverb": "ava",
+     "form": "nivraśc",
+     "preverb": "ni",
      "n": 0
     }
    ],
@@ -122967,11 +126779,6 @@
      "n": 4
     },
     {
-     "form": "abhiviśaṃs",
-     "preverb": "abhivi",
-     "n": 2
-    },
-    {
      "form": "udāśaṃs",
      "preverb": "udā",
      "n": 2
@@ -122982,8 +126789,13 @@
      "n": 2
     },
     {
-     "form": "niḥśaṃs",
-     "preverb": "niḥ",
+     "form": "abhiviśaṃs",
+     "preverb": "abhivi",
+     "n": 2
+    },
+    {
+     "form": "samabhipraśaṃs",
+     "preverb": "samabhipra",
      "n": 1
     }
    ],
@@ -123283,14 +127095,19 @@
      "n": 1
     },
     {
+     "form": "upaśak",
+     "preverb": "upa",
+     "n": 1
+    },
+    {
      "form": "pariśak",
      "preverb": "pari",
      "n": 1
     },
     {
-     "form": "upaśak",
-     "preverb": "upa",
-     "n": 1
+     "form": "pratiśak",
+     "preverb": "prati",
+     "n": 0
     },
     {
      "form": "praśak",
@@ -123300,11 +127117,6 @@
     {
      "form": "anuśak",
      "preverb": "anu",
-     "n": 0
-    },
-    {
-     "form": "pratiśak",
-     "preverb": "prati",
      "n": 0
     }
    ],
@@ -123624,8 +127436,8 @@
      "n": 11
     },
     {
-     "form": "pratiśaṅk",
-     "preverb": "prati",
+     "form": "praśaṅk",
+     "preverb": "pra",
      "n": 1
     },
     {
@@ -123634,18 +127446,18 @@
      "n": 1
     },
     {
-     "form": "praśaṅk",
-     "preverb": "pra",
-     "n": 1
-    },
-    {
-     "form": "upaśaṅk",
-     "preverb": "upa",
+     "form": "pratiśaṅk",
+     "preverb": "prati",
      "n": 1
     },
     {
      "form": "upāśaṅk",
      "preverb": "upā",
+     "n": 1
+    },
+    {
+     "form": "upaśaṅk",
+     "preverb": "upa",
      "n": 1
     }
    ],
@@ -124239,13 +128051,13 @@
      "n": 2
     },
     {
-     "form": "avaśap",
-     "preverb": "ava",
+     "form": "pariśap",
+     "preverb": "pari",
      "n": 1
     },
     {
-     "form": "pariśap",
-     "preverb": "pari",
+     "form": "avaśap",
+     "preverb": "ava",
      "n": 1
     },
     {
@@ -124542,13 +128354,13 @@
      "n": 3
     },
     {
-     "form": "pratiśam",
-     "preverb": "prati",
+     "form": "vyavaśam",
+     "preverb": "vyava",
      "n": 2
     },
     {
-     "form": "samupaśam",
-     "preverb": "samupa",
+     "form": "pratiśam",
+     "preverb": "prati",
      "n": 2
     },
     {
@@ -124557,8 +128369,8 @@
      "n": 2
     },
     {
-     "form": "vyavaśam",
-     "preverb": "vyava",
+     "form": "samupaśam",
+     "preverb": "samupa",
      "n": 2
     },
     {
@@ -124567,8 +128379,8 @@
      "n": 1
     },
     {
-     "form": "anuśam",
-     "preverb": "anu",
+     "form": "abhiśam",
+     "preverb": "abhi",
      "n": 0
     }
    ],
@@ -124860,13 +128672,13 @@
      "n": 3
     },
     {
-     "form": "pratiśam",
-     "preverb": "prati",
+     "form": "vyavaśam",
+     "preverb": "vyava",
      "n": 2
     },
     {
-     "form": "samupaśam",
-     "preverb": "samupa",
+     "form": "pratiśam",
+     "preverb": "prati",
      "n": 2
     },
     {
@@ -124875,8 +128687,8 @@
      "n": 2
     },
     {
-     "form": "vyavaśam",
-     "preverb": "vyava",
+     "form": "samupaśam",
+     "preverb": "samupa",
      "n": 2
     },
     {
@@ -124885,8 +128697,8 @@
      "n": 1
     },
     {
-     "form": "anuśam",
-     "preverb": "anu",
+     "form": "abhiśam",
+     "preverb": "abhi",
      "n": 0
     }
    ],
@@ -125178,13 +128990,13 @@
      "n": 3
     },
     {
-     "form": "pratiśam",
-     "preverb": "prati",
+     "form": "vyavaśam",
+     "preverb": "vyava",
      "n": 2
     },
     {
-     "form": "samupaśam",
-     "preverb": "samupa",
+     "form": "pratiśam",
+     "preverb": "prati",
      "n": 2
     },
     {
@@ -125193,8 +129005,8 @@
      "n": 2
     },
     {
-     "form": "vyavaśam",
-     "preverb": "vyava",
+     "form": "samupaśam",
+     "preverb": "samupa",
      "n": 2
     },
     {
@@ -125203,8 +129015,8 @@
      "n": 1
     },
     {
-     "form": "anuśam",
-     "preverb": "anu",
+     "form": "abhiśam",
+     "preverb": "abhi",
      "n": 0
     }
    ],
@@ -125495,13 +129307,13 @@
      "n": 545
     },
     {
-     "form": "niḥśā",
-     "preverb": "niḥ",
+     "form": "āśā",
+     "preverb": "ā",
      "n": 1
     },
     {
-     "form": "āśā",
-     "preverb": "ā",
+     "form": "niḥśā",
+     "preverb": "niḥ",
      "n": 1
     },
     {
@@ -125840,6 +129652,11 @@
      "n": 1
     },
     {
+     "form": "sampraśās",
+     "preverb": "sampra",
+     "n": 1
+    },
+    {
      "form": "niśās",
      "preverb": "ni",
      "n": 1
@@ -125847,11 +129664,6 @@
     {
      "form": "abhyanuśās",
      "preverb": "abhyanu",
-     "n": 1
-    },
-    {
-     "form": "sampraśās",
-     "preverb": "sampra",
      "n": 1
     },
     {
@@ -126186,6 +129998,11 @@
      "n": 1
     },
     {
+     "form": "sampraśās",
+     "preverb": "sampra",
+     "n": 1
+    },
+    {
      "form": "niśās",
      "preverb": "ni",
      "n": 1
@@ -126193,11 +130010,6 @@
     {
      "form": "abhyanuśās",
      "preverb": "abhyanu",
-     "n": 1
-    },
-    {
-     "form": "sampraśās",
-     "preverb": "sampra",
      "n": 1
     },
     {
@@ -126861,13 +130673,13 @@
      "n": 2
     },
     {
-     "form": "niravaśiṣ",
-     "preverb": "nirava",
+     "form": "praśiṣ",
+     "preverb": "pra",
      "n": 1
     },
     {
-     "form": "praśiṣ",
-     "preverb": "pra",
+     "form": "niravaśiṣ",
+     "preverb": "nirava",
      "n": 1
     },
     {
@@ -127202,8 +131014,8 @@
      "n": 2
     },
     {
-     "form": "anvāśī",
-     "preverb": "anvā",
+     "form": "samanuśī",
+     "preverb": "samanu",
      "n": 1
     }
    ],
@@ -127532,8 +131344,8 @@
      "n": 2
     },
     {
-     "form": "anvāśī",
-     "preverb": "anvā",
+     "form": "samanuśī",
+     "preverb": "samanu",
      "n": 1
     }
    ],
@@ -127861,13 +131673,13 @@
      "n": 6
     },
     {
-     "form": "pratiśuc",
-     "preverb": "prati",
+     "form": "praśuc",
+     "preverb": "pra",
      "n": 3
     },
     {
-     "form": "praśuc",
-     "preverb": "pra",
+     "form": "pratiśuc",
+     "preverb": "prati",
      "n": 3
     },
     {
@@ -127876,14 +131688,19 @@
      "n": 2
     },
     {
+     "form": "upaśuc",
+     "preverb": "upa",
+     "n": 1
+    },
+    {
      "form": "niśuc",
      "preverb": "ni",
      "n": 1
     },
     {
-     "form": "upaśuc",
-     "preverb": "upa",
-     "n": 1
+     "form": "niḥśuc",
+     "preverb": "niḥ",
+     "n": 0
     },
     {
      "form": "anupraśuc",
@@ -127893,11 +131710,6 @@
     {
      "form": "āśuc",
      "preverb": "ā",
-     "n": 0
-    },
-    {
-     "form": "niḥśuc",
-     "preverb": "niḥ",
      "n": 0
     }
    ],
@@ -128436,24 +132248,19 @@
      "n": 3
     },
     {
-     "form": "viśubh",
-     "preverb": "vi",
+     "form": "abhiśubh",
+     "preverb": "abhi",
      "n": 2
     },
     {
-     "form": "abhiśubh",
-     "preverb": "abhi",
+     "form": "viśubh",
+     "preverb": "vi",
      "n": 2
     },
     {
      "form": "upaśubh",
      "preverb": "upa",
      "n": 1
-    },
-    {
-     "form": "samabhiśubh",
-     "preverb": "samabhi",
-     "n": 0
     },
     {
      "form": "praśubh",
@@ -128468,6 +132275,11 @@
     {
      "form": "niśubh",
      "preverb": "ni",
+     "n": 0
+    },
+    {
+     "form": "samabhiśubh",
+     "preverb": "samabhi",
      "n": 0
     }
    ],
@@ -128714,6 +132526,11 @@
      "n": 6
     },
     {
+     "form": "praśuṣ",
+     "preverb": "pra",
+     "n": 1
+    },
+    {
      "form": "pratiśuṣ",
      "preverb": "prati",
      "n": 1
@@ -128721,11 +132538,6 @@
     {
      "form": "apaśuṣ",
      "preverb": "apa",
-     "n": 1
-    },
-    {
-     "form": "praśuṣ",
-     "preverb": "pra",
      "n": 1
     },
     {
@@ -128977,6 +132789,11 @@
      "n": 6
     },
     {
+     "form": "praśuṣ",
+     "preverb": "pra",
+     "n": 1
+    },
+    {
      "form": "pratiśuṣ",
      "preverb": "prati",
      "n": 1
@@ -128984,11 +132801,6 @@
     {
      "form": "apaśuṣ",
      "preverb": "apa",
-     "n": 1
-    },
-    {
-     "form": "praśuṣ",
-     "preverb": "pra",
      "n": 1
     },
     {
@@ -129292,8 +133104,8 @@
      "n": 3
     },
     {
-     "form": "parāśṛ",
-     "preverb": "parā",
+     "form": "praviśṛ",
+     "preverb": "pravi",
      "n": 2
     },
     {
@@ -129302,23 +133114,23 @@
      "n": 2
     },
     {
-     "form": "praviśṛ",
-     "preverb": "pravi",
+     "form": "parāśṛ",
+     "preverb": "parā",
      "n": 2
     },
     {
-     "form": "abhiviśṛ",
-     "preverb": "abhivi",
+     "form": "niśṛ",
+     "preverb": "ni",
      "n": 1
     },
     {
-     "form": "vyatiśṛ",
-     "preverb": "vyati",
+     "form": "anuviśṛ",
+     "preverb": "anuvi",
      "n": 1
     },
     {
-     "form": "vyavaśṛ",
-     "preverb": "vyava",
+     "form": "adhiśṛ",
+     "preverb": "adhi",
      "n": 1
     }
    ],
@@ -129603,8 +133415,8 @@
      "n": 3
     },
     {
-     "form": "parāśṛ",
-     "preverb": "parā",
+     "form": "praviśṛ",
+     "preverb": "pravi",
      "n": 2
     },
     {
@@ -129613,23 +133425,23 @@
      "n": 2
     },
     {
-     "form": "praviśṛ",
-     "preverb": "pravi",
+     "form": "parāśṛ",
+     "preverb": "parā",
      "n": 2
     },
     {
-     "form": "abhiviśṛ",
-     "preverb": "abhivi",
+     "form": "niśṛ",
+     "preverb": "ni",
      "n": 1
     },
     {
-     "form": "vyatiśṛ",
-     "preverb": "vyati",
+     "form": "anuviśṛ",
+     "preverb": "anuvi",
      "n": 1
     },
     {
-     "form": "vyavaśṛ",
-     "preverb": "vyava",
+     "form": "adhiśṛ",
+     "preverb": "adhi",
      "n": 1
     }
    ],
@@ -129914,8 +133726,8 @@
      "n": 3
     },
     {
-     "form": "parāśṛ",
-     "preverb": "parā",
+     "form": "praviśṛ",
+     "preverb": "pravi",
      "n": 2
     },
     {
@@ -129924,23 +133736,23 @@
      "n": 2
     },
     {
-     "form": "praviśṛ",
-     "preverb": "pravi",
+     "form": "parāśṛ",
+     "preverb": "parā",
      "n": 2
     },
     {
-     "form": "abhiviśṛ",
-     "preverb": "abhivi",
+     "form": "niśṛ",
+     "preverb": "ni",
      "n": 1
     },
     {
-     "form": "vyatiśṛ",
-     "preverb": "vyati",
+     "form": "anuviśṛ",
+     "preverb": "anuvi",
      "n": 1
     },
     {
-     "form": "vyavaśṛ",
-     "preverb": "vyava",
+     "form": "adhiśṛ",
+     "preverb": "adhi",
      "n": 1
     }
    ],
@@ -130206,23 +134018,23 @@
      "n": 3
     },
     {
-     "form": "praścut",
-     "preverb": "pra",
-     "n": 1
-    },
-    {
      "form": "āścut",
      "preverb": "ā",
      "n": 1
     },
     {
-     "form": "niścut",
-     "preverb": "ni",
-     "n": 0
+     "form": "praścut",
+     "preverb": "pra",
+     "n": 1
     },
     {
      "form": "avaścut",
      "preverb": "ava",
+     "n": 0
+    },
+    {
+     "form": "niścut",
+     "preverb": "ni",
      "n": 0
     }
    ],
@@ -130809,13 +134621,13 @@
      "n": 20
     },
     {
-     "form": "upaśram",
-     "preverb": "upa",
+     "form": "pariviśram",
+     "preverb": "parivi",
      "n": 3
     },
     {
-     "form": "pariviśram",
-     "preverb": "parivi",
+     "form": "upaśram",
+     "preverb": "upa",
      "n": 3
     },
     {
@@ -130829,13 +134641,13 @@
      "n": 1
     },
     {
-     "form": "āśram",
-     "preverb": "ā",
+     "form": "niśram",
+     "preverb": "ni",
      "n": 1
     },
     {
-     "form": "niśram",
-     "preverb": "ni",
+     "form": "āśram",
+     "preverb": "ā",
      "n": 1
     }
    ],
@@ -131181,8 +134993,8 @@
      "n": 14
     },
     {
-     "form": "viśri",
-     "preverb": "vi",
+     "form": "apaśri",
+     "preverb": "apa",
      "n": 12
     }
    ],
@@ -131500,13 +135312,13 @@
      "n": 2
     },
     {
-     "form": "viśrī",
-     "preverb": "vi",
+     "form": "pariśrī",
+     "preverb": "pari",
      "n": 1
     },
     {
-     "form": "pariśrī",
-     "preverb": "pari",
+     "form": "viśrī",
+     "preverb": "vi",
      "n": 1
     },
     {
@@ -131779,13 +135591,13 @@
      "n": 2
     },
     {
-     "form": "viśrī",
-     "preverb": "vi",
+     "form": "pariśrī",
+     "preverb": "pari",
      "n": 1
     },
     {
-     "form": "pariśrī",
-     "preverb": "pari",
+     "form": "viśrī",
+     "preverb": "vi",
      "n": 1
     },
     {
@@ -132234,13 +136046,13 @@
      "n": 10
     },
     {
-     "form": "samāśru",
-     "preverb": "samā",
+     "form": "pratyupaśru",
+     "preverb": "pratyupa",
      "n": 1
     },
     {
-     "form": "pratyupaśru",
-     "preverb": "pratyupa",
+     "form": "samāśru",
+     "preverb": "samā",
      "n": 1
     },
     {
@@ -132249,8 +136061,8 @@
      "n": 1
     },
     {
-     "form": "sampratiśru",
-     "preverb": "samprati",
+     "form": "atipraśru",
+     "preverb": "atipra",
      "n": 0
     }
    ],
@@ -132817,13 +136629,13 @@
      "n": 3
     },
     {
-     "form": "anūpaśliṣ",
-     "preverb": "anūpa",
+     "form": "upāśliṣ",
+     "preverb": "upā",
      "n": 1
     },
     {
-     "form": "upāśliṣ",
-     "preverb": "upā",
+     "form": "anūpaśliṣ",
+     "preverb": "anūpa",
      "n": 1
     }
    ],
@@ -133104,13 +136916,13 @@
      "n": 6
     },
     {
-     "form": "abhiniḥśvas",
-     "preverb": "abhiniḥ",
+     "form": "pariviśvas",
+     "preverb": "parivi",
      "n": 4
     },
     {
-     "form": "pariviśvas",
-     "preverb": "parivi",
+     "form": "abhiniḥśvas",
+     "preverb": "abhiniḥ",
      "n": 4
     }
    ],
@@ -133304,6 +137116,11 @@
      "n": 11
     },
     {
+     "form": "abhiniṣṭhīv",
+     "preverb": "abhini",
+     "n": 2
+    },
+    {
      "form": "adhiṣṭhīv",
      "preverb": "adhi",
      "n": 2
@@ -133311,11 +137128,6 @@
     {
      "form": "avaniṣṭhīv",
      "preverb": "avani",
-     "n": 2
-    },
-    {
-     "form": "abhiniṣṭhīv",
-     "preverb": "abhini",
      "n": 2
     },
     {
@@ -133575,8 +137387,8 @@
      "n": 1
     },
     {
-     "form": "āsac",
-     "preverb": "ā",
+     "form": "apasac",
+     "preverb": "apa",
      "n": 0
     },
     {
@@ -133590,8 +137402,8 @@
      "n": 0
     },
     {
-     "form": "apasac",
-     "preverb": "apa",
+     "form": "āsac",
+     "preverb": "ā",
      "n": 0
     }
    ],
@@ -133934,13 +137746,13 @@
      "n": 12
     },
     {
-     "form": "upotsad",
-     "preverb": "upot",
+     "form": "abhyāsad",
+     "preverb": "abhyā",
      "n": 6
     },
     {
-     "form": "abhyāsad",
-     "preverb": "abhyā",
+     "form": "upotsad",
+     "preverb": "upot",
      "n": 6
     },
     {
@@ -134207,13 +138019,13 @@
    },
    "preverbs": [
     {
-     "form": "āsan",
-     "preverb": "ā",
+     "form": "prasan",
+     "preverb": "pra",
      "n": 0
     },
     {
-     "form": "prasan",
-     "preverb": "pra",
+     "form": "āsan",
+     "preverb": "ā",
      "n": 0
     }
    ],
@@ -134901,6 +138713,16 @@
      "n": 2
     },
     {
+     "form": "niḥsah",
+     "preverb": "niḥ",
+     "n": 1
+    },
+    {
+     "form": "samprasah",
+     "preverb": "sampra",
+     "n": 1
+    },
+    {
      "form": "anusah",
      "preverb": "anu",
      "n": 1
@@ -134913,16 +138735,6 @@
     {
      "form": "protsah",
      "preverb": "prot",
-     "n": 1
-    },
-    {
-     "form": "niḥsah",
-     "preverb": "niḥ",
-     "n": 1
-    },
-    {
-     "form": "samprasah",
-     "preverb": "sampra",
      "n": 1
     }
    ],
@@ -135145,13 +138957,13 @@
      "n": 2
     },
     {
-     "form": "upāvasā",
-     "preverb": "upāva",
+     "form": "atisā",
+     "preverb": "ati",
      "n": 1
     },
     {
-     "form": "atisā",
-     "preverb": "ati",
+     "form": "upāvasā",
+     "preverb": "upāva",
      "n": 1
     }
    ],
@@ -135378,13 +139190,13 @@
      "n": 2
     },
     {
-     "form": "upāvasā",
-     "preverb": "upāva",
+     "form": "atisā",
+     "preverb": "ati",
      "n": 1
     },
     {
-     "form": "atisā",
-     "preverb": "ati",
+     "form": "upāvasā",
+     "preverb": "upāva",
      "n": 1
     }
    ],
@@ -135989,13 +139801,13 @@
      "n": 3
     },
     {
-     "form": "abhiparyāsic",
-     "preverb": "abhiparyā",
+     "form": "samprasic",
+     "preverb": "sampra",
      "n": 2
     },
     {
-     "form": "pratyāsic",
-     "preverb": "pratyā",
+     "form": "upotsic",
+     "preverb": "upot",
      "n": 2
     },
     {
@@ -137421,8 +141233,8 @@
      "n": 1
     },
     {
-     "form": "pratiprasū",
-     "preverb": "pratipra",
+     "form": "parāsū",
+     "preverb": "parā",
      "n": 1
     },
     {
@@ -137431,8 +141243,8 @@
      "n": 1
     },
     {
-     "form": "parāsū",
-     "preverb": "parā",
+     "form": "pratiprasū",
+     "preverb": "pratipra",
      "n": 1
     },
     {
@@ -137930,13 +141742,13 @@
      "n": 12
     },
     {
-     "form": "parisṛ",
-     "preverb": "pari",
+     "form": "pravisṛ",
+     "preverb": "pravi",
      "n": 10
     },
     {
-     "form": "pravisṛ",
-     "preverb": "pravi",
+     "form": "parisṛ",
+     "preverb": "pari",
      "n": 10
     }
    ],
@@ -138622,13 +142434,13 @@
      "n": 13
     },
     {
-     "form": "niḥsṛp",
-     "preverb": "niḥ",
+     "form": "anusṛp",
+     "preverb": "anu",
      "n": 10
     },
     {
-     "form": "anusṛp",
-     "preverb": "anu",
+     "form": "niḥsṛp",
+     "preverb": "niḥ",
      "n": 10
     },
     {
@@ -138637,8 +142449,8 @@
      "n": 8
     },
     {
-     "form": "samprasṛp",
-     "preverb": "sampra",
+     "form": "samutsṛp",
+     "preverb": "samut",
      "n": 6
     }
    ],
@@ -138987,14 +142799,19 @@
      "n": 6
     },
     {
+     "form": "abhisev",
+     "preverb": "abhi",
+     "n": 3
+    },
+    {
      "form": "anusev",
      "preverb": "anu",
      "n": 3
     },
     {
-     "form": "abhisev",
-     "preverb": "abhi",
-     "n": 3
+     "form": "pratisev",
+     "preverb": "prati",
+     "n": 2
     },
     {
      "form": "samāsev",
@@ -139002,9 +142819,9 @@
      "n": 2
     },
     {
-     "form": "pratisev",
-     "preverb": "prati",
-     "n": 2
+     "form": "vyatisev",
+     "preverb": "vyati",
+     "n": 1
     },
     {
      "form": "prasev",
@@ -139014,11 +142831,6 @@
     {
      "form": "avasev",
      "preverb": "ava",
-     "n": 1
-    },
-    {
-     "form": "vyatisev",
-     "preverb": "vyati",
      "n": 1
     },
     {
@@ -139231,13 +143043,13 @@
      "n": 1
     },
     {
-     "form": "abhipraskand",
-     "preverb": "abhipra",
+     "form": "pratyavaskand",
+     "preverb": "pratyava",
      "n": 0
     },
     {
-     "form": "pratyavaskand",
-     "preverb": "pratyava",
+     "form": "abhipraskand",
+     "preverb": "abhipra",
      "n": 0
     }
    ],
@@ -139824,6 +143636,11 @@
    },
    "preverbs": [
     {
+     "form": "abhiniḥstan",
+     "preverb": "abhiniḥ",
+     "n": 0
+    },
+    {
      "form": "vistan",
      "preverb": "vi",
      "n": 0
@@ -139831,11 +143648,6 @@
     {
      "form": "pariniḥstan",
      "preverb": "pariniḥ",
-     "n": 0
-    },
-    {
-     "form": "abhiniḥstan",
-     "preverb": "abhiniḥ",
      "n": 0
     }
    ],
@@ -143653,13 +147465,13 @@
      "n": 5
     },
     {
-     "form": "anuspṛś",
-     "preverb": "anu",
+     "form": "nispṛś",
+     "preverb": "ni",
      "n": 4
     },
     {
-     "form": "nispṛś",
-     "preverb": "ni",
+     "form": "anuspṛś",
+     "preverb": "anu",
      "n": 4
     },
     {
@@ -143673,11 +147485,6 @@
      "n": 2
     },
     {
-     "form": "upāspṛś",
-     "preverb": "upā",
-     "n": 1
-    },
-    {
      "form": "vispṛś",
      "preverb": "vi",
      "n": 1
@@ -143688,13 +147495,18 @@
      "n": 1
     },
     {
-     "form": "paryupaspṛś",
-     "preverb": "paryupa",
-     "n": 0
+     "form": "upāspṛś",
+     "preverb": "upā",
+     "n": 1
     },
     {
      "form": "sampraspṛś",
      "preverb": "sampra",
+     "n": 0
+    },
+    {
+     "form": "utspṛś",
+     "preverb": "ut",
      "n": 0
     }
    ],
@@ -144355,13 +148167,8 @@
      "n": 8
     },
     {
-     "form": "niḥsphur",
-     "preverb": "niḥ",
-     "n": 0
-    },
-    {
-     "form": "anusphur",
-     "preverb": "anu",
+     "form": "avasphur",
+     "preverb": "ava",
      "n": 0
     },
     {
@@ -144370,8 +148177,13 @@
      "n": 0
     },
     {
-     "form": "avasphur",
-     "preverb": "ava",
+     "form": "niḥsphur",
+     "preverb": "niḥ",
+     "n": 0
+    },
+    {
+     "form": "anusphur",
+     "preverb": "anu",
      "n": 0
     },
     {
@@ -144764,11 +148576,6 @@
      "n": 7
     },
     {
-     "form": "upasmi",
-     "preverb": "upa",
-     "n": 1
-    },
-    {
      "form": "prasmi",
      "preverb": "pra",
      "n": 1
@@ -144776,6 +148583,11 @@
     {
      "form": "abhismi",
      "preverb": "abhi",
+     "n": 1
+    },
+    {
+     "form": "upasmi",
+     "preverb": "upa",
      "n": 1
     },
     {
@@ -145121,13 +148933,13 @@
      "n": 3
     },
     {
-     "form": "nismṛ",
-     "preverb": "ni",
+     "form": "parismṛ",
+     "preverb": "pari",
      "n": 1
     },
     {
-     "form": "parismṛ",
-     "preverb": "pari",
+     "form": "nismṛ",
+     "preverb": "ni",
      "n": 1
     },
     {
@@ -145352,13 +149164,13 @@
      "n": 0
     },
     {
-     "form": "abhyavasyand",
-     "preverb": "abhyava",
+     "form": "niḥsyand",
+     "preverb": "niḥ",
      "n": 0
     },
     {
-     "form": "niḥsyand",
-     "preverb": "niḥ",
+     "form": "abhyavasyand",
+     "preverb": "abhyava",
      "n": 0
     }
    ],
@@ -145560,13 +149372,13 @@
      "n": 1
     },
     {
-     "form": "avavisraṃs",
-     "preverb": "avavi",
+     "form": "anuvisraṃs",
+     "preverb": "anuvi",
      "n": 0
     },
     {
-     "form": "anuvisraṃs",
-     "preverb": "anuvi",
+     "form": "avavisraṃs",
+     "preverb": "avavi",
      "n": 0
     },
     {
@@ -145972,8 +149784,8 @@
      "n": 3
     },
     {
-     "form": "avasru",
-     "preverb": "ava",
+     "form": "abhiprasru",
+     "preverb": "abhipra",
      "n": 2
     }
    ],
@@ -146352,6 +150164,11 @@
    },
    "preverbs": [
     {
+     "form": "nisvan",
+     "preverb": "ni",
+     "n": 2
+    },
+    {
      "form": "niḥsvan",
      "preverb": "niḥ",
      "n": 2
@@ -146359,11 +150176,6 @@
     {
      "form": "pratisvan",
      "preverb": "prati",
-     "n": 2
-    },
-    {
-     "form": "nisvan",
-     "preverb": "ni",
      "n": 2
     },
     {
@@ -146824,13 +150636,13 @@
    },
    "preverbs": [
     {
-     "form": "abhisvar",
-     "preverb": "abhi",
+     "form": "atisvar",
+     "preverb": "ati",
      "n": 5
     },
     {
-     "form": "atisvar",
-     "preverb": "ati",
+     "form": "abhisvar",
+     "preverb": "abhi",
      "n": 5
     },
     {
@@ -147631,13 +151443,13 @@
      "n": 64
     },
     {
-     "form": "abhyāhan",
-     "preverb": "abhyā",
+     "form": "prahan",
+     "preverb": "pra",
      "n": 48
     },
     {
-     "form": "prahan",
-     "preverb": "pra",
+     "form": "abhyāhan",
+     "preverb": "abhyā",
      "n": 48
     }
    ],
@@ -147669,21 +151481,417 @@
   },
   "909": {
    "root": "har",
-   "dcs_lemma": null,
-   "dcs_status": "unmatched",
-   "total": 0,
-   "rank": null,
-   "grammar_class": [],
+   "dcs_lemma": "hṛ",
+   "dcs_status": "homonym_shared",
+   "total": 2792,
+   "rank": 42,
+   "grammar_class": [
+    "2",
+    "9"
+   ],
    "grammar_derived": [],
-   "grammar_raw": "",
-   "verbforms": {},
-   "tenses": {},
-   "voices": {},
-   "top_forms": [],
-   "ppp": [],
-   "participles": {},
-   "preverbs": [],
-   "present_stem_signal": {}
+   "grammar_raw": "2. P.; 9. Ā.; n",
+   "verbforms": {
+    "Part": 921,
+    "Finite": 1640,
+    "Conv": 133,
+    "Gdv": 46,
+    "Inf": 52
+   },
+   "tenses": {
+    "—": 928,
+    "Pres": 1518,
+    "Fut": 44,
+    "Impf": 65,
+    "Past": 237
+   },
+   "voices": {
+    "Active": 2598,
+    "Pass": 194
+   },
+   "top_forms": [
+    {
+     "form": "harati",
+     "n": 320
+    },
+    {
+     "form": "haret",
+     "n": 314
+    },
+    {
+     "form": "hṛta",
+     "n": 239
+    },
+    {
+     "form": "haranti",
+     "n": 163
+    },
+    {
+     "form": "jahāra",
+     "n": 145
+    },
+    {
+     "form": "hṛtvā",
+     "n": 133
+    },
+    {
+     "form": "hṛtā",
+     "n": 95
+    },
+    {
+     "form": "hṛtaṃ",
+     "n": 79
+    },
+    {
+     "form": "hared",
+     "n": 65
+    },
+    {
+     "form": "harate",
+     "n": 62
+    },
+    {
+     "form": "hṛtam",
+     "n": 59
+    },
+    {
+     "form": "harāmi",
+     "n": 58
+    },
+    {
+     "form": "hṛte",
+     "n": 52
+    },
+    {
+     "form": "hara",
+     "n": 50
+    },
+    {
+     "form": "hriyate",
+     "n": 46
+    }
+   ],
+   "ppp": [
+    {
+     "stem": "hṛta",
+     "n": 570
+    },
+    {
+     "stem": "hṛtaṃ",
+     "n": 79
+    },
+    {
+     "stem": "hṛtāṃ",
+     "n": 10
+    },
+    {
+     "stem": "hṛtava",
+     "n": 10
+    },
+    {
+     "stem": "hṛtavan",
+     "n": 8
+    },
+    {
+     "stem": "hṛtāyāṃ",
+     "n": 4
+    },
+    {
+     "stem": "hṛtas",
+     "n": 3
+    },
+    {
+     "stem": "hṛtās",
+     "n": 2
+    },
+    {
+     "stem": "hṛtair",
+     "n": 2
+    },
+    {
+     "stem": "hṛtavāṃś",
+     "n": 1
+    },
+    {
+     "stem": "hṛtaś",
+     "n": 1
+    },
+    {
+     "stem": "hṛtavati",
+     "n": 1
+    }
+   ],
+   "participles": {
+    "present-active": {
+     "label": "Present active (-at/-ant)",
+     "total": 90,
+     "top": [
+      {
+       "form": "haran",
+       "n": 32
+      },
+      {
+       "form": "harato",
+       "n": 6
+      },
+      {
+       "form": "haratā",
+       "n": 5
+      },
+      {
+       "form": "harantaḥ",
+       "n": 5
+      },
+      {
+       "form": "harataḥ",
+       "n": 5
+      },
+      {
+       "form": "harantī",
+       "n": 4
+      },
+      {
+       "form": "haranto",
+       "n": 4
+      },
+      {
+       "form": "harati",
+       "n": 3
+      }
+     ]
+    },
+    "present-middle": {
+     "label": "Present middle (-māna/-āna)",
+     "total": 4,
+     "top": [
+      {
+       "form": "hṛṇānaḥ",
+       "n": 2
+      },
+      {
+       "form": "haramāṇo",
+       "n": 1
+      },
+      {
+       "form": "haramāṇaḥ",
+       "n": 1
+      }
+     ]
+    },
+    "present-passive": {
+     "label": "Present passive (-yamāna)",
+     "total": 126,
+     "top": [
+      {
+       "form": "hriyamāṇaṃ",
+       "n": 18
+      },
+      {
+       "form": "hriyamāṇā",
+       "n": 15
+      },
+      {
+       "form": "hriyamāṇam",
+       "n": 14
+      },
+      {
+       "form": "hriyamāṇe",
+       "n": 14
+      },
+      {
+       "form": "hriyamāṇāṃ",
+       "n": 13
+      },
+      {
+       "form": "hriyamāṇaḥ",
+       "n": 9
+      },
+      {
+       "form": "hriyamāṇān",
+       "n": 8
+      },
+      {
+       "form": "hriyamāṇasya",
+       "n": 8
+      }
+     ]
+    },
+    "past-passive": {
+     "label": "Past passive — PPP (-ta/-na)",
+     "total": 695,
+     "top": [
+      {
+       "form": "hṛta",
+       "n": 239
+      },
+      {
+       "form": "hṛtā",
+       "n": 95
+      },
+      {
+       "form": "hṛtaṃ",
+       "n": 79
+      },
+      {
+       "form": "hṛtam",
+       "n": 59
+      },
+      {
+       "form": "hṛte",
+       "n": 52
+      },
+      {
+       "form": "hṛtaḥ",
+       "n": 32
+      },
+      {
+       "form": "hṛto",
+       "n": 29
+      },
+      {
+       "form": "hṛtāḥ",
+       "n": 28
+      }
+     ]
+    },
+    "past-active": {
+     "label": "Past active (-tavant)",
+     "total": 3,
+     "top": [
+      {
+       "form": "hṛtavān",
+       "n": 3
+      }
+     ]
+    },
+    "future-active": {
+     "label": "Future active (-syant)",
+     "total": 3,
+     "top": [
+      {
+       "form": "hariṣyatsu",
+       "n": 3
+      }
+     ]
+    },
+    "gerundive": {
+     "label": "Gerundive / FPP (-tavya/-anīya/-ya)",
+     "total": 46,
+     "top": [
+      {
+       "form": "hāryam",
+       "n": 10
+      },
+      {
+       "form": "hārya",
+       "n": 6
+      },
+      {
+       "form": "hartavyaṃ",
+       "n": 6
+      },
+      {
+       "form": "hāryaḥ",
+       "n": 4
+      },
+      {
+       "form": "hāryaṃ",
+       "n": 3
+      },
+      {
+       "form": "hartavyam",
+       "n": 2
+      },
+      {
+       "form": "haraṇīyaṃ",
+       "n": 2
+      },
+      {
+       "form": "haraṇīyam",
+       "n": 2
+      }
+     ]
+    }
+   },
+   "preverbs": [
+    {
+     "form": "āhṛ",
+     "preverb": "ā",
+     "n": 1408
+    },
+    {
+     "form": "udāhṛ",
+     "preverb": "udā",
+     "n": 751
+    },
+    {
+     "form": "vihṛ",
+     "preverb": "vi",
+     "n": 616
+    },
+    {
+     "form": "prahṛ",
+     "preverb": "pra",
+     "n": 574
+    },
+    {
+     "form": "apahṛ",
+     "preverb": "apa",
+     "n": 457
+    },
+    {
+     "form": "vyāhṛ",
+     "preverb": "vyā",
+     "n": 385
+    },
+    {
+     "form": "parihṛ",
+     "preverb": "pari",
+     "n": 324
+    },
+    {
+     "form": "samāhṛ",
+     "preverb": "samā",
+     "n": 230
+    },
+    {
+     "form": "upahṛ",
+     "preverb": "upa",
+     "n": 201
+    },
+    {
+     "form": "anuprahṛ",
+     "preverb": "anupra",
+     "n": 105
+    },
+    {
+     "form": "samudāhṛ",
+     "preverb": "samudā",
+     "n": 103
+    },
+    {
+     "form": "abhyavahṛ",
+     "preverb": "abhyava",
+     "n": 81
+    }
+   ],
+   "present_stem_signal": {
+    "dominant": "I/VI",
+    "evidence": [
+     {
+      "bucket": "I/VI",
+      "n": 669
+     },
+     {
+      "bucket": "?",
+      "n": 561
+     },
+     {
+      "bucket": "II/III (athematic)",
+      "n": 2
+     }
+    ]
+   }
   },
   "910": {
    "root": "has",
@@ -147962,13 +152170,13 @@
      "n": 1
     },
     {
-     "form": "vyatihas",
-     "preverb": "vyati",
+     "form": "saṃvihas",
+     "preverb": "saṃvi",
      "n": 0
     },
     {
-     "form": "saṃvihas",
-     "preverb": "saṃvi",
+     "form": "vyatihas",
+     "preverb": "vyati",
      "n": 0
     }
    ],
@@ -148350,8 +152558,8 @@
      "n": 4
     },
     {
-     "form": "abhihā",
-     "preverb": "abhi",
+     "form": "nihā",
+     "preverb": "ni",
      "n": 3
     },
     {
@@ -148742,8 +152950,8 @@
      "n": 4
     },
     {
-     "form": "abhihā",
-     "preverb": "abhi",
+     "form": "nihā",
+     "preverb": "ni",
      "n": 3
     },
     {
@@ -149058,13 +153266,13 @@
      "n": 1
     },
     {
-     "form": "pratihi",
-     "preverb": "prati",
+     "form": "prāhi",
+     "preverb": "prā",
      "n": 1
     },
     {
-     "form": "prāhi",
-     "preverb": "prā",
+     "form": "pratihi",
+     "preverb": "prati",
      "n": 1
     },
     {
@@ -149356,13 +153564,13 @@
      "n": 9
     },
     {
-     "form": "prahiṃs",
-     "preverb": "pra",
+     "form": "abhihiṃs",
+     "preverb": "abhi",
      "n": 1
     },
     {
-     "form": "abhihiṃs",
-     "preverb": "abhi",
+     "form": "prahiṃs",
+     "preverb": "pra",
      "n": 1
     },
     {
@@ -149528,13 +153736,13 @@
      "n": 2
     },
     {
-     "form": "parihiṇḍ",
-     "preverb": "pari",
+     "form": "upāhiṇḍ",
+     "preverb": "upā",
      "n": 1
     },
     {
-     "form": "upāhiṇḍ",
-     "preverb": "upā",
+     "form": "parihiṇḍ",
+     "preverb": "pari",
      "n": 1
     }
    ],
@@ -150133,13 +154341,13 @@
      "n": 1
     },
     {
-     "form": "adhihu",
-     "preverb": "adhi",
+     "form": "avahu",
+     "preverb": "ava",
      "n": 0
     },
     {
-     "form": "avahu",
-     "preverb": "ava",
+     "form": "adhihu",
+     "preverb": "adhi",
      "n": 0
     }
    ],
@@ -150224,13 +154432,13 @@
    },
    "preverbs": [
     {
-     "form": "vihūrch",
-     "preverb": "vi",
+     "form": "anuhūrch",
+     "preverb": "anu",
      "n": 1
     },
     {
-     "form": "anuhūrch",
-     "preverb": "anu",
+     "form": "vihūrch",
+     "preverb": "vi",
      "n": 1
     }
    ],
@@ -151344,23 +155552,23 @@
      "n": 1
     },
     {
-     "form": "abhihṛṣ",
-     "preverb": "abhi",
-     "n": 1
-    },
-    {
      "form": "vihṛṣ",
      "preverb": "vi",
      "n": 1
     },
     {
-     "form": "pratihṛṣ",
-     "preverb": "prati",
-     "n": 0
+     "form": "abhihṛṣ",
+     "preverb": "abhi",
+     "n": 1
     },
     {
      "form": "nihṛṣ",
      "preverb": "ni",
+     "n": 0
+    },
+    {
+     "form": "pratihṛṣ",
+     "preverb": "prati",
      "n": 0
     }
    ],
@@ -151667,8 +155875,8 @@
      "n": 1
     },
     {
-     "form": "apanihnu",
-     "preverb": "apani",
+     "form": "apihnu",
+     "preverb": "api",
      "n": 0
     },
     {
@@ -151677,8 +155885,8 @@
      "n": 0
     },
     {
-     "form": "apihnu",
-     "preverb": "api",
+     "form": "apanihnu",
+     "preverb": "apani",
      "n": 0
     }
    ],

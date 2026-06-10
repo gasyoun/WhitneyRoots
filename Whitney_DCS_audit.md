@@ -7,22 +7,22 @@ _Source: `dcs_full.sqlite` (2026 CoNLL-U); generated 2026-06-10._
 ## Coverage
 
 - Whitney entries: **935**
-- Linked to DCS: **739** (matched 600, normalized 0, homonym-shared 139)
-- Unmatched (no DCS lemma; citation-form/Vedic): **196**
+- Linked to DCS: **755** (matched 589, normalized 0, aliased 2, homonym-shared 164)
+- Unmatched (no DCS lemma; citation-form/Vedic): **180**
 - Lexicon-only (DCS lemma but 0 corpus tokens): **37**
 
 ## Class verdicts (Whitney vs DCS grammar field)
 
 | verdict | count |
 |---|---|
-| agree | 319 |
-| partial-overlap | 253 |
-| conflict | 99 |
-| whitney-missing | 59 |
+| agree | 322 |
+| partial-overlap | 254 |
+| conflict | 104 |
+| whitney-missing | 66 |
 | dcs-has-no-class | 8 |
 | no-corpus-evidence | 1 |
 
-### Conflicts (99) — disjoint class sets
+### Conflicts (104) — disjoint class sets
 
 | root | DCS lemma | Whitney | DCS grammar | corpus signal | tokens |
 |---|---|---|---|---|---|
@@ -33,6 +33,8 @@ _Source: `dcs_full.sqlite` (2026 CoNLL-U); generated 2026-06-10._
 | man | man | 3,4,8 | 1 | I/VI | 4697 |
 | 1 ji | ji | 1,2 | 9 | X/caus-denom | 4082 |
 | 2 ji | ji | 1,2 | 9 | X/caus-denom | 4082 |
+| prach | pracch | 6 | 1 | I/VI | 2851 |
+| har | hṛ | 4 | 2,9 | I/VI | 2792 |
 | sṛj | sṛj | 1,6 | 2 | I/VI | 2749 |
 | bandh | bandh | 1,9 | 4 | IX | 2654 |
 | 1 mṛ | mṛ | 1 | 4,9 | IV | 2615 |
@@ -46,6 +48,7 @@ _Source: `dcs_full.sqlite` (2026 CoNLL-U); generated 2026-06-10._
 | 1 aś | aś | 5,9 | 1 | V | 1948 |
 | 2 aś | aś | 5,9 | 1 | V | 1948 |
 | rakṣ | rakṣ | 1 | 4 | I/VI | 1929 |
+| vāh | vah | 1 | 2 | I/VI | 1845 |
 | śaṃs | śaṃs | 1 | 2 | I/VI | 1785 |
 | jap | jap | 1 | 4 | I/VI | 1702 |
 | vṛdh | vṛdh | 1 | 6 | I/VI | 1619 |
@@ -60,6 +63,7 @@ _Source: `dcs_full.sqlite` (2026 CoNLL-U); generated 2026-06-10._
 | yam | yam | 1,2 | 6 | I/VI | 1093 |
 | dru | dru | 1 | 9 | I/VI | 1073 |
 | piṣ | piṣ | 6,7 | 1 | I/VI | 1062 |
+| pis | piṣ | 4 | 1 | I/VI | 1062 |
 | viś | viś | 6 | 3 | I/VI | 1053 |
 | sad | sad | 1,2 | 6 | I/VI | 953 |
 | su | su | 3,5 | 6 | V | 878 |
@@ -78,16 +82,12 @@ _Source: `dcs_full.sqlite` (2026 CoNLL-U); generated 2026-06-10._
 | puṣ | puṣ | 1,4,9 | 6 | IV | 438 |
 | lih | lih | 2,6 | 4 | I/VI | 405 |
 | ṛdh | ṛdh | 4,5,7 | 6 | V | 392 |
+| khad | khād | 6 | 1 | I/VI | 369 |
 | khan | khan | 1 | 2 | I/VI | 352 |
 | nud | nud | 6 | 7 | I/VI | 332 |
 | mṛj | mṛj | 1,2,6,7 | 3 | I/VI | 298 |
-| cit | cit | 1 | 3 | I/VI | 266 |
-| kruś | kruś | 1 | 4 | I/VI | 238 |
-| kṣar | kṣar | 1 | 2 | I/VI | 220 |
-| kāṅkṣ | kāṅkṣ | 1 | 2 | I/VI | 202 |
-| 1 ukṣ | ukṣ | 6 | 4 | I/VI | 191 |
 
-### Partial overlap (253)
+### Partial overlap (254)
 
 | root | Whitney | DCS grammar | tokens |
 |---|---|---|---|
@@ -132,7 +132,7 @@ _Source: `dcs_full.sqlite` (2026 CoNLL-U); generated 2026-06-10._
 | 2 sidh | 1 | 1,4 | 2028 |
 | 1 gā | 1,2 | 2,4 | 1911 |
 
-## PPP: Whitney stems unattested in corpus (207 roots)
+## PPP: Whitney stems unattested in corpus (208 roots)
 
 | root | DCS lemma | unattested PPP | tokens |
 |---|---|---|---|

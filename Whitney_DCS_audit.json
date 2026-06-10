@@ -4,10 +4,11 @@
   "dcs_snapshot": "2026 CoNLL-U",
   "generated": "2026-06-10",
   "total": 935,
-  "matched": 600,
+  "matched": 589,
   "normalized": 0,
-  "homonym_shared": 139,
-  "unmatched": 196
+  "aliased": 2,
+  "homonym_shared": 164,
+  "unmatched": 180
  },
  "rows": [
   {
@@ -834,15 +835,28 @@
   {
    "id": "32",
    "root": "ich",
-   "dcs_lemma": null,
-   "status": "unmatched",
+   "dcs_lemma": "iṣ",
+   "status": "homonym_shared",
+   "total": 4842,
    "whitney_classes": [],
-   "dcs_classes": [],
-   "present_signal": null,
-   "class_verdict": "no-dcs-match",
+   "dcs_classes": [
+    "1",
+    "6"
+   ],
+   "dcs_derived": [],
+   "present_signal": "I/VI",
+   "class_verdict": "whitney-missing",
    "whitney_ppp": [],
    "ppp_results": [],
-   "existence": "no-dcs-match"
+   "dcs_extra_ppp": [
+    "iṣṭa",
+    "iṣṭaṃ",
+    "iṣita",
+    "iṣṭāṃ",
+    "iṣṭābhir",
+    "iṣṭānāṃ"
+   ],
+   "existence": "attested"
   },
   {
    "id": "33",
@@ -860,15 +874,26 @@
   {
    "id": "34",
    "root": "iḍ",
-   "dcs_lemma": null,
-   "status": "unmatched",
+   "dcs_lemma": "īḍ",
+   "status": "homonym_shared",
+   "total": 352,
    "whitney_classes": [],
-   "dcs_classes": [],
-   "present_signal": null,
-   "class_verdict": "no-dcs-match",
+   "dcs_classes": [
+    "2"
+   ],
+   "dcs_derived": [],
+   "present_signal": "I/VI",
+   "class_verdict": "whitney-missing",
    "whitney_ppp": [],
    "ppp_results": [],
-   "existence": "no-dcs-match"
+   "dcs_extra_ppp": [
+    "īḍita",
+    "īﾱita",
+    "īḍitebhir",
+    "īḍitebhi",
+    "_"
+   ],
+   "existence": "attested"
   },
   {
    "id": "35",
@@ -1149,7 +1174,7 @@
    "id": "48",
    "root": "īḍ",
    "dcs_lemma": "īḍ",
-   "status": "matched",
+   "status": "homonym_shared",
    "total": 352,
    "whitney_classes": [
     "1",
@@ -3638,7 +3663,7 @@
    "id": "151",
    "root": "kṣviḍ",
    "dcs_lemma": "kṣviḍ",
-   "status": "matched",
+   "status": "homonym_shared",
    "total": 17,
    "whitney_classes": [
     "1"
@@ -3664,20 +3689,36 @@
   {
    "id": "152",
    "root": "kṣvid",
-   "dcs_lemma": null,
-   "status": "unmatched",
+   "dcs_lemma": "kṣviḍ",
+   "status": "homonym_shared",
+   "total": 17,
    "whitney_classes": [
     "1"
    ],
-   "dcs_classes": [],
-   "present_signal": null,
-   "class_verdict": "no-dcs-match",
+   "dcs_classes": [
+    "1"
+   ],
+   "dcs_derived": [],
+   "present_signal": "I/VI",
+   "class_verdict": "agree",
    "whitney_ppp": [
     "ksvinna",
     "ksvidas"
    ],
-   "ppp_results": [],
-   "existence": "no-dcs-match"
+   "ppp_results": [
+    {
+     "stem": "ksvinna",
+     "verdict": "unattested"
+    },
+    {
+     "stem": "ksvidas",
+     "verdict": "unattested"
+    }
+   ],
+   "dcs_extra_ppp": [
+    "kṣveḍita"
+   ],
+   "existence": "attested"
   },
   {
    "id": "153",
@@ -3746,17 +3787,28 @@
   {
    "id": "156",
    "root": "khad",
-   "dcs_lemma": null,
-   "status": "unmatched",
+   "dcs_lemma": "khād",
+   "status": "homonym_shared",
+   "total": 369,
    "whitney_classes": [
     "6"
    ],
-   "dcs_classes": [],
-   "present_signal": null,
-   "class_verdict": "no-dcs-match",
+   "dcs_classes": [
+    "1"
+   ],
+   "dcs_derived": [],
+   "present_signal": "I/VI",
+   "class_verdict": "conflict",
    "whitney_ppp": [],
    "ppp_results": [],
-   "existence": "no-dcs-match"
+   "dcs_extra_ppp": [
+    "khādita",
+    "khāditaṃ",
+    "khāditava",
+    "khāditaś",
+    "khāditair"
+   ],
+   "existence": "attested"
   },
   {
    "id": "157",
@@ -3837,7 +3889,7 @@
    "id": "161",
    "root": "khād",
    "dcs_lemma": "khād",
-   "status": "matched",
+   "status": "homonym_shared",
    "total": 369,
    "whitney_classes": [
     "1"
@@ -3965,15 +4017,27 @@
   {
    "id": "166",
    "root": "gach",
-   "dcs_lemma": null,
-   "status": "unmatched",
+   "dcs_lemma": "gam",
+   "status": "homonym_shared",
+   "total": 18341,
    "whitney_classes": [],
-   "dcs_classes": [],
-   "present_signal": null,
-   "class_verdict": "no-dcs-match",
+   "dcs_classes": [
+    "6"
+   ],
+   "dcs_derived": [],
+   "present_signal": "I/VI",
+   "class_verdict": "whitney-missing",
    "whitney_ppp": [],
    "ppp_results": [],
-   "existence": "no-dcs-match"
+   "dcs_extra_ppp": [
+    "gata",
+    "gataṃ",
+    "gatava",
+    "gatāṃ",
+    "gatas",
+    "gatāyāṃ"
+   ],
+   "existence": "attested"
   },
   {
    "id": "167",
@@ -4044,7 +4108,7 @@
    "id": "170",
    "root": "gam",
    "dcs_lemma": "gam",
-   "status": "matched",
+   "status": "homonym_shared",
    "total": 18341,
    "whitney_classes": [
     "1",
@@ -7478,17 +7542,22 @@
   {
    "id": "314",
    "root": "turv",
-   "dcs_lemma": null,
-   "status": "unmatched",
+   "dcs_lemma": "tūrv",
+   "status": "homonym_shared",
+   "total": 9,
    "whitney_classes": [
     "1"
    ],
-   "dcs_classes": [],
-   "present_signal": null,
-   "class_verdict": "no-dcs-match",
+   "dcs_classes": [
+    "1"
+   ],
+   "dcs_derived": [],
+   "present_signal": "I/VI",
+   "class_verdict": "agree",
    "whitney_ppp": [],
    "ppp_results": [],
-   "existence": "no-dcs-match"
+   "dcs_extra_ppp": [],
+   "existence": "attested"
   },
   {
    "id": "315",
@@ -7556,7 +7625,7 @@
    "id": "318",
    "root": "tūrv",
    "dcs_lemma": "tūrv",
-   "status": "matched",
+   "status": "homonym_shared",
    "total": 9,
    "whitney_classes": [],
    "dcs_classes": [
@@ -8558,15 +8627,24 @@
   {
    "id": "355",
    "root": "div",
-   "dcs_lemma": null,
-   "status": "unmatched",
+   "dcs_lemma": "dīv",
+   "status": "homonym_shared",
+   "total": 110,
    "whitney_classes": [],
-   "dcs_classes": [],
-   "present_signal": null,
-   "class_verdict": "no-dcs-match",
+   "dcs_classes": [
+    "1",
+    "4"
+   ],
+   "dcs_derived": [],
+   "present_signal": "I/VI",
+   "class_verdict": "whitney-missing",
    "whitney_ppp": [],
    "ppp_results": [],
-   "existence": "no-dcs-match"
+   "dcs_extra_ppp": [
+    "dyūta",
+    "dyūna"
+   ],
+   "existence": "attested"
   },
   {
    "id": "356",
@@ -8797,7 +8875,7 @@
    "id": "365",
    "root": "du",
    "dcs_lemma": "du",
-   "status": "matched",
+   "status": "homonym_shared",
    "total": 82,
    "whitney_classes": [
     "5"
@@ -8927,15 +9005,24 @@
   {
    "id": "370",
    "root": "dū",
-   "dcs_lemma": null,
-   "status": "unmatched",
+   "dcs_lemma": "du",
+   "status": "homonym_shared",
+   "total": 82,
    "whitney_classes": [],
-   "dcs_classes": [],
-   "present_signal": null,
-   "class_verdict": "no-dcs-match",
+   "dcs_classes": [
+    "4"
+   ],
+   "dcs_derived": [],
+   "present_signal": "V",
+   "class_verdict": "whitney-missing",
    "whitney_ppp": [],
    "ppp_results": [],
-   "existence": "no-dcs-match"
+   "dcs_extra_ppp": [
+    "dūna",
+    "duta",
+    "dūnās"
+   ],
+   "existence": "attested"
   },
   {
    "id": "371",
@@ -10674,7 +10761,7 @@
    "id": "438",
    "root": "paṭh",
    "dcs_lemma": "paṭh",
-   "status": "matched",
+   "status": "homonym_shared",
    "total": 582,
    "whitney_classes": [
     "1"
@@ -10785,17 +10872,25 @@
   {
    "id": "442",
    "root": "path",
-   "dcs_lemma": null,
-   "status": "unmatched",
+   "dcs_lemma": "paṭh",
+   "status": "homonym_shared",
+   "total": 582,
    "whitney_classes": [
     "1"
    ],
-   "dcs_classes": [],
-   "present_signal": null,
-   "class_verdict": "no-dcs-match",
+   "dcs_classes": [
+    "1"
+   ],
+   "dcs_derived": [],
+   "present_signal": "I/VI",
+   "class_verdict": "agree",
    "whitney_ppp": [],
    "ppp_results": [],
-   "existence": "no-dcs-match"
+   "dcs_extra_ppp": [
+    "paṭhita",
+    "paṭhitaṃ"
+   ],
+   "existence": "attested"
   },
   {
    "id": "443",
@@ -11144,7 +11239,7 @@
    "id": "456",
    "root": "piṣ",
    "dcs_lemma": "piṣ",
-   "status": "matched",
+   "status": "homonym_shared",
    "total": 1062,
    "whitney_classes": [
     "6",
@@ -11171,17 +11266,29 @@
   {
    "id": "457",
    "root": "pis",
-   "dcs_lemma": null,
-   "status": "unmatched",
+   "dcs_lemma": "piṣ",
+   "status": "homonym_shared",
+   "total": 1062,
    "whitney_classes": [
     "4"
    ],
-   "dcs_classes": [],
-   "present_signal": null,
-   "class_verdict": "no-dcs-match",
+   "dcs_classes": [
+    "1"
+   ],
+   "dcs_derived": [],
+   "present_signal": "I/VI",
+   "class_verdict": "conflict",
    "whitney_ppp": [],
    "ppp_results": [],
-   "existence": "no-dcs-match"
+   "dcs_extra_ppp": [
+    "piṣṭa",
+    "piṣṭaṃ",
+    "piṣṭair",
+    "piṣṭaya",
+    "piṣṭād",
+    "piṣṭāṃ"
+   ],
+   "existence": "attested"
   },
   {
    "id": "458",
@@ -11652,19 +11759,31 @@
   {
    "id": "477",
    "root": "prach",
-   "dcs_lemma": null,
-   "status": "unmatched",
+   "dcs_lemma": "pracch",
+   "status": "aliased",
+   "total": 2851,
    "whitney_classes": [
     "6"
    ],
-   "dcs_classes": [],
-   "present_signal": null,
-   "class_verdict": "no-dcs-match",
+   "dcs_classes": [
+    "1"
+   ],
+   "dcs_derived": [],
+   "present_signal": "I/VI",
+   "class_verdict": "conflict",
    "whitney_ppp": [
     "prsta"
    ],
-   "ppp_results": [],
-   "existence": "no-dcs-match"
+   "ppp_results": [
+    {
+     "stem": "prsta",
+     "verdict": "confirmed"
+    }
+   ],
+   "dcs_extra_ppp": [
+    "pṛcchita"
+   ],
+   "existence": "attested"
   },
   {
    "id": "478",
@@ -14590,15 +14709,27 @@
   {
    "id": "596",
    "root": "yach",
-   "dcs_lemma": null,
-   "status": "unmatched",
+   "dcs_lemma": "yam",
+   "status": "homonym_shared",
+   "total": 1093,
    "whitney_classes": [],
-   "dcs_classes": [],
-   "present_signal": null,
-   "class_verdict": "no-dcs-match",
+   "dcs_classes": [
+    "6"
+   ],
+   "dcs_derived": [],
+   "present_signal": "I/VI",
+   "class_verdict": "whitney-missing",
    "whitney_ppp": [],
    "ppp_results": [],
-   "existence": "no-dcs-match"
+   "dcs_extra_ppp": [
+    "yata",
+    "yemāna",
+    "yataṃ",
+    "yatāyai",
+    "yatās",
+    "yatāsa"
+   ],
+   "existence": "attested"
   },
   {
    "id": "597",
@@ -14693,7 +14824,7 @@
    "id": "600",
    "root": "yam",
    "dcs_lemma": "yam",
-   "status": "matched",
+   "status": "homonym_shared",
    "total": 1093,
    "whitney_classes": [
     "1",
@@ -15651,7 +15782,7 @@
    "id": "641",
    "root": "ri",
    "dcs_lemma": "ri",
-   "status": "matched",
+   "status": "homonym_shared",
    "total": 60,
    "whitney_classes": [
     "4",
@@ -15889,15 +16020,20 @@
   {
    "id": "651",
    "root": "rī",
-   "dcs_lemma": null,
-   "status": "unmatched",
+   "dcs_lemma": "ri",
+   "status": "homonym_shared",
+   "total": 60,
    "whitney_classes": [],
-   "dcs_classes": [],
-   "present_signal": null,
-   "class_verdict": "no-dcs-match",
+   "dcs_classes": [
+    "9"
+   ],
+   "dcs_derived": [],
+   "present_signal": "IV",
+   "class_verdict": "whitney-missing",
    "whitney_ppp": [],
    "ppp_results": [],
-   "existence": "no-dcs-match"
+   "dcs_extra_ppp": [],
+   "existence": "attested"
   },
   {
    "id": "652",
@@ -17668,7 +17804,7 @@
    "id": "718",
    "root": "vah",
    "dcs_lemma": "vah",
-   "status": "matched",
+   "status": "homonym_shared",
    "total": 1845,
    "whitney_classes": [
     "1",
@@ -17861,17 +17997,29 @@
   {
    "id": "724",
    "root": "vāh",
-   "dcs_lemma": null,
-   "status": "unmatched",
+   "dcs_lemma": "vah",
+   "status": "homonym_shared",
+   "total": 1845,
    "whitney_classes": [
     "1"
    ],
-   "dcs_classes": [],
-   "present_signal": null,
-   "class_verdict": "no-dcs-match",
+   "dcs_classes": [
+    "2"
+   ],
+   "dcs_derived": [],
+   "present_signal": "I/VI",
+   "class_verdict": "conflict",
    "whitney_ppp": [],
    "ppp_results": [],
-   "existence": "no-dcs-match"
+   "dcs_extra_ppp": [
+    "ūḍha",
+    "voḍha",
+    "uhāṇa",
+    "ūḍhāyāṃ",
+    "ūḍhaya",
+    "voḍhaṃ"
+   ],
+   "existence": "attested"
   },
   {
    "id": "725",
@@ -18704,19 +18852,30 @@
   {
    "id": "756",
    "root": "vyā",
-   "dcs_lemma": null,
-   "status": "unmatched",
+   "dcs_lemma": "vye",
+   "status": "aliased",
+   "total": 46,
    "whitney_classes": [
     "4"
    ],
-   "dcs_classes": [],
-   "present_signal": null,
-   "class_verdict": "no-dcs-match",
+   "dcs_classes": [
+    "2",
+    "4"
+   ],
+   "dcs_derived": [],
+   "present_signal": "X/caus-denom",
+   "class_verdict": "partial-overlap",
    "whitney_ppp": [
     "vita"
    ],
-   "ppp_results": [],
-   "existence": "no-dcs-match"
+   "ppp_results": [
+    {
+     "stem": "vita",
+     "verdict": "confirmed"
+    }
+   ],
+   "dcs_extra_ppp": [],
+   "existence": "attested"
   },
   {
    "id": "757",
@@ -22648,17 +22807,30 @@
   {
    "id": "909",
    "root": "har",
-   "dcs_lemma": null,
-   "status": "unmatched",
+   "dcs_lemma": "hṛ",
+   "status": "homonym_shared",
+   "total": 2792,
    "whitney_classes": [
     "4"
    ],
-   "dcs_classes": [],
-   "present_signal": null,
-   "class_verdict": "no-dcs-match",
+   "dcs_classes": [
+    "2",
+    "9"
+   ],
+   "dcs_derived": [],
+   "present_signal": "I/VI",
+   "class_verdict": "conflict",
    "whitney_ppp": [],
    "ppp_results": [],
-   "existence": "no-dcs-match"
+   "dcs_extra_ppp": [
+    "hṛta",
+    "hṛtaṃ",
+    "hṛtāṃ",
+    "hṛtava",
+    "hṛtavan",
+    "hṛtāyāṃ"
+   ],
+   "existence": "attested"
   },
   {
    "id": "910",
