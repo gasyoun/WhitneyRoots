@@ -6772,7 +6772,9 @@
       "root": "4 dā",
       "link": "https://samskrtam.ru/whitney-roots/root_d_a.html",
       "meaning": "clear",
-      "classes": [],
+      "classes": [
+        "III"
+      ],
       "ppp": [],
       "grammar_ref": {
         "sections": [
@@ -7002,7 +7004,8 @@
       "link": "https://samskrtam.ru/whitney-roots/root_du.html",
       "meaning": "burn",
       "classes": [
-        "V"
+        "V",
+        "VII"
       ],
       "ppp": [
         "duna",
@@ -7587,7 +7590,8 @@
       "link": "https://samskrtam.ru/whitney-roots/root_dhi.html",
       "meaning": "nourish",
       "classes": [
-        "V"
+        "V",
+        "VII"
       ],
       "ppp": [],
       "grammar_ref": {
@@ -11287,7 +11291,8 @@
       "link": "https://samskrtam.ru/whitney-roots/root_yat.html",
       "meaning": "stretch",
       "classes": [
-        "I"
+        "I",
+        "VI"
       ],
       "ppp": [
         "yatta",
@@ -13400,6 +13405,7 @@
       "link": "https://samskrtam.ru/whitney-roots/root_vas.html",
       "meaning": "shine",
       "classes": [
+        "I",
         "II",
         "VI"
       ],
@@ -13427,6 +13433,7 @@
       "link": "https://samskrtam.ru/whitney-roots/root_vas.html",
       "meaning": "clothe",
       "classes": [
+        "I",
         "II",
         "VI"
       ],
@@ -13454,6 +13461,7 @@
       "link": "https://samskrtam.ru/whitney-roots/root_vas.html",
       "meaning": "dwell",
       "classes": [
+        "I",
         "II",
         "VI"
       ],
@@ -13502,6 +13510,7 @@
       "link": "https://samskrtam.ru/whitney-roots/root_v_a.html",
       "meaning": "blow",
       "classes": [
+        "I",
         "II",
         "IV"
       ],
@@ -13529,6 +13538,7 @@
       "link": "https://samskrtam.ru/whitney-roots/root_v_a.html",
       "meaning": "weave",
       "classes": [
+        "I",
         "II",
         "IV"
       ],
@@ -13556,6 +13566,7 @@
       "link": "https://samskrtam.ru/whitney-roots/root_v_a.html",
       "meaning": "desire",
       "classes": [
+        "I",
         "II",
         "IV"
       ],
@@ -16990,7 +17001,8 @@
       "link": "https://samskrtam.ru/whitney-roots/root_has.html",
       "meaning": "laugh",
       "classes": [
-        "I"
+        "I",
+        "VI"
       ],
       "ppp": [
         "hasita"
@@ -17172,7 +17184,8 @@
       "meaning": "impel",
       "classes": [
         "I",
-        "V"
+        "V",
+        "VII"
       ],
       "ppp": [
         "hita",
