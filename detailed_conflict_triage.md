@@ -1,3 +1,8 @@
+> ⚠️ **SUPERSEDED (2026-06-10).** The "HIGH priority — Grammar confirms corpus" verdicts here
+> mostly reflect the I/VI accent-collapse artifact (the corpus can't tell class I from VI) plus
+> short-root text-match contamination. The additions this triage motivated were largely
+> **reverted**. Use **`REVIEWER_GUIDE.md`** and `review_queue.json`. Retained for history only.
+
 # Conflict Triage (231 cases)
 
 _Corpus present-stem signals diverge from Whitney class assignments._

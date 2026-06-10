@@ -1,3 +1,8 @@
+> ⚠️ **SUPERSEDED (2026-06-10).** This document drove a batch of class additions that were
+> later found unsound: the corpus cannot distinguish class I from class VI (accent collapse),
+> so most "candidates" here are spurious. 120 of the resulting additions were **reverted**.
+> Use **`REVIEWER_GUIDE.md`** and `review_queue.json` instead. Retained for history only.
+
 # Candidates for Addition from Conflicts
 
 _HIGH priority conflict cases where Grammar/corpus support adding classes._
