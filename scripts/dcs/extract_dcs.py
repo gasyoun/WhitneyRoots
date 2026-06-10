@@ -100,9 +100,11 @@ def dcs_key(root: str) -> str:
 ALIASES = {
     "gach": "gam", "yach": "yam", "prach": "pracch", "ich": "iṣ",
     "har": "hṛ", "vāh": "vah",
-    "path": "paṭh", "pis": "piṣ", "khad": "khād", "iḍ": "īḍ",
+    "path": "paṭh", "khad": "khād", "iḍ": "īḍ",
     "div": "dīv", "dū": "du", "rī": "ri", "turv": "tūrv",
     "kṣvid": "kṣviḍ", "vyā": "vye",
+    # NB: pis ("stretch/extend") is NOT piṣ ("grind", class 7) — distinct roots;
+    # that alias was removed after it produced a spurious class conflict.
 }
 
 
@@ -175,22 +177,32 @@ def ppp_stem(form: str) -> str:
 # Classifies finite present-active forms by ending of the unsandhied form.
 # --------------------------------------------------------------------------
 def present_class_bucket(form: str) -> str:
+    """Classify a present form by its visible class marker. ONLY 3rd-person
+    forms (-ti/-te/-nti/-nte) are diagnostic — the stem marker (-ya-, -aya-,
+    -no-, -nā-, …) sits right before the ending. 1st/2nd-person forms (manye,
+    manyase, manyāmi) carry no visible marker, so they are skipped ('?');
+    classifying them by their personal ending was what mislabeled class-IV
+    roots (man, kṛś) as I/VI."""
     f = form
+    if not f.endswith(("ti", "te", "nti", "nte")):
+        return "?"
     if f.endswith(("ayati", "ayate", "ayanti", "ayante")):
         return "X/caus-denom"
-    if f.endswith(("nāti", "nīte", "nanti", "nīmaḥ")):
+    if f.endswith(("nāti", "nīte", "nanti", "nānti", "nāte")):
         return "IX"
-    if f.endswith(("noti", "nute", "nvanti", "nvate")):
+    if f.endswith(("noti", "nute", "nvanti", "nvate", "nuvanti")):
         return "V"
-    if f.endswith(("oti", "ute", "vanti", "vate")):
+    if f.endswith(("oti", "ute", "vate")):
         return "VIII"
     if f.endswith(("yati", "yate", "yanti", "yante")):
         return "IV"
-    if f.endswith(("ati", "ate", "anti", "ante", "asi", "ase", "āmi", "e")):
-        return "I/VI"  # thematic; guṇa vs no-guṇa not separable cheaply
-    if f.endswith(("ti", "te", "si", "se", "mi", "anti", "ate")):
-        return "II/III (athematic)"
-    return "?"
+    if f.endswith(("ayati", "ayate")):
+        return "X/caus-denom"
+    if f.endswith(("ati", "ate", "anti", "ante")):
+        return "I/VI"  # thematic; guṇa (I) vs no-guṇa (VI) not separable cheaply
+    # remaining -ti/-te/-nti/-nte with no thematic vowel = athematic
+    # (root / reduplicating / nasal-infix): classes 2/3/7
+    return "II/III (athematic)"
 
 
 # --------------------------------------------------------------------------

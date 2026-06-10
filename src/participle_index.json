@@ -913,11 +913,6 @@
   ],
   "piṣṭaṃ": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -974,11 +969,6 @@
    }
   ],
   "piṣṭam": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -11501,11 +11491,6 @@
   ],
   "piṣṭa": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -12175,11 +12160,6 @@
    }
   ],
   "piṣṭaḥ": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -14502,11 +14482,6 @@
   ],
   "piṃṣatī": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "present-active"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "present-active"
@@ -14797,11 +14772,6 @@
    }
   ],
   "piṣṭā": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -26613,11 +26583,6 @@
   ],
   "piṣṭair": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -26789,11 +26754,6 @@
    }
   ],
   "piṣṭaiḥ": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -27325,11 +27285,6 @@
    }
   ],
   "piṣṭān": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -29326,11 +29281,6 @@
   ],
   "piṣṭām": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -29702,11 +29652,6 @@
   ],
   "piṣṭābhyāṃ": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -29821,11 +29766,6 @@
   ],
   "piṣṭe": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -29905,11 +29845,6 @@
    }
   ],
   "piṣṭāḥ": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -30008,11 +29943,6 @@
   ],
   "piṣṭena": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -30036,11 +29966,6 @@
    }
   ],
   "piṣṭāṃ": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -30347,11 +30272,6 @@
   ],
   "piṣṭayā": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -30605,11 +30525,6 @@
   ],
   "piṣṭās": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -30788,11 +30703,6 @@
   ],
   "peṣyaḥ": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "gerundive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "gerundive"
@@ -30828,11 +30738,6 @@
    }
   ],
   "peṣyair": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "gerundive"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -30894,22 +30799,12 @@
   ],
   "piṣṭo": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
    }
   ],
   "peṣyasya": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "gerundive"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -31340,11 +31235,6 @@
   ],
   "piṣṭais": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -31379,11 +31269,6 @@
    }
   ],
   "peṣyā": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "gerundive"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -31464,11 +31349,6 @@
    }
   ],
   "peṣyaṃ": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "gerundive"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -31918,11 +31798,6 @@
   ],
   "piṣṭāni": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -31943,11 +31818,6 @@
    }
   ],
   "piṣṭau": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -32577,11 +32447,6 @@
   ],
   "piṣṭasya": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -32640,11 +32505,6 @@
    }
   ],
   "peṣyāṇi": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "gerundive"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -45628,11 +45488,6 @@
   ],
   "piṃṣan": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "present-active"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "present-active"
@@ -54278,11 +54133,6 @@
   ],
   "piṣṭānām": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -55990,11 +55840,6 @@
    }
   ],
   "peṣya": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "gerundive"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -80642,11 +80487,6 @@
    }
   ],
   "piṣṭābhir": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -109716,11 +109556,6 @@
   ],
   "piṣṭaiś": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -110828,11 +110663,6 @@
    }
   ],
   "piṣan": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "present-active"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -113215,11 +113045,6 @@
   ],
   "peṣyam": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "gerundive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "gerundive"
@@ -113567,11 +113392,6 @@
   ],
   "peṣye": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "gerundive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "gerundive"
@@ -113658,11 +113478,6 @@
    }
   ],
   "piṣṭābhyām": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -113874,11 +113689,6 @@
   ],
   "piṣṭād": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -113892,11 +113702,6 @@
    }
   ],
   "piṣṭāt": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -113953,11 +113758,6 @@
   ],
   "piṣyo": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "gerundive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "gerundive"
@@ -113990,11 +113790,6 @@
    }
   ],
   "peṣṭavyaṃ": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "gerundive"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -114174,11 +113969,6 @@
    }
   ],
   "peṣaṇīyam": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "gerundive"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -121193,11 +120983,6 @@
   ],
   "piṣṭābhiḥ": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "past-passive"
@@ -121343,11 +121128,6 @@
    }
   ],
   "piṣṭeṣu": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "past-passive"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -126064,11 +125844,6 @@
   ],
   "piṣyan": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "present-active"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "present-active"
@@ -126697,11 +126472,6 @@
   ],
   "peṣyāḥ": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "gerundive"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "gerundive"
@@ -127177,11 +126947,6 @@
    }
   ],
   "piṃṣann": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "present-active"
-   },
    {
     "id": "456",
     "root": "piṣ",
@@ -128405,11 +128170,6 @@
   ],
   "piṃṣanto": [
    {
-    "id": "457",
-    "root": "pis",
-    "category": "present-active"
-   },
-   {
     "id": "456",
     "root": "piṣ",
     "category": "present-active"
@@ -129268,11 +129028,6 @@
    }
   ],
   "piṣyamāṇānām": [
-   {
-    "id": "457",
-    "root": "pis",
-    "category": "present-passive"
-   },
    {
     "id": "456",
     "root": "piṣ",

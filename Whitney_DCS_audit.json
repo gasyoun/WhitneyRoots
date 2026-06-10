@@ -4,11 +4,11 @@
   "dcs_snapshot": "2026 CoNLL-U",
   "generated": "2026-06-10",
   "total": 935,
-  "matched": 589,
+  "matched": 590,
   "normalized": 0,
   "aliased": 2,
-  "homonym_shared": 164,
-  "unmatched": 180
+  "homonym_shared": 162,
+  "unmatched": 181
  },
  "rows": [
   {
@@ -543,7 +543,7 @@
     "4"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "II/III (athematic)",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [],
    "ppp_results": [],
@@ -571,7 +571,7 @@
     "4"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "II/III (athematic)",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [],
    "ppp_results": [],
@@ -698,7 +698,7 @@
     "4"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "II/III (athematic)",
    "class_verdict": "agree",
    "whitney_ppp": [
     "asita"
@@ -936,7 +936,7 @@
    "dcs_derived": [
     "Desid"
    ],
-   "present_signal": "I/VI",
+   "present_signal": "?",
    "class_verdict": "dcs-has-no-class",
    "whitney_ppp": [],
    "ppp_results": [],
@@ -972,7 +972,7 @@
    "dcs_derived": [
     "Int"
    ],
-   "present_signal": "I/VI",
+   "present_signal": "IV",
    "class_verdict": "dcs-has-no-class",
    "whitney_ppp": [],
    "ppp_results": [],
@@ -1096,7 +1096,7 @@
    "dcs_derived": [
     "Int"
    ],
-   "present_signal": "I/VI",
+   "present_signal": "IV",
    "class_verdict": "dcs-has-no-class",
    "whitney_ppp": [],
    "ppp_results": [],
@@ -1237,7 +1237,7 @@
     "1"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "IV",
    "class_verdict": "agree",
    "whitney_ppp": [
     "irsyita"
@@ -1971,7 +1971,7 @@
     "4"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "?",
    "class_verdict": "whitney-missing",
    "whitney_ppp": [
     "kathita"
@@ -2728,7 +2728,7 @@
     "1"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "IV",
    "class_verdict": "conflict",
    "whitney_ppp": [
     "krsita"
@@ -3240,7 +3240,7 @@
     "8"
    ],
    "dcs_derived": [],
-   "present_signal": "VIII",
+   "present_signal": "I/VI",
    "class_verdict": "agree",
    "whitney_ppp": [
     "ksata"
@@ -3926,7 +3926,7 @@
     "6"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "IV",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [
     "khinna"
@@ -7032,7 +7032,7 @@
     "7"
    ],
    "dcs_derived": [],
-   "present_signal": "II/III (athematic)",
+   "present_signal": "?",
    "class_verdict": "agree",
    "whitney_ppp": [
     "takta"
@@ -7552,7 +7552,7 @@
     "1"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "?",
    "class_verdict": "agree",
    "whitney_ppp": [],
    "ppp_results": [],
@@ -7632,7 +7632,7 @@
     "1"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "?",
    "class_verdict": "whitney-missing",
    "whitney_ppp": [],
    "ppp_results": [],
@@ -8636,7 +8636,7 @@
     "4"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "IV",
    "class_verdict": "whitney-missing",
    "whitney_ppp": [],
    "ppp_results": [],
@@ -8825,7 +8825,7 @@
     "4"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "IV",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [
     "dyuta"
@@ -8855,7 +8855,7 @@
     "4"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "IV",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [
     "dyuta"
@@ -9114,7 +9114,7 @@
     "1"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "IV",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [],
    "ppp_results": [],
@@ -9509,7 +9509,7 @@
     "1"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "II/III (athematic)",
    "class_verdict": "agree",
    "whitney_ppp": [],
    "ppp_results": [],
@@ -9746,7 +9746,7 @@
     "2"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "?",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [
     "dhita"
@@ -10354,7 +10354,7 @@
     "1"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "IV",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [
     "naddha"
@@ -10975,7 +10975,7 @@
     "4"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "IV",
    "class_verdict": "agree",
    "whitney_ppp": [
     "spasta"
@@ -11004,7 +11004,7 @@
     "4"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "IV",
    "class_verdict": "agree",
    "whitney_ppp": [
     "spasta"
@@ -11239,7 +11239,7 @@
    "id": "456",
    "root": "piṣ",
    "dcs_lemma": "piṣ",
-   "status": "homonym_shared",
+   "status": "matched",
    "total": 1062,
    "whitney_classes": [
     "6",
@@ -11266,29 +11266,17 @@
   {
    "id": "457",
    "root": "pis",
-   "dcs_lemma": "piṣ",
-   "status": "homonym_shared",
-   "total": 1062,
+   "dcs_lemma": null,
+   "status": "unmatched",
    "whitney_classes": [
     "4"
    ],
-   "dcs_classes": [
-    "1"
-   ],
-   "dcs_derived": [],
-   "present_signal": "I/VI",
-   "class_verdict": "conflict",
+   "dcs_classes": [],
+   "present_signal": null,
+   "class_verdict": "no-dcs-match",
    "whitney_ppp": [],
    "ppp_results": [],
-   "dcs_extra_ppp": [
-    "piṣṭa",
-    "piṣṭaṃ",
-    "piṣṭair",
-    "piṣṭaya",
-    "piṣṭād",
-    "piṣṭāṃ"
-   ],
-   "existence": "attested"
+   "existence": "no-dcs-match"
   },
   {
    "id": "458",
@@ -11737,7 +11725,7 @@
     "2"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "II/III (athematic)",
    "class_verdict": "conflict",
    "whitney_ppp": [
     "pyata"
@@ -11831,7 +11819,7 @@
     "2"
    ],
    "dcs_derived": [],
-   "present_signal": "II/III (athematic)",
+   "present_signal": "?",
    "class_verdict": "agree",
    "whitney_ppp": [
     "prata"
@@ -12860,7 +12848,7 @@
     "6"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "II/III (athematic)",
    "class_verdict": "agree",
    "whitney_ppp": [
     "bhugna 1"
@@ -12894,7 +12882,7 @@
     "6"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "II/III (athematic)",
    "class_verdict": "agree",
    "whitney_ppp": [
     "bhugna 1"
@@ -13402,7 +13390,7 @@
     "1"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "IV",
    "class_verdict": "conflict",
    "whitney_ppp": [
     "mata"
@@ -13455,7 +13443,7 @@
     "4"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "II/III (athematic)",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [
     "mita"
@@ -13485,7 +13473,7 @@
     "4"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "II/III (athematic)",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [
     "mita"
@@ -13515,7 +13503,7 @@
     "4"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "II/III (athematic)",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [
     "mita"
@@ -13668,7 +13656,7 @@
     "6"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "II/III (athematic)",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [
     "mithita"
@@ -15383,7 +15371,7 @@
     "1"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "IV",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [],
    "ppp_results": [],
@@ -15404,7 +15392,7 @@
     "1"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "IV",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [],
    "ppp_results": [],
@@ -16181,7 +16169,7 @@
     "1"
    ],
    "dcs_derived": [],
-   "present_signal": "II/III (athematic)",
+   "present_signal": "I/VI",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [
     "rudita"
@@ -17389,7 +17377,7 @@
     "4"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "IV",
    "class_verdict": "conflict",
    "whitney_ppp": [],
    "ppp_results": [],
@@ -17411,7 +17399,7 @@
     "6"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "V",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [
     "vata 1"
@@ -18437,7 +18425,7 @@
     "5"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "II/III (athematic)",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [
     "vrta"
@@ -18469,7 +18457,7 @@
     "5"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "II/III (athematic)",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [
     "vrta"
@@ -18515,7 +18503,7 @@
     "7"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "II/III (athematic)",
    "class_verdict": "agree",
    "whitney_ppp": [
     "vrkta",
@@ -18744,7 +18732,7 @@
     "3"
    ],
    "dcs_derived": [],
-   "present_signal": "II/III (athematic)",
+   "present_signal": "?",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [
     "vicita"
@@ -19467,7 +19455,7 @@
     "4"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "II/III (athematic)",
    "class_verdict": "conflict",
    "whitney_ppp": [
     "sita",
@@ -19610,7 +19598,7 @@
     "2"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "II/III (athematic)",
    "class_verdict": "agree",
    "whitney_ppp": [
     "sinjita"
@@ -19699,7 +19687,7 @@
     "4"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "II/III (athematic)",
    "class_verdict": "agree",
    "whitney_ppp": [],
    "ppp_results": [],
@@ -19726,7 +19714,7 @@
     "4"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "II/III (athematic)",
    "class_verdict": "agree",
    "whitney_ppp": [],
    "ppp_results": [],
@@ -21007,7 +20995,7 @@
     "6"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "IV",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [
     "sita"
@@ -21037,7 +21025,7 @@
     "6"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "IV",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [
     "sita"
@@ -21321,7 +21309,7 @@
     "6"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "II/III (athematic)",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [
     "suta",
@@ -21690,7 +21678,7 @@
     "5"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "IX",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [
     "stabhita",
@@ -21775,7 +21763,7 @@
     "1"
    ],
    "dcs_derived": [],
-   "present_signal": "VIII",
+   "present_signal": "I/VI",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [
     "stuta"
@@ -21810,7 +21798,7 @@
     "1"
    ],
    "dcs_derived": [],
-   "present_signal": "VIII",
+   "present_signal": "I/VI",
    "class_verdict": "partial-overlap",
    "whitney_ppp": [
     "stuta"
@@ -22040,7 +22028,7 @@
     "2"
    ],
    "dcs_derived": [],
-   "present_signal": "VIII",
+   "present_signal": "V",
    "class_verdict": "agree",
    "whitney_ppp": [
     "snuta ?"
@@ -22572,7 +22560,7 @@
     "1"
    ],
    "dcs_derived": [],
-   "present_signal": "I/VI",
+   "present_signal": "II/III (athematic)",
    "class_verdict": "agree",
    "whitney_ppp": [
     "svakta"

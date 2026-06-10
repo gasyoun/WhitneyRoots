@@ -4,20 +4,18 @@ _Source: `dcs_full.sqlite` (2026 CoNLL-U); generated 2026-06-10._
 
 Actionable discrepancies for correcting `src/app_data.json`. The `id` is the lexicon entry id. **This is a review aid, not an oracle** — DCS's grammar field is itself lexicon metadata and the corpus signal is a coarse heuristic; confirm before editing.
 
-## A. Class conflicts the corpus backs AGAINST Whitney (6)
+## A. Class conflicts the corpus backs AGAINST Whitney (4)
 
 Highest-priority: Whitney's class set is disjoint from DCS **and** the corpus present-stem signal points to the DCS class. Consider adding/adjusting the class.
 
 | id | root | Whitney | DCS | corpus signal | tokens |
 |---|---|---|---|---|---|
-| 546 | man | 3,4,8 | 1 | I/VI | 4697 |
 | 571 | 1 mṛ | 1 | 4,9 | IV | 2615 |
 | 572 | 2 mṛ | 1 | 4,9 | IV | 2615 |
-| 457 | pis | 4 | 1 | I/VI | 1062 |
+| 705 | vadh | 1 | 4 | IV | 1236 |
 | 234 | cūṣ | 4 | 1 | I/VI | 22 |
-| 112 | kṛś | 4 | 1 | I/VI | 8 |
 
-## B. Other class conflicts — review (98)
+## B. Other class conflicts — review (99)
 
 Disjoint class sets where the corpus signal does not corroborate DCS (sometimes it backs Whitney, meaning DCS's grammar field is the outlier — do not 'correct' these).
 
@@ -27,6 +25,7 @@ Disjoint class sets where the corpus signal does not corroborate DCS (sometimes 
 | 815 | śru | 2,5 | 4 | VIII | 10505 |
 | 608 | yuj | 2,6,7 | 1 | II/III (athematic) | 5933 |
 | 269 | jñā | 1,9 | 4 | IX | 5041 |
+| 546 | man | 3,4,8 | 1 | IV | 4697 |
 | 258 | 1 ji | 1,2 | 9 | X/caus-denom | 4082 |
 | 259 | 2 ji | 1,2 | 9 | X/caus-denom | 4082 |
 | 477 | prach | 6 | 1 | I/VI | 2851 |
@@ -49,7 +48,6 @@ Disjoint class sets where the corpus signal does not corroborate DCS (sometimes 
 | 629 | ram | 1,9 | 4 | I/VI | 1553 |
 | 388 | dviṣ | 2,6 | 1 | I/VI | 1343 |
 | 856 | sev | 1 | 4 | VIII | 1328 |
-| 705 | vadh | 1 | 4 | I/VI | 1236 |
 | 402 | dhṛ | 1 | 4 | I/VI | 1229 |
 | 141 | 1 kṣi | 1,2,6 | 4 | II/III (athematic) | 1181 |
 | 142 | 2 kṣi | 1,2,6 | 4 | II/III (athematic) | 1181 |
@@ -68,7 +66,7 @@ Disjoint class sets where the corpus signal does not corroborate DCS (sometimes 
 | 841 | sic | 1,6 | 4 | I/VI | 687 |
 | 813 | 1 śrī | 9 | 4 | II/III (athematic) | 644 |
 | 814 | 2 śrī | 9 | 4 | II/III (athematic) | 644 |
-| 779 | śā | 3,6 | 4 | I/VI | 519 |
+| 779 | śā | 3,6 | 4 | II/III (athematic) | 519 |
 | 45 | īkṣ | 1 | 4 | I/VI | 473 |
 | 187 | guh | 1 | 6 | I/VI | 468 |
 | 120 | krī | 9 | 1 | II/III (athematic) | 439 |
@@ -87,7 +85,7 @@ Disjoint class sets where the corpus signal does not corroborate DCS (sometimes 
 | 56 | 2 ukṣ | 6 | 4 | I/VI | 191 |
 | 794 | 1 śuṣ | 4 | 6 | IV | 166 |
 | 795 | 2 śuṣ | 4 | 6 | IV | 166 |
-| 476 | pyā | 4 | 2 | I/VI | 165 |
+| 476 | pyā | 4 | 2 | II/III (athematic) | 165 |
 | 504 | bhakṣ | 1 | 4 | I/VI | 162 |
 | 209 | ghṛṣ | 1 | 4 | I/VI | 156 |
 | 222 | carv | 4 | 1 | — | 151 |
@@ -108,6 +106,7 @@ Disjoint class sets where the corpus signal does not corroborate DCS (sometimes 
 | 486 | pluṣ | 1 | 4 | — | 21 |
 | 858 | skambh | 1,5,9 | 8 | IX | 20 |
 | 31 | iṅg | 1 | 4 | I/VI | 15 |
+| 112 | kṛś | 4 | 1 | IV | 8 |
 | 725 | 1 vic | 3,7 | 4 | I/VI | 8 |
 | 726 | 2 vic | 3,7 | 4 | I/VI | 8 |
 | 660 | rup | 4 | 6 | — | 6 |

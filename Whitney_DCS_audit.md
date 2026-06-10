@@ -7,8 +7,8 @@ _Source: `dcs_full.sqlite` (2026 CoNLL-U); generated 2026-06-10._
 ## Coverage
 
 - Whitney entries: **935**
-- Linked to DCS: **755** (matched 589, normalized 0, aliased 2, homonym-shared 164)
-- Unmatched (no DCS lemma; citation-form/Vedic): **180**
+- Linked to DCS: **754** (matched 590, normalized 0, aliased 2, homonym-shared 162)
+- Unmatched (no DCS lemma; citation-form/Vedic): **181**
 - Lexicon-only (DCS lemma but 0 corpus tokens): **37**
 
 ## Class verdicts (Whitney vs DCS grammar field)
@@ -17,12 +17,12 @@ _Source: `dcs_full.sqlite` (2026 CoNLL-U); generated 2026-06-10._
 |---|---|
 | agree | 322 |
 | partial-overlap | 254 |
-| conflict | 104 |
+| conflict | 103 |
 | whitney-missing | 66 |
 | dcs-has-no-class | 8 |
 | no-corpus-evidence | 1 |
 
-### Conflicts (104) — disjoint class sets
+### Conflicts (103) — disjoint class sets
 
 | root | DCS lemma | Whitney | DCS grammar | corpus signal | tokens |
 |---|---|---|---|---|---|
@@ -30,7 +30,7 @@ _Source: `dcs_full.sqlite` (2026 CoNLL-U); generated 2026-06-10._
 | śru | śru | 2,5 | 4 | VIII | 10505 |
 | yuj | yuj | 2,6,7 | 1 | II/III (athematic) | 5933 |
 | jñā | jñā | 1,9 | 4 | IX | 5041 |
-| man | man | 3,4,8 | 1 | I/VI | 4697 |
+| man | man | 3,4,8 | 1 | IV | 4697 |
 | 1 ji | ji | 1,2 | 9 | X/caus-denom | 4082 |
 | 2 ji | ji | 1,2 | 9 | X/caus-denom | 4082 |
 | prach | pracch | 6 | 1 | I/VI | 2851 |
@@ -55,7 +55,7 @@ _Source: `dcs_full.sqlite` (2026 CoNLL-U); generated 2026-06-10._
 | ram | ram | 1,9 | 4 | I/VI | 1553 |
 | dviṣ | dviṣ | 2,6 | 1 | I/VI | 1343 |
 | sev | sev | 1 | 4 | VIII | 1328 |
-| vadh | vadh | 1 | 4 | I/VI | 1236 |
+| vadh | vadh | 1 | 4 | IV | 1236 |
 | dhṛ | dhṛ | 1 | 4 | I/VI | 1229 |
 | 1 kṣi | kṣi | 1,2,6 | 4 | II/III (athematic) | 1181 |
 | 2 kṣi | kṣi | 1,2,6 | 4 | II/III (athematic) | 1181 |
@@ -63,7 +63,6 @@ _Source: `dcs_full.sqlite` (2026 CoNLL-U); generated 2026-06-10._
 | yam | yam | 1,2 | 6 | I/VI | 1093 |
 | dru | dru | 1 | 9 | I/VI | 1073 |
 | piṣ | piṣ | 6,7 | 1 | I/VI | 1062 |
-| pis | piṣ | 4 | 1 | I/VI | 1062 |
 | viś | viś | 6 | 3 | I/VI | 1053 |
 | sad | sad | 1,2 | 6 | I/VI | 953 |
 | su | su | 3,5 | 6 | V | 878 |
@@ -75,7 +74,7 @@ _Source: `dcs_full.sqlite` (2026 CoNLL-U); generated 2026-06-10._
 | sic | sic | 1,6 | 4 | I/VI | 687 |
 | 1 śrī | śrī | 9 | 4 | II/III (athematic) | 644 |
 | 2 śrī | śrī | 9 | 4 | II/III (athematic) | 644 |
-| śā | śā | 3,6 | 4 | I/VI | 519 |
+| śā | śā | 3,6 | 4 | II/III (athematic) | 519 |
 | īkṣ | īkṣ | 1 | 4 | I/VI | 473 |
 | guh | guh | 1 | 6 | I/VI | 468 |
 | krī | krī | 9 | 1 | II/III (athematic) | 439 |
@@ -86,6 +85,7 @@ _Source: `dcs_full.sqlite` (2026 CoNLL-U); generated 2026-06-10._
 | khan | khan | 1 | 2 | I/VI | 352 |
 | nud | nud | 6 | 7 | I/VI | 332 |
 | mṛj | mṛj | 1,2,6,7 | 3 | I/VI | 298 |
+| cit | cit | 1 | 3 | I/VI | 266 |
 
 ### Partial overlap (254)
 

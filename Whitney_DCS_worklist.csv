@@ -3,7 +3,7 @@ id,root,type,whitney,dcs,corpus_signal,corpus_backs,tokens
 815,śru,class,2|5,4,VIII,ambiguous,10505
 608,yuj,class,2|6|7,1,II/III (athematic),ambiguous,5933
 269,jñā,class,1|9,4,IX,Whitney,5041
-546,man,class,3|4|8,1,I/VI,DCS,4697
+546,man,class,3|4|8,1,IV,Whitney,4697
 258,1 ji,class,1|2,9,X/caus-denom,ambiguous,4082
 259,2 ji,class,1|2,9,X/caus-denom,ambiguous,4082
 477,prach,class,6,1,I/VI,ambiguous,2851
@@ -28,7 +28,7 @@ id,root,type,whitney,dcs,corpus_signal,corpus_backs,tokens
 629,ram,class,1|9,4,I/VI,Whitney,1553
 388,dviṣ,class,2|6,1,I/VI,ambiguous,1343
 856,sev,class,1,4,VIII,ambiguous,1328
-705,vadh,class,1,4,I/VI,Whitney,1236
+705,vadh,class,1,4,IV,DCS,1236
 402,dhṛ,class,1,4,I/VI,Whitney,1229
 141,1 kṣi,class,1|2|6,4,II/III (athematic),ambiguous,1181
 142,2 kṣi,class,1|2|6,4,II/III (athematic),ambiguous,1181
@@ -36,7 +36,6 @@ id,root,type,whitney,dcs,corpus_signal,corpus_backs,tokens
 600,yam,class,1|2,6,I/VI,ambiguous,1093
 384,dru,class,1,9,I/VI,Whitney,1073
 456,piṣ,class,6|7,1,I/VI,ambiguous,1062
-457,pis,class,4,1,I/VI,DCS,1062
 734,viś,class,6,3,I/VI,Whitney,1053
 830,sad,class,1|2,6,I/VI,ambiguous,953
 846,su,class,3|5,6,V,Whitney,878
@@ -48,7 +47,7 @@ id,root,type,whitney,dcs,corpus_signal,corpus_backs,tokens
 841,sic,class,1|6,4,I/VI,Whitney,687
 813,1 śrī,class,9,4,II/III (athematic),ambiguous,644
 814,2 śrī,class,9,4,II/III (athematic),ambiguous,644
-779,śā,class,3|6,4,I/VI,Whitney,519
+779,śā,class,3|6,4,II/III (athematic),ambiguous,519
 45,īkṣ,class,1,4,I/VI,Whitney,473
 187,guh,class,1,6,I/VI,ambiguous,468
 120,krī,class,9,1,II/III (athematic),ambiguous,439
@@ -67,7 +66,7 @@ id,root,type,whitney,dcs,corpus_signal,corpus_backs,tokens
 56,2 ukṣ,class,6,4,I/VI,Whitney,191
 794,1 śuṣ,class,4,6,IV,Whitney,166
 795,2 śuṣ,class,4,6,IV,Whitney,166
-476,pyā,class,4,2,I/VI,ambiguous,165
+476,pyā,class,4,2,II/III (athematic),ambiguous,165
 504,bhakṣ,class,1,4,I/VI,Whitney,162
 209,ghṛṣ,class,1,4,I/VI,Whitney,156
 222,carv,class,4,1,,ambiguous,151
@@ -89,7 +88,7 @@ id,root,type,whitney,dcs,corpus_signal,corpus_backs,tokens
 486,pluṣ,class,1,4,,ambiguous,21
 858,skambh,class,1|5|9,8,IX,Whitney,20
 31,iṅg,class,1,4,I/VI,Whitney,15
-112,kṛś,class,4,1,I/VI,DCS,8
+112,kṛś,class,4,1,IV,Whitney,8
 725,1 vic,class,3|7,4,I/VI,ambiguous,8
 726,2 vic,class,3|7,4,I/VI,ambiguous,8
 660,rup,class,4,6,,ambiguous,6
