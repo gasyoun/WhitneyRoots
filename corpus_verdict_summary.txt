@@ -1,0 +1,354 @@
+Corpus Verification Summary
+AGREE (136 roots):
+  añj          W=I,VII        C=I            tokens=10
+  ad           W=I,II         C=I            tokens=10
+  arc          W=I            C=I            tokens=10
+  arh          W=I            C=I            tokens=10
+  av           W=I            C=I            tokens=10
+  ās           W=I,II,IV      C=I            tokens=10
+  īkṣ          W=I            C=I            tokens=10
+  īś           W=I,II         C=I            tokens=10
+  ūh           W=I            C=I            tokens=10
+  ṛṣ           W=I,VI         C=I            tokens=10
+  kṛṣ          W=I,VI         C=I            tokens=10
+  kram         W=I,IV         C=I            tokens=10
+  kṣam         W=I,IV         C=I            tokens=10
+  garh         W=I            C=I            tokens=10
+  ghrā         W=I,II,III     C=I            tokens=10
+  ceṣṭ         W=I            C=I            tokens=10
+  jan          W=I,II,III,IV  C=I            tokens=10
+  tan          W=VIII         C=VIII         tokens=10
+  tap          W=I,IV         C=I            tokens=10
+  tyaj         W=I            C=I            tokens=10
+  dah          W=I,II,IV      C=I            tokens=10
+  dham         W=I,II         C=I            tokens=10
+  dhā          W=I,II,III,IV  C=III          tokens=10
+  nind         W=I            C=I            tokens=10
+  pac          W=I,IV         C=I            tokens=10
+  paṭh         W=I            C=I            tokens=10
+  pā           W=I,II,III     C=I            tokens=10
+  bādh         W=I            C=I            tokens=10
+  bhakṣ        W=I            C=I            tokens=10
+  bhraṃś       W=I,IV         C=I            tokens=10
+  bhram        W=I,IV         C=I            tokens=10
+  mad          W=I,II,III,IV  C=I            tokens=10
+  mā           W=II,III,IV    C=III          tokens=10
+  mī           W=III,IV,V,IX  C=III          tokens=10
+  mṛj          W=I,II,VI,VII  C=I            tokens=10
+  yāc          W=I            C=I            tokens=10
+  rakṣ         W=I            C=I            tokens=10
+  rud          W=I,II,VI      C=I            tokens=10
+  vadh         W=I            C=I            tokens=10
+  vap          W=I            C=I            tokens=10
+  vaś          W=I,II,III,VI  C=I            tokens=10
+  vid          W=I,II,VI      C=I            tokens=10
+  vyath        W=I            C=I            tokens=10
+  vraj         W=I            C=I            tokens=10
+  śaṃs         W=I            C=I            tokens=10
+  śaṅk         W=I            C=I            tokens=10
+  śās          W=I,II         C=I            tokens=10
+  sad          W=I,II         C=I            tokens=10
+  sah          W=I,II,IV      C=I            tokens=10
+  sev          W=I            C=I            tokens=10
+  skand        W=I            C=I            tokens=10
+  stu          W=I,II,V,VI    C=I            tokens=10
+  spṛś         W=I,VI         C=I            tokens=10
+  sphuṭ        W=I,VI         C=I            tokens=10
+  svap         W=I,II         C=I            tokens=10
+  han          W=I,II,VI,VIII C=I            tokens=10
+  hā           W=I,III        C=III          tokens=10
+  hiṃs         W=I,VII        C=I            tokens=10
+  hu           W=II,III       C=III          tokens=10
+  vāś          W=I,IV         C=I            tokens=9
+  garj         W=I            C=I            tokens=8
+  bhas         W=I,III        C=III          tokens=8
+  lamb         W=I            C=I            tokens=8
+  viṣ          W=I,III        C=III          tokens=8
+  kamp         W=I            C=I            tokens=7
+  kūj          W=I            C=I            tokens=6
+  tuj          W=I,VI,VII     C=I            tokens=6
+  piś          W=VI           C=VI           tokens=6
+  bhaṇ         W=I            C=I            tokens=6
+  mṛdh         W=I,VI         C=I            tokens=6
+AGREE_AMBIG (42 roots):
+  kup          W=IV           C=IV|PASS      tokens=10
+  krudh        W=IV           C=IV|PASS      tokens=10
+  kliś         W=IV,IX        C=IV|PASS, VII tokens=10
+  tuṣ          W=IV           C=IV|PASS      tokens=10
+  tṛp          W=I,IV,V,VI    C=IV|PASS      tokens=10
+  trā          W=II,IV        C=IV|PASS      tokens=10
+  dīp          W=IV           C=IV|PASS      tokens=10
+  dīv          W=IV           C=IV|PASS      tokens=10
+  duṣ          W=IV           C=IV|PASS      tokens=10
+  dṛś          W=IV           C=IV|PASS      tokens=10
+  dṛh          W=I,IV,VI      C=IV|PASS      tokens=10
+  druh         W=IV           C=I, IV|PASS   tokens=10
+  dhyā         W=II,IV        C=IV|PASS      tokens=10
+  naś          W=I,IV         C=I, IV|PASS   tokens=10
+  nah          W=I,IV         C=IV|PASS      tokens=10
+  nṛt          W=IV           C=IV|PASS      tokens=10
+  pad          W=II,IV        C=IV|PASS      tokens=10
+  paś          W=IV           C=IV|PASS      tokens=10
+  puṣ          W=I,IV,IX      C=IV|PASS      tokens=10
+  pyā          W=IV           C=IV|PASS      tokens=10
+  prī          W=IV,IX        C=IV|PASS      tokens=10
+  budh         W=I,IV         C=IV|PASS      tokens=10
+  man          W=III,IV,VIII  C=IV|PASS      tokens=10
+  muh          W=IV           C=IV|PASS      tokens=10
+  mṛṣ          W=I,IV         C=I, IV|PASS   tokens=10
+  yudh         W=I,II,IV      C=IV|PASS      tokens=10
+  ric          W=IV,VII       C=IV|PASS      tokens=10
+  riṣ          W=I,IV         C=IV|PASS      tokens=10
+  śuṣ          W=IV           C=IV|PASS      tokens=10
+  sīv          W=IV           C=IV|PASS      tokens=10
+  hṛṣ          W=I,IV         C=IV|PASS      tokens=10
+  dī           W=IV           C=IV|PASS      tokens=7
+  radh         W=II,IV        C=IV|PASS      tokens=7
+  śliṣ         W=I,IV         C=IV|PASS      tokens=7
+CONFLICT (231 roots):
+  aj           W=I            C=VI           tokens=10
+  aś           W=V,IX         C=VII          tokens=10
+  as           W=II           C=IV|PASS      tokens=10
+  āp           W=V            C=V, VII       tokens=10
+  īḍ           W=I,II         C=VI           tokens=10
+  īh           W=I            C=I, VI        tokens=10
+  ukṣ          W=VI           C=I, VI        tokens=10
+  ṛdh          W=IV,V,VII     C=I, VII       tokens=10
+  ej           W=I            C=I, VI        tokens=10
+  edh          W=I            C=I, VI        tokens=10
+  kāṅkṣ        W=I            C=I, VI        tokens=10
+  kṛ           W=VI           C=VII          tokens=10
+  krand        W=I            C=I, VI        tokens=10
+  krī          W=IX           C=VII          tokens=10
+  krīḍ         W=I            C=I, VI        tokens=10
+  kṣar         W=I            C=I, VI        tokens=10
+  kṣip         W=VI           C=I            tokens=10
+  khan         W=I            C=I, VI        tokens=10
+  khād         W=I            C=I, VI        tokens=10
+  khid         W=IV,VI,VII    C=I            tokens=10
+  gā           W=I,II         C=IV|PASS      tokens=10
+  gāh          W=I            C=I, VI        tokens=10
+  gṛ           W=VI,IX        C=VII          tokens=10
+  gras         W=I            C=I, VI        tokens=10
+  glā          W=II,IV        C=I            tokens=10
+  ghaṭ         W=I            C=I, VI        tokens=10
+  cakṣ         W=I,II         C=I, VI        tokens=10
+  car          W=I            C=I, VI        tokens=10
+  cal          W=I            C=I, VI        tokens=10
+  ci           W=I,II,V       C=V, VII       tokens=10
+  jap          W=I            C=I, VI        tokens=10
+  jalp         W=I            C=I, VI        tokens=10
+  jīv          W=I            C=I, VI        tokens=10
+  juṣ          W=II,VI        C=I, VI        tokens=10
+  jval         W=I            C=I, VI        tokens=10
+  takṣ         W=I,II,V       C=I, VI        tokens=10
+  tud          W=VI,VII       C=I, VI        tokens=10
+  tras         W=I,IV         C=I, VI        tokens=10
+  tvar         W=I            C=I, VI        tokens=10
+  dabh         W=I,V          C=I, VI        tokens=10
+  dā           W=             C=III          tokens=10
+  dāś          W=I,II,V       C=I, VI        tokens=10
+  diś          W=III,IV,VI    C=I, VI        tokens=10
+  dīkṣ         W=I            C=I, VI        tokens=10
+  du           W=V            C=VII          tokens=10
+  duh          W=II,IV,VI     C=I, VI        tokens=10
+  dviṣ         W=II,VI        C=I            tokens=10
+  dhāv         W=I            C=I, VI        tokens=10
+  dhū          W=II,V,VI,IX   C=V, VII       tokens=10
+  dhvaṃs       W=I            C=I, VI        tokens=10
+  nakṣ         W=I            C=I, VI        tokens=10
+  nand         W=I            C=I, VI        tokens=10
+  nam          W=I            C=I, VI        tokens=10
+  nud          W=VI           C=I, VI        tokens=10
+  paṇ          W=I            C=I, VI        tokens=10
+  pat          W=I            C=I, VI        tokens=10
+  pinv         W=I,V          C=I, VI        tokens=10
+  pṛ           W=III,IV,V,VI,IX C=VII          tokens=10
+  pṛṇ          W=             C=I, VI        tokens=10
+  prath        W=I            C=I, VI        tokens=10
+  brū          W=II,VI        C=I            tokens=10
+  bhaj         W=I,II         C=I, VI        tokens=10
+  bhā          W=II           C=I            tokens=10
+  bhāṣ         W=I            C=I, VI        tokens=10
+  bhikṣ        W=I            C=I, VI        tokens=10
+  bhūṣ         W=I            C=I, VI        tokens=10
+  bhrāj        W=I            C=I, VI        tokens=10
+  majj         W=I            C=I, VI        tokens=10
+  math         W=I,IX         C=VII          tokens=10
+  mārg         W=I            C=I, VI        tokens=10
+  mi           W=V            C=VII          tokens=10
+  muṣ          W=I,VI,IX      C=VII          tokens=10
+  mṛḍ          W=VI,IX        C=I, VI        tokens=10
+  yaj          W=I,II         C=I, VI        tokens=10
+  yat          W=I            C=I, VI        tokens=10
+  yā           W=II           C=I            tokens=10
+  yu           W=II,VI,IX     C=I            tokens=10
+  rabh         W=I            C=I, VI        tokens=10
+  ram          W=I,IX         C=I, VI        tokens=10
+  rā           W=I,II,III     C=I, IV|PASS   tokens=10
+  rāj          W=I,II         C=I, VI        tokens=10
+  rādh         W=V,IV         C=VII          tokens=10
+  ri           W=IV,V,VI,IX   C=VII          tokens=10
+  ruj          W=II,VI        C=I, VI        tokens=10
+  labh         W=I            C=I, VI        tokens=10
+  likh         W=VI           C=I            tokens=10
+  lih          W=II,VI        C=I            tokens=10
+  vad          W=I            C=I, VI        tokens=10
+  van          W=I,VI,VIII    C=I, VIII      tokens=10
+  vand         W=I            C=I, VI        tokens=10
+  vam          W=I,II         C=I, VI        tokens=10
+  vas          W=II,VI        C=I, VI        tokens=10
+  vah          W=I,II         C=I, VI        tokens=10
+  vā           W=II,IV        C=I            tokens=10
+  vāñch        W=I            C=I, VI        tokens=10
+  vidh         W=VI           C=I, VI        tokens=10
+  viś          W=VI           C=I, VI        tokens=10
+  vī           W=II           C=I            tokens=10
+  vṛ           W=I,V,IX       C=VII          tokens=10
+  vṛh          W=VI           C=I, VI        tokens=10
+  śak          W=V            C=VII          tokens=10
+  śap          W=I,IV         C=I, VI        tokens=10
+  śikṣ         W=             C=I, VI        tokens=10
+  śṛ           W=IV,VI,IX     C=VII          tokens=10
+  śrī          W=IX           C=VII          tokens=10
+  śvas         W=I,II         C=I, VI        tokens=10
+  sac          W=I,III        C=I, VI        tokens=10
+  san          W=I,VIII       C=VI           tokens=10
+  sādh         W=I,IV,V       C=I, VI        tokens=10
+  su           W=III,V        C=V, VII       tokens=10
+  sṛj          W=I,VI         C=I, VI        tokens=10
+  stṛ          W=I,V,IX       C=VII          tokens=10
+  snā          W=             C=I            tokens=10
+  spṛ          W=V,IX         C=VII          tokens=10
+  sphur        W=             C=I, VI        tokens=10
+  syand        W=I            C=I, VI        tokens=10
+  svad         W=I            C=I, VI        tokens=10
+  has          W=I            C=I, VI        tokens=10
+  hi           W=I,V          C=VII          tokens=10
+  aṭ           W=I            C=I, VI        tokens=9
+  das          W=I,IV         C=VI           tokens=9
+  phal         W=I            C=I, VI        tokens=9
+  mṛś          W=VI           C=I, VI        tokens=9
+  lajj         W=VI           C=I, VI        tokens=9
+  si           W=             C=VII          tokens=9
+  svaj         W=I            C=I, VI        tokens=9
+  īr           W=I,II         C=I, VI        tokens=8
+  cṛt          W=I,VI         C=I, VI        tokens=8
+  nad          W=I            C=I, VI        tokens=8
+  mṛṇ          W=             C=I, VI        tokens=8
+  mlā          W=II,IV        C=VII          tokens=8
+  rej          W=I            C=I, VI        tokens=8
+  ślāgh        W=I            C=I, VI        tokens=8
+  iyakṣ        W=             C=I, VI        tokens=7
+  katth        W=I            C=I, VI        tokens=7
+  kṣubh        W=I,IV,V,IX    C=VII          tokens=7
+  gṛdh         W=IV           C=VII          tokens=7
+  day          W=I            C=VI           tokens=7
+  dhanv        W=I            C=I, VI        tokens=7
+  dhi          W=V            C=VII          tokens=7
+  dhūrv        W=I            C=I, VI        tokens=7
+  nard         W=I            C=I, VI        tokens=7
+  rad          W=I,II         C=I, VI        tokens=7
+  ras          W=I            C=I, VI        tokens=7
+  sraṃs        W=I            C=I, VI        tokens=7
+  ubj          W=VI           C=I, VI        tokens=6
+  cumb         W=I            C=I, VI        tokens=6
+  jakṣ         W=I,II         C=VI           tokens=6
+  jṛmbh        W=I            C=I, VI        tokens=6
+  dhṛṣ         W=I,II,V       C=VII          tokens=6
+  bhās         W=I            C=I, VI        tokens=6
+  sas          W=II,III       C=VI           tokens=6
+  spand        W=             C=I            tokens=6
+  svar         W=I            C=I, VI        tokens=6
+UNCLEAR (146 roots):
+  i            W=I,II,IV,V    C=None         tokens=10
+  iṣ           W=I,IV,VI      C=None         tokens=10
+  kṛt          W=I,VI         C=None         tokens=10
+  kruś         W=I            C=None         tokens=10
+  kṣi          W=I,II,VI      C=None         tokens=10
+  gam          W=I,II         C=None         tokens=10
+  guh          W=I            C=None         tokens=10
+  cyu          W=I            C=None         tokens=10
+  chid         W=VII          C=None         tokens=10
+  ji           W=I,II         C=None         tokens=10
+  jṛ           W=I,IV,VI      C=None         tokens=10
+  jñā          W=I,IX         C=None         tokens=10
+  jyā          W=IV,IX        C=None         tokens=10
+  tṛ           W=I,III,IV,VI,VIII C=None         tokens=10
+  daṃś         W=I            C=None         tokens=10
+  dru          W=I            C=None         tokens=10
+  dhṛ          W=I            C=None         tokens=10
+  nī           W=I,II,III     C=None         tokens=10
+  piṣ          W=VI,VII       C=None         tokens=10
+  pū           W=I,IX         C=None         tokens=10
+  pṛc          W=I,III,VII    C=None         tokens=10
+  plu          W=I,II         C=None         tokens=10
+  bandh        W=I,IX         C=None         tokens=10
+  bhañj        W=VII          C=None         tokens=10
+  bhid         W=VII          C=None         tokens=10
+  bhī          W=I,III        C=None         tokens=10
+  bhuj         W=VI           C=None         tokens=10
+  bhū          W=I            C=None         tokens=10
+  bhṛ          W=I,II,III     C=None         tokens=10
+  muc          W=VI           C=None         tokens=10
+  mud          W=I            C=None         tokens=10
+  mṛ           W=I            C=None         tokens=10
+  mṛd          W=I,IX         C=None         tokens=10
+  yam          W=I,II         C=None         tokens=10
+  yuj          W=II,VI,VII    C=None         tokens=10
+  ru           W=I,II,VI      C=None         tokens=10
+  ruc          W=I            C=None         tokens=10
+  rudh         W=I,VI         C=None         tokens=10
+  ruh          W=I,VI         C=None         tokens=10
+  lip          W=VI           C=None         tokens=10
+  lup          W=VI           C=None         tokens=10
+  vac          W=II,III       C=None         tokens=10
+  vṛj          W=VII          C=None         tokens=10
+  vṛt          W=I,II,III     C=None         tokens=10
+  vṛdh         W=I            C=None         tokens=10
+  vṛṣ          W=I,VI         C=None         tokens=10
+  vyadh        W=IV           C=None         tokens=10
+  vraśc        W=I,VI         C=None         tokens=10
+  śam          W=I,II,IV,IX   C=None         tokens=10
+  śā           W=III,VI       C=None         tokens=10
+  śiṣ          W=I,VI,VII     C=None         tokens=10
+  śī           W=IV           C=None         tokens=10
+  śuc          W=I,II,IV      C=None         tokens=10
+  śudh         W=I,II,IV      C=None         tokens=10
+  śubh         W=I,VI         C=None         tokens=10
+  śri          W=I            C=None         tokens=10
+  śru          W=II,V         C=None         tokens=10
+  sā           W=I,V,VI,IX    C=None         tokens=10
+  sic          W=I,VI         C=None         tokens=10
+  sidh         W=I            C=None         tokens=10
+  sū           W=I,II,IV,VI   C=None         tokens=10
+  sṛ           W=I,III        C=None         tokens=10
+  sṛp          W=I            C=None         tokens=10
+  stambh       W=I,V,IX       C=None         tokens=10
+  stubh        W=I,II         C=None         tokens=10
+  sthā         W=I            C=None         tokens=10
+  spṛdh        W=I,VI         C=None         tokens=10
+  smi          W=I            C=None         tokens=10
+  smṛ          W=             C=None         tokens=10
+  sru          W=I            C=None         tokens=10
+  hṛ           W=I,II,III     C=None         tokens=10
+  uṣ           W=             C=None         tokens=9
+  ṛj           W=I,IV,VI,VII  C=None         tokens=9
+  ghuṣ         W=I,IV         C=None         tokens=9
+  ran          W=I,IV         C=None         tokens=9
+  cit          W=I            C=None         tokens=8
+  jū           W=I,IX         C=None         tokens=8
+  dṛ           W=II,IX        C=None         tokens=8
+  mah          W=             C=None         tokens=8
+  lī           W=I,IV,IX      C=None         tokens=8
+  vañc         W=I            C=None         tokens=8
+  śram         W=I,IV         C=None         tokens=8
+  tam          W=IV           C=None         tokens=7
+  mih          W=I            C=None         tokens=7
+  vip          W=I            C=None         tokens=7
+  ī            W=             C=None         tokens=6
+  cud          W=I            C=None         tokens=6
+  dhī          W=II,III       C=None         tokens=6
+  hrī          W=III          C=None         tokens=6
+  hvṛ          W=I,III,IX     C=None         tokens=6
+NOT_ATTESTED (302 roots):

@@ -2673,6 +2673,7 @@
       "link": "https://samskrtam.ru/whitney-roots/root_kr_i.html",
       "meaning": "buy",
       "classes": [
+        "I",
         "IX"
       ],
       "ppp": [
@@ -3016,6 +3017,7 @@
       "classes": [
         "I",
         "II",
+        "IV",
         "VI"
       ],
       "ppp": [],
@@ -3042,6 +3044,7 @@
       "classes": [
         "I",
         "II",
+        "IV",
         "VI"
       ],
       "ppp": [],
@@ -4531,7 +4534,8 @@
       "link": "https://samskrtam.ru/whitney-roots/root_cit.html",
       "meaning": "perceive",
       "classes": [
-        "I"
+        "I",
+        "III"
       ],
       "ppp": [
         "citta",
@@ -5284,6 +5288,7 @@
       "meaning": "know",
       "classes": [
         "I",
+        "IV",
         "IX"
       ],
       "ppp": [
@@ -7683,7 +7688,8 @@
       "link": "https://samskrtam.ru/whitney-roots/root_dh_r.html",
       "meaning": "hold",
       "classes": [
-        "I"
+        "I",
+        "IV"
       ],
       "ppp": [
         "dhrta"
@@ -9377,6 +9383,7 @@
       "meaning": "bind",
       "classes": [
         "I",
+        "IV",
         "IX"
       ],
       "ppp": [
@@ -11318,7 +11325,8 @@
       "meaning": "reach",
       "classes": [
         "I",
-        "II"
+        "II",
+        "VI"
       ],
       "ppp": [
         "yata"
