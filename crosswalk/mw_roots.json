@@ -418,11 +418,9 @@
   "slp1": "arT",
   "homonym": null,
   "class": [
-   "II",
    "X"
   ],
   "class_arabic": [
-   2,
    10
   ],
   "gloss": "to strive to obtain, desire, wish, request, ask for (acc."
@@ -838,12 +836,10 @@
   "slp1": "Ir",
   "homonym": null,
   "class": [
-   "II",
-   "III"
+   "II"
   ],
   "class_arabic": [
-   2,
-   3
+   2
   ],
   "gloss": "to go, move, rise, arise from, RV."
  },
@@ -1102,12 +1098,10 @@
   "slp1": "uz",
   "homonym": "1",
   "class": [
-   "I",
-   "III"
+   "I"
   ],
   "class_arabic": [
-   1,
-   3
+   1
   ],
   "gloss": "to burn, burn down (active), RV."
  },
@@ -1316,6 +1310,7 @@
   "slp1": "fD",
   "homonym": null,
   "class": [
+   "I",
    "II",
    "IV",
    "V",
@@ -1323,6 +1318,7 @@
    "VII"
   ],
   "class_arabic": [
+   1,
    2,
    4,
    5,
@@ -2396,12 +2392,10 @@
   "slp1": "kzi",
   "homonym": "1",
   "class": [
-   "I",
-   "II"
+   "I"
   ],
   "class_arabic": [
-   1,
-   2
+   1
   ],
   "gloss": "to possess, have power over, rule, govern, be master of (gen.), RV."
  },
@@ -2628,11 +2622,9 @@
   "slp1": "Kid",
   "homonym": null,
   "class": [
-   "I",
    "VI"
   ],
   "class_arabic": [
-   1,
    6
   ],
   "gloss": "to strike, press, press down, Pāṇ. vi, 1, 52, Kāś."
@@ -3254,11 +3246,9 @@
   "slp1": "Cfd",
   "homonym": null,
   "class": [
-   "II",
    "VII"
   ],
   "class_arabic": [
-   2,
    7
   ],
   "gloss": "to vomit, BhP. x, 11, 49"
@@ -3430,12 +3420,10 @@
   "slp1": "jvar",
   "homonym": null,
   "class": [
-   "I",
-   "III"
+   "I"
   ],
   "class_arabic": [
-   1,
-   3
+   1
   ],
   "gloss": "to be feverish, xix, 14"
  },
@@ -3506,11 +3494,9 @@
   "slp1": "tan",
   "homonym": "2",
   "class": [
-   "II",
    "IV"
   ],
   "class_arabic": [
-   2,
    4
   ],
   "gloss": "to resound, roar, RV. i, 38, 14"
@@ -3544,11 +3530,9 @@
   "slp1": "tam",
   "homonym": null,
   "class": [
-   "III",
    "IV"
   ],
   "class_arabic": [
-   3,
    4
   ],
   "gloss": "to gasp for breath (as one suffocating), choke, be suffocated, faint awa"
@@ -3718,11 +3702,9 @@
   "slp1": "dam",
   "homonym": "1",
   "class": [
-   "III",
    "IV"
   ],
   "class_arabic": [
-   3,
    4
   ],
   "gloss": "to be tamed or tranquillised, ŚBr. xiv, 8, 2, 2 (Impv. dA/myata)"
@@ -4124,12 +4106,10 @@
   "slp1": "De",
   "homonym": null,
   "class": [
-   "I",
-   "VI"
+   "I"
   ],
   "class_arabic": [
-   1,
-   6
+   1
   ],
   "gloss": "to suck, drink, suck or drink in, take to one's self, absorb, appropriat"
  },
@@ -4306,12 +4286,10 @@
   "slp1": "nAT",
   "homonym": null,
   "class": [
-   "I",
-   "VI"
+   "I"
   ],
   "class_arabic": [
-   1,
-   6
+   1
   ],
   "gloss": "to seek aid, approach with prayers or requests (loc.), TS."
  },
@@ -4382,12 +4360,10 @@
   "slp1": "nft",
   "homonym": "1",
   "class": [
-   "IV",
-   "IX"
+   "IV"
   ],
   "class_arabic": [
-   4,
-   9
+   4
   ],
   "gloss": "to dance, RV. &c. &c."
  },
@@ -4440,12 +4416,10 @@
   "slp1": "paR",
   "homonym": null,
   "class": [
-   "I",
-   "VI"
+   "I"
   ],
   "class_arabic": [
-   1,
-   6
+   1
   ],
   "gloss": "to honour, praise, Naigh. iii, 14"
  },
@@ -4690,12 +4664,10 @@
   "slp1": "pf",
   "homonym": "1",
   "class": [
-   "III",
-   "IV"
+   "III"
   ],
   "class_arabic": [
-   3,
-   4
+   3
   ],
   "gloss": "to protect’, Dhātup. xxxi, 19"
  },
@@ -4752,12 +4724,10 @@
   "slp1": "praT",
   "homonym": "1",
   "class": [
-   "I",
-   "III"
+   "I"
   ],
   "class_arabic": [
-   1,
-   3
+   1
   ],
   "gloss": "to spread, extend (intrans."
  },
@@ -4888,12 +4858,10 @@
   "slp1": "bAD",
   "homonym": null,
   "class": [
-   "I",
-   "IV"
+   "I"
   ],
   "class_arabic": [
-   1,
-   4
+   1
   ],
   "gloss": "to press, force, drive away, repel, remove, RV. &c. &c."
  },
@@ -4986,12 +4954,10 @@
   "slp1": "BaR",
   "homonym": null,
   "class": [
-   "I",
-   "IV"
+   "I"
   ],
   "class_arabic": [
-   1,
-   4
+   1
   ],
   "gloss": "to speak, say to (acc. with or without prati), Var."
  },
@@ -5012,11 +4978,9 @@
   "slp1": "Barts",
   "homonym": null,
   "class": [
-   "IX",
    "X"
   ],
   "class_arabic": [
-   9,
    10
   ],
   "gloss": "to menace, threaten, abuse, revile, deride, AV."
@@ -5086,12 +5050,10 @@
   "slp1": "Bikz",
   "homonym": null,
   "class": [
-   "I",
-   "V"
+   "I"
   ],
   "class_arabic": [
-   1,
-   5
+   1
   ],
   "gloss": "to wish to, share or partake’), cl. 1. Ā. (Dhātup. xvi, 5) Bi/kzate (ep."
  },
@@ -5112,11 +5074,9 @@
   "slp1": "BI",
   "homonym": "1",
   "class": [
-   "II",
    "III"
   ],
   "class_arabic": [
-   2,
    3
   ],
   "gloss": "to, Dhātup. xxxiv, 15, cl. 10. P. BAyayati"
@@ -5337,13 +5297,11 @@
   "homonym": null,
   "class": [
    "IV",
-   "VIII",
-   "IX"
+   "VIII"
   ],
   "class_arabic": [
    4,
-   8,
-   9
+   8
   ],
   "gloss": "to think, believe, imagine, suppose, conjecture, RV. &c. &c. (manye, I t"
  },
@@ -5411,12 +5369,10 @@
   "homonym": null,
   "class": [
    "I",
-   "III",
    "X"
   ],
   "class_arabic": [
    1,
-   3,
    10
   ],
   "gloss": "to seek, look for, MBh."
@@ -5512,12 +5468,10 @@
   "slp1": "mIl",
   "homonym": null,
   "class": [
-   "I",
-   "X"
+   "I"
   ],
   "class_arabic": [
-   1,
-   10
+   1
   ],
   "gloss": "to close the eyes, Gīt."
  },
@@ -5794,12 +5748,10 @@
   "slp1": "mlE",
   "homonym": null,
   "class": [
-   "I",
-   "VIII"
+   "I"
   ],
   "class_arabic": [
-   1,
-   8
+   1
   ],
   "gloss": "to fade, wither, decay, vanish, ŚBr. &c. &c."
  },
@@ -5964,12 +5916,10 @@
   "slp1": "rakz",
   "homonym": "1",
   "class": [
-   "I",
-   "VI"
+   "I"
   ],
   "class_arabic": [
-   1,
-   6
+   1
   ],
   "gloss": "to guard, watch, take care of, protect, save, preserve (‘from’ abl.), RV"
  },
@@ -6004,12 +5954,10 @@
   "slp1": "raw",
   "homonym": null,
   "class": [
-   "I",
-   "X"
+   "I"
   ],
   "class_arabic": [
-   1,
-   10
+   1
   ],
   "gloss": "to howl, shout, roar, yell, cry, Kāv."
  },
@@ -6032,12 +5980,10 @@
   "slp1": "raR",
   "homonym": "2",
   "class": [
-   "I",
-   "II"
+   "I"
   ],
   "class_arabic": [
-   1,
-   2
+   1
   ],
   "gloss": "to sound, ring, rattle, jingle, Kāv."
  },
@@ -6070,12 +6016,10 @@
   "slp1": "rap",
   "homonym": null,
   "class": [
-   "I",
-   "VII"
+   "I"
   ],
   "class_arabic": [
-   1,
-   7
+   1
   ],
   "gloss": "to talk, chatter, whisper, RV. : Intens. rArapIti id., ib."
  },
@@ -6104,12 +6048,10 @@
   "slp1": "raB",
   "homonym": null,
   "class": [
-   "I",
-   "V"
+   "I"
   ],
   "class_arabic": [
-   1,
-   5
+   1
   ],
   "gloss": "to take hold of, grasp, clasp, embrace, BhP. (araBat, Hariv. 8106 w.r. f"
  },
@@ -6372,12 +6314,10 @@
   "slp1": "ruc",
   "homonym": "1",
   "class": [
-   "I",
-   "V"
+   "I"
   ],
   "class_arabic": [
-   1,
-   5
+   1
   ],
   "gloss": "to shine, be bright or radiant or resplendent, RV. &c. &c."
  },
@@ -6556,12 +6496,10 @@
   "slp1": "lajj",
   "homonym": null,
   "class": [
-   "VI",
-   "X"
+   "VI"
   ],
   "class_arabic": [
-   6,
-   10
+   6
   ],
   "gloss": "to be ashamed, blush, MBh."
  },
@@ -6570,12 +6508,10 @@
   "slp1": "lap",
   "homonym": "1",
   "class": [
-   "I",
-   "VIII"
+   "I"
   ],
   "class_arabic": [
-   1,
-   8
+   1
   ],
   "gloss": "to prate, chatter, talk (also of birds), MBh."
  },
@@ -6584,12 +6520,10 @@
   "slp1": "laB",
   "homonym": null,
   "class": [
-   "I",
-   "VI"
+   "I"
   ],
   "class_arabic": [
-   1,
-   6
+   1
   ],
   "gloss": "to take, seize, catch"
  },
@@ -6734,12 +6668,10 @@
   "slp1": "luYc",
   "homonym": null,
   "class": [
-   "I",
-   "V"
+   "I"
   ],
   "class_arabic": [
-   1,
-   5
+   1
   ],
   "gloss": "to pluck, pull out, tear off, MBh."
  },
@@ -6858,12 +6790,10 @@
   "slp1": "lok",
   "homonym": null,
   "class": [
-   "I",
-   "II"
+   "I"
   ],
   "class_arabic": [
-   1,
-   2
+   1
   ],
   "gloss": "to see, behold, perceive : Caus. or cl. 10. (Dhātup. xxxiii, 103) lokaya"
  },
@@ -6872,12 +6802,10 @@
   "slp1": "loc",
   "homonym": null,
   "class": [
-   "I",
-   "III"
+   "I"
   ],
   "class_arabic": [
-   1,
-   3
+   1
   ],
   "gloss": "to see, behold, perceive (see A- and nir-√ loc) : Caus. or cl. 10. P. lo"
  },
@@ -6910,12 +6838,10 @@
   "slp1": "vaYc",
   "homonym": null,
   "class": [
-   "I",
-   "VII"
+   "I"
   ],
   "class_arabic": [
-   1,
-   7
+   1
   ],
   "gloss": "to move to and fro, go crookedly, totter, stagger, waver, AV."
  },
@@ -6970,12 +6896,10 @@
   "slp1": "vand",
   "homonym": null,
   "class": [
-   "I",
-   "X"
+   "I"
   ],
   "class_arabic": [
-   1,
-   10
+   1
   ],
   "gloss": "to praise, celebrate, laud, extol, RV."
  },
@@ -7248,12 +7172,10 @@
   "slp1": "vip",
   "homonym": "1",
   "class": [
-   "I",
-   "VI"
+   "I"
   ],
   "class_arabic": [
-   1,
-   6
+   1
   ],
   "gloss": "to tremble, shake, shiver, vibrate, quiver, be stirred, RV. &c. &c."
  },
@@ -7446,12 +7368,10 @@
   "slp1": "vezw",
   "homonym": null,
   "class": [
-   "I",
-   "II"
+   "I"
   ],
   "class_arabic": [
-   1,
-   2
+   1
   ],
   "gloss": "to wind or twist round, Sāh."
  },
@@ -7484,12 +7404,10 @@
   "slp1": "vyaT",
   "homonym": null,
   "class": [
-   "I",
-   "II"
+   "I"
   ],
   "class_arabic": [
-   1,
-   2
+   1
   ],
   "gloss": "to tremble, waver, go astray, come to naught, fail, RV. &c. &c. (with ab"
  },
@@ -7840,11 +7758,9 @@
   "slp1": "Suz",
   "homonym": "3",
   "class": [
-   "I",
    "VI"
   ],
   "class_arabic": [
-   1,
    6
   ],
   "gloss": "to hiss (as a serpent), RV. i, 61, 10."
@@ -7890,12 +7806,10 @@
   "slp1": "Scut",
   "homonym": "1",
   "class": [
-   "I",
-   "IV"
+   "I"
   ],
   "class_arabic": [
-   1,
-   4
+   1
   ],
   "gloss": "to ooze, trickle, exude, drop, distil, RV."
  },
@@ -8076,12 +7990,10 @@
   "slp1": "sac",
   "homonym": "1",
   "class": [
-   "I",
-   "II"
+   "I"
   ],
   "class_arabic": [
-   1,
-   2
+   1
   ],
   "gloss": "to be associated or united with, have to do with, be familiar with, asso"
  },
@@ -8130,12 +8042,10 @@
   "slp1": "sap",
   "homonym": "1",
   "class": [
-   "I",
-   "VI"
+   "I"
   ],
   "class_arabic": [
-   1,
-   6
+   1
   ],
   "gloss": "to follow or seek after, be devoted to, honour, serve, love, caress (als"
  },
@@ -8242,11 +8152,9 @@
   "slp1": "siv",
   "homonym": null,
   "class": [
-   "II",
    "IV"
   ],
   "class_arabic": [
-   2,
    4
   ],
   "gloss": "to sew, sew on, darn, stitch, stitch together, (fig.) join, unite, RV. &"
@@ -8378,12 +8286,10 @@
   "slp1": "skand",
   "homonym": null,
   "class": [
-   "I",
-   "X"
+   "I"
   ],
   "class_arabic": [
-   1,
-   10
+   1
   ],
   "gloss": "to leap, jump, hop, dart, spring, spurt out, be spilt or effused (esp. s"
  },
@@ -8393,12 +8299,10 @@
   "homonym": null,
   "class": [
    "V",
-   "VIII",
    "IX"
   ],
   "class_arabic": [
    5,
-   8,
    9
   ],
   "gloss": "to Dhātup. x, 27 also cl. 1. Ā. skamBate"
@@ -8447,12 +8351,10 @@
   "homonym": null,
   "class": [
    "V",
-   "VII",
    "IX"
   ],
   "class_arabic": [
    5,
-   7,
    9
   ],
   "gloss": "to fix firmly, support, sustain, prop (esp. the heavens), RV."
@@ -8584,12 +8486,10 @@
   "slp1": "sparD",
   "homonym": null,
   "class": [
-   "I",
-   "II"
+   "I"
   ],
   "class_arabic": [
-   1,
-   2
+   1
   ],
   "gloss": "to emulate, compete, rival, vie or cope with (instr. with and without sa"
  },
@@ -8740,11 +8640,9 @@
   "slp1": "sriv",
   "homonym": null,
   "class": [
-   "III",
    "IV"
   ],
   "class_arabic": [
-   3,
    4
   ],
   "gloss": "to fail, turn out badly, MaitrS."
@@ -8766,12 +8664,10 @@
   "slp1": "svaj",
   "homonym": null,
   "class": [
-   "I",
-   "VII"
+   "I"
   ],
   "class_arabic": [
-   1,
-   7
+   1
   ],
   "gloss": "to embrace, clasp, encircle, twist or wind round, MBh."
  },
@@ -8866,12 +8762,10 @@
   "slp1": "hary",
   "homonym": null,
   "class": [
-   "I",
-   "VII"
+   "I"
   ],
   "class_arabic": [
-   1,
-   7
+   1
   ],
   "gloss": "to like, delight in, be fond of or pleased with, yearn after, long for ("
  },
@@ -8892,12 +8786,10 @@
   "slp1": "hA",
   "homonym": "2",
   "class": [
-   "III",
-   "VII"
+   "III"
   ],
   "class_arabic": [
-   3,
-   7
+   3
   ],
   "gloss": "to start or spring forward, bound away, give way to (dat.), RV."
  },
@@ -8906,12 +8798,10 @@
   "slp1": "hA",
   "homonym": "3",
   "class": [
-   "III",
-   "VIII"
+   "III"
   ],
   "class_arabic": [
-   3,
-   8
+   3
   ],
   "gloss": "to leave, abandon, desert, quit, forsake, relinquish (with SarIram, deha"
  },
@@ -8954,11 +8844,9 @@
   "slp1": "hu",
   "homonym": "1",
   "class": [
-   "I",
    "III"
   ],
   "class_arabic": [
-   1,
    3
   ],
   "gloss": "to sacrifice (esp. pour butter into the fire), offer or present an oblat"

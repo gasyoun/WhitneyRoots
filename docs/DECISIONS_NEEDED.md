@@ -125,8 +125,8 @@ MW/Apte share the SLP1 key with several Whitney homonyms and **class cannot disa
 | 86 | kal | I/III | mw | L45580·2·X·to push on, drive forw; L45581·3·—·to impel, incite, urge |
 | 107 | kṛ | VI | mw | L54148·1·II·to Pāṇ. iv, 2, 80, Kāś; L54683·2·III·to make mention of, pr |
 | 108 | kṛ | — | mw | L54148·1·II·to Pāṇ. iv, 2, 80, Kāś; L54683·2·III·to make mention of, pr |
-| 141 | kṣi | I/II/VI | mw | L59266·1·I/II·to possess, have power; L59272·2·II/VI·to abide, stay, dwell,; L59376·4·I·to destroy, corrupt, r |
-| 142 | kṣi | I/II/IV/V/IX | mw | L59266·1·I/II·to possess, have power; L59272·2·II/VI·to abide, stay, dwell,; L59376·4·I·to destroy, corrupt, r |
+| 141 | kṣi | I/II/VI | mw | L59266·1·I·to possess, have power; L59272·2·II/VI·to abide, stay, dwell,; L59376·4·I·to destroy, corrupt, r |
+| 142 | kṣi | I/II/IV/V/IX | mw | L59266·1·I·to possess, have power; L59272·2·II/VI·to abide, stay, dwell,; L59376·4·I·to destroy, corrupt, r |
 | 151 | kṣviḍ | I | apte | L12003·1·I·; L12004·2·I/IV· |
 | 226 | ci | I/III/V | mw | L73297·1·V·to arrange in order, h; L73362·2·III·to observe, perceive ( |
 | 349 | dā | I/II/III/IV | mw | L91212·1·III·to give, bestow, grant; L91425·4·IV·to bind, only in dIzva |
@@ -153,7 +153,7 @@ MW/Apte share the SLP1 key with several Whitney homonyms and **class cannot disa
 | 729 | vid | II/VI | mw | L195626·1·II·to Vop. also vidAm-baB; L195939·3·VI·to find, discover, mee |
 | 740 | vṛ | I/V/IX | mw | L203978·1·I/V/IX·to cover, screen, veil; L204040·2·V/IX·to choose, select, cho |
 | 741 | vṛ | V/IX | mw | L203978·1·I/V/IX·to cover, screen, veil; L204040·2·V/IX·to choose, select, cho |
-| 795 | śuṣ | — | mw | L219943·1·IV·to dry, become dry or ; L220027·3·I/VI·to hiss (as a serpent) |
+| 795 | śuṣ | — | mw | L219943·1·IV·to dry, become dry or ; L220027·3·VI·to hiss (as a serpent) |
 | 849 | sū | I/II/IV/VI | mw | L250729·1·VI·to Dhātup. xxii, 43 an; L250739·2·II·to beget, procreate, b |
-| 911 | hā | I/III | mw | L262501·2·III/VII·to start or spring for; L262507·3·III/VIII·to leave, abandon, des |
-| 912 | hā | III | mw | L262501·2·III/VII·to start or spring for; L262507·3·III/VIII·to leave, abandon, des |
+| 911 | hā | I/III | mw | L262501·2·III·to start or spring for; L262507·3·III·to leave, abandon, des |
+| 912 | hā | III | mw | L262501·2·III·to start or spring for; L262507·3·III·to leave, abandon, des |

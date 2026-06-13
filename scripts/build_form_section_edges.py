@@ -27,35 +27,12 @@ secs  = json.load(open(SECS, encoding='utf-8'))
 fetched_nums  = {s['section_number'] for s in secs['sections']}
 fetched_chaps = {c['chapter'] for c in secs['_meta']['chapters_fetched']}
 
-def nonempty(d, k):
-    v = d.get(k, '')
-    return isinstance(v, str) and len(v.strip()) > 1
-
 def categories_for(r):
-    """Ordered set of concordance category-keys this root has a form of."""
-    cats, P = [], r.get('paradigm_raw', {})
-    pres = P.get('Present', '') or ''
-    for g in r.get('class', []):              # present gaṇa(s) — from asserted class only
-        c = GANA.get(g)
-        if c and c not in cats: cats.append(c)
-    if 'Passive' in pres: cats.append('passive_present')
-    if nonempty(P, 'Perfect'): cats.append('perfect')
-    if nonempty(P, 'Aorist'):
-        cats.append('aor_class')
-        aor = P['Aorist']
-        for tok, c in AOR.items():
-            if tok in aor and c not in cats: cats.append(c)
-    if nonempty(P, 'Future'):
-        cats.append('s_future')
-        if 'Periphrastic' in P['Future']: cats.append('periphrastic_future')
-    if nonempty(P, 'Causative'):    cats.append('causative')
-    if nonempty(P, 'Desiderative'): cats.append('desiderative')
-    if nonempty(P, 'Intensive'):    cats.append('intensive')
-    vn = P.get('Verbal Nouns', '') or ''
-    if r.get('ppp') or 'PPP' in vn: cats.append('ppp')
-    if re.search(r'\bInf\b', vn):   cats.append('infinitive')
-    if re.search(r'\b(Abs|Ger)\b', vn): cats.append('gerund')
-    # de-dup preserving order
+    """Concordance category-keys this root has a form of: present gaṇa(s) from the asserted
+    `class` (via gana_present) + the parse-time `forms_present` (detected on FULL paradigm text
+    in parse_warnemyr — fixes both the 240-char truncation loss and the spaced sa-aorist token)."""
+    cats = [GANA[g] for g in r.get('class', []) if g in GANA]
+    cats += r.get('forms_present', [])
     seen, out = set(), []
     for c in cats:
         if c in CAT and c not in seen:

@@ -21,26 +21,7 @@ SPINE = os.path.join(BASE, 'scratch', 'phase0', 'root_spine.json')
 OUT   = os.path.join(BASE, 'crosswalk')
 URI   = 'https://w3id.org/whitneyroots/'          # persistent base (to be registered)
 
-# ---- IAST -> SLP1 (longest-key-first tokenizer; aspirates + diphthongs are digraphs) ----
-SLP1 = {
-    'ai':'E','au':'O','kh':'K','gh':'G','ch':'C','jh':'J','ṭh':'W','ḍh':'Q',
-    'th':'T','dh':'D','ph':'P','bh':'B',
-    'ā':'A','ī':'I','ū':'U','ṛ':'f','ṝ':'F','ḷ':'x','ḹ':'X',
-    'ṃ':'M','ṁ':'M','ḥ':'H','ṅ':'N','ñ':'Y','ṭ':'w','ḍ':'q','ṇ':'R',
-    'ś':'S','ṣ':'z','ḻ':'L',
-    'a':'a','i':'i','u':'u','e':'e','o':'o','k':'k','g':'g','c':'c','j':'j',
-    't':'t','d':'d','n':'n','p':'p','b':'b','m':'m','y':'y','r':'r','l':'l',
-    'v':'v','s':'s','h':'h',
-}
-def to_slp1(iast):
-    out, i, s = [], 0, iast
-    while i < len(s):
-        two = s[i:i+2]
-        if two in SLP1:
-            out.append(SLP1[two]); i += 2; continue
-        one = s[i]
-        out.append(SLP1.get(one, one)); i += 1
-    return ''.join(out)
+from sanskrit_util import to_slp1   # shared IAST→SLP1 transcoder (single source of truth)
 
 ROMAN_ORDER = {r:i for i,r in enumerate(['I','II','III','IV','V','VI','VII','VIII','IX','X'])}
 
@@ -73,7 +54,7 @@ def emit_csv(keyed):
             c = r.get('corpus') or {}
             d = r.get('dict') or {}
             w.writerow([
-                r['whitney_no'], r['root_iast'], to_slp1(r['root_iast']), r.get('homonym') or '',
+                r['whitney_no'], r['root_iast'], (r.get('root_slp1') or to_slp1(r['root_iast'])), r.get('homonym') or '',
                 '|'.join(r.get('class',[])), '|'.join(r.get('class_uncertain',[])),
                 r.get('gloss_short',''), r.get('ppp',''), '|'.join(r.get('period_tags',[])),
                 '1' if r.get('grouped') else '0', r.get('warnemyr_url',''),
@@ -112,7 +93,7 @@ def emit_sqlite(keyed):
         c = r.get('corpus') or {}
         d = r.get('dict') or {}
         cur.execute("INSERT INTO root VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
-            r['whitney_no'], r['root_iast'], to_slp1(r['root_iast']), r.get('homonym') or '',
+            r['whitney_no'], r['root_iast'], (r.get('root_slp1') or to_slp1(r['root_iast'])), r.get('homonym') or '',
             '|'.join(r.get('class',[])), '|'.join(r.get('class_uncertain',[])),
             r.get('gloss_short',''), r.get('ppp',''), '|'.join(r.get('period_tags',[])),
             1 if r.get('grouped') else 0, r.get('warnemyr_url',''),
@@ -154,7 +135,7 @@ def emit_ttl(keyed):
     ]
     for r in keyed:
         u = 'root:%d' % r['whitney_no']
-        iast, slp1 = ttl_esc(r['root_iast']), ttl_esc(to_slp1(r['root_iast']))
+        iast, slp1 = ttl_esc(r['root_iast']), ttl_esc((r.get('root_slp1') or to_slp1(r['root_iast'])))
         lines.append('%s a wr:Root ;' % u)
         lines.append('  rdfs:label "%s"@sa-Latn ;' % iast)
         lines.append('  ontolex:canonicalForm [ ontolex:writtenRep "%s"@sa-Latn, "%s"^^wr:slp1 ] ;' % (iast, slp1))

@@ -43,7 +43,9 @@ def proposal(item):
     eid, added = item['id'], item['added']
     supported = {g: grammar_supports(eid, g) for g in added}
     n_sup = sum(1 for g in added if supported[g])
-    iv_pair = set(added) == {'I','VI'} or (set(added) & {'I','VI'} and not item['whitney_roots_classes'])
+    # True only when the delta is *purely* I and/or VI onto an empty Whitney baseline — the
+    # unaccented-corpus collapse. (A delta like [I,III] must NOT be labelled an I/VI artifact.)
+    iv_pair = bool(added) and set(added) <= {'I', 'VI'} and not item['whitney_roots_classes']
     if n_sup == len(added) and added:
         verdict = 'LEAN KEEP — Grammar cites this root under the added chapter(s). Confirm sense w/ Zalizniak.'
     elif n_sup == 0 and iv_pair:

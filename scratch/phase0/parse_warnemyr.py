@@ -8,6 +8,8 @@ local class disagrees with warnemyr (capture gaps like kḷp, union-smears like 
 import sys, re, html, json, os, glob
 sys.stdout.reconfigure(encoding='utf-8')
 sys.stderr.reconfigure(encoding='utf-8')
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'scripts'))
+from sanskrit_util import to_slp1
 
 BASE  = r'C:/Users/user/Documents/GitHub/WhitneyRoots'
 # Phase 0 source-of-truth = the full local warnemyr mirror in 1885/ (939 root pages),
@@ -103,6 +105,58 @@ NX = {'Present': ['Future', 'Aorist', 'Perfect'], 'Future': ['Aorist', 'Perfect'
       'Intensive': ['Verbal', 'Derivatives'], 'Verbal Nouns': ['Derivatives', 'Meanings'],
       'Derivatives': ['Meanings']}
 
+# Aorist sub-type tokens, matched space-insensitively (warnemyr writes '-sa- Ao' but '-s-Ao').
+AOR_SUB = [('√-Ao', 'aor_root'), ('ThAo', 'aor_a'), ('RAo', 'aor_redup'),
+           ('-siṣ-Ao', 'aor_sis'), ('-iṣ-Ao', 'aor_is'), ('-sa-Ao', 'aor_sa'), ('-s-Ao', 'aor_s')]
+
+def detect_forms(full):
+    """Concordance category-keys this root has a form of, detected on the FULL (untruncated)
+    section text. Conservative: only categories warnemyr's paradigm reliably marks (no guessing
+    of precative/conditional/pluperfect, which warnemyr does not flag). Present-gaṇa categories
+    are NOT here — they come from `class` via gana_present in build_form_section_edges."""
+    out = []
+    P = full.get('Present', '')
+    if P:
+        out.append('present_participle')                 # participles are made from every present-stem
+    if 'Passive' in P:
+        out.append('passive_present')
+    if full.get('Perfect', '').strip():
+        out += ['perfect', 'perfect_participle']
+    ao = full.get('Aorist', '')
+    if ao.strip():
+        out.append('aor_class')
+        aon = re.sub(r'\s+', '', ao)                     # '-sa- Ao' -> '-sa-Ao'; 'Th Ao' -> 'ThAo'
+        for tok, cat in AOR_SUB:
+            if tok in aon:
+                out.append(cat)
+    fut = full.get('Future', '')
+    if fut.strip():
+        out += ['future_participle', 's_future']
+        if 'Periphrastic' in fut:
+            out.append('periphrastic_future')
+    if full.get('Causative', '').strip():
+        out.append('causative')
+    if full.get('Desiderative', '').strip():
+        out.append('desiderative')
+    if full.get('Intensive', '').strip():
+        out.append('intensive')
+    vn = full.get('Verbal Nouns', '')
+    if 'PPP' in vn:
+        out += ['ppp', 'past_active_participle']         # past active ptcp (-tavant) is made from the PPP (§959)
+    if re.search(r'\bInf\b', vn):
+        out.append('infinitive')
+    if re.search(r'\b2 Abs\b', vn):
+        out.append('adverbial_gerund')
+    if re.search(r'\b(1 Abs|Abs|Ger)\b', vn):
+        out.append('gerund')
+    if re.search(r'(tavya|anīya)', vn):
+        out.append('gerundive')
+    seen, res = set(), []
+    for c in out:
+        if c not in seen:
+            seen.add(c); res.append(c)
+    return res
+
 def parse_page(txt):
     cls, cls_unc = parse_classes(txt)
     rec = {'class': cls}
@@ -111,13 +165,17 @@ def parse_page(txt):
     head = txt.split('Present')[0]
     gm = re.search(r'[“‘"\']([^”’"\']{2,60})[”’"\']', head)
     rec['gloss_short'] = gm.group(1) if gm else ''
-    para = {}
+    full = {}
     for lab, nxs in NX.items():
         v = section(txt, lab, nxs)
         if v:
-            para[lab] = v[:240]
-    rec['paradigm_raw'] = para
-    rec['period_tags'] = sorted(set(re.findall(r'\b(RV|AV|V|B|S|E|C)\.', txt)))
+            full[lab] = v
+    rec['paradigm_raw'] = {lab: v[:240] for lab, v in full.items()}   # truncated for storage/display only
+    rec['forms_present'] = detect_forms(full)                         # detection runs on FULL text
+    # period tags only from the paradigm region (Present..Meanings), never the English gloss/Meanings prose
+    pstart, mend = txt.find('Present'), txt.find('Meanings')
+    region = txt[(pstart if pstart >= 0 else 0):(mend if mend >= 0 else len(txt))]
+    rec['period_tags'] = sorted(set(re.findall(r'\b(RV|AV|V|B|S|E|C)\.', region)))
     vn = section(txt, 'Verbal Nouns', ['Derivatives', 'Meanings'])
     pm = re.search(r'PPP\s*:?\s*(\S+)', vn)
     rec['ppp'] = pm.group(1) if pm else ''
@@ -142,8 +200,8 @@ def main():
         if len(raw) < 400:
             continue  # empty/failed fetch
         rec = parse_page(clean(raw))
-        rec.update({'root_iast': primary, 'homonym': homonym, 'warnemyr_url': url,
-                    'grouped': ',' in anchor})
+        rec.update({'root_iast': primary, 'root_slp1': to_slp1(primary), 'homonym': homonym,
+                    'warnemyr_url': url, 'grouped': ',' in anchor})
         l = loc.get((primary, homonym))
         if l:
             matched += 1

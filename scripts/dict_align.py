@@ -22,11 +22,12 @@ mw   = json.load(open(os.path.join(OUT,'mw_roots.json'), encoding='utf-8'))
 ap   = json.load(open(os.path.join(OUT,'apte_roots.json'), encoding='utf-8'))
 spine= json.load(open(SPINE, encoding='utf-8'))
 
-# slp1 per spine record (reuse the emitter's transcoder output already in roots.csv)
-slp1_by_no = {}
-with open(os.path.join(OUT,'roots.csv'), encoding='utf-8') as f:
-    for row in csv.DictReader(f):
-        slp1_by_no[int(row['whitney_no'])] = row['root_slp1']
+# slp1 per spine record — read from the spine itself (parse_warnemyr stores root_slp1). No roots.csv
+# dependency, so this no longer requires emit_crosswalk to have run first (breaks the ordering cycle).
+slp1_by_no = {r['whitney_no']: r.get('root_slp1', '') for r in spine if 'whitney_no' in r}
+hub_share = {}                                    # how many Whitney homonyms share each SLP1
+for v in slp1_by_no.values():
+    hub_share[v] = hub_share.get(v, 0) + 1
 
 def index(dict_roots):
     by = {}
@@ -66,10 +67,12 @@ for r in spine:
     d = {}
     m, mb = pick(MW.get(s, []), hub_class, no, r['root_iast'], 'mw')
     if m:
+        if mb == 'unique-slp1' and hub_share.get(s, 0) > 1: mb = 'slp1-shared'   # 1 MW entry ↔ ≥2 Whitney homonyms
         d.update(mw_id=m['mw_L'], mw_homonym=m['homonym'], mw_class=m['class'], mw_gloss=m['gloss'], mw_basis=mb)
         align_rows.append([no, s, 'mw', m['mw_L'], m['homonym'] or '', '|'.join(m['class']), mb]); acc['mw'] += 1
     a, ab = pick(AP.get(s, []), hub_class, no, r['root_iast'], 'apte')
     if a:
+        if ab == 'unique-slp1' and hub_share.get(s, 0) > 1: ab = 'slp1-shared'
         d.update(apte_id=a['ap_L'], apte_homonym=a['homonym'], apte_class=a['class'], apte_gloss=a['gloss'], apte_basis=ab)
         align_rows.append([no, s, 'apte', a['ap_L'], a['homonym'] or '', '|'.join(a['class']), ab]); acc['apte'] += 1
     d['senses'] = [g for g in (d.get('mw_gloss'), d.get('apte_gloss')) if g]

@@ -14,11 +14,7 @@ BASE  = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SPINE = os.path.join(BASE, 'scratch', 'phase0', 'root_spine.json')
 OUT   = os.path.join(BASE, 'src', 'reader_data.json')
 
-def norm(s):
-    """Lookup key: NFC, lowercased, strip combining accents (DCS is unaccented anyway)."""
-    s = unicodedata.normalize('NFD', s or '')
-    s = ''.join(c for c in s if unicodedata.category(c) != 'Mn' or c in 'ँंः')
-    return unicodedata.normalize('NFC', s).strip().lower()
+from sanskrit_util import norm   # shared lookup-key normaliser (folds all nasals → 'n'); mirror of reader.js
 
 DCS   = os.path.join(BASE, os.pardir, 'VisualDCS', 'src', 'DCS-data-2026', 'dcs_full.sqlite')
 spine = json.load(open(SPINE, encoding='utf-8'))

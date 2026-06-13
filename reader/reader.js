@@ -40,7 +40,8 @@ const DEVA_RE = /[ऀ-ॿ]/;
 function norm(s) {
   s = s || '';
   if (DEVA_RE.test(s)) s = deva2iast(s);
-  return s.normalize('NFD').replace(/\p{Mn}/gu, '').normalize('NFC').toLowerCase().trim();
+  s = s.normalize('NFD').replace(/\p{Mn}/gu, '').normalize('NFC').toLowerCase().trim();
+  return s.replace(/[mn]/g, 'n');   // fold all nasals (anusvāra→m, homorganic ṅ/ñ/ṇ→n) to one class
 }
 const isWord = (s) => /\p{L}/u.test(s);
 

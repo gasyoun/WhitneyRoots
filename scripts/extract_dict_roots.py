@@ -19,8 +19,7 @@ MW   = os.path.join(GH, 'csl-orig', 'v02', 'mw', 'mw.txt')
 AP90 = os.path.join(GH, 'csl-orig', 'v02', 'ap90', 'ap90.txt')
 OUT  = os.path.join(BASE, 'crosswalk')
 
-ROMAN = {1:'I',2:'II',3:'III',4:'IV',5:'V',6:'VI',7:'VII',8:'VIII',9:'IX',10:'X'}
-def to_roman(nums): return [ROMAN[n] for n in nums if n in ROMAN]
+from sanskrit_util import to_roman
 
 def strip_tags(s):
     s = re.sub(r'<[^>]+>', '', s)              # MW <..> tags
@@ -40,11 +39,14 @@ def parse_mw():
             continue
         L  = re.search(r'<L>([^<]*)<', block)
         h  = re.search(r'<h>(\d+)', block)
-        # class: digits in the window after the first 'cl.'
+        # class: digits between 'cl.' and the first Sanskrit form / citation / info tag, so numerals
+        # inside <ls> citations (Dhātup./Pāṇ. line numbers) are NOT mis-read as gaṇas.
         cls = []
-        cm = re.search(r'\bcl\.\s*</ab>\s*(.{0,40})', block) or re.search(r'\bcl\.\s*(.{0,40})', block)
-        if cm:
-            cls = sorted({int(x) for x in re.findall(r'\b(\d{1,2})\b', cm.group(1)) if 1 <= int(x) <= 10})
+        m = re.search(r'\bcl\.\s*</ab>(.*)', block) or re.search(r'\bcl\.(.*)', block)
+        if m:
+            stop = re.search(r'(<s>|<ls\b|<info|<lex|<hom)', m.group(1))
+            clause = m.group(1)[:stop.start()] if stop else m.group(1)[:30]
+            cls = sorted({int(x) for x in re.findall(r'\b(\d{1,2})\b', clause) if 1 <= int(x) <= 10})
         # gloss: first 'to ...' clause in the body, else snippet after the headword bar
         body = block.split('¦', 1)[1] if '¦' in block else block
         gm = re.search(r'\bto\b[^;]{2,70}', strip_tags(body))
@@ -81,12 +83,7 @@ def main():
     json.dump(mw, open(os.path.join(OUT,'mw_roots.json'),'w',encoding='utf-8'), ensure_ascii=False, indent=1)
     json.dump(ap, open(os.path.join(OUT,'apte_roots.json'),'w',encoding='utf-8'), ensure_ascii=False, indent=1)
     spine = json.load(open(os.path.join(BASE,'scratch','phase0','root_spine.json'), encoding='utf-8'))
-    # spine SLP1 set (reuse the emitter's transcoder result already stored? recompute via crosswalk csv)
-    import csv
-    spine_slp1 = set()
-    with open(os.path.join(OUT,'roots.csv'), encoding='utf-8') as f:
-        for row in csv.DictReader(f):
-            spine_slp1.add(row['root_slp1'])
+    spine_slp1 = {r['root_slp1'] for r in spine if r.get('root_slp1')}   # from the spine; no roots.csv dependency
     mw_slp1, ap_slp1 = {r['slp1'] for r in mw}, {r['slp1'] for r in ap}
     print(f'MW genuine roots : {len(mw)}  (distinct slp1 {len(mw_slp1)})  with class: {sum(1 for r in mw if r["class"])}')
     print(f'AP90 root entries: {len(ap)}  (distinct slp1 {len(ap_slp1)})  with class: {sum(1 for r in ap if r["class"])}')
