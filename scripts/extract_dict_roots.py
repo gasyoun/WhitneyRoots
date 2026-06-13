@@ -45,9 +45,9 @@ def parse_mw():
         # before the first form/citation/parenthetical) only when cp is empty.
         cls = []
         cpm = re.search(r'verb="genuineroot"\s+cp="([^"]*)"', block)
-        if cpm and cpm.group(1).strip():
+        if cpm:
             cls = sorted({int(x) for x in re.findall(r'\d+', cpm.group(1)) if 1 <= int(x) <= 10})
-        else:
+        if not cls:   # missing/empty cp, or all-zero cp (MW marks no gaṇa) → text 'cl.' clause fallback
             m = re.search(r'\bcl\.\s*</ab>(.*)', block) or re.search(r'\bcl\.(.*)', block)
             if m:
                 stop = re.search(r'(<s>|<ls\b|<info|<lex|<hom|\()', m.group(1))
