@@ -145,12 +145,15 @@ def detect_forms(full):
         out += ['ppp', 'past_active_participle']         # past active ptcp (-tavant) is made from the PPP (§959)
     if re.search(r'\bInf\b', vn):
         out.append('infinitive')
-    if re.search(r'\b2 Abs\b', vn):
-        out.append('adverbial_gerund')
-    if re.search(r'\b(1 Abs|Abs|Ger)\b', vn):
-        out.append('gerund')
+    if re.search(r'\b(1 Abs|2 Abs|Abs|Ger)\b', vn):      # warnemyr '1/2 Abs' = the -tvā/-ya gerund (§§989–994)
+        out.append('gerund')                             # (NOT the -am adverbial gerund §995, which warnemyr doesn't flag)
     if re.search(r'(tavya|anīya)', vn):
         out.append('gerundive')
+    blob = ' '.join(full.values())
+    if 'Precative' in blob:                              # warnemyr writes a literal 'Precative :' (§§921–926)
+        out.append('precative')
+    if 'Ao/Ps' in blob:                                  # passive aorist 3sg, 'Ao/Ps/3/sg :' (§843)
+        out.append('passive_aorist')
     seen, res = set(), []
     for c in out:
         if c not in seen:

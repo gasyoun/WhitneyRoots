@@ -106,42 +106,49 @@ Vowel-length / bracketed-gloss cases from Phase 0 (see `crosswalk/_unmatched.csv
 
 ---
 
-## 5. Phase-2 dictionary alignment — 45 ambiguous homonym links
+## 5. Phase-2 dictionary alignment — 52 ambiguous homonym links
 
 MW/Apte share the SLP1 key with several Whitney homonyms and **class cannot disambiguate** which dict homonym maps to which Whitney sense (DESIGN §6). Resolve by present-stem / gloss, then Zalizniak. Full data: `crosswalk/alignment_review.json`.
 
 | # | root | hub class | src | candidates (L·hom·class·gloss) |
 |--:|---|:-:|:-:|---|
-| 1 | aṃh | — | mw | L107·1·I·to go, set out, commen; L114·2·—·to press together, to  |
+| 1 | aṃh | — | mw | L107·1·I/X·to go, set out, commen; L114·2·—·to press together, to  |
 | 20 | aś | V | mw | L19412·1·—·to reach, come to, rea; L19416·2·—·to eat, consume (with  |
 | 21 | aś | I/IX | mw | L19412·1·—·to reach, come to, rea; L19416·2·—·to eat, consume (with  |
 | 24 | ah | — | mw | L21629·1·—·to say, speak, RV. &c.; L21630·2·V·to pervade or occupy,  |
-| 42 | iṣ | I/IV/VI | mw | L29439·1·I·to seek, search, BhP. ; L29516·3·VI·to endeavour to obtain |
+| 42 | iṣ | I/IV/VI | mw | L29439·1·I/IV·to seek, search, BhP. ; L29516·3·VI·to endeavour to obtain |
+| 43 | iṣ | IV/VI/IX | mw | L29439·1·I/IV·to seek, search, BhP. ; L29516·3·VI·to endeavour to obtain |
 | 58 | uch | — | mw | L30535·1·I·cl. 1. P. ucCati, RV. ; L30536·2·I·to finish |
 | 67 | ūh | I | mw | L38375·1·I·to be distinguished fr; L38392·2·I·to observe, mark, note |
 | 68 | ūh | I/II | mw | L38375·1·I·to be distinguished fr; L38392·2·I·to observe, mark, note |
 | 77 | ṛṣ | I/VI | mw | L39001·1·I·to flow, flow quickly,; L39039·2·VI·to go, move, Dhātup. x |
 | 82 | kad | — | apte | L10177·1·I/IV·; L10179·2·VIII· |
 | 86 | kal | I/III | mw | L45580·2·X·to push on, drive forw; L45581·3·—·to impel, incite, urge |
-| 107 | kṛ | VI | mw | L54148·1·II·to Pāṇ. iv, 2, 80, Kāś; L54683·2·III·to make mention of, pr |
-| 108 | kṛ | — | mw | L54148·1·II·to Pāṇ. iv, 2, 80, Kāś; L54683·2·III·to make mention of, pr |
-| 141 | kṣi | I/II/VI | mw | L59266·1·I·to possess, have power; L59272·2·II/VI·to abide, stay, dwell,; L59376·4·I·to destroy, corrupt, r |
-| 142 | kṣi | I/II/IV/V/IX | mw | L59266·1·I·to possess, have power; L59272·2·II/VI·to abide, stay, dwell,; L59376·4·I·to destroy, corrupt, r |
+| 107 | kṛ | VI | mw | L54148·1·I/II/V/VIII·to Pāṇ. iv, 2, 80, Kāś; L54683·2·III·to make mention of, pr |
+| 108 | kṛ | — | mw | L54148·1·I/II/V/VIII·to Pāṇ. iv, 2, 80, Kāś; L54683·2·III·to make mention of, pr |
+| 141 | kṣi | I/II/VI | mw | L59266·1·I·to possess, have power; L59272·2·II/VI·to abide, stay, dwell,; L59376·4·I/V/IX·to destroy, corrupt, r |
+| 142 | kṣi | I/II/IV/V/IX | mw | L59266·1·I·to possess, have power; L59272·2·II/VI·to abide, stay, dwell,; L59376·4·I/V/IX·to destroy, corrupt, r |
 | 151 | kṣviḍ | I | apte | L12003·1·I·; L12004·2·I/IV· |
-| 226 | ci | I/III/V | mw | L73297·1·V·to arrange in order, h; L73362·2·III·to observe, perceive ( |
-| 349 | dā | I/II/III/IV | mw | L91212·1·III·to give, bestow, grant; L91425·4·IV·to bind, only in dIzva |
-| 350 | dā | I/VI | mw | L91212·1·III·to give, bestow, grant; L91425·4·IV·to bind, only in dIzva |
-| 351 | dā | — | mw | L91212·1·III·to give, bestow, grant; L91425·4·IV·to bind, only in dIzva |
-| 352 | dā | — | mw | L91212·1·III·to give, bestow, grant; L91425·4·IV·to bind, only in dIzva |
+| 225 | ci | I/II/V | mw | L73297·1·V·to arrange in order, h; L73362·2·III/V·to observe, perceive ( |
+| 226 | ci | I/III/V | mw | L73297·1·V·to arrange in order, h; L73362·2·III/V·to observe, perceive ( |
+| 239 | chad | I | mw | L75390·1·I/X·to cover, Dhātup. xxxi; L75556·3·I/X·to seem, appear, be co |
+| 349 | dā | I/II/III/IV | mw | L91212·1·I/III·to give, bestow, grant; L91425·4·IV·to bind, only in dIzva |
+| 351 | dā | — | mw | L91212·1·I/III·to give, bestow, grant; L91425·4·IV·to bind, only in dIzva |
+| 352 | dā | — | mw | L91212·1·I/III·to give, bestow, grant; L91425·4·IV·to bind, only in dIzva |
 | 395 | dhāv | I | mw | L101159·1·I·to run, flow, stream, ; L101170·2·I·to rinse, cleanse, was |
 | 396 | dhāv | I | mw | L101159·1·I·to run, flow, stream, ; L101170·2·I·to rinse, cleanse, was |
-| 418 | naś | I/IV | mw | L104757·1·I·to reach, attain, meet; L104760·2·IV·to be lost, perish, di |
-| 448 | pā | I/II/III | mw | L120795·1·I·to drink, quaff, suck,; L120935·3·II·to watch, keep, preser |
-| 450 | pā | — | mw | L120795·1·I·to drink, quaff, suck,; L120935·3·II·to watch, keep, preser |
+| 418 | naś | I/IV | mw | L104757·1·I·to reach, attain, meet; L104760·2·I/IV·to be lost, perish, di |
+| 419 | naś | I | mw | L104757·1·I·to reach, attain, meet; L104760·2·I/IV·to be lost, perish, di |
+| 448 | pā | I/II/III | mw | L120795·1·I/II·to drink, quaff, suck,; L120935·3·II·to watch, keep, preser |
+| 449 | pā | II | mw | L120795·1·I/II·to drink, quaff, suck,; L120935·3·II·to watch, keep, preser |
+| 450 | pā | — | mw | L120795·1·I/II·to drink, quaff, suck,; L120935·3·II·to watch, keep, preser |
 | 500 | bṛh | I/VI | mw | L146034·1·VI·to tear, pluck, root u; L146037·2·I·to be thick, grow grea |
 | 501 | bṛh | — | mw | L146034·1·VI·to tear, pluck, root u; L146037·2·I·to be thick, grow grea |
-| 548 | mā | II/III/IV | mw | L161693·2·III·to Dhātup. xxv, 6 Ā. m; L161697·3·II·to measure, mete out,  |
-| 549 | mā | I | mw | L161693·2·III·to Dhātup. xxv, 6 Ā. m; L161697·3·II·to measure, mete out,  |
+| 524 | bhuj | VI | mw | L151217·1·VI·to bend, curve; L151348·3·VI/VII·to enjoy, use, possess |
+| 548 | mā | II/III/IV | mw | L161693·2·III·to Dhātup. xxv, 6 Ā. m; L161697·3·II/III/IV·to measure, mete out,  |
+| 549 | mā | I | mw | L161693·2·III·to Dhātup. xxv, 6 Ā. m; L161697·3·II/III/IV·to measure, mete out,  |
+| 550 | mā | III | mw | L161693·2·III·to Dhātup. xxv, 6 Ā. m; L161697·3·II/III/IV·to measure, mete out,  |
+| 607 | yu | I/III/VI | mw | L171682·1·III·to separate, keep or d; L171694·2·II/VI/IX·to Dhātup. xxxi, 9 als |
 | 652 | ru | I/II/VI | mw | L178213·1·II·to roar, bellow, howl,; L178231·3·I·to break or dash to pi |
 | 653 | ru | I/II | mw | L178213·1·II·to roar, bellow, howl,; L178231·3·I·to break or dash to pi |
 | 659 | rudh | I/II/VII | mw | L178751·1·I·to be only another for; L178755·2·VII·to obstruct, check, ar |
@@ -155,5 +162,5 @@ MW/Apte share the SLP1 key with several Whitney homonyms and **class cannot disa
 | 741 | vṛ | V/IX | mw | L203978·1·I/V/IX·to cover, screen, veil; L204040·2·V/IX·to choose, select, cho |
 | 795 | śuṣ | — | mw | L219943·1·IV·to dry, become dry or ; L220027·3·VI·to hiss (as a serpent) |
 | 849 | sū | I/II/IV/VI | mw | L250729·1·VI·to Dhātup. xxii, 43 an; L250739·2·II·to beget, procreate, b |
-| 911 | hā | I/III | mw | L262501·2·III·to start or spring for; L262507·3·III·to leave, abandon, des |
-| 912 | hā | III | mw | L262501·2·III·to start or spring for; L262507·3·III·to leave, abandon, des |
+| 911 | hā | I/III | mw | L262501·2·III·to start or spring for; L262507·3·I/III·to leave, abandon, des |
+| 912 | hā | III | mw | L262501·2·III·to start or spring for; L262507·3·I/III·to leave, abandon, des |

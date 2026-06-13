@@ -39,14 +39,20 @@ def parse_mw():
             continue
         L  = re.search(r'<L>([^<]*)<', block)
         h  = re.search(r'<h>(\d+)', block)
-        # class: digits between 'cl.' and the first Sanskrit form / citation / info tag, so numerals
-        # inside <ls> citations (Dhātup./Pāṇ. line numbers) are NOT mis-read as gaṇas.
+        # class: prefer MW's authoritative machine-readable gaṇa+pada attribute
+        # <info verb="genuineroot" cp="6,2,4,5,7P"/> (738/750 roots) — this lists ALL gaṇas and
+        # carries no citation/person-number noise. Fall back to the text 'cl.' clause (bounded
+        # before the first form/citation/parenthetical) only when cp is empty.
         cls = []
-        m = re.search(r'\bcl\.\s*</ab>(.*)', block) or re.search(r'\bcl\.(.*)', block)
-        if m:
-            stop = re.search(r'(<s>|<ls\b|<info|<lex|<hom)', m.group(1))
-            clause = m.group(1)[:stop.start()] if stop else m.group(1)[:30]
-            cls = sorted({int(x) for x in re.findall(r'\b(\d{1,2})\b', clause) if 1 <= int(x) <= 10})
+        cpm = re.search(r'verb="genuineroot"\s+cp="([^"]*)"', block)
+        if cpm and cpm.group(1).strip():
+            cls = sorted({int(x) for x in re.findall(r'\d+', cpm.group(1)) if 1 <= int(x) <= 10})
+        else:
+            m = re.search(r'\bcl\.\s*</ab>(.*)', block) or re.search(r'\bcl\.(.*)', block)
+            if m:
+                stop = re.search(r'(<s>|<ls\b|<info|<lex|<hom|\()', m.group(1))
+                clause = m.group(1)[:stop.start()] if stop else m.group(1)[:30]
+                cls = sorted({int(x) for x in re.findall(r'\b(\d{1,2})\b', clause) if 1 <= int(x) <= 10})
         # gloss: first 'to ...' clause in the body, else snippet after the headword bar
         body = block.split('¦', 1)[1] if '¦' in block else block
         gm = re.search(r'\bto\b[^;]{2,70}', strip_tags(body))

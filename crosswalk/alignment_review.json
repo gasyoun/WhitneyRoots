@@ -1,6 +1,6 @@
 {
  "note": "Whitney roots whose MW/Apte homonym is ambiguous (SLP1 shared, class cannot disambiguate). Resolve by present-stem/gloss, then Zalizniak. DESIGN §6.",
- "count": 45,
+ "count": 52,
  "items": [
   {
    "whitney_no": 1,
@@ -12,7 +12,8 @@
      "L": "107",
      "homonym": "1",
      "class": [
-      "I"
+      "I",
+      "X"
      ],
      "gloss": "to go, set out, commence, L."
     },
@@ -105,7 +106,37 @@
      "L": "29439",
      "homonym": "1",
      "class": [
-      "I"
+      "I",
+      "IV"
+     ],
+     "gloss": "to seek, search, BhP. : cl. 4. P. i/zyati and 9. P. Ā. izRA/ti (p. izRa/"
+    },
+    {
+     "L": "29516",
+     "homonym": "3",
+     "class": [
+      "VI"
+     ],
+     "gloss": "to endeavour to obtain, strive, seek for, RV."
+    }
+   ]
+  },
+  {
+   "whitney_no": 43,
+   "root": "iṣ",
+   "source": "mw",
+   "hub_class": [
+    "IV",
+    "VI",
+    "IX"
+   ],
+   "candidates": [
+    {
+     "L": "29439",
+     "homonym": "1",
+     "class": [
+      "I",
+      "IV"
      ],
      "gloss": "to seek, search, BhP. : cl. 4. P. i/zyati and 9. P. Ā. izRA/ti (p. izRa/"
     },
@@ -285,7 +316,10 @@
      "L": "54148",
      "homonym": "1",
      "class": [
-      "II"
+      "I",
+      "II",
+      "V",
+      "VIII"
      ],
      "gloss": "to Pāṇ. iv, 2, 80, Kāś.)"
     },
@@ -309,7 +343,10 @@
      "L": "54148",
      "homonym": "1",
      "class": [
-      "II"
+      "I",
+      "II",
+      "V",
+      "VIII"
      ],
      "gloss": "to Pāṇ. iv, 2, 80, Kāś.)"
     },
@@ -354,7 +391,9 @@
      "L": "59376",
      "homonym": "4",
      "class": [
-      "I"
+      "I",
+      "V",
+      "IX"
      ],
      "gloss": "to destroy, corrupt, ruin, make an end of (acc.), kill, injure, RV."
     }
@@ -393,7 +432,9 @@
      "L": "59376",
      "homonym": "4",
      "class": [
-      "I"
+      "I",
+      "V",
+      "IX"
      ],
      "gloss": "to destroy, corrupt, ruin, make an end of (acc.), kill, injure, RV."
     }
@@ -427,6 +468,35 @@
    ]
   },
   {
+   "whitney_no": 225,
+   "root": "ci",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "II",
+    "V"
+   ],
+   "candidates": [
+    {
+     "L": "73297",
+     "homonym": "1",
+     "class": [
+      "V"
+     ],
+     "gloss": "to arrange in order, heap up, pile up, construct (a sacrificial altar"
+    },
+    {
+     "L": "73362",
+     "homonym": "2",
+     "class": [
+      "III",
+      "V"
+     ],
+     "gloss": "to observe, perceive (with acc. or gen.), RV."
+    }
+   ]
+  },
+  {
    "whitney_no": 226,
    "root": "ci",
    "source": "mw",
@@ -448,9 +518,38 @@
      "L": "73362",
      "homonym": "2",
      "class": [
-      "III"
+      "III",
+      "V"
      ],
      "gloss": "to observe, perceive (with acc. or gen.), RV."
+    }
+   ]
+  },
+  {
+   "whitney_no": 239,
+   "root": "chad",
+   "source": "mw",
+   "hub_class": [
+    "I"
+   ],
+   "candidates": [
+    {
+     "L": "75390",
+     "homonym": "1",
+     "class": [
+      "I",
+      "X"
+     ],
+     "gloss": "to cover, Dhātup. xxxii, 41 (v.l.) : Caus. (or cl. 10) CAda/yati (once C"
+    },
+    {
+     "L": "75556",
+     "homonym": "3",
+     "class": [
+      "I",
+      "X"
+     ],
+     "gloss": "to seem, appear, be considered as, RV."
     }
    ]
   },
@@ -469,33 +568,7 @@
      "L": "91212",
      "homonym": "1",
      "class": [
-      "III"
-     ],
-     "gloss": "to give, bestow, grant, yield, impart, present, offer to (dat., in later"
-    },
-    {
-     "L": "91425",
-     "homonym": "4",
-     "class": [
-      "IV"
-     ],
-     "gloss": "to bind, only in dIzva, VS. xxxviii, 3 [cf. δέω δίδημι]."
-    }
-   ]
-  },
-  {
-   "whitney_no": 350,
-   "root": "dā",
-   "source": "mw",
-   "hub_class": [
-    "I",
-    "VI"
-   ],
-   "candidates": [
-    {
-     "L": "91212",
-     "homonym": "1",
-     "class": [
+      "I",
       "III"
      ],
      "gloss": "to give, bestow, grant, yield, impart, present, offer to (dat., in later"
@@ -520,6 +593,7 @@
      "L": "91212",
      "homonym": "1",
      "class": [
+      "I",
       "III"
      ],
      "gloss": "to give, bestow, grant, yield, impart, present, offer to (dat., in later"
@@ -544,6 +618,7 @@
      "L": "91212",
      "homonym": "1",
      "class": [
+      "I",
       "III"
      ],
      "gloss": "to give, bestow, grant, yield, impart, present, offer to (dat., in later"
@@ -631,6 +706,34 @@
      "L": "104760",
      "homonym": "2",
      "class": [
+      "I",
+      "IV"
+     ],
+     "gloss": "to be lost, perish, disappear, be gone, run away, RV. &c. &c."
+    }
+   ]
+  },
+  {
+   "whitney_no": 419,
+   "root": "naś",
+   "source": "mw",
+   "hub_class": [
+    "I"
+   ],
+   "candidates": [
+    {
+     "L": "104757",
+     "homonym": "1",
+     "class": [
+      "I"
+     ],
+     "gloss": "to reach, attain, meet with, find, RV. [cf. 1. aS and nakz"
+    },
+    {
+     "L": "104760",
+     "homonym": "2",
+     "class": [
+      "I",
       "IV"
      ],
      "gloss": "to be lost, perish, disappear, be gone, run away, RV. &c. &c."
@@ -651,7 +754,35 @@
      "L": "120795",
      "homonym": "1",
      "class": [
-      "I"
+      "I",
+      "II"
+     ],
+     "gloss": "to drink, quaff, suck, sip, swallow (with acc., rarely gen.), RV. &c. &c"
+    },
+    {
+     "L": "120935",
+     "homonym": "3",
+     "class": [
+      "II"
+     ],
+     "gloss": "to watch, keep, preserve"
+    }
+   ]
+  },
+  {
+   "whitney_no": 449,
+   "root": "pā",
+   "source": "mw",
+   "hub_class": [
+    "II"
+   ],
+   "candidates": [
+    {
+     "L": "120795",
+     "homonym": "1",
+     "class": [
+      "I",
+      "II"
      ],
      "gloss": "to drink, quaff, suck, sip, swallow (with acc., rarely gen.), RV. &c. &c"
     },
@@ -675,7 +806,8 @@
      "L": "120795",
      "homonym": "1",
      "class": [
-      "I"
+      "I",
+      "II"
      ],
      "gloss": "to drink, quaff, suck, sip, swallow (with acc., rarely gen.), RV. &c. &c"
     },
@@ -741,6 +873,33 @@
    ]
   },
   {
+   "whitney_no": 524,
+   "root": "bhuj",
+   "source": "mw",
+   "hub_class": [
+    "VI"
+   ],
+   "candidates": [
+    {
+     "L": "151217",
+     "homonym": "1",
+     "class": [
+      "VI"
+     ],
+     "gloss": "to bend, curve"
+    },
+    {
+     "L": "151348",
+     "homonym": "3",
+     "class": [
+      "VI",
+      "VII"
+     ],
+     "gloss": "to enjoy, use, possess, (esp.) enjoy a meal, eat, eat and drink, consume"
+    }
+   ]
+  },
+  {
    "whitney_no": 548,
    "root": "mā",
    "source": "mw",
@@ -762,7 +921,9 @@
      "L": "161697",
      "homonym": "3",
      "class": [
-      "II"
+      "II",
+      "III",
+      "IV"
      ],
      "gloss": "to measure, mete out, mark off, RV. &c. &c."
     }
@@ -788,9 +949,69 @@
      "L": "161697",
      "homonym": "3",
      "class": [
-      "II"
+      "II",
+      "III",
+      "IV"
      ],
      "gloss": "to measure, mete out, mark off, RV. &c. &c."
+    }
+   ]
+  },
+  {
+   "whitney_no": 550,
+   "root": "mā",
+   "source": "mw",
+   "hub_class": [
+    "III"
+   ],
+   "candidates": [
+    {
+     "L": "161693",
+     "homonym": "2",
+     "class": [
+      "III"
+     ],
+     "gloss": "to Dhātup. xxv, 6 Ā. mimIte"
+    },
+    {
+     "L": "161697",
+     "homonym": "3",
+     "class": [
+      "II",
+      "III",
+      "IV"
+     ],
+     "gloss": "to measure, mete out, mark off, RV. &c. &c."
+    }
+   ]
+  },
+  {
+   "whitney_no": 607,
+   "root": "yu",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "III",
+    "VI"
+   ],
+   "candidates": [
+    {
+     "L": "171682",
+     "homonym": "1",
+     "class": [
+      "III"
+     ],
+     "gloss": "to separate, keep or drive away, ward off (acc.), exclude or protect fro"
+    },
+    {
+     "L": "171694",
+     "homonym": "2",
+     "class": [
+      "II",
+      "VI",
+      "IX"
+     ],
+     "gloss": "to Dhātup. xxxi, 9 also cl. 9. yunAti, yunIte"
     }
    ]
   },
@@ -966,7 +1187,8 @@
      "L": "189096",
      "homonym": "5",
      "class": [
-      "I"
+      "I",
+      "X"
      ],
      "gloss": "to dwell, live, stop (at a place), stay (esp. ‘overnight’, with or witho"
     }
@@ -1009,7 +1231,8 @@
      "L": "189096",
      "homonym": "5",
      "class": [
-      "I"
+      "I",
+      "X"
      ],
      "gloss": "to dwell, live, stop (at a place), stay (esp. ‘overnight’, with or witho"
     }
@@ -1205,6 +1428,7 @@
      "L": "262507",
      "homonym": "3",
      "class": [
+      "I",
       "III"
      ],
      "gloss": "to leave, abandon, desert, quit, forsake, relinquish (with SarIram, deha"
@@ -1231,6 +1455,7 @@
      "L": "262507",
      "homonym": "3",
      "class": [
+      "I",
       "III"
      ],
      "gloss": "to leave, abandon, desert, quit, forsake, relinquish (with SarIram, deha"
