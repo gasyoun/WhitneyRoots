@@ -4,8 +4,7 @@ All notable changes to the Whitney Roots data and tooling.
 Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Zalizniak (tiebreaker).**
 
-## [Unreleased] — 2026-06-10
-
+## [1.0.0] - 2026-06-13
 ### Added
 - **Whitney Grammar §-citations for all 935 roots.**
   `scripts/dcs/grammar_ref_builder.py` extracts every Grammar §-reference for each root from
