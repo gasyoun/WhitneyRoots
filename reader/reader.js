@@ -175,7 +175,7 @@ function rootCard(r, no) {
   det.appendChild(el('div', 'freq', freq));
   if (r.forms && r.forms.length) {
     const fb = el('div', 'forms');
-    r.forms.forEach((f) => { const x = el('span', 'f'); x.innerHTML = ''; x.appendChild(el('b', null, f.form)); x.appendChild(document.createTextNode(' ×' + f.n)); fb.appendChild(x); });
+    r.forms.forEach((f) => { const x = el('span', 'f'); x.appendChild(el('b', null, f.form)); x.appendChild(document.createTextNode(' ×' + f.n)); fb.appendChild(x); });
     det.appendChild(fb);
   }
   card.appendChild(det);
