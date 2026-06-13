@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Whitney Reader — Why this form?</title>
+  <link rel="stylesheet" href="reader.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <h1>Whitney&nbsp;Reader <span class="accent">— Why this form?</span></h1>
+      <p class="sub">A passage view over the Whitney-root crosswalk: each word → root → its Whitney
+        grammar §§, dictionary sense, and corpus frequency. A pure read of the dataset — no new data.</p>
+    </div>
+  </header>
+
+  <main class="wrap layout">
+    <!-- LEFT: the passage -->
+    <section class="pane passage-pane">
+      <div class="pane-head">
+        <h2>Passage</h2>
+        <span class="hint">IAST · click any word</span>
+      </div>
+      <textarea id="passage" spellcheck="false"></textarea>
+      <button id="analyze">Analyze ↻</button>
+      <div id="tokens" class="tokens" aria-live="polite"></div>
+    </section>
+
+    <!-- RIGHT: sticky analysis -->
+    <aside class="pane analysis-pane">
+      <div id="panel" class="panel">
+        <div class="empty" id="empty">
+          <div class="empty-mark">√</div>
+          <p>Click a word on the left to analyze it.</p>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="wrap foot">
+    <span id="meta"></span> · Grammar §§ link to
+    <a href="https://en.wikisource.org/wiki/Sanskrit_Grammar_(Whitney)" target="_blank" rel="noopener">Whitney on Wikisource</a>
+    · senses from Monier-Williams &amp; Apte (Cologne) · frequency from the DCS corpus · CC&nbsp;BY-SA&nbsp;4.0
+  </footer>
+
+  <script src="reader.js"></script>
+</body>
+</html>
