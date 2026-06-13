@@ -20,8 +20,9 @@ def norm(s):
     s = ''.join(c for c in s if unicodedata.category(c) != 'Mn' or c in 'ँंः')
     return unicodedata.normalize('NFC', s).strip().lower()
 
+DCS   = os.path.join(BASE, os.pardir, 'VisualDCS', 'src', 'DCS-data-2026', 'dcs_full.sqlite')
 spine = json.load(open(SPINE, encoding='utf-8'))
-roots, form_index = {}, {}
+roots, form_index, lemma2no = {}, {}, {}
 
 def add_form(form, no):
     k = norm(form)
@@ -56,6 +57,37 @@ for r in spine:
     for p in (c.get('attested_ppp') or []):
         add_form(p.get('stem'), no)
     add_form(r['root_iast'], no)
+    lem = c.get('dcs_lemma')
+    if lem:
+        lemma2no.setdefault(lem, []).append(no)
+
+# Enrich the index with EVERY attested verb form (finite + participle + infinitive) for each
+# Whitney-linked DCS lemma — straight from the corpus. Homonyms sharing a lemma all become
+# candidates (the reader's chooser then disambiguates). Skipped if VisualDCS isn't a sibling.
+dcs_added = 0
+if os.path.exists(DCS):
+    import sqlite3
+    before = len(form_index)
+    con = sqlite3.connect(DCS)
+    for lemma, form, mu in con.execute("SELECT lemma, form, m_unsandhied FROM token WHERE upos='VERB'"):
+        nos = lemma2no.get(lemma)
+        if not nos:
+            continue
+        for surf in (form, mu):
+            if not surf or ' ' in surf or '-' in surf:   # passage tokens are single, unbound words
+                continue
+            for no in nos:
+                add_form(surf, no)
+    con.close()
+    dcs_added = len(form_index) - before
+    print(f'DCS verb-form enrichment: +{dcs_added} surface-form keys from {len(lemma2no)} linked lemmas')
+else:
+    print('DCS sqlite not found — form index limited to spine top-forms (no finite-form enrichment)')
+
+# Rank each form's candidate roots by DCS frequency so the likeliest root is the chooser
+# default and rare mis-tags sort last.
+for k in form_index:
+    form_index[k].sort(key=lambda no: -(roots[str(no)].get('freq') or 0))
 
 out = {
     '_meta': {'what': 'Browser view over the Whitney-root crosswalk (DESIGN §8 reader).',
