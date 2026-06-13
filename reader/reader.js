@@ -2,6 +2,7 @@
 'use strict';
 
 const DEFAULT_PASSAGE = 'sañjaya uvāca | dharmaṃ kṛtvā arjunaḥ gacchati | sukhaṃ bhavati ||';
+const DEVA_PASSAGE = 'सञ्जय उवाच । धर्मं कृत्वा अर्जुनः गच्छति । सुखं भवति ॥';
 let DATA = null;
 
 const $ = (id) => document.getElementById(id);
@@ -11,12 +12,37 @@ function el(tag, cls, text) {
   if (text != null) e.textContent = text;
   return e;
 }
-// Match scripts/build_reader_data.py norm(): NFD, drop combining marks, NFC, lower.
-function norm(s) {
-  return (s || '').normalize('NFD').replace(/\p{Mn}/gu, '').normalize('NFC').toLowerCase().trim();
+// --- Devanagari → IAST, so Devanagari passages resolve through the same (IAST-built) index ---
+const DV_VOWEL = { 'अ': 'a', 'आ': 'ā', 'इ': 'i', 'ई': 'ī', 'उ': 'u', 'ऊ': 'ū', 'ऋ': 'ṛ', 'ॠ': 'ṝ', 'ऌ': 'ḷ', 'ॡ': 'ḹ', 'ए': 'e', 'ऐ': 'ai', 'ओ': 'o', 'औ': 'au' };
+const DV_MATRA = { 'ा': 'ā', 'ि': 'i', 'ी': 'ī', 'ु': 'u', 'ू': 'ū', 'ृ': 'ṛ', 'ॄ': 'ṝ', 'ॢ': 'ḷ', 'े': 'e', 'ै': 'ai', 'ो': 'o', 'ौ': 'au' };
+const DV_CONS = { 'क': 'k', 'ख': 'kh', 'ग': 'g', 'घ': 'gh', 'ङ': 'ṅ', 'च': 'c', 'छ': 'ch', 'ज': 'j', 'झ': 'jh', 'ञ': 'ñ', 'ट': 'ṭ', 'ठ': 'ṭh', 'ड': 'ḍ', 'ढ': 'ḍh', 'ण': 'ṇ', 'त': 't', 'थ': 'th', 'द': 'd', 'ध': 'dh', 'न': 'n', 'प': 'p', 'फ': 'ph', 'ब': 'b', 'भ': 'bh', 'म': 'm', 'य': 'y', 'र': 'r', 'ल': 'l', 'व': 'v', 'श': 'ś', 'ष': 'ṣ', 'स': 's', 'ह': 'h', 'ळ': 'ḷ' };
+const DV_MARK = { 'ं': 'ṃ', 'ः': 'ḥ', 'ँ': 'ṃ' };
+const VIRAMA = '्';
+function deva2iast(s) {
+  let out = '';
+  for (let i = 0; i < s.length; i++) {
+    const ch = s[i];
+    if (DV_CONS[ch] != null) {
+      out += DV_CONS[ch];
+      const nx = s[i + 1];
+      if (nx === VIRAMA) { i++; }                         // bare consonant (conjunct)
+      else if (DV_MATRA[nx] != null) { out += DV_MATRA[nx]; i++; }
+      else { out += 'a'; }                                // inherent vowel
+    } else if (DV_VOWEL[ch] != null) { out += DV_VOWEL[ch]; }
+    else if (DV_MARK[ch] != null) { out += DV_MARK[ch]; }
+    else if (ch === 'ऽ') { /* avagraha — drop */ }
+    else { out += ch; }
+  }
+  return out;
 }
-const WORD_RE = /[\p{L}ऀ-ॿ]/u;
-const isWord = (s) => WORD_RE.test(s);
+const DEVA_RE = /[ऀ-ॿ]/;
+// Match scripts/build_reader_data.py norm(): (transliterate Devanagari,) NFD, drop marks, NFC, lower.
+function norm(s) {
+  s = s || '';
+  if (DEVA_RE.test(s)) s = deva2iast(s);
+  return s.normalize('NFD').replace(/\p{Mn}/gu, '').normalize('NFC').toLowerCase().trim();
+}
+const isWord = (s) => /\p{L}/u.test(s);
 
 function candidatesFor(word) {
   const hit = DATA.form_index[norm(word)];
@@ -30,7 +56,7 @@ function renderTokens() {
   const text = $('passage').value;
   const box = $('tokens');
   box.textContent = '';
-  const parts = text.split(/([^\p{L}ऀ-ॿ]+)/u).filter((p) => p.length);
+  const parts = text.split(/([^\p{L}\p{M}]+)/u).filter((p) => p.length);
   let firstResolved = null;
   parts.forEach((part) => {
     if (!isWord(part)) { box.appendChild(el('span', 'sep', part)); return; }
@@ -159,6 +185,8 @@ async function boot() {
   }
   $('meta').textContent = DATA._meta.roots + ' roots · ' + DATA._meta.form_index_keys + ' indexed forms';
   $('analyze').addEventListener('click', renderTokens);
+  $('exIast').addEventListener('click', () => { $('passage').value = DEFAULT_PASSAGE; renderTokens(); });
+  $('exDeva').addEventListener('click', () => { $('passage').value = DEVA_PASSAGE; renderTokens(); });
   renderTokens();
 }
 document.addEventListener('DOMContentLoaded', boot);
