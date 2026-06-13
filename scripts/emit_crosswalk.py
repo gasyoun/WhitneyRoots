@@ -47,6 +47,10 @@ ROMAN_ORDER = {r:i for i,r in enumerate(['I','II','III','IV','V','VI','VII','VII
 def forms_str(c):
     return '|'.join('%s:%s' % (x.get('form',''), x.get('n','')) for x in (c.get('attested_forms') or []))
 
+def sect_str(r):
+    return '|'.join('%s:%d-%d' % (e['category'], e['section_lo'], e['section_hi'])
+                    for e in (r.get('whitney_sections') or []))
+
 def load():
     recs = json.load(open(SPINE, encoding='utf-8'))
     keyed   = [r for r in recs if 'whitney_no' in r]
@@ -61,7 +65,7 @@ def emit_csv(keyed):
     cols = ['whitney_no','root_iast','root_slp1','homonym','class','class_uncertain',
             'gloss_short','ppp','period_tags','grouped','warnemyr_url',
             'dcs_freq','dcs_rank','dcs_class_tag','attested_forms',
-            'mw_id','apte_id','senses']
+            'mw_id','apte_id','senses','section_refs']
     with write_utf8(os.path.join(OUT,'roots.csv')) as f:
         w = csv.writer(f)
         w.writerow(cols)
@@ -76,6 +80,7 @@ def emit_csv(keyed):
                 c.get('dcs_freq',''), c.get('dcs_rank') or '',
                 '|'.join(str(x) for x in (c.get('dcs_class_tag') or [])), forms_str(c),
                 d.get('mw_id') or '', d.get('apte_id') or '', ' / '.join(d.get('senses') or []),
+                sect_str(r),
             ])
     # long/normalized class table
     with write_utf8(os.path.join(OUT,'root_class.csv')) as f:
@@ -99,19 +104,24 @@ def emit_sqlite(keyed):
         class TEXT, class_uncertain TEXT, gloss_short TEXT, ppp TEXT,
         period_tags TEXT, grouped INTEGER, warnemyr_url TEXT,
         dcs_freq INTEGER, dcs_rank INTEGER, dcs_class_tag TEXT, attested_forms TEXT,
-        mw_id TEXT, apte_id TEXT, senses TEXT)""")
+        mw_id TEXT, apte_id TEXT, senses TEXT, section_refs TEXT)""")
     cur.execute("CREATE TABLE root_class(whitney_no INTEGER, gana TEXT, certainty TEXT)")
+    cur.execute("""CREATE TABLE root_section(whitney_no INTEGER, category TEXT,
+        section_lo INTEGER, section_hi INTEGER, chapter TEXT, wikisource_url TEXT)""")
     for r in keyed:
         c = r.get('corpus') or {}
         d = r.get('dict') or {}
-        cur.execute("INSERT INTO root VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
+        cur.execute("INSERT INTO root VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
             r['whitney_no'], r['root_iast'], to_slp1(r['root_iast']), r.get('homonym') or '',
             '|'.join(r.get('class',[])), '|'.join(r.get('class_uncertain',[])),
             r.get('gloss_short',''), r.get('ppp',''), '|'.join(r.get('period_tags',[])),
             1 if r.get('grouped') else 0, r.get('warnemyr_url',''),
             c.get('dcs_freq'), c.get('dcs_rank'),
             '|'.join(str(x) for x in (c.get('dcs_class_tag') or [])), forms_str(c),
-            d.get('mw_id'), d.get('apte_id'), ' / '.join(d.get('senses') or [])))
+            d.get('mw_id'), d.get('apte_id'), ' / '.join(d.get('senses') or []), sect_str(r)))
+        for e in (r.get('whitney_sections') or []):
+            cur.execute("INSERT INTO root_section VALUES(?,?,?,?,?,?)",
+                        (r['whitney_no'], e['category'], e['section_lo'], e['section_hi'], e['chapter'], e['url']))
         for g in r.get('class',[]):           cur.execute("INSERT INTO root_class VALUES(?,?,?)", (r['whitney_no'], g, 'certain'))
         for g in r.get('class_uncertain',[]): cur.execute("INSERT INTO root_class VALUES(?,?,?)", (r['whitney_no'], g, 'uncertain'))
     con.commit(); con.close()
@@ -129,6 +139,7 @@ def emit_ttl(keyed):
         '@prefix dct:      <http://purl.org/dc/terms/> .',
         '@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .',
         '@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .',
+        '@prefix cito:     <http://purl.org/spar/cito/> .',
         '@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .',
         '',
         '# Whitney-Root crosswalk, Layer-1 hub. Source: Whitney Roots via L. Warnemyr (warnemyr.com/skrgram).',
@@ -166,6 +177,8 @@ def emit_ttl(keyed):
         if d.get('apte_id'): lines.append('  wr:apteId "%s" ;' % ttl_esc(str(d['apte_id'])))
         for sense in (d.get('senses') or []):
             lines.append('  skos:definition "%s"@en ;' % ttl_esc(sense))
+        for e in (r.get('whitney_sections') or []):   # root -> form-category -> § (Layer 2)
+            lines.append('  cito:isExplainedBy <%s> ;' % e['url'])
         lines.append('  dct:source <https://warnemyr.com/skrgram/%s> .' % r.get('warnemyr_url',''))
         lines.append('')
     with open(os.path.join(OUT,'roots.ttl'),'w',encoding='utf-8') as f:
@@ -200,6 +213,7 @@ def emit_csvw():
                 {"name":"mw_id","datatype":"string","titles":"Monier-Williams entry id (Cologne L-number)"},
                 {"name":"apte_id","datatype":"string","titles":"Apte (AP90) entry id (Cologne L-number)"},
                 {"name":"senses","datatype":"string","titles":"Short senses from MW / Apte"},
+                {"name":"section_refs","datatype":"string","titles":"Form-category -> Whitney §-range (category:lo-hi)"},
             ],
         },
     }

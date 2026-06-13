@@ -1,6 +1,6 @@
 # Form-category → Whitney §-range concordance (Layer 2)
 
-**Status:** draft 2026-06-13 · **Scope:** DESIGN.md §7 (`form-category → Whitney §`) and §9 Phase 3.
+**Status:** 2026-06-13 — all verb chapters (IX–XV) now **WS-fetched** via `--full`; encoded machine-readably as [`src/form_section_concordance.json`](../src/form_section_concordance.json) and wired into the spine as **7315 root→§ edges** (Phase 4, `scripts/build_form_section_edges.py`). · **Scope:** DESIGN.md §7 (`form-category → Whitney §`) and §9 Phase 3–4.
 **Maintainer:** gasyoun · **License:** CC BY-SA 4.0
 
 This is the hand-built `form-category → §-range` table that lets the crosswalk

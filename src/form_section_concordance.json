@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "what": "Machine-readable form-category -> Whitney §-range concordance (Layer 2, DESIGN §7).",
+    "source": "docs/form_to_section_concordance.md (hand-built from Whitney's body §-headings).",
+    "use": "Compose root -> has-form-of-category C (warnemyr/spine) with section_range(C) here.",
+    "page_base": "https://en.wikisource.org/wiki/Sanskrit_Grammar_(Whitney)",
+    "license": "CC BY-SA 4.0"
+  },
+  "categories": {
+    "present_root":       {"label": "Present, root-class (II / ad-class)",          "lo": 611, "hi": 641, "chapter": "IX"},
+    "present_redup":      {"label": "Present, reduplicating class (III / hu-class)", "lo": 642, "hi": 682, "chapter": "IX"},
+    "present_nasal":      {"label": "Present, nasal class (VII / rudh-class)",       "lo": 683, "hi": 696, "chapter": "IX"},
+    "present_nu_u":       {"label": "Present, nu/u-classes (V & VIII)",              "lo": 697, "hi": 716, "chapter": "IX"},
+    "present_na":         {"label": "Present, nā-class (IX / krī-class)",            "lo": 717, "hi": 732, "chapter": "IX"},
+    "present_a":          {"label": "Present, a-class (I / bhū-class)",              "lo": 733, "hi": 750, "chapter": "IX"},
+    "present_acc_a":      {"label": "Present, accented á-class (VI / tud-class)",    "lo": 751, "hi": 758, "chapter": "IX"},
+    "present_ya":         {"label": "Present, ya-class (IV / div-class)",            "lo": 759, "hi": 767, "chapter": "IX"},
+    "passive_present":    {"label": "Passive present (accented yá-stem)",            "lo": 768, "hi": 774, "chapter": "IX"},
+    "present_cur":        {"label": "Tenth / cur-class (see Causative)",             "lo": 775, "hi": 775, "chapter": "IX"},
+    "present_participle": {"label": "Present participle (-ant / -māna)",             "lo": 583, "hi": 584, "chapter": "VIII"},
+    "perfect":            {"label": "Perfect (reduplicated)",                        "lo": 781, "hi": 823, "chapter": "X"},
+    "perfect_participle": {"label": "Perfect participle (-vāṅs / -āna)",             "lo": 802, "hi": 806, "chapter": "X"},
+    "pluperfect":         {"label": "Pluperfect",                                    "lo": 818, "hi": 823, "chapter": "X"},
+    "aor_class":          {"label": "Aorist — classification",                       "lo": 824, "hi": 827, "chapter": "XI"},
+    "aor_root":           {"label": "Root-aorist (1, simple)",                       "lo": 828, "hi": 846, "chapter": "XI"},
+    "aor_a":              {"label": "a-aorist (2, simple)",                          "lo": 847, "hi": 855, "chapter": "XI"},
+    "aor_redup":          {"label": "Reduplicated aorist (3)",                       "lo": 856, "hi": 873, "chapter": "XI"},
+    "aor_s":              {"label": "s-aorist (4, sibilant)",                        "lo": 878, "hi": 897, "chapter": "XI"},
+    "aor_is":             {"label": "iṣ-aorist (5)",                                 "lo": 898, "hi": 911, "chapter": "XI"},
+    "aor_sis":            {"label": "siṣ-aorist (6)",                                "lo": 912, "hi": 915, "chapter": "XI"},
+    "aor_sa":             {"label": "sa-aorist (7)",                                 "lo": 916, "hi": 920, "chapter": "XI"},
+    "precative":          {"label": "Precative / benedictive",                       "lo": 921, "hi": 926, "chapter": "XI"},
+    "passive_aorist":     {"label": "Passive aorist 3 sg. (-i)",                     "lo": 843, "hi": 843, "chapter": "XI"},
+    "s_future":           {"label": "s-future (sibilant)",                           "lo": 931, "hi": 940, "chapter": "XII"},
+    "conditional":        {"label": "Conditional",                                   "lo": 941, "hi": 941, "chapter": "XII"},
+    "periphrastic_future":{"label": "Periphrastic future (-tā + aux)",               "lo": 942, "hi": 949, "chapter": "XII"},
+    "future_participle":  {"label": "Future participle",                             "lo": 939, "hi": 939, "chapter": "XII"},
+    "ppp":                {"label": "Past passive participle (-ta / -na)",           "lo": 952, "hi": 958, "chapter": "XIII"},
+    "past_active_participle": {"label": "Past active participle (-tavant)",          "lo": 959, "hi": 960, "chapter": "XIII"},
+    "gerundive":          {"label": "Gerundive / future passive participle",         "lo": 961, "hi": 966, "chapter": "XIII"},
+    "infinitive":         {"label": "Infinitive (-tum, Vedic variety)",             "lo": 968, "hi": 979, "chapter": "XIII"},
+    "gerund":             {"label": "Gerund / absolutive (-tvā, -ya)",               "lo": 989, "hi": 994, "chapter": "XIII"},
+    "adverbial_gerund":   {"label": "Adverbial gerund (-am)",                        "lo": 995, "hi": 995, "chapter": "XIII"},
+    "passive_secondary":  {"label": "Passive (secondary-conjugation summary)",       "lo": 998, "hi": 999, "chapter": "XIV"},
+    "intensive":          {"label": "Intensive / frequentative",                     "lo": 1000, "hi": 1025, "chapter": "XIV"},
+    "desiderative":       {"label": "Desiderative",                                  "lo": 1026, "hi": 1040, "chapter": "XIV"},
+    "causative":          {"label": "Causative (-aya)",                              "lo": 1041, "hi": 1052, "chapter": "XIV"},
+    "denominative":       {"label": "Denominative",                                  "lo": 1053, "hi": 1068, "chapter": "XIV"},
+    "periphrastic_perfect": {"label": "Periphrastic perfect (-ām + aux)",            "lo": 1070, "hi": 1073, "chapter": "XV"},
+    "verb_compounds":     {"label": "Verb-compounds with upasarga",                  "lo": 1076, "hi": 1095, "chapter": "XV"}
+  },
+  "gana_present": {
+    "I": "present_a", "II": "present_root", "III": "present_redup", "IV": "present_ya",
+    "V": "present_nu_u", "VI": "present_acc_a", "VII": "present_nasal", "VIII": "present_nu_u",
+    "IX": "present_na", "X": "present_cur"
+  },
+  "aorist_subtype": {
+    "√-Ao": "aor_root", "Th Ao": "aor_a", "R Ao": "aor_redup",
+    "-s-Ao": "aor_s", "-iṣ-Ao": "aor_is", "-siṣ-Ao": "aor_sis", "-sa-Ao": "aor_sa"
+  }
+}

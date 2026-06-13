@@ -103,6 +103,11 @@
         "name": "senses",
         "datatype": "string",
         "titles": "Short senses from MW / Apte"
+      },
+      {
+        "name": "section_refs",
+        "datatype": "string",
+        "titles": "Form-category -> Whitney §-range (category:lo-hi)"
       }
     ]
   }
