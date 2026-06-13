@@ -7,7 +7,7 @@ paradigm inventory) THEN section_range(C) (from src/form_section_concordance.jso
 Validates every edge whose chapter was fetched (IX–XV) against src/whitney_sections.json.
 NEVER touches `class` (hard-guarded). Idempotent. UTF-8, no BOM.
 """
-import sys, os, re, json, csv
+import sys, os, json, csv
 sys.stdout.reconfigure(encoding='utf-8')
 sys.stderr.reconfigure(encoding='utf-8')
 
@@ -19,9 +19,8 @@ OUT   = os.path.join(BASE, 'crosswalk')
 
 conc  = json.load(open(CONC, encoding='utf-8'))
 CAT   = conc['categories']
-GANA  = conc['gana_present']
-AOR   = conc['aorist_subtype']
-PAGE  = conc['_meta']['page_base']
+GANA  = conc['gana_present']         # gaṇa → present-class category; aorist/other categories come
+PAGE  = conc['_meta']['page_base']   # pre-detected from full text in parse_warnemyr.detect_forms
 spine = json.load(open(SPINE, encoding='utf-8'))
 secs  = json.load(open(SECS, encoding='utf-8'))
 fetched_nums  = {s['section_number'] for s in secs['sections']}

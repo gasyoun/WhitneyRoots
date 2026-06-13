@@ -25,6 +25,8 @@ spine= json.load(open(SPINE, encoding='utf-8'))
 # slp1 per spine record — read from the spine itself (parse_warnemyr stores root_slp1). No roots.csv
 # dependency, so this no longer requires emit_crosswalk to have run first (breaks the ordering cycle).
 slp1_by_no = {r['whitney_no']: r.get('root_slp1', '') for r in spine if 'whitney_no' in r}
+assert any(slp1_by_no.values()), \
+    'spine has no root_slp1 — run scratch/phase0/parse_warnemyr.py first (it stores root_slp1).'
 hub_share = {}                                    # how many Whitney homonyms share each SLP1
 for v in slp1_by_no.values():
     hub_share[v] = hub_share.get(v, 0) + 1
@@ -87,8 +89,12 @@ json.dump(spine, open(SPINE,'w',encoding='utf-8'), ensure_ascii=False, indent=1)
 with open(os.path.join(OUT,'root_alignment.csv'),'w',encoding='utf-8',newline='') as f:
     w = csv.writer(f); w.writerow(['whitney_no','root_slp1','source','dict_L','dict_homonym','dict_class','basis'])
     w.writerows(align_rows)
-json.dump({'note': 'Whitney roots whose MW/Apte homonym is ambiguous (SLP1 shared, class cannot '
-                   'disambiguate). Resolve by present-stem/gloss, then Zalizniak. DESIGN §6.',
+json.dump({'note': 'Whitney roots whose MW/Apte homonym is ambiguous (≥2 dict candidates share the '
+                   'SLP1 and class cannot disambiguate). Resolve by present-stem/gloss, then Zalizniak. '
+                   'DESIGN §6. NOTE: this queue does NOT include the accepted-but-flagged 1-dict-entry → '
+                   '≥2-Whitney-homonym links (where the dict simply lumps senses Whitney splits); those '
+                   'are LINKED with basis="slp1-shared" in root_alignment.csv — filter that column to '
+                   'audit whether the single shared sense is appropriate for each homonym.',
            'count': len(review), 'items': review},
           open(os.path.join(OUT,'alignment_review.json'),'w',encoding='utf-8'), ensure_ascii=False, indent=1)
 for p in ('root_alignment.csv','alignment_review.json'):

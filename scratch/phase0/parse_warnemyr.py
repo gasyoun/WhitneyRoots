@@ -111,9 +111,10 @@ AOR_SUB = [('√-Ao', 'aor_root'), ('ThAo', 'aor_a'), ('RAo', 'aor_redup'),
 
 def detect_forms(full):
     """Concordance category-keys this root has a form of, detected on the FULL (untruncated)
-    section text. Conservative: only categories warnemyr's paradigm reliably marks (no guessing
-    of precative/conditional/pluperfect, which warnemyr does not flag). Present-gaṇa categories
-    are NOT here — they come from `class` via gana_present in build_form_section_edges."""
+    section text. Conservative: only categories warnemyr explicitly marks (incl. 'Precative :' and
+    'Ao/Ps/3/sg :'). Present-gaṇa categories are NOT here — they come from `class` via gana_present
+    in build_form_section_edges. Deliberately NOT emitted (warnemyr carries no marker): conditional,
+    pluperfect, periphrastic_perfect, denominative, passive_secondary, verb_compounds, adverbial_gerund."""
     out = []
     P = full.get('Present', '')
     if P:
@@ -145,11 +146,13 @@ def detect_forms(full):
         out += ['ppp', 'past_active_participle']         # past active ptcp (-tavant) is made from the PPP (§959)
     if re.search(r'\bInf\b', vn):
         out.append('infinitive')
-    if re.search(r'\b(1 Abs|2 Abs|Abs|Ger)\b', vn):      # warnemyr '1/2 Abs' = the -tvā/-ya gerund (§§989–994)
+    if re.search(r'\b(Abs|Ger)\b', vn):                  # warnemyr '1 Abs'/'2 Abs' = the -tvā/-ya gerund (§§989–994)
         out.append('gerund')                             # (NOT the -am adverbial gerund §995, which warnemyr doesn't flag)
     if re.search(r'(tavya|anīya)', vn):
         out.append('gerundive')
-    blob = ' '.join(full.values())
+    # paradigm sections only — exclude the Derivatives list prose so a derivative spelled like a
+    # marker can't trigger a phantom category (mirrors the period_tags region restriction below).
+    blob = ' '.join(v for k, v in full.items() if k != 'Derivatives')
     if 'Precative' in blob:                              # warnemyr writes a literal 'Precative :' (§§921–926)
         out.append('precative')
     if 'Ao/Ps' in blob:                                  # passive aorist 3sg, 'Ao/Ps/3/sg :' (§843)

@@ -90,6 +90,8 @@ def main():
     json.dump(ap, open(os.path.join(OUT,'apte_roots.json'),'w',encoding='utf-8'), ensure_ascii=False, indent=1)
     spine = json.load(open(os.path.join(BASE,'scratch','phase0','root_spine.json'), encoding='utf-8'))
     spine_slp1 = {r['root_slp1'] for r in spine if r.get('root_slp1')}   # from the spine; no roots.csv dependency
+    if not spine_slp1:
+        print('WARNING: spine has no root_slp1 — run parse_warnemyr.py first; the overlap stats below are meaningless.')
     mw_slp1, ap_slp1 = {r['slp1'] for r in mw}, {r['slp1'] for r in ap}
     print(f'MW genuine roots : {len(mw)}  (distinct slp1 {len(mw_slp1)})  with class: {sum(1 for r in mw if r["class"])}')
     print(f'AP90 root entries: {len(ap)}  (distinct slp1 {len(ap_slp1)})  with class: {sum(1 for r in ap if r["class"])}')

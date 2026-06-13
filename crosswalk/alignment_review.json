@@ -1,5 +1,5 @@
 {
- "note": "Whitney roots whose MW/Apte homonym is ambiguous (SLP1 shared, class cannot disambiguate). Resolve by present-stem/gloss, then Zalizniak. DESIGN §6.",
+ "note": "Whitney roots whose MW/Apte homonym is ambiguous (≥2 dict candidates share the SLP1 and class cannot disambiguate). Resolve by present-stem/gloss, then Zalizniak. DESIGN §6. NOTE: this queue does NOT include the accepted-but-flagged 1-dict-entry → ≥2-Whitney-homonym links (where the dict simply lumps senses Whitney splits); those are LINKED with basis=\"slp1-shared\" in root_alignment.csv — filter that column to audit whether the single shared sense is appropriate for each homonym.",
  "count": 52,
  "items": [
   {

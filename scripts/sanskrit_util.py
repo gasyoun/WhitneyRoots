@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
-"""Shared Sanskrit helpers for the crosswalk pipeline (single source of truth).
+"""Shared Sanskrit helpers for the crosswalk pipeline.
 
-Retires the copies of these functions that had drifted across the scripts:
-  - to_slp1   : IAST → SLP1 (was duplicated in emit_crosswalk.py)
-  - to_roman  : Arabic gaṇa → Roman (was duplicated in extract_dict_roots.py + dcs/)
-  - norm      : lookup-key normaliser (was duplicated in build_reader_data.py + reader.js)
+Single source of truth for the spine/crosswalk scripts:
+  - to_slp1    : IAST → SLP1 (consolidated from emit_crosswalk.py)
+  - to_roman   : Arabic gaṇa → Roman (consolidated from extract_dict_roots.py)
+  - norm/nfold : lookup-key normalisers, mirrored in reader/reader.js
 
-norm() MUST stay byte-identical to reader/reader.js norm() or reader token lookups silently miss.
+Note: scripts/dcs/ keep their OWN Roman↔Arabic + fold helpers (a separate corpus-class
+pipeline, intentionally not consolidated here). norm()/nfold() must stay in sync with
+reader/reader.js norm()/nfold() (for IAST input) or reader token lookups silently miss.
 """
 import re
 import unicodedata
@@ -38,11 +40,15 @@ def to_roman(nums):
     return [_ROMAN[n] for n in nums if n in _ROMAN]
 
 def norm(s):
-    """Lookup key: (caller transliterates Devanagari first,) NFD, drop ALL combining marks,
-    NFC, lower, then fold every nasal (m/n/ṅ/ñ/ṇ/anusvāra) to 'n'. The nasal fold lets an
-    anusvāra spelling (saṃ-, kāṃkṣ-) match the corpus's homorganic-nasal spelling (kāṅkṣ-).
-    Mirror of reader/reader.js norm()."""
+    """EXACT lookup key: NFD, drop all combining marks, NFC, lower. Mirror of reader.js norm()
+    for IAST input (reader.js additionally transliterates Devanagari first via deva2iast)."""
     s = unicodedata.normalize('NFD', s or '')
     s = ''.join(c for c in s if unicodedata.category(c) != 'Mn')
-    s = unicodedata.normalize('NFC', s).lower().strip()
-    return re.sub('[mn]', 'n', s)
+    return unicodedata.normalize('NFC', s).lower().strip()
+
+def nfold(s):
+    """NASAL-FOLDED recall key: norm() then fold every nasal (m/n/ṅ/ñ/ṇ/anusvāra) to 'n'. Used
+    only as a FALLBACK index, so an anusvāra spelling (saṃ-, kāṃkṣ-) matches the corpus's
+    homorganic spelling (kāṅkṣ-) WITHOUT merging genuinely distinct roots (am/an) on the exact
+    key. Mirror of reader/reader.js nfold()."""
+    return re.sub('[mn]', 'n', norm(s))

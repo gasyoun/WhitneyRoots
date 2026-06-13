@@ -36,18 +36,31 @@ function deva2iast(s) {
   return out;
 }
 const DEVA_RE = /[ऀ-ॿ]/;
-// Match scripts/build_reader_data.py norm(): (transliterate Devanagari,) NFD, drop marks, NFC, lower.
+// Mirror of scripts/sanskrit_util.py norm()/nfold(). norm() = EXACT key (transliterate Devanagari,
+// NFD, drop marks, NFC, lower). nfold() additionally folds every nasal → 'n' for the recall fallback.
 function norm(s) {
   s = s || '';
   if (DEVA_RE.test(s)) s = deva2iast(s);
-  s = s.normalize('NFD').replace(/\p{Mn}/gu, '').normalize('NFC').toLowerCase().trim();
-  return s.replace(/[mn]/g, 'n');   // fold all nasals (anusvāra→m, homorganic ṅ/ñ/ṇ→n) to one class
+  return s.normalize('NFD').replace(/\p{Mn}/gu, '').normalize('NFC').toLowerCase().trim();
+}
+function nfold(s) {
+  return norm(s).replace(/[mn]/g, 'n');
 }
 const isWord = (s) => /\p{L}/u.test(s);
 
+// Two-tier: exact form_index first (keeps am/an, kram/kṛ distinct), then the nasal-folded
+// fold_alias as a fallback so anusvāra spellings (kāṃkṣ-) still reach homorganic forms (kāṅkṣ-).
 function candidatesFor(word) {
-  const hit = DATA.form_index[norm(word)];
-  return Array.isArray(hit) ? hit.map(String) : [];
+  const ex = DATA.form_index[norm(word)];
+  if (Array.isArray(ex) && ex.length) return ex.map(String);
+  const keys = DATA.fold_alias[nfold(word)];
+  if (!Array.isArray(keys)) return [];
+  const seen = {}, out = [];
+  keys.forEach((k) => (DATA.form_index[k] || []).forEach((n) => {
+    if (!seen[n]) { seen[n] = 1; out.push(n); }
+  }));
+  out.sort((a, b) => ((DATA.roots[b] || {}).freq || 0) - ((DATA.roots[a] || {}).freq || 0));
+  return out.map(String);
 }
 
 /* ---------- passage rendering ---------- */

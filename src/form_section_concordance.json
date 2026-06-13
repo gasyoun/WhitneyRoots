@@ -53,9 +53,5 @@
     "I": "present_a", "II": "present_root", "III": "present_redup", "IV": "present_ya",
     "V": "present_nu_u", "VI": "present_acc_a", "VII": "present_nasal", "VIII": "present_nu_u",
     "IX": "present_na", "X": "present_cur"
-  },
-  "aorist_subtype": {
-    "√-Ao": "aor_root", "Th Ao": "aor_a", "R Ao": "aor_redup",
-    "-s-Ao": "aor_s", "-iṣ-Ao": "aor_is", "-siṣ-Ao": "aor_sis", "-sa-Ao": "aor_sa"
   }
 }
