@@ -67,6 +67,27 @@
         "name": "warnemyr_url",
         "datatype": "string",
         "titles": "Source page"
+      },
+      {
+        "name": "dcs_freq",
+        "datatype": "integer",
+        "titles": "DCS corpus frequency"
+      },
+      {
+        "name": "dcs_rank",
+        "datatype": "integer",
+        "titles": "DCS frequency rank"
+      },
+      {
+        "name": "dcs_class_tag",
+        "datatype": "string",
+        "separator": "|",
+        "titles": "DCS lexicon class tag (metadata, not asserted)"
+      },
+      {
+        "name": "attested_forms",
+        "datatype": "string",
+        "titles": "Top attested forms (form:count)"
       }
     ]
   }

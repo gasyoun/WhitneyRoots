@@ -44,6 +44,9 @@ def to_slp1(iast):
 
 ROMAN_ORDER = {r:i for i,r in enumerate(['I','II','III','IV','V','VI','VII','VIII','IX','X'])}
 
+def forms_str(c):
+    return '|'.join('%s:%s' % (x.get('form',''), x.get('n','')) for x in (c.get('attested_forms') or []))
+
 def load():
     recs = json.load(open(SPINE, encoding='utf-8'))
     keyed   = [r for r in recs if 'whitney_no' in r]
@@ -56,16 +59,20 @@ def write_utf8(path):
 
 def emit_csv(keyed):
     cols = ['whitney_no','root_iast','root_slp1','homonym','class','class_uncertain',
-            'gloss_short','ppp','period_tags','grouped','warnemyr_url']
+            'gloss_short','ppp','period_tags','grouped','warnemyr_url',
+            'dcs_freq','dcs_rank','dcs_class_tag','attested_forms']
     with write_utf8(os.path.join(OUT,'roots.csv')) as f:
         w = csv.writer(f)
         w.writerow(cols)
         for r in keyed:
+            c = r.get('corpus') or {}
             w.writerow([
                 r['whitney_no'], r['root_iast'], to_slp1(r['root_iast']), r.get('homonym') or '',
                 '|'.join(r.get('class',[])), '|'.join(r.get('class_uncertain',[])),
                 r.get('gloss_short',''), r.get('ppp',''), '|'.join(r.get('period_tags',[])),
                 '1' if r.get('grouped') else '0', r.get('warnemyr_url',''),
+                c.get('dcs_freq',''), c.get('dcs_rank') or '',
+                '|'.join(str(x) for x in (c.get('dcs_class_tag') or [])), forms_str(c),
             ])
     # long/normalized class table
     with write_utf8(os.path.join(OUT,'root_class.csv')) as f:
@@ -87,14 +94,18 @@ def emit_sqlite(keyed):
     cur.execute("""CREATE TABLE root(
         whitney_no INTEGER PRIMARY KEY, root_iast TEXT, root_slp1 TEXT, homonym TEXT,
         class TEXT, class_uncertain TEXT, gloss_short TEXT, ppp TEXT,
-        period_tags TEXT, grouped INTEGER, warnemyr_url TEXT)""")
+        period_tags TEXT, grouped INTEGER, warnemyr_url TEXT,
+        dcs_freq INTEGER, dcs_rank INTEGER, dcs_class_tag TEXT, attested_forms TEXT)""")
     cur.execute("CREATE TABLE root_class(whitney_no INTEGER, gana TEXT, certainty TEXT)")
     for r in keyed:
-        cur.execute("INSERT INTO root VALUES(?,?,?,?,?,?,?,?,?,?,?)", (
+        c = r.get('corpus') or {}
+        cur.execute("INSERT INTO root VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
             r['whitney_no'], r['root_iast'], to_slp1(r['root_iast']), r.get('homonym') or '',
             '|'.join(r.get('class',[])), '|'.join(r.get('class_uncertain',[])),
             r.get('gloss_short',''), r.get('ppp',''), '|'.join(r.get('period_tags',[])),
-            1 if r.get('grouped') else 0, r.get('warnemyr_url','')))
+            1 if r.get('grouped') else 0, r.get('warnemyr_url',''),
+            c.get('dcs_freq'), c.get('dcs_rank'),
+            '|'.join(str(x) for x in (c.get('dcs_class_tag') or [])), forms_str(c)))
         for g in r.get('class',[]):           cur.execute("INSERT INTO root_class VALUES(?,?,?)", (r['whitney_no'], g, 'certain'))
         for g in r.get('class_uncertain',[]): cur.execute("INSERT INTO root_class VALUES(?,?,?)", (r['whitney_no'], g, 'uncertain'))
     con.commit(); con.close()
@@ -120,6 +131,8 @@ def emit_ttl(keyed):
         'wr:gana a rdfs:Property ; rdfs:comment "Sanskrit present-system class (gaṇa), Roman I–X." .',
         'wr:ganaUncertain a rdfs:Property ; rdfs:comment "Gaṇa marked uncertain (warnemyr ‘?’)." .',
         'wr:period a rdfs:Property ; rdfs:comment "Diachronic attestation tag (RV/AV/V/B/S/E/C)." .',
+        'wr:dcsFreq a rdfs:Property ; rdfs:comment "DCS corpus token frequency (lemma-level)." .',
+        'wr:dcsClassTag a rdfs:Property ; rdfs:comment "DCS lexicon class tag — METADATA, not an asserted gaṇa." .',
         '',
     ]
     for r in keyed:
@@ -135,6 +148,13 @@ def emit_ttl(keyed):
         if r.get('ppp'):         lines.append('  wr:ppp "%s"@sa-Latn ;' % ttl_esc(r['ppp']))
         for p in r.get('period_tags',[]):
             if p in PER: lines.append('  wr:period "%s" ;' % PER[p])
+        c = r.get('corpus') or {}
+        if c.get('dcs_lemma') and c.get('dcs_status') in ('matched','homonym_shared'):
+            lines.append('  wr:dcsLemma "%s"@sa-Latn ;' % ttl_esc(c['dcs_lemma']))
+            lines.append('  wr:dcsFreq %d ;' % (c.get('dcs_freq') or 0))
+            if c.get('dcs_rank'): lines.append('  wr:dcsRank %d ;' % c['dcs_rank'])
+            for t in (c.get('dcs_class_tag') or []):
+                lines.append('  wr:dcsClassTag "%s" ;' % ttl_esc(str(t)))
         lines.append('  dct:source <https://warnemyr.com/skrgram/%s> .' % r.get('warnemyr_url',''))
         lines.append('')
     with open(os.path.join(OUT,'roots.ttl'),'w',encoding='utf-8') as f:
@@ -162,6 +182,10 @@ def emit_csvw():
                 {"name":"period_tags","datatype":"string","separator":"|","titles":"Diachronic tags"},
                 {"name":"grouped","datatype":"boolean","titles":"Shared a warnemyr page"},
                 {"name":"warnemyr_url","datatype":"string","titles":"Source page"},
+                {"name":"dcs_freq","datatype":"integer","titles":"DCS corpus frequency"},
+                {"name":"dcs_rank","datatype":"integer","titles":"DCS frequency rank"},
+                {"name":"dcs_class_tag","datatype":"string","separator":"|","titles":"DCS lexicon class tag (metadata, not asserted)"},
+                {"name":"attested_forms","datatype":"string","titles":"Top attested forms (form:count)"},
             ],
         },
     }
