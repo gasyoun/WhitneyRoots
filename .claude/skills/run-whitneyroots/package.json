@@ -1,0 +1,9 @@
+{
+  "name": "run-whitneyroots-driver",
+  "private": true,
+  "type": "module",
+  "description": "Headless driver for the WhitneyRoots static reader/explorer (agent tooling, not product).",
+  "dependencies": {
+    "playwright-core": "^1.40.0"
+  }
+}
