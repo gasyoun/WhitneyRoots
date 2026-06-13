@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: gaurav-nelson/github-action-markdown-link-check@v1
+      - uses: gaurav-nelson/github-action-markdown-link-check@5c5dfc0ac2e225883c0e5f03a85311ec2830d368 # v1 (SHA-pinned: untrusted third-party action)
         with:
           use-quiet-mode: "yes"
           use-verbose-mode: "yes"
@@ -97,6 +97,6 @@ jobs:
         with:
           node-version: "20"
       - if: steps.check.outputs.has_pkg == 'true'
-        run: npm install
+        run: npm install --ignore-scripts   # block dependency install-time lifecycle scripts in CI
       - if: steps.check.outputs.has_pkg == 'true'
         run: npm test --if-present
