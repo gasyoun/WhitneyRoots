@@ -1,0 +1,1248 @@
+{
+ "note": "Whitney roots whose MW/Apte homonym is ambiguous (SLP1 shared, class cannot disambiguate). Resolve by present-stem/gloss, then Zalizniak. DESIGN §6.",
+ "count": 45,
+ "items": [
+  {
+   "whitney_no": 1,
+   "root": "aṃh",
+   "source": "mw",
+   "hub_class": [],
+   "candidates": [
+    {
+     "L": "107",
+     "homonym": "1",
+     "class": [
+      "I"
+     ],
+     "gloss": "to go, set out, commence, L."
+    },
+    {
+     "L": "114",
+     "homonym": "2",
+     "class": [],
+     "gloss": "to press together, to strangle (conjecturable from Gk. ἄχος, ἐγγύς"
+    }
+   ]
+  },
+  {
+   "whitney_no": 20,
+   "root": "aś",
+   "source": "mw",
+   "hub_class": [
+    "V"
+   ],
+   "candidates": [
+    {
+     "L": "19412",
+     "homonym": "1",
+     "class": [],
+     "gloss": "to reach, come to, reach, come to, arrive at, get, gain, obtain, RV. &c."
+    },
+    {
+     "L": "19416",
+     "homonym": "2",
+     "class": [],
+     "gloss": "to eat, consume (with acc. [this only in classical Sanskṛt] or gen.), RV"
+    }
+   ]
+  },
+  {
+   "whitney_no": 21,
+   "root": "aś",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "IX"
+   ],
+   "candidates": [
+    {
+     "L": "19412",
+     "homonym": "1",
+     "class": [],
+     "gloss": "to reach, come to, reach, come to, arrive at, get, gain, obtain, RV. &c."
+    },
+    {
+     "L": "19416",
+     "homonym": "2",
+     "class": [],
+     "gloss": "to eat, consume (with acc. [this only in classical Sanskṛt] or gen.), RV"
+    }
+   ]
+  },
+  {
+   "whitney_no": 24,
+   "root": "ah",
+   "source": "mw",
+   "hub_class": [],
+   "candidates": [
+    {
+     "L": "21629",
+     "homonym": "1",
+     "class": [],
+     "gloss": "to say, speak, RV. &c."
+    },
+    {
+     "L": "21630",
+     "homonym": "2",
+     "class": [
+      "V"
+     ],
+     "gloss": "to pervade or occupy, L."
+    }
+   ]
+  },
+  {
+   "whitney_no": 42,
+   "root": "iṣ",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "IV",
+    "VI"
+   ],
+   "candidates": [
+    {
+     "L": "29439",
+     "homonym": "1",
+     "class": [
+      "I"
+     ],
+     "gloss": "to seek, search, BhP. : cl. 4. P. i/zyati and 9. P. Ā. izRA/ti (p. izRa/"
+    },
+    {
+     "L": "29516",
+     "homonym": "3",
+     "class": [
+      "VI"
+     ],
+     "gloss": "to endeavour to obtain, strive, seek for, RV."
+    }
+   ]
+  },
+  {
+   "whitney_no": 58,
+   "root": "uch",
+   "source": "mw",
+   "hub_class": [],
+   "candidates": [
+    {
+     "L": "30535",
+     "homonym": "1",
+     "class": [
+      "I"
+     ],
+     "gloss": "cl. 1. P. ucCati, RV. See √ 3. vas."
+    },
+    {
+     "L": "30536",
+     "homonym": "2",
+     "class": [
+      "I"
+     ],
+     "gloss": "to finish"
+    }
+   ]
+  },
+  {
+   "whitney_no": 67,
+   "root": "ūh",
+   "source": "mw",
+   "hub_class": [
+    "I"
+   ],
+   "candidates": [
+    {
+     "L": "38375",
+     "homonym": "1",
+     "class": [
+      "I"
+     ],
+     "gloss": "to be distinguished from it), to push, thrust, move, remove (only when c"
+    },
+    {
+     "L": "38392",
+     "homonym": "2",
+     "class": [
+      "I"
+     ],
+     "gloss": "to observe, mark, note, attend to, heed, regard, RV."
+    }
+   ]
+  },
+  {
+   "whitney_no": 68,
+   "root": "ūh",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "II"
+   ],
+   "candidates": [
+    {
+     "L": "38375",
+     "homonym": "1",
+     "class": [
+      "I"
+     ],
+     "gloss": "to be distinguished from it), to push, thrust, move, remove (only when c"
+    },
+    {
+     "L": "38392",
+     "homonym": "2",
+     "class": [
+      "I"
+     ],
+     "gloss": "to observe, mark, note, attend to, heed, regard, RV."
+    }
+   ]
+  },
+  {
+   "whitney_no": 77,
+   "root": "ṛṣ",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "VI"
+   ],
+   "candidates": [
+    {
+     "L": "39001",
+     "homonym": "1",
+     "class": [
+      "I"
+     ],
+     "gloss": "to flow, flow quickly, glide, move with a quick motion, RV."
+    },
+    {
+     "L": "39039",
+     "homonym": "2",
+     "class": [
+      "VI"
+     ],
+     "gloss": "to go, move, Dhātup. xxviii, 7"
+    }
+   ]
+  },
+  {
+   "whitney_no": 82,
+   "root": "kad",
+   "source": "apte",
+   "hub_class": [],
+   "candidates": [
+    {
+     "L": "10177",
+     "homonym": "1",
+     "class": [
+      "I",
+      "IV"
+     ],
+     "gloss": ""
+    },
+    {
+     "L": "10179",
+     "homonym": "2",
+     "class": [
+      "VIII"
+     ],
+     "gloss": ""
+    }
+   ]
+  },
+  {
+   "whitney_no": 86,
+   "root": "kal",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "III"
+   ],
+   "candidates": [
+    {
+     "L": "45580",
+     "homonym": "2",
+     "class": [
+      "X"
+     ],
+     "gloss": "to push on, drive forward, drive before one's self or away, carry off, M"
+    },
+    {
+     "L": "45581",
+     "homonym": "3",
+     "class": [],
+     "gloss": "to impel, incite, urge on MBh."
+    }
+   ]
+  },
+  {
+   "whitney_no": 107,
+   "root": "kṛ",
+   "source": "mw",
+   "hub_class": [
+    "VI"
+   ],
+   "candidates": [
+    {
+     "L": "54148",
+     "homonym": "1",
+     "class": [
+      "II"
+     ],
+     "gloss": "to Pāṇ. iv, 2, 80, Kāś.)"
+    },
+    {
+     "L": "54683",
+     "homonym": "2",
+     "class": [
+      "III"
+     ],
+     "gloss": "to make mention of, praise, speak highly of (gen.), RV."
+    }
+   ]
+  },
+  {
+   "whitney_no": 108,
+   "root": "kṛ",
+   "source": "mw",
+   "hub_class": [],
+   "candidates": [
+    {
+     "L": "54148",
+     "homonym": "1",
+     "class": [
+      "II"
+     ],
+     "gloss": "to Pāṇ. iv, 2, 80, Kāś.)"
+    },
+    {
+     "L": "54683",
+     "homonym": "2",
+     "class": [
+      "III"
+     ],
+     "gloss": "to make mention of, praise, speak highly of (gen.), RV."
+    }
+   ]
+  },
+  {
+   "whitney_no": 141,
+   "root": "kṣi",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "II",
+    "VI"
+   ],
+   "candidates": [
+    {
+     "L": "59266",
+     "homonym": "1",
+     "class": [
+      "I",
+      "II"
+     ],
+     "gloss": "to possess, have power over, rule, govern, be master of (gen.), RV."
+    },
+    {
+     "L": "59272",
+     "homonym": "2",
+     "class": [
+      "II",
+      "VI"
+     ],
+     "gloss": "to abide, stay, dwell, reside (used especially of an undisturbed or secr"
+    },
+    {
+     "L": "59376",
+     "homonym": "4",
+     "class": [
+      "I"
+     ],
+     "gloss": "to destroy, corrupt, ruin, make an end of (acc.), kill, injure, RV."
+    }
+   ]
+  },
+  {
+   "whitney_no": 142,
+   "root": "kṣi",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "II",
+    "IV",
+    "V",
+    "IX"
+   ],
+   "candidates": [
+    {
+     "L": "59266",
+     "homonym": "1",
+     "class": [
+      "I",
+      "II"
+     ],
+     "gloss": "to possess, have power over, rule, govern, be master of (gen.), RV."
+    },
+    {
+     "L": "59272",
+     "homonym": "2",
+     "class": [
+      "II",
+      "VI"
+     ],
+     "gloss": "to abide, stay, dwell, reside (used especially of an undisturbed or secr"
+    },
+    {
+     "L": "59376",
+     "homonym": "4",
+     "class": [
+      "I"
+     ],
+     "gloss": "to destroy, corrupt, ruin, make an end of (acc.), kill, injure, RV."
+    }
+   ]
+  },
+  {
+   "whitney_no": 151,
+   "root": "kṣviḍ",
+   "source": "apte",
+   "hub_class": [
+    "I"
+   ],
+   "candidates": [
+    {
+     "L": "12003",
+     "homonym": "1",
+     "class": [
+      "I"
+     ],
+     "gloss": ""
+    },
+    {
+     "L": "12004",
+     "homonym": "2",
+     "class": [
+      "I",
+      "IV"
+     ],
+     "gloss": ""
+    }
+   ]
+  },
+  {
+   "whitney_no": 226,
+   "root": "ci",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "III",
+    "V"
+   ],
+   "candidates": [
+    {
+     "L": "73297",
+     "homonym": "1",
+     "class": [
+      "V"
+     ],
+     "gloss": "to arrange in order, heap up, pile up, construct (a sacrificial altar"
+    },
+    {
+     "L": "73362",
+     "homonym": "2",
+     "class": [
+      "III"
+     ],
+     "gloss": "to observe, perceive (with acc. or gen.), RV."
+    }
+   ]
+  },
+  {
+   "whitney_no": 349,
+   "root": "dā",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "candidates": [
+    {
+     "L": "91212",
+     "homonym": "1",
+     "class": [
+      "III"
+     ],
+     "gloss": "to give, bestow, grant, yield, impart, present, offer to (dat., in later"
+    },
+    {
+     "L": "91425",
+     "homonym": "4",
+     "class": [
+      "IV"
+     ],
+     "gloss": "to bind, only in dIzva, VS. xxxviii, 3 [cf. δέω δίδημι]."
+    }
+   ]
+  },
+  {
+   "whitney_no": 350,
+   "root": "dā",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "VI"
+   ],
+   "candidates": [
+    {
+     "L": "91212",
+     "homonym": "1",
+     "class": [
+      "III"
+     ],
+     "gloss": "to give, bestow, grant, yield, impart, present, offer to (dat., in later"
+    },
+    {
+     "L": "91425",
+     "homonym": "4",
+     "class": [
+      "IV"
+     ],
+     "gloss": "to bind, only in dIzva, VS. xxxviii, 3 [cf. δέω δίδημι]."
+    }
+   ]
+  },
+  {
+   "whitney_no": 351,
+   "root": "dā",
+   "source": "mw",
+   "hub_class": [],
+   "candidates": [
+    {
+     "L": "91212",
+     "homonym": "1",
+     "class": [
+      "III"
+     ],
+     "gloss": "to give, bestow, grant, yield, impart, present, offer to (dat., in later"
+    },
+    {
+     "L": "91425",
+     "homonym": "4",
+     "class": [
+      "IV"
+     ],
+     "gloss": "to bind, only in dIzva, VS. xxxviii, 3 [cf. δέω δίδημι]."
+    }
+   ]
+  },
+  {
+   "whitney_no": 352,
+   "root": "dā",
+   "source": "mw",
+   "hub_class": [],
+   "candidates": [
+    {
+     "L": "91212",
+     "homonym": "1",
+     "class": [
+      "III"
+     ],
+     "gloss": "to give, bestow, grant, yield, impart, present, offer to (dat., in later"
+    },
+    {
+     "L": "91425",
+     "homonym": "4",
+     "class": [
+      "IV"
+     ],
+     "gloss": "to bind, only in dIzva, VS. xxxviii, 3 [cf. δέω δίδημι]."
+    }
+   ]
+  },
+  {
+   "whitney_no": 395,
+   "root": "dhāv",
+   "source": "mw",
+   "hub_class": [
+    "I"
+   ],
+   "candidates": [
+    {
+     "L": "101159",
+     "homonym": "1",
+     "class": [
+      "I"
+     ],
+     "gloss": "to run, flow, stream, move, glide, swim, RV. &c. &c."
+    },
+    {
+     "L": "101170",
+     "homonym": "2",
+     "class": [
+      "I"
+     ],
+     "gloss": "to rinse, cleanse, wash, purify, polish, make bright (Ā. also to rub one"
+    }
+   ]
+  },
+  {
+   "whitney_no": 396,
+   "root": "dhāv",
+   "source": "mw",
+   "hub_class": [
+    "I"
+   ],
+   "candidates": [
+    {
+     "L": "101159",
+     "homonym": "1",
+     "class": [
+      "I"
+     ],
+     "gloss": "to run, flow, stream, move, glide, swim, RV. &c. &c."
+    },
+    {
+     "L": "101170",
+     "homonym": "2",
+     "class": [
+      "I"
+     ],
+     "gloss": "to rinse, cleanse, wash, purify, polish, make bright (Ā. also to rub one"
+    }
+   ]
+  },
+  {
+   "whitney_no": 418,
+   "root": "naś",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "IV"
+   ],
+   "candidates": [
+    {
+     "L": "104757",
+     "homonym": "1",
+     "class": [
+      "I"
+     ],
+     "gloss": "to reach, attain, meet with, find, RV. [cf. 1. aS and nakz"
+    },
+    {
+     "L": "104760",
+     "homonym": "2",
+     "class": [
+      "IV"
+     ],
+     "gloss": "to be lost, perish, disappear, be gone, run away, RV. &c. &c."
+    }
+   ]
+  },
+  {
+   "whitney_no": 448,
+   "root": "pā",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "II",
+    "III"
+   ],
+   "candidates": [
+    {
+     "L": "120795",
+     "homonym": "1",
+     "class": [
+      "I"
+     ],
+     "gloss": "to drink, quaff, suck, sip, swallow (with acc., rarely gen.), RV. &c. &c"
+    },
+    {
+     "L": "120935",
+     "homonym": "3",
+     "class": [
+      "II"
+     ],
+     "gloss": "to watch, keep, preserve"
+    }
+   ]
+  },
+  {
+   "whitney_no": 450,
+   "root": "pā",
+   "source": "mw",
+   "hub_class": [],
+   "candidates": [
+    {
+     "L": "120795",
+     "homonym": "1",
+     "class": [
+      "I"
+     ],
+     "gloss": "to drink, quaff, suck, sip, swallow (with acc., rarely gen.), RV. &c. &c"
+    },
+    {
+     "L": "120935",
+     "homonym": "3",
+     "class": [
+      "II"
+     ],
+     "gloss": "to watch, keep, preserve"
+    }
+   ]
+  },
+  {
+   "whitney_no": 500,
+   "root": "bṛh",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "VI"
+   ],
+   "candidates": [
+    {
+     "L": "146034",
+     "homonym": "1",
+     "class": [
+      "VI"
+     ],
+     "gloss": "to tear, pluck, root up (without a prep. only with mUlam, TS."
+    },
+    {
+     "L": "146037",
+     "homonym": "2",
+     "class": [
+      "I"
+     ],
+     "gloss": "to be thick, grow great or strong, increase (the finite verb only with a"
+    }
+   ]
+  },
+  {
+   "whitney_no": 501,
+   "root": "bṛh",
+   "source": "mw",
+   "hub_class": [],
+   "candidates": [
+    {
+     "L": "146034",
+     "homonym": "1",
+     "class": [
+      "VI"
+     ],
+     "gloss": "to tear, pluck, root up (without a prep. only with mUlam, TS."
+    },
+    {
+     "L": "146037",
+     "homonym": "2",
+     "class": [
+      "I"
+     ],
+     "gloss": "to be thick, grow great or strong, increase (the finite verb only with a"
+    }
+   ]
+  },
+  {
+   "whitney_no": 548,
+   "root": "mā",
+   "source": "mw",
+   "hub_class": [
+    "II",
+    "III",
+    "IV"
+   ],
+   "candidates": [
+    {
+     "L": "161693",
+     "homonym": "2",
+     "class": [
+      "III"
+     ],
+     "gloss": "to Dhātup. xxv, 6 Ā. mimIte"
+    },
+    {
+     "L": "161697",
+     "homonym": "3",
+     "class": [
+      "II"
+     ],
+     "gloss": "to measure, mete out, mark off, RV. &c. &c."
+    }
+   ]
+  },
+  {
+   "whitney_no": 549,
+   "root": "mā",
+   "source": "mw",
+   "hub_class": [
+    "I"
+   ],
+   "candidates": [
+    {
+     "L": "161693",
+     "homonym": "2",
+     "class": [
+      "III"
+     ],
+     "gloss": "to Dhātup. xxv, 6 Ā. mimIte"
+    },
+    {
+     "L": "161697",
+     "homonym": "3",
+     "class": [
+      "II"
+     ],
+     "gloss": "to measure, mete out, mark off, RV. &c. &c."
+    }
+   ]
+  },
+  {
+   "whitney_no": 652,
+   "root": "ru",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "II",
+    "VI"
+   ],
+   "candidates": [
+    {
+     "L": "178213",
+     "homonym": "1",
+     "class": [
+      "II"
+     ],
+     "gloss": "to roar, bellow, howl, yelp, cry aloud, RV. &c. &c."
+    },
+    {
+     "L": "178231",
+     "homonym": "3",
+     "class": [
+      "I"
+     ],
+     "gloss": "to break or dash to pieces, RV. (Dhātup. also ‘to go"
+    }
+   ]
+  },
+  {
+   "whitney_no": 653,
+   "root": "ru",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "II"
+   ],
+   "candidates": [
+    {
+     "L": "178213",
+     "homonym": "1",
+     "class": [
+      "II"
+     ],
+     "gloss": "to roar, bellow, howl, yelp, cry aloud, RV. &c. &c."
+    },
+    {
+     "L": "178231",
+     "homonym": "3",
+     "class": [
+      "I"
+     ],
+     "gloss": "to break or dash to pieces, RV. (Dhātup. also ‘to go"
+    }
+   ]
+  },
+  {
+   "whitney_no": 659,
+   "root": "rudh",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "II",
+    "VII"
+   ],
+   "candidates": [
+    {
+     "L": "178751",
+     "homonym": "1",
+     "class": [
+      "I"
+     ],
+     "gloss": "to be only another form) cl. 1. P. ro/Dati, to sprout, shoot, grow (only"
+    },
+    {
+     "L": "178755",
+     "homonym": "2",
+     "class": [
+      "VII"
+     ],
+     "gloss": "to obstruct, check, arrest, stop, restrain, prevent, keep back, withhold"
+    }
+   ]
+  },
+  {
+   "whitney_no": 708,
+   "root": "vap",
+   "source": "mw",
+   "hub_class": [
+    "I"
+   ],
+   "candidates": [
+    {
+     "L": "186277",
+     "homonym": "1",
+     "class": [
+      "I"
+     ],
+     "gloss": "to shear, shave (Ā. ‘one's self’), cut off, AV."
+    },
+    {
+     "L": "186291",
+     "homonym": "2",
+     "class": [
+      "I"
+     ],
+     "gloss": "to strew, scatter (esp. seed), sow, bestrew, RV. &c. &c."
+    }
+   ]
+  },
+  {
+   "whitney_no": 709,
+   "root": "vap",
+   "source": "mw",
+   "hub_class": [
+    "I"
+   ],
+   "candidates": [
+    {
+     "L": "186277",
+     "homonym": "1",
+     "class": [
+      "I"
+     ],
+     "gloss": "to shear, shave (Ā. ‘one's self’), cut off, AV."
+    },
+    {
+     "L": "186291",
+     "homonym": "2",
+     "class": [
+      "I"
+     ],
+     "gloss": "to strew, scatter (esp. seed), sow, bestrew, RV. &c. &c."
+    }
+   ]
+  },
+  {
+   "whitney_no": 715,
+   "root": "vas",
+   "source": "mw",
+   "hub_class": [
+    "II",
+    "VI"
+   ],
+   "candidates": [
+    {
+     "L": "188560",
+     "homonym": "2",
+     "class": [
+      "VI"
+     ],
+     "gloss": "to shine, grow bright (esp. applied to the dawn), RV."
+    },
+    {
+     "L": "188997",
+     "homonym": "3",
+     "class": [
+      "X"
+     ],
+     "gloss": "to love"
+    },
+    {
+     "L": "188998",
+     "homonym": "4",
+     "class": [
+      "II"
+     ],
+     "gloss": "to put on, invest, wear, (clothes &c.), assume (a form &c.), enter into,"
+    },
+    {
+     "L": "189096",
+     "homonym": "5",
+     "class": [
+      "I"
+     ],
+     "gloss": "to dwell, live, stop (at a place), stay (esp. ‘overnight’, with or witho"
+    }
+   ]
+  },
+  {
+   "whitney_no": 716,
+   "root": "vas",
+   "source": "mw",
+   "hub_class": [
+    "II",
+    "VI"
+   ],
+   "candidates": [
+    {
+     "L": "188560",
+     "homonym": "2",
+     "class": [
+      "VI"
+     ],
+     "gloss": "to shine, grow bright (esp. applied to the dawn), RV."
+    },
+    {
+     "L": "188997",
+     "homonym": "3",
+     "class": [
+      "X"
+     ],
+     "gloss": "to love"
+    },
+    {
+     "L": "188998",
+     "homonym": "4",
+     "class": [
+      "II"
+     ],
+     "gloss": "to put on, invest, wear, (clothes &c.), assume (a form &c.), enter into,"
+    },
+    {
+     "L": "189096",
+     "homonym": "5",
+     "class": [
+      "I"
+     ],
+     "gloss": "to dwell, live, stop (at a place), stay (esp. ‘overnight’, with or witho"
+    }
+   ]
+  },
+  {
+   "whitney_no": 728,
+   "root": "vid",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "II",
+    "VI"
+   ],
+   "candidates": [
+    {
+     "L": "195626",
+     "homonym": "1",
+     "class": [
+      "II"
+     ],
+     "gloss": "to Vop. also vidAm-baBUva]"
+    },
+    {
+     "L": "195939",
+     "homonym": "3",
+     "class": [
+      "VI"
+     ],
+     "gloss": "to find, discover, meet or fall in with, obtain, get, acquire, partake o"
+    }
+   ]
+  },
+  {
+   "whitney_no": 729,
+   "root": "vid",
+   "source": "mw",
+   "hub_class": [
+    "II",
+    "VI"
+   ],
+   "candidates": [
+    {
+     "L": "195626",
+     "homonym": "1",
+     "class": [
+      "II"
+     ],
+     "gloss": "to Vop. also vidAm-baBUva]"
+    },
+    {
+     "L": "195939",
+     "homonym": "3",
+     "class": [
+      "VI"
+     ],
+     "gloss": "to find, discover, meet or fall in with, obtain, get, acquire, partake o"
+    }
+   ]
+  },
+  {
+   "whitney_no": 740,
+   "root": "vṛ",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "V",
+    "IX"
+   ],
+   "candidates": [
+    {
+     "L": "203978",
+     "homonym": "1",
+     "class": [
+      "I",
+      "V",
+      "IX"
+     ],
+     "gloss": "to cover, screen, veil, conceal, hide, surround, obstruct, RV. &c. &c."
+    },
+    {
+     "L": "204040",
+     "homonym": "2",
+     "class": [
+      "V",
+      "IX"
+     ],
+     "gloss": "to choose, select, choose for one's self, choose as (-arTe or acc. of pe"
+    }
+   ]
+  },
+  {
+   "whitney_no": 741,
+   "root": "vṛ",
+   "source": "mw",
+   "hub_class": [
+    "V",
+    "IX"
+   ],
+   "candidates": [
+    {
+     "L": "203978",
+     "homonym": "1",
+     "class": [
+      "I",
+      "V",
+      "IX"
+     ],
+     "gloss": "to cover, screen, veil, conceal, hide, surround, obstruct, RV. &c. &c."
+    },
+    {
+     "L": "204040",
+     "homonym": "2",
+     "class": [
+      "V",
+      "IX"
+     ],
+     "gloss": "to choose, select, choose for one's self, choose as (-arTe or acc. of pe"
+    }
+   ]
+  },
+  {
+   "whitney_no": 795,
+   "root": "śuṣ",
+   "source": "mw",
+   "hub_class": [],
+   "candidates": [
+    {
+     "L": "219943",
+     "homonym": "1",
+     "class": [
+      "IV"
+     ],
+     "gloss": "to dry, become dry or withered, fade, languish, decay, AV. &c. &c.: Caus"
+    },
+    {
+     "L": "220027",
+     "homonym": "3",
+     "class": [
+      "I",
+      "VI"
+     ],
+     "gloss": "to hiss (as a serpent), RV. i, 61, 10."
+    }
+   ]
+  },
+  {
+   "whitney_no": 849,
+   "root": "sū",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "II",
+    "IV",
+    "VI"
+   ],
+   "candidates": [
+    {
+     "L": "250729",
+     "homonym": "1",
+     "class": [
+      "VI"
+     ],
+     "gloss": "to Dhātup. xxii, 43 and xxiv, 32 also savati and -sOti"
+    },
+    {
+     "L": "250739",
+     "homonym": "2",
+     "class": [
+      "II"
+     ],
+     "gloss": "to beget, procreate, bring forth, bear, produce, yield, RV. &c. &c.: Pas"
+    }
+   ]
+  },
+  {
+   "whitney_no": 911,
+   "root": "hā",
+   "source": "mw",
+   "hub_class": [
+    "I",
+    "III"
+   ],
+   "candidates": [
+    {
+     "L": "262501",
+     "homonym": "2",
+     "class": [
+      "III",
+      "VII"
+     ],
+     "gloss": "to start or spring forward, bound away, give way to (dat.), RV."
+    },
+    {
+     "L": "262507",
+     "homonym": "3",
+     "class": [
+      "III",
+      "VIII"
+     ],
+     "gloss": "to leave, abandon, desert, quit, forsake, relinquish (with SarIram, deha"
+    }
+   ]
+  },
+  {
+   "whitney_no": 912,
+   "root": "hā",
+   "source": "mw",
+   "hub_class": [
+    "III"
+   ],
+   "candidates": [
+    {
+     "L": "262501",
+     "homonym": "2",
+     "class": [
+      "III",
+      "VII"
+     ],
+     "gloss": "to start or spring forward, bound away, give way to (dat.), RV."
+    },
+    {
+     "L": "262507",
+     "homonym": "3",
+     "class": [
+      "III",
+      "VIII"
+     ],
+     "gloss": "to leave, abandon, desert, quit, forsake, relinquish (with SarIram, deha"
+    }
+   ]
+  }
+ ]
+}

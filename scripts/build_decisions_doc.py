@@ -153,7 +153,27 @@ out.append('Vowel-length / bracketed-gloss cases from Phase 0 (see `crosswalk/_u
            '`ṛj, mi, vā(in, dīv, dvar?, hru, hur, med[mid], modṣ`. Need a curated alias to bind each to its '
            'Whitney `whitney_no` (IAST↔SLP1 edge cases, DESIGN §10). Mechanical once the alias is chosen.\n')
 
+# ---- Section 5: MW/Apte homonym alignment ambiguities (Phase 2) ----
+align_p = P('crosswalk', 'alignment_review.json')
+n_align = 0
+if os.path.exists(align_p):
+    items = json.load(open(align_p, encoding='utf-8')).get('items', [])
+    n_align = len(items)
+    out.append('---\n')
+    out.append(f'## 5. Phase-2 dictionary alignment — {n_align} ambiguous homonym links\n')
+    out.append('MW/Apte share the SLP1 key with several Whitney homonyms and **class cannot disambiguate** '
+               'which dict homonym maps to which Whitney sense (DESIGN §6). Resolve by present-stem / gloss, '
+               'then Zalizniak. Full data: `crosswalk/alignment_review.json`.\n')
+    out.append('| # | root | hub class | src | candidates (L·hom·class·gloss) |')
+    out.append('|--:|---|:-:|:-:|---|')
+    for it in items:
+        cands = '; '.join("L%s·%s·%s·%s" % (c['L'], c['homonym'], '/'.join(c['class']) or '—', c['gloss'][:22])
+                          for c in it['candidates'][:3])
+        out.append("| %s | %s | %s | %s | %s |" %
+                   (it['whitney_no'], it['root'], '/'.join(it['hub_class']) or '—', it['source'], cands))
+    out.append('')
+
 with open(P('docs','DECISIONS_NEEDED.md'), 'w', encoding='utf-8') as f:
     f.write('\n'.join(out))
 print('wrote docs/DECISIONS_NEEDED.md  ·  queue items:', len(queue),
-      '· urgent:', len(URGENT), '· gaps:', len(gaps), '· smears:', len(smears))
+      '· urgent:', len(URGENT), '· gaps:', len(gaps), '· smears:', len(smears), '· align-ambig:', n_align)

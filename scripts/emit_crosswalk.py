@@ -60,12 +60,14 @@ def write_utf8(path):
 def emit_csv(keyed):
     cols = ['whitney_no','root_iast','root_slp1','homonym','class','class_uncertain',
             'gloss_short','ppp','period_tags','grouped','warnemyr_url',
-            'dcs_freq','dcs_rank','dcs_class_tag','attested_forms']
+            'dcs_freq','dcs_rank','dcs_class_tag','attested_forms',
+            'mw_id','apte_id','senses']
     with write_utf8(os.path.join(OUT,'roots.csv')) as f:
         w = csv.writer(f)
         w.writerow(cols)
         for r in keyed:
             c = r.get('corpus') or {}
+            d = r.get('dict') or {}
             w.writerow([
                 r['whitney_no'], r['root_iast'], to_slp1(r['root_iast']), r.get('homonym') or '',
                 '|'.join(r.get('class',[])), '|'.join(r.get('class_uncertain',[])),
@@ -73,6 +75,7 @@ def emit_csv(keyed):
                 '1' if r.get('grouped') else '0', r.get('warnemyr_url',''),
                 c.get('dcs_freq',''), c.get('dcs_rank') or '',
                 '|'.join(str(x) for x in (c.get('dcs_class_tag') or [])), forms_str(c),
+                d.get('mw_id') or '', d.get('apte_id') or '', ' / '.join(d.get('senses') or []),
             ])
     # long/normalized class table
     with write_utf8(os.path.join(OUT,'root_class.csv')) as f:
@@ -95,17 +98,20 @@ def emit_sqlite(keyed):
         whitney_no INTEGER PRIMARY KEY, root_iast TEXT, root_slp1 TEXT, homonym TEXT,
         class TEXT, class_uncertain TEXT, gloss_short TEXT, ppp TEXT,
         period_tags TEXT, grouped INTEGER, warnemyr_url TEXT,
-        dcs_freq INTEGER, dcs_rank INTEGER, dcs_class_tag TEXT, attested_forms TEXT)""")
+        dcs_freq INTEGER, dcs_rank INTEGER, dcs_class_tag TEXT, attested_forms TEXT,
+        mw_id TEXT, apte_id TEXT, senses TEXT)""")
     cur.execute("CREATE TABLE root_class(whitney_no INTEGER, gana TEXT, certainty TEXT)")
     for r in keyed:
         c = r.get('corpus') or {}
-        cur.execute("INSERT INTO root VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
+        d = r.get('dict') or {}
+        cur.execute("INSERT INTO root VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
             r['whitney_no'], r['root_iast'], to_slp1(r['root_iast']), r.get('homonym') or '',
             '|'.join(r.get('class',[])), '|'.join(r.get('class_uncertain',[])),
             r.get('gloss_short',''), r.get('ppp',''), '|'.join(r.get('period_tags',[])),
             1 if r.get('grouped') else 0, r.get('warnemyr_url',''),
             c.get('dcs_freq'), c.get('dcs_rank'),
-            '|'.join(str(x) for x in (c.get('dcs_class_tag') or [])), forms_str(c)))
+            '|'.join(str(x) for x in (c.get('dcs_class_tag') or [])), forms_str(c),
+            d.get('mw_id'), d.get('apte_id'), ' / '.join(d.get('senses') or [])))
         for g in r.get('class',[]):           cur.execute("INSERT INTO root_class VALUES(?,?,?)", (r['whitney_no'], g, 'certain'))
         for g in r.get('class_uncertain',[]): cur.execute("INSERT INTO root_class VALUES(?,?,?)", (r['whitney_no'], g, 'uncertain'))
     con.commit(); con.close()
@@ -155,6 +161,11 @@ def emit_ttl(keyed):
             if c.get('dcs_rank'): lines.append('  wr:dcsRank %d ;' % c['dcs_rank'])
             for t in (c.get('dcs_class_tag') or []):
                 lines.append('  wr:dcsClassTag "%s" ;' % ttl_esc(str(t)))
+        d = r.get('dict') or {}
+        if d.get('mw_id'):   lines.append('  wr:mwId "%s" ;' % ttl_esc(str(d['mw_id'])))
+        if d.get('apte_id'): lines.append('  wr:apteId "%s" ;' % ttl_esc(str(d['apte_id'])))
+        for sense in (d.get('senses') or []):
+            lines.append('  skos:definition "%s"@en ;' % ttl_esc(sense))
         lines.append('  dct:source <https://warnemyr.com/skrgram/%s> .' % r.get('warnemyr_url',''))
         lines.append('')
     with open(os.path.join(OUT,'roots.ttl'),'w',encoding='utf-8') as f:
@@ -186,6 +197,9 @@ def emit_csvw():
                 {"name":"dcs_rank","datatype":"integer","titles":"DCS frequency rank"},
                 {"name":"dcs_class_tag","datatype":"string","separator":"|","titles":"DCS lexicon class tag (metadata, not asserted)"},
                 {"name":"attested_forms","datatype":"string","titles":"Top attested forms (form:count)"},
+                {"name":"mw_id","datatype":"string","titles":"Monier-Williams entry id (Cologne L-number)"},
+                {"name":"apte_id","datatype":"string","titles":"Apte (AP90) entry id (Cologne L-number)"},
+                {"name":"senses","datatype":"string","titles":"Short senses from MW / Apte"},
             ],
         },
     }

@@ -88,6 +88,21 @@
         "name": "attested_forms",
         "datatype": "string",
         "titles": "Top attested forms (form:count)"
+      },
+      {
+        "name": "mw_id",
+        "datatype": "string",
+        "titles": "Monier-Williams entry id (Cologne L-number)"
+      },
+      {
+        "name": "apte_id",
+        "datatype": "string",
+        "titles": "Apte (AP90) entry id (Cologne L-number)"
+      },
+      {
+        "name": "senses",
+        "datatype": "string",
+        "titles": "Short senses from MW / Apte"
       }
     ]
   }
