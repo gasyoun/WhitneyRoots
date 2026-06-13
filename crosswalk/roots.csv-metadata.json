@@ -1,0 +1,73 @@
+{
+  "@context": "http://www.w3.org/ns/csvw",
+  "url": "roots.csv",
+  "dc:title": "Whitney Sanskrit verbal roots — Layer-1 crosswalk hub",
+  "dc:license": {
+    "@id": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "dc:source": "W. D. Whitney, The Roots…, digitised by L. Warnemyr (warnemyr.com/skrgram)",
+  "tableSchema": {
+    "aboutUrl": "https://w3id.org/whitneyroots/root/{whitney_no}",
+    "primaryKey": "whitney_no",
+    "columns": [
+      {
+        "name": "whitney_no",
+        "datatype": "integer",
+        "titles": "Whitney root-sense number"
+      },
+      {
+        "name": "root_iast",
+        "datatype": "string",
+        "titles": "Root (IAST)"
+      },
+      {
+        "name": "root_slp1",
+        "datatype": "string",
+        "titles": "Root (SLP1)"
+      },
+      {
+        "name": "homonym",
+        "datatype": "string",
+        "titles": "Homonym index"
+      },
+      {
+        "name": "class",
+        "datatype": "string",
+        "separator": "|",
+        "titles": "Gaṇa(s), certain"
+      },
+      {
+        "name": "class_uncertain",
+        "datatype": "string",
+        "separator": "|",
+        "titles": "Gaṇa(s), uncertain"
+      },
+      {
+        "name": "gloss_short",
+        "datatype": "string",
+        "titles": "Short gloss"
+      },
+      {
+        "name": "ppp",
+        "datatype": "string",
+        "titles": "Past passive participle"
+      },
+      {
+        "name": "period_tags",
+        "datatype": "string",
+        "separator": "|",
+        "titles": "Diachronic tags"
+      },
+      {
+        "name": "grouped",
+        "datatype": "boolean",
+        "titles": "Shared a warnemyr page"
+      },
+      {
+        "name": "warnemyr_url",
+        "datatype": "string",
+        "titles": "Source page"
+      }
+    ]
+  }
+}
