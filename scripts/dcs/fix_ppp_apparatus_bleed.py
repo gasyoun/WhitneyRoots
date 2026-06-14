@@ -221,19 +221,25 @@ def main():
 
     verify()
 
-    # Audit trail — written every run so it always reflects the canonical mapping.
-    with open(AUDIT, 'w', encoding='utf-8', newline='') as f:
-        json.dump({
-            'description': 'PPP apparatus-bleed cleanup: before/after + stripped apparatus for 39 records.',
-            'source_column': 'Whitney_roots_class-PP.txt',
-            'records': [{'id': c['rid'], 'root': c['label'].split('√')[-1].strip(),
-                         'ppp_before': c['old'], 'ppp_after': c['new'],
-                         'attestation': c.get('att'), 'uncertain': c.get('unc'),
-                         'note': c.get('note'),
-                         'dropped': (['rises (OCR duplicate of "rise")'] if c['rid'] == '649' else [])}
-                        for c in CORRECTIONS],
-        }, f, ensure_ascii=False, indent=2)
-    print(f'\n{changed} record(s) changed. Audit -> {AUDIT.relative_to(ROOT)}')
+    # Audit trail — only (re)written when this pass actually edited records, so a
+    # no-op re-run does not clobber the committed combined audit (which also covers
+    # the second, infinitive pass). Note: 227/472/649 are finalized downstream by
+    # fix_ppp_infinitives.py, so the `ppp_after` below is this pass's intermediate.
+    if changed:
+        with open(AUDIT, 'w', encoding='utf-8', newline='') as f:
+            json.dump({
+                'description': 'PPP apparatus-bleed cleanup (stage 1 of 2): before/after + stripped '
+                               'apparatus for 39 records. Stage 2 = fix_ppp_infinitives.py.',
+                'source_column': 'Whitney_roots_class-PP.txt',
+                'records': [{'id': c['rid'], 'root': c['label'].split('√')[-1].strip(),
+                             'ppp_before': c['old'], 'ppp_after': c['new'],
+                             'attestation': c.get('att'), 'uncertain': c.get('unc'),
+                             'note': c.get('note')}
+                            for c in CORRECTIONS],
+            }, f, ensure_ascii=False, indent=2)
+        print(f'\n{changed} record(s) changed. Audit -> {AUDIT.relative_to(ROOT)}')
+    else:
+        print(f'\n{changed} record(s) changed (audit left as committed combined view).')
 
 
 def verify():
@@ -247,9 +253,16 @@ def verify():
     assert len(data['lexicon']) == 935, f"expected 935 entries, got {len(data['lexicon'])}"
     by_id = {e['id']: e for e in data['lexicon']}
 
+    # 227, 472, 649 are finalized by the second pass fix_ppp_infinitives.py
+    # (datival infinitives moved out of ppp), so THIS stage's exact `new` ppp is
+    # only intermediate for them — assert the apparatus-stripped invariant, not
+    # exact equality, so verify() holds both right after this pass and after the
+    # infinitive pass.
+    PIPELINED = {'227', '472', '649'}
     for c in CORRECTIONS:
         e = by_id[c['rid']]
-        assert e['ppp'] == c['new'], f"id {c['rid']}: ppp {e['ppp']} != {c['new']}"
+        if c['rid'] not in PIPELINED:
+            assert e['ppp'] == c['new'], f"id {c['rid']}: ppp {e['ppp']} != {c['new']}"
         # no apparatus survives in any cleaned ppp string
         for p in e['ppp']:
             for bad in FORBIDDEN:
@@ -265,7 +278,8 @@ def verify():
     assert len(by_id['452']['ppp']) == 2
     assert len(by_id['469']['ppp']) == 3 and len(by_id['470']['ppp']) == 3 and len(by_id['471']['ppp']) == 3
     assert len(by_id['747']['ppp']) == 2
-    assert len(by_id['649']['ppp']) == 2
+    # 649's final ppp length is set by fix_ppp_infinitives.py (rise/rises moved
+    # to `infinitives`), so it is not asserted here.
 
     # the 6 gloss records untouched (no apparatus fields, original ppp)
     for rid, want in GLOSS_UNTOUCHED.items():
