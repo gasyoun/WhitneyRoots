@@ -90,6 +90,26 @@ details.corpus summary { cursor: pointer; color: var(--mut); font-size: 13px; fo
   font-family: var(--mono); font-size: 12px; color: var(--mut); }
 .forms .f b { color: var(--ink); }
 
+details.paradigm { margin-top: 16px; border-top: 1px solid var(--line); padding-top: 12px; }
+details.paradigm summary { cursor: pointer; color: var(--accent2); font-size: 13px; font-family: var(--head); font-weight: 600; }
+.para-blk { margin: 12px 0 6px; padding-top: 4px; }
+.para-blk + .para-blk { border-top: 1px dashed var(--line); padding-top: 12px; }
+.para-head { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+.para-gana { background: rgba(155,123,255,.15); color: var(--accent2);
+  border: 1px solid rgba(155,123,255,.35); border-radius: 6px; padding: 1px 8px; font-size: 12px; font-weight: 600; }
+.para-artha { color: var(--mut); font-size: 13px; font-style: italic; }
+.para-pada { color: var(--dim); font-size: 11px; font-family: var(--mono); }
+.para-unatt { color: var(--warn); font-size: 11px; border: 1px solid rgba(224,164,74,.3); border-radius: 5px; padding: 0 6px; }
+table.para-pres { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse;
+  font-family: var(--mono); font-size: 13px; margin: 0 0 10px; }
+.para-pres th { color: var(--dim); font-weight: 500; font-size: 11px; text-align: left; padding: 1px 12px 3px 0; font-family: var(--ui); }
+.para-pres td { padding: 2px 12px 2px 0; color: var(--ink); overflow-wrap: anywhere; }
+.para-pres td.pn { color: var(--dim); }
+.para-row { display: flex; gap: 10px; font-size: 12px; margin: 3px 0; }
+.para-lab { color: var(--mut); min-width: 96px; flex: none; }
+.para-val { font-family: var(--mono); color: var(--ink); overflow-wrap: anywhere; }
+.para-prov { color: var(--dim); font-size: 11px; margin: 10px 0 0; font-style: italic; }
+
 .degrade { color: var(--warn); font-size: 13px; background: rgba(224,164,74,.08);
   border: 1px solid rgba(224,164,74,.25); border-radius: 8px; padding: 9px 12px; }
 .foot { color: var(--dim); font-size: 12px; padding: 26px 24px 36px; }
