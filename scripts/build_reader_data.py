@@ -40,7 +40,8 @@ for r in spine:
         'class': r.get('class', []), 'unc': r.get('class_uncertain', []),
         'gloss': r.get('gloss_short', ''), 'senses': d.get('senses', []),
         'mw_id': d.get('mw_id'), 'apte_id': d.get('apte_id'),
-        'freq': c.get('dcs_freq'), 'rank': c.get('dcs_rank'), 'ppp': r.get('ppp', ''),
+        'freq': c.get('dcs_freq'), 'freq_sense': c.get('dcs_freq_token'),
+        'rank': c.get('dcs_rank'), 'ppp': r.get('ppp', ''),
         'forms': forms,
         'sections': [{'cat': e['category'], 'label': e['label'], 'lo': e['section_lo'],
                       'hi': e['section_hi'], 'ch': e['chapter'], 'url': e['url']}

@@ -170,8 +170,11 @@ function rootCard(r, no) {
   // Corpus — collapsed
   const det = el('details', 'corpus');
   det.appendChild(el('summary', null, 'Corpus (DCS)'));
-  const freq = (r.freq == null) ? 'not attested as a verb in DCS'
-    : r.freq.toLocaleString() + ' tokens' + (r.rank ? '  ·  rank #' + r.rank : '');
+  let freq;
+  if (r.freq == null) freq = 'not attested as a verb in DCS';
+  else if (r.freq_sense != null)   // per-sense count recovered from DCS lemma_id separation
+    freq = r.freq_sense.toLocaleString() + ' tokens (this sense)  ·  ' + r.freq.toLocaleString() + ' for the lemma';
+  else freq = r.freq.toLocaleString() + ' tokens' + (r.rank ? '  ·  rank #' + r.rank : '');
   det.appendChild(el('div', 'freq', freq));
   if (r.forms && r.forms.length) {
     const fb = el('div', 'forms');

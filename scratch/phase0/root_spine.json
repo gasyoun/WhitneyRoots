@@ -3788,7 +3788,9 @@
      "preverb": "anusam",
      "n": 1
     }
-   ]
+   ],
+   "dcs_freq_token": 35466,
+   "dcs_token_method": "DCS lemma_id → homonym by gaṇa (guard-passed; see token_attribution.json)"
   },
   "dict": {
    "mw_id": "20353",
@@ -4008,7 +4010,9 @@
      "preverb": "anusam",
      "n": 1
     }
-   ]
+   ],
+   "dcs_freq_token": 287,
+   "dcs_token_method": "DCS lemma_id → homonym by gaṇa (guard-passed; see token_attribution.json)"
   },
   "dict": {
    "mw_id": "20354",
@@ -17991,7 +17995,9 @@
      "preverb": "hiṃ",
      "n": 220
     }
-   ]
+   ],
+   "dcs_freq_token": 40588,
+   "dcs_token_method": "DCS lemma_id → homonym by gaṇa (guard-passed; see token_attribution.json)"
   },
   "dict": {
    "mw_id": "54148",
@@ -18397,7 +18403,9 @@
      "preverb": "hiṃ",
      "n": 220
     }
-   ]
+   ],
+   "dcs_freq_token": 211,
+   "dcs_token_method": "DCS lemma_id → homonym by gaṇa (guard-passed; see token_attribution.json)"
   },
   "dict": {
    "apte_id": "11373",
@@ -18717,7 +18725,9 @@
      "preverb": "hiṃ",
      "n": 220
     }
-   ]
+   ],
+   "dcs_freq_token": 0,
+   "dcs_token_method": "DCS lemma_id → homonym by gaṇa (guard-passed; see token_attribution.json)"
   },
   "dict": {
    "apte_id": "11373",
@@ -32311,7 +32321,9 @@
      "preverb": "ava",
      "n": 12
     }
-   ]
+   ],
+   "dcs_freq_token": 1381,
+   "dcs_token_method": "DCS lemma_id → homonym by gaṇa (guard-passed; see token_attribution.json)"
   },
   "dict": {
    "mw_id": "64493",
@@ -32649,7 +32661,9 @@
      "preverb": "ava",
      "n": 12
     }
-   ]
+   ],
+   "dcs_freq_token": 530,
+   "dcs_token_method": "DCS lemma_id → homonym by gaṇa (guard-passed; see token_attribution.json)"
   },
   "dict": {
    "mw_id": "64493",
@@ -54657,7 +54671,9 @@
      "preverb": "ut",
      "n": 2
     }
-   ]
+   ],
+   "dcs_freq_token": 715,
+   "dcs_token_method": "DCS lemma_id → homonym by gaṇa (guard-passed; see token_attribution.json)"
   },
   "dict": {
    "mw_id": "82226",
@@ -54992,7 +55008,9 @@
      "preverb": "ut",
      "n": 2
     }
-   ]
+   ],
+   "dcs_freq_token": 1,
+   "dcs_token_method": "DCS lemma_id → homonym by gaṇa (guard-passed; see token_attribution.json)"
   },
   "dict": {
    "mw_id": "82220",
@@ -118608,7 +118626,9 @@
      "preverb": "ava",
      "n": 1
     }
-   ]
+   ],
+   "dcs_freq_token": 78,
+   "dcs_token_method": "DCS lemma_id → homonym by gaṇa (guard-passed; see token_attribution.json)"
   },
   "dict": {
    "mw_id": "171694",
@@ -118947,7 +118967,9 @@
      "preverb": "ava",
      "n": 1
     }
-   ]
+   ],
+   "dcs_freq_token": 121,
+   "dcs_token_method": "DCS lemma_id → homonym by gaṇa (guard-passed; see token_attribution.json)"
   },
   "dict": {
    "apte_id": "23819",
@@ -123919,7 +123941,9 @@
      "n": 1
     }
    ],
-   "preverbs": []
+   "preverbs": [],
+   "dcs_freq_token": 211,
+   "dcs_token_method": "DCS lemma_id → homonym by gaṇa (guard-passed; see token_attribution.json)"
   },
   "dict": {
    "mw_id": "176008",
@@ -124141,7 +124165,9 @@
      "n": 1
     }
    ],
-   "preverbs": []
+   "preverbs": [],
+   "dcs_freq_token": 3,
+   "dcs_token_method": "DCS lemma_id → homonym by gaṇa (guard-passed; see token_attribution.json)"
   },
   "dict": {
    "mw_id": "176008",
@@ -169745,7 +169771,9 @@
      "preverb": "ava",
      "n": 0
     }
-   ]
+   ],
+   "dcs_freq_token": 61,
+   "dcs_token_method": "DCS lemma_id → homonym by gaṇa (guard-passed; see token_attribution.json)"
   },
   "dict": {
    "mw_id": "244298",
@@ -170123,7 +170151,9 @@
      "preverb": "ava",
      "n": 0
     }
-   ]
+   ],
+   "dcs_freq_token": 1967,
+   "dcs_token_method": "DCS lemma_id → homonym by gaṇa (guard-passed; see token_attribution.json)"
   },
   "dict": {
    "mw_id": "244301",
@@ -184998,7 +185028,9 @@
      "preverb": "abhyava",
      "n": 81
     }
-   ]
+   ],
+   "dcs_freq_token": 0,
+   "dcs_token_method": "DCS lemma_id → homonym by gaṇa (guard-passed; see token_attribution.json)"
   },
   "dict": {
    "senses": []
@@ -188546,7 +188578,9 @@
      "preverb": "abhyava",
      "n": 81
     }
-   ]
+   ],
+   "dcs_freq_token": 2783,
+   "dcs_token_method": "DCS lemma_id → homonym by gaṇa (guard-passed; see token_attribution.json)"
   },
   "dict": {
    "mw_id": "263626",
@@ -188915,7 +188949,9 @@
      "preverb": "abhyava",
      "n": 81
     }
-   ]
+   ],
+   "dcs_freq_token": 9,
+   "dcs_token_method": "DCS lemma_id → homonym by gaṇa (guard-passed; see token_attribution.json)"
   },
   "dict": {
    "mw_id": "263654",
