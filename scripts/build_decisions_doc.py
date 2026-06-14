@@ -23,7 +23,32 @@ grefs  = json.load(open(P('src','grammar_refs.json'), encoding='utf-8'))
 spine  = json.load(open(P('scratch','phase0','root_spine.json'), encoding='utf-8'))
 by_no  = {r['whitney_no']: r for r in spine if 'whitney_no' in r}
 
+ppp_val_p = P('crosswalk', 'ppp_validation.json')
+ppp_val = json.load(open(ppp_val_p, encoding='utf-8')) if os.path.exists(ppp_val_p) else None
+
 URGENT = {'473','578','890'}   # [I,VI]-onto-empty: the collapse the revert predicate can't catch
+
+# The corpus-corroborated PPP "mismatches" from scripts/vidyut_validate_ppp.py — each verified by a
+# 3-verifier Sanskritist panel (wf_0225d753, 2026-06-14, 13/13 unanimous). FINDING: NONE is a warnemyr
+# error. 8 are homonym artifacts (warnemyr records the PPP of the GLOSSED homonym; vidyut/DCS surface
+# the corpus-DOMINANT same-spelled root's PPP because the DCS lemma lumps them) → KEEP warnemyr. 5 are
+# aniṭ/seṭ (or -ta/-na) doublets of one root → editorial, both valid. So `corpus_backs_vidyut` is, on a
+# root with homonyms or a PPP doublet, a homonym/variant detector — NOT a correction signal.
+PPP_NOTES = {   # whitney_no: (kind, warnemyr's form belongs to, the corpus form belongs to)
+    43:  ('homonym', '√iṣ "send" — seṭ (iṣ-i-tá)',           '√iṣ "desire" #42 — aniṭ (iṣ+ta→iṣṭá)'),
+    259: ('homonym', '√ji/jinv "quicken" — seṭ',             '√ji "conquer" #258 — jitá'),
+    350: ('homonym', '√dā "divide/cut" — dyáti-root',        '√dā "give" #349 — dadā́ti-root, datta'),
+    395: ('homonym', '√dhāv "run" — seṭ',                    '√dhāv "wash/cleanse" — aniṭ vṛddhi, dhauta'),
+    572: ('homonym', '√mṛ "crush" #2 — mṛṇáti, mūrṇá',       '√mṛ "die" #1 — mriyáte, mṛtá'),
+    729: ('homonym', '√vid "find/obtain" #729 — vittá',      '√vid "know" #728 — viditá'),
+    773: ('homonym', '√śam "labor/toil" #773 — śamitá',      '√śam "be quiet/cease" #774 — śāntá'),
+    912: ('homonym', '√hā "go forth/move" — hāna',           '√hā "abandon/quit" #911 — jáhāti, hīná'),
+    148: ('variant', 'kṣubdha — aniṭ -ta',                   'kṣubhita — seṭ -ita (one √kṣubh, §956b)'),
+    183: ('variant', 'gupitá — seṭ',                         'gupta — aniṭ (one √gup, §956b)'),
+    197: ('variant', 'grasitá — seṭ',                        'grasta — aniṭ (one √gras)'),
+    455: ('variant', 'piṣṭá — aniṭ (piś+ta→piṣṭa)',          'piśita — seṭ (one √piś "adorn")'),
+    727: ('variant', 'vikta — -ta allomorph (Rigvedic)',     'vigna — -na allomorph (one √vij "tremble")'),
+}
 
 def chapter_set(eid):
     """Whitney grammar chapters (gaṇas) under which this root is actually discussed."""
@@ -144,11 +169,59 @@ out.append('')
 
 # ---- Section 3: PPP + Section 4: unmatched ----
 out.append('---\n')
-out.append('## 3. PPP corrections — one open editorial call\n')
-out.append('Queues B/C are largely applied (see [ppp_source_validation.md](../ppp_source_validation.md)). '
-           'One item raised by code review: ids **349/350/351 (√dā)** now carry `ppp = [data, datta, dātta]` — '
-           'the script added **`dātta`** while canonical **`datta`** was already present. `dātta` (long ā) is a '
-           'non-standard PPP rendering. **Decide:** keep `dātta`, or collapse to canonical `datta`.\n')
+out.append('## 3. PPP validation — vidyut + corpus vs warnemyr\n')
+out.append('`scripts/vidyut_validate_ppp.py` compares vidyut-prakriya\'s generated `kta` against warnemyr\'s '
+           'recorded PPP and the DCS corpus. Where warnemyr **disagrees** and the **corpus backs vidyut**, the '
+           'naive read is "warnemyr is wrong — correct it." **It is not.** A 3-verifier Sanskritist panel '
+           '(13/13 unanimous) found that of the corpus-corroborated mismatches, **none is a warnemyr error**: '
+           'every one is either a **homonym artifact** (warnemyr records the PPP of the *glossed* homonym, while '
+           'vidyut/DCS surface the *corpus-dominant* same-spelled root because the DCS lemma lumps them) or an '
+           '**aniṭ/seṭ doublet** of a single root. So this signal is a homonym/variant detector, **not** a '
+           'correction list. **Do not auto-apply it.**\n')
+
+if ppp_val:
+    corro = [x for x in ppp_val.get('items', []) if x.get('corpus_backs_vidyut')]
+    hom = [x for x in corro if PPP_NOTES.get(x['whitney_no'], ('',))[0] == 'homonym']
+    var = [x for x in corro if PPP_NOTES.get(x['whitney_no'], ('',))[0] == 'variant']
+
+    out.append('### 3a. KEEP warnemyr — corpus reflects a *different* homonym (%d)\n' % len(hom))
+    out.append('warnemyr is **correct** for the glossed sense; the corpus form belongs to a same-spelled root '
+               'the DCS lemma conflates (the √vid know/find, √mṛ die/crush pattern). **Action: do not change** — '
+               'and treat each as positive evidence for the homonym split (cf. `crosswalk/token_attribution.json`).\n')
+    out.append('| # | root | Whitney | gloss | warnemyr PPP ✓ | corpus PPP | warnemyr = | corpus = |')
+    out.append('|--:|---|:-:|---|:-:|:-:|---|---|')
+    for x in sorted(hom, key=lambda z: z['whitney_no']):
+        no = x['whitney_no']; g = (by_no.get(no, {}) or {}).get('gloss_short', '')
+        _, wsrc, ssrc = PPP_NOTES[no]
+        out.append('| %s | %s | %s | %s | `%s` | `%s` | %s | %s |'
+                   % (no, x['root'], '/'.join(x['class']) or '—', g, x['warnemyr_ppp'],
+                      x['dcs_top_ppp'] or ','.join(x['vidyut_ppp']), wsrc, ssrc))
+    out.append('')
+
+    out.append('### 3b. Editorial — legitimate aniṭ/seṭ (or -ta/-na) doublet, one root (%d)\n' % len(var))
+    out.append('Both forms are valid PPPs of the **same** root and sense; warnemyr\'s is not wrong, just the '
+               'alternant the corpus under-represents. **Action: keep warnemyr, or list both** — editorial, '
+               'not a correction.\n')
+    out.append('| # | root | gloss | warnemyr PPP | corpus PPP | both are |')
+    out.append('|--:|---|---|:-:|:-:|---|')
+    for x in sorted(var, key=lambda z: z['whitney_no']):
+        no = x['whitney_no']; g = (by_no.get(no, {}) or {}).get('gloss_short', '')
+        _, wsrc, ssrc = PPP_NOTES[no]
+        out.append('| %s | %s | %s | `%s` | `%s` | %s · %s |'
+                   % (no, x['root'], g, x['warnemyr_ppp'], x['dcs_top_ppp'] or ','.join(x['vidyut_ppp']), wsrc, ssrc))
+    out.append('')
+    cc = ppp_val['_meta'].get('counts', {})
+    out.append('_Full validator output (%d match · %d mismatch · %d corpus-corroborated, all dispositioned above): '
+               '`crosswalk/ppp_validation.json`. The remaining non-corroborated mismatches are warnemyr-only '
+               'variants the corpus does not weigh in on._\n'
+               % (cc.get('match', 0), cc.get('mismatch', 0), len(corro)))
+else:
+    out.append('_`crosswalk/ppp_validation.json` not present — run `python scripts/vidyut_validate_ppp.py`._\n')
+
+out.append('### 3c. Open editorial call — √dā `dātta`\n')
+out.append('Ids **349/350/351 (√dā)** carry `ppp = [data, datta, dātta]` — the script added **`dātta`** while '
+           'canonical **`datta`** was already present. `dātta` (long ā) is a non-standard PPP rendering. '
+           '**Decide:** keep `dātta`, or collapse to canonical `datta`.\n')
 out.append('---\n')
 out.append('## 4. Alias-resolution debt — 9 warnemyr pages unmatched to Whitney numbering\n')
 out.append('Vowel-length / bracketed-gloss cases from Phase 0 (see `crosswalk/_unmatched.csv`): '

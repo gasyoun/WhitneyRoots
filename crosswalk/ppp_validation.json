@@ -2,7 +2,7 @@
  "_meta": {
   "what": "vidyut-prakriya PPP (kta) form-validation against warnemyr + DCS. Advisory.",
   "generated_by": "vidyut-prakriya; compares spine.ppp & corpus.attested_ppp vs generated kta",
-  "note": "Feeds REVIEWER_GUIDE Queue B (suspicious) + Queue C (malformed). Never edits the spine.",
+  "note": "Advisory; never edits the spine. corpus_backs_vidyut is a HOMONYM/VARIANT detector, NOT a correction signal — all 13 such cases are warnemyr-correct (panel-verified); see docs/DECISIONS_NEEDED.md §3.",
   "counts": {
    "match": 305,
    "mismatch": 33,
