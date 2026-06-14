@@ -10,16 +10,20 @@ take vidyut's canonical past-passive-participle (kta) and cross-check it against
 Verdicts:
   match           warnemyr PPP is among vidyut's generated kta stems (or no warnemyr PPP but the
                   DCS top PPP stem matches vidyut) — the recorded form is Pāṇinianly sound.
-  mismatch        warnemyr records a PPP and it is NOT among vidyut's kta stems → a candidate error.
-                  These feed REVIEWER_GUIDE Queue B (12 suspicious high-freq PPP) and Queue C (76
-                  malformed PPP): e.g. a warnemyr `ghata` for √han where vidyut gives `hata`.
+  mismatch        warnemyr records a PPP and it is NOT among vidyut's kta stems → flagged for REVIEW
+                  (NOT auto-correction — see the corroboration caveat below).
   fill_candidate  warnemyr has no PPP, AND the DCS corpus's top PPP MATCHES vidyut's kta → corpus-backed
                   safe add (genuinely corroborated; this is the only "fill" we vouch for).
   vidyut_only     warnemyr has no PPP, and the corpus's top PPP does NOT match vidyut's kta → vidyut has
                   a form but neither warnemyr nor the corpus's commonest PPP confirms it (don't auto-add).
 
-A mismatch is corroborated when the DCS corpus's attested PPP agrees with vidyut and disagrees with
-warnemyr (real-world usage backs the Pāṇinian form).  Writes crosswalk/ppp_validation.json (UTF-8, no BOM).
+A mismatch is `corpus_backs_vidyut` when the DCS corpus's attested PPP agrees with vidyut and disagrees
+with warnemyr.  ⚠️ This is NOT a "warnemyr is wrong" signal.  A 3-verifier Sanskritist panel (2026-06-14,
+13/13 unanimous) found that ALL 13 corpus-corroborated mismatches are either a HOMONYM ARTIFACT (warnemyr
+records the PPP of the glossed homonym, e.g. √mṛ "crush"→mūrṇá, √vid "find"→vittá; the corpus surfaces the
+lumped dominant root's PPP, mṛta/vidita) or an aniṭ/seṭ DOUBLET of one root (kṣubdha/kṣubhita) — none is a
+warnemyr error.  Treat corroborated mismatches as a HOMONYM/VARIANT detector, dispositioned in
+docs/DECISIONS_NEEDED.md §3, NOT a correction list.  Writes crosswalk/ppp_validation.json (UTF-8, no BOM).
 """
 import sys, os, json
 sys.stdout.reconfigure(encoding='utf-8')
@@ -85,7 +89,9 @@ def main():
     payload = {
         '_meta': {'what': 'vidyut-prakriya PPP (kta) form-validation against warnemyr + DCS. Advisory.',
                   'generated_by': 'vidyut-prakriya; compares spine.ppp & corpus.attested_ppp vs generated kta',
-                  'note': 'Feeds REVIEWER_GUIDE Queue B (suspicious) + Queue C (malformed). Never edits the spine.',
+                  'note': 'Advisory; never edits the spine. corpus_backs_vidyut is a HOMONYM/VARIANT detector, '
+                          'NOT a correction signal — all 13 such cases are warnemyr-correct (panel-verified); '
+                          'see docs/DECISIONS_NEEDED.md §3.',
                   'counts': counts, 'roots_checked': len(items)},
         'items': items}
     json.dump(payload, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
