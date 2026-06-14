@@ -95,7 +95,10 @@
         "I"
       ],
       "ppp": [
-        "ajita ?"
+        "ajita"
+      ],
+      "ppp_uncertain": [
+        "ajita"
       ],
       "grammar_ref": {
         "sections": [
@@ -1890,8 +1893,11 @@
         "VII"
       ],
       "ppp": [
-        "ardita ="
+        "ardita"
       ],
+      "ppp_note": {
+        "ardita": "= (cross-ref target unrecovered)"
+      },
       "grammar_ref": {
         "sections": [
           "§734",
@@ -2281,8 +2287,13 @@
         "IV"
       ],
       "ppp": [
-        "kupita RV1"
+        "kupita"
       ],
+      "ppp_attestation": {
+        "kupita": [
+          "RV1"
+        ]
+      },
       "grammar_ref": {
         "sections": [
           "§761a"
@@ -2995,7 +3006,10 @@
         "IV"
       ],
       "ppp": [
-        "ksana ?"
+        "ksana"
+      ],
+      "ppp_uncertain": [
+        "ksana"
       ],
       "grammar_ref": {
         "sections": [
@@ -3502,8 +3516,13 @@
       "meaning": "attach",
       "classes": [],
       "ppp": [
-        "gadhita RV2"
+        "gadhita"
       ],
+      "ppp_attestation": {
+        "gadhita": [
+          "RV2"
+        ]
+      },
       "grammar_ref": null
     },
     {
@@ -4535,8 +4554,11 @@
       ],
       "ppp": [
         "citta",
-        "cite ?",
+        "cite",
         "citaye"
+      ],
+      "ppp_uncertain": [
+        "cite"
       ],
       "grammar_ref": {
         "sections": [
@@ -5911,8 +5933,13 @@
         "IV"
       ],
       "ppp": [
-        "timita R"
+        "timita"
       ],
+      "ppp_attestation": {
+        "timita": [
+          "R"
+        ]
+      },
       "grammar_ref": {
         "sections": [
           "§761"
@@ -6198,8 +6225,14 @@
       ],
       "ppp": [
         "trsita",
-        "trsta ? adj"
+        "trsta"
       ],
+      "ppp_uncertain": [
+        "trsta"
+      ],
+      "ppp_note": {
+        "trsta": "adj (adjectival usage)"
+      },
       "grammar_ref": {
         "sections": [
           "§761"
@@ -6274,8 +6307,13 @@
       ],
       "ppp": [
         "trasta",
-        "trasas K"
+        "trasas"
       ],
+      "ppp_attestation": {
+        "trasas": [
+          "K"
+        ]
+      },
       "grammar_ref": {
         "sections": [
           "§734",
@@ -6376,7 +6414,8 @@
       ],
       "ppp": [
         "tvarita",
-        "turta & turna"
+        "turta",
+        "turna"
       ],
       "grammar_ref": {
         "sections": [
@@ -6558,8 +6597,13 @@
         "IV"
       ],
       "ppp": [
-        "danta 1"
+        "danta"
       ],
+      "ppp_attestation": {
+        "danta": [
+          "1"
+        ]
+      },
       "grammar_ref": {
         "sections": [
           "§763",
@@ -7003,7 +7047,16 @@
       ],
       "ppp": [
         "duna",
-        "duta AA. ? C1"
+        "duta"
+      ],
+      "ppp_attestation": {
+        "duta": [
+          "AA",
+          "C1"
+        ]
+      },
+      "ppp_uncertain": [
+        "duta"
       ],
       "grammar_ref": {
         "sections": [
@@ -7111,8 +7164,13 @@
       ],
       "ppp": [
         "dirna",
-        "drta R"
+        "drta"
       ],
+      "ppp_attestation": {
+        "drta": [
+          "R"
+        ]
+      },
       "grammar_ref": {
         "sections": [
           "§773",
@@ -7136,8 +7194,13 @@
       ],
       "ppp": [
         "dirna",
-        "drta R"
+        "drta"
       ],
+      "ppp_attestation": {
+        "drta": [
+          "R"
+        ]
+      },
       "grammar_ref": {
         "sections": [
           "§773",
@@ -8641,8 +8704,14 @@
         "V"
       ],
       "ppp": [
-        "pina 1 & pipivas"
+        "pina",
+        "pipivas"
       ],
+      "ppp_attestation": {
+        "pina": [
+          "1"
+        ]
+      },
       "grammar_ref": {
         "sections": [
           "§734",
@@ -8928,8 +8997,14 @@
       ],
       "ppp": [
         "purna",
-        "prta S1. purita"
+        "prta",
+        "purita"
       ],
+      "ppp_attestation": {
+        "prta": [
+          "S1"
+        ]
+      },
       "grammar_ref": {
         "sections": [
           "§773",
@@ -8959,8 +9034,14 @@
       ],
       "ppp": [
         "purna",
-        "prta S1. purita"
+        "prta",
+        "purita"
       ],
+      "ppp_attestation": {
+        "prta": [
+          "S1"
+        ]
+      },
       "grammar_ref": {
         "sections": [
           "§773",
@@ -8990,8 +9071,14 @@
       ],
       "ppp": [
         "purna",
-        "prta S1. purita"
+        "prta",
+        "purita"
       ],
+      "ppp_attestation": {
+        "prta": [
+          "S1"
+        ]
+      },
       "grammar_ref": {
         "sections": [
           "§773",
@@ -9019,8 +9106,16 @@
       ],
       "ppp": [
         "prkta",
-        "prgna ? RV1",
+        "prgna",
         "prce"
+      ],
+      "ppp_attestation": {
+        "prgna": [
+          "RV1"
+        ]
+      },
+      "ppp_uncertain": [
+        "prgna"
       ],
       "grammar_ref": {
         "sections": [
@@ -9895,8 +9990,13 @@
         "VI"
       ],
       "ppp": [
-        "bhugna 1"
+        "bhugna"
       ],
+      "ppp_attestation": {
+        "bhugna": [
+          "1"
+        ]
+      },
       "grammar_ref": {
         "sections": [
           "§751"
@@ -9913,8 +10013,13 @@
         "VI"
       ],
       "ppp": [
-        "bhugna 1"
+        "bhugna"
       ],
+      "ppp_attestation": {
+        "bhugna": [
+          "1"
+        ]
+      },
       "grammar_ref": {
         "sections": [
           "§751"
@@ -10860,8 +10965,11 @@
         "VI"
       ],
       "ppp": [
-        "mraksita = seq. abhi"
+        "mraksita"
       ],
+      "ppp_note": {
+        "mraksita": "= seq. abhi (cf. abhi-mṛkṣ)"
+      },
       "grammar_ref": {
         "sections": [
           "§734",
@@ -10997,8 +11105,13 @@
         "VI"
       ],
       "ppp": [
-        "mrddha 1"
+        "mrddha"
       ],
+      "ppp_attestation": {
+        "mrddha": [
+          "1"
+        ]
+      },
       "grammar_ref": {
         "sections": [
           "§734",
@@ -11883,8 +11996,13 @@
       "meaning": "straighten",
       "classes": [],
       "ppp": [
-        "rasita 1"
+        "rasita"
       ],
+      "ppp_attestation": {
+        "rasita": [
+          "1"
+        ]
+      },
       "grammar_ref": null
     },
     {
@@ -11896,8 +12014,13 @@
         "I"
       ],
       "ppp": [
-        "rasita 1"
+        "rasita"
       ],
+      "ppp_attestation": {
+        "rasita": [
+          "1"
+        ]
+      },
       "grammar_ref": {
         "sections": [
           "§1054a",
@@ -12193,7 +12316,7 @@
       ],
       "ppp": [
         "rista",
-        "rise rises"
+        "rise"
       ],
       "grammar_ref": {
         "sections": [
@@ -12538,7 +12661,15 @@
         "I"
       ],
       "ppp": [
-        "lagna B1.?"
+        "lagna"
+      ],
+      "ppp_attestation": {
+        "lagna": [
+          "B1"
+        ]
+      },
+      "ppp_uncertain": [
+        "lagna"
       ],
       "grammar_ref": {
         "sections": [
@@ -13222,8 +13353,13 @@
         "VIII"
       ],
       "ppp": [
-        "vata 1"
+        "vata"
       ],
+      "ppp_attestation": {
+        "vata": [
+          "1"
+        ]
+      },
       "grammar_ref": {
         "sections": [
           "§700d",
@@ -13261,9 +13397,17 @@
       ],
       "ppp": [
         "upta",
-        "upita E1",
-        "vapta E1"
+        "upita",
+        "vapta"
       ],
+      "ppp_attestation": {
+        "upita": [
+          "E1"
+        ],
+        "vapta": [
+          "E1"
+        ]
+      },
       "grammar_ref": {
         "sections": [
           "§734"
@@ -13281,9 +13425,17 @@
       ],
       "ppp": [
         "upta",
-        "upita E1",
-        "vapta E1"
+        "upita",
+        "vapta"
       ],
+      "ppp_attestation": {
+        "upita": [
+          "E1"
+        ],
+        "vapta": [
+          "E1"
+        ]
+      },
       "grammar_ref": {
         "sections": [
           "§734"
@@ -13478,7 +13630,15 @@
       ],
       "ppp": [
         "udha",
-        "vodha ? E1"
+        "vodha"
+      ],
+      "ppp_attestation": {
+        "vodha": [
+          "E1"
+        ]
+      },
+      "ppp_uncertain": [
+        "vodha"
       ],
       "grammar_ref": {
         "sections": [
@@ -13871,8 +14031,13 @@
         "II"
       ],
       "ppp": [
-        "vita 1"
+        "vita"
       ],
+      "ppp_attestation": {
+        "vita": [
+          "1"
+        ]
+      },
       "grammar_ref": {
         "sections": [
           "§611"
@@ -14058,7 +14223,8 @@
         "VI"
       ],
       "ppp": [
-        "vrdha brdha"
+        "vrdha",
+        "brdha"
       ],
       "grammar_ref": {
         "sections": [
@@ -14804,7 +14970,10 @@
         "IV"
       ],
       "ppp": [
-        "sukta ?"
+        "sukta"
+      ],
+      "ppp_uncertain": [
+        "sukta"
       ],
       "grammar_ref": {
         "sections": [
@@ -14933,7 +15102,15 @@
       "ppp": [
         "sirna",
         "sirta",
-        "surta ? RV1"
+        "surta"
+      ],
+      "ppp_attestation": {
+        "surta": [
+          "RV1"
+        ]
+      },
+      "ppp_uncertain": [
+        "surta"
       ],
       "grammar_ref": {
         "sections": [
@@ -14958,7 +15135,15 @@
       "ppp": [
         "sirna",
         "sirta",
-        "surta ? RV1"
+        "surta"
+      ],
+      "ppp_attestation": {
+        "surta": [
+          "RV1"
+        ]
+      },
+      "ppp_uncertain": [
+        "surta"
       ],
       "grammar_ref": {
         "sections": [
@@ -14983,7 +15168,15 @@
       "ppp": [
         "sirna",
         "sirta",
-        "surta ? RV1"
+        "surta"
+      ],
+      "ppp_attestation": {
+        "surta": [
+          "RV1"
+        ]
+      },
+      "ppp_uncertain": [
+        "surta"
       ],
       "grammar_ref": {
         "sections": [
@@ -16423,7 +16616,10 @@
         "II"
       ],
       "ppp": [
-        "snuta ?"
+        "snuta"
+      ],
+      "ppp_uncertain": [
+        "snuta"
       ],
       "grammar_ref": {
         "sections": [
@@ -16645,8 +16841,13 @@
       ],
       "ppp": [
         "sphurita",
-        "sphulita C1"
+        "sphulita"
       ],
+      "ppp_attestation": {
+        "sphulita": [
+          "C1"
+        ]
+      },
       "grammar_ref": {
         "sections": [
           "§751"
