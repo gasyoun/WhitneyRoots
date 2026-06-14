@@ -535,6 +535,77 @@ footer {
   padding: 12px;
 }
 
+/* vidyut-prakriya generated paradigm */
+.para-section {
+  border-top: 1px solid var(--border-color);
+  padding-top: 8px;
+}
+.para-foot {
+  font-size: 0.74rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin: 0 0 14px;
+}
+.para-block {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+}
+.para-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.para-gana {
+  background: rgba(129, 140, 248, 0.15);
+  color: #a5b4fc;
+  border: 1px solid rgba(129, 140, 248, 0.35);
+  border-radius: 6px;
+  padding: 1px 9px;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+.para-artha { color: var(--text-secondary); font-size: 0.85rem; font-style: italic; }
+.para-pada { color: var(--text-secondary); font-size: 0.72rem; }
+.para-unatt {
+  color: #fbbf24;
+  font-size: 0.7rem;
+  border: 1px solid rgba(251, 191, 36, 0.35);
+  border-radius: 5px;
+  padding: 0 6px;
+}
+table.para-pres {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin: 0 0 10px;
+}
+.para-pres th {
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-size: 0.7rem;
+  text-align: left;
+  padding: 1px 14px 4px 0;
+}
+.para-pres td { padding: 2px 14px 2px 0; color: var(--text-primary); overflow-wrap: anywhere; }
+.para-pres td.para-pn { color: var(--text-secondary); }
+.para-sub {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+  margin: 10px 0 5px;
+}
+.para-row { display: flex; gap: 10px; font-size: 0.85rem; margin: 3px 0; }
+.para-lab { color: var(--text-secondary); min-width: 120px; flex: none; }
+.para-val { color: var(--text-primary); overflow-wrap: anywhere; }
+
 /* Participle form-lookup results */
 .participle-lookup {
   margin-bottom: 22px;

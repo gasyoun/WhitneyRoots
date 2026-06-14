@@ -7,10 +7,11 @@ import { updateState } from './state.js';
 
 export async function loadAppData() {
   try {
-    const [appResp, freqResp, pidxResp] = await Promise.all([
+    const [appResp, freqResp, pidxResp, paraResp] = await Promise.all([
       fetch('src/app_data.json'),
       fetch('src/dcs_freq.json').catch(() => null),
-      fetch('src/participle_index.json').catch(() => null)
+      fetch('src/participle_index.json').catch(() => null),
+      fetch('src/paradigms.json').catch(() => null)
     ]);
     const data = await appResp.json();
     const migrated = migrateAppDataSchema(data);
@@ -36,6 +37,16 @@ export async function loadAppData() {
       }
     }
 
+    // Optional vidyut-prakriya generated paradigms (sidecar; app works without it)
+    if (paraResp && paraResp.ok) {
+      try {
+        const para = await paraResp.json();
+        mergeParadigms(migrated, para);
+      } catch (e) {
+        console.warn('Paradigm sidecar present but unreadable:', e);
+      }
+    }
+
     updateState({ data: migrated, isLoading: false });
   } catch (error) {
     console.error('Failed to load app data:', error);
@@ -49,6 +60,16 @@ export function mergeDcsFreq(data, freq) {
   data.lexicon.forEach(item => {
     const d = freq.entries[item.id];
     if (d) item.dcs = d;
+  });
+  return data;
+}
+
+export function mergeParadigms(data, para) {
+  if (!para || !para.roots) return data;
+  data.paradigmMeta = para._meta || null;
+  data.lexicon.forEach(item => {
+    const p = para.roots[item.id];
+    if (p) item.paradigm = p;   // { root, whitney_class, paradigms: [...] }
   });
   return data;
 }
