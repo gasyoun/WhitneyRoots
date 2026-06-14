@@ -6,3 +6,9 @@
 1885/
 scratch/phase0/wn_cache/
 scratch/wikisource/
+scratch/vidyut_data/
+scratch/ndswsmp/
+
+# python bytecode
+__pycache__/
+*.pyc

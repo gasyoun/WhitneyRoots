@@ -1,0 +1,5675 @@
+{
+ "_meta": {
+  "what": "vidyut-prakriya PPP (kta) form-validation against warnemyr + DCS. Advisory.",
+  "generated_by": "vidyut-prakriya; compares spine.ppp & corpus.attested_ppp vs generated kta",
+  "note": "Feeds REVIEWER_GUIDE Queue B (suspicious) + Queue C (malformed). Never edits the spine.",
+  "counts": {
+   "match": 305,
+   "mismatch": 33,
+   "fill_candidate": 32,
+   "vidyut_only": 14
+  },
+  "roots_checked": 384
+ },
+ "items": [
+  {
+   "whitney_no": 43,
+   "root": "iṣ",
+   "class": [
+    "IV",
+    "VI",
+    "IX"
+   ],
+   "warnemyr_ppp": "iṣitá",
+   "vidyut_ppp": [
+    "iṣṭa"
+   ],
+   "dcs_top_ppp": "iṣṭa",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": true
+  },
+  {
+   "whitney_no": 148,
+   "root": "kṣubh",
+   "class": [
+    "I",
+    "IV",
+    "V",
+    "IX"
+   ],
+   "warnemyr_ppp": "kṣubdha",
+   "vidyut_ppp": [
+    "kṣubhita"
+   ],
+   "dcs_top_ppp": "kṣubhita",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": true
+  },
+  {
+   "whitney_no": 183,
+   "root": "gup",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "gupitá",
+   "vidyut_ppp": [
+    "gopāyita",
+    "gupta"
+   ],
+   "dcs_top_ppp": "gupta",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": true
+  },
+  {
+   "whitney_no": 197,
+   "root": "gras",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "grasitá",
+   "vidyut_ppp": [
+    "grasta"
+   ],
+   "dcs_top_ppp": "grasta",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": true
+  },
+  {
+   "whitney_no": 259,
+   "root": "ji",
+   "class": [
+    "I",
+    "V"
+   ],
+   "warnemyr_ppp": "jinvitá",
+   "vidyut_ppp": [
+    "jita"
+   ],
+   "dcs_top_ppp": "jita",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": true
+  },
+  {
+   "whitney_no": 350,
+   "root": "dā",
+   "class": [
+    "I",
+    "VI"
+   ],
+   "warnemyr_ppp": "diná",
+   "vidyut_ppp": [
+    "datta"
+   ],
+   "dcs_top_ppp": "datta",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": true
+  },
+  {
+   "whitney_no": 395,
+   "root": "dhāv",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "dhāvita",
+   "vidyut_ppp": [
+    "dhauta"
+   ],
+   "dcs_top_ppp": "dhauta",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": true
+  },
+  {
+   "whitney_no": 455,
+   "root": "piś",
+   "class": [
+    "VI"
+   ],
+   "warnemyr_ppp": "piṣṭá",
+   "vidyut_ppp": [
+    "piśita"
+   ],
+   "dcs_top_ppp": "piśita",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": true
+  },
+  {
+   "whitney_no": 572,
+   "root": "mṛ",
+   "class": [
+    "VI",
+    "IX"
+   ],
+   "warnemyr_ppp": "mūrṇá",
+   "vidyut_ppp": [
+    "mṛta"
+   ],
+   "dcs_top_ppp": "mṛta",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": true
+  },
+  {
+   "whitney_no": 727,
+   "root": "vij",
+   "class": [
+    "I",
+    "VI"
+   ],
+   "warnemyr_ppp": "vikta",
+   "vidyut_ppp": [
+    "vigna"
+   ],
+   "dcs_top_ppp": "vigna",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": true
+  },
+  {
+   "whitney_no": 729,
+   "root": "vid",
+   "class": [
+    "II",
+    "VI"
+   ],
+   "warnemyr_ppp": "vittá",
+   "vidyut_ppp": [
+    "vidita"
+   ],
+   "dcs_top_ppp": "vidita",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": true
+  },
+  {
+   "whitney_no": 773,
+   "root": "śam",
+   "class": [
+    "I",
+    "II",
+    "IV",
+    "IX"
+   ],
+   "warnemyr_ppp": "śamitá",
+   "vidyut_ppp": [
+    "śānta"
+   ],
+   "dcs_top_ppp": "śānta",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": true
+  },
+  {
+   "whitney_no": 912,
+   "root": "hā",
+   "class": [
+    "III"
+   ],
+   "warnemyr_ppp": "hāna",
+   "vidyut_ppp": [
+    "hīna"
+   ],
+   "dcs_top_ppp": "hīna",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": true
+  },
+  {
+   "whitney_no": 65,
+   "root": "uṣ",
+   "class": [
+    "I",
+    "IX"
+   ],
+   "warnemyr_ppp": "uṣṭa",
+   "vidyut_ppp": [
+    "uṣita"
+   ],
+   "dcs_top_ppp": "uṣṭa",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 67,
+   "root": "ūh",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "ūḍha",
+   "vidyut_ppp": [
+    "ūhita"
+   ],
+   "dcs_top_ppp": "ūhitava",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 112,
+   "root": "kṛś",
+   "class": [
+    "IV"
+   ],
+   "warnemyr_ppp": "kṛśita",
+   "vidyut_ppp": [
+    "kṛśa"
+   ],
+   "dcs_top_ppp": "kṛśita",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 270,
+   "root": "jyā",
+   "class": [
+    "IV",
+    "IX"
+   ],
+   "warnemyr_ppp": "jītá",
+   "vidyut_ppp": [
+    "jīna"
+   ],
+   "dcs_top_ppp": "jīta",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 322,
+   "root": "tṛṣ",
+   "class": [
+    "IV"
+   ],
+   "warnemyr_ppp": "tṛṣitá",
+   "vidyut_ppp": [
+    "tṛṣṭa"
+   ],
+   "dcs_top_ppp": "tātṛṣāṇa",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 323,
+   "root": "tṛh",
+   "class": [
+    "VI",
+    "VII"
+   ],
+   "warnemyr_ppp": "tṛḍhá",
+   "vidyut_ppp": [
+    "tṛhita"
+   ],
+   "dcs_top_ppp": "tṛﾱha",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 365,
+   "root": "du",
+   "class": [
+    "V"
+   ],
+   "warnemyr_ppp": "dūná",
+   "vidyut_ppp": [
+    "duta"
+   ],
+   "dcs_top_ppp": "dūna",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 376,
+   "root": "dṛh",
+   "class": [
+    "I",
+    "IV",
+    "VI"
+   ],
+   "warnemyr_ppp": "dṛḍhá",
+   "vidyut_ppp": [
+    "dṛnhita"
+   ],
+   "dcs_top_ppp": "dṛḍha",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 379,
+   "root": "dyut",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "dyuttá",
+   "vidyut_ppp": [
+    "dyutita"
+   ],
+   "dcs_top_ppp": "dyutāna",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 409,
+   "root": "dhvṛ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "dhūrta",
+   "vidyut_ppp": [
+    "dhvṛta"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 515,
+   "root": "bhas",
+   "class": [
+    "III"
+   ],
+   "warnemyr_ppp": "bhasita",
+   "vidyut_ppp": [
+    "psita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 544,
+   "root": "math",
+   "class": [
+    "I",
+    "IX"
+   ],
+   "warnemyr_ppp": "mathitá",
+   "vidyut_ppp": [
+    "manthita"
+   ],
+   "dcs_top_ppp": "mathita",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 548,
+   "root": "mā",
+   "class": [
+    "II",
+    "III",
+    "IV"
+   ],
+   "warnemyr_ppp": "mitá",
+   "vidyut_ppp": [
+    "mīta"
+   ],
+   "dcs_top_ppp": "mita",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 561,
+   "root": "mī",
+   "class": [
+    "III",
+    "IV",
+    "V",
+    "IX"
+   ],
+   "warnemyr_ppp": "mīta",
+   "vidyut_ppp": [
+    "mīna"
+   ],
+   "dcs_top_ppp": "mīta",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 668,
+   "root": "lag",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "lagna",
+   "vidyut_ppp": [
+    "lagita"
+   ],
+   "dcs_top_ppp": "lagna",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 715,
+   "root": "vas",
+   "class": [
+    "II",
+    "VI"
+   ],
+   "warnemyr_ppp": "uṣṭá",
+   "vidyut_ppp": [
+    "vasita"
+   ],
+   "dcs_top_ppp": "uṣita",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 790,
+   "root": "śuc",
+   "class": [
+    "I",
+    "II",
+    "IV"
+   ],
+   "warnemyr_ppp": "śuktá",
+   "vidyut_ppp": [
+    "śucita"
+   ],
+   "dcs_top_ppp": "śukta",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 822,
+   "root": "śvas",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "śvasita",
+   "vidyut_ppp": [
+    "śvasta"
+   ],
+   "dcs_top_ppp": "śvasita",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 930,
+   "root": "hras",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "hrasta",
+   "vidyut_ppp": [
+    "hrasita"
+   ],
+   "dcs_top_ppp": "hrasta",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 935,
+   "root": "hlād",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "hlanna",
+   "vidyut_ppp": [
+    "hlānna"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "mismatch",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 18,
+   "root": "arh",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "arhita"
+   ],
+   "dcs_top_ppp": "arhita",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 77,
+   "root": "ṛṣ",
+   "class": [
+    "I",
+    "VI"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "ṛṣṭa"
+   ],
+   "dcs_top_ppp": "ṛṣṭa",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 110,
+   "root": "kṛt",
+   "class": [
+    "VII"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "kṛtta"
+   ],
+   "dcs_top_ppp": "kṛtta",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 132,
+   "root": "kvaṇ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "kvanita"
+   ],
+   "dcs_top_ppp": "kvaṇita",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 133,
+   "root": "kvath",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "kvathita"
+   ],
+   "dcs_top_ppp": "kvathita",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 135,
+   "root": "kṣan",
+   "class": [
+    "VIII"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "kṣata"
+   ],
+   "dcs_top_ppp": "kṣata",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 161,
+   "root": "khād",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "khādita"
+   ],
+   "dcs_top_ppp": "khādita",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 171,
+   "root": "garj",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "garjita"
+   ],
+   "dcs_top_ppp": "garjita",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 176,
+   "root": "gā",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "gīta"
+   ],
+   "dcs_top_ppp": "gīta",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 273,
+   "root": "jvar",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "jvarita"
+   ],
+   "dcs_top_ppp": "jvarita",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 328,
+   "root": "truṭ",
+   "class": [
+    "IV",
+    "VI"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "truṭita"
+   ],
+   "dcs_top_ppp": "truṭita",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 332,
+   "root": "tvar",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "tvarita",
+    "tūrna"
+   ],
+   "dcs_top_ppp": "tvarita",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 343,
+   "root": "dam",
+   "class": [
+    "IV"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "dānta"
+   ],
+   "dcs_top_ppp": "dānta",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 346,
+   "root": "dal",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "dalita"
+   ],
+   "dcs_top_ppp": "dalita",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 347,
+   "root": "das",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "dasta"
+   ],
+   "dcs_top_ppp": "dasta",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 349,
+   "root": "dā",
+   "class": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "warnemyr_ppp": "-",
+   "vidyut_ppp": [
+    "datta"
+   ],
+   "dcs_top_ppp": "datta",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 373,
+   "root": "dṛp",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "dṛpta"
+   ],
+   "dcs_top_ppp": "dṛpta",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 374,
+   "root": "dṛbh",
+   "class": [
+    "I",
+    "VI"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "dṛbdha"
+   ],
+   "dcs_top_ppp": "dṛbdha",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 407,
+   "root": "dhvaṃs",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "dhvasta"
+   ],
+   "dcs_top_ppp": "dhvasta",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 464,
+   "root": "puṣ",
+   "class": [
+    "I",
+    "IV",
+    "IX"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "puṣita",
+    "puṣṭa"
+   ],
+   "dcs_top_ppp": "puṣṭa",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 483,
+   "root": "pruṣ",
+   "class": [
+    "IV",
+    "V",
+    "VI",
+    "IX"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "pruṣita"
+   ],
+   "dcs_top_ppp": "pruṣita",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 487,
+   "root": "psā",
+   "class": [
+    "II"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "psāta"
+   ],
+   "dcs_top_ppp": "psāta",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 580,
+   "root": "mṛdh",
+   "class": [
+    "I",
+    "VI"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "mṛddha"
+   ],
+   "dcs_top_ppp": "mṛddha",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 633,
+   "root": "ras",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "rasita"
+   ],
+   "dcs_top_ppp": "rasita",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 637,
+   "root": "rāj",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "rājita"
+   ],
+   "dcs_top_ppp": "rājita",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 678,
+   "root": "las",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "lasita"
+   ],
+   "dcs_top_ppp": "lasita",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 690,
+   "root": "luḍ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "luḍita"
+   ],
+   "dcs_top_ppp": "luḍita",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 712,
+   "root": "valg",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "valgita"
+   ],
+   "dcs_top_ppp": "valgita",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 737,
+   "root": "vī",
+   "class": [
+    "II"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "vīta"
+   ],
+   "dcs_top_ppp": "vīta",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 753,
+   "root": "vyath",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "vyathita"
+   ],
+   "dcs_top_ppp": "vyathita",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 861,
+   "root": "skhal",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "skhalita"
+   ],
+   "dcs_top_ppp": "skhalita",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 881,
+   "root": "spṛ",
+   "class": [
+    "V",
+    "IX"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "spṛta"
+   ],
+   "dcs_top_ppp": "spṛta",
+   "verdict": "fill_candidate",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 11,
+   "root": "ad",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "jagddha",
+    "jagdha"
+   ],
+   "dcs_top_ppp": "attaṃ",
+   "verdict": "vidyut_only",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 20,
+   "root": "aś",
+   "class": [
+    "V"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "aṣṭa"
+   ],
+   "dcs_top_ppp": "aśita",
+   "verdict": "vidyut_only",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 22,
+   "root": "as",
+   "class": [
+    "II"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "bhūta"
+   ],
+   "dcs_top_ppp": "asta",
+   "verdict": "vidyut_only",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 68,
+   "root": "ūh",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "ūhita"
+   ],
+   "dcs_top_ppp": "ūhitava",
+   "verdict": "vidyut_only",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 141,
+   "root": "kṣi",
+   "class": [
+    "I",
+    "II",
+    "VI"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "kṣita"
+   ],
+   "dcs_top_ppp": "kṣīṇa",
+   "verdict": "vidyut_only",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 311,
+   "root": "tuj",
+   "class": [
+    "I",
+    "VI",
+    "VII"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "tunjita"
+   ],
+   "dcs_top_ppp": "tūtujāna",
+   "verdict": "vidyut_only",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 353,
+   "root": "dāś",
+   "class": [
+    "I",
+    "II",
+    "V"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "dāśita"
+   ],
+   "dcs_top_ppp": "dāśuṣa",
+   "verdict": "vidyut_only",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 435,
+   "root": "pac",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "pakva"
+   ],
+   "dcs_top_ppp": "pakta",
+   "verdict": "vidyut_only",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 462,
+   "root": "puṭ",
+   "class": [
+    "VI"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "puṭita"
+   ],
+   "dcs_top_ppp": "puṭitaṃ",
+   "verdict": "vidyut_only",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 524,
+   "root": "bhuj",
+   "class": [
+    "VI"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "bhugna"
+   ],
+   "dcs_top_ppp": "bhukta",
+   "verdict": "vidyut_only",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 550,
+   "root": "mā",
+   "class": [
+    "III"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "mīta"
+   ],
+   "dcs_top_ppp": "mita",
+   "verdict": "vidyut_only",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 701,
+   "root": "vañc",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "vakta"
+   ],
+   "dcs_top_ppp": "vañcita",
+   "verdict": "vidyut_only",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 706,
+   "root": "van",
+   "class": [
+    "I",
+    "VI",
+    "VIII"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "vata"
+   ],
+   "dcs_top_ppp": "vāta",
+   "verdict": "vidyut_only",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 714,
+   "root": "vaś",
+   "class": [
+    "I",
+    "II",
+    "III",
+    "VI"
+   ],
+   "warnemyr_ppp": "",
+   "vidyut_ppp": [
+    "uśita"
+   ],
+   "dcs_top_ppp": "vāvaśāna",
+   "verdict": "vidyut_only",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 7,
+   "root": "añj",
+   "class": [
+    "I",
+    "VII"
+   ],
+   "warnemyr_ppp": "aktá",
+   "vidyut_ppp": [
+    "akta"
+   ],
+   "dcs_top_ppp": "akta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 8,
+   "root": "aṭ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "aṭita",
+   "vidyut_ppp": [
+    "aṭita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 13,
+   "root": "am",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "ānta",
+   "vidyut_ppp": [
+    "amita",
+    "ānta"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 15,
+   "root": "arc",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "arcita",
+   "vidyut_ppp": [
+    "arcita"
+   ],
+   "dcs_top_ppp": "arcita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 21,
+   "root": "aś",
+   "class": [
+    "I",
+    "IX"
+   ],
+   "warnemyr_ppp": "aśitá",
+   "vidyut_ppp": [
+    "aśita"
+   ],
+   "dcs_top_ppp": "aśita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 23,
+   "root": "as",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "asta",
+   "vidyut_ppp": [
+    "asta"
+   ],
+   "dcs_top_ppp": "asta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 26,
+   "root": "āp",
+   "class": [
+    "V"
+   ],
+   "warnemyr_ppp": "āptá",
+   "vidyut_ppp": [
+    "āpta"
+   ],
+   "dcs_top_ppp": "āpta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 28,
+   "root": "ās",
+   "class": [
+    "I",
+    "II",
+    "IV"
+   ],
+   "warnemyr_ppp": "āsitá",
+   "vidyut_ppp": [
+    "āsita"
+   ],
+   "dcs_top_ppp": "āsīna",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 42,
+   "root": "iṣ",
+   "class": [
+    "I",
+    "IV",
+    "VI"
+   ],
+   "warnemyr_ppp": "iṣṭá",
+   "vidyut_ppp": [
+    "iṣṭa"
+   ],
+   "dcs_top_ppp": "iṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 45,
+   "root": "īkṣ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "īkṣitá",
+   "vidyut_ppp": [
+    "īkṣita"
+   ],
+   "dcs_top_ppp": "īkṣita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 48,
+   "root": "īḍ",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "īḍitá",
+   "vidyut_ppp": [
+    "īḍita"
+   ],
+   "dcs_top_ppp": "īḍita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 50,
+   "root": "īrṣy",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "īrṣyita",
+   "vidyut_ppp": [
+    "īrṣyita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 51,
+   "root": "īś",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "īśita",
+   "vidyut_ppp": [
+    "īśita"
+   ],
+   "dcs_top_ppp": "īśāna",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 53,
+   "root": "īh",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "īhita",
+   "vidyut_ppp": [
+    "īhita"
+   ],
+   "dcs_top_ppp": "īhita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 57,
+   "root": "uc",
+   "class": [
+    "IV"
+   ],
+   "warnemyr_ppp": "ucitá",
+   "vidyut_ppp": [
+    "ucita"
+   ],
+   "dcs_top_ppp": "ucita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 62,
+   "root": "ubj",
+   "class": [
+    "VI"
+   ],
+   "warnemyr_ppp": "ubjitá",
+   "vidyut_ppp": [
+    "ubjita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 69,
+   "root": "ṛ",
+   "class": [
+    "II",
+    "III",
+    "V",
+    "VI",
+    "IX"
+   ],
+   "warnemyr_ppp": "ṛtá",
+   "vidyut_ppp": [
+    "ṛta"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 75,
+   "root": "ṛdh",
+   "class": [
+    "IV",
+    "V",
+    "VII"
+   ],
+   "warnemyr_ppp": "ṛddha",
+   "vidyut_ppp": [
+    "ṛddha"
+   ],
+   "dcs_top_ppp": "ṛddha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 79,
+   "root": "edh",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "edhita",
+   "vidyut_ppp": [
+    "edhita"
+   ],
+   "dcs_top_ppp": "edhita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 80,
+   "root": "katth",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "katthita",
+   "vidyut_ppp": [
+    "katthita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 87,
+   "root": "kaṣ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "kaṣita",
+   "vidyut_ppp": [
+    "kaṣita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 91,
+   "root": "kāś",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "kāśita",
+   "vidyut_ppp": [
+    "kāśita"
+   ],
+   "dcs_top_ppp": "kāśita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 94,
+   "root": "kuc",
+   "class": [
+    "I",
+    "VI"
+   ],
+   "warnemyr_ppp": "kucita",
+   "vidyut_ppp": [
+    "kucita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 99,
+   "root": "kup",
+   "class": [
+    "IV"
+   ],
+   "warnemyr_ppp": "kupita",
+   "vidyut_ppp": [
+    "kupita"
+   ],
+   "dcs_top_ppp": "kupita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 102,
+   "root": "kūj",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "kūjita",
+   "vidyut_ppp": [
+    "kūjita"
+   ],
+   "dcs_top_ppp": "kūjita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 106,
+   "root": "kṛ",
+   "class": [
+    "I",
+    "II",
+    "V",
+    "VIII"
+   ],
+   "warnemyr_ppp": "kṛtá",
+   "vidyut_ppp": [
+    "kṛta"
+   ],
+   "dcs_top_ppp": "kṛta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 109,
+   "root": "kṛt",
+   "class": [
+    "I",
+    "VI"
+   ],
+   "warnemyr_ppp": "kṛttá",
+   "vidyut_ppp": [
+    "kṛtta"
+   ],
+   "dcs_top_ppp": "kṛtta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 113,
+   "root": "kṛṣ",
+   "class": [
+    "I",
+    "VI"
+   ],
+   "warnemyr_ppp": "kṛṣṭá",
+   "vidyut_ppp": [
+    "kṛṣṭa"
+   ],
+   "dcs_top_ppp": "kṛṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 119,
+   "root": "kram",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "krāṃtá",
+   "vidyut_ppp": [
+    "krānta"
+   ],
+   "dcs_top_ppp": "krānta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 120,
+   "root": "krī",
+   "class": [
+    "IX"
+   ],
+   "warnemyr_ppp": "krītá",
+   "vidyut_ppp": [
+    "krīta"
+   ],
+   "dcs_top_ppp": "krīta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 121,
+   "root": "krīḍ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "krīḍita",
+   "vidyut_ppp": [
+    "krīḍita"
+   ],
+   "dcs_top_ppp": "krīḍita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 123,
+   "root": "krudh",
+   "class": [
+    "IV"
+   ],
+   "warnemyr_ppp": "kruddhá",
+   "vidyut_ppp": [
+    "kruddha"
+   ],
+   "dcs_top_ppp": "kruddha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 124,
+   "root": "kruś",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "kruṣṭa",
+   "vidyut_ppp": [
+    "kruṣṭa"
+   ],
+   "dcs_top_ppp": "kruṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 128,
+   "root": "klam",
+   "class": [
+    "IV"
+   ],
+   "warnemyr_ppp": "klāṃtá",
+   "vidyut_ppp": [
+    "klānta"
+   ],
+   "dcs_top_ppp": "klānta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 130,
+   "root": "klid",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "klinna",
+   "vidyut_ppp": [
+    "klinna"
+   ],
+   "dcs_top_ppp": "klinna",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 131,
+   "root": "kliś",
+   "class": [
+    "IV",
+    "IX"
+   ],
+   "warnemyr_ppp": "kliṣṭa",
+   "vidyut_ppp": [
+    "kliśita",
+    "kliṣṭa"
+   ],
+   "dcs_top_ppp": "kliṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 137,
+   "root": "kṣam",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "kṣāṃta",
+   "vidyut_ppp": [
+    "kṣānta"
+   ],
+   "dcs_top_ppp": "kṣānta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 138,
+   "root": "kṣar",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "kṣarita",
+   "vidyut_ppp": [
+    "kṣarita"
+   ],
+   "dcs_top_ppp": "kṣarita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 142,
+   "root": "kṣi",
+   "class": [
+    "I",
+    "II",
+    "IV",
+    "V",
+    "IX"
+   ],
+   "warnemyr_ppp": "kṣitá",
+   "vidyut_ppp": [
+    "kṣita"
+   ],
+   "dcs_top_ppp": "kṣīṇa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 143,
+   "root": "kṣip",
+   "class": [
+    "VI"
+   ],
+   "warnemyr_ppp": "kṣiptá",
+   "vidyut_ppp": [
+    "kṣipta"
+   ],
+   "dcs_top_ppp": "kṣipta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 144,
+   "root": "kṣu",
+   "class": [
+    "II"
+   ],
+   "warnemyr_ppp": "kṣuta",
+   "vidyut_ppp": [
+    "kṣuta"
+   ],
+   "dcs_top_ppp": "kṣuta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 145,
+   "root": "kṣud",
+   "class": [
+    "I",
+    "VII"
+   ],
+   "warnemyr_ppp": "kṣuṇṇa",
+   "vidyut_ppp": [
+    "kṣunna"
+   ],
+   "dcs_top_ppp": "kṣuṇṇa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 146,
+   "root": "kṣudh",
+   "class": [
+    "IV"
+   ],
+   "warnemyr_ppp": "kṣudhita",
+   "vidyut_ppp": [
+    "kṣudhita"
+   ],
+   "dcs_top_ppp": "kṣudhita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 149,
+   "root": "kṣṇu",
+   "class": [
+    "II"
+   ],
+   "warnemyr_ppp": "kṣṇutá",
+   "vidyut_ppp": [
+    "kṣnuta"
+   ],
+   "dcs_top_ppp": "kṣṇuta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 152,
+   "root": "kṣvid",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "kṣviṇṇa",
+   "vidyut_ppp": [
+    "kṣvinna"
+   ],
+   "dcs_top_ppp": "kṣveḍita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 153,
+   "root": "kṣvel",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "kṣvelita",
+   "vidyut_ppp": [
+    "kṣvelita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 157,
+   "root": "khan",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "khātá",
+   "vidyut_ppp": [
+    "khāta"
+   ],
+   "dcs_top_ppp": "khāta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 162,
+   "root": "khid",
+   "class": [
+    "IV",
+    "VI",
+    "VII"
+   ],
+   "warnemyr_ppp": "khinna",
+   "vidyut_ppp": [
+    "khinna"
+   ],
+   "dcs_top_ppp": "khinna",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 164,
+   "root": "khel",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "khelita",
+   "vidyut_ppp": [
+    "khelita"
+   ],
+   "dcs_top_ppp": "khelita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 165,
+   "root": "khyā",
+   "class": [
+    "II"
+   ],
+   "warnemyr_ppp": "khyātá",
+   "vidyut_ppp": [
+    "khyāta"
+   ],
+   "dcs_top_ppp": "khyāta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 167,
+   "root": "gad",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "gadita",
+   "vidyut_ppp": [
+    "gadita"
+   ],
+   "dcs_top_ppp": "gadita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 170,
+   "root": "gam",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "gatá",
+   "vidyut_ppp": [
+    "gata"
+   ],
+   "dcs_top_ppp": "gata",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 173,
+   "root": "garh",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "garhita",
+   "vidyut_ppp": [
+    "garhita"
+   ],
+   "dcs_top_ppp": "garhita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 174,
+   "root": "gal",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "galita",
+   "vidyut_ppp": [
+    "galita"
+   ],
+   "dcs_top_ppp": "galita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 177,
+   "root": "gā",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "gītá",
+   "vidyut_ppp": [
+    "gīta"
+   ],
+   "dcs_top_ppp": "gīta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 178,
+   "root": "gāh",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "gāḍha",
+   "vidyut_ppp": [
+    "gāḍha"
+   ],
+   "dcs_top_ppp": "gāḍha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 187,
+   "root": "guh",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "gūḍhá",
+   "vidyut_ppp": [
+    "gūḍha"
+   ],
+   "dcs_top_ppp": "gūḍha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 193,
+   "root": "gṛdh",
+   "class": [
+    "IV"
+   ],
+   "warnemyr_ppp": "gṛddha",
+   "vidyut_ppp": [
+    "gṛddha"
+   ],
+   "dcs_top_ppp": "gṛddha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 201,
+   "root": "ghaṭ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "ghaṭita",
+   "vidyut_ppp": [
+    "ghaṭita"
+   ],
+   "dcs_top_ppp": "ghaṭita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 202,
+   "root": "ghaṭṭ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "ghaṭṭita",
+   "vidyut_ppp": [
+    "ghaṭṭita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 205,
+   "root": "ghuṭ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "ghuṭita",
+   "vidyut_ppp": [
+    "ghuṭita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 206,
+   "root": "ghuṣ",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "ghuṣṭa",
+   "vidyut_ppp": [
+    "ghuṣita",
+    "ghuṣṭa"
+   ],
+   "dcs_top_ppp": "ghuṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 207,
+   "root": "ghūrṇ",
+   "class": [
+    "I",
+    "VI"
+   ],
+   "warnemyr_ppp": "ghūrṇita",
+   "vidyut_ppp": [
+    "ghūrnita"
+   ],
+   "dcs_top_ppp": "ghūrṇita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 208,
+   "root": "ghṛ",
+   "class": [
+    "I",
+    "III"
+   ],
+   "warnemyr_ppp": "ghṛtá",
+   "vidyut_ppp": [
+    "ghṛta"
+   ],
+   "dcs_top_ppp": "ghṛtaṃ",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 209,
+   "root": "ghṛṣ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "ghṛṣṭa",
+   "vidyut_ppp": [
+    "ghṛṣṭa"
+   ],
+   "dcs_top_ppp": "ghṛṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 210,
+   "root": "ghrā",
+   "class": [
+    "I",
+    "II",
+    "III"
+   ],
+   "warnemyr_ppp": "ghrātá",
+   "vidyut_ppp": [
+    "ghrāna",
+    "ghrāta"
+   ],
+   "dcs_top_ppp": "ghrāta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 211,
+   "root": "cak",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "cakita",
+   "vidyut_ppp": [
+    "cakita"
+   ],
+   "dcs_top_ppp": "cakita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 215,
+   "root": "caṭ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "caṭita",
+   "vidyut_ppp": [
+    "caṭita"
+   ],
+   "dcs_top_ppp": "caṭita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 219,
+   "root": "cam",
+   "class": [
+    "I",
+    "V"
+   ],
+   "warnemyr_ppp": "cāṃta",
+   "vidyut_ppp": [
+    "cānta"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 220,
+   "root": "car",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "caritá",
+   "vidyut_ppp": [
+    "carita"
+   ],
+   "dcs_top_ppp": "carita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 223,
+   "root": "cal",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "calita",
+   "vidyut_ppp": [
+    "calita"
+   ],
+   "dcs_top_ppp": "calita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 225,
+   "root": "ci",
+   "class": [
+    "I",
+    "II",
+    "V"
+   ],
+   "warnemyr_ppp": "citá",
+   "vidyut_ppp": [
+    "cita"
+   ],
+   "dcs_top_ppp": "cita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 226,
+   "root": "ci",
+   "class": [
+    "I",
+    "III",
+    "V"
+   ],
+   "warnemyr_ppp": "citá",
+   "vidyut_ppp": [
+    "cita"
+   ],
+   "dcs_top_ppp": "cita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 227,
+   "root": "cit",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "cittá",
+   "vidyut_ppp": [
+    "citta"
+   ],
+   "dcs_top_ppp": "cikituṣa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 230,
+   "root": "cup",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "cupita",
+   "vidyut_ppp": [
+    "cupita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 235,
+   "root": "cṛt",
+   "class": [
+    "I",
+    "VI"
+   ],
+   "warnemyr_ppp": "cṛttá",
+   "vidyut_ppp": [
+    "cṛtta"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 236,
+   "root": "ceṣṭ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "ceṣṭita",
+   "vidyut_ppp": [
+    "ceṣṭita"
+   ],
+   "dcs_top_ppp": "ceṣṭita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 237,
+   "root": "cyu",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "cyutá",
+   "vidyut_ppp": [
+    "cyuta"
+   ],
+   "dcs_top_ppp": "cyuta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 242,
+   "root": "chid",
+   "class": [
+    "VII"
+   ],
+   "warnemyr_ppp": "chinná",
+   "vidyut_ppp": [
+    "chinna"
+   ],
+   "dcs_top_ppp": "chinna",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 245,
+   "root": "chṛd",
+   "class": [
+    "I",
+    "VII"
+   ],
+   "warnemyr_ppp": "chṛṇṇá",
+   "vidyut_ppp": [
+    "chṛnna"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 249,
+   "root": "jan",
+   "class": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "warnemyr_ppp": "jātá",
+   "vidyut_ppp": [
+    "jāta"
+   ],
+   "dcs_top_ppp": "jāta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 250,
+   "root": "jap",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "japita",
+   "vidyut_ppp": [
+    "japita"
+   ],
+   "dcs_top_ppp": "japta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 254,
+   "root": "jalp",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "jalpita",
+   "vidyut_ppp": [
+    "jalpita"
+   ],
+   "dcs_top_ppp": "jalpita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 258,
+   "root": "ji",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "jitá",
+   "vidyut_ppp": [
+    "jita"
+   ],
+   "dcs_top_ppp": "jita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 260,
+   "root": "jīv",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "jīvitá",
+   "vidyut_ppp": [
+    "jīvita"
+   ],
+   "dcs_top_ppp": "jīvita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 262,
+   "root": "juṣ",
+   "class": [
+    "II",
+    "VI"
+   ],
+   "warnemyr_ppp": "júṣṭa",
+   "vidyut_ppp": [
+    "juṣṭa"
+   ],
+   "dcs_top_ppp": "juṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 269,
+   "root": "jñā",
+   "class": [
+    "I",
+    "IX"
+   ],
+   "warnemyr_ppp": "jñātá",
+   "vidyut_ppp": [
+    "jnāta"
+   ],
+   "dcs_top_ppp": "jñāta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 274,
+   "root": "jval",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "jvalita",
+   "vidyut_ppp": [
+    "jvalita"
+   ],
+   "dcs_top_ppp": "jvalita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 286,
+   "root": "ḍhauk",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "ḍhaukita",
+   "vidyut_ppp": [
+    "ḍhaukita"
+   ],
+   "dcs_top_ppp": "ḍhaukita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 289,
+   "root": "takṣ",
+   "class": [
+    "I",
+    "II",
+    "V"
+   ],
+   "warnemyr_ppp": "taṣṭá",
+   "vidyut_ppp": [
+    "takṣita",
+    "taṣṭa"
+   ],
+   "dcs_top_ppp": "taṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 290,
+   "root": "tañc",
+   "class": [
+    "VII"
+   ],
+   "warnemyr_ppp": "takta",
+   "vidyut_ppp": [
+    "takta"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 293,
+   "root": "tan",
+   "class": [
+    "VIII"
+   ],
+   "warnemyr_ppp": "tatá",
+   "vidyut_ppp": [
+    "tata"
+   ],
+   "dcs_top_ppp": "tata",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 296,
+   "root": "tap",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "taptá",
+   "vidyut_ppp": [
+    "tapta"
+   ],
+   "dcs_top_ppp": "tapta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 297,
+   "root": "tam",
+   "class": [
+    "IV"
+   ],
+   "warnemyr_ppp": "tāṃtá",
+   "vidyut_ppp": [
+    "tānta"
+   ],
+   "dcs_top_ppp": "tānta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 299,
+   "root": "tarj",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "tarjita",
+   "vidyut_ppp": [
+    "tarjita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 306,
+   "root": "tim",
+   "class": [
+    "IV"
+   ],
+   "warnemyr_ppp": "timita",
+   "vidyut_ppp": [
+    "timita"
+   ],
+   "dcs_top_ppp": "timita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 312,
+   "root": "tud",
+   "class": [
+    "VI",
+    "VII"
+   ],
+   "warnemyr_ppp": "tunná",
+   "vidyut_ppp": [
+    "tunna"
+   ],
+   "dcs_top_ppp": "tunna",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 317,
+   "root": "tuṣ",
+   "class": [
+    "IV"
+   ],
+   "warnemyr_ppp": "tuṣṭa",
+   "vidyut_ppp": [
+    "tuṣṭa"
+   ],
+   "dcs_top_ppp": "tuṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 320,
+   "root": "tṛd",
+   "class": [
+    "I",
+    "VII"
+   ],
+   "warnemyr_ppp": "tṛṇṇá",
+   "vidyut_ppp": [
+    "tṛnna"
+   ],
+   "dcs_top_ppp": "tatṛdāna",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 321,
+   "root": "tṛp",
+   "class": [
+    "I",
+    "IV",
+    "V",
+    "VI"
+   ],
+   "warnemyr_ppp": "tṛptá",
+   "vidyut_ppp": [
+    "tṛpta"
+   ],
+   "dcs_top_ppp": "tṛpta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 324,
+   "root": "tyaj",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "tyaktá",
+   "vidyut_ppp": [
+    "tyakta"
+   ],
+   "dcs_top_ppp": "tyakta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 326,
+   "root": "tras",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "trastá",
+   "vidyut_ppp": [
+    "trasta"
+   ],
+   "dcs_top_ppp": "trasta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 335,
+   "root": "daṃś",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "daṣṭá",
+   "vidyut_ppp": [
+    "daṣṭa"
+   ],
+   "dcs_top_ppp": "daṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 348,
+   "root": "dah",
+   "class": [
+    "I",
+    "II",
+    "IV"
+   ],
+   "warnemyr_ppp": "dagdhá",
+   "vidyut_ppp": [
+    "dagdha"
+   ],
+   "dcs_top_ppp": "dagdha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 356,
+   "root": "diś",
+   "class": [
+    "III",
+    "IV",
+    "VI"
+   ],
+   "warnemyr_ppp": "diṣṭá",
+   "vidyut_ppp": [
+    "diṣṭa"
+   ],
+   "dcs_top_ppp": "diṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 357,
+   "root": "dih",
+   "class": [
+    "II"
+   ],
+   "warnemyr_ppp": "digdhá",
+   "vidyut_ppp": [
+    "digdha"
+   ],
+   "dcs_top_ppp": "digdha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 360,
+   "root": "dīkṣ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "dīkṣitá",
+   "vidyut_ppp": [
+    "dīkṣita"
+   ],
+   "dcs_top_ppp": "dīkṣita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 362,
+   "root": "dīp",
+   "class": [
+    "IV"
+   ],
+   "warnemyr_ppp": "dīpta",
+   "vidyut_ppp": [
+    "dīpta"
+   ],
+   "dcs_top_ppp": "dīpta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 368,
+   "root": "duṣ",
+   "class": [
+    "IV"
+   ],
+   "warnemyr_ppp": "duṣṭa",
+   "vidyut_ppp": [
+    "duṣṭa"
+   ],
+   "dcs_top_ppp": "duṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 369,
+   "root": "duh",
+   "class": [
+    "II",
+    "IV",
+    "VI"
+   ],
+   "warnemyr_ppp": "dugdhá",
+   "vidyut_ppp": [
+    "dugdha"
+   ],
+   "dcs_top_ppp": "dugdha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 381,
+   "root": "drā",
+   "class": [
+    "II"
+   ],
+   "warnemyr_ppp": "drāṇa",
+   "vidyut_ppp": [
+    "drāna"
+   ],
+   "dcs_top_ppp": "dadrāṇaṃ",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 382,
+   "root": "drā",
+   "class": [
+    "II",
+    "IV"
+   ],
+   "warnemyr_ppp": "drāṇa",
+   "vidyut_ppp": [
+    "drāna"
+   ],
+   "dcs_top_ppp": "dadrāṇaṃ",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 384,
+   "root": "dru",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "drutá",
+   "vidyut_ppp": [
+    "druta"
+   ],
+   "dcs_top_ppp": "druta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 385,
+   "root": "druh",
+   "class": [
+    "IV"
+   ],
+   "warnemyr_ppp": "drugdhá",
+   "vidyut_ppp": [
+    "drugdha",
+    "drūḍha"
+   ],
+   "dcs_top_ppp": "drugdha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 388,
+   "root": "dviṣ",
+   "class": [
+    "II",
+    "VI"
+   ],
+   "warnemyr_ppp": "dviṣṭa",
+   "vidyut_ppp": [
+    "dviṣṭa"
+   ],
+   "dcs_top_ppp": "dviṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 393,
+   "root": "dhā",
+   "class": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "warnemyr_ppp": "hitá",
+   "vidyut_ppp": [
+    "hita"
+   ],
+   "dcs_top_ppp": "hita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 396,
+   "root": "dhāv",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "dhautá",
+   "vidyut_ppp": [
+    "dhauta"
+   ],
+   "dcs_top_ppp": "dhauta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 400,
+   "root": "dhū",
+   "class": [
+    "II",
+    "V",
+    "VI",
+    "IX"
+   ],
+   "warnemyr_ppp": "dhūtá",
+   "vidyut_ppp": [
+    "dhūna",
+    "dhūta"
+   ],
+   "dcs_top_ppp": "dhūta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 402,
+   "root": "dhṛ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "dhṛtá",
+   "vidyut_ppp": [
+    "dhṛta"
+   ],
+   "dcs_top_ppp": "dhṛta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 403,
+   "root": "dhṛṣ",
+   "class": [
+    "I",
+    "V"
+   ],
+   "warnemyr_ppp": "dhṛṣṭá",
+   "vidyut_ppp": [
+    "dhṛṣṭa"
+   ],
+   "dcs_top_ppp": "dhṛṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 408,
+   "root": "dhvan",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "dhvanita",
+   "vidyut_ppp": [
+    "dhvanita"
+   ],
+   "dcs_top_ppp": "dhvanita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 416,
+   "root": "nam",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "natá",
+   "vidyut_ppp": [
+    "nata"
+   ],
+   "dcs_top_ppp": "nata",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 417,
+   "root": "nard",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "nardita",
+   "vidyut_ppp": [
+    "nardita"
+   ],
+   "dcs_top_ppp": "narditaṃ",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 418,
+   "root": "naś",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "naṣṭá",
+   "vidyut_ppp": [
+    "naṣṭa"
+   ],
+   "dcs_top_ppp": "naṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 421,
+   "root": "nah",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "naddhá",
+   "vidyut_ppp": [
+    "naddha"
+   ],
+   "dcs_top_ppp": "naddha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 422,
+   "root": "nāth",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "nāthitá",
+   "vidyut_ppp": [
+    "nāthita"
+   ],
+   "dcs_top_ppp": "nāthita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 425,
+   "root": "nij",
+   "class": [
+    "II",
+    "III"
+   ],
+   "warnemyr_ppp": "niktá",
+   "vidyut_ppp": [
+    "nikta"
+   ],
+   "dcs_top_ppp": "nikta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 427,
+   "root": "nī",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "nītá",
+   "vidyut_ppp": [
+    "nīta"
+   ],
+   "dcs_top_ppp": "nīta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 429,
+   "root": "nu",
+   "class": [
+    "I",
+    "II",
+    "VI"
+   ],
+   "warnemyr_ppp": "nuta",
+   "vidyut_ppp": [
+    "nuta"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 431,
+   "root": "nud",
+   "class": [
+    "VI"
+   ],
+   "warnemyr_ppp": "nuttá",
+   "vidyut_ppp": [
+    "nunna",
+    "nutta"
+   ],
+   "dcs_top_ppp": "nunna",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 433,
+   "root": "nṛt",
+   "class": [
+    "IV"
+   ],
+   "warnemyr_ppp": "nṛttá",
+   "vidyut_ppp": [
+    "nṛtta"
+   ],
+   "dcs_top_ppp": "nṛtta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 438,
+   "root": "paṭh",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "paṭhita",
+   "vidyut_ppp": [
+    "paṭhita"
+   ],
+   "dcs_top_ppp": "paṭhita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 439,
+   "root": "paṇ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "paṇita",
+   "vidyut_ppp": [
+    "panita",
+    "panāyita"
+   ],
+   "dcs_top_ppp": "paṇita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 440,
+   "root": "pat",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "patitá",
+   "vidyut_ppp": [
+    "patita"
+   ],
+   "dcs_top_ppp": "patita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 443,
+   "root": "pad",
+   "class": [
+    "II",
+    "IV"
+   ],
+   "warnemyr_ppp": "panná",
+   "vidyut_ppp": [
+    "panna"
+   ],
+   "dcs_top_ppp": "panna",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 444,
+   "root": "pan",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "panitá",
+   "vidyut_ppp": [
+    "panita",
+    "panāyita"
+   ],
+   "dcs_top_ppp": "panita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 448,
+   "root": "pā",
+   "class": [
+    "I",
+    "II",
+    "III"
+   ],
+   "warnemyr_ppp": "pītá",
+   "vidyut_ppp": [
+    "pīta"
+   ],
+   "dcs_top_ppp": "pīta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 456,
+   "root": "piṣ",
+   "class": [
+    "VI",
+    "VII"
+   ],
+   "warnemyr_ppp": "piṣṭá",
+   "vidyut_ppp": [
+    "piṣṭa"
+   ],
+   "dcs_top_ppp": "piṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 465,
+   "root": "pū",
+   "class": [
+    "I",
+    "IX"
+   ],
+   "warnemyr_ppp": "pūtá",
+   "vidyut_ppp": [
+    "pavita",
+    "pūta"
+   ],
+   "dcs_top_ppp": "pūta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 471,
+   "root": "pṛ",
+   "class": [
+    "V"
+   ],
+   "warnemyr_ppp": "pṛta",
+   "vidyut_ppp": [
+    "pṛta"
+   ],
+   "dcs_top_ppp": "pūrṇa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 472,
+   "root": "pṛc",
+   "class": [
+    "I",
+    "III",
+    "VII"
+   ],
+   "warnemyr_ppp": "pṛktá",
+   "vidyut_ppp": [
+    "pṛkta"
+   ],
+   "dcs_top_ppp": "pṛkta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 477,
+   "root": "prach",
+   "class": [
+    "VI"
+   ],
+   "warnemyr_ppp": "pṛṣṭá",
+   "vidyut_ppp": [
+    "pṛṣṭa"
+   ],
+   "dcs_top_ppp": "pṛṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 478,
+   "root": "prath",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "prathita",
+   "vidyut_ppp": [
+    "prathita"
+   ],
+   "dcs_top_ppp": "prathita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 480,
+   "root": "prī",
+   "class": [
+    "IV",
+    "IX"
+   ],
+   "warnemyr_ppp": "prītá",
+   "vidyut_ppp": [
+    "prīta"
+   ],
+   "dcs_top_ppp": "prīta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 485,
+   "root": "plu",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "plutá",
+   "vidyut_ppp": [
+    "pluta"
+   ],
+   "dcs_top_ppp": "pluta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 486,
+   "root": "pluṣ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "pluṣṭa",
+   "vidyut_ppp": [
+    "pluṣṭa"
+   ],
+   "dcs_top_ppp": "pluṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 491,
+   "root": "phal",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "phalita",
+   "vidyut_ppp": [
+    "phalita",
+    "phulla"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 492,
+   "root": "phal",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "phalita",
+   "vidyut_ppp": [
+    "phalita",
+    "phulla"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 494,
+   "root": "bandh",
+   "class": [
+    "I",
+    "IX"
+   ],
+   "warnemyr_ppp": "baddhá",
+   "vidyut_ppp": [
+    "baddha"
+   ],
+   "dcs_top_ppp": "baddha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 496,
+   "root": "bādh",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "bādhitá",
+   "vidyut_ppp": [
+    "bādhita"
+   ],
+   "dcs_top_ppp": "bādhita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 497,
+   "root": "budh",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "buddhá",
+   "vidyut_ppp": [
+    "buddha"
+   ],
+   "dcs_top_ppp": "buddha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 500,
+   "root": "bṛh",
+   "class": [
+    "I",
+    "VI"
+   ],
+   "warnemyr_ppp": "bṛḍha",
+   "vidyut_ppp": [
+    "bṛḍha"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 505,
+   "root": "bhaj",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "bhaktá",
+   "vidyut_ppp": [
+    "bhakta"
+   ],
+   "dcs_top_ppp": "bhakta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 506,
+   "root": "bhañj",
+   "class": [
+    "VII"
+   ],
+   "warnemyr_ppp": "bhagna",
+   "vidyut_ppp": [
+    "bhagna"
+   ],
+   "dcs_top_ppp": "bhagna",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 508,
+   "root": "bhaṇ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "bhaṇita",
+   "vidyut_ppp": [
+    "bhanita"
+   ],
+   "dcs_top_ppp": "bhaṇita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 516,
+   "root": "bhā",
+   "class": [
+    "II"
+   ],
+   "warnemyr_ppp": "bhāta",
+   "vidyut_ppp": [
+    "bhāta"
+   ],
+   "dcs_top_ppp": "bhāta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 517,
+   "root": "bhām",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "bhāmitá",
+   "vidyut_ppp": [
+    "bhāmita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 518,
+   "root": "bhāṣ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "bhāṣita",
+   "vidyut_ppp": [
+    "bhāṣita"
+   ],
+   "dcs_top_ppp": "bhāṣita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 519,
+   "root": "bhās",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "bhāsita",
+   "vidyut_ppp": [
+    "bhāsita"
+   ],
+   "dcs_top_ppp": "bhāsita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 520,
+   "root": "bhikṣ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "bhikṣita",
+   "vidyut_ppp": [
+    "bhikṣita"
+   ],
+   "dcs_top_ppp": "bhikṣita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 521,
+   "root": "bhid",
+   "class": [
+    "VII"
+   ],
+   "warnemyr_ppp": "bhinná",
+   "vidyut_ppp": [
+    "bhinna"
+   ],
+   "dcs_top_ppp": "bhinna",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 523,
+   "root": "bhī",
+   "class": [
+    "I",
+    "III"
+   ],
+   "warnemyr_ppp": "bhītá",
+   "vidyut_ppp": [
+    "bhīta"
+   ],
+   "dcs_top_ppp": "bhīta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 525,
+   "root": "bhuj",
+   "class": [
+    "VII"
+   ],
+   "warnemyr_ppp": "bhukta",
+   "vidyut_ppp": [
+    "bhukta"
+   ],
+   "dcs_top_ppp": "bhukta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 528,
+   "root": "bhū",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "bhūtá",
+   "vidyut_ppp": [
+    "bhūta"
+   ],
+   "dcs_top_ppp": "bhūta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 530,
+   "root": "bhṛ",
+   "class": [
+    "I",
+    "II",
+    "III"
+   ],
+   "warnemyr_ppp": "bhṛtá",
+   "vidyut_ppp": [
+    "bhṛta"
+   ],
+   "dcs_top_ppp": "bhṛta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 533,
+   "root": "bhraṃś",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "bhraṣṭá",
+   "vidyut_ppp": [
+    "bhraṣṭa"
+   ],
+   "dcs_top_ppp": "bhraṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 534,
+   "root": "bhram",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "bhrāṃta",
+   "vidyut_ppp": [
+    "bhrānta"
+   ],
+   "dcs_top_ppp": "bhrānta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 545,
+   "root": "mad",
+   "class": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "warnemyr_ppp": "mattá",
+   "vidyut_ppp": [
+    "matta"
+   ],
+   "dcs_top_ppp": "matta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 546,
+   "root": "man",
+   "class": [
+    "III",
+    "IV",
+    "VIII"
+   ],
+   "warnemyr_ppp": "matá",
+   "vidyut_ppp": [
+    "mata"
+   ],
+   "dcs_top_ppp": "mata",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 556,
+   "root": "mith",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "mithita",
+   "vidyut_ppp": [
+    "mithita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 558,
+   "root": "mil",
+   "class": [
+    "VI"
+   ],
+   "warnemyr_ppp": "milita",
+   "vidyut_ppp": [
+    "milita"
+   ],
+   "dcs_top_ppp": "milita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 559,
+   "root": "miṣ",
+   "class": [
+    "VI"
+   ],
+   "warnemyr_ppp": "miṣita",
+   "vidyut_ppp": [
+    "miṣita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 560,
+   "root": "mih",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "mīḍha",
+   "vidyut_ppp": [
+    "mīḍha"
+   ],
+   "dcs_top_ppp": "mīḍhuṣa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 562,
+   "root": "mīl",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "mīlita",
+   "vidyut_ppp": [
+    "mīlita"
+   ],
+   "dcs_top_ppp": "mīlita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 564,
+   "root": "muc",
+   "class": [
+    "VI"
+   ],
+   "warnemyr_ppp": "muktá",
+   "vidyut_ppp": [
+    "mukta"
+   ],
+   "dcs_top_ppp": "mukta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 566,
+   "root": "mud",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "mudita",
+   "vidyut_ppp": [
+    "mudita"
+   ],
+   "dcs_top_ppp": "mudita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 567,
+   "root": "muṣ",
+   "class": [
+    "I",
+    "VI",
+    "IX"
+   ],
+   "warnemyr_ppp": "muṣitá",
+   "vidyut_ppp": [
+    "muṣita"
+   ],
+   "dcs_top_ppp": "muṣita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 568,
+   "root": "muh",
+   "class": [
+    "IV"
+   ],
+   "warnemyr_ppp": "mugdhá",
+   "vidyut_ppp": [
+    "mugdha",
+    "mūḍha"
+   ],
+   "dcs_top_ppp": "mūḍha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 576,
+   "root": "mṛj",
+   "class": [
+    "I",
+    "II",
+    "VI",
+    "VII"
+   ],
+   "warnemyr_ppp": "mṛṣṭá",
+   "vidyut_ppp": [
+    "mṛṣṭa"
+   ],
+   "dcs_top_ppp": "mṛṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 579,
+   "root": "mṛd",
+   "class": [
+    "I",
+    "IX"
+   ],
+   "warnemyr_ppp": "mṛditá",
+   "vidyut_ppp": [
+    "mṛdita"
+   ],
+   "dcs_top_ppp": "mṛdita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 581,
+   "root": "mṛś",
+   "class": [
+    "VI"
+   ],
+   "warnemyr_ppp": "mṛṣṭá",
+   "vidyut_ppp": [
+    "mṛṣṭa"
+   ],
+   "dcs_top_ppp": "mṛṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 582,
+   "root": "mṛṣ",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "mṛṣita",
+   "vidyut_ppp": [
+    "marṣita",
+    "mṛṣita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 585,
+   "root": "mnā",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "mnāta",
+   "vidyut_ppp": [
+    "mnāta"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 589,
+   "root": "mruc",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "mrukta",
+   "vidyut_ppp": [
+    "mrukta"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 597,
+   "root": "yaj",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "iṣṭá",
+   "vidyut_ppp": [
+    "iṣṭa"
+   ],
+   "dcs_top_ppp": "iṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 598,
+   "root": "yat",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "yatta",
+   "vidyut_ppp": [
+    "yatta"
+   ],
+   "dcs_top_ppp": "yatta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 600,
+   "root": "yam",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "yatá",
+   "vidyut_ppp": [
+    "yata"
+   ],
+   "dcs_top_ppp": "yata",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 601,
+   "root": "yas",
+   "class": [
+    "I",
+    "III",
+    "IV"
+   ],
+   "warnemyr_ppp": "yastá",
+   "vidyut_ppp": [
+    "yasta"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 603,
+   "root": "yā",
+   "class": [
+    "II"
+   ],
+   "warnemyr_ppp": "yātá",
+   "vidyut_ppp": [
+    "yāta"
+   ],
+   "dcs_top_ppp": "yāta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 604,
+   "root": "yāc",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "yācitá",
+   "vidyut_ppp": [
+    "yācita"
+   ],
+   "dcs_top_ppp": "yācita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 606,
+   "root": "yu",
+   "class": [
+    "II",
+    "VI",
+    "IX"
+   ],
+   "warnemyr_ppp": "yutá",
+   "vidyut_ppp": [
+    "yuta"
+   ],
+   "dcs_top_ppp": "yuta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 608,
+   "root": "yuj",
+   "class": [
+    "II",
+    "VII"
+   ],
+   "warnemyr_ppp": "yuktá",
+   "vidyut_ppp": [
+    "yukta"
+   ],
+   "dcs_top_ppp": "yukta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 609,
+   "root": "yudh",
+   "class": [
+    "I",
+    "II",
+    "IV"
+   ],
+   "warnemyr_ppp": "yuddhá",
+   "vidyut_ppp": [
+    "yuddha"
+   ],
+   "dcs_top_ppp": "yuddha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 610,
+   "root": "yup",
+   "class": [
+    "IV"
+   ],
+   "warnemyr_ppp": "yupitá",
+   "vidyut_ppp": [
+    "yupita"
+   ],
+   "dcs_top_ppp": "yupita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 613,
+   "root": "rakṣ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "rakṣitá",
+   "vidyut_ppp": [
+    "rakṣita"
+   ],
+   "dcs_top_ppp": "rakṣita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 619,
+   "root": "raṭ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "raṭita",
+   "vidyut_ppp": [
+    "raṭita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 621,
+   "root": "rad",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "raditá",
+   "vidyut_ppp": [
+    "radita"
+   ],
+   "dcs_top_ppp": "radita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 622,
+   "root": "radh",
+   "class": [
+    "II",
+    "IV"
+   ],
+   "warnemyr_ppp": "raddhá",
+   "vidyut_ppp": [
+    "raddha"
+   ],
+   "dcs_top_ppp": "raddha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 628,
+   "root": "rabh",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "rabdhá",
+   "vidyut_ppp": [
+    "rabdha"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 629,
+   "root": "ram",
+   "class": [
+    "I",
+    "IX"
+   ],
+   "warnemyr_ppp": "ratá",
+   "vidyut_ppp": [
+    "rata"
+   ],
+   "dcs_top_ppp": "rata",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 634,
+   "root": "rah",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "rahita",
+   "vidyut_ppp": [
+    "rahita"
+   ],
+   "dcs_top_ppp": "rahita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 635,
+   "root": "rā",
+   "class": [
+    "I",
+    "II",
+    "III"
+   ],
+   "warnemyr_ppp": "rātá",
+   "vidyut_ppp": [
+    "rāta"
+   ],
+   "dcs_top_ppp": "rāta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 638,
+   "root": "rādh",
+   "class": [
+    "V",
+    "IV"
+   ],
+   "warnemyr_ppp": "rāddhá",
+   "vidyut_ppp": [
+    "rāddha"
+   ],
+   "dcs_top_ppp": "rāddha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 644,
+   "root": "ric",
+   "class": [
+    "VII"
+   ],
+   "warnemyr_ppp": "riktá",
+   "vidyut_ppp": [
+    "rikta"
+   ],
+   "dcs_top_ppp": "rikta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 646,
+   "root": "riph",
+   "class": [
+    "I",
+    "VI"
+   ],
+   "warnemyr_ppp": "riphitá",
+   "vidyut_ppp": [
+    "riphita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 649,
+   "root": "riṣ",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "riṣṭá",
+   "vidyut_ppp": [
+    "riṣita",
+    "riṣṭa"
+   ],
+   "dcs_top_ppp": "riṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 652,
+   "root": "ru",
+   "class": [
+    "I",
+    "II",
+    "VI"
+   ],
+   "warnemyr_ppp": "rutá",
+   "vidyut_ppp": [
+    "ruta"
+   ],
+   "dcs_top_ppp": "ruta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 653,
+   "root": "ru",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "rutá",
+   "vidyut_ppp": [
+    "ruta"
+   ],
+   "dcs_top_ppp": "ruta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 654,
+   "root": "ruc",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "rucitá",
+   "vidyut_ppp": [
+    "rucita"
+   ],
+   "dcs_top_ppp": "rucita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 655,
+   "root": "ruj",
+   "class": [
+    "VI"
+   ],
+   "warnemyr_ppp": "rugná",
+   "vidyut_ppp": [
+    "rugna"
+   ],
+   "dcs_top_ppp": "rugṇa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 657,
+   "root": "rud",
+   "class": [
+    "I",
+    "II",
+    "VI"
+   ],
+   "warnemyr_ppp": "rudita",
+   "vidyut_ppp": [
+    "rudita"
+   ],
+   "dcs_top_ppp": "ruditaṃ",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 659,
+   "root": "rudh",
+   "class": [
+    "I",
+    "II",
+    "VII"
+   ],
+   "warnemyr_ppp": "ruddhá",
+   "vidyut_ppp": [
+    "ruddha"
+   ],
+   "dcs_top_ppp": "ruddha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 660,
+   "root": "rup",
+   "class": [
+    "IV"
+   ],
+   "warnemyr_ppp": "rupita",
+   "vidyut_ppp": [
+    "rupita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 661,
+   "root": "ruṣ",
+   "class": [
+    "I",
+    "IV",
+    "VI"
+   ],
+   "warnemyr_ppp": "ruṣita",
+   "vidyut_ppp": [
+    "ruṣita",
+    "ruṣṭa"
+   ],
+   "dcs_top_ppp": "ruṣita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 662,
+   "root": "ruh",
+   "class": [
+    "I",
+    "VI"
+   ],
+   "warnemyr_ppp": "rūḍhá",
+   "vidyut_ppp": [
+    "rūḍha"
+   ],
+   "dcs_top_ppp": "rūḍha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 672,
+   "root": "lap",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "lapitá",
+   "vidyut_ppp": [
+    "lapita"
+   ],
+   "dcs_top_ppp": "lapita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 673,
+   "root": "labh",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "labdha",
+   "vidyut_ppp": [
+    "labdha"
+   ],
+   "dcs_top_ppp": "labdha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 676,
+   "root": "lal",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "lalita",
+   "vidyut_ppp": [
+    "lalita"
+   ],
+   "dcs_top_ppp": "lalita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 677,
+   "root": "laṣ",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "laṣitá",
+   "vidyut_ppp": [
+    "laṣita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 681,
+   "root": "likh",
+   "class": [
+    "VI"
+   ],
+   "warnemyr_ppp": "likhitá",
+   "vidyut_ppp": [
+    "likhita"
+   ],
+   "dcs_top_ppp": "likhita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 682,
+   "root": "lip",
+   "class": [
+    "VI"
+   ],
+   "warnemyr_ppp": "lipta",
+   "vidyut_ppp": [
+    "lipta"
+   ],
+   "dcs_top_ppp": "lipta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 683,
+   "root": "liś",
+   "class": [
+    "IV",
+    "VI"
+   ],
+   "warnemyr_ppp": "liṣṭá",
+   "vidyut_ppp": [
+    "liṣṭa"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 684,
+   "root": "lih",
+   "class": [
+    "II",
+    "VI"
+   ],
+   "warnemyr_ppp": "līḍha",
+   "vidyut_ppp": [
+    "līḍha"
+   ],
+   "dcs_top_ppp": "līḍha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 685,
+   "root": "lī",
+   "class": [
+    "I",
+    "IV",
+    "IX"
+   ],
+   "warnemyr_ppp": "līna",
+   "vidyut_ppp": [
+    "līna"
+   ],
+   "dcs_top_ppp": "līna",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 688,
+   "root": "luṭh",
+   "class": [
+    "VI"
+   ],
+   "warnemyr_ppp": "luṭhita",
+   "vidyut_ppp": [
+    "luṭhita"
+   ],
+   "dcs_top_ppp": "luṭhitaṃ",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 691,
+   "root": "lup",
+   "class": [
+    "VI"
+   ],
+   "warnemyr_ppp": "lupta",
+   "vidyut_ppp": [
+    "lupta"
+   ],
+   "dcs_top_ppp": "lupta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 692,
+   "root": "lubh",
+   "class": [
+    "I",
+    "IV",
+    "VI"
+   ],
+   "warnemyr_ppp": "lubdha",
+   "vidyut_ppp": [
+    "lubdha",
+    "lubhita"
+   ],
+   "dcs_top_ppp": "lubdha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 694,
+   "root": "lū",
+   "class": [
+    "V",
+    "IX"
+   ],
+   "warnemyr_ppp": "lūna",
+   "vidyut_ppp": [
+    "lūna"
+   ],
+   "dcs_top_ppp": "lūna",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 699,
+   "root": "vac",
+   "class": [
+    "II",
+    "III"
+   ],
+   "warnemyr_ppp": "uktá",
+   "vidyut_ppp": [
+    "ukta"
+   ],
+   "dcs_top_ppp": "ukta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 704,
+   "root": "vad",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "uditá",
+   "vidyut_ppp": [
+    "udita"
+   ],
+   "dcs_top_ppp": "udita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 708,
+   "root": "vap",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "uptá",
+   "vidyut_ppp": [
+    "upta"
+   ],
+   "dcs_top_ppp": "upta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 709,
+   "root": "vap",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "upta",
+   "vidyut_ppp": [
+    "upta"
+   ],
+   "dcs_top_ppp": "upta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 710,
+   "root": "vam",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "vāṃtá",
+   "vidyut_ppp": [
+    "vānta"
+   ],
+   "dcs_top_ppp": "vānta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 711,
+   "root": "val",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "valitá",
+   "vidyut_ppp": [
+    "valita"
+   ],
+   "dcs_top_ppp": "valita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 716,
+   "root": "vas",
+   "class": [
+    "II",
+    "VI"
+   ],
+   "warnemyr_ppp": "vasita",
+   "vidyut_ppp": [
+    "vasita"
+   ],
+   "dcs_top_ppp": "uṣita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 717,
+   "root": "vas",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "uṣita",
+   "vidyut_ppp": [
+    "uṣita"
+   ],
+   "dcs_top_ppp": "uṣita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 718,
+   "root": "vah",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "ūḍhá",
+   "vidyut_ppp": [
+    "ūḍha"
+   ],
+   "dcs_top_ppp": "ūḍha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 719,
+   "root": "vā",
+   "class": [
+    "II",
+    "IV"
+   ],
+   "warnemyr_ppp": "vāta",
+   "vidyut_ppp": [
+    "vāta"
+   ],
+   "dcs_top_ppp": "vāta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 723,
+   "root": "vāś",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "vāśita",
+   "vidyut_ppp": [
+    "vāśita"
+   ],
+   "dcs_top_ppp": "vāvaśāna",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 725,
+   "root": "vic",
+   "class": [
+    "III",
+    "VII"
+   ],
+   "warnemyr_ppp": "vikta",
+   "vidyut_ppp": [
+    "vikta"
+   ],
+   "dcs_top_ppp": "vivikvāṁ",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 728,
+   "root": "vid",
+   "class": [
+    "I",
+    "II",
+    "VI"
+   ],
+   "warnemyr_ppp": "viditá",
+   "vidyut_ppp": [
+    "vidita"
+   ],
+   "dcs_top_ppp": "vidita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 734,
+   "root": "viś",
+   "class": [
+    "VI"
+   ],
+   "warnemyr_ppp": "viṣṭá",
+   "vidyut_ppp": [
+    "viṣṭa"
+   ],
+   "dcs_top_ppp": "viṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 735,
+   "root": "viṣ",
+   "class": [
+    "I",
+    "III"
+   ],
+   "warnemyr_ppp": "viṣṭá",
+   "vidyut_ppp": [
+    "viṣṭa"
+   ],
+   "dcs_top_ppp": "viṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 740,
+   "root": "vṛ",
+   "class": [
+    "I",
+    "V",
+    "IX"
+   ],
+   "warnemyr_ppp": "vṛtá",
+   "vidyut_ppp": [
+    "vṛta"
+   ],
+   "dcs_top_ppp": "vṛta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 741,
+   "root": "vṛ",
+   "class": [
+    "V",
+    "IX"
+   ],
+   "warnemyr_ppp": "vṛtá",
+   "vidyut_ppp": [
+    "vṛta"
+   ],
+   "dcs_top_ppp": "vṛta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 743,
+   "root": "vṛj",
+   "class": [
+    "VII"
+   ],
+   "warnemyr_ppp": "vṛktá",
+   "vidyut_ppp": [
+    "vṛkta"
+   ],
+   "dcs_top_ppp": "vṛkta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 744,
+   "root": "vṛt",
+   "class": [
+    "I",
+    "II",
+    "III"
+   ],
+   "warnemyr_ppp": "vṛttá",
+   "vidyut_ppp": [
+    "vṛtta"
+   ],
+   "dcs_top_ppp": "vṛtta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 745,
+   "root": "vṛdh",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "vṛddhá",
+   "vidyut_ppp": [
+    "vṛddha"
+   ],
+   "dcs_top_ppp": "vṛddha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 746,
+   "root": "vṛṣ",
+   "class": [
+    "I",
+    "VI"
+   ],
+   "warnemyr_ppp": "vṛṣṭá",
+   "vidyut_ppp": [
+    "vṛṣṭa"
+   ],
+   "dcs_top_ppp": "vṛṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 747,
+   "root": "vṛh",
+   "class": [
+    "VI"
+   ],
+   "warnemyr_ppp": "vṛḍhá",
+   "vidyut_ppp": [
+    "vṛḍha"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 749,
+   "root": "vell",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "vellita",
+   "vidyut_ppp": [
+    "vellita"
+   ],
+   "dcs_top_ppp": "vellita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 751,
+   "root": "vyac",
+   "class": [
+    "III",
+    "VI"
+   ],
+   "warnemyr_ppp": "vicita",
+   "vidyut_ppp": [
+    "vicita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 754,
+   "root": "vyadh",
+   "class": [
+    "IV"
+   ],
+   "warnemyr_ppp": "viddhá",
+   "vidyut_ppp": [
+    "viddha"
+   ],
+   "dcs_top_ppp": "viddha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 755,
+   "root": "vyay",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "vyayita",
+   "vidyut_ppp": [
+    "vyayita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 757,
+   "root": "vraj",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "vrajita",
+   "vidyut_ppp": [
+    "vrajita"
+   ],
+   "dcs_top_ppp": "vrajitaṃ",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 762,
+   "root": "vrīḍ",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "vrīḍita",
+   "vidyut_ppp": [
+    "vrīḍita"
+   ],
+   "dcs_top_ppp": "vrīḍita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 766,
+   "root": "śaṃs",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "śastá",
+   "vidyut_ppp": [
+    "śasta"
+   ],
+   "dcs_top_ppp": "śasta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 767,
+   "root": "śak",
+   "class": [
+    "V"
+   ],
+   "warnemyr_ppp": "śakta",
+   "vidyut_ppp": [
+    "śakta"
+   ],
+   "dcs_top_ppp": "śakta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 772,
+   "root": "śap",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "śapta",
+   "vidyut_ppp": [
+    "śapta"
+   ],
+   "dcs_top_ppp": "śapta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 774,
+   "root": "śam",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "śāṃtá",
+   "vidyut_ppp": [
+    "śānta"
+   ],
+   "dcs_top_ppp": "śānta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 777,
+   "root": "śaś",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "śaśita",
+   "vidyut_ppp": [
+    "śaśita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 778,
+   "root": "śas",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "śasta",
+   "vidyut_ppp": [
+    "śasta"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 780,
+   "root": "śās",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "śiṣṭá",
+   "vidyut_ppp": [
+    "śiṣṭa"
+   ],
+   "dcs_top_ppp": "śiṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 787,
+   "root": "śiṣ",
+   "class": [
+    "I",
+    "VII"
+   ],
+   "warnemyr_ppp": "śiṣṭá",
+   "vidyut_ppp": [
+    "śiṣṭa"
+   ],
+   "dcs_top_ppp": "śiṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 789,
+   "root": "śī",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "śayita",
+   "vidyut_ppp": [
+    "śayita"
+   ],
+   "dcs_top_ppp": "śayita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 792,
+   "root": "śudh",
+   "class": [
+    "I",
+    "II",
+    "IV"
+   ],
+   "warnemyr_ppp": "śuddhá",
+   "vidyut_ppp": [
+    "śuddha"
+   ],
+   "dcs_top_ppp": "śuddha",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 793,
+   "root": "śubh",
+   "class": [
+    "I",
+    "VI"
+   ],
+   "warnemyr_ppp": "śubhitá",
+   "vidyut_ppp": [
+    "śubhita"
+   ],
+   "dcs_top_ppp": "śumbhita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 803,
+   "root": "ścut",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "ścutita",
+   "vidyut_ppp": [
+    "ścutita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 808,
+   "root": "śram",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "śrāṃtá",
+   "vidyut_ppp": [
+    "śrānta"
+   ],
+   "dcs_top_ppp": "śrānta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 811,
+   "root": "śri",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "śritá",
+   "vidyut_ppp": [
+    "śrita"
+   ],
+   "dcs_top_ppp": "śrita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 813,
+   "root": "śrī",
+   "class": [
+    "IX"
+   ],
+   "warnemyr_ppp": "śrītá",
+   "vidyut_ppp": [
+    "śrīta"
+   ],
+   "dcs_top_ppp": "śṛta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 819,
+   "root": "ślāgh",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "ślāghita",
+   "vidyut_ppp": [
+    "ślāghita"
+   ],
+   "dcs_top_ppp": "ślāghita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 820,
+   "root": "śliṣ",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "śliṣṭa",
+   "vidyut_ppp": [
+    "śliṣṭa"
+   ],
+   "dcs_top_ppp": "śliṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 849,
+   "root": "sū",
+   "class": [
+    "I",
+    "II",
+    "IV",
+    "VI"
+   ],
+   "warnemyr_ppp": "sūtá",
+   "vidyut_ppp": [
+    "sūta"
+   ],
+   "dcs_top_ppp": "sūta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 852,
+   "root": "sṛ",
+   "class": [
+    "I",
+    "III"
+   ],
+   "warnemyr_ppp": "sṛtá",
+   "vidyut_ppp": [
+    "sṛta"
+   ],
+   "dcs_top_ppp": "sṛta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 854,
+   "root": "sṛj",
+   "class": [
+    "I",
+    "VI"
+   ],
+   "warnemyr_ppp": "sṛṣṭá",
+   "vidyut_ppp": [
+    "sṛṣṭa"
+   ],
+   "dcs_top_ppp": "sṛṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 855,
+   "root": "sṛp",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "sṛpta",
+   "vidyut_ppp": [
+    "sṛpta"
+   ],
+   "dcs_top_ppp": "sṛpta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 857,
+   "root": "skand",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "skanná",
+   "vidyut_ppp": [
+    "skanna"
+   ],
+   "dcs_top_ppp": "skanna",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 859,
+   "root": "sku",
+   "class": [
+    "II",
+    "V",
+    "IX"
+   ],
+   "warnemyr_ppp": "skuta",
+   "vidyut_ppp": [
+    "skuta"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 870,
+   "root": "stṛ",
+   "class": [
+    "I",
+    "V",
+    "IX"
+   ],
+   "warnemyr_ppp": "stṛta",
+   "vidyut_ppp": [
+    "stṛta"
+   ],
+   "dcs_top_ppp": "stīrṇa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 874,
+   "root": "sthā",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "sthitá",
+   "vidyut_ppp": [
+    "sthita"
+   ],
+   "dcs_top_ppp": "sthita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 875,
+   "root": "snā",
+   "class": [
+    "II",
+    "IV"
+   ],
+   "warnemyr_ppp": "snātá",
+   "vidyut_ppp": [
+    "snāta"
+   ],
+   "dcs_top_ppp": "snāta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 877,
+   "root": "snu",
+   "class": [
+    "II"
+   ],
+   "warnemyr_ppp": "snuta",
+   "vidyut_ppp": [
+    "snuta"
+   ],
+   "dcs_top_ppp": "snuta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 883,
+   "root": "spṛś",
+   "class": [
+    "I",
+    "VI"
+   ],
+   "warnemyr_ppp": "spṛṣṭá",
+   "vidyut_ppp": [
+    "spṛṣṭa"
+   ],
+   "dcs_top_ppp": "spṛṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 889,
+   "root": "sphuṭ",
+   "class": [
+    "I",
+    "VI"
+   ],
+   "warnemyr_ppp": "sphuṭita",
+   "vidyut_ppp": [
+    "sphuṭita"
+   ],
+   "dcs_top_ppp": "sphuṭita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 894,
+   "root": "smṛ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "smṛta",
+   "vidyut_ppp": [
+    "smṛta"
+   ],
+   "dcs_top_ppp": "smṛta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 895,
+   "root": "syand",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "syanná",
+   "vidyut_ppp": [
+    "syanna"
+   ],
+   "dcs_top_ppp": "syanna",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 896,
+   "root": "sraṃs",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "srasta",
+   "vidyut_ppp": [
+    "srasta"
+   ],
+   "dcs_top_ppp": "srasta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 899,
+   "root": "sru",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "srutá",
+   "vidyut_ppp": [
+    "sruta"
+   ],
+   "dcs_top_ppp": "sruta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 902,
+   "root": "svan",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "svanita",
+   "vidyut_ppp": [
+    "svanita",
+    "svānta"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 907,
+   "root": "had",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "hanna",
+   "vidyut_ppp": [
+    "hanna"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 908,
+   "root": "han",
+   "class": [
+    "I",
+    "II",
+    "VIII"
+   ],
+   "warnemyr_ppp": "hatá",
+   "vidyut_ppp": [
+    "hata"
+   ],
+   "dcs_top_ppp": "hata",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 910,
+   "root": "has",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "hasita",
+   "vidyut_ppp": [
+    "hasita"
+   ],
+   "dcs_top_ppp": "hasita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 911,
+   "root": "hā",
+   "class": [
+    "I",
+    "III"
+   ],
+   "warnemyr_ppp": "hīná",
+   "vidyut_ppp": [
+    "hīna"
+   ],
+   "dcs_top_ppp": "hīna",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 914,
+   "root": "hi",
+   "class": [
+    "I",
+    "V"
+   ],
+   "warnemyr_ppp": "hitá",
+   "vidyut_ppp": [
+    "hita"
+   ],
+   "dcs_top_ppp": "hita",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 919,
+   "root": "hu",
+   "class": [
+    "II",
+    "III"
+   ],
+   "warnemyr_ppp": "hutá",
+   "vidyut_ppp": [
+    "huta"
+   ],
+   "dcs_top_ppp": "huta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 923,
+   "root": "hṛ",
+   "class": [
+    "I",
+    "II",
+    "III"
+   ],
+   "warnemyr_ppp": "hṛtá",
+   "vidyut_ppp": [
+    "hṛta"
+   ],
+   "dcs_top_ppp": "hṛta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 925,
+   "root": "hṛṣ",
+   "class": [
+    "I",
+    "IV"
+   ],
+   "warnemyr_ppp": "hṛṣitá",
+   "vidyut_ppp": [
+    "hṛṣita"
+   ],
+   "dcs_top_ppp": "hṛṣṭa",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 928,
+   "root": "heṣ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "heṣita",
+   "vidyut_ppp": [
+    "heṣita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 929,
+   "root": "hnu",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "hnutá",
+   "vidyut_ppp": [
+    "hnuta"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 931,
+   "root": "hrād",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "hrādita",
+   "vidyut_ppp": [
+    "hrādita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 932,
+   "root": "hrī",
+   "class": [
+    "III"
+   ],
+   "warnemyr_ppp": "hrīta",
+   "vidyut_ppp": [
+    "hrīna",
+    "hrīta"
+   ],
+   "dcs_top_ppp": "hrīta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 934,
+   "root": "hreṣ",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "hreṣita",
+   "vidyut_ppp": [
+    "hreṣita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 936,
+   "root": "hval",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "hvalita",
+   "vidyut_ppp": [
+    "hvalita"
+   ],
+   "dcs_top_ppp": "",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 937,
+   "root": "hvṛ",
+   "class": [
+    "I",
+    "IX"
+   ],
+   "warnemyr_ppp": "hvṛta",
+   "vidyut_ppp": [
+    "hvṛta"
+   ],
+   "dcs_top_ppp": "hruta",
+   "verdict": "match",
+   "corpus_backs_vidyut": false
+  }
+ ]
+}
