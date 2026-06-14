@@ -1,8 +1,8 @@
 {
  "note": "Per-homonym DCS token freq, recovered from DCS's own verb lemma_id separation (each lemma_id mapped to the Whitney homonym whose gaṇa matches). Folded to spine corpus.dcs_freq_token only for `reliable` groups (DCS keeps ≥2 lemma_ids, they map 1:1 to ≥2 distinct homonyms, coverage ≥ 0.55). Groups DCS lumps under one lemma_id stay shared/unsplit. Never replaces lemma-level dcs_freq.",
  "groups": 72,
- "reliable": 8,
- "unreliable": 64,
+ "reliable": 26,
+ "unreliable": 46,
  "items": [
   {
    "lemma": "kṛ",
@@ -21,7 +21,7 @@
       "V",
       "VIII"
      ],
-     "attributed": 40588
+     "attributed": 40555
     },
     {
      "whitney_no": 107,
@@ -35,7 +35,7 @@
      "whitney_no": 108,
      "gloss": "commemorate",
      "class": [],
-     "attributed": 0
+     "attributed": 33
     }
    ],
    "unattributed": 0
@@ -64,6 +64,179 @@
       "IV"
      ],
      "attributed": 287
+    }
+   ],
+   "unattributed": 0
+  },
+  {
+   "lemma": "dā",
+   "reliable": true,
+   "dcs_lemma_ids": 2,
+   "total": 12008,
+   "coverage": 1.0,
+   "reason": "ok",
+   "homonyms": [
+    {
+     "whitney_no": 349,
+     "gloss": "give",
+     "class": [
+      "I",
+      "II",
+      "III",
+      "IV"
+     ],
+     "attributed": 11970
+    },
+    {
+     "whitney_no": 350,
+     "gloss": "divide, share",
+     "class": [
+      "I",
+      "VI"
+     ],
+     "attributed": 38
+    },
+    {
+     "whitney_no": 351,
+     "gloss": "bind",
+     "class": [],
+     "attributed": 0
+    },
+    {
+     "whitney_no": 352,
+     "gloss": "clear",
+     "class": [],
+     "attributed": 0
+    }
+   ],
+   "unattributed": 0
+  },
+  {
+   "lemma": "vid",
+   "reliable": true,
+   "dcs_lemma_ids": 2,
+   "total": 11314,
+   "coverage": 1.0,
+   "reason": "ok",
+   "homonyms": [
+    {
+     "whitney_no": 728,
+     "gloss": "know",
+     "class": [
+      "I",
+      "II",
+      "VI"
+     ],
+     "attributed": 9391
+    },
+    {
+     "whitney_no": 729,
+     "gloss": "find",
+     "class": [
+      "II",
+      "VI"
+     ],
+     "attributed": 1923
+    }
+   ],
+   "unattributed": 0
+  },
+  {
+   "lemma": "pā",
+   "reliable": true,
+   "dcs_lemma_ids": 2,
+   "total": 5393,
+   "coverage": 1.0,
+   "reason": "ok",
+   "homonyms": [
+    {
+     "whitney_no": 448,
+     "gloss": "drink",
+     "class": [
+      "I",
+      "II",
+      "III"
+     ],
+     "attributed": 4063
+    },
+    {
+     "whitney_no": 449,
+     "gloss": "protect",
+     "class": [
+      "II"
+     ],
+     "attributed": 1330
+    },
+    {
+     "whitney_no": 450,
+     "gloss": "rise against",
+     "class": [],
+     "attributed": 0
+    }
+   ],
+   "unattributed": 0
+  },
+  {
+   "lemma": "iṣ",
+   "reliable": true,
+   "dcs_lemma_ids": 2,
+   "total": 4842,
+   "coverage": 1.0,
+   "reason": "ok",
+   "homonyms": [
+    {
+     "whitney_no": 32,
+     "gloss": "",
+     "class": [],
+     "attributed": 0
+    },
+    {
+     "whitney_no": 42,
+     "gloss": "seek, desire",
+     "class": [
+      "I",
+      "IV",
+      "VI"
+     ],
+     "attributed": 4754
+    },
+    {
+     "whitney_no": 43,
+     "gloss": "send",
+     "class": [
+      "IV",
+      "VI",
+      "IX"
+     ],
+     "attributed": 88
+    }
+   ],
+   "unattributed": 0
+  },
+  {
+   "lemma": "dhā",
+   "reliable": true,
+   "dcs_lemma_ids": 2,
+   "total": 4694,
+   "coverage": 1.0,
+   "reason": "ok",
+   "homonyms": [
+    {
+     "whitney_no": 393,
+     "gloss": "put",
+     "class": [
+      "I",
+      "II",
+      "III",
+      "IV"
+     ],
+     "attributed": 4571
+    },
+    {
+     "whitney_no": 394,
+     "gloss": "suck",
+     "class": [],
+     "attributed": 123
     }
    ],
    "unattributed": 0
@@ -106,6 +279,128 @@
    "unattributed": 0
   },
   {
+   "lemma": "bhuj",
+   "reliable": true,
+   "dcs_lemma_ids": 2,
+   "total": 2725,
+   "coverage": 1.0,
+   "reason": "ok",
+   "homonyms": [
+    {
+     "whitney_no": 524,
+     "gloss": "bend",
+     "class": [
+      "VI"
+     ],
+     "attributed": 49
+    },
+    {
+     "whitney_no": 525,
+     "gloss": "enjoy",
+     "class": [
+      "VII"
+     ],
+     "attributed": 2676
+    }
+   ],
+   "unattributed": 0
+  },
+  {
+   "lemma": "mṛ",
+   "reliable": true,
+   "dcs_lemma_ids": 2,
+   "total": 2615,
+   "coverage": 1.0,
+   "reason": "ok",
+   "homonyms": [
+    {
+     "whitney_no": 571,
+     "gloss": "die",
+     "class": [
+      "I"
+     ],
+     "attributed": 2601
+    },
+    {
+     "whitney_no": 572,
+     "gloss": "crush",
+     "class": [
+      "VI",
+      "IX"
+     ],
+     "attributed": 14
+    }
+   ],
+   "unattributed": 0
+  },
+  {
+   "lemma": "vas",
+   "reliable": true,
+   "dcs_lemma_ids": 3,
+   "total": 2538,
+   "coverage": 1.0,
+   "reason": "ok",
+   "homonyms": [
+    {
+     "whitney_no": 715,
+     "gloss": "shine",
+     "class": [
+      "II",
+      "VI"
+     ],
+     "attributed": 94
+    },
+    {
+     "whitney_no": 716,
+     "gloss": "clothe",
+     "class": [
+      "II",
+      "VI"
+     ],
+     "attributed": 0
+    },
+    {
+     "whitney_no": 717,
+     "gloss": "dwell",
+     "class": [
+      "I"
+     ],
+     "attributed": 2444
+    }
+   ],
+   "unattributed": 0
+  },
+  {
+   "lemma": "vṛ",
+   "reliable": true,
+   "dcs_lemma_ids": 2,
+   "total": 2083,
+   "coverage": 1.0,
+   "reason": "ok",
+   "homonyms": [
+    {
+     "whitney_no": 740,
+     "gloss": "cover",
+     "class": [
+      "I",
+      "V",
+      "IX"
+     ],
+     "attributed": 1011
+    },
+    {
+     "whitney_no": 741,
+     "gloss": "choose",
+     "class": [
+      "V",
+      "IX"
+     ],
+     "attributed": 1072
+    }
+   ],
+   "unattributed": 0
+  },
+  {
    "lemma": "sidh",
    "reliable": true,
    "dcs_lemma_ids": 2,
@@ -133,30 +428,193 @@
    "unattributed": 0
   },
   {
-   "lemma": "gā",
+   "lemma": "pṛ",
    "reliable": true,
    "dcs_lemma_ids": 2,
-   "total": 1911,
+   "total": 1512,
    "coverage": 1.0,
    "reason": "ok",
    "homonyms": [
     {
-     "whitney_no": 176,
-     "gloss": "go",
+     "whitney_no": 469,
+     "gloss": "fill",
      "class": [
-      "I",
-      "II"
+      "III",
+      "IV",
+      "V",
+      "VI",
+      "IX"
      ],
-     "attributed": 1381
+     "attributed": 1351
     },
     {
-     "whitney_no": 177,
-     "gloss": "sing",
+     "whitney_no": 470,
+     "gloss": "pass",
+     "class": [
+      "I",
+      "II",
+      "III"
+     ],
+     "attributed": 161
+    },
+    {
+     "whitney_no": 471,
+     "gloss": "be busy",
+     "class": [
+      "V"
+     ],
+     "attributed": 0
+    }
+   ],
+   "unattributed": 0
+  },
+  {
+   "lemma": "naś",
+   "reliable": true,
+   "dcs_lemma_ids": 2,
+   "total": 1418,
+   "coverage": 1.0,
+   "reason": "ok",
+   "homonyms": [
+    {
+     "whitney_no": 418,
+     "gloss": "be lost",
      "class": [
       "I",
       "IV"
      ],
-     "attributed": 530
+     "attributed": 1329
+    },
+    {
+     "whitney_no": 419,
+     "gloss": "attain",
+     "class": [
+      "I"
+     ],
+     "attributed": 89
+    }
+   ],
+   "unattributed": 0
+  },
+  {
+   "lemma": "jṛ",
+   "reliable": true,
+   "dcs_lemma_ids": 2,
+   "total": 1414,
+   "coverage": 1.0,
+   "reason": "ok",
+   "homonyms": [
+    {
+     "whitney_no": 265,
+     "gloss": "waste away",
+     "class": [
+      "I",
+      "IV",
+      "VI"
+     ],
+     "attributed": 1388
+    },
+    {
+     "whitney_no": 266,
+     "gloss": "sing",
+     "class": [
+      "I"
+     ],
+     "attributed": 26
+    }
+   ],
+   "unattributed": 0
+  },
+  {
+   "lemma": "kṣi",
+   "reliable": true,
+   "dcs_lemma_ids": 2,
+   "total": 1181,
+   "coverage": 1.0,
+   "reason": "ok",
+   "homonyms": [
+    {
+     "whitney_no": 141,
+     "gloss": "possess",
+     "class": [
+      "I",
+      "II",
+      "VI"
+     ],
+     "attributed": 111
+    },
+    {
+     "whitney_no": 142,
+     "gloss": "destroy",
+     "class": [
+      "I",
+      "II",
+      "IV",
+      "V",
+      "IX"
+     ],
+     "attributed": 1070
+    }
+   ],
+   "unattributed": 0
+  },
+  {
+   "lemma": "rudh",
+   "reliable": true,
+   "dcs_lemma_ids": 2,
+   "total": 892,
+   "coverage": 1.0,
+   "reason": "ok",
+   "homonyms": [
+    {
+     "whitney_no": 658,
+     "gloss": "grow",
+     "class": [
+      "I",
+      "VI"
+     ],
+     "attributed": 2
+    },
+    {
+     "whitney_no": 659,
+     "gloss": "obstruct",
+     "class": [
+      "I",
+      "II",
+      "VII"
+     ],
+     "attributed": 890
+    }
+   ],
+   "unattributed": 0
+  },
+  {
+   "lemma": "ci",
+   "reliable": true,
+   "dcs_lemma_ids": 2,
+   "total": 763,
+   "coverage": 1.0,
+   "reason": "ok",
+   "homonyms": [
+    {
+     "whitney_no": 225,
+     "gloss": "gather",
+     "class": [
+      "I",
+      "II",
+      "V"
+     ],
+     "attributed": 732
+    },
+    {
+     "whitney_no": 226,
+     "gloss": "note, observe",
+     "class": [
+      "I",
+      "III",
+      "V"
+     ],
+     "attributed": 31
     }
    ],
    "unattributed": 0
@@ -184,6 +642,70 @@
       "IV"
      ],
      "attributed": 1
+    }
+   ],
+   "unattributed": 0
+  },
+  {
+   "lemma": "mā",
+   "reliable": true,
+   "dcs_lemma_ids": 2,
+   "total": 680,
+   "coverage": 1.0,
+   "reason": "ok",
+   "homonyms": [
+    {
+     "whitney_no": 548,
+     "gloss": "measure",
+     "class": [
+      "II",
+      "III",
+      "IV"
+     ],
+     "attributed": 648
+    },
+    {
+     "whitney_no": 549,
+     "gloss": "exchange",
+     "class": [
+      "I"
+     ],
+     "attributed": 0
+    },
+    {
+     "whitney_no": 550,
+     "gloss": "bellow",
+     "class": [
+      "III"
+     ],
+     "attributed": 32
+    }
+   ],
+   "unattributed": 0
+  },
+  {
+   "lemma": "dhāv",
+   "reliable": true,
+   "dcs_lemma_ids": 2,
+   "total": 582,
+   "coverage": 1.0,
+   "reason": "ok",
+   "homonyms": [
+    {
+     "whitney_no": 395,
+     "gloss": "run",
+     "class": [
+      "I"
+     ],
+     "attributed": 394
+    },
+    {
+     "whitney_no": 396,
+     "gloss": "rinse",
+     "class": [
+      "I"
+     ],
+     "attributed": 188
     }
    ],
    "unattributed": 0
@@ -249,6 +771,57 @@
    "unattributed": 0
   },
   {
+   "lemma": "ūh",
+   "reliable": true,
+   "dcs_lemma_ids": 2,
+   "total": 98,
+   "coverage": 1.0,
+   "reason": "ok",
+   "homonyms": [
+    {
+     "whitney_no": 67,
+     "gloss": "remove",
+     "class": [
+      "I"
+     ],
+     "attributed": 38
+    },
+    {
+     "whitney_no": 68,
+     "gloss": "consider",
+     "class": [
+      "I",
+      "II"
+     ],
+     "attributed": 60
+    }
+   ],
+   "unattributed": 0
+  },
+  {
+   "lemma": "śad",
+   "reliable": true,
+   "dcs_lemma_ids": 2,
+   "total": 19,
+   "coverage": 1.0,
+   "reason": "ok",
+   "homonyms": [
+    {
+     "whitney_no": 770,
+     "gloss": "prevail",
+     "class": [],
+     "attributed": 17
+    },
+    {
+     "whitney_no": 771,
+     "gloss": "fall",
+     "class": [],
+     "attributed": 2
+    }
+   ],
+   "unattributed": 0
+  },
+  {
    "lemma": "gam",
    "reliable": false,
    "dcs_lemma_ids": 1,
@@ -273,151 +846,6 @@
     }
    ],
    "unattributed": 18341
-  },
-  {
-   "lemma": "dā",
-   "reliable": false,
-   "dcs_lemma_ids": 2,
-   "total": 12008,
-   "coverage": 0.003,
-   "reason": "collapses onto one homonym",
-   "homonyms": [
-    {
-     "whitney_no": 349,
-     "gloss": "give",
-     "class": [
-      "I",
-      "II",
-      "III",
-      "IV"
-     ],
-     "attributed": 38
-    },
-    {
-     "whitney_no": 350,
-     "gloss": "divide, share",
-     "class": [
-      "I",
-      "VI"
-     ],
-     "attributed": 0
-    },
-    {
-     "whitney_no": 351,
-     "gloss": "bind",
-     "class": [],
-     "attributed": 0
-    },
-    {
-     "whitney_no": 352,
-     "gloss": "clear",
-     "class": [],
-     "attributed": 0
-    }
-   ],
-   "unattributed": 11970
-  },
-  {
-   "lemma": "vid",
-   "reliable": false,
-   "dcs_lemma_ids": 2,
-   "total": 11314,
-   "coverage": 0.83,
-   "reason": "collapses onto one homonym",
-   "homonyms": [
-    {
-     "whitney_no": 728,
-     "gloss": "know",
-     "class": [
-      "I",
-      "II",
-      "VI"
-     ],
-     "attributed": 9391
-    },
-    {
-     "whitney_no": 729,
-     "gloss": "find",
-     "class": [
-      "II",
-      "VI"
-     ],
-     "attributed": 0
-    }
-   ],
-   "unattributed": 1923
-  },
-  {
-   "lemma": "pā",
-   "reliable": false,
-   "dcs_lemma_ids": 2,
-   "total": 5393,
-   "coverage": 0.753,
-   "reason": "collapses onto one homonym",
-   "homonyms": [
-    {
-     "whitney_no": 448,
-     "gloss": "drink",
-     "class": [
-      "I",
-      "II",
-      "III"
-     ],
-     "attributed": 4063
-    },
-    {
-     "whitney_no": 449,
-     "gloss": "protect",
-     "class": [
-      "II"
-     ],
-     "attributed": 0
-    },
-    {
-     "whitney_no": 450,
-     "gloss": "rise against",
-     "class": [],
-     "attributed": 0
-    }
-   ],
-   "unattributed": 1330
-  },
-  {
-   "lemma": "iṣ",
-   "reliable": false,
-   "dcs_lemma_ids": 2,
-   "total": 4842,
-   "coverage": 0.982,
-   "reason": "collapses onto one homonym",
-   "homonyms": [
-    {
-     "whitney_no": 32,
-     "gloss": "",
-     "class": [],
-     "attributed": 0
-    },
-    {
-     "whitney_no": 42,
-     "gloss": "seek, desire",
-     "class": [
-      "I",
-      "IV",
-      "VI"
-     ],
-     "attributed": 4754
-    },
-    {
-     "whitney_no": 43,
-     "gloss": "send",
-     "class": [
-      "IV",
-      "VI",
-      "IX"
-     ],
-     "attributed": 0
-    }
-   ],
-   "unattributed": 88
   },
   {
    "lemma": "paś",
@@ -445,39 +873,11 @@
    "unattributed": 0
   },
   {
-   "lemma": "dhā",
-   "reliable": false,
-   "dcs_lemma_ids": 2,
-   "total": 4694,
-   "coverage": 1.0,
-   "reason": "collapses onto one homonym",
-   "homonyms": [
-    {
-     "whitney_no": 393,
-     "gloss": "put",
-     "class": [
-      "I",
-      "II",
-      "III",
-      "IV"
-     ],
-     "attributed": 4694
-    },
-    {
-     "whitney_no": 394,
-     "gloss": "suck",
-     "class": [],
-     "attributed": 0
-    }
-   ],
-   "unattributed": 0
-  },
-  {
    "lemma": "ji",
    "reliable": false,
    "dcs_lemma_ids": 1,
    "total": 4082,
-   "coverage": 0.0,
+   "coverage": 1.0,
    "reason": "DCS lumps (1 verb lemma_id)",
    "homonyms": [
     {
@@ -487,7 +887,7 @@
       "I",
       "II"
      ],
-     "attributed": 0
+     "attributed": 4082
     },
     {
      "whitney_no": 259,
@@ -499,7 +899,7 @@
      "attributed": 0
     }
    ],
-   "unattributed": 4082
+   "unattributed": 0
   },
   {
    "lemma": "i",
@@ -588,98 +988,6 @@
    "unattributed": 42
   },
   {
-   "lemma": "bhuj",
-   "reliable": false,
-   "dcs_lemma_ids": 2,
-   "total": 2725,
-   "coverage": 1.0,
-   "reason": "collapses onto one homonym",
-   "homonyms": [
-    {
-     "whitney_no": 524,
-     "gloss": "bend",
-     "class": [
-      "VI"
-     ],
-     "attributed": 2725
-    },
-    {
-     "whitney_no": 525,
-     "gloss": "enjoy",
-     "class": [
-      "VII"
-     ],
-     "attributed": 0
-    }
-   ],
-   "unattributed": 0
-  },
-  {
-   "lemma": "mṛ",
-   "reliable": false,
-   "dcs_lemma_ids": 2,
-   "total": 2615,
-   "coverage": 0.005,
-   "reason": "collapses onto one homonym",
-   "homonyms": [
-    {
-     "whitney_no": 571,
-     "gloss": "die",
-     "class": [
-      "I"
-     ],
-     "attributed": 0
-    },
-    {
-     "whitney_no": 572,
-     "gloss": "crush",
-     "class": [
-      "VI",
-      "IX"
-     ],
-     "attributed": 14
-    }
-   ],
-   "unattributed": 2601
-  },
-  {
-   "lemma": "vas",
-   "reliable": false,
-   "dcs_lemma_ids": 3,
-   "total": 2538,
-   "coverage": 0.087,
-   "reason": "collapses onto one homonym",
-   "homonyms": [
-    {
-     "whitney_no": 715,
-     "gloss": "shine",
-     "class": [
-      "II",
-      "VI"
-     ],
-     "attributed": 0
-    },
-    {
-     "whitney_no": 716,
-     "gloss": "clothe",
-     "class": [
-      "II",
-      "VI"
-     ],
-     "attributed": 0
-    },
-    {
-     "whitney_no": 717,
-     "gloss": "dwell",
-     "class": [
-      "I"
-     ],
-     "attributed": 220
-    }
-   ],
-   "unattributed": 2318
-  },
-  {
    "lemma": "stu",
    "reliable": false,
    "dcs_lemma_ids": 1,
@@ -707,36 +1015,6 @@
    "unattributed": 0
   },
   {
-   "lemma": "vṛ",
-   "reliable": false,
-   "dcs_lemma_ids": 2,
-   "total": 2083,
-   "coverage": 0.485,
-   "reason": "collapses onto one homonym",
-   "homonyms": [
-    {
-     "whitney_no": 740,
-     "gloss": "cover",
-     "class": [
-      "I",
-      "V",
-      "IX"
-     ],
-     "attributed": 1011
-    },
-    {
-     "whitney_no": 741,
-     "gloss": "choose",
-     "class": [
-      "V",
-      "IX"
-     ],
-     "attributed": 0
-    }
-   ],
-   "unattributed": 1072
-  },
-  {
    "lemma": "aś",
    "reliable": false,
    "dcs_lemma_ids": 2,
@@ -760,6 +1038,35 @@
       "IX"
      ],
      "attributed": 1948
+    }
+   ],
+   "unattributed": 0
+  },
+  {
+   "lemma": "gā",
+   "reliable": false,
+   "dcs_lemma_ids": 2,
+   "total": 1911,
+   "coverage": 1.0,
+   "reason": "collapses onto one homonym",
+   "homonyms": [
+    {
+     "whitney_no": 176,
+     "gloss": "go",
+     "class": [
+      "I",
+      "II"
+     ],
+     "attributed": 0
+    },
+    {
+     "whitney_no": 177,
+     "gloss": "sing",
+     "class": [
+      "I",
+      "IV"
+     ],
+     "attributed": 1911
     }
    ],
    "unattributed": 0
@@ -793,137 +1100,6 @@
    "unattributed": 0
   },
   {
-   "lemma": "pṛ",
-   "reliable": false,
-   "dcs_lemma_ids": 2,
-   "total": 1512,
-   "coverage": 0.106,
-   "reason": "collapses onto one homonym",
-   "homonyms": [
-    {
-     "whitney_no": 469,
-     "gloss": "fill",
-     "class": [
-      "III",
-      "IV",
-      "V",
-      "VI",
-      "IX"
-     ],
-     "attributed": 0
-    },
-    {
-     "whitney_no": 470,
-     "gloss": "pass",
-     "class": [
-      "I",
-      "II",
-      "III"
-     ],
-     "attributed": 161
-    },
-    {
-     "whitney_no": 471,
-     "gloss": "be busy",
-     "class": [
-      "V"
-     ],
-     "attributed": 0
-    }
-   ],
-   "unattributed": 1351
-  },
-  {
-   "lemma": "naś",
-   "reliable": false,
-   "dcs_lemma_ids": 2,
-   "total": 1418,
-   "coverage": 0.0,
-   "reason": "collapses onto one homonym",
-   "homonyms": [
-    {
-     "whitney_no": 418,
-     "gloss": "be lost",
-     "class": [
-      "I",
-      "IV"
-     ],
-     "attributed": 0
-    },
-    {
-     "whitney_no": 419,
-     "gloss": "attain",
-     "class": [
-      "I"
-     ],
-     "attributed": 0
-    }
-   ],
-   "unattributed": 1418
-  },
-  {
-   "lemma": "jṛ",
-   "reliable": false,
-   "dcs_lemma_ids": 2,
-   "total": 1414,
-   "coverage": 0.982,
-   "reason": "collapses onto one homonym",
-   "homonyms": [
-    {
-     "whitney_no": 265,
-     "gloss": "waste away",
-     "class": [
-      "I",
-      "IV",
-      "VI"
-     ],
-     "attributed": 1388
-    },
-    {
-     "whitney_no": 266,
-     "gloss": "sing",
-     "class": [
-      "I"
-     ],
-     "attributed": 0
-    }
-   ],
-   "unattributed": 26
-  },
-  {
-   "lemma": "kṣi",
-   "reliable": false,
-   "dcs_lemma_ids": 2,
-   "total": 1181,
-   "coverage": 1.0,
-   "reason": "collapses onto one homonym",
-   "homonyms": [
-    {
-     "whitney_no": 141,
-     "gloss": "possess",
-     "class": [
-      "I",
-      "II",
-      "VI"
-     ],
-     "attributed": 0
-    },
-    {
-     "whitney_no": 142,
-     "gloss": "destroy",
-     "class": [
-      "I",
-      "II",
-      "IV",
-      "V",
-      "IX"
-     ],
-     "attributed": 1181
-    }
-   ],
-   "unattributed": 0
-  },
-  {
    "lemma": "śam",
    "reliable": false,
    "dcs_lemma_ids": 1,
@@ -940,7 +1116,7 @@
       "IV",
       "IX"
      ],
-     "attributed": 1159
+     "attributed": 0
     },
     {
      "whitney_no": 774,
@@ -949,7 +1125,7 @@
       "I",
       "IV"
      ],
-     "attributed": 0
+     "attributed": 1159
     },
     {
      "whitney_no": 775,
@@ -965,14 +1141,14 @@
    "reliable": false,
    "dcs_lemma_ids": 2,
    "total": 1116,
-   "coverage": 0.0,
+   "coverage": 1.0,
    "reason": "collapses onto one homonym",
    "homonyms": [
     {
      "whitney_no": 788,
      "gloss": "fall",
      "class": [],
-     "attributed": 0
+     "attributed": 1116
     },
     {
      "whitney_no": 789,
@@ -984,7 +1160,7 @@
      "attributed": 0
     }
    ],
-   "unattributed": 1116
+   "unattributed": 0
   },
   {
    "lemma": "yam",
@@ -1013,109 +1189,11 @@
    "unattributed": 1093
   },
   {
-   "lemma": "rudh",
-   "reliable": false,
-   "dcs_lemma_ids": 2,
-   "total": 892,
-   "coverage": 0.0,
-   "reason": "collapses onto one homonym",
-   "homonyms": [
-    {
-     "whitney_no": 658,
-     "gloss": "grow",
-     "class": [
-      "I",
-      "VI"
-     ],
-     "attributed": 0
-    },
-    {
-     "whitney_no": 659,
-     "gloss": "obstruct",
-     "class": [
-      "I",
-      "II",
-      "VII"
-     ],
-     "attributed": 0
-    }
-   ],
-   "unattributed": 892
-  },
-  {
-   "lemma": "ci",
-   "reliable": false,
-   "dcs_lemma_ids": 2,
-   "total": 763,
-   "coverage": 0.041,
-   "reason": "collapses onto one homonym",
-   "homonyms": [
-    {
-     "whitney_no": 225,
-     "gloss": "gather",
-     "class": [
-      "I",
-      "II",
-      "V"
-     ],
-     "attributed": 0
-    },
-    {
-     "whitney_no": 226,
-     "gloss": "note, observe",
-     "class": [
-      "I",
-      "III",
-      "V"
-     ],
-     "attributed": 31
-    }
-   ],
-   "unattributed": 732
-  },
-  {
-   "lemma": "mā",
-   "reliable": false,
-   "dcs_lemma_ids": 2,
-   "total": 680,
-   "coverage": 0.953,
-   "reason": "collapses onto one homonym",
-   "homonyms": [
-    {
-     "whitney_no": 548,
-     "gloss": "measure",
-     "class": [
-      "II",
-      "III",
-      "IV"
-     ],
-     "attributed": 648
-    },
-    {
-     "whitney_no": 549,
-     "gloss": "exchange",
-     "class": [
-      "I"
-     ],
-     "attributed": 0
-    },
-    {
-     "whitney_no": 550,
-     "gloss": "bellow",
-     "class": [
-      "III"
-     ],
-     "attributed": 0
-    }
-   ],
-   "unattributed": 32
-  },
-  {
    "lemma": "śrī",
    "reliable": false,
    "dcs_lemma_ids": 1,
    "total": 644,
-   "coverage": 0.0,
+   "coverage": 1.0,
    "reason": "DCS lumps (1 verb lemma_id)",
    "homonyms": [
     {
@@ -1124,7 +1202,7 @@
      "class": [
       "IX"
      ],
-     "attributed": 0
+     "attributed": 644
     },
     {
      "whitney_no": 814,
@@ -1133,41 +1211,14 @@
      "attributed": 0
     }
    ],
-   "unattributed": 644
-  },
-  {
-   "lemma": "dhāv",
-   "reliable": false,
-   "dcs_lemma_ids": 2,
-   "total": 582,
-   "coverage": 0.0,
-   "reason": "collapses onto one homonym",
-   "homonyms": [
-    {
-     "whitney_no": 395,
-     "gloss": "run",
-     "class": [
-      "I"
-     ],
-     "attributed": 0
-    },
-    {
-     "whitney_no": 396,
-     "gloss": "rinse",
-     "class": [
-      "I"
-     ],
-     "attributed": 0
-    }
-   ],
-   "unattributed": 582
+   "unattributed": 0
   },
   {
    "lemma": "paṭh",
    "reliable": false,
    "dcs_lemma_ids": 1,
    "total": 582,
-   "coverage": 0.0,
+   "coverage": 1.0,
    "reason": "DCS lumps (1 verb lemma_id)",
    "homonyms": [
     {
@@ -1176,7 +1227,7 @@
      "class": [
       "I"
      ],
-     "attributed": 0
+     "attributed": 582
     },
     {
      "whitney_no": 442,
@@ -1187,7 +1238,7 @@
      "attributed": 0
     }
    ],
-   "unattributed": 582
+   "unattributed": 0
   },
   {
    "lemma": "śās",
@@ -1220,7 +1271,7 @@
    "reliable": false,
    "dcs_lemma_ids": 2,
    "total": 399,
-   "coverage": 0.0,
+   "coverage": 0.138,
    "reason": "collapses onto one homonym",
    "homonyms": [
     {
@@ -1239,7 +1290,7 @@
       "VI",
       "IX"
      ],
-     "attributed": 0
+     "attributed": 55
     },
     {
      "whitney_no": 192,
@@ -1251,7 +1302,7 @@
      "attributed": 0
     }
    ],
-   "unattributed": 399
+   "unattributed": 344
   },
   {
    "lemma": "khād",
@@ -1311,7 +1362,7 @@
    "reliable": false,
    "dcs_lemma_ids": 1,
    "total": 320,
-   "coverage": 0.0,
+   "coverage": 1.0,
    "reason": "DCS lumps (1 verb lemma_id)",
    "homonyms": [
     {
@@ -1320,7 +1371,7 @@
      "class": [
       "I"
      ],
-     "attributed": 0
+     "attributed": 320
     },
     {
      "whitney_no": 709,
@@ -1331,7 +1382,7 @@
      "attributed": 0
     }
    ],
-   "unattributed": 320
+   "unattributed": 0
   },
   {
    "lemma": "vā",
@@ -1426,7 +1477,7 @@
    "reliable": false,
    "dcs_lemma_ids": 2,
    "total": 220,
-   "coverage": 0.027,
+   "coverage": 1.0,
    "reason": "collapses onto one homonym",
    "homonyms": [
     {
@@ -1436,7 +1487,7 @@
       "I",
       "VI"
      ],
-     "attributed": 6
+     "attributed": 220
     },
     {
      "whitney_no": 110,
@@ -1447,7 +1498,7 @@
      "attributed": 0
     }
    ],
-   "unattributed": 214
+   "unattributed": 0
   },
   {
    "lemma": "vidh",
@@ -1479,7 +1530,7 @@
    "reliable": false,
    "dcs_lemma_ids": 1,
    "total": 191,
-   "coverage": 0.0,
+   "coverage": 1.0,
    "reason": "DCS lumps (1 verb lemma_id)",
    "homonyms": [
     {
@@ -1488,7 +1539,7 @@
      "class": [
       "VI"
      ],
-     "attributed": 0
+     "attributed": 191
     },
     {
      "whitney_no": 56,
@@ -1497,14 +1548,14 @@
      "attributed": 0
     }
    ],
-   "unattributed": 191
+   "unattributed": 0
   },
   {
    "lemma": "śuṣ",
    "reliable": false,
    "dcs_lemma_ids": 1,
    "total": 166,
-   "coverage": 0.0,
+   "coverage": 1.0,
    "reason": "DCS lumps (1 verb lemma_id)",
    "homonyms": [
     {
@@ -1513,7 +1564,7 @@
      "class": [
       "IV"
      ],
-     "attributed": 0
+     "attributed": 166
     },
     {
      "whitney_no": 795,
@@ -1522,7 +1573,7 @@
      "attributed": 0
     }
    ],
-   "unattributed": 166
+   "unattributed": 0
   },
   {
    "lemma": "dṛ",
@@ -1639,39 +1690,11 @@
    "unattributed": 0
   },
   {
-   "lemma": "ūh",
-   "reliable": false,
-   "dcs_lemma_ids": 2,
-   "total": 98,
-   "coverage": 0.0,
-   "reason": "collapses onto one homonym",
-   "homonyms": [
-    {
-     "whitney_no": 67,
-     "gloss": "remove",
-     "class": [
-      "I"
-     ],
-     "attributed": 0
-    },
-    {
-     "whitney_no": 68,
-     "gloss": "consider",
-     "class": [
-      "I",
-      "II"
-     ],
-     "attributed": 0
-    }
-   ],
-   "unattributed": 98
-  },
-  {
    "lemma": "ru",
    "reliable": false,
    "dcs_lemma_ids": 2,
    "total": 86,
-   "coverage": 0.0,
+   "coverage": 0.07,
    "reason": "collapses onto one homonym",
    "homonyms": [
     {
@@ -1691,17 +1714,17 @@
       "I",
       "II"
      ],
-     "attributed": 0
+     "attributed": 6
     }
    ],
-   "unattributed": 86
+   "unattributed": 80
   },
   {
    "lemma": "du",
    "reliable": false,
    "dcs_lemma_ids": 1,
    "total": 82,
-   "coverage": 0.0,
+   "coverage": 1.0,
    "reason": "DCS lumps (1 verb lemma_id)",
    "homonyms": [
     {
@@ -1710,7 +1733,7 @@
      "class": [
       "V"
      ],
-     "attributed": 0
+     "attributed": 82
     },
     {
      "whitney_no": 370,
@@ -1719,14 +1742,14 @@
      "attributed": 0
     }
    ],
-   "unattributed": 82
+   "unattributed": 0
   },
   {
    "lemma": "sā",
    "reliable": false,
    "dcs_lemma_ids": 1,
    "total": 75,
-   "coverage": 0.0,
+   "coverage": 1.0,
    "reason": "DCS lumps (1 verb lemma_id)",
    "homonyms": [
     {
@@ -1736,7 +1759,7 @@
       "V",
       "IX"
      ],
-     "attributed": 0
+     "attributed": 75
     },
     {
      "whitney_no": 838,
@@ -1745,7 +1768,7 @@
      "attributed": 0
     }
    ],
-   "unattributed": 75
+   "unattributed": 0
   },
   {
    "lemma": "ri",
@@ -1808,7 +1831,7 @@
    "reliable": false,
    "dcs_lemma_ids": 1,
    "total": 33,
-   "coverage": 0.0,
+   "coverage": 1.0,
    "reason": "DCS lumps (1 verb lemma_id)",
    "homonyms": [
     {
@@ -1824,10 +1847,10 @@
       "I",
       "IX"
      ],
-     "attributed": 0
+     "attributed": 33
     }
    ],
-   "unattributed": 33
+   "unattributed": 0
   },
   {
    "lemma": "luṭh",
@@ -1861,7 +1884,7 @@
    "reliable": false,
    "dcs_lemma_ids": 1,
    "total": 21,
-   "coverage": 0.0,
+   "coverage": 1.0,
    "reason": "DCS lumps (1 verb lemma_id)",
    "homonyms": [
     {
@@ -1870,7 +1893,7 @@
      "class": [
       "II"
      ],
-     "attributed": 0
+     "attributed": 21
     },
     {
      "whitney_no": 382,
@@ -1882,30 +1905,7 @@
      "attributed": 0
     }
    ],
-   "unattributed": 21
-  },
-  {
-   "lemma": "śad",
-   "reliable": false,
-   "dcs_lemma_ids": 2,
-   "total": 19,
-   "coverage": 0.0,
-   "reason": "collapses onto one homonym",
-   "homonyms": [
-    {
-     "whitney_no": 770,
-     "gloss": "prevail",
-     "class": [],
-     "attributed": 0
-    },
-    {
-     "whitney_no": 771,
-     "gloss": "fall",
-     "class": [],
-     "attributed": 0
-    }
-   ],
-   "unattributed": 19
+   "unattributed": 0
   },
   {
    "lemma": "kṣviḍ",
@@ -1989,7 +1989,7 @@
    "reliable": false,
    "dcs_lemma_ids": 1,
    "total": 8,
-   "coverage": 0.0,
+   "coverage": 1.0,
    "reason": "DCS lumps (1 verb lemma_id)",
    "homonyms": [
     {
@@ -1999,7 +1999,7 @@
       "III",
       "VII"
      ],
-     "attributed": 0
+     "attributed": 8
     },
     {
      "whitney_no": 726,
@@ -2008,7 +2008,7 @@
      "attributed": 0
     }
    ],
-   "unattributed": 8
+   "unattributed": 0
   },
   {
    "lemma": "pī",

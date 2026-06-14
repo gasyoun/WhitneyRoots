@@ -34,14 +34,30 @@ def homonym_arabic(r):
     return {R2A[c] for c in (r.get('class') or []) if c in R2A}
 
 def verb_lemma_ids(con, lemma):
-    """[(lemma_id, {arabic gaṇa}, verb_token_count)] for a lemma string, verb rows only."""
+    """[(lemma_id, {arabic gaṇa}, meanings, verb_token_count)] for a lemma string, verb rows only."""
     out = []
-    for lid, g in con.execute("SELECT lemma_id, grammar FROM lemma WHERE lemma=?", (lemma,)):
+    for lid, g, meanings in con.execute("SELECT lemma_id, grammar, meanings FROM lemma WHERE lemma=?", (lemma,)):
         n = con.execute("SELECT COUNT(*) FROM token WHERE lemma_id=? AND upos='VERB'", (lid,)).fetchone()[0]
         if n:
             cls = {int(x) for x in re.findall(r'\b(\d{1,2})\b', g or '') if 1 <= int(x) <= 10}
-            out.append((lid, cls, n))
+            out.append((lid, cls, meanings, n))
     return out
+
+def gloss_words(s):
+    return {w for w in re.findall(r'[a-z]{3,}', (s or '').lower()) if w not in ('etc', 'the', 'and', 'for')}
+
+def map_lemma_id(meanings, acls, group):
+    """Map a DCS verb lemma_id to the single Whitney homonym it belongs to. GLOSS first (the DCS
+    `meanings` sense keyword matches one homonym's warnemyr gloss — robust where DCS/Whitney gaṇa
+    numbering diverges, e.g. mṛ DCS-cl.4 'die' → Whitney-cl.I 'die'); gaṇa as the fallback."""
+    mw = gloss_words(meanings)
+    gmatch = [r for r in group if gloss_words(r.get('gloss_short', '')) & mw]
+    if len(gmatch) == 1:
+        return gmatch[0]['whitney_no'], 'gloss'
+    cmatch = [r for r in group if homonym_arabic(r) & acls]
+    if len(cmatch) == 1:
+        return cmatch[0]['whitney_no'], 'class'
+    return None, None
 
 def main():
     spine = json.load(open(SPINE, encoding='utf-8'))
@@ -59,11 +75,11 @@ def main():
         lids = verb_lemma_ids(con, lem)
         counts = {r['whitney_no']: 0 for r in group}
         total = unattr = 0
-        for lid, acls, n in lids:
+        for lid, acls, meanings, n in lids:
             total += n
-            matches = [r['whitney_no'] for r in group if homonym_arabic(r) & acls]
-            if len(matches) == 1:
-                counts[matches[0]] += n
+            who, _basis = map_lemma_id(meanings, acls, group)
+            if who is not None:
+                counts[who] += n
             else:
                 unattr += n                      # lemma_id maps to 0 or >1 homonyms → ambiguous
         attr = total - unattr
