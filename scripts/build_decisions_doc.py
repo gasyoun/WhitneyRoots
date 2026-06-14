@@ -206,6 +206,16 @@ out.append('**2026-06-14 refinement (see §3d):** the validator now honours **al
            'vidyut-generated) and move to §3d; the **5** below remain only because the source PPP column is '
            'ASCII-romanised. Each verdict is now revisable via the `match_basis` / `matched_against` fields '
            'in `crosswalk/ppp_validation.json`.\n')
+out.append('**Whitney\'s _Grammar_ at Wikisource independently confirms the doublets & the causative PPP** '
+           '([Sanskrit Grammar (Whitney)](https://en.wikisource.org/wiki/Sanskrit_Grammar_(Whitney))): '
+           '§956b names `gup`, `kṣubh`/`gras`/`piś` ("have/make **both forms**"), and `iṣ send`; §957c gives '
+           '"`vigna` (beside `vikta`)"; §957a "`dā` divide makes `diná` (also `dita` and `-tta`)" — *not* '
+           '`datta` (§952 `dattá` = √dā **give**) — and "`dū` burn (also `duta`)"; §957d "`vinna` (√`vid` '
+           '**find**: also `vittá`)" (vs `vid` know → `vidita`, §956b); §955a `çāṁtá` (√`çam` **be quiet**) vs '
+           '`çam` labor → `çamita` (§956b); and §1051a the causative passive participle "as `dhārita`". This '
+           'vindicates the §3d review flags (`dā` #350, `vid` #729). **What Whitney cannot confirm: see §3e** '
+           '(the corpus-frequency matches), and note the per-root form list — Whitney\'s 1885 *Roots* supplement '
+           'that warnemyr mirrors — **is not on Wikisource** (its Grammar Appendix there covers only bhū/kṛ).\n')
 
 if ppp_val:
     corro = [x for x in ppp_val.get('items', []) if x.get('corpus_backs_vidyut')]
@@ -265,10 +275,34 @@ if ppp_val:
                    % (x['whitney_no'], x['root'], x['matched_form'], x['matched_against'], x['match_basis'], note))
     out.append('\n**To revise** any class of match, filter `crosswalk/ppp_validation.json` on the provenance '
                'fields — e.g. force `match_basis == "source_alt"` (#259, #729) or `matched_against == "dcs"` '
-               '(the 10 corpus-agreement flips) back to a flag. The 5 survivors in §3a/§3b would also resolve '
-               'if the source PPP column were re-keyed with diacritics (its ASCII `ksubhita`/`pisita`/`ista`/'
-               '`mrta` cannot equal vidyut\'s `kṣubhita`/`piśita`/`iṣṭa`/`mṛta` under the length- and '
+               '(the 10 corpus-agreement flips — see §3e) back to a flag. The 5 survivors in §3a/§3b would also '
+               'resolve if the source PPP column were re-keyed with diacritics (its ASCII `ksubhita`/`pisita`/'
+               '`ista`/`mrta` cannot equal vidyut\'s `kṣubhita`/`piśita`/`iṣṭa`/`mṛta` under the length- and '
                'retroflex-preserving `form_key`).\n')
+
+    # ---- 3e: the corpus-frequency (DCS) matches — attestation, NOT a grammar rule. Left for later. ----
+    dcs_flips = sorted((x for x in ppp_val.get('items', [])
+                        if x.get('matched_against') == 'dcs' and x['verdict'] == 'match'),
+                       key=lambda z: z['whitney_no'])
+    out.append('### 3e. ⏳ Open for later — the %d corpus-frequency (DCS) matches (attestation, not a rule)\n'
+               % len(dcs_flips))
+    out.append('These cleared the flag because **warnemyr\'s recorded PPP equals the DCS corpus\'s most-frequent '
+               'attested PPP**, while vidyut generates a *different* (usually more regular / Pāṇinian) form. '
+               'That is an **attestation / usage-frequency** agreement, **not a grammatical rule**. ⚠️ Whitney\'s '
+               '*Grammar* at Wikisource (§§952–957, §1051 — which confirm the doublet & causative-PPP rules) '
+               '**cannot adjudicate these**: a grammar states which forms are *possible*, not which is *most '
+               'frequent in a corpus*. And the exhaustive per-root form list — Whitney\'s 1885 supplement '
+               '*Roots, Verb-Forms, and Primary Derivatives* (which warnemyr mirrors) — **is not on Wikisource** '
+               '(the Grammar\'s own Appendix there is only a bhū/kṛ synopsis). So these stay **corpus-corroborated '
+               'but grammar-unverifiable → leave for later** (a human / Zalizniak call, or the 1885 supplement). '
+               'Revisable via `matched_against == "dcs"`.\n')
+    out.append('| # | root | warnemyr PPP = DCS top | vidyut generates (differs) |')
+    out.append('|--:|---|:-:|:-:|')
+    for x in dcs_flips:
+        out.append('| %s | %s | `%s` | `%s` |'
+                   % (x['whitney_no'], x['root'], x['dcs_top_ppp'] or x['matched_form'],
+                      ','.join(x['vidyut_ppp'])))
+    out.append('')
 else:
     out.append('_`crosswalk/ppp_validation.json` not present — run `python scripts/vidyut_validate_ppp.py`._\n')
 

@@ -82,6 +82,8 @@ From `scratch/phase0/audit.md` (full warnemyr re-harvest of `1885/`). **GAP** = 
 
 **2026-06-14 refinement (see §3d):** the validator now honours **all** of warnemyr's comma-separated PPP forms and vidyut's **causative (ṇic)** kta. Under that rule **8 of the 13** former corpus-corroborated mismatches resolve to `match` (a recorded warnemyr form *is* vidyut-generated) and move to §3d; the **5** below remain only because the source PPP column is ASCII-romanised. Each verdict is now revisable via the `match_basis` / `matched_against` fields in `crosswalk/ppp_validation.json`.
 
+**Whitney's _Grammar_ at Wikisource independently confirms the doublets & the causative PPP** ([Sanskrit Grammar (Whitney)](https://en.wikisource.org/wiki/Sanskrit_Grammar_(Whitney))): §956b names `gup`, `kṣubh`/`gras`/`piś` ("have/make **both forms**"), and `iṣ send`; §957c gives "`vigna` (beside `vikta`)"; §957a "`dā` divide makes `diná` (also `dita` and `-tta`)" — *not* `datta` (§952 `dattá` = √dā **give**) — and "`dū` burn (also `duta`)"; §957d "`vinna` (√`vid` **find**: also `vittá`)" (vs `vid` know → `vidita`, §956b); §955a `çāṁtá` (√`çam` **be quiet**) vs `çam` labor → `çamita` (§956b); and §1051a the causative passive participle "as `dhārita`". This vindicates the §3d review flags (`dā` #350, `vid` #729). **What Whitney cannot confirm: see §3e** (the corpus-frequency matches), and note the per-root form list — Whitney's 1885 *Roots* supplement that warnemyr mirrors — **is not on Wikisource** (its Grammar Appendix there covers only bhū/kṛ).
+
 ### 3a. KEEP warnemyr — corpus reflects a *different* homonym (3)
 
 warnemyr is **correct** for the glossed sense; the corpus form belongs to a same-spelled root the DCS lemma conflates (the √vid know/find, √mṛ die/crush pattern). **Action: do not change** — and treat each as positive evidence for the homonym split (cf. `crosswalk/token_attribution.json`).
@@ -118,7 +120,24 @@ A recorded warnemyr PPP form **is** vidyut-generated once we honour the full com
 | 729 | vid | `vidita` | vidyut | source_alt | ⚠️ numbered source lists `vidita` ≠ warnemyr HTML `vittá`; this overrides the §3a homonym KEEP — confirm |
 | 773 | śam | `śamitá` | vidyut_caus | spine | ok — warnemyr's recorded form is Pāṇinianly sound |
 
-**To revise** any class of match, filter `crosswalk/ppp_validation.json` on the provenance fields — e.g. force `match_basis == "source_alt"` (#259, #729) or `matched_against == "dcs"` (the 10 corpus-agreement flips) back to a flag. The 5 survivors in §3a/§3b would also resolve if the source PPP column were re-keyed with diacritics (its ASCII `ksubhita`/`pisita`/`ista`/`mrta` cannot equal vidyut's `kṣubhita`/`piśita`/`iṣṭa`/`mṛta` under the length- and retroflex-preserving `form_key`).
+**To revise** any class of match, filter `crosswalk/ppp_validation.json` on the provenance fields — e.g. force `match_basis == "source_alt"` (#259, #729) or `matched_against == "dcs"` (the 10 corpus-agreement flips — see §3e) back to a flag. The 5 survivors in §3a/§3b would also resolve if the source PPP column were re-keyed with diacritics (its ASCII `ksubhita`/`pisita`/`ista`/`mrta` cannot equal vidyut's `kṣubhita`/`piśita`/`iṣṭa`/`mṛta` under the length- and retroflex-preserving `form_key`).
+
+### 3e. ⏳ Open for later — the 10 corpus-frequency (DCS) matches (attestation, not a rule)
+
+These cleared the flag because **warnemyr's recorded PPP equals the DCS corpus's most-frequent attested PPP**, while vidyut generates a *different* (usually more regular / Pāṇinian) form. That is an **attestation / usage-frequency** agreement, **not a grammatical rule**. ⚠️ Whitney's *Grammar* at Wikisource (§§952–957, §1051 — which confirm the doublet & causative-PPP rules) **cannot adjudicate these**: a grammar states which forms are *possible*, not which is *most frequent in a corpus*. And the exhaustive per-root form list — Whitney's 1885 supplement *Roots, Verb-Forms, and Primary Derivatives* (which warnemyr mirrors) — **is not on Wikisource** (the Grammar's own Appendix there is only a bhū/kṛ synopsis). So these stay **corpus-corroborated but grammar-unverifiable → leave for later** (a human / Zalizniak call, or the 1885 supplement). Revisable via `matched_against == "dcs"`.
+
+| # | root | warnemyr PPP = DCS top | vidyut generates (differs) |
+|--:|---|:-:|:-:|
+| 65 | uṣ | `uṣṭa` | `uṣita` |
+| 112 | kṛś | `kṛśita` | `kṛśa` |
+| 270 | jyā | `jīta` | `jīna` |
+| 376 | dṛh | `dṛḍha` | `dṛnhita` |
+| 544 | math | `mathita` | `manthita` |
+| 548 | mā | `mita` | `mīta` |
+| 561 | mī | `mīta` | `mīna` |
+| 668 | lag | `lagna` | `lagita` |
+| 790 | śuc | `śukta` | `śucita` |
+| 822 | śvas | `śvasita` | `śvasta` |
 
 ### 3c. Open editorial call — √dā `dātta`
 
