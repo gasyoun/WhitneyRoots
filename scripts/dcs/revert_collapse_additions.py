@@ -44,7 +44,16 @@ for e in curr['lexicon']:
         continue
 
     has_invalid = any('|' in c for c in cnow)            # 'IV|PASS'
-    is_iv_collapse = (added == {'VI'} and 'I' in cold) or (added == {'I'} and 'VI' in cold)
+    # I/VI accent-collapse: the unaccented corpus cannot tell class I from VI.
+    # The collapse shows up either as a single {VI}/{I} added against the other,
+    # OR as the *pair* {I, VI} added together from an empty Whitney baseline
+    # (pṛṇ, mṛṇ, sphur) — the pair form was missed by the original single-class
+    # patterns and left corpus-only classes live in app_data.json.
+    is_iv_collapse = (
+        (added == {'VI'} and 'I' in cold)
+        or (added == {'I'} and 'VI' in cold)
+        or ({'I', 'VI'} <= added)
+    )
 
     if has_invalid or is_iv_collapse:
         # REVERT: restore Whitney Roots classes exactly

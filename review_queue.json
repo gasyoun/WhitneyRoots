@@ -182,22 +182,6 @@
       "check_against": "Whitney Grammar §-chapter for the added class; then Zalizniak."
     },
     {
-      "id": "473",
-      "root": "pṛṇ",
-      "whitney_roots_classes": [],
-      "current_classes": [
-        "I",
-        "VI"
-      ],
-      "added": [
-        "I",
-        "VI"
-      ],
-      "method": "conflict pipeline (distinct class)",
-      "status": "PENDING_REVIEW",
-      "check_against": "Whitney Grammar §-chapter for the added class; then Zalizniak."
-    },
-    {
       "id": "494",
       "root": "bandh",
       "whitney_roots_classes": [
@@ -213,22 +197,6 @@
         "IV"
       ],
       "method": "section-B (DCS metadata ∩ Grammar text)",
-      "status": "PENDING_REVIEW",
-      "check_against": "Whitney Grammar §-chapter for the added class; then Zalizniak."
-    },
-    {
-      "id": "578",
-      "root": "mṛṇ",
-      "whitney_roots_classes": [],
-      "current_classes": [
-        "I",
-        "VI"
-      ],
-      "added": [
-        "I",
-        "VI"
-      ],
-      "method": "conflict pipeline (distinct class)",
       "status": "PENDING_REVIEW",
       "check_against": "Whitney Grammar §-chapter for the added class; then Zalizniak."
     },
@@ -303,22 +271,6 @@
       ],
       "added": [
         "VII"
-      ],
-      "method": "conflict pipeline (distinct class)",
-      "status": "PENDING_REVIEW",
-      "check_against": "Whitney Grammar §-chapter for the added class; then Zalizniak."
-    },
-    {
-      "id": "890",
-      "root": "sphur",
-      "whitney_roots_classes": [],
-      "current_classes": [
-        "I",
-        "VI"
-      ],
-      "added": [
-        "I",
-        "VI"
       ],
       "method": "conflict pipeline (distinct class)",
       "status": "PENDING_REVIEW",
