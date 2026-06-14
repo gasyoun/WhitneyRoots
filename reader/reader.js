@@ -240,7 +240,7 @@ function paradigmSection(pdata) {
       if (sec[k]) addRow(lab + ' 3sg', sec[k]['3sg']);
     });
     const krt = pg.krt || {};
-    [['ppp', 'PPP'], ['gerund', 'gerund (–tvā)'], ['infinitive', 'infinitive'],
+    [['ppp', 'PPP'], ['ppp_caus', 'caus. PPP'], ['gerund', 'gerund (–tvā)'], ['infinitive', 'infinitive'],
      ['pres_act_ptcp', 'pres. part.'], ['gerundive', 'gerundive'], ['agent', 'agent']]
       .forEach(([k, lab]) => addRow(lab, krt[k]));
     blk.appendChild(more);

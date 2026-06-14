@@ -1,15 +1,26 @@
 {
  "_meta": {
-  "what": "vidyut-prakriya PPP (kta) form-validation against warnemyr + DCS. Advisory.",
-  "generated_by": "vidyut-prakriya; compares spine.ppp & corpus.attested_ppp vs generated kta",
-  "note": "Advisory; never edits the spine. corpus_backs_vidyut is a HOMONYM/VARIANT detector, NOT a correction signal — all 13 such cases are warnemyr-correct (panel-verified); see docs/DECISIONS_NEEDED.md §3.",
+  "what": "vidyut-prakriya PPP (kta) form-validation against warnemyr (all doublet forms) + DCS. Advisory.",
+  "generated_by": "vidyut-prakriya; compares spine.ppp + Whitney_roots_class-PP.txt doublets & corpus.attested_ppp vs generated PRIMARY (krt.ppp) and CAUSATIVE (krt.ppp_caus) kta",
+  "note": "Advisory; never edits the spine. warnemyr_ppp_forms lists ALL of warnemyr's recorded PPP doublets (spine accented form first, then romanised-source forms); a match needs only ONE of them in vidyut PRIMARY or CAUSATIVE kta, or the DCS top form. Per item, match_basis/matched_form/matched_against record WHY it matched so any class of match (doublet | source_alt | causative=vidyut_caus | dcs) can be revised later. corpus_backs_vidyut (surviving mismatches) is a HOMONYM/VARIANT detector, NOT a correction signal — see docs/DECISIONS_NEEDED.md §3.",
   "counts": {
-   "match": 305,
-   "mismatch": 33,
-   "fill_candidate": 32,
-   "vidyut_only": 14
+   "match": 325,
+   "mismatch": 13,
+   "fill_candidate": 33,
+   "vidyut_only": 13
   },
-  "roots_checked": 384
+  "roots_checked": 384,
+  "match_basis_counts": {
+   "corpus_fill": 33,
+   "doublet": 6,
+   "source_alt": 2,
+   "spine": 317
+  },
+  "matched_against_counts": {
+   "dcs": 10,
+   "vidyut": 345,
+   "vidyut_caus": 3
+  }
  },
  "items": [
   {
@@ -21,11 +32,21 @@
     "IX"
    ],
    "warnemyr_ppp": "iṣitá",
+   "warnemyr_ppp_forms": [
+    "iṣitá",
+    "ista"
+   ],
    "vidyut_ppp": [
     "iṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "eṣita"
+   ],
    "dcs_top_ppp": "iṣṭa",
    "verdict": "mismatch",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": true
   },
   {
@@ -38,84 +59,23 @@
     "IX"
    ],
    "warnemyr_ppp": "kṣubdha",
+   "warnemyr_ppp_forms": [
+    "kṣubdha",
+    "ksubdha",
+    "ksubhita",
+    "ksobdhos"
+   ],
    "vidyut_ppp": [
     "kṣubhita"
    ],
+   "vidyut_ppp_caus": [
+    "kṣobhita"
+   ],
    "dcs_top_ppp": "kṣubhita",
    "verdict": "mismatch",
-   "corpus_backs_vidyut": true
-  },
-  {
-   "whitney_no": 183,
-   "root": "gup",
-   "class": [
-    "I"
-   ],
-   "warnemyr_ppp": "gupitá",
-   "vidyut_ppp": [
-    "gopāyita",
-    "gupta"
-   ],
-   "dcs_top_ppp": "gupta",
-   "verdict": "mismatch",
-   "corpus_backs_vidyut": true
-  },
-  {
-   "whitney_no": 197,
-   "root": "gras",
-   "class": [
-    "I"
-   ],
-   "warnemyr_ppp": "grasitá",
-   "vidyut_ppp": [
-    "grasta"
-   ],
-   "dcs_top_ppp": "grasta",
-   "verdict": "mismatch",
-   "corpus_backs_vidyut": true
-  },
-  {
-   "whitney_no": 259,
-   "root": "ji",
-   "class": [
-    "I",
-    "V"
-   ],
-   "warnemyr_ppp": "jinvitá",
-   "vidyut_ppp": [
-    "jita"
-   ],
-   "dcs_top_ppp": "jita",
-   "verdict": "mismatch",
-   "corpus_backs_vidyut": true
-  },
-  {
-   "whitney_no": 350,
-   "root": "dā",
-   "class": [
-    "I",
-    "VI"
-   ],
-   "warnemyr_ppp": "diná",
-   "vidyut_ppp": [
-    "datta"
-   ],
-   "dcs_top_ppp": "datta",
-   "verdict": "mismatch",
-   "corpus_backs_vidyut": true
-  },
-  {
-   "whitney_no": 395,
-   "root": "dhāv",
-   "class": [
-    "I"
-   ],
-   "warnemyr_ppp": "dhāvita",
-   "vidyut_ppp": [
-    "dhauta"
-   ],
-   "dcs_top_ppp": "dhauta",
-   "verdict": "mismatch",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": true
   },
   {
@@ -125,11 +85,22 @@
     "VI"
    ],
    "warnemyr_ppp": "piṣṭá",
+   "warnemyr_ppp_forms": [
+    "piṣṭá",
+    "pista",
+    "pisita"
+   ],
    "vidyut_ppp": [
     "piśita"
    ],
+   "vidyut_ppp_caus": [
+    "peśita"
+   ],
    "dcs_top_ppp": "piśita",
    "verdict": "mismatch",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": true
   },
   {
@@ -140,58 +111,21 @@
     "IX"
    ],
    "warnemyr_ppp": "mūrṇá",
+   "warnemyr_ppp_forms": [
+    "mūrṇá",
+    "mrta"
+   ],
    "vidyut_ppp": [
     "mṛta"
    ],
+   "vidyut_ppp_caus": [
+    "mārita"
+   ],
    "dcs_top_ppp": "mṛta",
    "verdict": "mismatch",
-   "corpus_backs_vidyut": true
-  },
-  {
-   "whitney_no": 727,
-   "root": "vij",
-   "class": [
-    "I",
-    "VI"
-   ],
-   "warnemyr_ppp": "vikta",
-   "vidyut_ppp": [
-    "vigna"
-   ],
-   "dcs_top_ppp": "vigna",
-   "verdict": "mismatch",
-   "corpus_backs_vidyut": true
-  },
-  {
-   "whitney_no": 729,
-   "root": "vid",
-   "class": [
-    "II",
-    "VI"
-   ],
-   "warnemyr_ppp": "vittá",
-   "vidyut_ppp": [
-    "vidita"
-   ],
-   "dcs_top_ppp": "vidita",
-   "verdict": "mismatch",
-   "corpus_backs_vidyut": true
-  },
-  {
-   "whitney_no": 773,
-   "root": "śam",
-   "class": [
-    "I",
-    "II",
-    "IV",
-    "IX"
-   ],
-   "warnemyr_ppp": "śamitá",
-   "vidyut_ppp": [
-    "śānta"
-   ],
-   "dcs_top_ppp": "śānta",
-   "verdict": "mismatch",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": true
   },
   {
@@ -201,27 +135,24 @@
     "III"
    ],
    "warnemyr_ppp": "hāna",
+   "warnemyr_ppp_forms": [
+    "hāna",
+    "hina",
+    "hata",
+    "hana"
+   ],
    "vidyut_ppp": [
     "hīna"
    ],
+   "vidyut_ppp_caus": [
+    "hāpita"
+   ],
    "dcs_top_ppp": "hīna",
    "verdict": "mismatch",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": true
-  },
-  {
-   "whitney_no": 65,
-   "root": "uṣ",
-   "class": [
-    "I",
-    "IX"
-   ],
-   "warnemyr_ppp": "uṣṭa",
-   "vidyut_ppp": [
-    "uṣita"
-   ],
-   "dcs_top_ppp": "uṣṭa",
-   "verdict": "mismatch",
-   "corpus_backs_vidyut": false
   },
   {
    "whitney_no": 67,
@@ -230,40 +161,22 @@
     "I"
    ],
    "warnemyr_ppp": "ūḍha",
+   "warnemyr_ppp_forms": [
+    "ūḍha",
+    "udha",
+    "uhita"
+   ],
    "vidyut_ppp": [
+    "ūhita"
+   ],
+   "vidyut_ppp_caus": [
     "ūhita"
    ],
    "dcs_top_ppp": "ūhitava",
    "verdict": "mismatch",
-   "corpus_backs_vidyut": false
-  },
-  {
-   "whitney_no": 112,
-   "root": "kṛś",
-   "class": [
-    "IV"
-   ],
-   "warnemyr_ppp": "kṛśita",
-   "vidyut_ppp": [
-    "kṛśa"
-   ],
-   "dcs_top_ppp": "kṛśita",
-   "verdict": "mismatch",
-   "corpus_backs_vidyut": false
-  },
-  {
-   "whitney_no": 270,
-   "root": "jyā",
-   "class": [
-    "IV",
-    "IX"
-   ],
-   "warnemyr_ppp": "jītá",
-   "vidyut_ppp": [
-    "jīna"
-   ],
-   "dcs_top_ppp": "jīta",
-   "verdict": "mismatch",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": false
   },
   {
@@ -273,11 +186,22 @@
     "IV"
    ],
    "warnemyr_ppp": "tṛṣitá",
+   "warnemyr_ppp_forms": [
+    "tṛṣitá",
+    "trsita",
+    "trsta"
+   ],
    "vidyut_ppp": [
     "tṛṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "tarṣita"
+   ],
    "dcs_top_ppp": "tātṛṣāṇa",
    "verdict": "mismatch",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": false
   },
   {
@@ -288,41 +212,21 @@
     "VII"
    ],
    "warnemyr_ppp": "tṛḍhá",
+   "warnemyr_ppp_forms": [
+    "tṛḍhá",
+    "trdha"
+   ],
    "vidyut_ppp": [
     "tṛhita"
    ],
+   "vidyut_ppp_caus": [
+    "tarhita"
+   ],
    "dcs_top_ppp": "tṛﾱha",
    "verdict": "mismatch",
-   "corpus_backs_vidyut": false
-  },
-  {
-   "whitney_no": 365,
-   "root": "du",
-   "class": [
-    "V"
-   ],
-   "warnemyr_ppp": "dūná",
-   "vidyut_ppp": [
-    "duta"
-   ],
-   "dcs_top_ppp": "dūna",
-   "verdict": "mismatch",
-   "corpus_backs_vidyut": false
-  },
-  {
-   "whitney_no": 376,
-   "root": "dṛh",
-   "class": [
-    "I",
-    "IV",
-    "VI"
-   ],
-   "warnemyr_ppp": "dṛḍhá",
-   "vidyut_ppp": [
-    "dṛnhita"
-   ],
-   "dcs_top_ppp": "dṛḍha",
-   "verdict": "mismatch",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": false
   },
   {
@@ -332,11 +236,20 @@
     "I"
    ],
    "warnemyr_ppp": "dyuttá",
+   "warnemyr_ppp_forms": [
+    "dyuttá"
+   ],
    "vidyut_ppp": [
     "dyutita"
    ],
+   "vidyut_ppp_caus": [
+    "dyotita"
+   ],
    "dcs_top_ppp": "dyutāna",
    "verdict": "mismatch",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": false
   },
   {
@@ -346,11 +259,23 @@
     "I"
    ],
    "warnemyr_ppp": "dhūrta",
+   "warnemyr_ppp_forms": [
+    "dhūrta",
+    "dhurta",
+    "dhruta",
+    "dhurvane"
+   ],
    "vidyut_ppp": [
     "dhvṛta"
    ],
+   "vidyut_ppp_caus": [
+    "dhvārita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "mismatch",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": false
   },
   {
@@ -360,73 +285,20 @@
     "III"
    ],
    "warnemyr_ppp": "bhasita",
+   "warnemyr_ppp_forms": [
+    "bhasita"
+   ],
    "vidyut_ppp": [
+    "psita"
+   ],
+   "vidyut_ppp_caus": [
     "psita"
    ],
    "dcs_top_ppp": "",
    "verdict": "mismatch",
-   "corpus_backs_vidyut": false
-  },
-  {
-   "whitney_no": 544,
-   "root": "math",
-   "class": [
-    "I",
-    "IX"
-   ],
-   "warnemyr_ppp": "mathitá",
-   "vidyut_ppp": [
-    "manthita"
-   ],
-   "dcs_top_ppp": "mathita",
-   "verdict": "mismatch",
-   "corpus_backs_vidyut": false
-  },
-  {
-   "whitney_no": 548,
-   "root": "mā",
-   "class": [
-    "II",
-    "III",
-    "IV"
-   ],
-   "warnemyr_ppp": "mitá",
-   "vidyut_ppp": [
-    "mīta"
-   ],
-   "dcs_top_ppp": "mita",
-   "verdict": "mismatch",
-   "corpus_backs_vidyut": false
-  },
-  {
-   "whitney_no": 561,
-   "root": "mī",
-   "class": [
-    "III",
-    "IV",
-    "V",
-    "IX"
-   ],
-   "warnemyr_ppp": "mīta",
-   "vidyut_ppp": [
-    "mīna"
-   ],
-   "dcs_top_ppp": "mīta",
-   "verdict": "mismatch",
-   "corpus_backs_vidyut": false
-  },
-  {
-   "whitney_no": 668,
-   "root": "lag",
-   "class": [
-    "I"
-   ],
-   "warnemyr_ppp": "lagna",
-   "vidyut_ppp": [
-    "lagita"
-   ],
-   "dcs_top_ppp": "lagna",
-   "verdict": "mismatch",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": false
   },
   {
@@ -437,56 +309,23 @@
     "VI"
    ],
    "warnemyr_ppp": "uṣṭá",
+   "warnemyr_ppp_forms": [
+    "uṣṭá",
+    "usta",
+    "usita",
+    "vastave"
+   ],
    "vidyut_ppp": [
     "vasita"
    ],
+   "vidyut_ppp_caus": [
+    "vāsita"
+   ],
    "dcs_top_ppp": "uṣita",
    "verdict": "mismatch",
-   "corpus_backs_vidyut": false
-  },
-  {
-   "whitney_no": 790,
-   "root": "śuc",
-   "class": [
-    "I",
-    "II",
-    "IV"
-   ],
-   "warnemyr_ppp": "śuktá",
-   "vidyut_ppp": [
-    "śucita"
-   ],
-   "dcs_top_ppp": "śukta",
-   "verdict": "mismatch",
-   "corpus_backs_vidyut": false
-  },
-  {
-   "whitney_no": 822,
-   "root": "śvas",
-   "class": [
-    "I",
-    "II"
-   ],
-   "warnemyr_ppp": "śvasita",
-   "vidyut_ppp": [
-    "śvasta"
-   ],
-   "dcs_top_ppp": "śvasita",
-   "verdict": "mismatch",
-   "corpus_backs_vidyut": false
-  },
-  {
-   "whitney_no": 930,
-   "root": "hras",
-   "class": [
-    "I"
-   ],
-   "warnemyr_ppp": "hrasta",
-   "vidyut_ppp": [
-    "hrasita"
-   ],
-   "dcs_top_ppp": "hrasta",
-   "verdict": "mismatch",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": false
   },
   {
@@ -496,11 +335,20 @@
     "I"
    ],
    "warnemyr_ppp": "hlanna",
+   "warnemyr_ppp_forms": [
+    "hlanna"
+   ],
    "vidyut_ppp": [
     "hlānna"
    ],
+   "vidyut_ppp_caus": [
+    "hladita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "mismatch",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": false
   },
   {
@@ -510,11 +358,18 @@
     "I"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
+    "arhita"
+   ],
+   "vidyut_ppp_caus": [
     "arhita"
    ],
    "dcs_top_ppp": "arhita",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -525,11 +380,18 @@
     "VI"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "ṛṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "arṣita"
+   ],
    "dcs_top_ppp": "ṛṣṭa",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -539,11 +401,18 @@
     "VII"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "kṛtta"
    ],
+   "vidyut_ppp_caus": [
+    "kartita"
+   ],
    "dcs_top_ppp": "kṛtta",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -553,11 +422,18 @@
     "I"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "kvanita"
    ],
+   "vidyut_ppp_caus": [
+    "kvānita"
+   ],
    "dcs_top_ppp": "kvaṇita",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -567,11 +443,18 @@
     "I"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "kvathita"
    ],
+   "vidyut_ppp_caus": [
+    "kvāthita"
+   ],
    "dcs_top_ppp": "kvathita",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -581,11 +464,18 @@
     "VIII"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "kṣata"
    ],
+   "vidyut_ppp_caus": [
+    "kṣānita"
+   ],
    "dcs_top_ppp": "kṣata",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -595,11 +485,18 @@
     "I"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
+    "khādita"
+   ],
+   "vidyut_ppp_caus": [
     "khādita"
    ],
    "dcs_top_ppp": "khādita",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -609,11 +506,18 @@
     "I"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
+    "garjita"
+   ],
+   "vidyut_ppp_caus": [
     "garjita"
    ],
    "dcs_top_ppp": "garjita",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -624,11 +528,18 @@
     "II"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "gīta"
    ],
+   "vidyut_ppp_caus": [
+    "gāpita"
+   ],
    "dcs_top_ppp": "gīta",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -638,11 +549,18 @@
     "I"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
+    "jvarita"
+   ],
+   "vidyut_ppp_caus": [
     "jvarita"
    ],
    "dcs_top_ppp": "jvarita",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -653,11 +571,18 @@
     "VI"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "truṭita"
    ],
+   "vidyut_ppp_caus": [
+    "troṭita"
+   ],
    "dcs_top_ppp": "truṭita",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -667,12 +592,19 @@
     "I"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "tvarita",
     "tūrna"
    ],
+   "vidyut_ppp_caus": [
+    "tvarita"
+   ],
    "dcs_top_ppp": "tvarita",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -682,11 +614,18 @@
     "IV"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "dānta"
    ],
+   "vidyut_ppp_caus": [
+    "damita"
+   ],
    "dcs_top_ppp": "dānta",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -696,11 +635,18 @@
     "I"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
+    "dalita"
+   ],
+   "vidyut_ppp_caus": [
     "dalita"
    ],
    "dcs_top_ppp": "dalita",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -711,11 +657,18 @@
     "IV"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "dasta"
    ],
+   "vidyut_ppp_caus": [
+    "dāsita"
+   ],
    "dcs_top_ppp": "dasta",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -728,11 +681,18 @@
     "IV"
    ],
    "warnemyr_ppp": "-",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "datta"
    ],
+   "vidyut_ppp_caus": [
+    "dāpita"
+   ],
    "dcs_top_ppp": "datta",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -743,11 +703,18 @@
     "IV"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "dṛpta"
    ],
+   "vidyut_ppp_caus": [
+    "darpita"
+   ],
    "dcs_top_ppp": "dṛpta",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -758,11 +725,18 @@
     "VI"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "dṛbdha"
    ],
+   "vidyut_ppp_caus": [
+    "darbhita"
+   ],
    "dcs_top_ppp": "dṛbdha",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -772,11 +746,18 @@
     "I"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "dhvasta"
    ],
+   "vidyut_ppp_caus": [
+    "dhvansita"
+   ],
    "dcs_top_ppp": "dhvasta",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -788,12 +769,19 @@
     "IX"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "puṣita",
     "puṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "poṣita"
+   ],
    "dcs_top_ppp": "puṣṭa",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -806,11 +794,18 @@
     "IX"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "pruṣita"
    ],
+   "vidyut_ppp_caus": [
+    "proṣita"
+   ],
    "dcs_top_ppp": "pruṣita",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -820,11 +815,18 @@
     "II"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "psāta"
    ],
+   "vidyut_ppp_caus": [
+    "psāpita"
+   ],
    "dcs_top_ppp": "psāta",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -835,11 +837,18 @@
     "VI"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "mṛddha"
    ],
+   "vidyut_ppp_caus": [
+    "mardhita"
+   ],
    "dcs_top_ppp": "mṛddha",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -849,11 +858,18 @@
     "I"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "rasita"
    ],
+   "vidyut_ppp_caus": [
+    "rāsita"
+   ],
    "dcs_top_ppp": "rasita",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -864,11 +880,18 @@
     "II"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
+    "rājita"
+   ],
+   "vidyut_ppp_caus": [
     "rājita"
    ],
    "dcs_top_ppp": "rājita",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -878,11 +901,18 @@
     "I"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "lasita"
    ],
+   "vidyut_ppp_caus": [
+    "lāsita"
+   ],
    "dcs_top_ppp": "lasita",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -892,11 +922,39 @@
     "I"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "luḍita"
    ],
+   "vidyut_ppp_caus": [
+    "loḍita"
+   ],
    "dcs_top_ppp": "luḍita",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 701,
+   "root": "vañc",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
+   "vidyut_ppp": [
+    "vakta"
+   ],
+   "vidyut_ppp_caus": [
+    "vancita"
+   ],
+   "dcs_top_ppp": "vañcita",
+   "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut_caus",
    "corpus_backs_vidyut": false
   },
   {
@@ -906,11 +964,18 @@
     "I"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
+    "valgita"
+   ],
+   "vidyut_ppp_caus": [
     "valgita"
    ],
    "dcs_top_ppp": "valgita",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -920,11 +985,19 @@
     "II"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "vīta"
    ],
+   "vidyut_ppp_caus": [
+    "vāpita",
+    "vāyita"
+   ],
    "dcs_top_ppp": "vīta",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -934,11 +1007,18 @@
     "I"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
+    "vyathita"
+   ],
+   "vidyut_ppp_caus": [
     "vyathita"
    ],
    "dcs_top_ppp": "vyathita",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -948,11 +1028,18 @@
     "I"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
+    "skhalita"
+   ],
+   "vidyut_ppp_caus": [
     "skhalita"
    ],
    "dcs_top_ppp": "skhalita",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -963,11 +1050,18 @@
     "IX"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "spṛta"
    ],
+   "vidyut_ppp_caus": [
+    "spārita"
+   ],
    "dcs_top_ppp": "spṛta",
    "verdict": "fill_candidate",
+   "match_basis": "corpus_fill",
+   "matched_form": "",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -978,12 +1072,19 @@
     "II"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "jagddha",
     "jagdha"
    ],
+   "vidyut_ppp_caus": [
+    "ādita"
+   ],
    "dcs_top_ppp": "attaṃ",
    "verdict": "vidyut_only",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": false
   },
   {
@@ -993,11 +1094,18 @@
     "V"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "aṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "āśita"
+   ],
    "dcs_top_ppp": "aśita",
    "verdict": "vidyut_only",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": false
   },
   {
@@ -1007,11 +1115,18 @@
     "II"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "bhūta"
    ],
+   "vidyut_ppp_caus": [
+    "bhāvita"
+   ],
    "dcs_top_ppp": "asta",
    "verdict": "vidyut_only",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": false
   },
   {
@@ -1022,11 +1137,18 @@
     "II"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
+    "ūhita"
+   ],
+   "vidyut_ppp_caus": [
     "ūhita"
    ],
    "dcs_top_ppp": "ūhitava",
    "verdict": "vidyut_only",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": false
   },
   {
@@ -1038,11 +1160,18 @@
     "VI"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "kṣita"
    ],
+   "vidyut_ppp_caus": [
+    "kṣāyita"
+   ],
    "dcs_top_ppp": "kṣīṇa",
    "verdict": "vidyut_only",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": false
   },
   {
@@ -1054,11 +1183,18 @@
     "VII"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
+    "tunjita"
+   ],
+   "vidyut_ppp_caus": [
     "tunjita"
    ],
    "dcs_top_ppp": "tūtujāna",
    "verdict": "vidyut_only",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": false
   },
   {
@@ -1070,11 +1206,18 @@
     "V"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
+    "dāśita"
+   ],
+   "vidyut_ppp_caus": [
     "dāśita"
    ],
    "dcs_top_ppp": "dāśuṣa",
    "verdict": "vidyut_only",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": false
   },
   {
@@ -1085,11 +1228,18 @@
     "IV"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "pakva"
    ],
+   "vidyut_ppp_caus": [
+    "pācita"
+   ],
    "dcs_top_ppp": "pakta",
    "verdict": "vidyut_only",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": false
   },
   {
@@ -1099,11 +1249,18 @@
     "VI"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "puṭita"
    ],
+   "vidyut_ppp_caus": [
+    "poṭita"
+   ],
    "dcs_top_ppp": "puṭitaṃ",
    "verdict": "vidyut_only",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": false
   },
   {
@@ -1113,11 +1270,18 @@
     "VI"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "bhugna"
    ],
+   "vidyut_ppp_caus": [
+    "bhojita"
+   ],
    "dcs_top_ppp": "bhukta",
    "verdict": "vidyut_only",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": false
   },
   {
@@ -1127,25 +1291,18 @@
     "III"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "mīta"
    ],
+   "vidyut_ppp_caus": [
+    "māpita"
+   ],
    "dcs_top_ppp": "mita",
    "verdict": "vidyut_only",
-   "corpus_backs_vidyut": false
-  },
-  {
-   "whitney_no": 701,
-   "root": "vañc",
-   "class": [
-    "I"
-   ],
-   "warnemyr_ppp": "",
-   "vidyut_ppp": [
-    "vakta"
-   ],
-   "dcs_top_ppp": "vañcita",
-   "verdict": "vidyut_only",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": false
   },
   {
@@ -1157,11 +1314,19 @@
     "VIII"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "vata"
    ],
+   "vidyut_ppp_caus": [
+    "vanita",
+    "vānita"
+   ],
    "dcs_top_ppp": "vāta",
    "verdict": "vidyut_only",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": false
   },
   {
@@ -1174,11 +1339,18 @@
     "VI"
    ],
    "warnemyr_ppp": "",
+   "warnemyr_ppp_forms": [],
    "vidyut_ppp": [
     "uśita"
    ],
+   "vidyut_ppp_caus": [
+    "vāśita"
+   ],
    "dcs_top_ppp": "vāvaśāna",
    "verdict": "vidyut_only",
+   "match_basis": "",
+   "matched_form": "",
+   "matched_against": "",
    "corpus_backs_vidyut": false
   },
   {
@@ -1189,11 +1361,20 @@
     "VII"
    ],
    "warnemyr_ppp": "aktá",
+   "warnemyr_ppp_forms": [
+    "aktá"
+   ],
    "vidyut_ppp": [
     "akta"
    ],
+   "vidyut_ppp_caus": [
+    "anjita"
+   ],
    "dcs_top_ppp": "akta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "aktá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1203,11 +1384,21 @@
     "I"
    ],
    "warnemyr_ppp": "aṭita",
+   "warnemyr_ppp_forms": [
+    "aṭita",
+    "atita"
+   ],
    "vidyut_ppp": [
     "aṭita"
    ],
+   "vidyut_ppp_caus": [
+    "āṭita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "aṭita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1218,12 +1409,23 @@
     "II"
    ],
    "warnemyr_ppp": "ānta",
+   "warnemyr_ppp_forms": [
+    "ānta",
+    "anta",
+    "amita"
+   ],
    "vidyut_ppp": [
     "amita",
     "ānta"
    ],
+   "vidyut_ppp_caus": [
+    "āmita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "ānta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1233,11 +1435,20 @@
     "I"
    ],
    "warnemyr_ppp": "arcita",
+   "warnemyr_ppp_forms": [
+    "arcita"
+   ],
    "vidyut_ppp": [
+    "arcita"
+   ],
+   "vidyut_ppp_caus": [
     "arcita"
    ],
    "dcs_top_ppp": "arcita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "arcita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1248,11 +1459,20 @@
     "IX"
    ],
    "warnemyr_ppp": "aśitá",
+   "warnemyr_ppp_forms": [
+    "aśitá"
+   ],
    "vidyut_ppp": [
     "aśita"
    ],
+   "vidyut_ppp_caus": [
+    "āśita"
+   ],
    "dcs_top_ppp": "aśita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "aśitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1263,11 +1483,20 @@
     "IV"
    ],
    "warnemyr_ppp": "asta",
+   "warnemyr_ppp_forms": [
+    "asta"
+   ],
    "vidyut_ppp": [
     "asta"
    ],
+   "vidyut_ppp_caus": [
+    "āsita"
+   ],
    "dcs_top_ppp": "asta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "asta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1277,11 +1506,21 @@
     "V"
    ],
    "warnemyr_ppp": "āptá",
+   "warnemyr_ppp_forms": [
+    "āptá",
+    "apta"
+   ],
    "vidyut_ppp": [
     "āpta"
    ],
+   "vidyut_ppp_caus": [
+    "āpita"
+   ],
    "dcs_top_ppp": "āpta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "āptá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1293,11 +1532,21 @@
     "IV"
    ],
    "warnemyr_ppp": "āsitá",
+   "warnemyr_ppp_forms": [
+    "āsitá",
+    "asita"
+   ],
    "vidyut_ppp": [
+    "āsita"
+   ],
+   "vidyut_ppp_caus": [
     "āsita"
    ],
    "dcs_top_ppp": "āsīna",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "āsitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1309,11 +1558,21 @@
     "VI"
    ],
    "warnemyr_ppp": "iṣṭá",
+   "warnemyr_ppp_forms": [
+    "iṣṭá",
+    "ista"
+   ],
    "vidyut_ppp": [
     "iṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "eṣita"
+   ],
    "dcs_top_ppp": "iṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "iṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1323,11 +1582,21 @@
     "I"
    ],
    "warnemyr_ppp": "īkṣitá",
+   "warnemyr_ppp_forms": [
+    "īkṣitá",
+    "iksita"
+   ],
    "vidyut_ppp": [
+    "īkṣita"
+   ],
+   "vidyut_ppp_caus": [
     "īkṣita"
    ],
    "dcs_top_ppp": "īkṣita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "īkṣitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1338,11 +1607,21 @@
     "II"
    ],
    "warnemyr_ppp": "īḍitá",
+   "warnemyr_ppp_forms": [
+    "īḍitá",
+    "idita"
+   ],
    "vidyut_ppp": [
+    "īḍita"
+   ],
+   "vidyut_ppp_caus": [
     "īḍita"
    ],
    "dcs_top_ppp": "īḍita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "īḍitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1352,11 +1631,21 @@
     "I"
    ],
    "warnemyr_ppp": "īrṣyita",
+   "warnemyr_ppp_forms": [
+    "īrṣyita",
+    "irsyita"
+   ],
    "vidyut_ppp": [
+    "īrṣyita"
+   ],
+   "vidyut_ppp_caus": [
     "īrṣyita"
    ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "īrṣyita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1367,11 +1656,21 @@
     "II"
    ],
    "warnemyr_ppp": "īśita",
+   "warnemyr_ppp_forms": [
+    "īśita",
+    "isita"
+   ],
    "vidyut_ppp": [
+    "īśita"
+   ],
+   "vidyut_ppp_caus": [
     "īśita"
    ],
    "dcs_top_ppp": "īśāna",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "īśita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1381,11 +1680,21 @@
     "I"
    ],
    "warnemyr_ppp": "īhita",
+   "warnemyr_ppp_forms": [
+    "īhita",
+    "ihita"
+   ],
    "vidyut_ppp": [
+    "īhita"
+   ],
+   "vidyut_ppp_caus": [
     "īhita"
    ],
    "dcs_top_ppp": "īhita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "īhita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1395,11 +1704,20 @@
     "IV"
    ],
    "warnemyr_ppp": "ucitá",
+   "warnemyr_ppp_forms": [
+    "ucitá"
+   ],
    "vidyut_ppp": [
     "ucita"
    ],
+   "vidyut_ppp_caus": [
+    "ocita"
+   ],
    "dcs_top_ppp": "ucita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "ucitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1409,11 +1727,44 @@
     "VI"
    ],
    "warnemyr_ppp": "ubjitá",
+   "warnemyr_ppp_forms": [
+    "ubjitá"
+   ],
    "vidyut_ppp": [
+    "ubjita"
+   ],
+   "vidyut_ppp_caus": [
     "ubjita"
    ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "ubjitá",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 65,
+   "root": "uṣ",
+   "class": [
+    "I",
+    "IX"
+   ],
+   "warnemyr_ppp": "uṣṭa",
+   "warnemyr_ppp_forms": [
+    "uṣṭa"
+   ],
+   "vidyut_ppp": [
+    "uṣita"
+   ],
+   "vidyut_ppp_caus": [
+    "oṣita"
+   ],
+   "dcs_top_ppp": "uṣṭa",
+   "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "uṣṭa",
+   "matched_against": "dcs",
    "corpus_backs_vidyut": false
   },
   {
@@ -1427,11 +1778,23 @@
     "IX"
    ],
    "warnemyr_ppp": "ṛtá",
+   "warnemyr_ppp_forms": [
+    "ṛtá",
+    "rta",
+    "arna",
+    "artos"
+   ],
    "vidyut_ppp": [
     "ṛta"
    ],
+   "vidyut_ppp_caus": [
+    "arpita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "ṛtá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1443,11 +1806,21 @@
     "VII"
    ],
    "warnemyr_ppp": "ṛddha",
+   "warnemyr_ppp_forms": [
+    "ṛddha",
+    "rddha"
+   ],
    "vidyut_ppp": [
     "ṛddha"
    ],
+   "vidyut_ppp_caus": [
+    "ardhita"
+   ],
    "dcs_top_ppp": "ṛddha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "ṛddha",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1457,11 +1830,20 @@
     "I"
    ],
    "warnemyr_ppp": "edhita",
+   "warnemyr_ppp_forms": [
+    "edhita"
+   ],
    "vidyut_ppp": [
+    "edhita"
+   ],
+   "vidyut_ppp_caus": [
     "edhita"
    ],
    "dcs_top_ppp": "edhita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "edhita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1471,11 +1853,20 @@
     "I"
    ],
    "warnemyr_ppp": "katthita",
+   "warnemyr_ppp_forms": [
+    "katthita"
+   ],
    "vidyut_ppp": [
+    "katthita"
+   ],
+   "vidyut_ppp_caus": [
     "katthita"
    ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "katthita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1485,11 +1876,22 @@
     "I"
    ],
    "warnemyr_ppp": "kaṣita",
+   "warnemyr_ppp_forms": [
+    "kaṣita",
+    "kasita",
+    "kasam"
+   ],
    "vidyut_ppp": [
     "kaṣita"
    ],
+   "vidyut_ppp_caus": [
+    "kāṣita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kaṣita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1499,11 +1901,21 @@
     "I"
    ],
    "warnemyr_ppp": "kāśita",
+   "warnemyr_ppp_forms": [
+    "kāśita",
+    "kasita"
+   ],
    "vidyut_ppp": [
+    "kāśita"
+   ],
+   "vidyut_ppp_caus": [
     "kāśita"
    ],
    "dcs_top_ppp": "kāśita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kāśita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1514,11 +1926,21 @@
     "VI"
    ],
    "warnemyr_ppp": "kucita",
+   "warnemyr_ppp_forms": [
+    "kucita",
+    "kuncita"
+   ],
    "vidyut_ppp": [
     "kucita"
    ],
+   "vidyut_ppp_caus": [
+    "kocita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kucita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1528,11 +1950,20 @@
     "IV"
    ],
    "warnemyr_ppp": "kupita",
+   "warnemyr_ppp_forms": [
+    "kupita"
+   ],
    "vidyut_ppp": [
     "kupita"
    ],
+   "vidyut_ppp_caus": [
+    "kopita"
+   ],
    "dcs_top_ppp": "kupita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kupita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1542,11 +1973,21 @@
     "I"
    ],
    "warnemyr_ppp": "kūjita",
+   "warnemyr_ppp_forms": [
+    "kūjita",
+    "kujita"
+   ],
    "vidyut_ppp": [
+    "kūjita"
+   ],
+   "vidyut_ppp_caus": [
     "kūjita"
    ],
    "dcs_top_ppp": "kūjita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kūjita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1559,11 +2000,23 @@
     "VIII"
    ],
    "warnemyr_ppp": "kṛtá",
+   "warnemyr_ppp_forms": [
+    "kṛtá",
+    "kirna",
+    "cast",
+    "scatter"
+   ],
    "vidyut_ppp": [
     "kṛta"
    ],
+   "vidyut_ppp_caus": [
+    "kārita"
+   ],
    "dcs_top_ppp": "kṛta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kṛtá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1574,11 +2027,45 @@
     "VI"
    ],
    "warnemyr_ppp": "kṛttá",
+   "warnemyr_ppp_forms": [
+    "kṛttá",
+    "krtta"
+   ],
    "vidyut_ppp": [
     "kṛtta"
    ],
+   "vidyut_ppp_caus": [
+    "kartita"
+   ],
    "dcs_top_ppp": "kṛtta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kṛttá",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 112,
+   "root": "kṛś",
+   "class": [
+    "IV"
+   ],
+   "warnemyr_ppp": "kṛśita",
+   "warnemyr_ppp_forms": [
+    "kṛśita",
+    "krsita"
+   ],
+   "vidyut_ppp": [
+    "kṛśa"
+   ],
+   "vidyut_ppp_caus": [
+    "karśita"
+   ],
+   "dcs_top_ppp": "kṛśita",
+   "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kṛśita",
+   "matched_against": "dcs",
    "corpus_backs_vidyut": false
   },
   {
@@ -1589,11 +2076,21 @@
     "VI"
    ],
    "warnemyr_ppp": "kṛṣṭá",
+   "warnemyr_ppp_forms": [
+    "kṛṣṭá",
+    "krsta"
+   ],
    "vidyut_ppp": [
     "kṛṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "karṣita"
+   ],
    "dcs_top_ppp": "kṛṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kṛṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1604,11 +2101,21 @@
     "IV"
    ],
    "warnemyr_ppp": "krāṃtá",
+   "warnemyr_ppp_forms": [
+    "krāṃtá",
+    "kramta"
+   ],
    "vidyut_ppp": [
     "krānta"
    ],
+   "vidyut_ppp_caus": [
+    "kramita"
+   ],
    "dcs_top_ppp": "krānta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "krāṃtá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1618,11 +2125,21 @@
     "IX"
    ],
    "warnemyr_ppp": "krītá",
+   "warnemyr_ppp_forms": [
+    "krītá",
+    "krita"
+   ],
    "vidyut_ppp": [
     "krīta"
    ],
+   "vidyut_ppp_caus": [
+    "krāpita"
+   ],
    "dcs_top_ppp": "krīta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "krītá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1632,11 +2149,21 @@
     "I"
    ],
    "warnemyr_ppp": "krīḍita",
+   "warnemyr_ppp_forms": [
+    "krīḍita",
+    "kridita"
+   ],
    "vidyut_ppp": [
+    "krīḍita"
+   ],
+   "vidyut_ppp_caus": [
     "krīḍita"
    ],
    "dcs_top_ppp": "krīḍita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "krīḍita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1646,11 +2173,20 @@
     "IV"
    ],
    "warnemyr_ppp": "kruddhá",
+   "warnemyr_ppp_forms": [
+    "kruddhá"
+   ],
    "vidyut_ppp": [
     "kruddha"
    ],
+   "vidyut_ppp_caus": [
+    "krodhita"
+   ],
    "dcs_top_ppp": "kruddha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kruddhá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1660,11 +2196,21 @@
     "I"
    ],
    "warnemyr_ppp": "kruṣṭa",
+   "warnemyr_ppp_forms": [
+    "kruṣṭa",
+    "krusta"
+   ],
    "vidyut_ppp": [
     "kruṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "krośita"
+   ],
    "dcs_top_ppp": "kruṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kruṣṭa",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1674,11 +2220,21 @@
     "IV"
    ],
    "warnemyr_ppp": "klāṃtá",
+   "warnemyr_ppp_forms": [
+    "klāṃtá",
+    "klamta"
+   ],
    "vidyut_ppp": [
     "klānta"
    ],
+   "vidyut_ppp_caus": [
+    "klamita"
+   ],
    "dcs_top_ppp": "klānta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "klāṃtá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1689,11 +2245,20 @@
     "IV"
    ],
    "warnemyr_ppp": "klinna",
+   "warnemyr_ppp_forms": [
+    "klinna"
+   ],
    "vidyut_ppp": [
     "klinna"
    ],
+   "vidyut_ppp_caus": [
+    "kledita"
+   ],
    "dcs_top_ppp": "klinna",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "klinna",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1704,12 +2269,22 @@
     "IX"
    ],
    "warnemyr_ppp": "kliṣṭa",
+   "warnemyr_ppp_forms": [
+    "kliṣṭa",
+    "klista"
+   ],
    "vidyut_ppp": [
     "kliśita",
     "kliṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "kleśita"
+   ],
    "dcs_top_ppp": "kliṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kliṣṭa",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1720,11 +2295,22 @@
     "IV"
    ],
    "warnemyr_ppp": "kṣāṃta",
+   "warnemyr_ppp_forms": [
+    "kṣāṃta",
+    "ksamta",
+    "ksamita"
+   ],
    "vidyut_ppp": [
     "kṣānta"
    ],
+   "vidyut_ppp_caus": [
+    "kṣamita"
+   ],
    "dcs_top_ppp": "kṣānta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kṣāṃta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1734,11 +2320,22 @@
     "I"
    ],
    "warnemyr_ppp": "kṣarita",
+   "warnemyr_ppp_forms": [
+    "kṣarita",
+    "ksarita",
+    "ksaradhyai"
+   ],
    "vidyut_ppp": [
     "kṣarita"
    ],
+   "vidyut_ppp_caus": [
+    "kṣārita"
+   ],
    "dcs_top_ppp": "kṣarita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kṣarita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1752,11 +2349,20 @@
     "IX"
    ],
    "warnemyr_ppp": "kṣitá",
+   "warnemyr_ppp_forms": [
+    "kṣitá"
+   ],
    "vidyut_ppp": [
     "kṣita"
    ],
+   "vidyut_ppp_caus": [
+    "kṣāyita"
+   ],
    "dcs_top_ppp": "kṣīṇa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kṣitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1766,11 +2372,22 @@
     "VI"
    ],
    "warnemyr_ppp": "kṣiptá",
+   "warnemyr_ppp_forms": [
+    "kṣiptá",
+    "ksipta",
+    "ksipita"
+   ],
    "vidyut_ppp": [
     "kṣipta"
    ],
+   "vidyut_ppp_caus": [
+    "kṣepita"
+   ],
    "dcs_top_ppp": "kṣipta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kṣiptá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1780,11 +2397,21 @@
     "II"
    ],
    "warnemyr_ppp": "kṣuta",
+   "warnemyr_ppp_forms": [
+    "kṣuta",
+    "ksuta"
+   ],
    "vidyut_ppp": [
     "kṣuta"
    ],
+   "vidyut_ppp_caus": [
+    "kṣāvita"
+   ],
    "dcs_top_ppp": "kṣuta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kṣuta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1795,11 +2422,21 @@
     "VII"
    ],
    "warnemyr_ppp": "kṣuṇṇa",
+   "warnemyr_ppp_forms": [
+    "kṣuṇṇa",
+    "ksunna"
+   ],
    "vidyut_ppp": [
     "kṣunna"
    ],
+   "vidyut_ppp_caus": [
+    "kṣodita"
+   ],
    "dcs_top_ppp": "kṣuṇṇa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kṣuṇṇa",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1809,11 +2446,21 @@
     "IV"
    ],
    "warnemyr_ppp": "kṣudhita",
+   "warnemyr_ppp_forms": [
+    "kṣudhita",
+    "ksudhita"
+   ],
    "vidyut_ppp": [
     "kṣudhita"
    ],
+   "vidyut_ppp_caus": [
+    "kṣodhita"
+   ],
    "dcs_top_ppp": "kṣudhita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kṣudhita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1823,11 +2470,21 @@
     "II"
    ],
    "warnemyr_ppp": "kṣṇutá",
+   "warnemyr_ppp_forms": [
+    "kṣṇutá",
+    "ksnuta"
+   ],
    "vidyut_ppp": [
     "kṣnuta"
    ],
+   "vidyut_ppp_caus": [
+    "kṣnāvita"
+   ],
    "dcs_top_ppp": "kṣṇuta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kṣṇutá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1837,11 +2494,22 @@
     "I"
    ],
    "warnemyr_ppp": "kṣviṇṇa",
+   "warnemyr_ppp_forms": [
+    "kṣviṇṇa",
+    "ksvinna",
+    "ksvidas"
+   ],
    "vidyut_ppp": [
     "kṣvinna"
    ],
+   "vidyut_ppp_caus": [
+    "kṣvedita"
+   ],
    "dcs_top_ppp": "kṣveḍita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kṣviṇṇa",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1851,11 +2519,21 @@
     "I"
    ],
    "warnemyr_ppp": "kṣvelita",
+   "warnemyr_ppp_forms": [
+    "kṣvelita",
+    "ksvelita"
+   ],
    "vidyut_ppp": [
+    "kṣvelita"
+   ],
+   "vidyut_ppp_caus": [
     "kṣvelita"
    ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "kṣvelita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1865,11 +2543,21 @@
     "I"
    ],
    "warnemyr_ppp": "khātá",
+   "warnemyr_ppp_forms": [
+    "khātá",
+    "khata"
+   ],
    "vidyut_ppp": [
     "khāta"
    ],
+   "vidyut_ppp_caus": [
+    "khānita"
+   ],
    "dcs_top_ppp": "khāta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "khātá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1881,11 +2569,20 @@
     "VII"
    ],
    "warnemyr_ppp": "khinna",
+   "warnemyr_ppp_forms": [
+    "khinna"
+   ],
    "vidyut_ppp": [
     "khinna"
    ],
+   "vidyut_ppp_caus": [
+    "khedita"
+   ],
    "dcs_top_ppp": "khinna",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "khinna",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1895,11 +2592,20 @@
     "I"
    ],
    "warnemyr_ppp": "khelita",
+   "warnemyr_ppp_forms": [
+    "khelita"
+   ],
    "vidyut_ppp": [
+    "khelita"
+   ],
+   "vidyut_ppp_caus": [
     "khelita"
    ],
    "dcs_top_ppp": "khelita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "khelita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1909,11 +2615,21 @@
     "II"
    ],
    "warnemyr_ppp": "khyātá",
+   "warnemyr_ppp_forms": [
+    "khyātá",
+    "khyata"
+   ],
    "vidyut_ppp": [
     "khyāta"
    ],
+   "vidyut_ppp_caus": [
+    "khyāpita"
+   ],
    "dcs_top_ppp": "khyāta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "khyātá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1923,11 +2639,20 @@
     "I"
    ],
    "warnemyr_ppp": "gadita",
+   "warnemyr_ppp_forms": [
+    "gadita"
+   ],
    "vidyut_ppp": [
     "gadita"
    ],
+   "vidyut_ppp_caus": [
+    "gādita"
+   ],
    "dcs_top_ppp": "gadita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "gadita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1938,11 +2663,20 @@
     "II"
    ],
    "warnemyr_ppp": "gatá",
+   "warnemyr_ppp_forms": [
+    "gatá"
+   ],
    "vidyut_ppp": [
     "gata"
    ],
+   "vidyut_ppp_caus": [
+    "gamita"
+   ],
    "dcs_top_ppp": "gata",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "gatá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1952,11 +2686,20 @@
     "I"
    ],
    "warnemyr_ppp": "garhita",
+   "warnemyr_ppp_forms": [
+    "garhita"
+   ],
    "vidyut_ppp": [
+    "garhita"
+   ],
+   "vidyut_ppp_caus": [
     "garhita"
    ],
    "dcs_top_ppp": "garhita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "garhita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1966,11 +2709,20 @@
     "I"
    ],
    "warnemyr_ppp": "galita",
+   "warnemyr_ppp_forms": [
+    "galita"
+   ],
    "vidyut_ppp": [
     "galita"
    ],
+   "vidyut_ppp_caus": [
+    "gālita"
+   ],
    "dcs_top_ppp": "galita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "galita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1981,11 +2733,20 @@
     "IV"
    ],
    "warnemyr_ppp": "gītá",
+   "warnemyr_ppp_forms": [
+    "gītá"
+   ],
    "vidyut_ppp": [
     "gīta"
    ],
+   "vidyut_ppp_caus": [
+    "gāpita"
+   ],
    "dcs_top_ppp": "gīta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "gītá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -1995,11 +2756,48 @@
     "I"
    ],
    "warnemyr_ppp": "gāḍha",
+   "warnemyr_ppp_forms": [
+    "gāḍha",
+    "gadha",
+    "gahita"
+   ],
    "vidyut_ppp": [
     "gāḍha"
    ],
+   "vidyut_ppp_caus": [
+    "gāhita"
+   ],
    "dcs_top_ppp": "gāḍha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "gāḍha",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 183,
+   "root": "gup",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "gupitá",
+   "warnemyr_ppp_forms": [
+    "gupitá",
+    "gupta"
+   ],
+   "vidyut_ppp": [
+    "gopāyita",
+    "gupta"
+   ],
+   "vidyut_ppp_caus": [
+    "gopita",
+    "gopāyita"
+   ],
+   "dcs_top_ppp": "gupta",
+   "verdict": "match",
+   "match_basis": "doublet",
+   "matched_form": "gupta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2009,11 +2807,21 @@
     "I"
    ],
    "warnemyr_ppp": "gūḍhá",
+   "warnemyr_ppp_forms": [
+    "gūḍhá",
+    "gudha"
+   ],
    "vidyut_ppp": [
     "gūḍha"
    ],
+   "vidyut_ppp_caus": [
+    "gūhita"
+   ],
    "dcs_top_ppp": "gūḍha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "gūḍhá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2023,11 +2831,45 @@
     "IV"
    ],
    "warnemyr_ppp": "gṛddha",
+   "warnemyr_ppp_forms": [
+    "gṛddha",
+    "grddha"
+   ],
    "vidyut_ppp": [
     "gṛddha"
    ],
+   "vidyut_ppp_caus": [
+    "gardhita"
+   ],
    "dcs_top_ppp": "gṛddha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "gṛddha",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 197,
+   "root": "gras",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "grasitá",
+   "warnemyr_ppp_forms": [
+    "grasitá",
+    "grasta"
+   ],
+   "vidyut_ppp": [
+    "grasta"
+   ],
+   "vidyut_ppp_caus": [
+    "grāsita"
+   ],
+   "dcs_top_ppp": "grasta",
+   "verdict": "match",
+   "match_basis": "doublet",
+   "matched_form": "grasta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2037,11 +2879,21 @@
     "I"
    ],
    "warnemyr_ppp": "ghaṭita",
+   "warnemyr_ppp_forms": [
+    "ghaṭita",
+    "ghatita"
+   ],
    "vidyut_ppp": [
+    "ghaṭita"
+   ],
+   "vidyut_ppp_caus": [
     "ghaṭita"
    ],
    "dcs_top_ppp": "ghaṭita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "ghaṭita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2051,11 +2903,21 @@
     "I"
    ],
    "warnemyr_ppp": "ghaṭṭita",
+   "warnemyr_ppp_forms": [
+    "ghaṭṭita",
+    "ghattita"
+   ],
    "vidyut_ppp": [
+    "ghaṭṭita"
+   ],
+   "vidyut_ppp_caus": [
     "ghaṭṭita"
    ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "ghaṭṭita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2065,11 +2927,22 @@
     "I"
    ],
    "warnemyr_ppp": "ghuṭita",
+   "warnemyr_ppp_forms": [
+    "ghuṭita",
+    "ghutita",
+    "ghotita"
+   ],
    "vidyut_ppp": [
     "ghuṭita"
    ],
+   "vidyut_ppp_caus": [
+    "ghoṭita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "ghuṭita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2080,12 +2953,22 @@
     "IV"
    ],
    "warnemyr_ppp": "ghuṣṭa",
+   "warnemyr_ppp_forms": [
+    "ghuṣṭa",
+    "ghusta"
+   ],
    "vidyut_ppp": [
     "ghuṣita",
     "ghuṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "ghoṣita"
+   ],
    "dcs_top_ppp": "ghuṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "ghuṣṭa",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2096,11 +2979,21 @@
     "VI"
    ],
    "warnemyr_ppp": "ghūrṇita",
+   "warnemyr_ppp_forms": [
+    "ghūrṇita",
+    "ghurnita"
+   ],
    "vidyut_ppp": [
+    "ghūrnita"
+   ],
+   "vidyut_ppp_caus": [
     "ghūrnita"
    ],
    "dcs_top_ppp": "ghūrṇita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "ghūrṇita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2111,11 +3004,22 @@
     "III"
    ],
    "warnemyr_ppp": "ghṛtá",
+   "warnemyr_ppp_forms": [
+    "ghṛtá",
+    "ghrta",
+    "gharam"
+   ],
    "vidyut_ppp": [
     "ghṛta"
    ],
+   "vidyut_ppp_caus": [
+    "ghārita"
+   ],
    "dcs_top_ppp": "ghṛtaṃ",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "ghṛtá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2125,11 +3029,21 @@
     "I"
    ],
    "warnemyr_ppp": "ghṛṣṭa",
+   "warnemyr_ppp_forms": [
+    "ghṛṣṭa",
+    "gharsita"
+   ],
    "vidyut_ppp": [
     "ghṛṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "gharṣita"
+   ],
    "dcs_top_ppp": "ghṛṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "ghṛṣṭa",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2141,12 +3055,22 @@
     "III"
    ],
    "warnemyr_ppp": "ghrātá",
+   "warnemyr_ppp_forms": [
+    "ghrātá",
+    "ghrata"
+   ],
    "vidyut_ppp": [
     "ghrāna",
     "ghrāta"
    ],
+   "vidyut_ppp_caus": [
+    "ghrāpita"
+   ],
    "dcs_top_ppp": "ghrāta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "ghrātá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2156,11 +3080,21 @@
     "I"
    ],
    "warnemyr_ppp": "cakita",
+   "warnemyr_ppp_forms": [
+    "cakita"
+   ],
    "vidyut_ppp": [
     "cakita"
    ],
+   "vidyut_ppp_caus": [
+    "cakita",
+    "cākita"
+   ],
    "dcs_top_ppp": "cakita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "cakita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2170,11 +3104,21 @@
     "I"
    ],
    "warnemyr_ppp": "caṭita",
+   "warnemyr_ppp_forms": [
+    "caṭita",
+    "catita"
+   ],
    "vidyut_ppp": [
     "caṭita"
    ],
+   "vidyut_ppp_caus": [
+    "cāṭita"
+   ],
    "dcs_top_ppp": "caṭita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "caṭita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2185,11 +3129,22 @@
     "V"
    ],
    "warnemyr_ppp": "cāṃta",
+   "warnemyr_ppp_forms": [
+    "cāṃta",
+    "camta"
+   ],
    "vidyut_ppp": [
     "cānta"
    ],
+   "vidyut_ppp_caus": [
+    "camita",
+    "cāmita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "cāṃta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2199,11 +3154,21 @@
     "I"
    ],
    "warnemyr_ppp": "caritá",
+   "warnemyr_ppp_forms": [
+    "caritá",
+    "cirna"
+   ],
    "vidyut_ppp": [
     "carita"
    ],
+   "vidyut_ppp_caus": [
+    "cārita"
+   ],
    "dcs_top_ppp": "carita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "caritá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2213,11 +3178,21 @@
     "I"
    ],
    "warnemyr_ppp": "calita",
+   "warnemyr_ppp_forms": [
+    "calita"
+   ],
    "vidyut_ppp": [
     "calita"
    ],
+   "vidyut_ppp_caus": [
+    "calita",
+    "cālita"
+   ],
    "dcs_top_ppp": "calita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "calita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2229,11 +3204,21 @@
     "V"
    ],
    "warnemyr_ppp": "citá",
+   "warnemyr_ppp_forms": [
+    "citá"
+   ],
    "vidyut_ppp": [
     "cita"
    ],
+   "vidyut_ppp_caus": [
+    "cāpita",
+    "cāyita"
+   ],
    "dcs_top_ppp": "cita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "citá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2245,11 +3230,21 @@
     "V"
    ],
    "warnemyr_ppp": "citá",
+   "warnemyr_ppp_forms": [
+    "citá"
+   ],
    "vidyut_ppp": [
     "cita"
    ],
+   "vidyut_ppp_caus": [
+    "cāpita",
+    "cāyita"
+   ],
    "dcs_top_ppp": "cita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "citá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2259,11 +3254,22 @@
     "I"
    ],
    "warnemyr_ppp": "cittá",
+   "warnemyr_ppp_forms": [
+    "cittá",
+    "cite",
+    "citaye"
+   ],
    "vidyut_ppp": [
     "citta"
    ],
+   "vidyut_ppp_caus": [
+    "cetita"
+   ],
    "dcs_top_ppp": "cikituṣa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "cittá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2273,11 +3279,20 @@
     "I"
    ],
    "warnemyr_ppp": "cupita",
+   "warnemyr_ppp_forms": [
+    "cupita"
+   ],
    "vidyut_ppp": [
     "cupita"
    ],
+   "vidyut_ppp_caus": [
+    "copita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "cupita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2288,11 +3303,21 @@
     "VI"
    ],
    "warnemyr_ppp": "cṛttá",
+   "warnemyr_ppp_forms": [
+    "cṛttá",
+    "crtta"
+   ],
    "vidyut_ppp": [
     "cṛtta"
    ],
+   "vidyut_ppp_caus": [
+    "cartita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "cṛttá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2302,11 +3327,21 @@
     "I"
    ],
    "warnemyr_ppp": "ceṣṭita",
+   "warnemyr_ppp_forms": [
+    "ceṣṭita",
+    "cestita"
+   ],
    "vidyut_ppp": [
+    "ceṣṭita"
+   ],
+   "vidyut_ppp_caus": [
     "ceṣṭita"
    ],
    "dcs_top_ppp": "ceṣṭita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "ceṣṭita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2316,11 +3351,20 @@
     "I"
    ],
    "warnemyr_ppp": "cyutá",
+   "warnemyr_ppp_forms": [
+    "cyutá"
+   ],
    "vidyut_ppp": [
     "cyuta"
    ],
+   "vidyut_ppp_caus": [
+    "cyāvita"
+   ],
    "dcs_top_ppp": "cyuta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "cyutá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2330,11 +3374,20 @@
     "VII"
    ],
    "warnemyr_ppp": "chinná",
+   "warnemyr_ppp_forms": [
+    "chinná"
+   ],
    "vidyut_ppp": [
     "chinna"
    ],
+   "vidyut_ppp_caus": [
+    "chedita"
+   ],
    "dcs_top_ppp": "chinna",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "chinná",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2345,11 +3398,21 @@
     "VII"
    ],
    "warnemyr_ppp": "chṛṇṇá",
+   "warnemyr_ppp_forms": [
+    "chṛṇṇá",
+    "chrnna"
+   ],
    "vidyut_ppp": [
     "chṛnna"
    ],
+   "vidyut_ppp_caus": [
+    "chardita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "chṛṇṇá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2362,11 +3425,23 @@
     "IV"
    ],
    "warnemyr_ppp": "jātá",
+   "warnemyr_ppp_forms": [
+    "jātá",
+    "jata",
+    "janitos",
+    "janitvi"
+   ],
    "vidyut_ppp": [
     "jāta"
    ],
+   "vidyut_ppp_caus": [
+    "janita"
+   ],
    "dcs_top_ppp": "jāta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "jātá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2376,11 +3451,21 @@
     "I"
    ],
    "warnemyr_ppp": "japita",
+   "warnemyr_ppp_forms": [
+    "japita",
+    "japta"
+   ],
    "vidyut_ppp": [
     "japita"
    ],
+   "vidyut_ppp_caus": [
+    "jāpita"
+   ],
    "dcs_top_ppp": "japta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "japita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2390,11 +3475,20 @@
     "I"
    ],
    "warnemyr_ppp": "jalpita",
+   "warnemyr_ppp_forms": [
+    "jalpita"
+   ],
    "vidyut_ppp": [
+    "jalpita"
+   ],
+   "vidyut_ppp_caus": [
     "jalpita"
    ],
    "dcs_top_ppp": "jalpita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "jalpita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2405,11 +3499,45 @@
     "II"
    ],
    "warnemyr_ppp": "jitá",
+   "warnemyr_ppp_forms": [
+    "jitá"
+   ],
    "vidyut_ppp": [
     "jita"
    ],
+   "vidyut_ppp_caus": [
+    "jāpita"
+   ],
    "dcs_top_ppp": "jita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "jitá",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 259,
+   "root": "ji",
+   "class": [
+    "I",
+    "V"
+   ],
+   "warnemyr_ppp": "jinvitá",
+   "warnemyr_ppp_forms": [
+    "jinvitá",
+    "jita"
+   ],
+   "vidyut_ppp": [
+    "jita"
+   ],
+   "vidyut_ppp_caus": [
+    "jāpita"
+   ],
+   "dcs_top_ppp": "jita",
+   "verdict": "match",
+   "match_basis": "source_alt",
+   "matched_form": "jita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2419,11 +3547,21 @@
     "I"
    ],
    "warnemyr_ppp": "jīvitá",
+   "warnemyr_ppp_forms": [
+    "jīvitá",
+    "jivita"
+   ],
    "vidyut_ppp": [
+    "jīvita"
+   ],
+   "vidyut_ppp_caus": [
     "jīvita"
    ],
    "dcs_top_ppp": "jīvita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "jīvitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2434,11 +3572,22 @@
     "VI"
    ],
    "warnemyr_ppp": "júṣṭa",
+   "warnemyr_ppp_forms": [
+    "júṣṭa",
+    "justa",
+    "justvi"
+   ],
    "vidyut_ppp": [
     "juṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "joṣita"
+   ],
    "dcs_top_ppp": "juṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "júṣṭa",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2449,11 +3598,46 @@
     "IX"
    ],
    "warnemyr_ppp": "jñātá",
+   "warnemyr_ppp_forms": [
+    "jñātá",
+    "jnata"
+   ],
    "vidyut_ppp": [
     "jnāta"
    ],
+   "vidyut_ppp_caus": [
+    "jnāpita"
+   ],
    "dcs_top_ppp": "jñāta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "jñātá",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 270,
+   "root": "jyā",
+   "class": [
+    "IV",
+    "IX"
+   ],
+   "warnemyr_ppp": "jītá",
+   "warnemyr_ppp_forms": [
+    "jītá",
+    "jita"
+   ],
+   "vidyut_ppp": [
+    "jīna"
+   ],
+   "vidyut_ppp_caus": [
+    "jyāpita"
+   ],
+   "dcs_top_ppp": "jīta",
+   "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "jītá",
+   "matched_against": "dcs",
    "corpus_backs_vidyut": false
   },
   {
@@ -2463,11 +3647,21 @@
     "I"
    ],
    "warnemyr_ppp": "jvalita",
+   "warnemyr_ppp_forms": [
+    "jvalita"
+   ],
    "vidyut_ppp": [
     "jvalita"
    ],
+   "vidyut_ppp_caus": [
+    "jvalita",
+    "jvālita"
+   ],
    "dcs_top_ppp": "jvalita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "jvalita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2477,11 +3671,21 @@
     "I"
    ],
    "warnemyr_ppp": "ḍhaukita",
+   "warnemyr_ppp_forms": [
+    "ḍhaukita",
+    "dhaukita"
+   ],
    "vidyut_ppp": [
+    "ḍhaukita"
+   ],
+   "vidyut_ppp_caus": [
     "ḍhaukita"
    ],
    "dcs_top_ppp": "ḍhaukita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "ḍhaukita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2493,12 +3697,22 @@
     "V"
    ],
    "warnemyr_ppp": "taṣṭá",
+   "warnemyr_ppp_forms": [
+    "taṣṭá",
+    "tasta"
+   ],
    "vidyut_ppp": [
     "takṣita",
     "taṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "takṣita"
+   ],
    "dcs_top_ppp": "taṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "taṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2508,11 +3722,20 @@
     "VII"
    ],
    "warnemyr_ppp": "takta",
+   "warnemyr_ppp_forms": [
+    "takta"
+   ],
    "vidyut_ppp": [
     "takta"
    ],
+   "vidyut_ppp_caus": [
+    "tancita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "takta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2522,11 +3745,20 @@
     "VIII"
    ],
    "warnemyr_ppp": "tatá",
+   "warnemyr_ppp_forms": [
+    "tatá"
+   ],
    "vidyut_ppp": [
     "tata"
    ],
+   "vidyut_ppp_caus": [
+    "tānita"
+   ],
    "dcs_top_ppp": "tata",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "tatá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2537,11 +3769,21 @@
     "IV"
    ],
    "warnemyr_ppp": "taptá",
+   "warnemyr_ppp_forms": [
+    "taptá",
+    "tapita"
+   ],
    "vidyut_ppp": [
     "tapta"
    ],
+   "vidyut_ppp_caus": [
+    "tāpita"
+   ],
    "dcs_top_ppp": "tapta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "taptá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2551,11 +3793,22 @@
     "IV"
    ],
    "warnemyr_ppp": "tāṃtá",
+   "warnemyr_ppp_forms": [
+    "tāṃtá",
+    "tamta",
+    "tamitos"
+   ],
    "vidyut_ppp": [
     "tānta"
    ],
+   "vidyut_ppp_caus": [
+    "tamita"
+   ],
    "dcs_top_ppp": "tānta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "tāṃtá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2565,11 +3818,20 @@
     "I"
    ],
    "warnemyr_ppp": "tarjita",
+   "warnemyr_ppp_forms": [
+    "tarjita"
+   ],
    "vidyut_ppp": [
+    "tarjita"
+   ],
+   "vidyut_ppp_caus": [
     "tarjita"
    ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "tarjita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2579,11 +3841,20 @@
     "IV"
    ],
    "warnemyr_ppp": "timita",
+   "warnemyr_ppp_forms": [
+    "timita"
+   ],
    "vidyut_ppp": [
     "timita"
    ],
+   "vidyut_ppp_caus": [
+    "temita"
+   ],
    "dcs_top_ppp": "timita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "timita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2594,11 +3865,20 @@
     "VII"
    ],
    "warnemyr_ppp": "tunná",
+   "warnemyr_ppp_forms": [
+    "tunná"
+   ],
    "vidyut_ppp": [
     "tunna"
    ],
+   "vidyut_ppp_caus": [
+    "todita"
+   ],
    "dcs_top_ppp": "tunna",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "tunná",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2608,11 +3888,21 @@
     "IV"
    ],
    "warnemyr_ppp": "tuṣṭa",
+   "warnemyr_ppp_forms": [
+    "tuṣṭa",
+    "tusta"
+   ],
    "vidyut_ppp": [
     "tuṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "toṣita"
+   ],
    "dcs_top_ppp": "tuṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "tuṣṭa",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2623,11 +3913,21 @@
     "VII"
    ],
    "warnemyr_ppp": "tṛṇṇá",
+   "warnemyr_ppp_forms": [
+    "tṛṇṇá",
+    "trnna"
+   ],
    "vidyut_ppp": [
     "tṛnna"
    ],
+   "vidyut_ppp_caus": [
+    "tardita"
+   ],
    "dcs_top_ppp": "tatṛdāna",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "tṛṇṇá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2640,11 +3940,21 @@
     "VI"
    ],
    "warnemyr_ppp": "tṛptá",
+   "warnemyr_ppp_forms": [
+    "tṛptá",
+    "trpta"
+   ],
    "vidyut_ppp": [
     "tṛpta"
    ],
+   "vidyut_ppp_caus": [
+    "tarpita"
+   ],
    "dcs_top_ppp": "tṛpta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "tṛptá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2654,11 +3964,21 @@
     "I"
    ],
    "warnemyr_ppp": "tyaktá",
+   "warnemyr_ppp_forms": [
+    "tyaktá",
+    "tyajita"
+   ],
    "vidyut_ppp": [
     "tyakta"
    ],
+   "vidyut_ppp_caus": [
+    "tyājita"
+   ],
    "dcs_top_ppp": "tyakta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "tyaktá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2669,11 +3989,21 @@
     "IV"
    ],
    "warnemyr_ppp": "trastá",
+   "warnemyr_ppp_forms": [
+    "trastá",
+    "trasas"
+   ],
    "vidyut_ppp": [
     "trasta"
    ],
+   "vidyut_ppp_caus": [
+    "trāsita"
+   ],
    "dcs_top_ppp": "trasta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "trastá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2683,11 +4013,21 @@
     "I"
    ],
    "warnemyr_ppp": "daṣṭá",
+   "warnemyr_ppp_forms": [
+    "daṣṭá",
+    "dasta"
+   ],
    "vidyut_ppp": [
     "daṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "danśita"
+   ],
    "dcs_top_ppp": "daṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "daṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2699,11 +4039,47 @@
     "IV"
    ],
    "warnemyr_ppp": "dagdhá",
+   "warnemyr_ppp_forms": [
+    "dagdhá"
+   ],
    "vidyut_ppp": [
     "dagdha"
    ],
+   "vidyut_ppp_caus": [
+    "dāhita"
+   ],
    "dcs_top_ppp": "dagdha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "dagdhá",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 350,
+   "root": "dā",
+   "class": [
+    "I",
+    "VI"
+   ],
+   "warnemyr_ppp": "diná",
+   "warnemyr_ppp_forms": [
+    "diná",
+    "data",
+    "datta",
+    "tta"
+   ],
+   "vidyut_ppp": [
+    "datta"
+   ],
+   "vidyut_ppp_caus": [
+    "dāpita"
+   ],
+   "dcs_top_ppp": "datta",
+   "verdict": "match",
+   "match_basis": "doublet",
+   "matched_form": "datta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2715,11 +4091,21 @@
     "VI"
    ],
    "warnemyr_ppp": "diṣṭá",
+   "warnemyr_ppp_forms": [
+    "diṣṭá",
+    "dista"
+   ],
    "vidyut_ppp": [
     "diṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "deśita"
+   ],
    "dcs_top_ppp": "diṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "diṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2729,11 +4115,20 @@
     "II"
    ],
    "warnemyr_ppp": "digdhá",
+   "warnemyr_ppp_forms": [
+    "digdhá"
+   ],
    "vidyut_ppp": [
     "digdha"
    ],
+   "vidyut_ppp_caus": [
+    "dehita"
+   ],
    "dcs_top_ppp": "digdha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "digdhá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2743,11 +4138,21 @@
     "I"
    ],
    "warnemyr_ppp": "dīkṣitá",
+   "warnemyr_ppp_forms": [
+    "dīkṣitá",
+    "diksita"
+   ],
    "vidyut_ppp": [
+    "dīkṣita"
+   ],
+   "vidyut_ppp_caus": [
     "dīkṣita"
    ],
    "dcs_top_ppp": "dīkṣita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "dīkṣitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2757,11 +4162,46 @@
     "IV"
    ],
    "warnemyr_ppp": "dīpta",
+   "warnemyr_ppp_forms": [
+    "dīpta",
+    "dipta"
+   ],
    "vidyut_ppp": [
     "dīpta"
    ],
+   "vidyut_ppp_caus": [
+    "dīpita"
+   ],
    "dcs_top_ppp": "dīpta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "dīpta",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 365,
+   "root": "du",
+   "class": [
+    "V"
+   ],
+   "warnemyr_ppp": "dūná",
+   "warnemyr_ppp_forms": [
+    "dūná",
+    "duna",
+    "duta"
+   ],
+   "vidyut_ppp": [
+    "duta"
+   ],
+   "vidyut_ppp_caus": [
+    "dāvita"
+   ],
+   "dcs_top_ppp": "dūna",
+   "verdict": "match",
+   "match_basis": "doublet",
+   "matched_form": "duta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2771,11 +4211,22 @@
     "IV"
    ],
    "warnemyr_ppp": "duṣṭa",
+   "warnemyr_ppp_forms": [
+    "duṣṭa",
+    "dusta"
+   ],
    "vidyut_ppp": [
     "duṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "doṣita",
+    "dūṣita"
+   ],
    "dcs_top_ppp": "duṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "duṣṭa",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2787,11 +4238,46 @@
     "VI"
    ],
    "warnemyr_ppp": "dugdhá",
+   "warnemyr_ppp_forms": [
+    "dugdhá"
+   ],
    "vidyut_ppp": [
     "dugdha"
    ],
+   "vidyut_ppp_caus": [
+    "dohita"
+   ],
    "dcs_top_ppp": "dugdha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "dugdhá",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 376,
+   "root": "dṛh",
+   "class": [
+    "I",
+    "IV",
+    "VI"
+   ],
+   "warnemyr_ppp": "dṛḍhá",
+   "warnemyr_ppp_forms": [
+    "dṛḍhá",
+    "drdha"
+   ],
+   "vidyut_ppp": [
+    "dṛnhita"
+   ],
+   "vidyut_ppp_caus": [
+    "dṛnhita"
+   ],
+   "dcs_top_ppp": "dṛḍha",
+   "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "dṛḍhá",
+   "matched_against": "dcs",
    "corpus_backs_vidyut": false
   },
   {
@@ -2801,11 +4287,21 @@
     "II"
    ],
    "warnemyr_ppp": "drāṇa",
+   "warnemyr_ppp_forms": [
+    "drāṇa",
+    "drana"
+   ],
    "vidyut_ppp": [
     "drāna"
    ],
+   "vidyut_ppp_caus": [
+    "drāpita"
+   ],
    "dcs_top_ppp": "dadrāṇaṃ",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "drāṇa",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2816,11 +4312,21 @@
     "IV"
    ],
    "warnemyr_ppp": "drāṇa",
+   "warnemyr_ppp_forms": [
+    "drāṇa",
+    "drana"
+   ],
    "vidyut_ppp": [
     "drāna"
    ],
+   "vidyut_ppp_caus": [
+    "drāpita"
+   ],
    "dcs_top_ppp": "dadrāṇaṃ",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "drāṇa",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2830,11 +4336,20 @@
     "I"
    ],
    "warnemyr_ppp": "drutá",
+   "warnemyr_ppp_forms": [
+    "drutá"
+   ],
    "vidyut_ppp": [
     "druta"
    ],
+   "vidyut_ppp_caus": [
+    "drāvita"
+   ],
    "dcs_top_ppp": "druta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "drutá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2844,12 +4359,21 @@
     "IV"
    ],
    "warnemyr_ppp": "drugdhá",
+   "warnemyr_ppp_forms": [
+    "drugdhá"
+   ],
    "vidyut_ppp": [
     "drugdha",
     "drūḍha"
    ],
+   "vidyut_ppp_caus": [
+    "drohita"
+   ],
    "dcs_top_ppp": "drugdha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "drugdhá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2860,11 +4384,21 @@
     "VI"
    ],
    "warnemyr_ppp": "dviṣṭa",
+   "warnemyr_ppp_forms": [
+    "dviṣṭa",
+    "dvista"
+   ],
    "vidyut_ppp": [
     "dviṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "dveṣita"
+   ],
    "dcs_top_ppp": "dviṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "dviṣṭa",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2877,11 +4411,45 @@
     "IV"
    ],
    "warnemyr_ppp": "hitá",
+   "warnemyr_ppp_forms": [
+    "hitá",
+    "dhita"
+   ],
    "vidyut_ppp": [
     "hita"
    ],
+   "vidyut_ppp_caus": [
+    "dhāpita"
+   ],
    "dcs_top_ppp": "hita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "hitá",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 395,
+   "root": "dhāv",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "dhāvita",
+   "warnemyr_ppp_forms": [
+    "dhāvita",
+    "dhavita"
+   ],
+   "vidyut_ppp": [
+    "dhauta"
+   ],
+   "vidyut_ppp_caus": [
+    "dhāvita"
+   ],
+   "dcs_top_ppp": "dhauta",
+   "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "dhāvita",
+   "matched_against": "vidyut_caus",
    "corpus_backs_vidyut": false
   },
   {
@@ -2891,11 +4459,21 @@
     "I"
    ],
    "warnemyr_ppp": "dhautá",
+   "warnemyr_ppp_forms": [
+    "dhautá",
+    "dhavita"
+   ],
    "vidyut_ppp": [
     "dhauta"
    ],
+   "vidyut_ppp_caus": [
+    "dhāvita"
+   ],
    "dcs_top_ppp": "dhauta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "dhautá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2908,12 +4486,23 @@
     "IX"
    ],
    "warnemyr_ppp": "dhūtá",
+   "warnemyr_ppp_forms": [
+    "dhūtá",
+    "dhuta"
+   ],
    "vidyut_ppp": [
     "dhūna",
     "dhūta"
    ],
+   "vidyut_ppp_caus": [
+    "dhāvita",
+    "dhūnita"
+   ],
    "dcs_top_ppp": "dhūta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "dhūtá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2923,11 +4512,21 @@
     "I"
    ],
    "warnemyr_ppp": "dhṛtá",
+   "warnemyr_ppp_forms": [
+    "dhṛtá",
+    "dhrta"
+   ],
    "vidyut_ppp": [
     "dhṛta"
    ],
+   "vidyut_ppp_caus": [
+    "dhārita"
+   ],
    "dcs_top_ppp": "dhṛta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "dhṛtá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2938,11 +4537,22 @@
     "V"
    ],
    "warnemyr_ppp": "dhṛṣṭá",
+   "warnemyr_ppp_forms": [
+    "dhṛṣṭá",
+    "dhrsta",
+    "dhrsita"
+   ],
    "vidyut_ppp": [
     "dhṛṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "dharṣita"
+   ],
    "dcs_top_ppp": "dhṛṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "dhṛṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2952,11 +4562,21 @@
     "I"
    ],
    "warnemyr_ppp": "dhvanita",
+   "warnemyr_ppp_forms": [
+    "dhvanita",
+    "dhvanta"
+   ],
    "vidyut_ppp": [
+    "dhvanita"
+   ],
+   "vidyut_ppp_caus": [
     "dhvanita"
    ],
    "dcs_top_ppp": "dhvanita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "dhvanita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2966,11 +4586,21 @@
     "I"
    ],
    "warnemyr_ppp": "natá",
+   "warnemyr_ppp_forms": [
+    "natá"
+   ],
    "vidyut_ppp": [
     "nata"
    ],
+   "vidyut_ppp_caus": [
+    "namita",
+    "nāmita"
+   ],
    "dcs_top_ppp": "nata",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "natá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2980,11 +4610,21 @@
     "I"
    ],
    "warnemyr_ppp": "nardita",
+   "warnemyr_ppp_forms": [
+    "nardita",
+    "nardam"
+   ],
    "vidyut_ppp": [
+    "nardita"
+   ],
+   "vidyut_ppp_caus": [
     "nardita"
    ],
    "dcs_top_ppp": "narditaṃ",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "nardita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -2995,11 +4635,21 @@
     "IV"
    ],
    "warnemyr_ppp": "naṣṭá",
+   "warnemyr_ppp_forms": [
+    "naṣṭá",
+    "nasta"
+   ],
    "vidyut_ppp": [
     "naṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "nāśita"
+   ],
    "dcs_top_ppp": "naṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "naṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3010,11 +4660,20 @@
     "IV"
    ],
    "warnemyr_ppp": "naddhá",
+   "warnemyr_ppp_forms": [
+    "naddhá"
+   ],
    "vidyut_ppp": [
     "naddha"
    ],
+   "vidyut_ppp_caus": [
+    "nāhita"
+   ],
    "dcs_top_ppp": "naddha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "naddhá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3024,11 +4683,22 @@
     "I"
    ],
    "warnemyr_ppp": "nāthitá",
+   "warnemyr_ppp_forms": [
+    "nāthitá",
+    "nathita",
+    "nadhita"
+   ],
    "vidyut_ppp": [
+    "nāthita"
+   ],
+   "vidyut_ppp_caus": [
     "nāthita"
    ],
    "dcs_top_ppp": "nāthita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "nāthitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3039,11 +4709,20 @@
     "III"
    ],
    "warnemyr_ppp": "niktá",
+   "warnemyr_ppp_forms": [
+    "niktá"
+   ],
    "vidyut_ppp": [
     "nikta"
    ],
+   "vidyut_ppp_caus": [
+    "nejita"
+   ],
    "dcs_top_ppp": "nikta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "niktá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3054,11 +4733,21 @@
     "II"
    ],
    "warnemyr_ppp": "nītá",
+   "warnemyr_ppp_forms": [
+    "nītá",
+    "nita"
+   ],
    "vidyut_ppp": [
     "nīta"
    ],
+   "vidyut_ppp_caus": [
+    "nāyita"
+   ],
    "dcs_top_ppp": "nīta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "nītá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3070,11 +4759,20 @@
     "VI"
    ],
    "warnemyr_ppp": "nuta",
+   "warnemyr_ppp_forms": [
+    "nuta"
+   ],
    "vidyut_ppp": [
     "nuta"
    ],
+   "vidyut_ppp_caus": [
+    "nāvita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "nuta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3084,12 +4782,23 @@
     "VI"
    ],
    "warnemyr_ppp": "nuttá",
+   "warnemyr_ppp_forms": [
+    "nuttá",
+    "nunna",
+    "nudita"
+   ],
    "vidyut_ppp": [
     "nunna",
     "nutta"
    ],
+   "vidyut_ppp_caus": [
+    "nodita"
+   ],
    "dcs_top_ppp": "nunna",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "nuttá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3099,11 +4808,21 @@
     "IV"
    ],
    "warnemyr_ppp": "nṛttá",
+   "warnemyr_ppp_forms": [
+    "nṛttá",
+    "nrtta"
+   ],
    "vidyut_ppp": [
     "nṛtta"
    ],
+   "vidyut_ppp_caus": [
+    "nartita"
+   ],
    "dcs_top_ppp": "nṛtta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "nṛttá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3113,11 +4832,21 @@
     "I"
    ],
    "warnemyr_ppp": "paṭhita",
+   "warnemyr_ppp_forms": [
+    "paṭhita",
+    "pathita"
+   ],
    "vidyut_ppp": [
     "paṭhita"
    ],
+   "vidyut_ppp_caus": [
+    "pāṭhita"
+   ],
    "dcs_top_ppp": "paṭhita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "paṭhita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3127,12 +4856,22 @@
     "I"
    ],
    "warnemyr_ppp": "paṇita",
+   "warnemyr_ppp_forms": [
+    "paṇita"
+   ],
    "vidyut_ppp": [
     "panita",
     "panāyita"
    ],
+   "vidyut_ppp_caus": [
+    "panāyita",
+    "pānita"
+   ],
    "dcs_top_ppp": "paṇita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "paṇita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3142,11 +4881,20 @@
     "I"
    ],
    "warnemyr_ppp": "patitá",
+   "warnemyr_ppp_forms": [
+    "patitá"
+   ],
    "vidyut_ppp": [
     "patita"
    ],
+   "vidyut_ppp_caus": [
+    "pātita"
+   ],
    "dcs_top_ppp": "patita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "patitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3157,11 +4905,20 @@
     "IV"
    ],
    "warnemyr_ppp": "panná",
+   "warnemyr_ppp_forms": [
+    "panná"
+   ],
    "vidyut_ppp": [
     "panna"
    ],
+   "vidyut_ppp_caus": [
+    "pādita"
+   ],
    "dcs_top_ppp": "panna",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "panná",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3171,12 +4928,22 @@
     "I"
    ],
    "warnemyr_ppp": "panitá",
+   "warnemyr_ppp_forms": [
+    "panitá"
+   ],
    "vidyut_ppp": [
     "panita",
     "panāyita"
    ],
+   "vidyut_ppp_caus": [
+    "panāyita",
+    "pānita"
+   ],
    "dcs_top_ppp": "panita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "panitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3188,11 +4955,21 @@
     "III"
    ],
    "warnemyr_ppp": "pītá",
+   "warnemyr_ppp_forms": [
+    "pītá",
+    "pita"
+   ],
    "vidyut_ppp": [
     "pīta"
    ],
+   "vidyut_ppp_caus": [
+    "pāyita"
+   ],
    "dcs_top_ppp": "pīta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "pītá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3203,11 +4980,21 @@
     "VII"
    ],
    "warnemyr_ppp": "piṣṭá",
+   "warnemyr_ppp_forms": [
+    "piṣṭá",
+    "pista"
+   ],
    "vidyut_ppp": [
     "piṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "peṣita"
+   ],
    "dcs_top_ppp": "piṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "piṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3218,12 +5005,22 @@
     "IX"
    ],
    "warnemyr_ppp": "pūtá",
+   "warnemyr_ppp_forms": [
+    "pūtá",
+    "puta"
+   ],
    "vidyut_ppp": [
     "pavita",
     "pūta"
    ],
+   "vidyut_ppp_caus": [
+    "pāvita"
+   ],
    "dcs_top_ppp": "pūta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "pūtá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3233,11 +5030,22 @@
     "V"
    ],
    "warnemyr_ppp": "pṛta",
+   "warnemyr_ppp_forms": [
+    "pṛta",
+    "purna",
+    "prta"
+   ],
    "vidyut_ppp": [
     "pṛta"
    ],
+   "vidyut_ppp_caus": [
+    "pārita"
+   ],
    "dcs_top_ppp": "pūrṇa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "pṛta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3249,11 +5057,23 @@
     "VII"
    ],
    "warnemyr_ppp": "pṛktá",
+   "warnemyr_ppp_forms": [
+    "pṛktá",
+    "prkta",
+    "prgna",
+    "prce"
+   ],
    "vidyut_ppp": [
     "pṛkta"
    ],
+   "vidyut_ppp_caus": [
+    "parcita"
+   ],
    "dcs_top_ppp": "pṛkta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "pṛktá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3263,11 +5083,21 @@
     "VI"
    ],
    "warnemyr_ppp": "pṛṣṭá",
+   "warnemyr_ppp_forms": [
+    "pṛṣṭá",
+    "prsta"
+   ],
    "vidyut_ppp": [
     "pṛṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "pracchita"
+   ],
    "dcs_top_ppp": "pṛṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "pṛṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3277,11 +5107,20 @@
     "I"
    ],
    "warnemyr_ppp": "prathita",
+   "warnemyr_ppp_forms": [
+    "prathita"
+   ],
    "vidyut_ppp": [
+    "prathita"
+   ],
+   "vidyut_ppp_caus": [
     "prathita"
    ],
    "dcs_top_ppp": "prathita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "prathita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3292,11 +5131,22 @@
     "IX"
    ],
    "warnemyr_ppp": "prītá",
+   "warnemyr_ppp_forms": [
+    "prītá",
+    "prita"
+   ],
    "vidyut_ppp": [
     "prīta"
    ],
+   "vidyut_ppp_caus": [
+    "prāyita",
+    "prīnita"
+   ],
    "dcs_top_ppp": "prīta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "prītá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3306,11 +5156,20 @@
     "I"
    ],
    "warnemyr_ppp": "plutá",
+   "warnemyr_ppp_forms": [
+    "plutá"
+   ],
    "vidyut_ppp": [
     "pluta"
    ],
+   "vidyut_ppp_caus": [
+    "plāvita"
+   ],
    "dcs_top_ppp": "pluta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "plutá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3320,11 +5179,21 @@
     "I"
    ],
    "warnemyr_ppp": "pluṣṭa",
+   "warnemyr_ppp_forms": [
+    "pluṣṭa",
+    "plusta"
+   ],
    "vidyut_ppp": [
     "pluṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "ploṣita"
+   ],
    "dcs_top_ppp": "pluṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "pluṣṭa",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3334,12 +5203,21 @@
     "I"
    ],
    "warnemyr_ppp": "phalita",
+   "warnemyr_ppp_forms": [
+    "phalita"
+   ],
    "vidyut_ppp": [
     "phalita",
     "phulla"
    ],
+   "vidyut_ppp_caus": [
+    "phālita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "phalita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3349,12 +5227,21 @@
     "I"
    ],
    "warnemyr_ppp": "phalita",
+   "warnemyr_ppp_forms": [
+    "phalita"
+   ],
    "vidyut_ppp": [
     "phalita",
     "phulla"
    ],
+   "vidyut_ppp_caus": [
+    "phālita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "phalita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3365,11 +5252,20 @@
     "IX"
    ],
    "warnemyr_ppp": "baddhá",
+   "warnemyr_ppp_forms": [
+    "baddhá"
+   ],
    "vidyut_ppp": [
     "baddha"
    ],
+   "vidyut_ppp_caus": [
+    "bandhita"
+   ],
    "dcs_top_ppp": "baddha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "baddhá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3379,11 +5275,21 @@
     "I"
    ],
    "warnemyr_ppp": "bādhitá",
+   "warnemyr_ppp_forms": [
+    "bādhitá",
+    "badhita"
+   ],
    "vidyut_ppp": [
+    "bādhita"
+   ],
+   "vidyut_ppp_caus": [
     "bādhita"
    ],
    "dcs_top_ppp": "bādhita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "bādhitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3394,11 +5300,20 @@
     "IV"
    ],
    "warnemyr_ppp": "buddhá",
+   "warnemyr_ppp_forms": [
+    "buddhá"
+   ],
    "vidyut_ppp": [
     "buddha"
    ],
+   "vidyut_ppp_caus": [
+    "bodhita"
+   ],
    "dcs_top_ppp": "buddha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "buddhá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3409,11 +5324,22 @@
     "VI"
    ],
    "warnemyr_ppp": "bṛḍha",
+   "warnemyr_ppp_forms": [
+    "bṛḍha",
+    "brdha",
+    "vrdha"
+   ],
    "vidyut_ppp": [
     "bṛḍha"
    ],
+   "vidyut_ppp_caus": [
+    "barhita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "bṛḍha",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3424,11 +5350,20 @@
     "II"
    ],
    "warnemyr_ppp": "bhaktá",
+   "warnemyr_ppp_forms": [
+    "bhaktá"
+   ],
    "vidyut_ppp": [
     "bhakta"
    ],
+   "vidyut_ppp_caus": [
+    "bhājita"
+   ],
    "dcs_top_ppp": "bhakta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "bhaktá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3438,11 +5373,20 @@
     "VII"
    ],
    "warnemyr_ppp": "bhagna",
+   "warnemyr_ppp_forms": [
+    "bhagna"
+   ],
    "vidyut_ppp": [
     "bhagna"
    ],
+   "vidyut_ppp_caus": [
+    "bhanjita"
+   ],
    "dcs_top_ppp": "bhagna",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "bhagna",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3452,11 +5396,20 @@
     "I"
    ],
    "warnemyr_ppp": "bhaṇita",
+   "warnemyr_ppp_forms": [
+    "bhaṇita"
+   ],
    "vidyut_ppp": [
     "bhanita"
    ],
+   "vidyut_ppp_caus": [
+    "bhānita"
+   ],
    "dcs_top_ppp": "bhaṇita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "bhaṇita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3466,11 +5419,21 @@
     "II"
    ],
    "warnemyr_ppp": "bhāta",
+   "warnemyr_ppp_forms": [
+    "bhāta",
+    "bhata"
+   ],
    "vidyut_ppp": [
     "bhāta"
    ],
+   "vidyut_ppp_caus": [
+    "bhāpita"
+   ],
    "dcs_top_ppp": "bhāta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "bhāta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3480,11 +5443,21 @@
     "I"
    ],
    "warnemyr_ppp": "bhāmitá",
+   "warnemyr_ppp_forms": [
+    "bhāmitá",
+    "bhamita"
+   ],
    "vidyut_ppp": [
+    "bhāmita"
+   ],
+   "vidyut_ppp_caus": [
     "bhāmita"
    ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "bhāmitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3494,11 +5467,21 @@
     "I"
    ],
    "warnemyr_ppp": "bhāṣita",
+   "warnemyr_ppp_forms": [
+    "bhāṣita",
+    "bhasita"
+   ],
    "vidyut_ppp": [
+    "bhāṣita"
+   ],
+   "vidyut_ppp_caus": [
     "bhāṣita"
    ],
    "dcs_top_ppp": "bhāṣita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "bhāṣita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3508,11 +5491,21 @@
     "I"
    ],
    "warnemyr_ppp": "bhāsita",
+   "warnemyr_ppp_forms": [
+    "bhāsita",
+    "bhasita"
+   ],
    "vidyut_ppp": [
+    "bhāsita"
+   ],
+   "vidyut_ppp_caus": [
     "bhāsita"
    ],
    "dcs_top_ppp": "bhāsita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "bhāsita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3522,11 +5515,21 @@
     "I"
    ],
    "warnemyr_ppp": "bhikṣita",
+   "warnemyr_ppp_forms": [
+    "bhikṣita",
+    "bhiksita"
+   ],
    "vidyut_ppp": [
+    "bhikṣita"
+   ],
+   "vidyut_ppp_caus": [
     "bhikṣita"
    ],
    "dcs_top_ppp": "bhikṣita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "bhikṣita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3536,11 +5539,20 @@
     "VII"
    ],
    "warnemyr_ppp": "bhinná",
+   "warnemyr_ppp_forms": [
+    "bhinná"
+   ],
    "vidyut_ppp": [
     "bhinna"
    ],
+   "vidyut_ppp_caus": [
+    "bhedita"
+   ],
    "dcs_top_ppp": "bhinna",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "bhinná",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3551,11 +5563,21 @@
     "III"
    ],
    "warnemyr_ppp": "bhītá",
+   "warnemyr_ppp_forms": [
+    "bhītá",
+    "bhita"
+   ],
    "vidyut_ppp": [
     "bhīta"
    ],
+   "vidyut_ppp_caus": [
+    "bhāyita"
+   ],
    "dcs_top_ppp": "bhīta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "bhītá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3565,11 +5587,21 @@
     "VII"
    ],
    "warnemyr_ppp": "bhukta",
+   "warnemyr_ppp_forms": [
+    "bhukta",
+    "bhugna"
+   ],
    "vidyut_ppp": [
     "bhukta"
    ],
+   "vidyut_ppp_caus": [
+    "bhojita"
+   ],
    "dcs_top_ppp": "bhukta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "bhukta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3579,11 +5611,21 @@
     "I"
    ],
    "warnemyr_ppp": "bhūtá",
+   "warnemyr_ppp_forms": [
+    "bhūtá",
+    "bhuta"
+   ],
    "vidyut_ppp": [
     "bhūta"
    ],
+   "vidyut_ppp_caus": [
+    "bhāvita"
+   ],
    "dcs_top_ppp": "bhūta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "bhūtá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3595,11 +5637,21 @@
     "III"
    ],
    "warnemyr_ppp": "bhṛtá",
+   "warnemyr_ppp_forms": [
+    "bhṛtá",
+    "bhrta"
+   ],
    "vidyut_ppp": [
     "bhṛta"
    ],
+   "vidyut_ppp_caus": [
+    "bhārita"
+   ],
    "dcs_top_ppp": "bhṛta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "bhṛtá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3610,11 +5662,22 @@
     "IV"
    ],
    "warnemyr_ppp": "bhraṣṭá",
+   "warnemyr_ppp_forms": [
+    "bhraṣṭá",
+    "bhrasta",
+    "bhrsta"
+   ],
    "vidyut_ppp": [
     "bhraṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "bhranśita"
+   ],
    "dcs_top_ppp": "bhraṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "bhraṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3625,11 +5688,45 @@
     "IV"
    ],
    "warnemyr_ppp": "bhrāṃta",
+   "warnemyr_ppp_forms": [
+    "bhrāṃta",
+    "bhramta"
+   ],
    "vidyut_ppp": [
     "bhrānta"
    ],
+   "vidyut_ppp_caus": [
+    "bhramita"
+   ],
    "dcs_top_ppp": "bhrānta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "bhrāṃta",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 544,
+   "root": "math",
+   "class": [
+    "I",
+    "IX"
+   ],
+   "warnemyr_ppp": "mathitá",
+   "warnemyr_ppp_forms": [
+    "mathitá"
+   ],
+   "vidyut_ppp": [
+    "manthita"
+   ],
+   "vidyut_ppp_caus": [
+    "manthita"
+   ],
+   "dcs_top_ppp": "mathita",
+   "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "mathitá",
+   "matched_against": "dcs",
    "corpus_backs_vidyut": false
   },
   {
@@ -3642,11 +5739,22 @@
     "IV"
    ],
    "warnemyr_ppp": "mattá",
+   "warnemyr_ppp_forms": [
+    "mattá",
+    "madita",
+    "maditos"
+   ],
    "vidyut_ppp": [
     "matta"
    ],
+   "vidyut_ppp_caus": [
+    "madita"
+   ],
    "dcs_top_ppp": "matta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "mattá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3658,11 +5766,45 @@
     "VIII"
    ],
    "warnemyr_ppp": "matá",
+   "warnemyr_ppp_forms": [
+    "matá"
+   ],
    "vidyut_ppp": [
     "mata"
    ],
+   "vidyut_ppp_caus": [
+    "mānita"
+   ],
    "dcs_top_ppp": "mata",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "matá",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 548,
+   "root": "mā",
+   "class": [
+    "II",
+    "III",
+    "IV"
+   ],
+   "warnemyr_ppp": "mitá",
+   "warnemyr_ppp_forms": [
+    "mitá"
+   ],
+   "vidyut_ppp": [
+    "mīta"
+   ],
+   "vidyut_ppp_caus": [
+    "māpita"
+   ],
+   "dcs_top_ppp": "mita",
+   "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "mitá",
+   "matched_against": "dcs",
    "corpus_backs_vidyut": false
   },
   {
@@ -3672,11 +5814,20 @@
     "I"
    ],
    "warnemyr_ppp": "mithita",
+   "warnemyr_ppp_forms": [
+    "mithita"
+   ],
    "vidyut_ppp": [
     "mithita"
    ],
+   "vidyut_ppp_caus": [
+    "methita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "mithita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3686,11 +5837,20 @@
     "VI"
    ],
    "warnemyr_ppp": "milita",
+   "warnemyr_ppp_forms": [
+    "milita"
+   ],
    "vidyut_ppp": [
     "milita"
    ],
+   "vidyut_ppp_caus": [
+    "melita"
+   ],
    "dcs_top_ppp": "milita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "milita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3700,11 +5860,21 @@
     "VI"
    ],
    "warnemyr_ppp": "miṣita",
+   "warnemyr_ppp_forms": [
+    "miṣita",
+    "misita"
+   ],
    "vidyut_ppp": [
     "miṣita"
    ],
+   "vidyut_ppp_caus": [
+    "meṣita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "miṣita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3714,11 +5884,50 @@
     "I"
    ],
    "warnemyr_ppp": "mīḍha",
+   "warnemyr_ppp_forms": [
+    "mīḍha",
+    "midha",
+    "mihe"
+   ],
    "vidyut_ppp": [
     "mīḍha"
    ],
+   "vidyut_ppp_caus": [
+    "mehita"
+   ],
    "dcs_top_ppp": "mīḍhuṣa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "mīḍha",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 561,
+   "root": "mī",
+   "class": [
+    "III",
+    "IV",
+    "V",
+    "IX"
+   ],
+   "warnemyr_ppp": "mīta",
+   "warnemyr_ppp_forms": [
+    "mīta",
+    "mita",
+    "metos"
+   ],
+   "vidyut_ppp": [
+    "mīna"
+   ],
+   "vidyut_ppp_caus": [
+    "māyita"
+   ],
+   "dcs_top_ppp": "mīta",
+   "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "mīta",
+   "matched_against": "dcs",
    "corpus_backs_vidyut": false
   },
   {
@@ -3728,11 +5937,21 @@
     "I"
    ],
    "warnemyr_ppp": "mīlita",
+   "warnemyr_ppp_forms": [
+    "mīlita",
+    "milita"
+   ],
    "vidyut_ppp": [
+    "mīlita"
+   ],
+   "vidyut_ppp_caus": [
     "mīlita"
    ],
    "dcs_top_ppp": "mīlita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "mīlita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3742,11 +5961,20 @@
     "VI"
    ],
    "warnemyr_ppp": "muktá",
+   "warnemyr_ppp_forms": [
+    "muktá"
+   ],
    "vidyut_ppp": [
     "mukta"
    ],
+   "vidyut_ppp_caus": [
+    "mocita"
+   ],
    "dcs_top_ppp": "mukta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "muktá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3756,11 +5984,21 @@
     "I"
    ],
    "warnemyr_ppp": "mudita",
+   "warnemyr_ppp_forms": [
+    "mudita",
+    "modam"
+   ],
    "vidyut_ppp": [
     "mudita"
    ],
+   "vidyut_ppp_caus": [
+    "modita"
+   ],
    "dcs_top_ppp": "mudita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "mudita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3772,11 +6010,22 @@
     "IX"
    ],
    "warnemyr_ppp": "muṣitá",
+   "warnemyr_ppp_forms": [
+    "muṣitá",
+    "musita",
+    "musta"
+   ],
    "vidyut_ppp": [
     "muṣita"
    ],
+   "vidyut_ppp_caus": [
+    "moṣita"
+   ],
    "dcs_top_ppp": "muṣita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "muṣitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3786,12 +6035,23 @@
     "IV"
    ],
    "warnemyr_ppp": "mugdhá",
+   "warnemyr_ppp_forms": [
+    "mugdhá",
+    "mudha",
+    "muhe"
+   ],
    "vidyut_ppp": [
     "mugdha",
     "mūḍha"
    ],
+   "vidyut_ppp_caus": [
+    "mohita"
+   ],
    "dcs_top_ppp": "mūḍha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "mugdhá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3804,11 +6064,23 @@
     "VII"
    ],
    "warnemyr_ppp": "mṛṣṭá",
+   "warnemyr_ppp_forms": [
+    "mṛṣṭá",
+    "mrsta",
+    "mrjita",
+    "marjita"
+   ],
    "vidyut_ppp": [
     "mṛṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "mārjita"
+   ],
    "dcs_top_ppp": "mṛṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "mṛṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3819,11 +6091,21 @@
     "IX"
    ],
    "warnemyr_ppp": "mṛditá",
+   "warnemyr_ppp_forms": [
+    "mṛditá",
+    "mrdita"
+   ],
    "vidyut_ppp": [
     "mṛdita"
    ],
+   "vidyut_ppp_caus": [
+    "mardita"
+   ],
    "dcs_top_ppp": "mṛdita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "mṛditá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3833,11 +6115,22 @@
     "VI"
    ],
    "warnemyr_ppp": "mṛṣṭá",
+   "warnemyr_ppp_forms": [
+    "mṛṣṭá",
+    "mrsta",
+    "mrsita"
+   ],
    "vidyut_ppp": [
     "mṛṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "marśita"
+   ],
    "dcs_top_ppp": "mṛṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "mṛṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3848,12 +6141,22 @@
     "IV"
    ],
    "warnemyr_ppp": "mṛṣita",
+   "warnemyr_ppp_forms": [
+    "mṛṣita",
+    "mrsita"
+   ],
    "vidyut_ppp": [
     "marṣita",
     "mṛṣita"
    ],
+   "vidyut_ppp_caus": [
+    "marṣita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "mṛṣita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3864,11 +6167,21 @@
     "II"
    ],
    "warnemyr_ppp": "mnāta",
+   "warnemyr_ppp_forms": [
+    "mnāta",
+    "mnata"
+   ],
    "vidyut_ppp": [
     "mnāta"
    ],
+   "vidyut_ppp_caus": [
+    "mnāpita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "mnāta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3878,11 +6191,22 @@
     "I"
    ],
    "warnemyr_ppp": "mrukta",
+   "warnemyr_ppp_forms": [
+    "mrukta",
+    "mlukta",
+    "mlupta"
+   ],
    "vidyut_ppp": [
     "mrukta"
    ],
+   "vidyut_ppp_caus": [
+    "mrocita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "mrukta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3893,11 +6217,21 @@
     "II"
    ],
    "warnemyr_ppp": "iṣṭá",
+   "warnemyr_ppp_forms": [
+    "iṣṭá",
+    "ista"
+   ],
    "vidyut_ppp": [
     "iṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "yājita"
+   ],
    "dcs_top_ppp": "iṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "iṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3907,11 +6241,21 @@
     "I"
    ],
    "warnemyr_ppp": "yatta",
+   "warnemyr_ppp_forms": [
+    "yatta",
+    "yatita"
+   ],
    "vidyut_ppp": [
     "yatta"
    ],
+   "vidyut_ppp_caus": [
+    "yātita"
+   ],
    "dcs_top_ppp": "yatta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "yatta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3922,11 +6266,20 @@
     "II"
    ],
    "warnemyr_ppp": "yatá",
+   "warnemyr_ppp_forms": [
+    "yatá"
+   ],
    "vidyut_ppp": [
     "yata"
    ],
+   "vidyut_ppp_caus": [
+    "yamita"
+   ],
    "dcs_top_ppp": "yata",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "yatá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3938,11 +6291,21 @@
     "IV"
    ],
    "warnemyr_ppp": "yastá",
+   "warnemyr_ppp_forms": [
+    "yastá",
+    "yasita"
+   ],
    "vidyut_ppp": [
     "yasta"
    ],
+   "vidyut_ppp_caus": [
+    "yāsita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "yastá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3952,11 +6315,21 @@
     "II"
    ],
    "warnemyr_ppp": "yātá",
+   "warnemyr_ppp_forms": [
+    "yātá",
+    "yata"
+   ],
    "vidyut_ppp": [
     "yāta"
    ],
+   "vidyut_ppp_caus": [
+    "yāpita"
+   ],
    "dcs_top_ppp": "yāta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "yātá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3966,11 +6339,21 @@
     "I"
    ],
    "warnemyr_ppp": "yācitá",
+   "warnemyr_ppp_forms": [
+    "yācitá",
+    "yacita"
+   ],
    "vidyut_ppp": [
+    "yācita"
+   ],
+   "vidyut_ppp_caus": [
     "yācita"
    ],
    "dcs_top_ppp": "yācita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "yācitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3982,11 +6365,20 @@
     "IX"
    ],
    "warnemyr_ppp": "yutá",
+   "warnemyr_ppp_forms": [
+    "yutá"
+   ],
    "vidyut_ppp": [
     "yuta"
    ],
+   "vidyut_ppp_caus": [
+    "yāvita"
+   ],
    "dcs_top_ppp": "yuta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "yutá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -3997,11 +6389,20 @@
     "VII"
    ],
    "warnemyr_ppp": "yuktá",
+   "warnemyr_ppp_forms": [
+    "yuktá"
+   ],
    "vidyut_ppp": [
     "yukta"
    ],
+   "vidyut_ppp_caus": [
+    "yojita"
+   ],
    "dcs_top_ppp": "yukta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "yuktá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4013,11 +6414,20 @@
     "IV"
    ],
    "warnemyr_ppp": "yuddhá",
+   "warnemyr_ppp_forms": [
+    "yuddhá"
+   ],
    "vidyut_ppp": [
     "yuddha"
    ],
+   "vidyut_ppp_caus": [
+    "yodhita"
+   ],
    "dcs_top_ppp": "yuddha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "yuddhá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4027,11 +6437,20 @@
     "IV"
    ],
    "warnemyr_ppp": "yupitá",
+   "warnemyr_ppp_forms": [
+    "yupitá"
+   ],
    "vidyut_ppp": [
     "yupita"
    ],
+   "vidyut_ppp_caus": [
+    "yopita"
+   ],
    "dcs_top_ppp": "yupita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "yupitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4041,11 +6460,21 @@
     "I"
    ],
    "warnemyr_ppp": "rakṣitá",
+   "warnemyr_ppp_forms": [
+    "rakṣitá",
+    "raksita"
+   ],
    "vidyut_ppp": [
+    "rakṣita"
+   ],
+   "vidyut_ppp_caus": [
     "rakṣita"
    ],
    "dcs_top_ppp": "rakṣita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "rakṣitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4055,11 +6484,21 @@
     "I"
    ],
    "warnemyr_ppp": "raṭita",
+   "warnemyr_ppp_forms": [
+    "raṭita",
+    "ratita"
+   ],
    "vidyut_ppp": [
     "raṭita"
    ],
+   "vidyut_ppp_caus": [
+    "rāṭita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "raṭita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4070,11 +6509,20 @@
     "II"
    ],
    "warnemyr_ppp": "raditá",
+   "warnemyr_ppp_forms": [
+    "raditá"
+   ],
    "vidyut_ppp": [
     "radita"
    ],
+   "vidyut_ppp_caus": [
+    "rādita"
+   ],
    "dcs_top_ppp": "radita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "raditá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4085,11 +6533,20 @@
     "IV"
    ],
    "warnemyr_ppp": "raddhá",
+   "warnemyr_ppp_forms": [
+    "raddhá"
+   ],
    "vidyut_ppp": [
     "raddha"
    ],
+   "vidyut_ppp_caus": [
+    "randhita"
+   ],
    "dcs_top_ppp": "raddha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "raddhá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4099,11 +6556,20 @@
     "I"
    ],
    "warnemyr_ppp": "rabdhá",
+   "warnemyr_ppp_forms": [
+    "rabdhá"
+   ],
    "vidyut_ppp": [
     "rabdha"
    ],
+   "vidyut_ppp_caus": [
+    "rambhita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "rabdhá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4114,11 +6580,20 @@
     "IX"
    ],
    "warnemyr_ppp": "ratá",
+   "warnemyr_ppp_forms": [
+    "ratá"
+   ],
    "vidyut_ppp": [
     "rata"
    ],
+   "vidyut_ppp_caus": [
+    "ramita"
+   ],
    "dcs_top_ppp": "rata",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "ratá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4128,11 +6603,20 @@
     "I"
    ],
    "warnemyr_ppp": "rahita",
+   "warnemyr_ppp_forms": [
+    "rahita"
+   ],
    "vidyut_ppp": [
     "rahita"
    ],
+   "vidyut_ppp_caus": [
+    "rāhita"
+   ],
    "dcs_top_ppp": "rahita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "rahita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4144,11 +6628,22 @@
     "III"
    ],
    "warnemyr_ppp": "rātá",
+   "warnemyr_ppp_forms": [
+    "rātá",
+    "rata",
+    "ratave"
+   ],
    "vidyut_ppp": [
     "rāta"
    ],
+   "vidyut_ppp_caus": [
+    "rāpita"
+   ],
    "dcs_top_ppp": "rāta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "rātá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4159,11 +6654,21 @@
     "IV"
    ],
    "warnemyr_ppp": "rāddhá",
+   "warnemyr_ppp_forms": [
+    "rāddhá",
+    "raddha"
+   ],
    "vidyut_ppp": [
     "rāddha"
    ],
+   "vidyut_ppp_caus": [
+    "rādhita"
+   ],
    "dcs_top_ppp": "rāddha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "rāddhá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4173,11 +6678,20 @@
     "VII"
    ],
    "warnemyr_ppp": "riktá",
+   "warnemyr_ppp_forms": [
+    "riktá"
+   ],
    "vidyut_ppp": [
     "rikta"
    ],
+   "vidyut_ppp_caus": [
+    "recita"
+   ],
    "dcs_top_ppp": "rikta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "riktá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4188,11 +6702,20 @@
     "VI"
    ],
    "warnemyr_ppp": "riphitá",
+   "warnemyr_ppp_forms": [
+    "riphitá"
+   ],
    "vidyut_ppp": [
     "riphita"
    ],
+   "vidyut_ppp_caus": [
+    "rephita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "riphitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4203,12 +6726,23 @@
     "IV"
    ],
    "warnemyr_ppp": "riṣṭá",
+   "warnemyr_ppp_forms": [
+    "riṣṭá",
+    "rista",
+    "rise"
+   ],
    "vidyut_ppp": [
     "riṣita",
     "riṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "reṣita"
+   ],
    "dcs_top_ppp": "riṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "riṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4220,11 +6754,20 @@
     "VI"
    ],
    "warnemyr_ppp": "rutá",
+   "warnemyr_ppp_forms": [
+    "rutá"
+   ],
    "vidyut_ppp": [
     "ruta"
    ],
+   "vidyut_ppp_caus": [
+    "rāvita"
+   ],
    "dcs_top_ppp": "ruta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "rutá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4235,11 +6778,20 @@
     "II"
    ],
    "warnemyr_ppp": "rutá",
+   "warnemyr_ppp_forms": [
+    "rutá"
+   ],
    "vidyut_ppp": [
     "ruta"
    ],
+   "vidyut_ppp_caus": [
+    "rāvita"
+   ],
    "dcs_top_ppp": "ruta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "rutá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4249,11 +6801,20 @@
     "I"
    ],
    "warnemyr_ppp": "rucitá",
+   "warnemyr_ppp_forms": [
+    "rucitá"
+   ],
    "vidyut_ppp": [
     "rucita"
    ],
+   "vidyut_ppp_caus": [
+    "rocita"
+   ],
    "dcs_top_ppp": "rucita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "rucitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4263,11 +6824,20 @@
     "VI"
    ],
    "warnemyr_ppp": "rugná",
+   "warnemyr_ppp_forms": [
+    "rugná"
+   ],
    "vidyut_ppp": [
     "rugna"
    ],
+   "vidyut_ppp_caus": [
+    "rojita"
+   ],
    "dcs_top_ppp": "rugṇa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "rugná",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4279,11 +6849,20 @@
     "VI"
    ],
    "warnemyr_ppp": "rudita",
+   "warnemyr_ppp_forms": [
+    "rudita"
+   ],
    "vidyut_ppp": [
     "rudita"
    ],
+   "vidyut_ppp_caus": [
+    "rodita"
+   ],
    "dcs_top_ppp": "ruditaṃ",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "rudita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4295,11 +6874,20 @@
     "VII"
    ],
    "warnemyr_ppp": "ruddhá",
+   "warnemyr_ppp_forms": [
+    "ruddhá"
+   ],
    "vidyut_ppp": [
     "ruddha"
    ],
+   "vidyut_ppp_caus": [
+    "rodhita"
+   ],
    "dcs_top_ppp": "ruddha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "ruddhá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4309,11 +6897,20 @@
     "IV"
    ],
    "warnemyr_ppp": "rupita",
+   "warnemyr_ppp_forms": [
+    "rupita"
+   ],
    "vidyut_ppp": [
     "rupita"
    ],
+   "vidyut_ppp_caus": [
+    "ropita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "rupita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4325,12 +6922,24 @@
     "VI"
    ],
    "warnemyr_ppp": "ruṣita",
+   "warnemyr_ppp_forms": [
+    "ruṣita",
+    "rusita",
+    "rusta",
+    "rusya"
+   ],
    "vidyut_ppp": [
     "ruṣita",
     "ruṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "roṣita"
+   ],
    "dcs_top_ppp": "ruṣita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "ruṣita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4341,11 +6950,45 @@
     "VI"
    ],
    "warnemyr_ppp": "rūḍhá",
+   "warnemyr_ppp_forms": [
+    "rūḍhá",
+    "rudha"
+   ],
    "vidyut_ppp": [
     "rūḍha"
    ],
+   "vidyut_ppp_caus": [
+    "rohita",
+    "ropita"
+   ],
    "dcs_top_ppp": "rūḍha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "rūḍhá",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 668,
+   "root": "lag",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "lagna",
+   "warnemyr_ppp_forms": [
+    "lagna"
+   ],
+   "vidyut_ppp": [
+    "lagita"
+   ],
+   "vidyut_ppp_caus": [
+    "lagita"
+   ],
+   "dcs_top_ppp": "lagna",
+   "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "lagna",
+   "matched_against": "dcs",
    "corpus_backs_vidyut": false
   },
   {
@@ -4356,11 +6999,21 @@
     "IV"
    ],
    "warnemyr_ppp": "lapitá",
+   "warnemyr_ppp_forms": [
+    "lapitá",
+    "lapta"
+   ],
    "vidyut_ppp": [
     "lapita"
    ],
+   "vidyut_ppp_caus": [
+    "lāpita"
+   ],
    "dcs_top_ppp": "lapita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "lapitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4370,11 +7023,22 @@
     "I"
    ],
    "warnemyr_ppp": "labdha",
+   "warnemyr_ppp_forms": [
+    "labdha",
+    "labdhva",
+    "labhya"
+   ],
    "vidyut_ppp": [
     "labdha"
    ],
+   "vidyut_ppp_caus": [
+    "lambhita"
+   ],
    "dcs_top_ppp": "labdha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "labdha",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4384,11 +7048,20 @@
     "I"
    ],
    "warnemyr_ppp": "lalita",
+   "warnemyr_ppp_forms": [
+    "lalita"
+   ],
    "vidyut_ppp": [
     "lalita"
    ],
+   "vidyut_ppp_caus": [
+    "lālita"
+   ],
    "dcs_top_ppp": "lalita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "lalita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4399,11 +7072,21 @@
     "IV"
    ],
    "warnemyr_ppp": "laṣitá",
+   "warnemyr_ppp_forms": [
+    "laṣitá",
+    "lasita"
+   ],
    "vidyut_ppp": [
     "laṣita"
    ],
+   "vidyut_ppp_caus": [
+    "lāṣita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "laṣitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4413,11 +7096,20 @@
     "VI"
    ],
    "warnemyr_ppp": "likhitá",
+   "warnemyr_ppp_forms": [
+    "likhitá"
+   ],
    "vidyut_ppp": [
     "likhita"
    ],
+   "vidyut_ppp_caus": [
+    "lekhita"
+   ],
    "dcs_top_ppp": "likhita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "likhitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4427,11 +7119,20 @@
     "VI"
    ],
    "warnemyr_ppp": "lipta",
+   "warnemyr_ppp_forms": [
+    "lipta"
+   ],
    "vidyut_ppp": [
     "lipta"
    ],
+   "vidyut_ppp_caus": [
+    "lepita"
+   ],
    "dcs_top_ppp": "lipta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "lipta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4442,11 +7143,21 @@
     "VI"
    ],
    "warnemyr_ppp": "liṣṭá",
+   "warnemyr_ppp_forms": [
+    "liṣṭá",
+    "lista"
+   ],
    "vidyut_ppp": [
     "liṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "leśita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "liṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4457,11 +7168,21 @@
     "VI"
    ],
    "warnemyr_ppp": "līḍha",
+   "warnemyr_ppp_forms": [
+    "līḍha",
+    "lidha"
+   ],
    "vidyut_ppp": [
     "līḍha"
    ],
+   "vidyut_ppp_caus": [
+    "lehita"
+   ],
    "dcs_top_ppp": "līḍha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "līḍha",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4473,11 +7194,24 @@
     "IX"
    ],
    "warnemyr_ppp": "līna",
+   "warnemyr_ppp_forms": [
+    "līna",
+    "lina"
+   ],
    "vidyut_ppp": [
     "līna"
    ],
+   "vidyut_ppp_caus": [
+    "lālita",
+    "lāpita",
+    "lāyita",
+    "līnita"
+   ],
    "dcs_top_ppp": "līna",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "līna",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4487,11 +7221,21 @@
     "VI"
    ],
    "warnemyr_ppp": "luṭhita",
+   "warnemyr_ppp_forms": [
+    "luṭhita",
+    "luthita"
+   ],
    "vidyut_ppp": [
     "luṭhita"
    ],
+   "vidyut_ppp_caus": [
+    "loṭhita"
+   ],
    "dcs_top_ppp": "luṭhitaṃ",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "luṭhita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4501,11 +7245,20 @@
     "VI"
    ],
    "warnemyr_ppp": "lupta",
+   "warnemyr_ppp_forms": [
+    "lupta"
+   ],
    "vidyut_ppp": [
     "lupta"
    ],
+   "vidyut_ppp_caus": [
+    "lopita"
+   ],
    "dcs_top_ppp": "lupta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "lupta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4517,12 +7270,22 @@
     "VI"
    ],
    "warnemyr_ppp": "lubdha",
+   "warnemyr_ppp_forms": [
+    "lubdha",
+    "lubhita"
+   ],
    "vidyut_ppp": [
     "lubdha",
     "lubhita"
    ],
+   "vidyut_ppp_caus": [
+    "lobhita"
+   ],
    "dcs_top_ppp": "lubdha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "lubdha",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4533,11 +7296,21 @@
     "IX"
    ],
    "warnemyr_ppp": "lūna",
+   "warnemyr_ppp_forms": [
+    "lūna",
+    "luna"
+   ],
    "vidyut_ppp": [
     "lūna"
    ],
+   "vidyut_ppp_caus": [
+    "lāvita"
+   ],
    "dcs_top_ppp": "lūna",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "lūna",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4548,11 +7321,20 @@
     "III"
    ],
    "warnemyr_ppp": "uktá",
+   "warnemyr_ppp_forms": [
+    "uktá"
+   ],
    "vidyut_ppp": [
     "ukta"
    ],
+   "vidyut_ppp_caus": [
+    "vācita"
+   ],
    "dcs_top_ppp": "ukta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "uktá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4562,11 +7344,21 @@
     "I"
    ],
    "warnemyr_ppp": "uditá",
+   "warnemyr_ppp_forms": [
+    "uditá",
+    "vadita"
+   ],
    "vidyut_ppp": [
     "udita"
    ],
+   "vidyut_ppp_caus": [
+    "vādita"
+   ],
    "dcs_top_ppp": "udita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "uditá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4576,11 +7368,22 @@
     "I"
    ],
    "warnemyr_ppp": "uptá",
+   "warnemyr_ppp_forms": [
+    "uptá",
+    "upita",
+    "vapta"
+   ],
    "vidyut_ppp": [
     "upta"
    ],
+   "vidyut_ppp_caus": [
+    "vāpita"
+   ],
    "dcs_top_ppp": "upta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "uptá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4590,11 +7393,22 @@
     "I"
    ],
    "warnemyr_ppp": "upta",
+   "warnemyr_ppp_forms": [
+    "upta",
+    "upita",
+    "vapta"
+   ],
    "vidyut_ppp": [
     "upta"
    ],
+   "vidyut_ppp_caus": [
+    "vāpita"
+   ],
    "dcs_top_ppp": "upta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "upta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4605,11 +7419,22 @@
     "II"
    ],
    "warnemyr_ppp": "vāṃtá",
+   "warnemyr_ppp_forms": [
+    "vāṃtá",
+    "vamta"
+   ],
    "vidyut_ppp": [
     "vānta"
    ],
+   "vidyut_ppp_caus": [
+    "vamita",
+    "vāmita"
+   ],
    "dcs_top_ppp": "vānta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "vāṃtá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4619,11 +7444,21 @@
     "I"
    ],
    "warnemyr_ppp": "valitá",
+   "warnemyr_ppp_forms": [
+    "valitá",
+    "valitva"
+   ],
    "vidyut_ppp": [
+    "valita"
+   ],
+   "vidyut_ppp_caus": [
     "valita"
    ],
    "dcs_top_ppp": "valita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "valitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4634,11 +7469,23 @@
     "VI"
    ],
    "warnemyr_ppp": "vasita",
+   "warnemyr_ppp_forms": [
+    "vasita",
+    "usta",
+    "usita",
+    "vastave"
+   ],
    "vidyut_ppp": [
     "vasita"
    ],
+   "vidyut_ppp_caus": [
+    "vāsita"
+   ],
    "dcs_top_ppp": "uṣita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "vasita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4648,11 +7495,23 @@
     "I"
    ],
    "warnemyr_ppp": "uṣita",
+   "warnemyr_ppp_forms": [
+    "uṣita",
+    "usta",
+    "usita",
+    "vastave"
+   ],
    "vidyut_ppp": [
     "uṣita"
    ],
+   "vidyut_ppp_caus": [
+    "vāsita"
+   ],
    "dcs_top_ppp": "uṣita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "uṣita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4663,11 +7522,22 @@
     "II"
    ],
    "warnemyr_ppp": "ūḍhá",
+   "warnemyr_ppp_forms": [
+    "ūḍhá",
+    "udha",
+    "vodha"
+   ],
    "vidyut_ppp": [
     "ūḍha"
    ],
+   "vidyut_ppp_caus": [
+    "vāhita"
+   ],
    "dcs_top_ppp": "ūḍha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "ūḍhá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4678,11 +7548,23 @@
     "IV"
    ],
    "warnemyr_ppp": "vāta",
+   "warnemyr_ppp_forms": [
+    "vāta",
+    "vata",
+    "vana"
+   ],
    "vidyut_ppp": [
     "vāta"
    ],
+   "vidyut_ppp_caus": [
+    "vājita",
+    "vāpita"
+   ],
    "dcs_top_ppp": "vāta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "vāta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4693,11 +7575,21 @@
     "IV"
    ],
    "warnemyr_ppp": "vāśita",
+   "warnemyr_ppp_forms": [
+    "vāśita",
+    "vasita"
+   ],
    "vidyut_ppp": [
+    "vāśita"
+   ],
+   "vidyut_ppp_caus": [
     "vāśita"
    ],
    "dcs_top_ppp": "vāvaśāna",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "vāśita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4708,11 +7600,45 @@
     "VII"
    ],
    "warnemyr_ppp": "vikta",
+   "warnemyr_ppp_forms": [
+    "vikta"
+   ],
    "vidyut_ppp": [
     "vikta"
    ],
+   "vidyut_ppp_caus": [
+    "vecita"
+   ],
    "dcs_top_ppp": "vivikvāṁ",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "vikta",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 727,
+   "root": "vij",
+   "class": [
+    "I",
+    "VI"
+   ],
+   "warnemyr_ppp": "vikta",
+   "warnemyr_ppp_forms": [
+    "vikta",
+    "vigna"
+   ],
+   "vidyut_ppp": [
+    "vigna"
+   ],
+   "vidyut_ppp_caus": [
+    "vejita"
+   ],
+   "dcs_top_ppp": "vigna",
+   "verdict": "match",
+   "match_basis": "doublet",
+   "matched_form": "vigna",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4724,11 +7650,45 @@
     "VI"
    ],
    "warnemyr_ppp": "viditá",
+   "warnemyr_ppp_forms": [
+    "viditá"
+   ],
    "vidyut_ppp": [
     "vidita"
    ],
+   "vidyut_ppp_caus": [
+    "vedita"
+   ],
    "dcs_top_ppp": "vidita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "viditá",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 729,
+   "root": "vid",
+   "class": [
+    "II",
+    "VI"
+   ],
+   "warnemyr_ppp": "vittá",
+   "warnemyr_ppp_forms": [
+    "vittá",
+    "vidita"
+   ],
+   "vidyut_ppp": [
+    "vidita"
+   ],
+   "vidyut_ppp_caus": [
+    "vedita"
+   ],
+   "dcs_top_ppp": "vidita",
+   "verdict": "match",
+   "match_basis": "source_alt",
+   "matched_form": "vidita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4738,11 +7698,21 @@
     "VI"
    ],
    "warnemyr_ppp": "viṣṭá",
+   "warnemyr_ppp_forms": [
+    "viṣṭá",
+    "vista"
+   ],
    "vidyut_ppp": [
     "viṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "veśita"
+   ],
    "dcs_top_ppp": "viṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "viṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4753,11 +7723,22 @@
     "III"
    ],
    "warnemyr_ppp": "viṣṭá",
+   "warnemyr_ppp_forms": [
+    "viṣṭá",
+    "vista",
+    "vistvi"
+   ],
    "vidyut_ppp": [
     "viṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "veṣita"
+   ],
    "dcs_top_ppp": "viṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "viṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4769,11 +7750,21 @@
     "IX"
    ],
    "warnemyr_ppp": "vṛtá",
+   "warnemyr_ppp_forms": [
+    "vṛtá",
+    "vrta"
+   ],
    "vidyut_ppp": [
     "vṛta"
    ],
+   "vidyut_ppp_caus": [
+    "vārita"
+   ],
    "dcs_top_ppp": "vṛta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "vṛtá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4784,11 +7775,21 @@
     "IX"
    ],
    "warnemyr_ppp": "vṛtá",
+   "warnemyr_ppp_forms": [
+    "vṛtá",
+    "vrta"
+   ],
    "vidyut_ppp": [
     "vṛta"
    ],
+   "vidyut_ppp_caus": [
+    "vārita"
+   ],
    "dcs_top_ppp": "vṛta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "vṛtá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4798,11 +7799,23 @@
     "VII"
    ],
    "warnemyr_ppp": "vṛktá",
+   "warnemyr_ppp_forms": [
+    "vṛktá",
+    "vrkta",
+    "vrktvi",
+    "vrjya"
+   ],
    "vidyut_ppp": [
     "vṛkta"
    ],
+   "vidyut_ppp_caus": [
+    "varjita"
+   ],
    "dcs_top_ppp": "vṛkta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "vṛktá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4814,11 +7827,21 @@
     "III"
    ],
    "warnemyr_ppp": "vṛttá",
+   "warnemyr_ppp_forms": [
+    "vṛttá",
+    "vrtta"
+   ],
    "vidyut_ppp": [
     "vṛtta"
    ],
+   "vidyut_ppp_caus": [
+    "vartita"
+   ],
    "dcs_top_ppp": "vṛtta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "vṛttá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4828,11 +7851,21 @@
     "I"
    ],
    "warnemyr_ppp": "vṛddhá",
+   "warnemyr_ppp_forms": [
+    "vṛddhá",
+    "vrddha"
+   ],
    "vidyut_ppp": [
     "vṛddha"
    ],
+   "vidyut_ppp_caus": [
+    "vardhita"
+   ],
    "dcs_top_ppp": "vṛddha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "vṛddhá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4843,11 +7876,21 @@
     "VI"
    ],
    "warnemyr_ppp": "vṛṣṭá",
+   "warnemyr_ppp_forms": [
+    "vṛṣṭá",
+    "vrsta"
+   ],
    "vidyut_ppp": [
     "vṛṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "varṣita"
+   ],
    "dcs_top_ppp": "vṛṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "vṛṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4857,11 +7900,21 @@
     "VI"
    ],
    "warnemyr_ppp": "vṛḍhá",
+   "warnemyr_ppp_forms": [
+    "vṛḍhá",
+    "vrdha"
+   ],
    "vidyut_ppp": [
     "vṛḍha"
    ],
+   "vidyut_ppp_caus": [
+    "varhita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "vṛḍhá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4871,11 +7924,20 @@
     "I"
    ],
    "warnemyr_ppp": "vellita",
+   "warnemyr_ppp_forms": [
+    "vellita"
+   ],
    "vidyut_ppp": [
+    "vellita"
+   ],
+   "vidyut_ppp_caus": [
     "vellita"
    ],
    "dcs_top_ppp": "vellita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "vellita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4886,11 +7948,20 @@
     "VI"
    ],
    "warnemyr_ppp": "vicita",
+   "warnemyr_ppp_forms": [
+    "vicita"
+   ],
    "vidyut_ppp": [
     "vicita"
    ],
+   "vidyut_ppp_caus": [
+    "vyācita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "vicita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4900,11 +7971,20 @@
     "IV"
    ],
    "warnemyr_ppp": "viddhá",
+   "warnemyr_ppp_forms": [
+    "viddhá"
+   ],
    "vidyut_ppp": [
     "viddha"
    ],
+   "vidyut_ppp_caus": [
+    "vyādhita"
+   ],
    "dcs_top_ppp": "viddha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "viddhá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4914,11 +7994,20 @@
     "I"
    ],
    "warnemyr_ppp": "vyayita",
+   "warnemyr_ppp_forms": [
+    "vyayita"
+   ],
    "vidyut_ppp": [
     "vyayita"
    ],
+   "vidyut_ppp_caus": [
+    "vyāyita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "vyayita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4928,11 +8017,20 @@
     "I"
    ],
    "warnemyr_ppp": "vrajita",
+   "warnemyr_ppp_forms": [
+    "vrajita"
+   ],
    "vidyut_ppp": [
     "vrajita"
    ],
+   "vidyut_ppp_caus": [
+    "vrājita"
+   ],
    "dcs_top_ppp": "vrajitaṃ",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "vrajita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4943,11 +8041,21 @@
     "IV"
    ],
    "warnemyr_ppp": "vrīḍita",
+   "warnemyr_ppp_forms": [
+    "vrīḍita",
+    "vridita"
+   ],
    "vidyut_ppp": [
+    "vrīḍita"
+   ],
+   "vidyut_ppp_caus": [
     "vrīḍita"
    ],
    "dcs_top_ppp": "vrīḍita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "vrīḍita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4957,11 +8065,22 @@
     "I"
    ],
    "warnemyr_ppp": "śastá",
+   "warnemyr_ppp_forms": [
+    "śastá",
+    "sasta",
+    "samsita"
+   ],
    "vidyut_ppp": [
     "śasta"
    ],
+   "vidyut_ppp_caus": [
+    "śansita"
+   ],
    "dcs_top_ppp": "śasta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "śastá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4971,11 +8090,23 @@
     "V"
    ],
    "warnemyr_ppp": "śakta",
+   "warnemyr_ppp_forms": [
+    "śakta",
+    "sakta",
+    "sakita",
+    "saktave"
+   ],
    "vidyut_ppp": [
     "śakta"
    ],
+   "vidyut_ppp_caus": [
+    "śākita"
+   ],
    "dcs_top_ppp": "śakta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "śakta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -4986,11 +8117,49 @@
     "IV"
    ],
    "warnemyr_ppp": "śapta",
+   "warnemyr_ppp_forms": [
+    "śapta",
+    "sapta",
+    "sapita"
+   ],
    "vidyut_ppp": [
     "śapta"
    ],
+   "vidyut_ppp_caus": [
+    "śāpita"
+   ],
    "dcs_top_ppp": "śapta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "śapta",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 773,
+   "root": "śam",
+   "class": [
+    "I",
+    "II",
+    "IV",
+    "IX"
+   ],
+   "warnemyr_ppp": "śamitá",
+   "warnemyr_ppp_forms": [
+    "śamitá",
+    "samita"
+   ],
+   "vidyut_ppp": [
+    "śānta"
+   ],
+   "vidyut_ppp_caus": [
+    "śamita"
+   ],
+   "dcs_top_ppp": "śānta",
+   "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "śamitá",
+   "matched_against": "vidyut_caus",
    "corpus_backs_vidyut": false
   },
   {
@@ -5001,11 +8170,21 @@
     "IV"
    ],
    "warnemyr_ppp": "śāṃtá",
+   "warnemyr_ppp_forms": [
+    "śāṃtá",
+    "samita"
+   ],
    "vidyut_ppp": [
     "śānta"
    ],
+   "vidyut_ppp_caus": [
+    "śamita"
+   ],
    "dcs_top_ppp": "śānta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "śāṃtá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5015,11 +8194,21 @@
     "I"
    ],
    "warnemyr_ppp": "śaśita",
+   "warnemyr_ppp_forms": [
+    "śaśita",
+    "sasita"
+   ],
    "vidyut_ppp": [
     "śaśita"
    ],
+   "vidyut_ppp_caus": [
+    "śāśita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "śaśita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5030,11 +8219,21 @@
     "II"
    ],
    "warnemyr_ppp": "śasta",
+   "warnemyr_ppp_forms": [
+    "śasta",
+    "sasta"
+   ],
    "vidyut_ppp": [
     "śasta"
    ],
+   "vidyut_ppp_caus": [
+    "śāsita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "śasta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5045,11 +8244,23 @@
     "II"
    ],
    "warnemyr_ppp": "śiṣṭá",
+   "warnemyr_ppp_forms": [
+    "śiṣṭá",
+    "sista",
+    "sasta",
+    "sasita"
+   ],
    "vidyut_ppp": [
     "śiṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "śāsita"
+   ],
    "dcs_top_ppp": "śiṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "śiṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5060,11 +8271,21 @@
     "VII"
    ],
    "warnemyr_ppp": "śiṣṭá",
+   "warnemyr_ppp_forms": [
+    "śiṣṭá",
+    "sista"
+   ],
    "vidyut_ppp": [
     "śiṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "śeṣita"
+   ],
    "dcs_top_ppp": "śiṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "śiṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5075,11 +8296,46 @@
     "II"
    ],
    "warnemyr_ppp": "śayita",
+   "warnemyr_ppp_forms": [
+    "śayita"
+   ],
    "vidyut_ppp": [
     "śayita"
    ],
+   "vidyut_ppp_caus": [
+    "śāyita"
+   ],
    "dcs_top_ppp": "śayita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "śayita",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 790,
+   "root": "śuc",
+   "class": [
+    "I",
+    "II",
+    "IV"
+   ],
+   "warnemyr_ppp": "śuktá",
+   "warnemyr_ppp_forms": [
+    "śuktá",
+    "sukta"
+   ],
+   "vidyut_ppp": [
+    "śucita"
+   ],
+   "vidyut_ppp_caus": [
+    "śocita"
+   ],
+   "dcs_top_ppp": "śukta",
+   "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "śuktá",
+   "matched_against": "dcs",
    "corpus_backs_vidyut": false
   },
   {
@@ -5091,11 +8347,21 @@
     "IV"
    ],
    "warnemyr_ppp": "śuddhá",
+   "warnemyr_ppp_forms": [
+    "śuddhá",
+    "suddha"
+   ],
    "vidyut_ppp": [
     "śuddha"
    ],
+   "vidyut_ppp_caus": [
+    "śodhita"
+   ],
    "dcs_top_ppp": "śuddha",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "śuddhá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5106,11 +8372,23 @@
     "VI"
    ],
    "warnemyr_ppp": "śubhitá",
+   "warnemyr_ppp_forms": [
+    "śubhitá",
+    "subhita",
+    "sumbhita",
+    "subhe"
+   ],
    "vidyut_ppp": [
     "śubhita"
    ],
+   "vidyut_ppp_caus": [
+    "śobhita"
+   ],
    "dcs_top_ppp": "śumbhita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "śubhitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5120,11 +8398,21 @@
     "I"
    ],
    "warnemyr_ppp": "ścutita",
+   "warnemyr_ppp_forms": [
+    "ścutita",
+    "scutita"
+   ],
    "vidyut_ppp": [
     "ścutita"
    ],
+   "vidyut_ppp_caus": [
+    "ścotita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "ścutita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5135,11 +8423,21 @@
     "IV"
    ],
    "warnemyr_ppp": "śrāṃtá",
+   "warnemyr_ppp_forms": [
+    "śrāṃtá",
+    "sramta"
+   ],
    "vidyut_ppp": [
     "śrānta"
    ],
+   "vidyut_ppp_caus": [
+    "śramita"
+   ],
    "dcs_top_ppp": "śrānta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "śrāṃtá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5149,11 +8447,21 @@
     "I"
    ],
    "warnemyr_ppp": "śritá",
+   "warnemyr_ppp_forms": [
+    "śritá",
+    "srita"
+   ],
    "vidyut_ppp": [
     "śrita"
    ],
+   "vidyut_ppp_caus": [
+    "śrāyita"
+   ],
    "dcs_top_ppp": "śrita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "śritá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5163,11 +8471,22 @@
     "IX"
    ],
    "warnemyr_ppp": "śrītá",
+   "warnemyr_ppp_forms": [
+    "śrītá",
+    "srita",
+    "sirta"
+   ],
    "vidyut_ppp": [
     "śrīta"
    ],
+   "vidyut_ppp_caus": [
+    "śrāyita"
+   ],
    "dcs_top_ppp": "śṛta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "śrītá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5177,11 +8496,21 @@
     "I"
    ],
    "warnemyr_ppp": "ślāghita",
+   "warnemyr_ppp_forms": [
+    "ślāghita",
+    "slaghita"
+   ],
    "vidyut_ppp": [
+    "ślāghita"
+   ],
+   "vidyut_ppp_caus": [
     "ślāghita"
    ],
    "dcs_top_ppp": "ślāghita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "ślāghita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5192,11 +8521,47 @@
     "IV"
    ],
    "warnemyr_ppp": "śliṣṭa",
+   "warnemyr_ppp_forms": [
+    "śliṣṭa",
+    "slista"
+   ],
    "vidyut_ppp": [
     "śliṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "śleṣita"
+   ],
    "dcs_top_ppp": "śliṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "śliṣṭa",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 822,
+   "root": "śvas",
+   "class": [
+    "I",
+    "II"
+   ],
+   "warnemyr_ppp": "śvasita",
+   "warnemyr_ppp_forms": [
+    "śvasita",
+    "svasita",
+    "svasta"
+   ],
+   "vidyut_ppp": [
+    "śvasta"
+   ],
+   "vidyut_ppp_caus": [
+    "śvāsita"
+   ],
+   "dcs_top_ppp": "śvasita",
+   "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "śvasita",
+   "matched_against": "dcs",
    "corpus_backs_vidyut": false
   },
   {
@@ -5209,11 +8574,21 @@
     "VI"
    ],
    "warnemyr_ppp": "sūtá",
+   "warnemyr_ppp_forms": [
+    "sūtá",
+    "suta"
+   ],
    "vidyut_ppp": [
     "sūta"
    ],
+   "vidyut_ppp_caus": [
+    "sāvita"
+   ],
    "dcs_top_ppp": "sūta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "sūtá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5224,11 +8599,21 @@
     "III"
    ],
    "warnemyr_ppp": "sṛtá",
+   "warnemyr_ppp_forms": [
+    "sṛtá",
+    "srta"
+   ],
    "vidyut_ppp": [
     "sṛta"
    ],
+   "vidyut_ppp_caus": [
+    "sārita"
+   ],
    "dcs_top_ppp": "sṛta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "sṛtá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5239,11 +8624,21 @@
     "VI"
    ],
    "warnemyr_ppp": "sṛṣṭá",
+   "warnemyr_ppp_forms": [
+    "sṛṣṭá",
+    "srsta"
+   ],
    "vidyut_ppp": [
     "sṛṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "sarjita"
+   ],
    "dcs_top_ppp": "sṛṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "sṛṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5253,11 +8648,21 @@
     "I"
    ],
    "warnemyr_ppp": "sṛpta",
+   "warnemyr_ppp_forms": [
+    "sṛpta",
+    "srpta"
+   ],
    "vidyut_ppp": [
     "sṛpta"
    ],
+   "vidyut_ppp_caus": [
+    "sarpita"
+   ],
    "dcs_top_ppp": "sṛpta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "sṛpta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5267,11 +8672,20 @@
     "I"
    ],
    "warnemyr_ppp": "skanná",
+   "warnemyr_ppp_forms": [
+    "skanná"
+   ],
    "vidyut_ppp": [
     "skanna"
    ],
+   "vidyut_ppp_caus": [
+    "skandita"
+   ],
    "dcs_top_ppp": "skanna",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "skanná",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5283,11 +8697,21 @@
     "IX"
    ],
    "warnemyr_ppp": "skuta",
+   "warnemyr_ppp_forms": [
+    "skuta",
+    "skavam"
+   ],
    "vidyut_ppp": [
     "skuta"
    ],
+   "vidyut_ppp_caus": [
+    "skāvita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "skuta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5299,11 +8723,23 @@
     "IX"
    ],
    "warnemyr_ppp": "stṛta",
+   "warnemyr_ppp_forms": [
+    "stṛta",
+    "strta",
+    "stirna",
+    "startave"
+   ],
    "vidyut_ppp": [
     "stṛta"
    ],
+   "vidyut_ppp_caus": [
+    "stārita"
+   ],
    "dcs_top_ppp": "stīrṇa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "stṛta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5313,11 +8749,20 @@
     "I"
    ],
    "warnemyr_ppp": "sthitá",
+   "warnemyr_ppp_forms": [
+    "sthitá"
+   ],
    "vidyut_ppp": [
     "sthita"
    ],
+   "vidyut_ppp_caus": [
+    "sthāpita"
+   ],
    "dcs_top_ppp": "sthita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "sthitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5328,11 +8773,22 @@
     "IV"
    ],
    "warnemyr_ppp": "snātá",
+   "warnemyr_ppp_forms": [
+    "snātá",
+    "snata"
+   ],
    "vidyut_ppp": [
     "snāta"
    ],
+   "vidyut_ppp_caus": [
+    "snapita",
+    "snāpita"
+   ],
    "dcs_top_ppp": "snāta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "snātá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5342,11 +8798,20 @@
     "II"
    ],
    "warnemyr_ppp": "snuta",
+   "warnemyr_ppp_forms": [
+    "snuta"
+   ],
    "vidyut_ppp": [
     "snuta"
    ],
+   "vidyut_ppp_caus": [
+    "snāvita"
+   ],
    "dcs_top_ppp": "snuta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "snuta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5357,11 +8822,21 @@
     "VI"
    ],
    "warnemyr_ppp": "spṛṣṭá",
+   "warnemyr_ppp_forms": [
+    "spṛṣṭá",
+    "sprsta"
+   ],
    "vidyut_ppp": [
     "spṛṣṭa"
    ],
+   "vidyut_ppp_caus": [
+    "sparśita"
+   ],
    "dcs_top_ppp": "spṛṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "spṛṣṭá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5372,11 +8847,21 @@
     "VI"
    ],
    "warnemyr_ppp": "sphuṭita",
+   "warnemyr_ppp_forms": [
+    "sphuṭita",
+    "sphutita"
+   ],
    "vidyut_ppp": [
     "sphuṭita"
    ],
+   "vidyut_ppp_caus": [
+    "sphoṭita"
+   ],
    "dcs_top_ppp": "sphuṭita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "sphuṭita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5386,11 +8871,21 @@
     "I"
    ],
    "warnemyr_ppp": "smṛta",
+   "warnemyr_ppp_forms": [
+    "smṛta"
+   ],
    "vidyut_ppp": [
     "smṛta"
    ],
+   "vidyut_ppp_caus": [
+    "smarita",
+    "smārita"
+   ],
    "dcs_top_ppp": "smṛta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "smṛta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5400,11 +8895,20 @@
     "I"
    ],
    "warnemyr_ppp": "syanná",
+   "warnemyr_ppp_forms": [
+    "syanná"
+   ],
    "vidyut_ppp": [
     "syanna"
    ],
+   "vidyut_ppp_caus": [
+    "syandita"
+   ],
    "dcs_top_ppp": "syanna",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "syanná",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5414,11 +8918,20 @@
     "I"
    ],
    "warnemyr_ppp": "srasta",
+   "warnemyr_ppp_forms": [
+    "srasta"
+   ],
    "vidyut_ppp": [
     "srasta"
    ],
+   "vidyut_ppp_caus": [
+    "sransita"
+   ],
    "dcs_top_ppp": "srasta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "srasta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5428,11 +8941,21 @@
     "I"
    ],
    "warnemyr_ppp": "srutá",
+   "warnemyr_ppp_forms": [
+    "srutá",
+    "sravitave"
+   ],
    "vidyut_ppp": [
     "sruta"
    ],
+   "vidyut_ppp_caus": [
+    "srāvita"
+   ],
    "dcs_top_ppp": "sruta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "srutá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5442,12 +8965,22 @@
     "I"
    ],
    "warnemyr_ppp": "svanita",
+   "warnemyr_ppp_forms": [
+    "svanita"
+   ],
    "vidyut_ppp": [
     "svanita",
     "svānta"
    ],
+   "vidyut_ppp_caus": [
+    "svanita",
+    "svānita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "svanita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5457,11 +8990,20 @@
     "I"
    ],
    "warnemyr_ppp": "hanna",
+   "warnemyr_ppp_forms": [
+    "hanna"
+   ],
    "vidyut_ppp": [
     "hanna"
    ],
+   "vidyut_ppp_caus": [
+    "hādita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "hanna",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5473,11 +9015,21 @@
     "VIII"
    ],
    "warnemyr_ppp": "hatá",
+   "warnemyr_ppp_forms": [
+    "hatá",
+    "ghata"
+   ],
    "vidyut_ppp": [
     "hata"
    ],
+   "vidyut_ppp_caus": [
+    "ghātita"
+   ],
    "dcs_top_ppp": "hata",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "hatá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5487,11 +9039,20 @@
     "I"
    ],
    "warnemyr_ppp": "hasita",
+   "warnemyr_ppp_forms": [
+    "hasita"
+   ],
    "vidyut_ppp": [
     "hasita"
    ],
+   "vidyut_ppp_caus": [
+    "hāsita"
+   ],
    "dcs_top_ppp": "hasita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "hasita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5502,11 +9063,23 @@
     "III"
    ],
    "warnemyr_ppp": "hīná",
+   "warnemyr_ppp_forms": [
+    "hīná",
+    "hina",
+    "hata",
+    "hana"
+   ],
    "vidyut_ppp": [
     "hīna"
    ],
+   "vidyut_ppp_caus": [
+    "hāpita"
+   ],
    "dcs_top_ppp": "hīna",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "hīná",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5517,11 +9090,21 @@
     "V"
    ],
    "warnemyr_ppp": "hitá",
+   "warnemyr_ppp_forms": [
+    "hitá",
+    "hye"
+   ],
    "vidyut_ppp": [
     "hita"
    ],
+   "vidyut_ppp_caus": [
+    "hāyita"
+   ],
    "dcs_top_ppp": "hita",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "hitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5532,11 +9115,20 @@
     "III"
    ],
    "warnemyr_ppp": "hutá",
+   "warnemyr_ppp_forms": [
+    "hutá"
+   ],
    "vidyut_ppp": [
     "huta"
    ],
+   "vidyut_ppp_caus": [
+    "hāvita"
+   ],
    "dcs_top_ppp": "huta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "hutá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5548,11 +9140,21 @@
     "III"
    ],
    "warnemyr_ppp": "hṛtá",
+   "warnemyr_ppp_forms": [
+    "hṛtá",
+    "hrta"
+   ],
    "vidyut_ppp": [
     "hṛta"
    ],
+   "vidyut_ppp_caus": [
+    "hārita"
+   ],
    "dcs_top_ppp": "hṛta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "hṛtá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5563,11 +9165,22 @@
     "IV"
    ],
    "warnemyr_ppp": "hṛṣitá",
+   "warnemyr_ppp_forms": [
+    "hṛṣitá",
+    "hrsita",
+    "hrsta"
+   ],
    "vidyut_ppp": [
     "hṛṣita"
    ],
+   "vidyut_ppp_caus": [
+    "harṣita"
+   ],
    "dcs_top_ppp": "hṛṣṭa",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "hṛṣitá",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5577,11 +9190,21 @@
     "I"
    ],
    "warnemyr_ppp": "heṣita",
+   "warnemyr_ppp_forms": [
+    "heṣita",
+    "hesita"
+   ],
    "vidyut_ppp": [
+    "heṣita"
+   ],
+   "vidyut_ppp_caus": [
     "heṣita"
    ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "heṣita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5592,11 +9215,44 @@
     "II"
    ],
    "warnemyr_ppp": "hnutá",
+   "warnemyr_ppp_forms": [
+    "hnutá"
+   ],
    "vidyut_ppp": [
     "hnuta"
    ],
+   "vidyut_ppp_caus": [
+    "hnāvita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "hnutá",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 930,
+   "root": "hras",
+   "class": [
+    "I"
+   ],
+   "warnemyr_ppp": "hrasta",
+   "warnemyr_ppp_forms": [
+    "hrasta",
+    "hrasita"
+   ],
+   "vidyut_ppp": [
+    "hrasita"
+   ],
+   "vidyut_ppp_caus": [
+    "hrāsita"
+   ],
+   "dcs_top_ppp": "hrasta",
+   "verdict": "match",
+   "match_basis": "doublet",
+   "matched_form": "hrasita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5606,11 +9262,21 @@
     "I"
    ],
    "warnemyr_ppp": "hrādita",
+   "warnemyr_ppp_forms": [
+    "hrādita",
+    "hradita"
+   ],
    "vidyut_ppp": [
+    "hrādita"
+   ],
+   "vidyut_ppp_caus": [
     "hrādita"
    ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "hrādita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5620,12 +9286,23 @@
     "III"
    ],
    "warnemyr_ppp": "hrīta",
+   "warnemyr_ppp_forms": [
+    "hrīta",
+    "hrita",
+    "hrina"
+   ],
    "vidyut_ppp": [
     "hrīna",
     "hrīta"
    ],
+   "vidyut_ppp_caus": [
+    "hrepita"
+   ],
    "dcs_top_ppp": "hrīta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "hrīta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5635,11 +9312,21 @@
     "I"
    ],
    "warnemyr_ppp": "hreṣita",
+   "warnemyr_ppp_forms": [
+    "hreṣita",
+    "hresita"
+   ],
    "vidyut_ppp": [
+    "hreṣita"
+   ],
+   "vidyut_ppp_caus": [
     "hreṣita"
    ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "hreṣita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5649,11 +9336,23 @@
     "I"
    ],
    "warnemyr_ppp": "hvalita",
+   "warnemyr_ppp_forms": [
+    "hvalita",
+    "hvalitos",
+    "hvalam"
+   ],
    "vidyut_ppp": [
     "hvalita"
    ],
+   "vidyut_ppp_caus": [
+    "hvalita",
+    "hvālita"
+   ],
    "dcs_top_ppp": "",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "hvalita",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
   {
@@ -5664,11 +9363,23 @@
     "IX"
    ],
    "warnemyr_ppp": "hvṛta",
+   "warnemyr_ppp_forms": [
+    "hvṛta",
+    "hvrta",
+    "hvarita",
+    "hruta"
+   ],
    "vidyut_ppp": [
     "hvṛta"
    ],
+   "vidyut_ppp_caus": [
+    "hvārita"
+   ],
    "dcs_top_ppp": "hruta",
    "verdict": "match",
+   "match_basis": "spine",
+   "matched_form": "hvṛta",
+   "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   }
  ]

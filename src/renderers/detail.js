@@ -209,10 +209,10 @@ const SEC_LABELS = {
   imperfect: 'Imperfect', imperative: 'Imperative', optative: 'Optative',
   perfect: 'Perfect', aorist: 'Aorist', future: 'Future'
 };
-const KRT_ORDER = ['ppp', 'past_active', 'gerund', 'infinitive', 'pres_act_ptcp',
+const KRT_ORDER = ['ppp', 'ppp_caus', 'past_active', 'gerund', 'infinitive', 'pres_act_ptcp',
   'pres_mid_ptcp', 'gerundive', 'agent', 'perf_act_ptcp'];
 const KRT_LABELS = {
-  ppp: 'Past pass. ptcp.', past_active: 'Past act. ptcp.', gerund: 'Gerund (abs.)',
+  ppp: 'Past pass. ptcp.', ppp_caus: 'Caus. PPP', past_active: 'Past act. ptcp.', gerund: 'Gerund (abs.)',
   infinitive: 'Infinitive', pres_act_ptcp: 'Pres. act. ptcp.', pres_mid_ptcp: 'Pres. mid. ptcp.',
   gerundive: 'Gerundive', agent: 'Agent noun', perf_act_ptcp: 'Perf. act. ptcp.'
 };

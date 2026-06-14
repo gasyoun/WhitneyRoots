@@ -80,34 +80,45 @@ From `scratch/phase0/audit.md` (full warnemyr re-harvest of `1885/`). **GAP** = 
 
 `scripts/vidyut_validate_ppp.py` compares vidyut-prakriya's generated `kta` against warnemyr's recorded PPP and the DCS corpus. Where warnemyr **disagrees** and the **corpus backs vidyut**, the naive read is "warnemyr is wrong — correct it." **It is not.** A 3-verifier Sanskritist panel (13/13 unanimous) found that of the corpus-corroborated mismatches, **none is a warnemyr error**: every one is either a **homonym artifact** (warnemyr records the PPP of the *glossed* homonym, while vidyut/DCS surface the *corpus-dominant* same-spelled root because the DCS lemma lumps them) or an **aniṭ/seṭ doublet** of a single root. So this signal is a homonym/variant detector, **not** a correction list. **Do not auto-apply it.**
 
-### 3a. KEEP warnemyr — corpus reflects a *different* homonym (8)
+**2026-06-14 refinement (see §3d):** the validator now honours **all** of warnemyr's comma-separated PPP forms and vidyut's **causative (ṇic)** kta. Under that rule **8 of the 13** former corpus-corroborated mismatches resolve to `match` (a recorded warnemyr form *is* vidyut-generated) and move to §3d; the **5** below remain only because the source PPP column is ASCII-romanised. Each verdict is now revisable via the `match_basis` / `matched_against` fields in `crosswalk/ppp_validation.json`.
+
+### 3a. KEEP warnemyr — corpus reflects a *different* homonym (3)
 
 warnemyr is **correct** for the glossed sense; the corpus form belongs to a same-spelled root the DCS lemma conflates (the √vid know/find, √mṛ die/crush pattern). **Action: do not change** — and treat each as positive evidence for the homonym split (cf. `crosswalk/token_attribution.json`).
 
 | # | root | Whitney | gloss | warnemyr PPP ✓ | corpus PPP | warnemyr = | corpus = |
 |--:|---|:-:|---|:-:|:-:|---|---|
 | 43 | iṣ | IV/VI/IX | send | `iṣitá` | `iṣṭa` | √iṣ "send" — seṭ (iṣ-i-tá) | √iṣ "desire" #42 — aniṭ (iṣ+ta→iṣṭá) |
-| 259 | ji | I/V | quicken | `jinvitá` | `jita` | √ji/jinv "quicken" — seṭ | √ji "conquer" #258 — jitá |
-| 350 | dā | I/VI | divide, share | `diná` | `datta` | √dā "divide/cut" — dyáti-root | √dā "give" #349 — dadā́ti-root, datta |
-| 395 | dhāv | I | run | `dhāvita` | `dhauta` | √dhāv "run" — seṭ | √dhāv "wash/cleanse" — aniṭ vṛddhi, dhauta |
 | 572 | mṛ | VI/IX | crush | `mūrṇá` | `mṛta` | √mṛ "crush" #2 — mṛṇáti, mūrṇá | √mṛ "die" #1 — mriyáte, mṛtá |
-| 729 | vid | II/VI | find | `vittá` | `vidita` | √vid "find/obtain" #729 — vittá | √vid "know" #728 — viditá |
-| 773 | śam | I/II/IV/IX | labor | `śamitá` | `śānta` | √śam "labor/toil" #773 — śamitá | √śam "be quiet/cease" #774 — śāntá |
 | 912 | hā | III | go forth | `hāna` | `hīna` | √hā "go forth/move" — hāna | √hā "abandon/quit" #911 — jáhāti, hīná |
 
-### 3b. Editorial — legitimate aniṭ/seṭ (or -ta/-na) doublet, one root (5)
+### 3b. Editorial — legitimate aniṭ/seṭ (or -ta/-na) doublet, one root (2)
 
 Both forms are valid PPPs of the **same** root and sense; warnemyr's is not wrong, just the alternant the corpus under-represents. **Action: keep warnemyr, or list both** — editorial, not a correction.
 
 | # | root | gloss | warnemyr PPP | corpus PPP | both are |
 |--:|---|---|:-:|:-:|---|
 | 148 | kṣubh | quake | `kṣubdha` | `kṣubhita` | kṣubdha — aniṭ -ta · kṣubhita — seṭ -ita (one √kṣubh, §956b) |
-| 183 | gup | protect | `gupitá` | `gupta` | gupitá — seṭ · gupta — aniṭ (one √gup, §956b) |
-| 197 | gras | devour | `grasitá` | `grasta` | grasitá — seṭ · grasta — aniṭ (one √gras) |
 | 455 | piś | adorn | `piṣṭá` | `piśita` | piṣṭá — aniṭ (piś+ta→piṣṭa) · piśita — seṭ (one √piś "adorn") |
-| 727 | vij | tremble | `vikta` | `vigna` | vikta — -ta allomorph (Rigvedic) · vigna — -na allomorph (one √vij "tremble") |
 
-_Full validator output (305 match · 33 mismatch · 13 corpus-corroborated, all dispositioned above): `crosswalk/ppp_validation.json`. The remaining non-corroborated mismatches are warnemyr-only variants the corpus does not weigh in on._
+_Full validator output (325 match · 13 mismatch · 5 corpus-corroborated; 8 panel cases auto-resolved in §3d): `crosswalk/ppp_validation.json`. The remaining non-corroborated mismatches are warnemyr-only variants the corpus does not weigh in on._
+
+### 3d. Auto-resolved by the doublet + causative refinement (8 of 13)
+
+A recorded warnemyr PPP form **is** vidyut-generated once we honour the full comma-separated doublet list (`Whitney_roots_class-PP.txt`) and the causative (ṇic) kta (`krt.ppp_caus`). These former §3a/§3b mismatches are therefore `match`. `matched_against`: `vidyut` = primary kta, `vidyut_caus` = causative kta. `match_basis`: `doublet` = a comma form on the same source line; `source_alt` = the numbered source records a *different* single form than the warnemyr HTML page; `spine` = warnemyr's own form (here matching the causative).
+
+| # | root | now matches | matched_against | basis | review |
+|--:|---|:-:|:-:|:-:|---|
+| 183 | gup | `gupta` | vidyut | doublet | ok — warnemyr's recorded form is Pāṇinianly sound |
+| 197 | gras | `grasta` | vidyut | doublet | ok — warnemyr's recorded form is Pāṇinianly sound |
+| 259 | ji | `jita` | vidyut | source_alt | ⚠️ numbered source lists `jita` ≠ warnemyr HTML `jinvitá`; this overrides the §3a homonym KEEP — confirm |
+| 350 | dā | `datta` | vidyut | doublet | ⚠️⚠️ `datta` is the √dā **"give"** PPP sitting on the **"divide"** entry #350 — likely a source numbering smear; confirm (cf. §3c) |
+| 395 | dhāv | `dhāvita` | vidyut_caus | spine | ok — warnemyr's recorded form is Pāṇinianly sound |
+| 727 | vij | `vigna` | vidyut | doublet | ok — warnemyr's recorded form is Pāṇinianly sound |
+| 729 | vid | `vidita` | vidyut | source_alt | ⚠️ numbered source lists `vidita` ≠ warnemyr HTML `vittá`; this overrides the §3a homonym KEEP — confirm |
+| 773 | śam | `śamitá` | vidyut_caus | spine | ok — warnemyr's recorded form is Pāṇinianly sound |
+
+**To revise** any class of match, filter `crosswalk/ppp_validation.json` on the provenance fields — e.g. force `match_basis == "source_alt"` (#259, #729) or `matched_against == "dcs"` (the 10 corpus-agreement flips) back to a flag. The 5 survivors in §3a/§3b would also resolve if the source PPP column were re-keyed with diacritics (its ASCII `ksubhita`/`pisita`/`ista`/`mrta` cannot equal vidyut's `kṣubhita`/`piśita`/`iṣṭa`/`mṛta` under the length- and retroflex-preserving `form_key`).
 
 ### 3c. Open editorial call — √dā `dātta`
 

@@ -145,6 +145,16 @@ def gen_paradigm(en):
         forms = iast_list(krt_ind(d, kn))
         if forms:
             krt[label] = forms
+    # Causative (ṇic) kta — a genuine PPP too (√gam→gamita, √śam→śamita, √gup→gopita), built on the
+    # Ric-sanādi stem.  Kept in a SEPARATE key from krt['ppp'] (the primary kta) so display and the
+    # form-validator can always tell a primary PPP from a causative one.  Defensive: some dhātus throw
+    # under Ric (no causative attested) — skip silently.
+    try:
+        caus_ppp = iast_list(krt_nom(d.with_sanadi([P.Sanadi.Ric]), 'kta'))
+        if caus_ppp:
+            krt['ppp_caus'] = caus_ppp
+    except Exception:
+        pass
     pada = 'parasmaipada' if present.get('3sg') and any(f.endswith('ti') for f in present['3sg']) else ''
     if present.get('3sg') and any(f.endswith('te') for f in present['3sg']):
         pada = (pada + '+atmanepada').strip('+') if pada else 'atmanepada'
@@ -268,7 +278,8 @@ def main():
             'method': "clean root = result[0] at the last it-lopa (rule 1.3.9) before laṭ-insertion "
                       "(3.2.123) — pre-num-augment, so idit roots stay bare (skud not skund); matched "
                       "exact then nasal-folded (Y/N/R/M→n). paradigm = Laṭ 3×3 + Laṅ/Loṭ/VidhiLiṅ/Liṭ/"
-                      "Luṅ/Lṛṭ 3sg+3pl + kṛdantas.",
+                      "Luṅ/Lṛṭ 3sg+3pl + kṛdantas. krt.ppp = primary kta; krt.ppp_caus = causative (ṇic) "
+                      "kta, generated separately on the Ric-sanādi stem.",
             'caveat': "Two gates: (1) the dhātu's Pāṇinian gaṇa must be a Whitney class; (2) where the "
                       "spine/corpus records any form, the dhātu's generated PPP or a finite form must "
                       "match it — binding the right homonym and rejecting same-(slp1,gaṇa) intruders "

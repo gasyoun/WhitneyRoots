@@ -34,6 +34,12 @@ URGENT = {'473','578','890'}   # [I,VI]-onto-empty: the collapse the revert pred
 # the corpus-DOMINANT same-spelled root's PPP because the DCS lemma lumps them) → KEEP warnemyr. 5 are
 # aniṭ/seṭ (or -ta/-na) doublets of one root → editorial, both valid. So `corpus_backs_vidyut` is, on a
 # root with homonyms or a PPP doublet, a homonym/variant detector — NOT a correction signal.
+#
+# 2026-06-14 refinement (§3d): the validator now honours ALL of warnemyr's comma-separated PPP forms
+# (Whitney_roots_class-PP.txt) + vidyut's causative (ṇic) kta. Under that rule 8 of these 13 are no
+# longer mismatches — a recorded warnemyr form IS vidyut-generated (so corpus_backs_vidyut clears and
+# they drop out of 3a/3b below into 3d). The 5 that remain do so only because the source PPP column is
+# ASCII-romanised (ksubhita, mrta…) and form_key keeps ṣ/ś/ṛ distinct.
 PPP_NOTES = {   # whitney_no: (kind, warnemyr's form belongs to, the corpus form belongs to)
     43:  ('homonym', '√iṣ "send" — seṭ (iṣ-i-tá)',           '√iṣ "desire" #42 — aniṭ (iṣ+ta→iṣṭá)'),
     259: ('homonym', '√ji/jinv "quicken" — seṭ',             '√ji "conquer" #258 — jitá'),
@@ -48,6 +54,14 @@ PPP_NOTES = {   # whitney_no: (kind, warnemyr's form belongs to, the corpus form
     197: ('variant', 'grasitá — seṭ',                        'grasta — aniṭ (one √gras)'),
     455: ('variant', 'piṣṭá — aniṭ (piś+ta→piṣṭa)',          'piśita — seṭ (one √piś "adorn")'),
     727: ('variant', 'vikta — -ta allomorph (Rigvedic)',     'vigna — -na allomorph (one √vij "tremble")'),
+}
+
+# §3d review flags — panel roots the refinement auto-resolved that still want a human eye, because the
+# matched form does NOT come from the same source/sense as warnemyr's HTML record.
+PPP_REVIEW = {
+    259: '⚠️ numbered source lists `jita` ≠ warnemyr HTML `jinvitá`; this overrides the §3a homonym KEEP — confirm',
+    729: '⚠️ numbered source lists `vidita` ≠ warnemyr HTML `vittá`; this overrides the §3a homonym KEEP — confirm',
+    350: '⚠️⚠️ `datta` is the √dā **"give"** PPP sitting on the **"divide"** entry #350 — likely a source numbering smear; confirm (cf. §3c)',
 }
 
 def chapter_set(eid):
@@ -186,6 +200,12 @@ out.append('`scripts/vidyut_validate_ppp.py` compares vidyut-prakriya\'s generat
            'vidyut/DCS surface the *corpus-dominant* same-spelled root because the DCS lemma lumps them) or an '
            '**aniṭ/seṭ doublet** of a single root. So this signal is a homonym/variant detector, **not** a '
            'correction list. **Do not auto-apply it.**\n')
+out.append('**2026-06-14 refinement (see §3d):** the validator now honours **all** of warnemyr\'s '
+           'comma-separated PPP forms and vidyut\'s **causative (ṇic)** kta. Under that rule **8 of the 13** '
+           'former corpus-corroborated mismatches resolve to `match` (a recorded warnemyr form *is* '
+           'vidyut-generated) and move to §3d; the **5** below remain only because the source PPP column is '
+           'ASCII-romanised. Each verdict is now revisable via the `match_basis` / `matched_against` fields '
+           'in `crosswalk/ppp_validation.json`.\n')
 
 if ppp_val:
     corro = [x for x in ppp_val.get('items', []) if x.get('corpus_backs_vidyut')]
@@ -219,10 +239,36 @@ if ppp_val:
                    % (no, x['root'], g, x['warnemyr_ppp'], x['dcs_top_ppp'] or ','.join(x['vidyut_ppp']), wsrc, ssrc))
     out.append('')
     cc = ppp_val['_meta'].get('counts', {})
-    out.append('_Full validator output (%d match · %d mismatch · %d corpus-corroborated, all dispositioned above): '
-               '`crosswalk/ppp_validation.json`. The remaining non-corroborated mismatches are warnemyr-only '
-               'variants the corpus does not weigh in on._\n'
-               % (cc.get('match', 0), cc.get('mismatch', 0), len(corro)))
+    out.append('_Full validator output (%d match · %d mismatch · %d corpus-corroborated; %d panel cases '
+               'auto-resolved in §3d): `crosswalk/ppp_validation.json`. The remaining non-corroborated '
+               'mismatches are warnemyr-only variants the corpus does not weigh in on._\n'
+               % (cc.get('match', 0), cc.get('mismatch', 0), len(corro),
+                  sum(1 for x in ppp_val.get('items', [])
+                      if x['whitney_no'] in PPP_NOTES and x['verdict'] == 'match')))
+
+    # ---- 3d: panel mismatches the doublet+causative refinement auto-resolved ----
+    resolved = sorted((x for x in ppp_val.get('items', [])
+                       if x['whitney_no'] in PPP_NOTES and x['verdict'] == 'match'),
+                      key=lambda z: z['whitney_no'])
+    out.append('### 3d. Auto-resolved by the doublet + causative refinement (%d of 13)\n' % len(resolved))
+    out.append('A recorded warnemyr PPP form **is** vidyut-generated once we honour the full comma-separated '
+               'doublet list (`Whitney_roots_class-PP.txt`) and the causative (ṇic) kta (`krt.ppp_caus`). '
+               'These former §3a/§3b mismatches are therefore `match`. `matched_against`: '
+               '`vidyut` = primary kta, `vidyut_caus` = causative kta. `match_basis`: `doublet` = a comma '
+               'form on the same source line; `source_alt` = the numbered source records a *different* single '
+               'form than the warnemyr HTML page; `spine` = warnemyr\'s own form (here matching the causative).\n')
+    out.append('| # | root | now matches | matched_against | basis | review |')
+    out.append('|--:|---|:-:|:-:|:-:|---|')
+    for x in resolved:
+        note = PPP_REVIEW.get(x['whitney_no'], 'ok — warnemyr\'s recorded form is Pāṇinianly sound')
+        out.append('| %s | %s | `%s` | %s | %s | %s |'
+                   % (x['whitney_no'], x['root'], x['matched_form'], x['matched_against'], x['match_basis'], note))
+    out.append('\n**To revise** any class of match, filter `crosswalk/ppp_validation.json` on the provenance '
+               'fields — e.g. force `match_basis == "source_alt"` (#259, #729) or `matched_against == "dcs"` '
+               '(the 10 corpus-agreement flips) back to a flag. The 5 survivors in §3a/§3b would also resolve '
+               'if the source PPP column were re-keyed with diacritics (its ASCII `ksubhita`/`pisita`/`ista`/'
+               '`mrta` cannot equal vidyut\'s `kṣubhita`/`piśita`/`iṣṭa`/`mṛta` under the length- and '
+               'retroflex-preserving `form_key`).\n')
 else:
     out.append('_`crosswalk/ppp_validation.json` not present — run `python scripts/vidyut_validate_ppp.py`._\n')
 
