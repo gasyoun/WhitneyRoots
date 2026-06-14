@@ -373,9 +373,7 @@
         "I"
       ],
       "ppp": [
-        "uta favour",
-        "like",
-        "delight in"
+        "uta"
       ],
       "grammar_ref": {
         "sections": [
@@ -2302,9 +2300,7 @@
         "IX"
       ],
       "ppp": [
-        "kusita pinch",
-        "tear",
-        "gnaw"
+        "kusita"
       ],
       "grammar_ref": {
         "sections": [
@@ -3743,9 +3739,7 @@
       "meaning": "cover",
       "classes": [],
       "ppp": [
-        "gunthita veil",
-        "conceal",
-        "hide"
+        "gunthita"
       ],
       "grammar_ref": null
     },
@@ -3776,7 +3770,9 @@
       "classes": [
         "I"
       ],
-      "ppp": [],
+      "ppp": [
+        "gumphita"
+      ],
       "grammar_ref": {
         "sections": [
           "§734"
@@ -6636,8 +6632,7 @@
         "IV"
       ],
       "ppp": [
-        "dasta suffer want",
-        "languish"
+        "dasta"
       ],
       "grammar_ref": {
         "sections": [
@@ -15549,9 +15544,7 @@
         "VIII"
       ],
       "ppp": [
-        "sata win",
-        "conquer",
-        "acquire"
+        "sata"
       ],
       "grammar_ref": {
         "sections": [
