@@ -1,0 +1,54 @@
+name: Deploy site to GitHub Pages
+
+# Serves the static WhitneyRoots site (the v3 root explorer at / and the
+# "Why this form?" reader at /reader/) from a clean assembled artifact.
+# No build step — vanilla ES modules + JSON data, all relative paths, so it
+# works unchanged under the project-page base path /WhitneyRoots/.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deploy at a time; let an in-flight production deploy finish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Assemble static site
+        # Only the files the two apps actually serve — no scripts/, docs/,
+        # crosswalk/, or scratch/ cruft on the public URL.
+        run: |
+          mkdir -p _site
+          cp index.html index.css v3_app.js .nojekyll _site/
+          cp -r src reader _site/
+          echo "Assembled site:" && find _site -maxdepth 2 -type f | sort
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

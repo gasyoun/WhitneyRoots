@@ -14,6 +14,8 @@ a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 .topbar { background: linear-gradient(180deg, var(--bg2), var(--bg)); border-bottom: 1px solid var(--line); padding: 26px 0 22px; }
+.backlink { margin: 0 0 10px; font-size: 13px; }
+.backlink a { color: var(--mut); }
 .topbar h1 { font-family: var(--head); font-weight: 700; font-size: 27px; margin: 0 0 6px; letter-spacing: -0.01em; }
 .topbar .accent { color: var(--accent); font-weight: 600; }
 .sub { color: var(--mut); margin: 0; max-width: 760px; font-size: 14px; }
