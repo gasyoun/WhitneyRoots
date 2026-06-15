@@ -122,7 +122,7 @@ IAST: cité/citáye, tviṣé, dhúrvaṇe, pṛcé, mihé, muhé, riṣé/riṣ
 - **(a) Period/source markers → PRESERVE** ✅ in additive `ppp_attestation` keyed by form (`"ppp_attestation": {"kupita": ["RV1"]}`).
 - **(b) `?` uncertainty → PRESERVE** ✅ in `ppp_uncertain` (forms in §2; for 227 the `?` is on the infinitive `cite`).
 - **(c) `&`/space alternates → SPLIT** ✅ (`&` always; bare space only for confirmed pairs, 747).
-- **(d) `= seq.`/`adj` → METADATA** ✅ in `ppp_note`. **id 74 `ardita =`** has a **dangling** `=` (target truncated) → `ppp_note: {"ardita": "= (cross-ref target unrecovered)"}`; **NEEDS human print recovery** (Whitney print / Scharf digitization). Only open item.
+- **(d) `= seq.`/`adj` → METADATA** ✅ in `ppp_note`. **id 74 `ardita =` — RESOLVED:** the `=` was **not** a root cross-reference; it is the start of Whitney's **`= S. trans.`** diathesis note, truncated at the column boundary. Confirmed against the warnemyr mirror (`1885/root__rd.html`, which follows Whitney): the √ṛd entry reads "Caus. ardáyati, PPP ardita **= S. trans.**" (cf. the same convention on √riṣ: "Caus. reṣáyati = S. trans., Ā = S. refl."). I.e. the causative `ardáyati` / PPP `ardita` is transitive with the simple-verb sense. Recorded as `ppp_note: {"ardita": "= S. trans. (... not a root cross-reference)"}`.
 - **(e) `rise rises` (id 649) → NOT OCR; they are infinitives** ✅ `rista` = riṣṭá (PPP); `rise`/`rises` = riṣé/riṣés → `infinitives` (not dropped). Confirmed against warnemyr "PPP : riṣṭá V.+ ; riṣé riṣés RV" and Scharf's Whitney digitization.
 - **(f) Datival infinitives → MOVE to new additive `infinitives` field** ✅ (`"ppp": ["rista"], "infinitives": ["rise", "rises"]`). Consumer-safe.
 
@@ -156,6 +156,6 @@ Two surgical, CRLF/BOM-preserving, idempotent passes (mirror [`fix_ppp_gloss_ble
 ### Out of scope
 - The 6 gloss-bleed records (already fixed).
 - **Diacritic / vowel-length normalization** — source is ASCII (`ksana`, `vita`, `danta`); shipped source-literal, not the accented spine. Separate decision.
-- **id 74's dangling `=` target** — needs Whitney print (§4d). Only open item.
+- ~~id 74's dangling `=` target~~ — **RESOLVED** (§4d): it was a truncated `= S. trans.` diathesis note, not a cross-reference. No open items remain.
 - Inventing warnemyr "spine head" forms not in Whitney's column.
 - Editing `crosswalk/ppp_validation.json` or any DCS sidecar.
