@@ -1,763 +1,748 @@
 {
-  "description": "PPP apparatus-bleed cleanup: before/after + stripped apparatus for 39 records.",
-  "source_column": "Whitney_roots_class-PP.txt",
-  "records": [
-    {
-      "id": "6",
-      "root": "aj",
-      "ppp_before": [
-        "ajita ?"
-      ],
-      "ppp_after": [
-        "ajita"
-      ],
-      "attestation": null,
-      "uncertain": [
-        "ajita"
-      ],
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "74",
-      "root": "ṛd",
-      "ppp_before": [
-        "ardita ="
-      ],
-      "ppp_after": [
-        "ardita"
-      ],
-      "attestation": null,
-      "uncertain": null,
-      "note": {
-        "ardita": "= (cross-ref target unrecovered)"
-      },
-      "dropped": []
-    },
-    {
-      "id": "99",
-      "root": "kup",
-      "ppp_before": [
-        "kupita RV1"
-      ],
-      "ppp_after": [
-        "kupita"
-      ],
-      "attestation": {
-        "kupita": [
-          "RV1"
-        ]
-      },
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "140",
-      "root": "kṣā",
-      "ppp_before": [
-        "ksana ?"
-      ],
-      "ppp_after": [
-        "ksana"
-      ],
-      "attestation": null,
-      "uncertain": [
-        "ksana"
-      ],
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "168",
-      "root": "gadh",
-      "ppp_before": [
-        "gadhita RV2"
-      ],
-      "ppp_after": [
-        "gadhita"
-      ],
-      "attestation": {
-        "gadhita": [
-          "RV2"
-        ]
-      },
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "227",
-      "root": "cit",
-      "ppp_before": [
-        "citta",
-        "cite ?",
-        "citaye"
-      ],
-      "ppp_after": [
-        "citta",
-        "cite",
-        "citaye"
-      ],
-      "attestation": null,
-      "uncertain": [
-        "cite"
-      ],
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "306",
-      "root": "tim",
-      "ppp_before": [
-        "timita R"
-      ],
-      "ppp_after": [
-        "timita"
-      ],
-      "attestation": {
-        "timita": [
-          "R"
-        ]
-      },
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "322",
-      "root": "tṛṣ",
-      "ppp_before": [
-        "trsita",
-        "trsta ? adj"
-      ],
-      "ppp_after": [
-        "trsita",
-        "trsta"
-      ],
-      "attestation": null,
-      "uncertain": [
-        "trsta"
-      ],
-      "note": {
-        "trsta": "adj (adjectival usage)"
-      },
-      "dropped": []
-    },
-    {
-      "id": "326",
-      "root": "tras",
-      "ppp_before": [
-        "trasta",
-        "trasas K"
-      ],
-      "ppp_after": [
-        "trasta",
-        "trasas"
-      ],
-      "attestation": {
-        "trasas": [
-          "K"
-        ]
-      },
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "332",
-      "root": "tvar",
-      "ppp_before": [
-        "tvarita",
-        "turta & turna"
-      ],
-      "ppp_after": [
-        "tvarita",
-        "turta",
-        "turna"
-      ],
-      "attestation": null,
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "343",
-      "root": "dam",
-      "ppp_before": [
-        "danta 1"
-      ],
-      "ppp_after": [
-        "danta"
-      ],
-      "attestation": {
-        "danta": [
-          "1"
-        ]
-      },
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "365",
-      "root": "du",
-      "ppp_before": [
-        "duna",
-        "duta AA. ? C1"
-      ],
-      "ppp_after": [
-        "duna",
-        "duta"
-      ],
-      "attestation": {
-        "duta": [
-          "AA",
-          "C1"
-        ]
-      },
-      "uncertain": [
-        "duta"
-      ],
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "371",
-      "root": "1 dṛ",
-      "ppp_before": [
-        "dirna",
-        "drta R"
-      ],
-      "ppp_after": [
-        "dirna",
-        "drta"
-      ],
-      "attestation": {
-        "drta": [
-          "R"
-        ]
-      },
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "372",
-      "root": "2 dṛ",
-      "ppp_before": [
-        "dirna",
-        "drta R"
-      ],
-      "ppp_after": [
-        "dirna",
-        "drta"
-      ],
-      "attestation": {
-        "drta": [
-          "R"
-        ]
-      },
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "452",
-      "root": "pi",
-      "ppp_before": [
-        "pina 1 & pipivas"
-      ],
-      "ppp_after": [
-        "pina",
-        "pipivas"
-      ],
-      "attestation": {
-        "pina": [
-          "1"
-        ]
-      },
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "469",
-      "root": "1 pṛ",
-      "ppp_before": [
-        "purna",
-        "prta S1. purita"
-      ],
-      "ppp_after": [
-        "purna",
-        "prta",
-        "purita"
-      ],
-      "attestation": {
-        "prta": [
-          "S1"
-        ]
-      },
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "470",
-      "root": "2 pṛ",
-      "ppp_before": [
-        "purna",
-        "prta S1. purita"
-      ],
-      "ppp_after": [
-        "purna",
-        "prta",
-        "purita"
-      ],
-      "attestation": {
-        "prta": [
-          "S1"
-        ]
-      },
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "471",
-      "root": "3 pṛ",
-      "ppp_before": [
-        "purna",
-        "prta S1. purita"
-      ],
-      "ppp_after": [
-        "purna",
-        "prta",
-        "purita"
-      ],
-      "attestation": {
-        "prta": [
-          "S1"
-        ]
-      },
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "472",
-      "root": "pṛc",
-      "ppp_before": [
-        "prkta",
-        "prgna ? RV1",
-        "prce"
-      ],
-      "ppp_after": [
-        "prkta",
-        "prgna",
-        "prce"
-      ],
-      "attestation": {
-        "prgna": [
-          "RV1"
-        ]
-      },
-      "uncertain": [
-        "prgna"
-      ],
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "524",
-      "root": "1 bhuj",
-      "ppp_before": [
-        "bhugna 1"
-      ],
-      "ppp_after": [
-        "bhugna"
-      ],
-      "attestation": {
-        "bhugna": [
-          "1"
-        ]
-      },
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "525",
-      "root": "2 bhuj",
-      "ppp_before": [
-        "bhugna 1"
-      ],
-      "ppp_after": [
-        "bhugna"
-      ],
-      "attestation": {
-        "bhugna": [
-          "1"
-        ]
-      },
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "573",
-      "root": "mṛkṣ",
-      "ppp_before": [
-        "mraksita = seq. abhi"
-      ],
-      "ppp_after": [
-        "mraksita"
-      ],
-      "attestation": null,
-      "uncertain": null,
-      "note": {
-        "mraksita": "= seq. abhi (cf. abhi-mṛkṣ)"
-      },
-      "dropped": []
-    },
-    {
-      "id": "580",
-      "root": "mṛdh",
-      "ppp_before": [
-        "mrddha 1"
-      ],
-      "ppp_after": [
-        "mrddha"
-      ],
-      "attestation": {
-        "mrddha": [
-          "1"
-        ]
-      },
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "632",
-      "root": "raś",
-      "ppp_before": [
-        "rasita 1"
-      ],
-      "ppp_after": [
-        "rasita"
-      ],
-      "attestation": {
-        "rasita": [
-          "1"
-        ]
-      },
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "633",
-      "root": "ras",
-      "ppp_before": [
-        "rasita 1"
-      ],
-      "ppp_after": [
-        "rasita"
-      ],
-      "attestation": {
-        "rasita": [
-          "1"
-        ]
-      },
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "649",
-      "root": "riṣ",
-      "ppp_before": [
-        "rista",
-        "rise rises"
-      ],
-      "ppp_after": [
-        "rista",
-        "rise"
-      ],
-      "attestation": null,
-      "uncertain": null,
-      "note": null,
-      "dropped": [
-        "rises (OCR duplicate of \"rise\")"
-      ]
-    },
-    {
-      "id": "668",
-      "root": "lag",
-      "ppp_before": [
-        "lagna B1.?"
-      ],
-      "ppp_after": [
-        "lagna"
-      ],
-      "attestation": {
-        "lagna": [
-          "B1"
-        ]
-      },
-      "uncertain": [
-        "lagna"
-      ],
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "706",
-      "root": "van",
-      "ppp_before": [
-        "vata 1"
-      ],
-      "ppp_after": [
-        "vata"
-      ],
-      "attestation": {
-        "vata": [
-          "1"
-        ]
-      },
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "708",
-      "root": "1 vap",
-      "ppp_before": [
-        "upta",
-        "upita E1",
-        "vapta E1"
-      ],
-      "ppp_after": [
-        "upta",
-        "upita",
-        "vapta"
-      ],
-      "attestation": {
-        "upita": [
-          "E1"
-        ],
-        "vapta": [
-          "E1"
-        ]
-      },
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "709",
-      "root": "2 vap",
-      "ppp_before": [
-        "upta",
-        "upita E1",
-        "vapta E1"
-      ],
-      "ppp_after": [
-        "upta",
-        "upita",
-        "vapta"
-      ],
-      "attestation": {
-        "upita": [
-          "E1"
-        ],
-        "vapta": [
-          "E1"
-        ]
-      },
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "718",
-      "root": "vah",
-      "ppp_before": [
-        "udha",
-        "vodha ? E1"
-      ],
-      "ppp_after": [
-        "udha",
-        "vodha"
-      ],
-      "attestation": {
-        "vodha": [
-          "E1"
-        ]
-      },
-      "uncertain": [
-        "vodha"
-      ],
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "737",
-      "root": "vī",
-      "ppp_before": [
-        "vita 1"
-      ],
-      "ppp_after": [
-        "vita"
-      ],
-      "attestation": {
-        "vita": [
-          "1"
-        ]
-      },
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "747",
-      "root": "vṛh",
-      "ppp_before": [
-        "vrdha brdha"
-      ],
-      "ppp_after": [
-        "vrdha",
-        "brdha"
-      ],
-      "attestation": null,
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "790",
-      "root": "śuc",
-      "ppp_before": [
-        "sukta ?"
-      ],
-      "ppp_after": [
-        "sukta"
-      ],
-      "attestation": null,
-      "uncertain": [
-        "sukta"
-      ],
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "797",
-      "root": "1 śṛ",
-      "ppp_before": [
-        "sirna",
-        "sirta",
-        "surta ? RV1"
-      ],
-      "ppp_after": [
-        "sirna",
-        "sirta",
-        "surta"
-      ],
-      "attestation": {
-        "surta": [
-          "RV1"
-        ]
-      },
-      "uncertain": [
-        "surta"
-      ],
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "798",
-      "root": "2 śṛ",
-      "ppp_before": [
-        "sirna",
-        "sirta",
-        "surta ? RV1"
-      ],
-      "ppp_after": [
-        "sirna",
-        "sirta",
-        "surta"
-      ],
-      "attestation": {
-        "surta": [
-          "RV1"
-        ]
-      },
-      "uncertain": [
-        "surta"
-      ],
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "799",
-      "root": "3 śṛ",
-      "ppp_before": [
-        "sirna",
-        "sirta",
-        "surta ? RV1"
-      ],
-      "ppp_after": [
-        "sirna",
-        "sirta",
-        "surta"
-      ],
-      "attestation": {
-        "surta": [
-          "RV1"
-        ]
-      },
-      "uncertain": [
-        "surta"
-      ],
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "877",
-      "root": "snu",
-      "ppp_before": [
-        "snuta ?"
-      ],
-      "ppp_after": [
-        "snuta"
-      ],
-      "attestation": null,
-      "uncertain": [
-        "snuta"
-      ],
-      "note": null,
-      "dropped": []
-    },
-    {
-      "id": "892",
-      "root": "sphṛ",
-      "ppp_before": [
-        "sphurita",
-        "sphulita C1"
-      ],
-      "ppp_after": [
-        "sphurita",
-        "sphulita"
-      ],
-      "attestation": {
-        "sphulita": [
-          "C1"
-        ]
-      },
-      "uncertain": null,
-      "note": null,
-      "dropped": []
-    }
-  ]
+ "description": "PPP cleanup audit: apparatus-bleed (39) + datival-infinitive-bleed (9) = 45 records. before/after ppp + preserved apparatus (ppp_attestation/ppp_uncertain/ppp_note) and moved infinitives.",
+ "source_column": "Whitney_roots_class-PP.txt",
+ "baseline_commit": "5213549",
+ "count": 45,
+ "records": [
+  {
+   "id": "6",
+   "root": "aj",
+   "ppp_before": [
+    "ajita ?"
+   ],
+   "ppp_after": [
+    "ajita"
+   ],
+   "ppp_uncertain": [
+    "ajita"
+   ]
+  },
+  {
+   "id": "74",
+   "root": "ṛd",
+   "ppp_before": [
+    "ardita ="
+   ],
+   "ppp_after": [
+    "ardita"
+   ],
+   "ppp_note": {
+    "ardita": "= S. trans. (warnemyr/Whitney diathesis note: causative ardayati / PPP ardita is transitive = the simple-verb sense; the truncated = is not a root cross-reference)"
+   }
+  },
+  {
+   "id": "99",
+   "root": "kup",
+   "ppp_before": [
+    "kupita RV1"
+   ],
+   "ppp_after": [
+    "kupita"
+   ],
+   "ppp_attestation": {
+    "kupita": [
+     "RV1"
+    ]
+   }
+  },
+  {
+   "id": "140",
+   "root": "kṣā",
+   "ppp_before": [
+    "ksana ?"
+   ],
+   "ppp_after": [
+    "ksana"
+   ],
+   "ppp_uncertain": [
+    "ksana"
+   ]
+  },
+  {
+   "id": "168",
+   "root": "gadh",
+   "ppp_before": [
+    "gadhita RV2"
+   ],
+   "ppp_after": [
+    "gadhita"
+   ],
+   "ppp_attestation": {
+    "gadhita": [
+     "RV2"
+    ]
+   }
+  },
+  {
+   "id": "227",
+   "root": "cit",
+   "ppp_before": [
+    "citta",
+    "cite ?",
+    "citaye"
+   ],
+   "ppp_after": [
+    "citta"
+   ],
+   "ppp_uncertain": [
+    "cite"
+   ],
+   "infinitives": [
+    "cite",
+    "citaye"
+   ]
+  },
+  {
+   "id": "306",
+   "root": "tim",
+   "ppp_before": [
+    "timita R"
+   ],
+   "ppp_after": [
+    "timita"
+   ],
+   "ppp_attestation": {
+    "timita": [
+     "R"
+    ]
+   }
+  },
+  {
+   "id": "322",
+   "root": "tṛṣ",
+   "ppp_before": [
+    "trsita",
+    "trsta ? adj"
+   ],
+   "ppp_after": [
+    "trsita",
+    "trsta"
+   ],
+   "ppp_uncertain": [
+    "trsta"
+   ],
+   "ppp_note": {
+    "trsta": "adj (adjectival usage)"
+   }
+  },
+  {
+   "id": "326",
+   "root": "tras",
+   "ppp_before": [
+    "trasta",
+    "trasas K"
+   ],
+   "ppp_after": [
+    "trasta",
+    "trasas"
+   ],
+   "ppp_attestation": {
+    "trasas": [
+     "K"
+    ]
+   }
+  },
+  {
+   "id": "332",
+   "root": "tvar",
+   "ppp_before": [
+    "tvarita",
+    "turta & turna"
+   ],
+   "ppp_after": [
+    "tvarita",
+    "turta",
+    "turna"
+   ]
+  },
+  {
+   "id": "333",
+   "root": "tviṣ",
+   "ppp_before": [
+    "tvisita",
+    "tvise"
+   ],
+   "ppp_after": [
+    "tvisita"
+   ],
+   "infinitives": [
+    "tvise"
+   ]
+  },
+  {
+   "id": "343",
+   "root": "dam",
+   "ppp_before": [
+    "danta 1"
+   ],
+   "ppp_after": [
+    "danta"
+   ],
+   "ppp_attestation": {
+    "danta": [
+     "1"
+    ]
+   }
+  },
+  {
+   "id": "365",
+   "root": "du",
+   "ppp_before": [
+    "duna",
+    "duta AA. ? C1"
+   ],
+   "ppp_after": [
+    "duna",
+    "duta"
+   ],
+   "ppp_attestation": {
+    "duta": [
+     "AA",
+     "C1"
+    ]
+   },
+   "ppp_uncertain": [
+    "duta"
+   ]
+  },
+  {
+   "id": "371",
+   "root": "1 dṛ",
+   "ppp_before": [
+    "dirna",
+    "drta R"
+   ],
+   "ppp_after": [
+    "dirna",
+    "drta"
+   ],
+   "ppp_attestation": {
+    "drta": [
+     "R"
+    ]
+   }
+  },
+  {
+   "id": "372",
+   "root": "2 dṛ",
+   "ppp_before": [
+    "dirna",
+    "drta R"
+   ],
+   "ppp_after": [
+    "dirna",
+    "drta"
+   ],
+   "ppp_attestation": {
+    "drta": [
+     "R"
+    ]
+   }
+  },
+  {
+   "id": "409",
+   "root": "dhvṛ",
+   "ppp_before": [
+    "dhurta",
+    "dhruta",
+    "dhurvane"
+   ],
+   "ppp_after": [
+    "dhurta",
+    "dhruta"
+   ],
+   "infinitives": [
+    "dhurvane"
+   ]
+  },
+  {
+   "id": "452",
+   "root": "pi",
+   "ppp_before": [
+    "pina 1 & pipivas"
+   ],
+   "ppp_after": [
+    "pina",
+    "pipivas"
+   ],
+   "ppp_attestation": {
+    "pina": [
+     "1"
+    ]
+   }
+  },
+  {
+   "id": "469",
+   "root": "1 pṛ",
+   "ppp_before": [
+    "purna",
+    "prta S1. purita"
+   ],
+   "ppp_after": [
+    "purna",
+    "prta",
+    "purita"
+   ],
+   "ppp_attestation": {
+    "prta": [
+     "S1"
+    ]
+   }
+  },
+  {
+   "id": "470",
+   "root": "2 pṛ",
+   "ppp_before": [
+    "purna",
+    "prta S1. purita"
+   ],
+   "ppp_after": [
+    "purna",
+    "prta",
+    "purita"
+   ],
+   "ppp_attestation": {
+    "prta": [
+     "S1"
+    ]
+   }
+  },
+  {
+   "id": "471",
+   "root": "3 pṛ",
+   "ppp_before": [
+    "purna",
+    "prta S1. purita"
+   ],
+   "ppp_after": [
+    "purna",
+    "prta",
+    "purita"
+   ],
+   "ppp_attestation": {
+    "prta": [
+     "S1"
+    ]
+   }
+  },
+  {
+   "id": "472",
+   "root": "pṛc",
+   "ppp_before": [
+    "prkta",
+    "prgna ? RV1",
+    "prce"
+   ],
+   "ppp_after": [
+    "prkta",
+    "prgna"
+   ],
+   "ppp_attestation": {
+    "prgna": [
+     "RV1"
+    ]
+   },
+   "ppp_uncertain": [
+    "prgna"
+   ],
+   "infinitives": [
+    "prce"
+   ]
+  },
+  {
+   "id": "524",
+   "root": "1 bhuj",
+   "ppp_before": [
+    "bhugna 1"
+   ],
+   "ppp_after": [
+    "bhugna"
+   ],
+   "ppp_attestation": {
+    "bhugna": [
+     "1"
+    ]
+   }
+  },
+  {
+   "id": "525",
+   "root": "2 bhuj",
+   "ppp_before": [
+    "bhugna 1"
+   ],
+   "ppp_after": [
+    "bhugna"
+   ],
+   "ppp_attestation": {
+    "bhugna": [
+     "1"
+    ]
+   }
+  },
+  {
+   "id": "560",
+   "root": "mih",
+   "ppp_before": [
+    "midha",
+    "mihe"
+   ],
+   "ppp_after": [
+    "midha"
+   ],
+   "infinitives": [
+    "mihe"
+   ]
+  },
+  {
+   "id": "568",
+   "root": "muh",
+   "ppp_before": [
+    "mugdha",
+    "mudha",
+    "muhe"
+   ],
+   "ppp_after": [
+    "mugdha",
+    "mudha"
+   ],
+   "infinitives": [
+    "muhe"
+   ]
+  },
+  {
+   "id": "573",
+   "root": "mṛkṣ",
+   "ppp_before": [
+    "mraksita = seq. abhi"
+   ],
+   "ppp_after": [
+    "mraksita"
+   ],
+   "ppp_note": {
+    "mraksita": "= seq. abhi (cf. abhi-mṛkṣ)"
+   }
+  },
+  {
+   "id": "580",
+   "root": "mṛdh",
+   "ppp_before": [
+    "mrddha 1"
+   ],
+   "ppp_after": [
+    "mrddha"
+   ],
+   "ppp_attestation": {
+    "mrddha": [
+     "1"
+    ]
+   }
+  },
+  {
+   "id": "632",
+   "root": "raś",
+   "ppp_before": [
+    "rasita 1"
+   ],
+   "ppp_after": [
+    "rasita"
+   ],
+   "ppp_attestation": {
+    "rasita": [
+     "1"
+    ]
+   }
+  },
+  {
+   "id": "633",
+   "root": "ras",
+   "ppp_before": [
+    "rasita 1"
+   ],
+   "ppp_after": [
+    "rasita"
+   ],
+   "ppp_attestation": {
+    "rasita": [
+     "1"
+    ]
+   }
+  },
+  {
+   "id": "649",
+   "root": "riṣ",
+   "ppp_before": [
+    "rista",
+    "rise rises"
+   ],
+   "ppp_after": [
+    "rista"
+   ],
+   "infinitives": [
+    "rise",
+    "rises"
+   ]
+  },
+  {
+   "id": "668",
+   "root": "lag",
+   "ppp_before": [
+    "lagna B1.?"
+   ],
+   "ppp_after": [
+    "lagna"
+   ],
+   "ppp_attestation": {
+    "lagna": [
+     "B1"
+    ]
+   },
+   "ppp_uncertain": [
+    "lagna"
+   ]
+  },
+  {
+   "id": "706",
+   "root": "van",
+   "ppp_before": [
+    "vata 1"
+   ],
+   "ppp_after": [
+    "vata"
+   ],
+   "ppp_attestation": {
+    "vata": [
+     "1"
+    ]
+   }
+  },
+  {
+   "id": "708",
+   "root": "1 vap",
+   "ppp_before": [
+    "upta",
+    "upita E1",
+    "vapta E1"
+   ],
+   "ppp_after": [
+    "upta",
+    "upita",
+    "vapta"
+   ],
+   "ppp_attestation": {
+    "upita": [
+     "E1"
+    ],
+    "vapta": [
+     "E1"
+    ]
+   }
+  },
+  {
+   "id": "709",
+   "root": "2 vap",
+   "ppp_before": [
+    "upta",
+    "upita E1",
+    "vapta E1"
+   ],
+   "ppp_after": [
+    "upta",
+    "upita",
+    "vapta"
+   ],
+   "ppp_attestation": {
+    "upita": [
+     "E1"
+    ],
+    "vapta": [
+     "E1"
+    ]
+   }
+  },
+  {
+   "id": "718",
+   "root": "vah",
+   "ppp_before": [
+    "udha",
+    "vodha ? E1"
+   ],
+   "ppp_after": [
+    "udha",
+    "vodha"
+   ],
+   "ppp_attestation": {
+    "vodha": [
+     "E1"
+    ]
+   },
+   "ppp_uncertain": [
+    "vodha"
+   ]
+  },
+  {
+   "id": "737",
+   "root": "vī",
+   "ppp_before": [
+    "vita 1"
+   ],
+   "ppp_after": [
+    "vita"
+   ],
+   "ppp_attestation": {
+    "vita": [
+     "1"
+    ]
+   }
+  },
+  {
+   "id": "747",
+   "root": "vṛh",
+   "ppp_before": [
+    "vrdha brdha"
+   ],
+   "ppp_after": [
+    "vrdha",
+    "brdha"
+   ]
+  },
+  {
+   "id": "790",
+   "root": "śuc",
+   "ppp_before": [
+    "sukta ?"
+   ],
+   "ppp_after": [
+    "sukta"
+   ],
+   "ppp_uncertain": [
+    "sukta"
+   ]
+  },
+  {
+   "id": "793",
+   "root": "śubh",
+   "ppp_before": [
+    "subhita",
+    "sumbhita",
+    "subhe"
+   ],
+   "ppp_after": [
+    "subhita",
+    "sumbhita"
+   ],
+   "infinitives": [
+    "subhe"
+   ]
+  },
+  {
+   "id": "797",
+   "root": "1 śṛ",
+   "ppp_before": [
+    "sirna",
+    "sirta",
+    "surta ? RV1"
+   ],
+   "ppp_after": [
+    "sirna",
+    "sirta",
+    "surta"
+   ],
+   "ppp_attestation": {
+    "surta": [
+     "RV1"
+    ]
+   },
+   "ppp_uncertain": [
+    "surta"
+   ]
+  },
+  {
+   "id": "798",
+   "root": "2 śṛ",
+   "ppp_before": [
+    "sirna",
+    "sirta",
+    "surta ? RV1"
+   ],
+   "ppp_after": [
+    "sirna",
+    "sirta",
+    "surta"
+   ],
+   "ppp_attestation": {
+    "surta": [
+     "RV1"
+    ]
+   },
+   "ppp_uncertain": [
+    "surta"
+   ]
+  },
+  {
+   "id": "799",
+   "root": "3 śṛ",
+   "ppp_before": [
+    "sirna",
+    "sirta",
+    "surta ? RV1"
+   ],
+   "ppp_after": [
+    "sirna",
+    "sirta",
+    "surta"
+   ],
+   "ppp_attestation": {
+    "surta": [
+     "RV1"
+    ]
+   },
+   "ppp_uncertain": [
+    "surta"
+   ]
+  },
+  {
+   "id": "877",
+   "root": "snu",
+   "ppp_before": [
+    "snuta ?"
+   ],
+   "ppp_after": [
+    "snuta"
+   ],
+   "ppp_uncertain": [
+    "snuta"
+   ]
+  },
+  {
+   "id": "892",
+   "root": "sphṛ",
+   "ppp_before": [
+    "sphurita",
+    "sphulita C1"
+   ],
+   "ppp_after": [
+    "sphurita",
+    "sphulita"
+   ],
+   "ppp_attestation": {
+    "sphulita": [
+     "C1"
+    ]
+   }
+  },
+  {
+   "id": "914",
+   "root": "hi",
+   "ppp_before": [
+    "hita",
+    "hye"
+   ],
+   "ppp_after": [
+    "hita"
+   ],
+   "infinitives": [
+    "hye"
+   ]
+  }
+ ]
 }

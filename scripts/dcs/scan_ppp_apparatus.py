@@ -36,8 +36,18 @@ def is_clean(form):
     return bool(f) and _CLEAN.fullmatch(f) is not None
 
 
+# Datival infinitives (-e / -aye / -vane) bled into the PPP column along with the
+# participle; they pass is_clean() but are NOT past-passive-participles. See
+# docs/PPP_APPARATUS_BLEED_WORKLIST.md §2b.
+def is_infinitive(form):
+    tok = form.split(' ')[0].strip()
+    return tok.endswith(('aye', 'vane')) or (tok.endswith('e') and len(tok) > 2)
+
+
 def categorize(form):
     cats = []
+    if is_infinitive(form):
+        cats.append('datival-infinitive')
     if ' ' in form:
         cats.append('space-multiword')
     if re.search(r'\d', form):
@@ -67,7 +77,7 @@ def build_catalog():
 
     catalog = []
     for e in data['lexicon']:
-        flagged = [p for p in (e.get('ppp') or []) if not is_clean(p)]
+        flagged = [p for p in (e.get('ppp') or []) if not is_clean(p) or is_infinitive(p)]
         if flagged:
             catalog.append({
                 'id': e['id'],

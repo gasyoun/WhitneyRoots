@@ -1896,7 +1896,7 @@
         "ardita"
       ],
       "ppp_note": {
-        "ardita": "= (cross-ref target unrecovered)"
+        "ardita": "= S. trans. (warnemyr/Whitney diathesis note: causative ardayati / PPP ardita is transitive = the simple-verb sense; the truncated = is not a root cross-reference)"
       },
       "grammar_ref": {
         "sections": [
@@ -4553,7 +4553,9 @@
         "III"
       ],
       "ppp": [
-        "citta",
+        "citta"
+      ],
+      "infinitives": [
         "cite",
         "citaye"
       ],
@@ -6437,7 +6439,9 @@
         "VI"
       ],
       "ppp": [
-        "tvisita",
+        "tvisita"
+      ],
+      "infinitives": [
         "tvise"
       ],
       "grammar_ref": {
@@ -7888,7 +7892,9 @@
       ],
       "ppp": [
         "dhurta",
-        "dhruta",
+        "dhruta"
+      ],
+      "infinitives": [
         "dhurvane"
       ],
       "grammar_ref": {
@@ -9106,7 +9112,9 @@
       ],
       "ppp": [
         "prkta",
-        "prgna",
+        "prgna"
+      ],
+      "infinitives": [
         "prce"
       ],
       "ppp_attestation": {
@@ -10718,7 +10726,9 @@
         "I"
       ],
       "ppp": [
-        "midha",
+        "midha"
+      ],
+      "infinitives": [
         "mihe"
       ],
       "grammar_ref": {
@@ -10877,7 +10887,9 @@
       ],
       "ppp": [
         "mugdha",
-        "mudha",
+        "mudha"
+      ],
+      "infinitives": [
         "muhe"
       ],
       "grammar_ref": {
@@ -12315,8 +12327,11 @@
         "IV"
       ],
       "ppp": [
-        "rista",
-        "rise"
+        "rista"
+      ],
+      "infinitives": [
+        "rise",
+        "rises"
       ],
       "grammar_ref": {
         "sections": [
@@ -15027,7 +15042,9 @@
       ],
       "ppp": [
         "subhita",
-        "sumbhita",
+        "sumbhita"
+      ],
+      "infinitives": [
         "subhe"
       ],
       "grammar_ref": {
@@ -17367,7 +17384,9 @@
         "VII"
       ],
       "ppp": [
-        "hita",
+        "hita"
+      ],
+      "infinitives": [
         "hye"
       ],
       "grammar_ref": {
