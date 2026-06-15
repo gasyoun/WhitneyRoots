@@ -80,7 +80,7 @@ From `scratch/phase0/audit.md` (full warnemyr re-harvest of `1885/`). **GAP** = 
 
 `scripts/vidyut_validate_ppp.py` compares vidyut-prakriya's generated `kta` against warnemyr's recorded PPP and the DCS corpus. Where warnemyr **disagrees** and the **corpus backs vidyut**, the naive read is "warnemyr is wrong — correct it." **It is not.** A 3-verifier Sanskritist panel (13/13 unanimous) found that of the corpus-corroborated mismatches, **none is a warnemyr error**: every one is either a **homonym artifact** (warnemyr records the PPP of the *glossed* homonym, while vidyut/DCS surface the *corpus-dominant* same-spelled root because the DCS lemma lumps them) or an **aniṭ/seṭ doublet** of a single root. So this signal is a homonym/variant detector, **not** a correction list. **Do not auto-apply it.**
 
-**2026-06-14 refinement (see §3d):** the validator now honours **all** of warnemyr's comma-separated PPP forms and vidyut's **causative (ṇic)** kta. Under that rule **8 of the 13** former corpus-corroborated mismatches resolve to `match` (a recorded warnemyr form *is* vidyut-generated) and move to §3d; the **5** below remain only because the source PPP column is ASCII-romanised. Each verdict is now revisable via the `match_basis` / `matched_against` fields in `crosswalk/ppp_validation.json`.
+**2026-06-14 refinement (see §3d):** the validator now honours **all** of warnemyr's comma-separated PPP forms and vidyut's **causative (ṇic)** kta, and diacritic-restores the two source forms Whitney confirms as single-root doublets (kṣubh, piś — `WHITNEY_RESTORE`). Under that rule **10 of the 13** former corpus-corroborated mismatches resolve to `match` (a recorded warnemyr form *is* vidyut-generated) and move to §3d. The **3** that remain (§3a) are genuine **homonym** cases — their corpus/vidyut form belongs to a *different* root, so warnemyr is kept and the flag is correct (the ASCII-romanised source incidentally protects them; restoring diacritics there would wrongly match the wrong homonym). Each verdict is revisable via the `match_basis` / `matched_against` fields in `crosswalk/ppp_validation.json`.
 
 **Whitney's _Grammar_ at Wikisource independently confirms the doublets & the causative PPP** ([Sanskrit Grammar (Whitney)](https://en.wikisource.org/wiki/Sanskrit_Grammar_(Whitney))): §956b names `gup`, `kṣubh`/`gras`/`piś` ("have/make **both forms**"), and `iṣ send`; §957c gives "`vigna` (beside `vikta`)"; §957a "`dā` divide makes `diná` (also `dita` and `-tta`)" — *not* `datta` (§952 `dattá` = √dā **give**) — and "`dū` burn (also `duta`)"; §957d "`vinna` (√`vid` **find**: also `vittá`)" (vs `vid` know → `vidita`, §956b); §955a `çāṁtá` (√`çam` **be quiet**) vs `çam` labor → `çamita` (§956b); and §1051a the causative passive participle "as `dhārita`". This vindicates the §3d review flags (`dā` #350, `vid` #729). **What Whitney cannot confirm: see §3e** (the corpus-frequency matches), and note the per-root form list — Whitney's 1885 *Roots* supplement that warnemyr mirrors — **is not on Wikisource** (its Grammar Appendix there covers only bhū/kṛ).
 
@@ -94,33 +94,33 @@ warnemyr is **correct** for the glossed sense; the corpus form belongs to a same
 | 572 | mṛ | VI/IX | crush | `mūrṇá` | `mṛta` | √mṛ "crush" #2 — mṛṇáti, mūrṇá | √mṛ "die" #1 — mriyáte, mṛtá |
 | 912 | hā | III | go forth | `hāna` | `hīna` | √hā "go forth/move" — hāna | √hā "abandon/quit" #911 — jáhāti, hīná |
 
-### 3b. Editorial — legitimate aniṭ/seṭ (or -ta/-na) doublet, one root (2)
+### 3b. Editorial — legitimate aniṭ/seṭ (or -ta/-na) doublet, one root (0)
 
 Both forms are valid PPPs of the **same** root and sense; warnemyr's is not wrong, just the alternant the corpus under-represents. **Action: keep warnemyr, or list both** — editorial, not a correction.
 
 | # | root | gloss | warnemyr PPP | corpus PPP | both are |
 |--:|---|---|:-:|:-:|---|
-| 148 | kṣubh | quake | `kṣubdha` | `kṣubhita` | kṣubdha — aniṭ -ta · kṣubhita — seṭ -ita (one √kṣubh, §956b) |
-| 455 | piś | adorn | `piṣṭá` | `piśita` | piṣṭá — aniṭ (piś+ta→piṣṭa) · piśita — seṭ (one √piś "adorn") |
 
-_Full validator output (325 match · 13 mismatch · 5 corpus-corroborated; 8 panel cases auto-resolved in §3d): `crosswalk/ppp_validation.json`. The remaining non-corroborated mismatches are warnemyr-only variants the corpus does not weigh in on._
+_Full validator output (327 match · 11 mismatch · 3 corpus-corroborated; 10 panel cases auto-resolved in §3d): `crosswalk/ppp_validation.json`. The remaining non-corroborated mismatches are warnemyr-only variants the corpus does not weigh in on._
 
-### 3d. Auto-resolved by the doublet + causative refinement (8 of 13)
+### 3d. Auto-resolved by the doublet + causative refinement (10 of 13)
 
 A recorded warnemyr PPP form **is** vidyut-generated once we honour the full comma-separated doublet list (`Whitney_roots_class-PP.txt`) and the causative (ṇic) kta (`krt.ppp_caus`). These former §3a/§3b mismatches are therefore `match`. `matched_against`: `vidyut` = primary kta, `vidyut_caus` = causative kta. `match_basis`: `doublet` = a comma form on the same source line; `source_alt` = the numbered source records a *different* single form than the warnemyr HTML page; `spine` = warnemyr's own form (here matching the causative).
 
 | # | root | now matches | matched_against | basis | review |
 |--:|---|:-:|:-:|:-:|---|
+| 148 | kṣubh | `kṣubhita` | vidyut | doublet | ok — warnemyr's recorded form is Pāṇinianly sound |
 | 183 | gup | `gupta` | vidyut | doublet | ok — warnemyr's recorded form is Pāṇinianly sound |
 | 197 | gras | `grasta` | vidyut | doublet | ok — warnemyr's recorded form is Pāṇinianly sound |
 | 259 | ji | `jita` | vidyut | source_alt | ⚠️ numbered source lists `jita` ≠ warnemyr HTML `jinvitá`; this overrides the §3a homonym KEEP — confirm |
 | 350 | dā | `datta` | vidyut | doublet | ⚠️⚠️ `datta` is the √dā **"give"** PPP sitting on the **"divide"** entry #350 — likely a source numbering smear; confirm (cf. §3c) |
 | 395 | dhāv | `dhāvita` | vidyut_caus | spine | ok — warnemyr's recorded form is Pāṇinianly sound |
+| 455 | piś | `piśita` | vidyut | doublet | ok — warnemyr's recorded form is Pāṇinianly sound |
 | 727 | vij | `vigna` | vidyut | doublet | ok — warnemyr's recorded form is Pāṇinianly sound |
 | 729 | vid | `vidita` | vidyut | source_alt | ⚠️ numbered source lists `vidita` ≠ warnemyr HTML `vittá`; this overrides the §3a homonym KEEP — confirm |
 | 773 | śam | `śamitá` | vidyut_caus | spine | ok — warnemyr's recorded form is Pāṇinianly sound |
 
-**To revise** any class of match, filter `crosswalk/ppp_validation.json` on the provenance fields — e.g. force `match_basis == "source_alt"` (#259, #729) or `matched_against == "dcs"` (the 10 corpus-agreement flips — see §3e) back to a flag. The 5 survivors in §3a/§3b would also resolve if the source PPP column were re-keyed with diacritics (its ASCII `ksubhita`/`pisita`/`ista`/`mrta` cannot equal vidyut's `kṣubhita`/`piśita`/`iṣṭa`/`mṛta` under the length- and retroflex-preserving `form_key`).
+**To revise** any class of match, filter `crosswalk/ppp_validation.json` on the provenance fields — e.g. force `match_basis == "source_alt"` (#259, #729) or `matched_against == "dcs"` (the 10 corpus-agreement flips — see §3e) back to a flag. The two single-root doublets whose source form was ASCII-romanised (**kṣubh** `ksubhita`→`kṣubhita`, **piś** `pisita`→`piśita`) are now diacritic-restored via `WHITNEY_RESTORE` (Whitney §956b) and match. The **3** still in §3a are NOT restored on purpose: they are homonym KEEPs (`mṛ` crush, `iṣ` send, `hā` go-forth) whose vidyut/corpus form belongs to a *different* root, so leaving them flagged is correct.
 
 ### 3e. ⏳ Open for later — the 10 corpus-frequency (DCS) matches (attestation, not a rule)
 

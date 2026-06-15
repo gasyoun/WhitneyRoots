@@ -14,7 +14,9 @@ second recorded form (gupta) is the one vidyut generates used to be a FALSE 'mis
 the full comma-separated PPP list from Whitney_roots_class-PP.txt and treat the root as a match if
 ANY recorded form matches.  (That source column is ASCII-romanised — 'ksubhita' for kṣubhita — so a
 doublet carrying ṛ/ṣ/ś only registers when length-preserving form_key() can equate it; we never
-coerce an ambiguous ASCII fold, so some real doublets stay flagged.  See report.)
+coerce an ambiguous ASCII fold.  EXCEPTION: WHITNEY_RESTORE diacritic-restores the two source forms
+that Whitney's Grammar confirms as a single-root aniṭ/seṭ doublet — kṣubh §956b.4, piś §956b.5 — so
+they match; the genuine HOMONYM cases mṛ/iṣ/hā are left ASCII and correctly stay flagged.)
 
 CAUSATIVE: vidyut's kta is generated on BOTH the primary stem (krt.ppp → gata, gupta) and the
 causative ṇic stem (krt.ppp_caus → gamita, gopita, śamita).  Many warnemyr -ita PPPs are causative-
@@ -54,6 +56,17 @@ PARA  = os.path.join(BASE, 'src', 'paradigms.json')
 LOCAL = os.path.join(BASE, 'Whitney_roots_class-PP.txt')   # numbered source — doublet PPP forms
 OUT   = os.path.join(BASE, 'crosswalk', 'ppp_validation.json')
 
+# Diacritic restoration of the ASCII-romanised source PPP column, applied ONLY to single-root doublets
+# that Whitney's Grammar confirms as ONE root taking BOTH the aniṭ and the seṭ form (so the seṭ alternant
+# vidyut generates is genuinely warnemyr's too).  Without this, form_key (which keeps ṣ/ś/ṛ distinct)
+# cannot equate the source's ASCII 'ksubhita' with vidyut's 'kṣubhita'.  DELIBERATELY NOT applied to the
+# §3a homonym KEEP cases (mṛ #572, iṣ #43, hā #912), where the alternant belongs to a DIFFERENT root and
+# the ASCII form *correctly* fails to match.  Cited verbatim against en.wikisource.org Sanskrit_Grammar_(Whitney):
+WHITNEY_RESTORE = {
+    '148': {'ksubhita': 'kṣubhita'},   # √kṣubh — §956b.4 "kṣubh ... have both forms" (kṣubdha / kṣubhita)
+    '455': {'pisita': 'piśita'},        # √piś   — §956b.5 "piç has both forms"        (piṣṭá / piśita)
+}
+
 
 def ppp_stem(iast_nom_sg):
     """kta nom.sg.masc (gataḥ, kṛtaḥ, krāntaḥ) → length-preserving stem key (gata, kṛta, krānta)."""
@@ -82,7 +95,8 @@ def load_warnemyr_forms(path):
             tok = seg.strip().split()
             if tok and not tok[0].isupper() and re.search(r'[a-zāīūṛṝḷḹ]', tok[0]):
                 forms.append(tok[0])
-        by_no[m.group(1)] = forms
+        sub = WHITNEY_RESTORE.get(m.group(1), {})        # diacritic restoration for confirmed doublets
+        by_no[m.group(1)] = [sub.get(f, f) for f in forms]
     return by_no
 
 

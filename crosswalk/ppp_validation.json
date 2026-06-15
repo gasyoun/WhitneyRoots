@@ -4,21 +4,21 @@
   "generated_by": "vidyut-prakriya; compares spine.ppp + Whitney_roots_class-PP.txt doublets & corpus.attested_ppp vs generated PRIMARY (krt.ppp) and CAUSATIVE (krt.ppp_caus) kta",
   "note": "Advisory; never edits the spine. warnemyr_ppp_forms lists ALL of warnemyr's recorded PPP doublets (spine accented form first, then romanised-source forms); a match needs only ONE of them in vidyut PRIMARY or CAUSATIVE kta, or the DCS top form. Per item, match_basis/matched_form/matched_against record WHY it matched so any class of match (doublet | source_alt | causative=vidyut_caus | dcs) can be revised later. corpus_backs_vidyut (surviving mismatches) is a HOMONYM/VARIANT detector, NOT a correction signal — see docs/DECISIONS_NEEDED.md §3.",
   "counts": {
-   "match": 325,
-   "mismatch": 13,
+   "match": 327,
+   "mismatch": 11,
    "fill_candidate": 33,
    "vidyut_only": 13
   },
   "roots_checked": 384,
   "match_basis_counts": {
    "corpus_fill": 33,
-   "doublet": 6,
+   "doublet": 8,
    "source_alt": 2,
    "spine": 317
   },
   "matched_against_counts": {
    "dcs": 10,
-   "vidyut": 345,
+   "vidyut": 347,
    "vidyut_caus": 3
   }
  },
@@ -43,60 +43,6 @@
     "eṣita"
    ],
    "dcs_top_ppp": "iṣṭa",
-   "verdict": "mismatch",
-   "match_basis": "",
-   "matched_form": "",
-   "matched_against": "",
-   "corpus_backs_vidyut": true
-  },
-  {
-   "whitney_no": 148,
-   "root": "kṣubh",
-   "class": [
-    "I",
-    "IV",
-    "V",
-    "IX"
-   ],
-   "warnemyr_ppp": "kṣubdha",
-   "warnemyr_ppp_forms": [
-    "kṣubdha",
-    "ksubdha",
-    "ksubhita",
-    "ksobdhos"
-   ],
-   "vidyut_ppp": [
-    "kṣubhita"
-   ],
-   "vidyut_ppp_caus": [
-    "kṣobhita"
-   ],
-   "dcs_top_ppp": "kṣubhita",
-   "verdict": "mismatch",
-   "match_basis": "",
-   "matched_form": "",
-   "matched_against": "",
-   "corpus_backs_vidyut": true
-  },
-  {
-   "whitney_no": 455,
-   "root": "piś",
-   "class": [
-    "VI"
-   ],
-   "warnemyr_ppp": "piṣṭá",
-   "warnemyr_ppp_forms": [
-    "piṣṭá",
-    "pista",
-    "pisita"
-   ],
-   "vidyut_ppp": [
-    "piśita"
-   ],
-   "vidyut_ppp_caus": [
-    "peśita"
-   ],
-   "dcs_top_ppp": "piśita",
    "verdict": "mismatch",
    "match_basis": "",
    "matched_form": "",
@@ -2460,6 +2406,35 @@
    "verdict": "match",
    "match_basis": "spine",
    "matched_form": "kṣudhita",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 148,
+   "root": "kṣubh",
+   "class": [
+    "I",
+    "IV",
+    "V",
+    "IX"
+   ],
+   "warnemyr_ppp": "kṣubdha",
+   "warnemyr_ppp_forms": [
+    "kṣubdha",
+    "ksubdha",
+    "kṣubhita",
+    "ksobdhos"
+   ],
+   "vidyut_ppp": [
+    "kṣubhita"
+   ],
+   "vidyut_ppp_caus": [
+    "kṣobhita"
+   ],
+   "dcs_top_ppp": "kṣubhita",
+   "verdict": "match",
+   "match_basis": "doublet",
+   "matched_form": "kṣubhita",
    "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },
@@ -4969,6 +4944,31 @@
    "verdict": "match",
    "match_basis": "spine",
    "matched_form": "pītá",
+   "matched_against": "vidyut",
+   "corpus_backs_vidyut": false
+  },
+  {
+   "whitney_no": 455,
+   "root": "piś",
+   "class": [
+    "VI"
+   ],
+   "warnemyr_ppp": "piṣṭá",
+   "warnemyr_ppp_forms": [
+    "piṣṭá",
+    "pista",
+    "piśita"
+   ],
+   "vidyut_ppp": [
+    "piśita"
+   ],
+   "vidyut_ppp_caus": [
+    "peśita"
+   ],
+   "dcs_top_ppp": "piśita",
+   "verdict": "match",
+   "match_basis": "doublet",
+   "matched_form": "piśita",
    "matched_against": "vidyut",
    "corpus_backs_vidyut": false
   },

@@ -200,12 +200,18 @@ out.append('`scripts/vidyut_validate_ppp.py` compares vidyut-prakriya\'s generat
            'vidyut/DCS surface the *corpus-dominant* same-spelled root because the DCS lemma lumps them) or an '
            '**aniṭ/seṭ doublet** of a single root. So this signal is a homonym/variant detector, **not** a '
            'correction list. **Do not auto-apply it.**\n')
+_n_resolved = sum(1 for x in ppp_val.get('items', []) if x['whitney_no'] in PPP_NOTES and x['verdict'] == 'match') if ppp_val else 0
+_n_remain = len(PPP_NOTES) - _n_resolved
 out.append('**2026-06-14 refinement (see §3d):** the validator now honours **all** of warnemyr\'s '
-           'comma-separated PPP forms and vidyut\'s **causative (ṇic)** kta. Under that rule **8 of the 13** '
-           'former corpus-corroborated mismatches resolve to `match` (a recorded warnemyr form *is* '
-           'vidyut-generated) and move to §3d; the **5** below remain only because the source PPP column is '
-           'ASCII-romanised. Each verdict is now revisable via the `match_basis` / `matched_against` fields '
-           'in `crosswalk/ppp_validation.json`.\n')
+           'comma-separated PPP forms and vidyut\'s **causative (ṇic)** kta, and diacritic-restores the two '
+           'source forms Whitney confirms as single-root doublets (kṣubh, piś — `WHITNEY_RESTORE`). Under '
+           'that rule **%d of the %d** former corpus-corroborated mismatches resolve to `match` (a recorded '
+           'warnemyr form *is* vidyut-generated) and move to §3d. The **%d** that remain (§3a) are genuine '
+           '**homonym** cases — their corpus/vidyut form belongs to a *different* root, so warnemyr is kept '
+           'and the flag is correct (the ASCII-romanised source incidentally protects them; restoring '
+           'diacritics there would wrongly match the wrong homonym). Each verdict is revisable via the '
+           '`match_basis` / `matched_against` fields in `crosswalk/ppp_validation.json`.\n'
+           % (_n_resolved, len(PPP_NOTES), _n_remain))
 out.append('**Whitney\'s _Grammar_ at Wikisource independently confirms the doublets & the causative PPP** '
            '([Sanskrit Grammar (Whitney)](https://en.wikisource.org/wiki/Sanskrit_Grammar_(Whitney))): '
            '§956b names `gup`, `kṣubh`/`gras`/`piś` ("have/make **both forms**"), and `iṣ send`; §957c gives '
@@ -275,10 +281,11 @@ if ppp_val:
                    % (x['whitney_no'], x['root'], x['matched_form'], x['matched_against'], x['match_basis'], note))
     out.append('\n**To revise** any class of match, filter `crosswalk/ppp_validation.json` on the provenance '
                'fields — e.g. force `match_basis == "source_alt"` (#259, #729) or `matched_against == "dcs"` '
-               '(the 10 corpus-agreement flips — see §3e) back to a flag. The 5 survivors in §3a/§3b would also '
-               'resolve if the source PPP column were re-keyed with diacritics (its ASCII `ksubhita`/`pisita`/'
-               '`ista`/`mrta` cannot equal vidyut\'s `kṣubhita`/`piśita`/`iṣṭa`/`mṛta` under the length- and '
-               'retroflex-preserving `form_key`).\n')
+               '(the 10 corpus-agreement flips — see §3e) back to a flag. The two single-root doublets whose '
+               'source form was ASCII-romanised (**kṣubh** `ksubhita`→`kṣubhita`, **piś** `pisita`→`piśita`) '
+               'are now diacritic-restored via `WHITNEY_RESTORE` (Whitney §956b) and match. The **3** still in '
+               '§3a are NOT restored on purpose: they are homonym KEEPs (`mṛ` crush, `iṣ` send, `hā` go-forth) '
+               'whose vidyut/corpus form belongs to a *different* root, so leaving them flagged is correct.\n')
 
     # ---- 3e: the corpus-frequency (DCS) matches — attestation, NOT a grammar rule. Left for later. ----
     dcs_flips = sorted((x for x in ppp_val.get('items', [])
