@@ -23,6 +23,8 @@ function handleRoute() {
     }
   } else if (parts[1] === 'quiz') {
     updateState({ view: 'quiz' });
+  } else if (parts[1] === 'affixes') {
+    updateState({ view: 'affixes', selectedItem: null });
   }
 }
 

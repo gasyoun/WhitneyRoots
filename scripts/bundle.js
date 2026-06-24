@@ -24,6 +24,7 @@ const FILES_ORDER = [
   'renderers/lists.js',
   'renderers/quiz.js',
   'renderers/detail.js',
+  'renderers/affixes.js',
   'entry.js'
 ];
 

@@ -7,11 +7,12 @@ import { updateState } from './state.js';
 
 export async function loadAppData() {
   try {
-    const [appResp, freqResp, pidxResp, paraResp] = await Promise.all([
+    const [appResp, freqResp, pidxResp, paraResp, afxResp] = await Promise.all([
       fetch('src/app_data.json'),
       fetch('src/dcs_freq.json').catch(() => null),
       fetch('src/participle_index.json').catch(() => null),
-      fetch('src/paradigms.json').catch(() => null)
+      fetch('src/paradigms.json').catch(() => null),
+      fetch('src/affix_data.json').catch(() => null)
     ]);
     const data = await appResp.json();
     const migrated = migrateAppDataSchema(data);
@@ -44,6 +45,15 @@ export async function loadAppData() {
         mergeParadigms(migrated, para);
       } catch (e) {
         console.warn('Paradigm sidecar present but unreadable:', e);
+      }
+    }
+
+    // Optional affix-explorer dataset (sidecar; app works without it)
+    if (afxResp && afxResp.ok) {
+      try {
+        migrated.affixes = await afxResp.json();
+      } catch (e) {
+        console.warn('Affix dataset present but unreadable:', e);
       }
     }
 

@@ -9,6 +9,7 @@ import { initRouter } from './core/router.js';
 import { renderRootList, renderParticipleMatches } from './renderers/lists.js';
 import { renderQuiz } from './renderers/quiz.js';
 import { renderDetailView } from './renderers/detail.js';
+import { renderAffixes } from './renderers/affixes.js';
 import { performSearch, findParticipleMatches } from './core/search.js';
 import { trackProgress } from './core/achievements.js';
 
@@ -55,6 +56,11 @@ function renderApp(currentState) {
 
   if (currentState.view === 'quiz') {
     appContainer.appendChild(renderQuiz());
+    return;
+  }
+
+  if (currentState.view === 'affixes') {
+    appContainer.appendChild(renderAffixes(currentState.data));
     return;
   }
 
