@@ -1,6 +1,6 @@
 /**
  * WhitneyRoots v3 Bundle
- * Generated: 2026-06-24T18:13:13.555Z
+ * Generated: 2026-06-24T18:55:04.644Z
  */
 
 // --- FILE: core/state.js ---
@@ -1067,13 +1067,19 @@ function renderAffixes(data) {
         createElement('span', { class: 'affix-ex-word' }, [e.word_iast])
       ]));
       const meta = a.kind + (a.mw_count ? '  ·  MW surface-suffix headwords: ' + a.mw_count : '');
+      const metaChildren = [meta];
+      if (a.dsg_url) {
+        metaChildren.push('  ·  ');
+        metaChildren.push(createElement('a', { href: a.dsg_url, target: '_blank', rel: 'noopener' },
+          ['📖 DSG entry']));
+      }
       detail = createElement('div', { class: 'affix-detail' }, [
         createElement('div', { class: 'affix-detail-row' },
           [createElement('span', { class: 'affix-detail-label' }, ['Anubandha → surface: ']), ...steps]),
         createElement('div', { class: 'affix-detail-row' },
           [createElement('span', { class: 'affix-detail-label' }, ['Examples: ']),
            ...(exs.length ? exs : [createElement('span', { class: 'affix-ex' }, ['—'])])]),
-        createElement('div', { class: 'affix-detail-meta' }, [meta])
+        createElement('div', { class: 'affix-detail-meta' }, metaChildren)
       ]);
       detail.addEventListener('click', e => e.stopPropagation());
       card.appendChild(detail);
