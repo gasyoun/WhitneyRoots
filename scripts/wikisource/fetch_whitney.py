@@ -15,7 +15,8 @@ The work is split into ONE subpage PER CHAPTER, addressed by Roman numeral:
     Sanskrit_Grammar_(Whitney)/Chapter_I  ... /Chapter_XVIII
     plus /Preface, /Introduction, /Appendix, /Sanskrit_Index, /General_Index
 
-Each chapter page carries Whitney's numbered sections ("paragraphs") 1..1340.
+The Wikisource chapter pages currently carry Whitney's numbered sections
+("paragraphs") 1..1316 across chapters I-XVIII.
 In the rendered HTML, every section number is an explicit anchor span:
 
     <span id="781" title="Anchor:781" style="font-weight: bold;"
@@ -55,7 +56,7 @@ USAGE
     python fetch_whitney.py             # PILOT: Chapters X + XIII (proves pipeline)
     python fetch_whitney.py --pilot     # same as default
     python fetch_whitney.py --full      # ALL verb-system chapters IX..XV
-    python fetch_whitney.py --all       # every chapter I..XVIII
+    python fetch_whitney.py --all       # every Wikisource chapter I..XVIII
     python fetch_whitney.py --chapters X,XIII,XI
     python fetch_whitney.py --refresh   # ignore HTML cache, re-download
 
@@ -299,7 +300,7 @@ def main():
     g.add_argument("--full", action="store_true",
                    help="Fetch all verb-system chapters IX-XV (every concordance row).")
     g.add_argument("--all", action="store_true",
-                   help="Fetch every chapter I-XVIII (whole grammar §§1-1340).")
+                  help="Fetch every Wikisource chapter I-XVIII.")
     ap.add_argument("--chapters", default=None,
                     help="Comma-separated Roman numerals, e.g. X,XIII,XI.")
     ap.add_argument("--refresh", action="store_true",
@@ -336,7 +337,7 @@ def main():
     # Deterministic ordering by section number.
     all_sections.sort(key=lambda r: r["section_number"])
 
-    # What did we defer? (relative to the full §§1-1340 grammar)
+    # What did we defer? (relative to the current Wikisource chapter corpus)
     fetched_nums = {n for n, _ in CHAPTERS if n in chapters}
     deferred_chaps = [
         {"chapter": n, "title": t}
@@ -364,7 +365,10 @@ def main():
             "section_range": [sec_lo, sec_hi],
             "chapters_fetched": fetched_chaps,
             "chapters_deferred": deferred_chaps,
-            "note_full_grammar": "Whitney's grammar runs §§1-1340 across chapters I-XVIII.",
+            "note_full_grammar": (
+                "The current Wikisource chapter pages expose §§1-1316 across "
+                "chapters I-XVIII; section_range records the fetched span."
+            ),
         },
         "sections": all_sections,
     }
