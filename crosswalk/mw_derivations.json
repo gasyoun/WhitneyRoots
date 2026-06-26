@@ -1,0 +1,10362 @@
+{
+ "_meta": {
+  "description": "MW derivational productivity per Whitney root, joined from csl-orig mw_etymology.tsv by root surface SLP1.",
+  "source": "csl-orig/v02/mw/mw_etymology.tsv",
+  "provenance": "derivation-oracle (read-only consume; no re-extraction)",
+  "join_key": "root_slp1 surface form (homonyms sharing a surface form are pooled)",
+  "mw_etymology_rows": 9377,
+  "whitney_roots_matched": 620,
+  "matched_root_surfaces": 551,
+  "unique_mw_derivations_covered": 7654,
+  "sum_over_roots": 10993,
+  "note": "sum_over_roots > unique_mw_derivations_covered because homonymous Whitney roots sharing a surface SLP1 each receive that surface's full derivation set."
+ },
+ "by_whitney_no": {
+  "1": {
+   "root_slp1": "aMh",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "aMhana"
+   ]
+  },
+  "2": {
+   "root_slp1": "akz",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "azwa",
+    "nirakz",
+    "vyakz"
+   ]
+  },
+  "3": {
+   "root_slp1": "akz",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "azwa",
+    "nirakz",
+    "vyakz"
+   ]
+  },
+  "4": {
+   "root_slp1": "aNg",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "agra"
+   ]
+  },
+  "5": {
+   "root_slp1": "ac",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 3,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Ac",
+    "apAc",
+    "vyac"
+   ]
+  },
+  "6": {
+   "root_slp1": "aj",
+   "mw_derived_count": 16,
+   "deriv_types": {
+    "prefix+root": 10,
+    "root-attribution": 6
+   },
+   "sample_headwords": [
+    "Aj",
+    "Aji",
+    "aByAj",
+    "aByaj",
+    "apAj",
+    "avAj",
+    "niraj",
+    "prAjaka",
+    "samAja",
+    "samaj",
+    "udAj",
+    "udAja"
+   ]
+  },
+  "7": {
+   "root_slp1": "aYj",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "samakta",
+    "vyAja"
+   ]
+  },
+  "8": {
+   "root_slp1": "aw",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "root-attribution": 2,
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "AwikI",
+    "GawA",
+    "paryaw"
+   ]
+  },
+  "10": {
+   "root_slp1": "at",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "aTari",
+    "anvat",
+    "samat"
+   ]
+  },
+  "11": {
+   "root_slp1": "ad",
+   "mw_derived_count": 12,
+   "deriv_types": {
+    "root-attribution": 6,
+    "prefix+root": 6
+   },
+   "sample_headwords": [
+    "AttAm",
+    "apyad",
+    "atra",
+    "atri",
+    "attrIRi",
+    "avAd",
+    "prAd",
+    "pratyad",
+    "samad",
+    "svad",
+    "vyad"
+   ]
+  },
+  "12": {
+   "root_slp1": "an",
+   "mw_derived_count": 15,
+   "deriv_types": {
+    "compound": 8,
+    "root-attribution": 7
+   },
+   "sample_headwords": [
+    "Ana",
+    "Anu",
+    "aBivyan",
+    "aByudan",
+    "anAwa",
+    "anaha",
+    "parAR",
+    "paryan",
+    "prAR",
+    "samAna",
+    "saman",
+    "udAna"
+   ]
+  },
+  "13": {
+   "root_slp1": "am",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "root-attribution": 7,
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "Antra",
+    "aByam",
+    "aByamitrIRa",
+    "am",
+    "amaWa",
+    "amitra",
+    "antu",
+    "samam",
+    "vyemAna"
+   ]
+  },
+  "14": {
+   "root_slp1": "ay",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "palyay",
+    "vipalyay"
+   ]
+  },
+  "15": {
+   "root_slp1": "arc",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "prefix+root": 8,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "aBiprArc",
+    "aByarc",
+    "anvarc",
+    "prArc",
+    "pratyarc",
+    "samaByarc",
+    "samarc",
+    "samfc",
+    "udarc",
+    "udfc"
+   ]
+  },
+  "16": {
+   "root_slp1": "arj",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "prefix+root": 5
+   },
+   "sample_headwords": [
+    "anvarj",
+    "anvavArj",
+    "apyatyarj",
+    "samupArj",
+    "upArj"
+   ]
+  },
+  "19": {
+   "root_slp1": "av",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 6,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "SatAvat",
+    "aByav",
+    "anvav",
+    "apAvya",
+    "avizWu",
+    "prAv",
+    "samav",
+    "samprAv",
+    "upAv"
+   ]
+  },
+  "20": {
+   "root_slp1": "aS",
+   "mw_derived_count": 27,
+   "deriv_types": {
+    "prefix+root": 21,
+    "root-attribution": 6
+   },
+   "sample_headwords": [
+    "AS",
+    "Azwra",
+    "aBISu",
+    "aBiprAS",
+    "aByaS",
+    "aMSa",
+    "akz",
+    "anusamaS",
+    "anuvyaS",
+    "anvaS",
+    "atyaS",
+    "azatara"
+   ]
+  },
+  "21": {
+   "root_slp1": "aS",
+   "mw_derived_count": 27,
+   "deriv_types": {
+    "prefix+root": 21,
+    "root-attribution": 6
+   },
+   "sample_headwords": [
+    "AS",
+    "Azwra",
+    "aBISu",
+    "aBiprAS",
+    "aByaS",
+    "aMSa",
+    "akz",
+    "anusamaS",
+    "anuvyaS",
+    "anvaS",
+    "atyaS",
+    "azatara"
+   ]
+  },
+  "22": {
+   "root_slp1": "as",
+   "mw_derived_count": 71,
+   "deriv_types": {
+    "prefix+root": 57,
+    "stem+root (denominal/cmpd)": 8,
+    "root-attribution": 6
+   },
+   "sample_headwords": [
+    "As",
+    "aBiniras",
+    "aBinyas",
+    "aBiprAs",
+    "aBisamas",
+    "aBivyudas",
+    "aBizwi",
+    "aByas",
+    "aByavAs",
+    "aDinyas",
+    "aDyas",
+    "anUdas"
+   ]
+  },
+  "23": {
+   "root_slp1": "as",
+   "mw_derived_count": 71,
+   "deriv_types": {
+    "prefix+root": 57,
+    "stem+root (denominal/cmpd)": 8,
+    "root-attribution": 6
+   },
+   "sample_headwords": [
+    "As",
+    "aBiniras",
+    "aBinyas",
+    "aBiprAs",
+    "aBisamas",
+    "aBivyudas",
+    "aBizwi",
+    "aByas",
+    "aByavAs",
+    "aDinyas",
+    "aDyas",
+    "anUdas"
+   ]
+  },
+  "24": {
+   "root_slp1": "ah",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 6
+   },
+   "sample_headwords": [
+    "aDyah",
+    "anvah",
+    "nirah",
+    "prAh",
+    "pratyah",
+    "vyah"
+   ]
+  },
+  "26": {
+   "root_slp1": "Ap",
+   "mw_derived_count": 41,
+   "deriv_types": {
+    "prefix+root": 27,
+    "root-attribution": 14
+   },
+   "sample_headwords": [
+    "Ap",
+    "Apra",
+    "ApvA",
+    "aBIpatas",
+    "aBIps",
+    "aBiprAp",
+    "aBisamprAp",
+    "aBivyAp",
+    "aByAp",
+    "anuprAp",
+    "anusamAp",
+    "anusamprAp"
+   ]
+  },
+  "28": {
+   "root_slp1": "As",
+   "mw_derived_count": 18,
+   "deriv_types": {
+    "prefix+root": 11,
+    "root-attribution": 6,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "aDyAs",
+    "antarAs",
+    "anvAs",
+    "paryAs",
+    "paryupAs",
+    "prAya",
+    "pramARapadDati",
+    "pratisamAs",
+    "pratyAs",
+    "rAjya",
+    "saMDyA",
+    "samAs"
+   ]
+  },
+  "29": {
+   "root_slp1": "i",
+   "mw_derived_count": 155,
+   "deriv_types": {
+    "prefix+root": 111,
+    "root-attribution": 39,
+    "stem+root (denominal/cmpd)": 4,
+    "other": 1
+   },
+   "sample_headwords": [
+    "Ai",
+    "ApratI",
+    "Ave",
+    "Aya",
+    "Ayaka",
+    "Ayu",
+    "Iyacakzas",
+    "SatrutA",
+    "SravaRapaTAtiTi",
+    "SudDi",
+    "aBI",
+    "aBinI"
+   ]
+  },
+  "30": {
+   "root_slp1": "i",
+   "mw_derived_count": 155,
+   "deriv_types": {
+    "prefix+root": 111,
+    "root-attribution": 39,
+    "stem+root (denominal/cmpd)": 4,
+    "other": 1
+   },
+   "sample_headwords": [
+    "Ai",
+    "ApratI",
+    "Ave",
+    "Aya",
+    "Ayaka",
+    "Ayu",
+    "Iyacakzas",
+    "SatrutA",
+    "SravaRapaTAtiTi",
+    "SudDi",
+    "aBI",
+    "aBinI"
+   ]
+  },
+  "31": {
+   "root_slp1": "iNg",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "vINgita"
+   ]
+  },
+  "42": {
+   "root_slp1": "iz",
+   "mw_derived_count": 26,
+   "deriv_types": {
+    "prefix+root": 18,
+    "root-attribution": 6,
+    "stem+root (denominal/cmpd)": 1,
+    "other": 1
+   },
+   "sample_headwords": [
+    "Aiz",
+    "aBIz",
+    "aBiprez",
+    "aDIz",
+    "antariz",
+    "anuprez",
+    "anviz",
+    "eza",
+    "ezwa",
+    "icCApita",
+    "iq",
+    "izkf"
+   ]
+  },
+  "43": {
+   "root_slp1": "iz",
+   "mw_derived_count": 26,
+   "deriv_types": {
+    "prefix+root": 18,
+    "root-attribution": 6,
+    "stem+root (denominal/cmpd)": 1,
+    "other": 1
+   },
+   "sample_headwords": [
+    "Aiz",
+    "aBIz",
+    "aBiprez",
+    "aDIz",
+    "antariz",
+    "anuprez",
+    "anviz",
+    "eza",
+    "ezwa",
+    "icCApita",
+    "iq",
+    "izkf"
+   ]
+  },
+  "44": {
+   "root_slp1": "I",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "AsanIkf"
+   ]
+  },
+  "45": {
+   "root_slp1": "Ikz",
+   "mw_derived_count": 56,
+   "deriv_types": {
+    "prefix+root": 56
+   },
+   "sample_headwords": [
+    "AIkz",
+    "aBIkz",
+    "aBiprekz",
+    "aBisaMvIkz",
+    "aBisamprekz",
+    "aBivIkz",
+    "aByavekz",
+    "aByudIkz",
+    "aByupekz",
+    "aDIkz",
+    "aDyupekz",
+    "anuprekz"
+   ]
+  },
+  "49": {
+   "root_slp1": "Ir",
+   "mw_derived_count": 19,
+   "deriv_types": {
+    "prefix+root": 17,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "AIr",
+    "aBIr",
+    "aBiprer",
+    "aBisamIr",
+    "aByudIr",
+    "er",
+    "eru",
+    "nIr",
+    "nyer",
+    "pratIr",
+    "pratyudIr",
+    "prer"
+   ]
+  },
+  "51": {
+   "root_slp1": "IS",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "parIS"
+   ]
+  },
+  "52": {
+   "root_slp1": "Iz",
+   "mw_derived_count": 11,
+   "deriv_types": {
+    "prefix+root": 11
+   },
+   "sample_headwords": [
+    "AIz",
+    "apez",
+    "atIz",
+    "ez",
+    "pratyez",
+    "samIz",
+    "samudIz",
+    "udIz",
+    "upez",
+    "vIz"
+   ]
+  },
+  "53": {
+   "root_slp1": "Ih",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "prehaRa",
+    "vyatIhA"
+   ]
+  },
+  "54": {
+   "root_slp1": "u",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "o",
+    "vyu"
+   ]
+  },
+  "55": {
+   "root_slp1": "ukz",
+   "mw_derived_count": 18,
+   "deriv_types": {
+    "prefix+root": 17,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Aukz",
+    "aBivyukz",
+    "aByukz",
+    "anUkz",
+    "anuparyukz",
+    "atyukz",
+    "avokz",
+    "nirukz",
+    "okz",
+    "paryukz",
+    "pratyukz",
+    "prokz"
+   ]
+  },
+  "56": {
+   "root_slp1": "ukz",
+   "mw_derived_count": 18,
+   "deriv_types": {
+    "prefix+root": 17,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Aukz",
+    "aBivyukz",
+    "aByukz",
+    "anUkz",
+    "anuparyukz",
+    "atyukz",
+    "avokz",
+    "nirukz",
+    "okz",
+    "paryukz",
+    "pratyukz",
+    "prokz"
+   ]
+  },
+  "57": {
+   "root_slp1": "uc",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 3,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "aByuc",
+    "nyuc",
+    "samuc",
+    "ugra"
+   ]
+  },
+  "61": {
+   "root_slp1": "ud",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "compound": 4,
+    "other": 1
+   },
+   "sample_headwords": [
+    "aByud",
+    "nyud",
+    "samud",
+    "upod",
+    "vyud"
+   ]
+  },
+  "62": {
+   "root_slp1": "ubj",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "aByudga"
+   ]
+  },
+  "63": {
+   "root_slp1": "uB",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 4
+   },
+   "sample_headwords": [
+    "apoB",
+    "nyuB",
+    "proB",
+    "samuB"
+   ]
+  },
+  "64": {
+   "root_slp1": "uz",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 7,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "aByuz",
+    "nyuz",
+    "pratyuz",
+    "samupoz",
+    "samuz",
+    "uduz",
+    "upoz",
+    "vyoza",
+    "vyuzwa"
+   ]
+  },
+  "65": {
+   "root_slp1": "uz",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 7,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "aByuz",
+    "nyuz",
+    "pratyuz",
+    "samupoz",
+    "samuz",
+    "uduz",
+    "upoz",
+    "vyoza",
+    "vyuzwa"
+   ]
+  },
+  "66": {
+   "root_slp1": "UrRu",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 8,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "AUrRu",
+    "Uru",
+    "aByUrRu",
+    "aporRu",
+    "paryUrRu",
+    "pratyaporRu",
+    "prorRu",
+    "samprorRu",
+    "vyUrRu"
+   ]
+  },
+  "67": {
+   "root_slp1": "Uh",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "vyUQa"
+   ]
+  },
+  "68": {
+   "root_slp1": "Uh",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "vyUQa"
+   ]
+  },
+  "69": {
+   "root_slp1": "f",
+   "mw_derived_count": 36,
+   "deriv_types": {
+    "root-attribution": 20,
+    "prefix+root": 15,
+    "compound": 1
+   },
+   "sample_headwords": [
+    "Af",
+    "Ar",
+    "ArAt",
+    "Arpayitf",
+    "Arta",
+    "UrDva",
+    "aBisamf",
+    "aByarRa",
+    "aByf",
+    "alAyya",
+    "alarti",
+    "anvf"
+   ]
+  },
+  "72": {
+   "root_slp1": "fj",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 6
+   },
+   "sample_headwords": [
+    "aByatyfj",
+    "atyfj",
+    "avArj",
+    "nirfj",
+    "prArj",
+    "samavArj"
+   ]
+  },
+  "73": {
+   "root_slp1": "ft",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Arta"
+   ]
+  },
+  "75": {
+   "root_slp1": "fD",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 8,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "AfD",
+    "ArD",
+    "aDyfD",
+    "anvfD",
+    "prArD",
+    "samarDaka",
+    "samfD",
+    "upArD",
+    "vyfD"
+   ]
+  },
+  "76": {
+   "root_slp1": "fS",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "fkza",
+    "fkzara"
+   ]
+  },
+  "77": {
+   "root_slp1": "fz",
+   "mw_derived_count": 14,
+   "deriv_types": {
+    "prefix+root": 11,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "aByfz",
+    "fkzara",
+    "fzaBa",
+    "nyfz",
+    "paryfz",
+    "prArz",
+    "praprarz",
+    "saMkarza",
+    "samfz",
+    "udfz",
+    "upArz",
+    "vyfz"
+   ]
+  },
+  "78": {
+   "root_slp1": "ej",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "nyej",
+    "samej",
+    "udej"
+   ]
+  },
+  "79": {
+   "root_slp1": "eD",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 4
+   },
+   "sample_headwords": [
+    "aDyeD",
+    "prED",
+    "sameD",
+    "upED"
+   ]
+  },
+  "80": {
+   "root_slp1": "katT",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "vikatT"
+   ]
+  },
+  "82": {
+   "root_slp1": "kad",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "kadarTIkf"
+   ]
+  },
+  "83": {
+   "root_slp1": "kan",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "root-attribution": 3,
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "Akan",
+    "kAnana",
+    "kana",
+    "saMcakAna",
+    "saMkan"
+   ]
+  },
+  "84": {
+   "root_slp1": "kam",
+   "mw_derived_count": 7,
+   "deriv_types": {
+    "root-attribution": 4,
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "aBikam",
+    "anukam",
+    "kAma",
+    "kAnta",
+    "kantu",
+    "kumAra",
+    "nikam"
+   ]
+  },
+  "86": {
+   "root_slp1": "kal",
+   "mw_derived_count": 14,
+   "deriv_types": {
+    "prefix+root": 10,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "Akal",
+    "anusaMkal",
+    "kAla",
+    "kal",
+    "nizkal",
+    "parikal",
+    "prakal",
+    "saMkal",
+    "utkal",
+    "utkalApaya",
+    "utkala"
+   ]
+  },
+  "87": {
+   "root_slp1": "kaz",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "apakaz",
+    "nikaz",
+    "utkaz"
+   ]
+  },
+  "88": {
+   "root_slp1": "kas",
+   "mw_derived_count": 7,
+   "deriv_types": {
+    "prefix+root": 6,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "anuvikas",
+    "kAsa",
+    "nizkas",
+    "prakas",
+    "pravikas",
+    "utkas",
+    "vikas"
+   ]
+  },
+  "89": {
+   "root_slp1": "kA",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "AkAyya",
+    "kAti"
+   ]
+  },
+  "90": {
+   "root_slp1": "kANkz",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "vikANkzA"
+   ]
+  },
+  "91": {
+   "root_slp1": "kAS",
+   "mw_derived_count": 14,
+   "deriv_types": {
+    "prefix+root": 11,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "AkAS",
+    "aBicAkaS",
+    "aBikAS",
+    "aBiprakAS",
+    "anuvikAS",
+    "avakAS",
+    "nizkAS",
+    "prakAS",
+    "saMkAS",
+    "saMnikAS",
+    "utkAS",
+    "vicAkaSat"
+   ]
+  },
+  "92": {
+   "root_slp1": "kAs",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "samprakAS",
+    "utkAs"
+   ]
+  },
+  "93": {
+   "root_slp1": "ku",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "kavasa",
+    "kavaz",
+    "kurara"
+   ]
+  },
+  "94": {
+   "root_slp1": "kuc",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 1,
+    "other": 1,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "saMkoca",
+    "saMkuc",
+    "utkuc"
+   ]
+  },
+  "97": {
+   "root_slp1": "kuRW",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "vikuRWita"
+   ]
+  },
+  "99": {
+   "root_slp1": "kup",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "prefix+root": 5
+   },
+   "sample_headwords": [
+    "atikup",
+    "parikup",
+    "prakup",
+    "saMkup",
+    "vikup"
+   ]
+  },
+  "100": {
+   "root_slp1": "kuz",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 4
+   },
+   "sample_headwords": [
+    "aBikuz",
+    "anukuz",
+    "avakuz",
+    "nizkuz"
+   ]
+  },
+  "101": {
+   "root_slp1": "kU",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "AkU",
+    "AkUta",
+    "utkU"
+   ]
+  },
+  "102": {
+   "root_slp1": "kUj",
+   "mw_derived_count": 11,
+   "deriv_types": {
+    "prefix+root": 11
+   },
+   "sample_headwords": [
+    "AkUj",
+    "aBikUj",
+    "anukUj",
+    "avakUj",
+    "nikUj",
+    "prakUj",
+    "pratikUj",
+    "protkUj",
+    "upakUj",
+    "utkUj",
+    "vikUj"
+   ]
+  },
+  "103": {
+   "root_slp1": "kUq",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "nikUq"
+   ]
+  },
+  "104": {
+   "root_slp1": "kUR",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "nikUR",
+    "vikUR"
+   ]
+  },
+  "106": {
+   "root_slp1": "kf",
+   "mw_derived_count": 729,
+   "deriv_types": {
+    "stem+root (denominal/cmpd)": 404,
+    "root-attribution": 219,
+    "prefix+root": 106
+   },
+   "sample_headwords": [
+    "ADIkf",
+    "AcAryIkf",
+    "AharaRIkf",
+    "AhutIkf",
+    "AkAra",
+    "Akf",
+    "AkulIkf",
+    "AkurvatI",
+    "AlohitIkf",
+    "AmuKIkf",
+    "ArdrIkf",
+    "AtmIkf"
+   ]
+  },
+  "107": {
+   "root_slp1": "kf",
+   "mw_derived_count": 729,
+   "deriv_types": {
+    "stem+root (denominal/cmpd)": 404,
+    "root-attribution": 219,
+    "prefix+root": 106
+   },
+   "sample_headwords": [
+    "ADIkf",
+    "AcAryIkf",
+    "AharaRIkf",
+    "AhutIkf",
+    "AkAra",
+    "Akf",
+    "AkulIkf",
+    "AkurvatI",
+    "AlohitIkf",
+    "AmuKIkf",
+    "ArdrIkf",
+    "AtmIkf"
+   ]
+  },
+  "108": {
+   "root_slp1": "kf",
+   "mw_derived_count": 729,
+   "deriv_types": {
+    "stem+root (denominal/cmpd)": 404,
+    "root-attribution": 219,
+    "prefix+root": 106
+   },
+   "sample_headwords": [
+    "ADIkf",
+    "AcAryIkf",
+    "AharaRIkf",
+    "AhutIkf",
+    "AkAra",
+    "Akf",
+    "AkulIkf",
+    "AkurvatI",
+    "AlohitIkf",
+    "AmuKIkf",
+    "ArdrIkf",
+    "AtmIkf"
+   ]
+  },
+  "109": {
+   "root_slp1": "kft",
+   "mw_derived_count": 23,
+   "deriv_types": {
+    "prefix+root": 17,
+    "root-attribution": 6
+   },
+   "sample_headwords": [
+    "anukft",
+    "apakft",
+    "apikft",
+    "avakarta",
+    "avakft",
+    "izukft",
+    "kaRwa",
+    "kawa",
+    "kfnttavicakzaRA",
+    "kftti",
+    "nikft",
+    "nizkft"
+   ]
+  },
+  "110": {
+   "root_slp1": "kft",
+   "mw_derived_count": 23,
+   "deriv_types": {
+    "prefix+root": 17,
+    "root-attribution": 6
+   },
+   "sample_headwords": [
+    "anukft",
+    "apakft",
+    "apikft",
+    "avakarta",
+    "avakft",
+    "izukft",
+    "kaRwa",
+    "kawa",
+    "kfnttavicakzaRA",
+    "kftti",
+    "nikft",
+    "nizkft"
+   ]
+  },
+  "111": {
+   "root_slp1": "kfp",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "anukfp"
+   ]
+  },
+  "112": {
+   "root_slp1": "kfS",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 4,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "anukfS",
+    "avakfS",
+    "kfSAnu",
+    "kfcCra",
+    "parikfS",
+    "vikfS"
+   ]
+  },
+  "113": {
+   "root_slp1": "kfz",
+   "mw_derived_count": 34,
+   "deriv_types": {
+    "prefix+root": 29,
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "Akarza",
+    "Akazaka",
+    "Akfz",
+    "Akrazwavya",
+    "aBikfz",
+    "aByupAkfz",
+    "anukarza",
+    "anukfz",
+    "apAkfz",
+    "apakfz",
+    "apotkfz",
+    "atikfz"
+   ]
+  },
+  "114": {
+   "root_slp1": "kxp",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "root-attribution": 9
+   },
+   "sample_headwords": [
+    "anukalpa",
+    "avakalpita",
+    "prakalpaka",
+    "pralayatva",
+    "pratikalpa",
+    "saMkalpa",
+    "upakalpa",
+    "vikalpa"
+   ]
+  },
+  "118": {
+   "root_slp1": "krand",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "prefix+root": 10
+   },
+   "sample_headwords": [
+    "Akrand",
+    "aBikrand",
+    "aByavakrand",
+    "anukrand",
+    "avakrand",
+    "nikrand",
+    "parikrand",
+    "prakrand",
+    "saMkrand",
+    "samAkrand"
+   ]
+  },
+  "119": {
+   "root_slp1": "kram",
+   "mw_derived_count": 65,
+   "deriv_types": {
+    "prefix+root": 59,
+    "root-attribution": 6
+   },
+   "sample_headwords": [
+    "A",
+    "Akram",
+    "aBikram",
+    "aBinikram",
+    "aBinizkram",
+    "aBiprakram",
+    "aByapakram",
+    "aByatikram",
+    "aByutkram",
+    "aDikram",
+    "aDivikram",
+    "aDyAkram"
+   ]
+  },
+  "120": {
+   "root_slp1": "krI",
+   "mw_derived_count": 11,
+   "deriv_types": {
+    "prefix+root": 9,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "AkrI",
+    "Akraya",
+    "aBikrI",
+    "apakrI",
+    "avakrI",
+    "nizkrI",
+    "parikrI",
+    "saMkrI",
+    "upakrI",
+    "vi",
+    "vikrI"
+   ]
+  },
+  "121": {
+   "root_slp1": "krIq",
+   "mw_derived_count": 13,
+   "deriv_types": {
+    "prefix+root": 12,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "AkrIq",
+    "aDikrIq",
+    "anukrIq",
+    "avakrIq",
+    "kelAya",
+    "nikrIq",
+    "parikrIq",
+    "parisaMkrIq",
+    "prakrIq",
+    "saMkrIq",
+    "samAkrIq",
+    "upakrIq"
+   ]
+  },
+  "123": {
+   "root_slp1": "kruD",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "prefix+root": 5
+   },
+   "sample_headwords": [
+    "aBikruD",
+    "aBisaMkruD",
+    "parikruD",
+    "pratikruD",
+    "saMkruD"
+   ]
+  },
+  "124": {
+   "root_slp1": "kruS",
+   "mw_derived_count": 18,
+   "deriv_types": {
+    "prefix+root": 15,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "AkruS",
+    "BItaMkAram",
+    "aBikruS",
+    "aBisaMkruS",
+    "aByAkruS",
+    "aByutkruS",
+    "anukruS",
+    "apakruS",
+    "coraMkAram",
+    "paramakaRWa",
+    "parikruS",
+    "prakruS"
+   ]
+  },
+  "125": {
+   "root_slp1": "krUq",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "kruq"
+   ]
+  },
+  "128": {
+   "root_slp1": "klam",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "pariklam",
+    "viklam"
+   ]
+  },
+  "129": {
+   "root_slp1": "klav",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 1,
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "viklav",
+    "viklava"
+   ]
+  },
+  "130": {
+   "root_slp1": "klid",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "praklid",
+    "upaklid"
+   ]
+  },
+  "131": {
+   "root_slp1": "kliS",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "prefix+root": 5
+   },
+   "sample_headwords": [
+    "parikliS",
+    "prakliS",
+    "saMkliS",
+    "samprakliS",
+    "utkliS"
+   ]
+  },
+  "132": {
+   "root_slp1": "kvaR",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "prakvaR"
+   ]
+  },
+  "133": {
+   "root_slp1": "kvaT",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "nizkvaT",
+    "parikvaT",
+    "utkvaT"
+   ]
+  },
+  "136": {
+   "root_slp1": "kzap",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "saMkzap"
+   ]
+  },
+  "137": {
+   "root_slp1": "kzam",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "aBikzam",
+    "saMkzam"
+   ]
+  },
+  "138": {
+   "root_slp1": "kzar",
+   "mw_derived_count": 13,
+   "deriv_types": {
+    "prefix+root": 12,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "Akzar",
+    "aBikzar",
+    "aBiprakzar",
+    "aByatikzar",
+    "anukzar",
+    "atikzar",
+    "avakzar",
+    "parikzar",
+    "plakzar",
+    "prakzar",
+    "saMkzar",
+    "upakzar"
+   ]
+  },
+  "139": {
+   "root_slp1": "kzal",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "aBiprakzal",
+    "parikzal",
+    "prakzal"
+   ]
+  },
+  "141": {
+   "root_slp1": "kzi",
+   "mw_derived_count": 19,
+   "deriv_types": {
+    "prefix+root": 16,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "Akzi",
+    "aDikzi",
+    "anukzi",
+    "apakzi",
+    "avakzi",
+    "kza",
+    "niHkzi",
+    "nis",
+    "parikzi",
+    "prakzapaRa",
+    "prakzi",
+    "pratikzi"
+   ]
+  },
+  "142": {
+   "root_slp1": "kzi",
+   "mw_derived_count": 19,
+   "deriv_types": {
+    "prefix+root": 16,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "Akzi",
+    "aDikzi",
+    "anukzi",
+    "apakzi",
+    "avakzi",
+    "kza",
+    "niHkzi",
+    "nis",
+    "parikzi",
+    "prakzapaRa",
+    "prakzi",
+    "pratikzi"
+   ]
+  },
+  "143": {
+   "root_slp1": "kzip",
+   "mw_derived_count": 33,
+   "deriv_types": {
+    "prefix+root": 29,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "Akzip",
+    "aBikzip",
+    "aBisaMkzip",
+    "aBivikzip",
+    "aDikzip",
+    "apakzip",
+    "atikzip",
+    "avakzip",
+    "das",
+    "niHkzip",
+    "nikzip",
+    "parAkzip"
+   ]
+  },
+  "145": {
+   "root_slp1": "kzud",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "avakzud",
+    "prakzud",
+    "saMkzud"
+   ]
+  },
+  "146": {
+   "root_slp1": "kzuD",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "vikzuD"
+   ]
+  },
+  "148": {
+   "root_slp1": "kzuB",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 4
+   },
+   "sample_headwords": [
+    "prakzuB",
+    "saMkzuB",
+    "samprakzuB",
+    "vikzuB"
+   ]
+  },
+  "149": {
+   "root_slp1": "kzRu",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 5,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "AkzRu",
+    "avakzRu",
+    "kzura",
+    "prakzRu",
+    "saMkzRu"
+   ]
+  },
+  "152": {
+   "root_slp1": "kzvid",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "kzviRRa",
+    "nikzvid",
+    "utkzvid"
+   ]
+  },
+  "156": {
+   "root_slp1": "Kad",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "avaKAda"
+   ]
+  },
+  "157": {
+   "root_slp1": "Kan",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 9
+   },
+   "sample_headwords": [
+    "aBiKan",
+    "niKan",
+    "nizKan",
+    "pariKan",
+    "praKan",
+    "protKan",
+    "samutKan",
+    "utKan",
+    "viKan"
+   ]
+  },
+  "161": {
+   "root_slp1": "KAd",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 3,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "AKAd",
+    "KAdata",
+    "KAna",
+    "pfzWamAMsa",
+    "praKAd",
+    "saMKAd"
+   ]
+  },
+  "162": {
+   "root_slp1": "Kid",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 8,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "AKid",
+    "niKid",
+    "nizKid",
+    "pariKid",
+    "praKid",
+    "saMKid",
+    "utKid",
+    "vftraKAda",
+    "viKid"
+   ]
+  },
+  "165": {
+   "root_slp1": "KyA",
+   "mw_derived_count": 30,
+   "deriv_types": {
+    "prefix+root": 27,
+    "root-attribution": 2,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "AKyA",
+    "AKyas",
+    "AciKyAsA",
+    "aBiKyA",
+    "aBisaMKyA",
+    "aBiviKyA",
+    "aByAKyA",
+    "antaHKyA",
+    "anuKyA",
+    "anusaMKyA",
+    "anuvyAKyA",
+    "anvAKyA"
+   ]
+  },
+  "167": {
+   "root_slp1": "gad",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 7,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "aBinigad",
+    "kaqAra",
+    "nigad",
+    "parigad",
+    "praRigad",
+    "pratigad",
+    "pratinigad",
+    "vigada",
+    "vinigad"
+   ]
+  },
+  "170": {
+   "root_slp1": "gam",
+   "mw_derived_count": 121,
+   "deriv_types": {
+    "root-attribution": 63,
+    "prefix+root": 54,
+    "stem+root (denominal/cmpd)": 3,
+    "other": 1
+   },
+   "sample_headwords": [
+    "AgAntu",
+    "Agam",
+    "Ajigamizu",
+    "SaraRa",
+    "SiTilatva",
+    "SradDA",
+    "SrotramArga",
+    "SrutipaTa",
+    "UrDvam",
+    "aBigam",
+    "aBinirgam",
+    "aBisaMgam"
+   ]
+  },
+  "171": {
+   "root_slp1": "garj",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "prefix+root": 10
+   },
+   "sample_headwords": [
+    "aBigarj",
+    "anugarj",
+    "atigarj",
+    "parigarj",
+    "pragarj",
+    "pratigarj",
+    "saMgarj",
+    "samaBigarj",
+    "udgarj",
+    "vigarj"
+   ]
+  },
+  "173": {
+   "root_slp1": "garh",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "nigarh",
+    "parigarh",
+    "vigarh"
+   ]
+  },
+  "174": {
+   "root_slp1": "gal",
+   "mw_derived_count": 8,
+   "deriv_types": {
+    "prefix+root": 8
+   },
+   "sample_headwords": [
+    "avagal",
+    "nigal",
+    "paryAgal",
+    "pragal",
+    "pravigal",
+    "udgal",
+    "vigal"
+   ]
+  },
+  "175": {
+   "root_slp1": "galB",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "galB"
+   ]
+  },
+  "176": {
+   "root_slp1": "gA",
+   "mw_derived_count": 40,
+   "deriv_types": {
+    "prefix+root": 35,
+    "root-attribution": 4,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "AgA",
+    "aBigA",
+    "aByAgA",
+    "aByudgA",
+    "aDigA",
+    "antargA",
+    "anugA",
+    "anuparigA",
+    "anuparyAgA",
+    "anuvyavagA",
+    "anvAgA",
+    "anvavagA"
+   ]
+  },
+  "177": {
+   "root_slp1": "gA",
+   "mw_derived_count": 40,
+   "deriv_types": {
+    "prefix+root": 35,
+    "root-attribution": 4,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "AgA",
+    "aBigA",
+    "aByAgA",
+    "aByudgA",
+    "aDigA",
+    "antargA",
+    "anugA",
+    "anuparigA",
+    "anuparyAgA",
+    "anuvyavagA",
+    "anvAgA",
+    "anvavagA"
+   ]
+  },
+  "178": {
+   "root_slp1": "gAh",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "pragAQa"
+   ]
+  },
+  "180": {
+   "root_slp1": "gu",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "pratigu"
+   ]
+  },
+  "181": {
+   "root_slp1": "guYj",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "guYj"
+   ]
+  },
+  "183": {
+   "root_slp1": "gup",
+   "mw_derived_count": 8,
+   "deriv_types": {
+    "prefix+root": 6,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "gopaya",
+    "kupaya",
+    "nigup",
+    "nirgup",
+    "parigup",
+    "pragup",
+    "upagup",
+    "vigup"
+   ]
+  },
+  "185": {
+   "root_slp1": "gur",
+   "mw_derived_count": 7,
+   "deriv_types": {
+    "prefix+root": 7
+   },
+   "sample_headwords": [
+    "Agur",
+    "aBigur",
+    "apagur",
+    "atigur",
+    "avagur",
+    "pragur",
+    "udgur"
+   ]
+  },
+  "187": {
+   "root_slp1": "guh",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "prefix+root": 9,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "apaguh",
+    "avaguh",
+    "niguh",
+    "saMjuGukzu",
+    "samaBiguh",
+    "samavaguh",
+    "samupaguh",
+    "udguh",
+    "upaguh",
+    "viniguh"
+   ]
+  },
+  "193": {
+   "root_slp1": "gfD",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "anugfD",
+    "pratigfD"
+   ]
+  },
+  "194": {
+   "root_slp1": "gE",
+   "mw_derived_count": 24,
+   "deriv_types": {
+    "prefix+root": 15,
+    "root-attribution": 9
+   },
+   "sample_headwords": [
+    "AgE",
+    "aBigE",
+    "aBipragE",
+    "anugE",
+    "apagE",
+    "avagE",
+    "go",
+    "nigE",
+    "parigE",
+    "pragARa",
+    "pragATa",
+    "pragE"
+   ]
+  },
+  "195": {
+   "root_slp1": "graT",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "pragraT",
+    "vigraT"
+   ]
+  },
+  "196": {
+   "root_slp1": "graB",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "grah"
+   ]
+  },
+  "197": {
+   "root_slp1": "gras",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "prefix+root": 5
+   },
+   "sample_headwords": [
+    "Agras",
+    "parigras",
+    "pragras",
+    "saMgras",
+    "upagras"
+   ]
+  },
+  "201": {
+   "root_slp1": "Gaw",
+   "mw_derived_count": 8,
+   "deriv_types": {
+    "prefix+root": 7,
+    "compound": 1
+   },
+   "sample_headwords": [
+    "apaGaw",
+    "pariGaw",
+    "praGaw",
+    "praviGaw",
+    "saMGaw",
+    "samudGaw",
+    "udGaw",
+    "viGaw"
+   ]
+  },
+  "202": {
+   "root_slp1": "Gaww",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "AGAwa"
+   ]
+  },
+  "204": {
+   "root_slp1": "Gas",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "root-attribution": 2,
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "agDAd",
+    "apiGas",
+    "gDa"
+   ]
+  },
+  "205": {
+   "root_slp1": "Guw",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 1,
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "Guw",
+    "vyAGuw"
+   ]
+  },
+  "206": {
+   "root_slp1": "Guz",
+   "mw_derived_count": 13,
+   "deriv_types": {
+    "prefix+root": 12,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "AGoza",
+    "AGuz",
+    "anuGuz",
+    "avaGuz",
+    "niGuz",
+    "pariGuz",
+    "praGuz",
+    "prodGuz",
+    "udGuz",
+    "udviGuz",
+    "upaGuz",
+    "viGuz"
+   ]
+  },
+  "208": {
+   "root_slp1": "Gf",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 5,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "AGAra",
+    "AGf",
+    "aBiGf",
+    "praGf",
+    "pratyaBiGf",
+    "vyAGf"
+   ]
+  },
+  "209": {
+   "root_slp1": "Gfz",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "prefix+root": 10
+   },
+   "sample_headwords": [
+    "avaGfz",
+    "niGfz",
+    "nirGfz",
+    "pariGfz",
+    "praGfz",
+    "saMGfz",
+    "saMniGfz",
+    "sampraGfz",
+    "samudGfz",
+    "udGfz"
+   ]
+  },
+  "210": {
+   "root_slp1": "GrA",
+   "mw_derived_count": 16,
+   "deriv_types": {
+    "prefix+root": 13,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "AGrA",
+    "aBiGrA",
+    "aBijiGraRa",
+    "anuGrA",
+    "anujiGra",
+    "avaGrA",
+    "pariGrA",
+    "saMGrA",
+    "samAGrA",
+    "samupAGrA",
+    "samupaGrA",
+    "upAGrA"
+   ]
+  },
+  "211": {
+   "root_slp1": "cak",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "uccak"
+   ]
+  },
+  "212": {
+   "root_slp1": "cakAs",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "saMcakAs"
+   ]
+  },
+  "213": {
+   "root_slp1": "cakz",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "carzaRi"
+   ]
+  },
+  "216": {
+   "root_slp1": "cat",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "saMScat"
+   ]
+  },
+  "219": {
+   "root_slp1": "cam",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 3,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "AcAnta",
+    "Acam",
+    "KAdatAcamatA",
+    "anvAcam",
+    "camasa",
+    "samAcam"
+   ]
+  },
+  "220": {
+   "root_slp1": "car",
+   "mw_derived_count": 74,
+   "deriv_types": {
+    "prefix+root": 53,
+    "root-attribution": 20,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "AScarya",
+    "AcAra",
+    "AcIrRa",
+    "Acar",
+    "BEkzacaraRa",
+    "Badram",
+    "aBIcAra",
+    "aBicar",
+    "aBisaMcar",
+    "aBivicar",
+    "aByAcar",
+    "aByavacar"
+   ]
+  },
+  "223": {
+   "root_slp1": "cal",
+   "mw_derived_count": 11,
+   "deriv_types": {
+    "prefix+root": 11
+   },
+   "sample_headwords": [
+    "Acal",
+    "anuvical",
+    "nical",
+    "parical",
+    "pracal",
+    "pravical",
+    "proccal",
+    "saMcal",
+    "samuccal",
+    "uccal",
+    "vical"
+   ]
+  },
+  "224": {
+   "root_slp1": "cAy",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "apacAy",
+    "nicAy"
+   ]
+  },
+  "225": {
+   "root_slp1": "ci",
+   "mw_derived_count": 32,
+   "deriv_types": {
+    "prefix+root": 28,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "Aci",
+    "AkAya",
+    "Aniceya",
+    "aBisaMci",
+    "aByucci",
+    "aDici",
+    "anuci",
+    "apaci",
+    "apacit",
+    "avAci",
+    "avaci",
+    "niSci"
+   ]
+  },
+  "226": {
+   "root_slp1": "ci",
+   "mw_derived_count": 32,
+   "deriv_types": {
+    "prefix+root": 28,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "Aci",
+    "AkAya",
+    "Aniceya",
+    "aBisaMci",
+    "aByucci",
+    "aDici",
+    "anuci",
+    "apaci",
+    "apacit",
+    "avAci",
+    "avaci",
+    "niSci"
+   ]
+  },
+  "227": {
+   "root_slp1": "cit",
+   "mw_derived_count": 12,
+   "deriv_types": {
+    "prefix+root": 6,
+    "root-attribution": 6
+   },
+   "sample_headwords": [
+    "Acit",
+    "apacit",
+    "atipracit",
+    "ketu",
+    "pracetana",
+    "pracit",
+    "saMcit",
+    "saMketa",
+    "vicetana",
+    "vicetas",
+    "vicit",
+    "vicitta"
+   ]
+  },
+  "228": {
+   "root_slp1": "cint",
+   "mw_derived_count": 15,
+   "deriv_types": {
+    "prefix+root": 15
+   },
+   "sample_headwords": [
+    "aBicint",
+    "aBisaMcint",
+    "anucint",
+    "anusaMcint",
+    "anuvicint",
+    "paricint",
+    "pracint",
+    "praticint",
+    "pravicint",
+    "saMcint",
+    "saMvicint",
+    "samanucint"
+   ]
+  },
+  "229": {
+   "root_slp1": "cud",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 8,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "aBicud",
+    "aBipracud",
+    "nicud",
+    "paricud",
+    "pracoda",
+    "pracud",
+    "praticud",
+    "saMcud",
+    "sampracud"
+   ]
+  },
+  "231": {
+   "root_slp1": "cumb",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 3,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "aBicumb",
+    "paricumb",
+    "uccumb",
+    "vicumb"
+   ]
+  },
+  "233": {
+   "root_slp1": "culump",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "ucculump"
+   ]
+  },
+  "234": {
+   "root_slp1": "cUz",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "saMcUz"
+   ]
+  },
+  "235": {
+   "root_slp1": "cft",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "prefix+root": 10
+   },
+   "sample_headwords": [
+    "Acft",
+    "aticft",
+    "avacft",
+    "niScft",
+    "nicft",
+    "paricft",
+    "pracft",
+    "saMcft",
+    "upacft",
+    "vicft"
+   ]
+  },
+  "236": {
+   "root_slp1": "cezw",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "prefix+root": 5
+   },
+   "sample_headwords": [
+    "Acezw",
+    "aticezw",
+    "pravicezw",
+    "saMcezw",
+    "vicezw"
+   ]
+  },
+  "237": {
+   "root_slp1": "cyu",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 9
+   },
+   "sample_headwords": [
+    "Acyu",
+    "aBipracyu",
+    "apacyu",
+    "atipracyu",
+    "pracyu",
+    "saMcyu",
+    "sampracyu",
+    "uccyu",
+    "vicyu"
+   ]
+  },
+  "239": {
+   "root_slp1": "Cad",
+   "mw_derived_count": 18,
+   "deriv_types": {
+    "prefix+root": 17,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "AcCad",
+    "aBicCad",
+    "apacCad",
+    "apocCad",
+    "avacCad",
+    "paricCad",
+    "pracCad",
+    "praticCad",
+    "saMCad",
+    "samAcCad",
+    "samavacCad",
+    "samucCad"
+   ]
+  },
+  "240": {
+   "root_slp1": "Cand",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Cad"
+   ]
+  },
+  "242": {
+   "root_slp1": "Cid",
+   "mw_derived_count": 19,
+   "deriv_types": {
+    "prefix+root": 18,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "AcCid",
+    "antaSCid",
+    "anucCid",
+    "apacCid",
+    "avAcCid",
+    "avacCid",
+    "paricCid",
+    "paryavacCid",
+    "pracCid",
+    "praticCid",
+    "saMCid",
+    "samAcCid"
+   ]
+  },
+  "245": {
+   "root_slp1": "Cfd",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "vicCardikA"
+   ]
+  },
+  "249": {
+   "root_slp1": "jan",
+   "mw_derived_count": 28,
+   "deriv_types": {
+    "prefix+root": 21,
+    "root-attribution": 7
+   },
+   "sample_headwords": [
+    "AjAna",
+    "AjAneya",
+    "AjAti",
+    "Ajan",
+    "aBijan",
+    "aBiprajan",
+    "aDijan",
+    "anujan",
+    "anuprajan",
+    "praja",
+    "prajajYi",
+    "prajan"
+   ]
+  },
+  "250": {
+   "root_slp1": "jap",
+   "mw_derived_count": 8,
+   "deriv_types": {
+    "prefix+root": 7,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Ajap",
+    "aBijap",
+    "anujap",
+    "prajApa",
+    "prajap",
+    "pratijap",
+    "saMjap",
+    "upajap"
+   ]
+  },
+  "254": {
+   "root_slp1": "jalp",
+   "mw_derived_count": 8,
+   "deriv_types": {
+    "prefix+root": 8
+   },
+   "sample_headwords": [
+    "aBijalp",
+    "anujalp",
+    "parijalp",
+    "prajalp",
+    "pratijalp",
+    "saMjalp",
+    "upajalp",
+    "vyatijalp"
+   ]
+  },
+  "255": {
+   "root_slp1": "jas",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "ujjas"
+   ]
+  },
+  "256": {
+   "root_slp1": "jah",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "pravijahya"
+   ]
+  },
+  "258": {
+   "root_slp1": "ji",
+   "mw_derived_count": 28,
+   "deriv_types": {
+    "prefix+root": 20,
+    "root-attribution": 8
+   },
+   "sample_headwords": [
+    "Ajayana",
+    "Aji",
+    "Dana",
+    "aBiji",
+    "aByujji",
+    "aDiji",
+    "anUjji",
+    "anuji",
+    "apaji",
+    "atiji",
+    "avaji",
+    "jEtra"
+   ]
+  },
+  "259": {
+   "root_slp1": "ji",
+   "mw_derived_count": 28,
+   "deriv_types": {
+    "prefix+root": 20,
+    "root-attribution": 8
+   },
+   "sample_headwords": [
+    "Ajayana",
+    "Aji",
+    "Dana",
+    "aBiji",
+    "aByujji",
+    "aDiji",
+    "anUjji",
+    "anuji",
+    "apaji",
+    "atiji",
+    "avaji",
+    "jEtra"
+   ]
+  },
+  "260": {
+   "root_slp1": "jIv",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 9
+   },
+   "sample_headwords": [
+    "AjIv",
+    "aByujjIv",
+    "anujIv",
+    "atijIv",
+    "pratyujjIv",
+    "saMjIv",
+    "ujjIv",
+    "upajIv",
+    "vijIv"
+   ]
+  },
+  "261": {
+   "root_slp1": "jur",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "jUrRi"
+   ]
+  },
+  "262": {
+   "root_slp1": "juz",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 4
+   },
+   "sample_headwords": [
+    "aBijuz",
+    "anujuz",
+    "pratijuz",
+    "upajuz"
+   ]
+  },
+  "263": {
+   "root_slp1": "jU",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "root-attribution": 2,
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "AdityajUta",
+    "prajU",
+    "prajava"
+   ]
+  },
+  "265": {
+   "root_slp1": "jf",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "pratijf"
+   ]
+  },
+  "266": {
+   "root_slp1": "jf",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "pratijf"
+   ]
+  },
+  "267": {
+   "root_slp1": "jfmB",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "prefix+root": 10
+   },
+   "sample_headwords": [
+    "aBijfmB",
+    "avajfmB",
+    "parijfmB",
+    "prajfmB",
+    "pravijfmB",
+    "saMjfmB",
+    "samujjfmB",
+    "ujjfmB",
+    "vijfmB",
+    "vyAjfmB"
+   ]
+  },
+  "268": {
+   "root_slp1": "jeh",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "vijeh"
+   ]
+  },
+  "269": {
+   "root_slp1": "jYA",
+   "mw_derived_count": 36,
+   "deriv_types": {
+    "prefix+root": 30,
+    "root-attribution": 6
+   },
+   "sample_headwords": [
+    "AjYA",
+    "AjijYAsenyA",
+    "aBijYA",
+    "aBisaMjYA",
+    "aBivijYA",
+    "aByanujYA",
+    "anujYA",
+    "anuprajYA",
+    "apajYA",
+    "avajYA",
+    "nAman",
+    "niScaya"
+   ]
+  },
+  "271": {
+   "root_slp1": "jyut",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "avajyut"
+   ]
+  },
+  "272": {
+   "root_slp1": "jri",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "upajri"
+   ]
+  },
+  "273": {
+   "root_slp1": "jvar",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "prefix+root": 3,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "aBisaMjvar",
+    "anusaMjvar",
+    "jUr",
+    "jUrRa",
+    "saMjvar"
+   ]
+  },
+  "274": {
+   "root_slp1": "jval",
+   "mw_derived_count": 16,
+   "deriv_types": {
+    "prefix+root": 15,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "aBijval",
+    "aBiprajval",
+    "aBivijval",
+    "aByavajval",
+    "aByujjval",
+    "atiprajval",
+    "avajval",
+    "parijval",
+    "prajval",
+    "pratijval",
+    "projjval",
+    "saMjval"
+   ]
+  },
+  "284": {
+   "root_slp1": "qI",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "proqqI",
+    "uqqI"
+   ]
+  },
+  "287": {
+   "root_slp1": "taMs",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "taMs",
+    "vitasta"
+   ]
+  },
+  "289": {
+   "root_slp1": "takz",
+   "mw_derived_count": 8,
+   "deriv_types": {
+    "prefix+root": 8
+   },
+   "sample_headwords": [
+    "Atakz",
+    "anutakz",
+    "apatakz",
+    "nistakz",
+    "pratakz",
+    "saMtakz",
+    "uttakz",
+    "vitakz"
+   ]
+  },
+  "290": {
+   "root_slp1": "taYc",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "AtaYc"
+   ]
+  },
+  "292": {
+   "root_slp1": "taq",
+   "mw_derived_count": 7,
+   "deriv_types": {
+    "prefix+root": 7
+   },
+   "sample_headwords": [
+    "aBitaq",
+    "avataq",
+    "paritaq",
+    "prataq",
+    "pratitaq",
+    "saMtaq",
+    "vitaq"
+   ]
+  },
+  "293": {
+   "root_slp1": "tan",
+   "mw_derived_count": 35,
+   "deriv_types": {
+    "prefix+root": 27,
+    "root-attribution": 8
+   },
+   "sample_headwords": [
+    "AtA",
+    "Ata",
+    "Atan",
+    "Avitan",
+    "aBipratan",
+    "aBisaMtan",
+    "aBitan",
+    "aBivitan",
+    "aByAtan",
+    "aByavatan",
+    "anusaMtan",
+    "anutan"
+   ]
+  },
+  "294": {
+   "root_slp1": "tan",
+   "mw_derived_count": 35,
+   "deriv_types": {
+    "prefix+root": 27,
+    "root-attribution": 8
+   },
+   "sample_headwords": [
+    "AtA",
+    "Ata",
+    "Atan",
+    "Avitan",
+    "aBipratan",
+    "aBisaMtan",
+    "aBitan",
+    "aBivitan",
+    "aByAtan",
+    "aByavatan",
+    "anusaMtan",
+    "anutan"
+   ]
+  },
+  "296": {
+   "root_slp1": "tap",
+   "mw_derived_count": 26,
+   "deriv_types": {
+    "prefix+root": 24,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "AtApin",
+    "Atap",
+    "aBisaMtap",
+    "aBitap",
+    "aByAtap",
+    "anutap",
+    "atitap",
+    "avatap",
+    "nistap",
+    "nitap",
+    "nizwap",
+    "parisaMtap"
+   ]
+  },
+  "297": {
+   "root_slp1": "tam",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 6
+   },
+   "sample_headwords": [
+    "Atam",
+    "nitam",
+    "paritam",
+    "pratam",
+    "saMtam",
+    "uttam"
+   ]
+  },
+  "298": {
+   "root_slp1": "tark",
+   "mw_derived_count": 7,
+   "deriv_types": {
+    "prefix+root": 7
+   },
+   "sample_headwords": [
+    "anutark",
+    "paritark",
+    "pratark",
+    "saMtark",
+    "saMvitark",
+    "sampratark",
+    "vitark"
+   ]
+  },
+  "299": {
+   "root_slp1": "tarj",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 6
+   },
+   "sample_headwords": [
+    "Atarj",
+    "aBitarj",
+    "paritarj",
+    "pratitarj",
+    "saMtarj",
+    "samaBitarj"
+   ]
+  },
+  "302": {
+   "root_slp1": "tAy",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "saMtAy"
+   ]
+  },
+  "305": {
+   "root_slp1": "tij",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 4
+   },
+   "sample_headwords": [
+    "pratitij",
+    "saMtij",
+    "samuttij",
+    "uttij"
+   ]
+  },
+  "307": {
+   "root_slp1": "tir",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "prAYc"
+   ]
+  },
+  "308": {
+   "root_slp1": "til",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "pratil"
+   ]
+  },
+  "309": {
+   "root_slp1": "tu",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 1,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "saMtavItvat",
+    "uttu"
+   ]
+  },
+  "310": {
+   "root_slp1": "tuc",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "toka"
+   ]
+  },
+  "312": {
+   "root_slp1": "tud",
+   "mw_derived_count": 12,
+   "deriv_types": {
+    "prefix+root": 10,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "Atodin",
+    "Atud",
+    "abrahmacarya",
+    "anunitud",
+    "nistud",
+    "nitud",
+    "paritud",
+    "pratud",
+    "saMtud",
+    "tund",
+    "uttud",
+    "vitud"
+   ]
+  },
+  "315": {
+   "root_slp1": "tul",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "samakakzA"
+   ]
+  },
+  "317": {
+   "root_slp1": "tuz",
+   "mw_derived_count": 7,
+   "deriv_types": {
+    "prefix+root": 7
+   },
+   "sample_headwords": [
+    "aBituz",
+    "parituz",
+    "pratuz",
+    "saMtuz",
+    "samparituz",
+    "sampratuz",
+    "upatuz"
+   ]
+  },
+  "320": {
+   "root_slp1": "tfd",
+   "mw_derived_count": 15,
+   "deriv_types": {
+    "prefix+root": 12,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "Atarda",
+    "Atfd",
+    "aBitfd",
+    "anutfd",
+    "atitfd",
+    "avatfd",
+    "nitfd",
+    "paritfd",
+    "pratardana",
+    "pratfd",
+    "saMtfd",
+    "upatfd"
+   ]
+  },
+  "321": {
+   "root_slp1": "tfp",
+   "mw_derived_count": 12,
+   "deriv_types": {
+    "prefix+root": 10,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "AtarpaRa",
+    "Atfp",
+    "aBitfp",
+    "anutfp",
+    "apatfp",
+    "atitfp",
+    "nitfp",
+    "paritfp",
+    "pratfp",
+    "saMtarpaka",
+    "saMtfp",
+    "vitfp"
+   ]
+  },
+  "322": {
+   "root_slp1": "tfz",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 1,
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "vitfz",
+    "vitfzRA"
+   ]
+  },
+  "324": {
+   "root_slp1": "tyaj",
+   "mw_derived_count": 11,
+   "deriv_types": {
+    "prefix+root": 8,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "aBisaMtyaj",
+    "aBityaj",
+    "nidrA",
+    "nistyaj",
+    "parityaj",
+    "prARa",
+    "saMtyaj",
+    "samaBityaj",
+    "samparityaj",
+    "tanu",
+    "uttyaj"
+   ]
+  },
+  "325": {
+   "root_slp1": "trap",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "apatrap",
+    "trApya",
+    "vyapatrap",
+    "vyapatrapA"
+   ]
+  },
+  "326": {
+   "root_slp1": "tras",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "prefix+root": 9,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "apatras",
+    "nistras",
+    "parAtras",
+    "pratras",
+    "saMtras",
+    "samuttras",
+    "trAsa",
+    "uttras",
+    "vitras",
+    "vyuttras"
+   ]
+  },
+  "328": {
+   "root_slp1": "truw",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 1,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "trowaka",
+    "uttruw"
+   ]
+  },
+  "332": {
+   "root_slp1": "tvar",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "prefix+root": 4,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "aBitvar",
+    "atitvar",
+    "pratUrRa",
+    "pratvar",
+    "saMtvar"
+   ]
+  },
+  "333": {
+   "root_slp1": "tviz",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "avatviz"
+   ]
+  },
+  "334": {
+   "root_slp1": "tsar",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "aBitsar",
+    "avatsar",
+    "upatsar"
+   ]
+  },
+  "335": {
+   "root_slp1": "daMS",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 5,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "AdaMS",
+    "aSru",
+    "nirdaMS",
+    "saMdaMS",
+    "upadaMS",
+    "vidaMS"
+   ]
+  },
+  "336": {
+   "root_slp1": "daMs",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "dampati",
+    "dan"
+   ]
+  },
+  "338": {
+   "root_slp1": "daG",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "AdaG",
+    "atidaG"
+   ]
+  },
+  "342": {
+   "root_slp1": "daB",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "AdaB"
+   ]
+  },
+  "343": {
+   "root_slp1": "dam",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 3,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Adam",
+    "pradAnta",
+    "pradam",
+    "uddam"
+   ]
+  },
+  "344": {
+   "root_slp1": "day",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "avaday",
+    "niravaday",
+    "viday"
+   ]
+  },
+  "346": {
+   "root_slp1": "dal",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 3,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "avadal",
+    "uddal",
+    "vidal",
+    "vidala"
+   ]
+  },
+  "347": {
+   "root_slp1": "das",
+   "mw_derived_count": 8,
+   "deriv_types": {
+    "prefix+root": 6,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "anUpadas",
+    "apadas",
+    "pradas",
+    "saMdadasvas",
+    "saMdas",
+    "upadAsuka",
+    "upadas",
+    "vidas"
+   ]
+  },
+  "348": {
+   "root_slp1": "dah",
+   "mw_derived_count": 26,
+   "deriv_types": {
+    "prefix+root": 21,
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "Adah",
+    "aBidah",
+    "anudah",
+    "anunirdah",
+    "anusaMdah",
+    "apadah",
+    "apidah",
+    "atidah",
+    "avadAna",
+    "avadah",
+    "dAha",
+    "nidah"
+   ]
+  },
+  "349": {
+   "root_slp1": "dA",
+   "mw_derived_count": 66,
+   "deriv_types": {
+    "prefix+root": 40,
+    "root-attribution": 26
+   },
+   "sample_headwords": [
+    "AdA",
+    "Cidra",
+    "aBidA",
+    "aBivyAdA",
+    "aByAdA",
+    "aByavadA",
+    "aByupAdA",
+    "aditsat",
+    "anudA",
+    "anupradA",
+    "anvAdA",
+    "apAdA"
+   ]
+  },
+  "350": {
+   "root_slp1": "dA",
+   "mw_derived_count": 66,
+   "deriv_types": {
+    "prefix+root": 40,
+    "root-attribution": 26
+   },
+   "sample_headwords": [
+    "AdA",
+    "Cidra",
+    "aBidA",
+    "aBivyAdA",
+    "aByAdA",
+    "aByavadA",
+    "aByupAdA",
+    "aditsat",
+    "anudA",
+    "anupradA",
+    "anvAdA",
+    "apAdA"
+   ]
+  },
+  "351": {
+   "root_slp1": "dA",
+   "mw_derived_count": 66,
+   "deriv_types": {
+    "prefix+root": 40,
+    "root-attribution": 26
+   },
+   "sample_headwords": [
+    "AdA",
+    "Cidra",
+    "aBidA",
+    "aBivyAdA",
+    "aByAdA",
+    "aByavadA",
+    "aByupAdA",
+    "aditsat",
+    "anudA",
+    "anupradA",
+    "anvAdA",
+    "apAdA"
+   ]
+  },
+  "352": {
+   "root_slp1": "dA",
+   "mw_derived_count": 66,
+   "deriv_types": {
+    "prefix+root": 40,
+    "root-attribution": 26
+   },
+   "sample_headwords": [
+    "AdA",
+    "Cidra",
+    "aBidA",
+    "aBivyAdA",
+    "aByAdA",
+    "aByavadA",
+    "aByupAdA",
+    "aditsat",
+    "anudA",
+    "anupradA",
+    "anvAdA",
+    "apAdA"
+   ]
+  },
+  "353": {
+   "root_slp1": "dAS",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "atidAS",
+    "dASvas",
+    "vidAS"
+   ]
+  },
+  "354": {
+   "root_slp1": "dAs",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "aBidAs"
+   ]
+  },
+  "355": {
+   "root_slp1": "div",
+   "mw_derived_count": 7,
+   "deriv_types": {
+    "prefix+root": 4,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "atidiv",
+    "dyU",
+    "glaha",
+    "paridiv",
+    "pratidiv",
+    "sudeva",
+    "vidiv"
+   ]
+  },
+  "356": {
+   "root_slp1": "diS",
+   "mw_derived_count": 42,
+   "deriv_types": {
+    "prefix+root": 37,
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "AdiS",
+    "aBidiS",
+    "aBinirdiS",
+    "aBipradiS",
+    "aByAdiS",
+    "aByuddiS",
+    "aDidiS",
+    "anudiS",
+    "anusaMdiS",
+    "anvAdiS",
+    "apadiS",
+    "atidiS"
+   ]
+  },
+  "357": {
+   "root_slp1": "dih",
+   "mw_derived_count": 14,
+   "deriv_types": {
+    "prefix+root": 8,
+    "root-attribution": 6
+   },
+   "sample_headwords": [
+    "AdigDa",
+    "Adih",
+    "aBidih",
+    "avadih",
+    "paridih",
+    "pradigDa",
+    "pradih",
+    "saMdeha",
+    "saMdehayAna",
+    "saMdih",
+    "uddih",
+    "upadeha"
+   ]
+  },
+  "358": {
+   "root_slp1": "dI",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 7,
+    "stem+root (denominal/cmpd)": 1,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "AdI",
+    "aBidI",
+    "dIna",
+    "karadIkf",
+    "nidI",
+    "nirdI",
+    "pradI",
+    "saMdI",
+    "upadI"
+   ]
+  },
+  "359": {
+   "root_slp1": "dI",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 7,
+    "stem+root (denominal/cmpd)": 1,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "AdI",
+    "aBidI",
+    "dIna",
+    "karadIkf",
+    "nidI",
+    "nirdI",
+    "pradI",
+    "saMdI",
+    "upadI"
+   ]
+  },
+  "360": {
+   "root_slp1": "dIkz",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "aBidIkz",
+    "upadIkz"
+   ]
+  },
+  "362": {
+   "root_slp1": "dIp",
+   "mw_derived_count": 14,
+   "deriv_types": {
+    "prefix+root": 14
+   },
+   "sample_headwords": [
+    "AdIp",
+    "aBidIp",
+    "avadIp",
+    "paridIp",
+    "pradIp",
+    "pratyuddIp",
+    "saMdIp",
+    "sampradIp",
+    "samuddIp",
+    "uddIp",
+    "upAdIp",
+    "upadIp"
+   ]
+  },
+  "365": {
+   "root_slp1": "du",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "prefix+root": 5,
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "Adu",
+    "aBidu",
+    "dAva",
+    "dU",
+    "dUra",
+    "dUta",
+    "duvanyasad",
+    "paridu",
+    "pradu",
+    "vidu"
+   ]
+  },
+  "368": {
+   "root_slp1": "duz",
+   "mw_derived_count": 8,
+   "deriv_types": {
+    "prefix+root": 8
+   },
+   "sample_headwords": [
+    "aBiduz",
+    "anuduz",
+    "praduz",
+    "saMduz",
+    "sampraduz",
+    "udduz",
+    "upaduz",
+    "viduz"
+   ]
+  },
+  "369": {
+   "root_slp1": "duh",
+   "mw_derived_count": 11,
+   "deriv_types": {
+    "prefix+root": 9,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "Aduh",
+    "aBiduh",
+    "avadoha",
+    "avaduh",
+    "dogDavya",
+    "nirduh",
+    "pratiduh",
+    "praviduh",
+    "saMduh",
+    "viduh",
+    "vipraduh"
+   ]
+  },
+  "371": {
+   "root_slp1": "df",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "root-attribution": 6,
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "AdAra",
+    "Adara",
+    "Adf",
+    "Aduri",
+    "atyAdf",
+    "df",
+    "nirdara",
+    "nirdawa",
+    "pratyAdf"
+   ]
+  },
+  "372": {
+   "root_slp1": "df",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "root-attribution": 6,
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "AdAra",
+    "Adara",
+    "Adf",
+    "Aduri",
+    "atyAdf",
+    "df",
+    "nirdara",
+    "nirdawa",
+    "pratyAdf"
+   ]
+  },
+  "373": {
+   "root_slp1": "dfp",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "atidfp"
+   ]
+  },
+  "374": {
+   "root_slp1": "dfB",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "anudfB",
+    "pidfB"
+   ]
+  },
+  "375": {
+   "root_slp1": "dfS",
+   "mw_derived_count": 33,
+   "deriv_types": {
+    "prefix+root": 21,
+    "root-attribution": 12
+   },
+   "sample_headwords": [
+    "AdarSa",
+    "AdfS",
+    "aBidarSana",
+    "aBidfS",
+    "aBipradfS",
+    "aBividfS",
+    "anudfS",
+    "anusaMdfS",
+    "avadfS",
+    "drazwavya",
+    "nidarSaka",
+    "nidfS"
+   ]
+  },
+  "376": {
+   "root_slp1": "dfh",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "drahya"
+   ]
+  },
+  "379": {
+   "root_slp1": "dyut",
+   "mw_derived_count": 14,
+   "deriv_types": {
+    "prefix+root": 9,
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "Adyota",
+    "Adyut",
+    "aBividyut",
+    "avadyut",
+    "jut",
+    "nirdyut",
+    "pradyut",
+    "saMvidyut",
+    "samuddyut",
+    "uddyut",
+    "vidyotamAna",
+    "vidyut"
+   ]
+  },
+  "381": {
+   "root_slp1": "drA",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 5,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "aBidrA",
+    "aBipradrA",
+    "apadrA",
+    "drAk",
+    "nidrA",
+    "nidrAdaridrIkf"
+   ]
+  },
+  "382": {
+   "root_slp1": "drA",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 5,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "aBidrA",
+    "aBipradrA",
+    "apadrA",
+    "drAk",
+    "nidrA",
+    "nidrAdaridrIkf"
+   ]
+  },
+  "384": {
+   "root_slp1": "dru",
+   "mw_derived_count": 43,
+   "deriv_types": {
+    "prefix+root": 36,
+    "root-attribution": 5,
+    "stem+root (denominal/cmpd)": 2
+   },
+   "sample_headwords": [
+    "Adru",
+    "aBidru",
+    "aBipradru",
+    "aByAdru",
+    "aByuddru",
+    "aDidru",
+    "acCAdru",
+    "anUddru",
+    "anudru",
+    "apadru",
+    "atidru",
+    "drAva"
+   ]
+  },
+  "385": {
+   "root_slp1": "druh",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "aBidruh",
+    "druhaRa",
+    "vidruh"
+   ]
+  },
+  "388": {
+   "root_slp1": "dviz",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "anudviz",
+    "pradviz",
+    "vidviz"
+   ]
+  },
+  "389": {
+   "root_slp1": "Dan",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Danu"
+   ]
+  },
+  "391": {
+   "root_slp1": "Dam",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "aBiDmAta",
+    "nirDam",
+    "nirDmApana"
+   ]
+  },
+  "393": {
+   "root_slp1": "DA",
+   "mw_derived_count": 135,
+   "deriv_types": {
+    "prefix+root": 80,
+    "root-attribution": 46,
+    "stem+root (denominal/cmpd)": 9
+   },
+   "sample_headwords": [
+    "ADA",
+    "ADI",
+    "ADamana",
+    "ADi",
+    "ADimlAna",
+    "Ahita",
+    "Di",
+    "SradDA",
+    "SradDApana",
+    "aBiDA",
+    "aBiSradDA",
+    "aBidaDat"
+   ]
+  },
+  "394": {
+   "root_slp1": "DA",
+   "mw_derived_count": 135,
+   "deriv_types": {
+    "prefix+root": 80,
+    "root-attribution": 46,
+    "stem+root (denominal/cmpd)": 9
+   },
+   "sample_headwords": [
+    "ADA",
+    "ADI",
+    "ADamana",
+    "ADi",
+    "ADimlAna",
+    "Ahita",
+    "Di",
+    "SradDA",
+    "SradDApana",
+    "aBiDA",
+    "aBiSradDA",
+    "aBidaDat"
+   ]
+  },
+  "395": {
+   "root_slp1": "DAv",
+   "mw_derived_count": 40,
+   "deriv_types": {
+    "prefix+root": 37,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "ADAv",
+    "Davala",
+    "aBiDAv",
+    "aBiviDAv",
+    "aDipraDAv",
+    "anuDAv",
+    "anupraDAv",
+    "anuviDAv",
+    "anvADAv",
+    "apaDAv",
+    "apiDAv",
+    "atiDAv"
+   ]
+  },
+  "396": {
+   "root_slp1": "DAv",
+   "mw_derived_count": 40,
+   "deriv_types": {
+    "prefix+root": 37,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "ADAv",
+    "Davala",
+    "aBiDAv",
+    "aBiviDAv",
+    "aDipraDAv",
+    "anuDAv",
+    "anupraDAv",
+    "anuviDAv",
+    "anvADAv",
+    "apaDAv",
+    "apiDAv",
+    "atiDAv"
+   ]
+  },
+  "397": {
+   "root_slp1": "Di",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "aBiDi"
+   ]
+  },
+  "398": {
+   "root_slp1": "DI",
+   "mw_derived_count": 13,
+   "deriv_types": {
+    "prefix+root": 10,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "ADI",
+    "ADIta",
+    "AdIDi",
+    "aBiDI",
+    "anuDI",
+    "anvADI",
+    "avaDI",
+    "pariDIkf",
+    "praDI",
+    "pratiDI",
+    "udDI",
+    "viDI"
+   ]
+  },
+  "399": {
+   "root_slp1": "Dukz",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "saMDukz"
+   ]
+  },
+  "400": {
+   "root_slp1": "DU",
+   "mw_derived_count": 16,
+   "deriv_types": {
+    "prefix+root": 14,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "Dava",
+    "aBiDU",
+    "apaDU",
+    "avaDU",
+    "niDU",
+    "nirDU",
+    "pariDU",
+    "praDU",
+    "saMDU",
+    "samudDU",
+    "udDU",
+    "viDU"
+   ]
+  },
+  "402": {
+   "root_slp1": "Df",
+   "mw_derived_count": 35,
+   "deriv_types": {
+    "prefix+root": 19,
+    "root-attribution": 16
+   },
+   "sample_headwords": [
+    "ADAra",
+    "ADara",
+    "ADf",
+    "DAraRA",
+    "Dawa",
+    "Druva",
+    "Dur",
+    "aBiDf",
+    "aDiDf",
+    "anUpaDf",
+    "avaDf",
+    "kaMDara"
+   ]
+  },
+  "403": {
+   "root_slp1": "Dfz",
+   "mw_derived_count": 13,
+   "deriv_types": {
+    "prefix+root": 9,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "ADarza",
+    "ADfz",
+    "DarmaDfk",
+    "aBiDfz",
+    "apaDfz",
+    "pariDfz",
+    "praDarza",
+    "praDfz",
+    "pratiDfz",
+    "saMDarzita",
+    "sampraDfz",
+    "upaDfz"
+   ]
+  },
+  "404": {
+   "root_slp1": "DmA",
+   "mw_derived_count": 12,
+   "deriv_types": {
+    "prefix+root": 9,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "ADmA",
+    "parADmA",
+    "praDamana",
+    "praDmA",
+    "saMDmA",
+    "samADmA",
+    "udDama",
+    "udDmA",
+    "upADmA",
+    "upaDamana",
+    "upaDmA",
+    "viDmA"
+   ]
+  },
+  "406": {
+   "root_slp1": "Draj",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "praDraj"
+   ]
+  },
+  "407": {
+   "root_slp1": "DvaMs",
+   "mw_derived_count": 13,
+   "deriv_types": {
+    "prefix+root": 11,
+    "root-attribution": 1,
+    "other": 1
+   },
+   "sample_headwords": [
+    "ADvaMs",
+    "ADvasta",
+    "aBiDvaMs",
+    "anuDvaMs",
+    "apaDvaMs",
+    "atiDvaMs",
+    "avaDvaMs",
+    "niDvaMs",
+    "praDvaMs",
+    "udDvaMs",
+    "upaDvaMs",
+    "viDvaMs"
+   ]
+  },
+  "408": {
+   "root_slp1": "Dvan",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "aBiDvan",
+    "praDvan"
+   ]
+  },
+  "411": {
+   "root_slp1": "nakz",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "nakzatra"
+   ]
+  },
+  "412": {
+   "root_slp1": "naw",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 1,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "naw",
+    "unnaw"
+   ]
+  },
+  "414": {
+   "root_slp1": "nand",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "prefix+root": 10
+   },
+   "sample_headwords": [
+    "Anand",
+    "aBinand",
+    "anunand",
+    "parinand",
+    "pratinand",
+    "pratyaBinand",
+    "samAnand",
+    "samaBinand",
+    "sampratinand",
+    "vinand"
+   ]
+  },
+  "415": {
+   "root_slp1": "naB",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "nABi",
+    "naBa"
+   ]
+  },
+  "416": {
+   "root_slp1": "nam",
+   "mw_derived_count": 30,
+   "deriv_types": {
+    "prefix+root": 24,
+    "root-attribution": 6
+   },
+   "sample_headwords": [
+    "Anam",
+    "Anamam",
+    "Anata",
+    "aBinam",
+    "aBipraRam",
+    "aBisaMnam",
+    "aByavanam",
+    "aDinam",
+    "anunam",
+    "apanam",
+    "atinam",
+    "avanam"
+   ]
+  },
+  "417": {
+   "root_slp1": "nard",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 9
+   },
+   "sample_headwords": [
+    "Anard",
+    "aBinard",
+    "anuvinard",
+    "avanard",
+    "ninard",
+    "pranard",
+    "pratinard",
+    "saMnard",
+    "vinard"
+   ]
+  },
+  "418": {
+   "root_slp1": "naS",
+   "mw_derived_count": 20,
+   "deriv_types": {
+    "prefix+root": 17,
+    "root-attribution": 2,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "aBinaS",
+    "acCAnaS",
+    "anuvinaS",
+    "apanaS",
+    "atipraRaS",
+    "avanaS",
+    "dURASa",
+    "nirnaS",
+    "pariRaS",
+    "praRaS",
+    "pravinaS",
+    "saMnaS"
+   ]
+  },
+  "419": {
+   "root_slp1": "naS",
+   "mw_derived_count": 20,
+   "deriv_types": {
+    "prefix+root": 17,
+    "root-attribution": 2,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "aBinaS",
+    "acCAnaS",
+    "anuvinaS",
+    "apanaS",
+    "atipraRaS",
+    "avanaS",
+    "dURASa",
+    "nirnaS",
+    "pariRaS",
+    "praRaS",
+    "pravinaS",
+    "saMnaS"
+   ]
+  },
+  "420": {
+   "root_slp1": "nas",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "nAsatya"
+   ]
+  },
+  "421": {
+   "root_slp1": "nah",
+   "mw_derived_count": 17,
+   "deriv_types": {
+    "prefix+root": 13,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "AnadDa",
+    "Anah",
+    "aBisaMnah",
+    "apanah",
+    "apinah",
+    "avanah",
+    "pariRah",
+    "paryARah",
+    "pratyAnah",
+    "saMnadDa",
+    "saMnah",
+    "samunnah"
+   ]
+  },
+  "422": {
+   "root_slp1": "nAT",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "upanAT"
+   ]
+  },
+  "424": {
+   "root_slp1": "nikz",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "anunikz",
+    "praRikz",
+    "vinikz"
+   ]
+  },
+  "427": {
+   "root_slp1": "nI",
+   "mw_derived_count": 19,
+   "deriv_types": {
+    "root-attribution": 19
+   },
+   "sample_headwords": [
+    "Anaya",
+    "AnetavE",
+    "Atmasama",
+    "BasmasAt",
+    "aBinaya",
+    "anunaya",
+    "asta",
+    "loka",
+    "nezwf",
+    "paYcatA",
+    "pretavaSa",
+    "sADAraRatA"
+   ]
+  },
+  "429": {
+   "root_slp1": "nu",
+   "mw_derived_count": 19,
+   "deriv_types": {
+    "prefix+root": 15,
+    "root-attribution": 3,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "Anu",
+    "aBinu",
+    "aBipraRu",
+    "aBisaMnu",
+    "acCAnu",
+    "anunu",
+    "anvAnu",
+    "apanu",
+    "atinu",
+    "avanu",
+    "nO",
+    "noDas"
+   ]
+  },
+  "430": {
+   "root_slp1": "nu",
+   "mw_derived_count": 19,
+   "deriv_types": {
+    "prefix+root": 15,
+    "root-attribution": 3,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "Anu",
+    "aBinu",
+    "aBipraRu",
+    "aBisaMnu",
+    "acCAnu",
+    "anunu",
+    "anvAnu",
+    "apanu",
+    "atinu",
+    "avanu",
+    "nO",
+    "noDas"
+   ]
+  },
+  "431": {
+   "root_slp1": "nud",
+   "mw_derived_count": 22,
+   "deriv_types": {
+    "prefix+root": 22
+   },
+   "sample_headwords": [
+    "aBinirRud",
+    "aBinud",
+    "aBivinud",
+    "anupraRud",
+    "apAnud",
+    "apanud",
+    "atinud",
+    "atipraRud",
+    "nirRud",
+    "parARud",
+    "pariRud",
+    "paryavanud"
+   ]
+  },
+  "432": {
+   "root_slp1": "nf",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "stem+root (denominal/cmpd)": 2
+   },
+   "sample_headwords": [
+    "nfpakriyAMkf",
+    "nfpatvaMkf"
+   ]
+  },
+  "433": {
+   "root_slp1": "nft",
+   "mw_derived_count": 14,
+   "deriv_types": {
+    "prefix+root": 12,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "Anarta",
+    "Anft",
+    "aBinft",
+    "aByAnft",
+    "aDinft",
+    "anunft",
+    "nft",
+    "ninft",
+    "parinft",
+    "pranft",
+    "pratinft",
+    "saMnft"
+   ]
+  },
+  "435": {
+   "root_slp1": "pac",
+   "mw_derived_count": 16,
+   "deriv_types": {
+    "prefix+root": 10,
+    "root-attribution": 6
+   },
+   "sample_headwords": [
+    "aBipac",
+    "aBiprapac",
+    "aBisampac",
+    "anupac",
+    "pApacaka",
+    "paNka",
+    "paYcan",
+    "paripac",
+    "pipakz",
+    "prapac",
+    "sampAka",
+    "sampac"
+   ]
+  },
+  "436": {
+   "root_slp1": "paj",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "paNgu"
+   ]
+  },
+  "437": {
+   "root_slp1": "paw",
+   "mw_derived_count": 8,
+   "deriv_types": {
+    "prefix+root": 7,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Apaw",
+    "avapaw",
+    "samutpaw",
+    "utpaw",
+    "vinipaw",
+    "vinizpaw",
+    "vipAWa",
+    "vipaw"
+   ]
+  },
+  "438": {
+   "root_slp1": "paW",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "prefix+root": 7,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "anupaW",
+    "atipaW",
+    "pApaWaka",
+    "paripaW",
+    "pipaWiz",
+    "prapAWaka",
+    "prapaW",
+    "sampaW",
+    "vipaW",
+    "vyatipaW"
+   ]
+  },
+  "439": {
+   "root_slp1": "paR",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "root-attribution": 2,
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "pARi",
+    "vipaR",
+    "vipaRa"
+   ]
+  },
+  "440": {
+   "root_slp1": "pat",
+   "mw_derived_count": 47,
+   "deriv_types": {
+    "prefix+root": 37,
+    "root-attribution": 9,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "Apat",
+    "aBinipat",
+    "aBinizpat",
+    "aBipat",
+    "aBisampat",
+    "aByApat",
+    "aByavapat",
+    "aByutpat",
+    "acCApat",
+    "anUtpat",
+    "anuparApat",
+    "anupat"
+   ]
+  },
+  "441": {
+   "root_slp1": "pat",
+   "mw_derived_count": 47,
+   "deriv_types": {
+    "prefix+root": 37,
+    "root-attribution": 9,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "Apat",
+    "aBinipat",
+    "aBinizpat",
+    "aBipat",
+    "aBisampat",
+    "aByApat",
+    "aByavapat",
+    "aByutpat",
+    "acCApat",
+    "anUtpat",
+    "anuparApat",
+    "anupat"
+   ]
+  },
+  "443": {
+   "root_slp1": "pad",
+   "mw_derived_count": 51,
+   "deriv_types": {
+    "prefix+root": 42,
+    "root-attribution": 9
+   },
+   "sample_headwords": [
+    "ApAda",
+    "Apad",
+    "ApatkAla",
+    "Apattos",
+    "aBinizpad",
+    "aBipad",
+    "aBiprapad",
+    "aBipratipad",
+    "aBisamApad",
+    "aBisampad",
+    "aBisamprapad",
+    "aByApad"
+   ]
+  },
+  "444": {
+   "root_slp1": "pan",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "Apan",
+    "vipan"
+   ]
+  },
+  "446": {
+   "root_slp1": "paS",
+   "mw_derived_count": 20,
+   "deriv_types": {
+    "prefix+root": 17,
+    "root-attribution": 2,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "ApaS",
+    "aBipaS",
+    "aBiprapaS",
+    "aBivipaS",
+    "antaHpaS",
+    "anupaS",
+    "anuspazwa",
+    "anuvipaS",
+    "atipaS",
+    "avapaS",
+    "pASa",
+    "parApaS"
+   ]
+  },
+  "447": {
+   "root_slp1": "paS",
+   "mw_derived_count": 20,
+   "deriv_types": {
+    "prefix+root": 17,
+    "root-attribution": 2,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "ApaS",
+    "aBipaS",
+    "aBiprapaS",
+    "aBivipaS",
+    "antaHpaS",
+    "anupaS",
+    "anuspazwa",
+    "anuvipaS",
+    "atipaS",
+    "avapaS",
+    "pASa",
+    "parApaS"
+   ]
+  },
+  "448": {
+   "root_slp1": "pA",
+   "mw_derived_count": 32,
+   "deriv_types": {
+    "prefix+root": 25,
+    "root-attribution": 7
+   },
+   "sample_headwords": [
+    "ApA",
+    "ApIta",
+    "aBipA",
+    "anUtpA",
+    "anupA",
+    "anuprapA",
+    "anvavapA",
+    "atipA",
+    "koSa",
+    "nipA",
+    "nizpA",
+    "paripA"
+   ]
+  },
+  "449": {
+   "root_slp1": "pA",
+   "mw_derived_count": 32,
+   "deriv_types": {
+    "prefix+root": 25,
+    "root-attribution": 7
+   },
+   "sample_headwords": [
+    "ApA",
+    "ApIta",
+    "aBipA",
+    "anUtpA",
+    "anupA",
+    "anuprapA",
+    "anvavapA",
+    "atipA",
+    "koSa",
+    "nipA",
+    "nizpA",
+    "paripA"
+   ]
+  },
+  "450": {
+   "root_slp1": "pA",
+   "mw_derived_count": 32,
+   "deriv_types": {
+    "prefix+root": 25,
+    "root-attribution": 7
+   },
+   "sample_headwords": [
+    "ApA",
+    "ApIta",
+    "aBipA",
+    "anUtpA",
+    "anupA",
+    "anuprapA",
+    "anvavapA",
+    "atipA",
+    "koSa",
+    "nipA",
+    "nizpA",
+    "paripA"
+   ]
+  },
+  "452": {
+   "root_slp1": "pi",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "other": 2,
+    "root-attribution": 2,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "pIta",
+    "piDA",
+    "pinI",
+    "pinah",
+    "pipizvat"
+   ]
+  },
+  "455": {
+   "root_slp1": "piS",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "prefix+root": 5
+   },
+   "sample_headwords": [
+    "ApiS",
+    "aBipiS",
+    "anupiS",
+    "nizpiS",
+    "vipiS"
+   ]
+  },
+  "456": {
+   "root_slp1": "piz",
+   "mw_derived_count": 13,
+   "deriv_types": {
+    "prefix+root": 11,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "Apezam",
+    "Apiz",
+    "aBipratipiz",
+    "anupiz",
+    "avapiz",
+    "nizpiz",
+    "paripiz",
+    "prapiz",
+    "pratipiz",
+    "sampeza",
+    "sampiz",
+    "utpiz"
+   ]
+  },
+  "458": {
+   "root_slp1": "pI",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "ApI",
+    "prapI"
+   ]
+  },
+  "459": {
+   "root_slp1": "pI",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "ApI",
+    "prapI"
+   ]
+  },
+  "460": {
+   "root_slp1": "pIq",
+   "mw_derived_count": 19,
+   "deriv_types": {
+    "prefix+root": 19
+   },
+   "sample_headwords": [
+    "ApIq",
+    "aBinipIq",
+    "aBipIq",
+    "aBiprapIq",
+    "avapIq",
+    "nipIq",
+    "nizpIq",
+    "paripIq",
+    "prapIq",
+    "pratipIq",
+    "samaBipIq",
+    "samavapIq"
+   ]
+  },
+  "462": {
+   "root_slp1": "puw",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "paripuw"
+   ]
+  },
+  "463": {
+   "root_slp1": "puT",
+   "mw_derived_count": 7,
+   "deriv_types": {
+    "prefix+root": 7
+   },
+   "sample_headwords": [
+    "ApuT",
+    "aBipuT",
+    "avapuT",
+    "nipuT",
+    "prapuT",
+    "sampuT",
+    "vipuT"
+   ]
+  },
+  "464": {
+   "root_slp1": "puz",
+   "mw_derived_count": 7,
+   "deriv_types": {
+    "prefix+root": 4,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "DUpa",
+    "anupuz",
+    "paripuz",
+    "prapuz",
+    "puRya",
+    "putra",
+    "sampuz"
+   ]
+  },
+  "465": {
+   "root_slp1": "pU",
+   "mw_derived_count": 18,
+   "deriv_types": {
+    "prefix+root": 13,
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "ApU",
+    "aBipU",
+    "aBisampU",
+    "anupU",
+    "atipU",
+    "nizpU",
+    "pAvita",
+    "parApU",
+    "paripU",
+    "pipavizu",
+    "pota",
+    "pratinizpU"
+   ]
+  },
+  "466": {
+   "root_slp1": "pUj",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "prefix+root": 10
+   },
+   "sample_headwords": [
+    "aBipUj",
+    "aBisampUj",
+    "paripUj",
+    "prapUj",
+    "pratipUj",
+    "samaBipUj",
+    "sampUj",
+    "samparipUj",
+    "samprapUj",
+    "sampratipUj"
+   ]
+  },
+  "467": {
+   "root_slp1": "pUy",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "ApUy"
+   ]
+  },
+  "469": {
+   "root_slp1": "pf",
+   "mw_derived_count": 12,
+   "deriv_types": {
+    "prefix+root": 10,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "Apf",
+    "apapf",
+    "atipf",
+    "nizpf",
+    "pAra",
+    "pf",
+    "prapf",
+    "sampf",
+    "samutpf",
+    "utpf",
+    "vyApf"
+   ]
+  },
+  "470": {
+   "root_slp1": "pf",
+   "mw_derived_count": 12,
+   "deriv_types": {
+    "prefix+root": 10,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "Apf",
+    "apapf",
+    "atipf",
+    "nizpf",
+    "pAra",
+    "pf",
+    "prapf",
+    "sampf",
+    "samutpf",
+    "utpf",
+    "vyApf"
+   ]
+  },
+  "471": {
+   "root_slp1": "pf",
+   "mw_derived_count": 12,
+   "deriv_types": {
+    "prefix+root": 10,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "Apf",
+    "apapf",
+    "atipf",
+    "nizpf",
+    "pAra",
+    "pf",
+    "prapf",
+    "sampf",
+    "samutpf",
+    "utpf",
+    "vyApf"
+   ]
+  },
+  "472": {
+   "root_slp1": "pfc",
+   "mw_derived_count": 11,
+   "deriv_types": {
+    "prefix+root": 6,
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "Apfc",
+    "apipfc",
+    "pfkz",
+    "pfkza",
+    "prapfc",
+    "samparka",
+    "sampfc",
+    "upaparcana",
+    "upapfc",
+    "upaprakze",
+    "vipfc"
+   ]
+  },
+  "477": {
+   "root_slp1": "praC",
+   "mw_derived_count": 11,
+   "deriv_types": {
+    "root-attribution": 11
+   },
+   "sample_headwords": [
+    "ApfcCA",
+    "aBipraSnin",
+    "anuprazwf",
+    "pratiprAS",
+    "pratipraSna",
+    "sadvArttA",
+    "sampfcCam",
+    "sampraSna",
+    "vipfcCam",
+    "vipraSna"
+   ]
+  },
+  "479": {
+   "root_slp1": "prA",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "AprA",
+    "viprA"
+   ]
+  },
+  "480": {
+   "root_slp1": "prI",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "prefix+root": 4,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "AprI",
+    "Apra",
+    "aBiprI",
+    "praprI",
+    "samprI"
+   ]
+  },
+  "481": {
+   "root_slp1": "pru",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 6,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "Apru",
+    "aBipru",
+    "apapru",
+    "atipru",
+    "prava",
+    "pru",
+    "upaprut",
+    "utpru",
+    "vipru"
+   ]
+  },
+  "483": {
+   "root_slp1": "pruz",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "pruz"
+   ]
+  },
+  "485": {
+   "root_slp1": "plu",
+   "mw_derived_count": 24,
+   "deriv_types": {
+    "prefix+root": 22,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "Aplu",
+    "aBiplu",
+    "aBisamplu",
+    "anupariplu",
+    "anuplu",
+    "anvavaplu",
+    "apaplu",
+    "avaplu",
+    "pariplu",
+    "paryAplu",
+    "piplu",
+    "praplu"
+   ]
+  },
+  "487": {
+   "root_slp1": "psA",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 1,
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "sampsA",
+    "viSvapsnya"
+   ]
+  },
+  "489": {
+   "root_slp1": "PaR",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "APaR"
+   ]
+  },
+  "493": {
+   "root_slp1": "baMh",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "sambA|a"
+   ]
+  },
+  "494": {
+   "root_slp1": "banD",
+   "mw_derived_count": 22,
+   "deriv_types": {
+    "prefix+root": 18,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "AbanD",
+    "BAvana",
+    "aBisambanD",
+    "anubanD",
+    "apibanD",
+    "avabanD",
+    "nibanD",
+    "nirbanD",
+    "paribanD",
+    "parikara",
+    "prabanD",
+    "pratibanD"
+   ]
+  },
+  "496": {
+   "root_slp1": "bAD",
+   "mw_derived_count": 18,
+   "deriv_types": {
+    "prefix+root": 17,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "AbAD",
+    "aBibAD",
+    "aDibAD",
+    "anubAD",
+    "apabAD",
+    "atibAD",
+    "avabAD",
+    "bAD",
+    "nibAD",
+    "nirbAD",
+    "paribAD",
+    "prabAD"
+   ]
+  },
+  "497": {
+   "root_slp1": "buD",
+   "mw_derived_count": 21,
+   "deriv_types": {
+    "prefix+root": 18,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "AbuD",
+    "aBiprabuD",
+    "aBisambuD",
+    "aBivibuD",
+    "anubuD",
+    "avabuD",
+    "nibuD",
+    "prabuD",
+    "pratIboDa",
+    "pratibuD",
+    "prativibuD",
+    "saMnibuD"
+   ]
+  },
+  "500": {
+   "root_slp1": "bfh",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "Abarha",
+    "bfh",
+    "brahman"
+   ]
+  },
+  "501": {
+   "root_slp1": "bfh",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "Abarha",
+    "bfh",
+    "brahman"
+   ]
+  },
+  "502": {
+   "root_slp1": "brU",
+   "mw_derived_count": 19,
+   "deriv_types": {
+    "prefix+root": 15,
+    "stem+root (denominal/cmpd)": 2,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "AbrU",
+    "aDibrU",
+    "acCAbrU",
+    "anubrU",
+    "apabrU",
+    "atibrU",
+    "dozatobrU",
+    "moha",
+    "nirbrU",
+    "paribrU",
+    "praSna",
+    "prabrU"
+   ]
+  },
+  "504": {
+   "root_slp1": "Bakz",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "prefix+root": 5
+   },
+   "sample_headwords": [
+    "pariBakz",
+    "pratiBakz",
+    "samBakz",
+    "upaBakz",
+    "vyavaBakz"
+   ]
+  },
+  "505": {
+   "root_slp1": "Baj",
+   "mw_derived_count": 21,
+   "deriv_types": {
+    "prefix+root": 16,
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "ABaj",
+    "BajeraTa",
+    "Bakz",
+    "aBiBaj",
+    "aBiviBaj",
+    "anuBaj",
+    "anvABaj",
+    "apaBaj",
+    "nirBaj",
+    "pariBaj",
+    "praBAga",
+    "praBaj"
+   ]
+  },
+  "506": {
+   "root_slp1": "BaYj",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 9
+   },
+   "sample_headwords": [
+    "aBiBaYj",
+    "avaBaYj",
+    "niBaYj",
+    "nirBaYj",
+    "praBaYj",
+    "pratiBaYj",
+    "samBaYj",
+    "udBaYj",
+    "viBaYj"
+   ]
+  },
+  "508": {
+   "root_slp1": "BaR",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "pratiBaR"
+   ]
+  },
+  "511": {
+   "root_slp1": "Barts",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "JarC",
+    "JarJ",
+    "Jarc"
+   ]
+  },
+  "512": {
+   "root_slp1": "Barv",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "sUBarva"
+   ]
+  },
+  "513": {
+   "root_slp1": "Bal",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 3,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Bal",
+    "niBal",
+    "nirBal",
+    "samBal"
+   ]
+  },
+  "515": {
+   "root_slp1": "Bas",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "nirBas"
+   ]
+  },
+  "516": {
+   "root_slp1": "BA",
+   "mw_derived_count": 22,
+   "deriv_types": {
+    "prefix+root": 20,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "ABA",
+    "AviBA",
+    "BAla",
+    "aBiBA",
+    "aBiviBA",
+    "anuBA",
+    "anupraBA",
+    "atiBA",
+    "avaBA",
+    "nirBA",
+    "praBA",
+    "pratiBA"
+   ]
+  },
+  "518": {
+   "root_slp1": "BAz",
+   "mw_derived_count": 18,
+   "deriv_types": {
+    "prefix+root": 16,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "ABAz",
+    "aBiBAz",
+    "anuBAz",
+    "apaBAz",
+    "pUrvam",
+    "pariBAz",
+    "praBAz",
+    "pratiBAz",
+    "pratyavaBAz",
+    "saMviBAz",
+    "samABAz",
+    "samBAz"
+   ]
+  },
+  "519": {
+   "root_slp1": "BAs",
+   "mw_derived_count": 11,
+   "deriv_types": {
+    "prefix+root": 10,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "ABAs",
+    "avaBAs",
+    "avaBAzita",
+    "nirBAs",
+    "nirviBAs",
+    "pariBAs",
+    "praBAs",
+    "pratiBAs",
+    "udBAs",
+    "viBAs",
+    "vyavaBAs"
+   ]
+  },
+  "521": {
+   "root_slp1": "Bid",
+   "mw_derived_count": 21,
+   "deriv_types": {
+    "prefix+root": 17,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "ABid",
+    "anuBid",
+    "anusamBid",
+    "apaBid",
+    "avaBid",
+    "niBid",
+    "nirBid",
+    "pariBid",
+    "praBeda",
+    "praBid",
+    "praniBid",
+    "pratiBid"
+   ]
+  },
+  "523": {
+   "root_slp1": "BI",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "praBI",
+    "viBI"
+   ]
+  },
+  "524": {
+   "root_slp1": "Buj",
+   "mw_derived_count": 22,
+   "deriv_types": {
+    "prefix+root": 20,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "ABuj",
+    "Bujyu",
+    "aBiBuj",
+    "aDiBuj",
+    "anuBuj",
+    "avaBuj",
+    "niBuj",
+    "nirBuj",
+    "pariBuj",
+    "praBuj",
+    "pratiBuj",
+    "pratyavaBuj"
+   ]
+  },
+  "525": {
+   "root_slp1": "Buj",
+   "mw_derived_count": 22,
+   "deriv_types": {
+    "prefix+root": 20,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "ABuj",
+    "Bujyu",
+    "aBiBuj",
+    "aDiBuj",
+    "anuBuj",
+    "avaBuj",
+    "niBuj",
+    "nirBuj",
+    "pariBuj",
+    "praBuj",
+    "pratiBuj",
+    "pratyavaBuj"
+   ]
+  },
+  "526": {
+   "root_slp1": "Bur",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "saMjarBurARa"
+   ]
+  },
+  "528": {
+   "root_slp1": "BU",
+   "mw_derived_count": 268,
+   "deriv_types": {
+    "stem+root (denominal/cmpd)": 187,
+    "prefix+root": 52,
+    "root-attribution": 28,
+    "other": 1
+   },
+   "sample_headwords": [
+    "ABU",
+    "AhutIBU",
+    "AmuKIBU",
+    "ApARqurIBU",
+    "AraktIBU",
+    "AvirBU",
+    "BAvya",
+    "BImaBavIBU",
+    "BU",
+    "BasmIBU",
+    "BfSIBU",
+    "BftyIBU"
+   ]
+  },
+  "529": {
+   "root_slp1": "BUz",
+   "mw_derived_count": 12,
+   "deriv_types": {
+    "prefix+root": 12
+   },
+   "sample_headwords": [
+    "ABUz",
+    "aBiBUz",
+    "anupraBUz",
+    "atiBUz",
+    "pariBUz",
+    "praBUz",
+    "pratiBUz",
+    "samBUz",
+    "upABUz",
+    "upaBUz",
+    "upapraBUz",
+    "viBUz"
+   ]
+  },
+  "530": {
+   "root_slp1": "Bf",
+   "mw_derived_count": 31,
+   "deriv_types": {
+    "prefix+root": 19,
+    "root-attribution": 12
+   },
+   "sample_headwords": [
+    "ABara",
+    "ABf",
+    "BaraRya",
+    "BfNgAra",
+    "BrURa",
+    "Dana",
+    "Df",
+    "aBiBAra",
+    "aBiBf",
+    "aBipraBf",
+    "aDyABf",
+    "aDyudBf"
+   ]
+  },
+  "533": {
+   "root_slp1": "BraMS",
+   "mw_derived_count": 7,
+   "deriv_types": {
+    "prefix+root": 5,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "BraMS",
+    "niBraMS",
+    "pariBraMS",
+    "praBraMS",
+    "samBraMS",
+    "sampariBrazwa",
+    "viBraMS"
+   ]
+  },
+  "534": {
+   "root_slp1": "Bram",
+   "mw_derived_count": 8,
+   "deriv_types": {
+    "prefix+root": 6,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "BrU",
+    "pariBram",
+    "praBram",
+    "samBram",
+    "udBram",
+    "upaBram",
+    "viBram",
+    "vyABram"
+   ]
+  },
+  "539": {
+   "root_slp1": "majj",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "Amagna",
+    "madgu",
+    "maj",
+    "pramagna"
+   ]
+  },
+  "540": {
+   "root_slp1": "maYc",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "nirmaYc"
+   ]
+  },
+  "544": {
+   "root_slp1": "maT",
+   "mw_derived_count": 18,
+   "deriv_types": {
+    "prefix+root": 11,
+    "root-attribution": 4,
+    "other": 3
+   },
+   "sample_headwords": [
+    "AmaT",
+    "aBipramaT",
+    "avamaT",
+    "manTara",
+    "manmaTa",
+    "nimaT",
+    "nirmaT",
+    "parimaT",
+    "pramATa",
+    "pramaT",
+    "pramanT",
+    "pronmaT"
+   ]
+  },
+  "545": {
+   "root_slp1": "mad",
+   "mw_derived_count": 22,
+   "deriv_types": {
+    "prefix+root": 9,
+    "root-attribution": 9,
+    "other": 3,
+    "compound": 1
+   },
+   "sample_headwords": [
+    "aBimAda",
+    "aBimad",
+    "aBimand",
+    "anumAdya",
+    "anumad",
+    "madBU",
+    "matsa",
+    "matsara",
+    "nimad",
+    "nirmad",
+    "pramAda",
+    "pramad"
+   ]
+  },
+  "546": {
+   "root_slp1": "man",
+   "mw_derived_count": 40,
+   "deriv_types": {
+    "root-attribution": 24,
+    "prefix+root": 16
+   },
+   "sample_headwords": [
+    "Aman",
+    "Amana",
+    "aBImAnin",
+    "aBimAna",
+    "aBimAti",
+    "aBiman",
+    "aBimantos",
+    "aBipraman",
+    "aByavaman",
+    "aDiman",
+    "anuman",
+    "anusamman"
+   ]
+  },
+  "547": {
+   "root_slp1": "mah",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "root-attribution": 2,
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "Amah",
+    "mAQi",
+    "mahilA"
+   ]
+  },
+  "548": {
+   "root_slp1": "mA",
+   "mw_derived_count": 28,
+   "deriv_types": {
+    "prefix+root": 16,
+    "root-attribution": 12
+   },
+   "sample_headwords": [
+    "AmA",
+    "Apamityaka",
+    "aBimA",
+    "anumA",
+    "apamA",
+    "avamA",
+    "mA",
+    "mayUra",
+    "maya",
+    "mayas",
+    "mayu",
+    "nimA"
+   ]
+  },
+  "549": {
+   "root_slp1": "mA",
+   "mw_derived_count": 28,
+   "deriv_types": {
+    "prefix+root": 16,
+    "root-attribution": 12
+   },
+   "sample_headwords": [
+    "AmA",
+    "Apamityaka",
+    "aBimA",
+    "anumA",
+    "apamA",
+    "avamA",
+    "mA",
+    "mayUra",
+    "maya",
+    "mayas",
+    "mayu",
+    "nimA"
+   ]
+  },
+  "550": {
+   "root_slp1": "mA",
+   "mw_derived_count": 28,
+   "deriv_types": {
+    "prefix+root": 16,
+    "root-attribution": 12
+   },
+   "sample_headwords": [
+    "AmA",
+    "Apamityaka",
+    "aBimA",
+    "anumA",
+    "apamA",
+    "avamA",
+    "mA",
+    "mayUra",
+    "maya",
+    "mayas",
+    "mayu",
+    "nimA"
+   ]
+  },
+  "553": {
+   "root_slp1": "mi",
+   "mw_derived_count": 15,
+   "deriv_types": {
+    "prefix+root": 11,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "Ami",
+    "aBinirmi",
+    "mAyu",
+    "mayUKa",
+    "meTi",
+    "nimi",
+    "nirmi",
+    "parAmi",
+    "parimi",
+    "prami",
+    "sammi",
+    "unmi"
+   ]
+  },
+  "554": {
+   "root_slp1": "mikz",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "mikz"
+   ]
+  },
+  "555": {
+   "root_slp1": "miG",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "meGa"
+   ]
+  },
+  "556": {
+   "root_slp1": "miT",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "aBimiT",
+    "metTita",
+    "mitra",
+    "pratyaBimiT"
+   ]
+  },
+  "557": {
+   "root_slp1": "mid",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "anumid",
+    "pramedita",
+    "pramid"
+   ]
+  },
+  "558": {
+   "root_slp1": "mil",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 1,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "sammelana",
+    "sammil"
+   ]
+  },
+  "559": {
+   "root_slp1": "miz",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 4,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "Amiza",
+    "miz",
+    "nimiz",
+    "pratyunmiz",
+    "samunmiz",
+    "unmiz"
+   ]
+  },
+  "560": {
+   "root_slp1": "mih",
+   "mw_derived_count": 12,
+   "deriv_types": {
+    "prefix+root": 7,
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "aBimih",
+    "avamih",
+    "meQra",
+    "mih",
+    "mihira",
+    "nimih",
+    "pramIQa",
+    "prameha",
+    "pramih",
+    "pratimih",
+    "sammih",
+    "upamih"
+   ]
+  },
+  "561": {
+   "root_slp1": "mI",
+   "mw_derived_count": 11,
+   "deriv_types": {
+    "root-attribution": 8,
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "AmI",
+    "mAyuka",
+    "mI",
+    "mIna",
+    "mIta",
+    "pramApaRa",
+    "pramAtavya",
+    "pramI",
+    "pramaya",
+    "prametos",
+    "unmI"
+   ]
+  },
+  "562": {
+   "root_slp1": "mIl",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 9
+   },
+   "sample_headwords": [
+    "AmIl",
+    "nimIl",
+    "pramIl",
+    "pronmIl",
+    "saMnimIl",
+    "sammIl",
+    "samunmIl",
+    "unmIl",
+    "vyAmIl"
+   ]
+  },
+  "563": {
+   "root_slp1": "mIv",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 4,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "AmIv",
+    "mIv",
+    "nimIv",
+    "pramIv",
+    "pramota",
+    "pratimIv"
+   ]
+  },
+  "564": {
+   "root_slp1": "muc",
+   "mw_derived_count": 34,
+   "deriv_types": {
+    "prefix+root": 25,
+    "root-attribution": 9
+   },
+   "sample_headwords": [
+    "Amocana",
+    "Amuc",
+    "aBimuc",
+    "aDinirmuc",
+    "anupramuc",
+    "atimokza",
+    "atimuc",
+    "avamuc",
+    "mokz",
+    "nirmuc",
+    "parimuc",
+    "paripramuc"
+   ]
+  },
+  "565": {
+   "root_slp1": "muw",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 1,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "muw",
+    "pratimuw"
+   ]
+  },
+  "566": {
+   "root_slp1": "mud",
+   "mw_derived_count": 13,
+   "deriv_types": {
+    "prefix+root": 9,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "KAdatamodatA",
+    "aByanumud",
+    "anumud",
+    "anupramud",
+    "mudga",
+    "pramoda",
+    "pramud",
+    "pratimud",
+    "pratisammud",
+    "sammoda",
+    "sammud",
+    "samparimud"
+   ]
+  },
+  "567": {
+   "root_slp1": "muz",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 7,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "Amoza",
+    "Amuz",
+    "avamuz",
+    "nirmuz",
+    "parimuz",
+    "pramoza",
+    "pramuz",
+    "sammuz",
+    "unmuz"
+   ]
+  },
+  "568": {
+   "root_slp1": "muh",
+   "mw_derived_count": 16,
+   "deriv_types": {
+    "prefix+root": 12,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "aBimuh",
+    "anumuh",
+    "nirmuh",
+    "parimuh",
+    "pramoha",
+    "pramugDa",
+    "pramuh",
+    "pratimuh",
+    "sammuh",
+    "sampramuh",
+    "unmuh",
+    "vimUQa"
+   ]
+  },
+  "569": {
+   "root_slp1": "mU",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "mUra",
+    "mUtra"
+   ]
+  },
+  "571": {
+   "root_slp1": "mf",
+   "mw_derived_count": 15,
+   "deriv_types": {
+    "root-attribution": 10,
+    "prefix+root": 5
+   },
+   "sample_headwords": [
+    "aBimara",
+    "aBimf",
+    "anumaraRa",
+    "anumf",
+    "marAla",
+    "marmarIka",
+    "maru",
+    "marya",
+    "parimf",
+    "pramAra",
+    "pramara",
+    "pramf"
+   ]
+  },
+  "572": {
+   "root_slp1": "mf",
+   "mw_derived_count": 15,
+   "deriv_types": {
+    "root-attribution": 10,
+    "prefix+root": 5
+   },
+   "sample_headwords": [
+    "aBimara",
+    "aBimf",
+    "anumaraRa",
+    "anumf",
+    "marAla",
+    "marmarIka",
+    "maru",
+    "marya",
+    "parimf",
+    "pramAra",
+    "pramara",
+    "pramf"
+   ]
+  },
+  "573": {
+   "root_slp1": "mfkz",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "aBimfkz"
+   ]
+  },
+  "576": {
+   "root_slp1": "mfj",
+   "mw_derived_count": 21,
+   "deriv_types": {
+    "prefix+root": 15,
+    "root-attribution": 6
+   },
+   "sample_headwords": [
+    "Amfj",
+    "aBimfj",
+    "aBivimfj",
+    "anumfj",
+    "anuparimfj",
+    "apamfj",
+    "avamArjana",
+    "avamfj",
+    "nimfj",
+    "nirmfj",
+    "parimfj",
+    "pramArjaka"
+   ]
+  },
+  "577": {
+   "root_slp1": "mfq",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "aBimfq"
+   ]
+  },
+  "578": {
+   "root_slp1": "mfR",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "pramfR",
+    "sammfR"
+   ]
+  },
+  "579": {
+   "root_slp1": "mfd",
+   "mw_derived_count": 20,
+   "deriv_types": {
+    "prefix+root": 11,
+    "root-attribution": 9
+   },
+   "sample_headwords": [
+    "Amarda",
+    "Amfd",
+    "aBimarda",
+    "aBimfd",
+    "avamarda",
+    "avamfd",
+    "nimfd",
+    "parimala",
+    "parimfd",
+    "pramarda",
+    "pramfd",
+    "sammarda"
+   ]
+  },
+  "581": {
+   "root_slp1": "mfS",
+   "mw_derived_count": 30,
+   "deriv_types": {
+    "prefix+root": 22,
+    "root-attribution": 8
+   },
+   "sample_headwords": [
+    "AmarSa",
+    "AmfS",
+    "Amfzwa",
+    "aBimarSana",
+    "aBimfS",
+    "aBipramfS",
+    "anumfS",
+    "anuparAmfS",
+    "anuvimfS",
+    "anvavamfS",
+    "avamarSa",
+    "avamfS"
+   ]
+  },
+  "582": {
+   "root_slp1": "mfz",
+   "mw_derived_count": 8,
+   "deriv_types": {
+    "prefix+root": 7,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Amfz",
+    "apimfz",
+    "cIk",
+    "parimfz",
+    "pramfz",
+    "pratyavamfz",
+    "upamfz",
+    "vimfz"
+   ]
+  },
+  "585": {
+   "root_slp1": "mnA",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 3,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "AmnA",
+    "mnA",
+    "pratyAmnA",
+    "samAmnA"
+   ]
+  },
+  "586": {
+   "root_slp1": "myakz",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "myakz"
+   ]
+  },
+  "587": {
+   "root_slp1": "mrad",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "mrad",
+    "pramrad",
+    "vimrad"
+   ]
+  },
+  "589": {
+   "root_slp1": "mruc",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "aBinimruc",
+    "aByastam",
+    "mruc",
+    "nimruc"
+   ]
+  },
+  "590": {
+   "root_slp1": "mreq",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Amreq",
+    "mreq",
+    "upanimreq"
+   ]
+  },
+  "592": {
+   "root_slp1": "mluc",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 5,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "aBinimluc",
+    "anumluc",
+    "mluc",
+    "nimluc",
+    "pramluc",
+    "upamluc"
+   ]
+  },
+  "595": {
+   "root_slp1": "yakz",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 1,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "prayakz",
+    "yakz"
+   ]
+  },
+  "596": {
+   "root_slp1": "yaC",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "yazwi"
+   ]
+  },
+  "597": {
+   "root_slp1": "yaj",
+   "mw_derived_count": 20,
+   "deriv_types": {
+    "prefix+root": 12,
+    "root-attribution": 8
+   },
+   "sample_headwords": [
+    "Ayaj",
+    "aBIjya",
+    "aBiyaj",
+    "apayaj",
+    "atiyaj",
+    "atyupayaj",
+    "avayaj",
+    "ayAwkAra",
+    "ejya",
+    "ftvij",
+    "izwa",
+    "izwani"
+   ]
+  },
+  "598": {
+   "root_slp1": "yat",
+   "mw_derived_count": 18,
+   "deriv_types": {
+    "prefix+root": 17,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Ayat",
+    "aDiviyat",
+    "aDiyat",
+    "anuyat",
+    "anvAyat",
+    "atyAyat",
+    "niryat",
+    "niyat",
+    "pariyat",
+    "pratiniryat",
+    "pratisaMyat",
+    "pratiyat"
+   ]
+  },
+  "600": {
+   "root_slp1": "yam",
+   "mw_derived_count": 37,
+   "deriv_types": {
+    "prefix+root": 30,
+    "root-attribution": 6,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "Aprayam",
+    "Ayam",
+    "aBisaMyam",
+    "aBisamAyam",
+    "aByAyam",
+    "aDiyam",
+    "aDyudyam",
+    "antaryam",
+    "anuprayam",
+    "anuyam",
+    "atiprayam",
+    "nirAyam"
+   ]
+  },
+  "601": {
+   "root_slp1": "yas",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 3,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Ayas",
+    "prayAsa",
+    "prayas",
+    "saMyas"
+   ]
+  },
+  "603": {
+   "root_slp1": "yA",
+   "mw_derived_count": 94,
+   "deriv_types": {
+    "prefix+root": 60,
+    "root-attribution": 31,
+    "stem+root (denominal/cmpd)": 2,
+    "other": 1
+   },
+   "sample_headwords": [
+    "AyA",
+    "BojyatA",
+    "GawanA",
+    "SAmana",
+    "SrotrapadavI",
+    "aBiniryA",
+    "aBiprayA",
+    "aBisaMyA",
+    "aBisamAyA",
+    "aBisamprayA",
+    "aBiviyA",
+    "aBiyA"
+   ]
+  },
+  "604": {
+   "root_slp1": "yAc",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "prefix+root": 10
+   },
+   "sample_headwords": [
+    "AyAc",
+    "aBiyAc",
+    "apiyAc",
+    "niryAc",
+    "pratyanuyAc",
+    "prayAc",
+    "saMyAc",
+    "samaBiyAc",
+    "samprayAc",
+    "upayAc"
+   ]
+  },
+  "606": {
+   "root_slp1": "yu",
+   "mw_derived_count": 27,
+   "deriv_types": {
+    "prefix+root": 17,
+    "root-attribution": 10
+   },
+   "sample_headwords": [
+    "Ayu",
+    "aByAyu",
+    "apayu",
+    "avayava",
+    "avayu",
+    "niryu",
+    "niyu",
+    "pariyu",
+    "pratiyu",
+    "prayu",
+    "saMsaMyu",
+    "saMyu"
+   ]
+  },
+  "607": {
+   "root_slp1": "yu",
+   "mw_derived_count": 27,
+   "deriv_types": {
+    "prefix+root": 17,
+    "root-attribution": 10
+   },
+   "sample_headwords": [
+    "Ayu",
+    "aByAyu",
+    "apayu",
+    "avayava",
+    "avayu",
+    "niryu",
+    "niyu",
+    "pariyu",
+    "pratiyu",
+    "prayu",
+    "saMsaMyu",
+    "saMyu"
+   ]
+  },
+  "608": {
+   "root_slp1": "yuj",
+   "mw_derived_count": 40,
+   "deriv_types": {
+    "prefix+root": 35,
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "Atman",
+    "Ayoga",
+    "Ayuj",
+    "aBiprayuj",
+    "aBisaMyuj",
+    "aBiyojana",
+    "aBiyuj",
+    "aByanuyuj",
+    "aDiyuj",
+    "anuniyuj",
+    "anuprayuj",
+    "anuyuj"
+   ]
+  },
+  "609": {
+   "root_slp1": "yuD",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "prefix+root": 10
+   },
+   "sample_headwords": [
+    "AyuD",
+    "aBiyuD",
+    "niyuD",
+    "prAyuD",
+    "pratisaMyuD",
+    "pratiyuD",
+    "prayuD",
+    "saMyuD",
+    "samprayuD",
+    "udyuD"
+   ]
+  },
+  "610": {
+   "root_slp1": "yup",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Ayup",
+    "saMyup",
+    "yUpa"
+   ]
+  },
+  "613": {
+   "root_slp1": "rakz",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "prefix+root": 10
+   },
+   "sample_headwords": [
+    "Arakz",
+    "aBirakz",
+    "anurakz",
+    "parirakz",
+    "pranirakz",
+    "prarakz",
+    "pratirakz",
+    "saMrakz",
+    "samparirakz",
+    "virakz"
+   ]
+  },
+  "615": {
+   "root_slp1": "rac",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 3,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Arac",
+    "uparac",
+    "viraYca",
+    "virac"
+   ]
+  },
+  "616": {
+   "root_slp1": "raj",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "rAji"
+   ]
+  },
+  "617": {
+   "root_slp1": "raj",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "rAji"
+   ]
+  },
+  "621": {
+   "root_slp1": "rad",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "prarad",
+    "ranDra",
+    "virad"
+   ]
+  },
+  "622": {
+   "root_slp1": "raD",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "niraD",
+    "uparaD"
+   ]
+  },
+  "623": {
+   "root_slp1": "ran",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "raMsu"
+   ]
+  },
+  "624": {
+   "root_slp1": "ran",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "raMsu"
+   ]
+  },
+  "625": {
+   "root_slp1": "rap",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "Arap",
+    "prarap",
+    "pratirap"
+   ]
+  },
+  "626": {
+   "root_slp1": "rapS",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "rapS"
+   ]
+  },
+  "628": {
+   "root_slp1": "raB",
+   "mw_derived_count": 16,
+   "deriv_types": {
+    "prefix+root": 15,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "AraB",
+    "aBiraB",
+    "aBisaMraB",
+    "aByAraB",
+    "anusaMraB",
+    "anusamAraB",
+    "anvAraB",
+    "pariraB",
+    "prAraB",
+    "pratisaMraB",
+    "rAhu",
+    "saMraB"
+   ]
+  },
+  "629": {
+   "root_slp1": "ram",
+   "mw_derived_count": 22,
+   "deriv_types": {
+    "prefix+root": 16,
+    "root-attribution": 6
+   },
+   "sample_headwords": [
+    "Aram",
+    "Arata",
+    "aBiram",
+    "anuram",
+    "niram",
+    "pariram",
+    "praram",
+    "pratiram",
+    "prativiram",
+    "prativirati",
+    "rAma",
+    "saMram"
+   ]
+  },
+  "633": {
+   "root_slp1": "ras",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 5,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Aras",
+    "aBiras",
+    "anuras",
+    "pratiras",
+    "rasna",
+    "viras"
+   ]
+  },
+  "634": {
+   "root_slp1": "rah",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "aDyavaruh",
+    "rah",
+    "virah"
+   ]
+  },
+  "635": {
+   "root_slp1": "rA",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "root-attribution": 3,
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "rAtri",
+    "rE",
+    "rayi",
+    "saMrA",
+    "vyatirA"
+   ]
+  },
+  "636": {
+   "root_slp1": "rA",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "root-attribution": 3,
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "rAtri",
+    "rE",
+    "rayi",
+    "saMrA",
+    "vyatirA"
+   ]
+  },
+  "637": {
+   "root_slp1": "rAj",
+   "mw_derived_count": 16,
+   "deriv_types": {
+    "prefix+root": 13,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "aBirAj",
+    "aBivirAj",
+    "aDivirAj",
+    "anurAj",
+    "anuvirAj",
+    "atirAj",
+    "ativirAj",
+    "nIrAj",
+    "parirAj",
+    "pratirAj",
+    "rAzwra",
+    "saMrAj"
+   ]
+  },
+  "638": {
+   "root_slp1": "rAD",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "prefix+root": 10
+   },
+   "sample_headwords": [
+    "ArAD",
+    "aBirAD",
+    "anurAD",
+    "aparAD",
+    "avarAD",
+    "pratirAD",
+    "saMrAD",
+    "samArAD",
+    "upArAD",
+    "virAD"
+   ]
+  },
+  "641": {
+   "root_slp1": "ri",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "reRu"
+   ]
+  },
+  "642": {
+   "root_slp1": "riK",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "reKa",
+    "riK"
+   ]
+  },
+  "644": {
+   "root_slp1": "ric",
+   "mw_derived_count": 14,
+   "deriv_types": {
+    "prefix+root": 9,
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "Aric",
+    "aByatiric",
+    "anuric",
+    "atIreka",
+    "atiric",
+    "atyatiric",
+    "fkTa",
+    "prareka",
+    "praric",
+    "udric",
+    "vireka",
+    "viriYca"
+   ]
+  },
+  "645": {
+   "root_slp1": "rip",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "rapas"
+   ]
+  },
+  "646": {
+   "root_slp1": "riP",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "AriP",
+    "avariP"
+   ]
+  },
+  "648": {
+   "root_slp1": "riS",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 1,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "AriS",
+    "kuliSa"
+   ]
+  },
+  "649": {
+   "root_slp1": "riz",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "Ariz",
+    "aBiriz",
+    "anuriz"
+   ]
+  },
+  "650": {
+   "root_slp1": "rih",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "prefix+root": 4,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "ArehaRa",
+    "Arih",
+    "paririh",
+    "pratirih",
+    "saMrih"
+   ]
+  },
+  "651": {
+   "root_slp1": "rI",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 6
+   },
+   "sample_headwords": [
+    "ArI",
+    "anurI",
+    "nIrI",
+    "nirI",
+    "prarI",
+    "saMrI"
+   ]
+  },
+  "652": {
+   "root_slp1": "ru",
+   "mw_derived_count": 12,
+   "deriv_types": {
+    "prefix+root": 8,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "Aru",
+    "aBiru",
+    "anuru",
+    "nirava",
+    "praru",
+    "pratiru",
+    "ravi",
+    "saMrAva",
+    "saMru",
+    "virAva",
+    "viru",
+    "viruj"
+   ]
+  },
+  "653": {
+   "root_slp1": "ru",
+   "mw_derived_count": 12,
+   "deriv_types": {
+    "prefix+root": 8,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "Aru",
+    "aBiru",
+    "anuru",
+    "nirava",
+    "praru",
+    "pratiru",
+    "ravi",
+    "saMrAva",
+    "saMru",
+    "virAva",
+    "viru",
+    "viruj"
+   ]
+  },
+  "654": {
+   "root_slp1": "ruc",
+   "mw_derived_count": 18,
+   "deriv_types": {
+    "prefix+root": 15,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "Arocaka",
+    "Aroka",
+    "Aruc",
+    "aBiruc",
+    "aBiviruc",
+    "anuruc",
+    "atiruc",
+    "avarokin",
+    "avaruc",
+    "nIruc",
+    "pariruc",
+    "praruc"
+   ]
+  },
+  "655": {
+   "root_slp1": "ruj",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 7,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "Aroga",
+    "Aruj",
+    "avaruj",
+    "pariruj",
+    "praruj",
+    "rogya",
+    "saMruj",
+    "samupAruj",
+    "samuparuj"
+   ]
+  },
+  "657": {
+   "root_slp1": "rud",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 4
+   },
+   "sample_headwords": [
+    "anurud",
+    "prarud",
+    "upArud",
+    "virud"
+   ]
+  },
+  "658": {
+   "root_slp1": "ruD",
+   "mw_derived_count": 27,
+   "deriv_types": {
+    "prefix+root": 23,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "AroDana",
+    "AruD",
+    "aBiruD",
+    "anuruD",
+    "aparuD",
+    "avaruD",
+    "avaruDam",
+    "avarunDam",
+    "niruD",
+    "pariruD",
+    "praruD",
+    "pratiruD"
+   ]
+  },
+  "659": {
+   "root_slp1": "ruD",
+   "mw_derived_count": 27,
+   "deriv_types": {
+    "prefix+root": 23,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "AroDana",
+    "AruD",
+    "aBiruD",
+    "anuruD",
+    "aparuD",
+    "avaruD",
+    "avaruDam",
+    "avarunDam",
+    "niruD",
+    "pariruD",
+    "praruD",
+    "pratiruD"
+   ]
+  },
+  "661": {
+   "root_slp1": "ruz",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 3,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Aruz",
+    "AruzI",
+    "saMruz",
+    "viruz"
+   ]
+  },
+  "662": {
+   "root_slp1": "ruh",
+   "mw_derived_count": 50,
+   "deriv_types": {
+    "prefix+root": 44,
+    "root-attribution": 6
+   },
+   "sample_headwords": [
+    "Aropa",
+    "Aruh",
+    "SUla",
+    "Sayana",
+    "aBipraruh",
+    "aBipratyavaruh",
+    "aBiruh",
+    "aBisamAruh",
+    "aByAruh",
+    "aByavaruh",
+    "aDiruh",
+    "aDyAruh"
+   ]
+  },
+  "663": {
+   "root_slp1": "rUz",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 1,
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "rUkza",
+    "saMrUz"
+   ]
+  },
+  "667": {
+   "root_slp1": "lakz",
+   "mw_derived_count": 12,
+   "deriv_types": {
+    "prefix+root": 10,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "Alakz",
+    "aBilakz",
+    "aByupalakz",
+    "saMlakz",
+    "samAlakz",
+    "sampratilakz",
+    "samupalakz",
+    "upAlakz",
+    "upalakz",
+    "vilakz",
+    "vilakzaRa",
+    "vilakzita"
+   ]
+  },
+  "668": {
+   "root_slp1": "lag",
+   "mw_derived_count": 7,
+   "deriv_types": {
+    "prefix+root": 4,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "Alag",
+    "avalag",
+    "laNga",
+    "lakza",
+    "liNga",
+    "saMlag",
+    "vilag"
+   ]
+  },
+  "669": {
+   "root_slp1": "laNG",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "laGaw"
+   ]
+  },
+  "672": {
+   "root_slp1": "lap",
+   "mw_derived_count": 13,
+   "deriv_types": {
+    "prefix+root": 9,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "AlApa",
+    "Alap",
+    "aBilap",
+    "apalap",
+    "pralApa",
+    "pralap",
+    "saMlap",
+    "samAlap",
+    "ullap",
+    "vilApana",
+    "vilap",
+    "vipralApa"
+   ]
+  },
+  "673": {
+   "root_slp1": "laB",
+   "mw_derived_count": 25,
+   "deriv_types": {
+    "prefix+root": 16,
+    "root-attribution": 9
+   },
+   "sample_headwords": [
+    "AlaB",
+    "aBilaB",
+    "anulaB",
+    "anvAlaB",
+    "avakASa",
+    "lakzya",
+    "padAnusAra",
+    "parilaB",
+    "patAkA",
+    "pralaB",
+    "pralamBa",
+    "pratilaB"
+   ]
+  },
+  "675": {
+   "root_slp1": "lamb",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "samullambita"
+   ]
+  },
+  "676": {
+   "root_slp1": "lal",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 3,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "saMlal",
+    "ullal",
+    "upalal",
+    "vilAla"
+   ]
+  },
+  "677": {
+   "root_slp1": "laz",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "prefix+root": 4,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Alaz",
+    "aBilaz",
+    "parilaz",
+    "samaBilaz",
+    "vilAzin"
+   ]
+  },
+  "678": {
+   "root_slp1": "las",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 6
+   },
+   "sample_headwords": [
+    "parilas",
+    "pravilas",
+    "prollas",
+    "samullas",
+    "ullas",
+    "vilas"
+   ]
+  },
+  "681": {
+   "root_slp1": "liK",
+   "mw_derived_count": 19,
+   "deriv_types": {
+    "prefix+root": 17,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "AleKana",
+    "AliK",
+    "aBiliK",
+    "apaliK",
+    "avaliK",
+    "nirliK",
+    "pariliK",
+    "praliK",
+    "pratiliK",
+    "prolliK",
+    "saMliK",
+    "samAliK"
+   ]
+  },
+  "682": {
+   "root_slp1": "lip",
+   "mw_derived_count": 13,
+   "deriv_types": {
+    "prefix+root": 11,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "Alip",
+    "aBilip",
+    "anulip",
+    "avalepa",
+    "avalip",
+    "nilip",
+    "parilip",
+    "paryupalip",
+    "pralepa",
+    "pralip",
+    "samAlip",
+    "upalip"
+   ]
+  },
+  "683": {
+   "root_slp1": "liS",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "AliS",
+    "liS",
+    "viliS"
+   ]
+  },
+  "684": {
+   "root_slp1": "lih",
+   "mw_derived_count": 12,
+   "deriv_types": {
+    "prefix+root": 10,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "Alih",
+    "avaleha",
+    "avalih",
+    "nirlih",
+    "parilih",
+    "parisaMlih",
+    "praleha",
+    "pralih",
+    "pratilih",
+    "saMlih",
+    "ullih",
+    "vilih"
+   ]
+  },
+  "685": {
+   "root_slp1": "lI",
+   "mw_derived_count": 30,
+   "deriv_types": {
+    "prefix+root": 20,
+    "root-attribution": 10
+   },
+   "sample_headwords": [
+    "AlAna",
+    "AlI",
+    "Alaya",
+    "aBilI",
+    "aBivilI",
+    "anulI",
+    "anuvilI",
+    "apanilI",
+    "avalI",
+    "lelAya",
+    "nilI",
+    "pralI"
+   ]
+  },
+  "686": {
+   "root_slp1": "lI",
+   "mw_derived_count": 30,
+   "deriv_types": {
+    "prefix+root": 20,
+    "root-attribution": 10
+   },
+   "sample_headwords": [
+    "AlAna",
+    "AlI",
+    "Alaya",
+    "aBilI",
+    "aBivilI",
+    "anulI",
+    "anuvilI",
+    "apanilI",
+    "avalI",
+    "lelAya",
+    "nilI",
+    "pralI"
+   ]
+  },
+  "687": {
+   "root_slp1": "luYc",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "luk"
+   ]
+  },
+  "688": {
+   "root_slp1": "luW",
+   "mw_derived_count": 8,
+   "deriv_types": {
+    "prefix+root": 8
+   },
+   "sample_headwords": [
+    "aDiluW",
+    "nirluW",
+    "pariluW",
+    "parinirluW",
+    "praluW",
+    "ulluW",
+    "viluW"
+   ]
+  },
+  "689": {
+   "root_slp1": "luW",
+   "mw_derived_count": 8,
+   "deriv_types": {
+    "prefix+root": 8
+   },
+   "sample_headwords": [
+    "aDiluW",
+    "nirluW",
+    "pariluW",
+    "parinirluW",
+    "praluW",
+    "ulluW",
+    "viluW"
+   ]
+  },
+  "690": {
+   "root_slp1": "luq",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 7,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "Aluq",
+    "ativiluq",
+    "nirluq",
+    "pariluq",
+    "saMluq",
+    "samAluq",
+    "viloqa",
+    "viluq",
+    "vyAloqita"
+   ]
+  },
+  "691": {
+   "root_slp1": "lup",
+   "mw_derived_count": 19,
+   "deriv_types": {
+    "prefix+root": 16,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "Alup",
+    "aBilup",
+    "anvavalup",
+    "apalupam",
+    "avalopa",
+    "avalup",
+    "nilup",
+    "nirlup",
+    "parilup",
+    "pralup",
+    "pravilup",
+    "saMlup"
+   ]
+  },
+  "692": {
+   "root_slp1": "luB",
+   "mw_derived_count": 12,
+   "deriv_types": {
+    "prefix+root": 11,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "AluB",
+    "aBiluB",
+    "anuluB",
+    "pariluB",
+    "praluB",
+    "pratiluB",
+    "saMluB",
+    "sampraluB",
+    "upaluB",
+    "viloBa",
+    "viluB",
+    "vipraluB"
+   ]
+  },
+  "694": {
+   "root_slp1": "lU",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 5,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "AlU",
+    "Alava",
+    "lozwa",
+    "paNkajalAvam",
+    "pralU",
+    "pralava",
+    "ullU",
+    "vilU",
+    "vyatilU"
+   ]
+  },
+  "695": {
+   "root_slp1": "lok",
+   "mw_derived_count": 11,
+   "deriv_types": {
+    "prefix+root": 10,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Alok",
+    "aBilok",
+    "anuvilok",
+    "avalok",
+    "parilok",
+    "pravilok",
+    "saMlok",
+    "samAlok",
+    "samavalok",
+    "vilok",
+    "viloka"
+   ]
+  },
+  "696": {
+   "root_slp1": "loc",
+   "mw_derived_count": 7,
+   "deriv_types": {
+    "prefix+root": 5,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "Aloc",
+    "anvAloc",
+    "avAloc",
+    "loc",
+    "paryAloc",
+    "samAloc",
+    "vilocana"
+   ]
+  },
+  "698": {
+   "root_slp1": "vakz",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "vivakzase"
+   ]
+  },
+  "699": {
+   "root_slp1": "vac",
+   "mw_derived_count": 30,
+   "deriv_types": {
+    "prefix+root": 17,
+    "root-attribution": 12,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "Avac",
+    "aBivac",
+    "aByanuvac",
+    "aDivac",
+    "acCAvac",
+    "anUcyate",
+    "anuvAka",
+    "anuvac",
+    "ativac",
+    "nirvac",
+    "nivac",
+    "parAvac"
+   ]
+  },
+  "700": {
+   "root_slp1": "vaj",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "vAja"
+   ]
+  },
+  "703": {
+   "root_slp1": "vat",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "apivat",
+    "svapivAta",
+    "vat"
+   ]
+  },
+  "704": {
+   "root_slp1": "vad",
+   "mw_derived_count": 49,
+   "deriv_types": {
+    "prefix+root": 33,
+    "root-attribution": 15,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "Avad",
+    "aBinirvad",
+    "aBiparAvad",
+    "aBivad",
+    "aByanuvad",
+    "aByativad",
+    "aByudita",
+    "aDivad",
+    "acCAvad",
+    "anUdita",
+    "anupravad",
+    "anuvad"
+   ]
+  },
+  "705": {
+   "root_slp1": "vaD",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "vADU",
+    "vaDU",
+    "vivaDa"
+   ]
+  },
+  "706": {
+   "root_slp1": "van",
+   "mw_derived_count": 12,
+   "deriv_types": {
+    "root-attribution": 8,
+    "prefix+root": 4
+   },
+   "sample_headwords": [
+    "Avan",
+    "aBivAnyA",
+    "aBivan",
+    "pravan",
+    "saMvan",
+    "upavan",
+    "vAma",
+    "vAta",
+    "vAvAta",
+    "van",
+    "vanin",
+    "vanra"
+   ]
+  },
+  "708": {
+   "root_slp1": "vap",
+   "mw_derived_count": 38,
+   "deriv_types": {
+    "prefix+root": 30,
+    "root-attribution": 8
+   },
+   "sample_headwords": [
+    "AvApa",
+    "Avap",
+    "aBinirvap",
+    "aBivap",
+    "aDivap",
+    "aDyAvap",
+    "anunirvap",
+    "anupravap",
+    "anuvap",
+    "anvAvap",
+    "apavap",
+    "apivap"
+   ]
+  },
+  "709": {
+   "root_slp1": "vap",
+   "mw_derived_count": 38,
+   "deriv_types": {
+    "prefix+root": 30,
+    "root-attribution": 8
+   },
+   "sample_headwords": [
+    "AvApa",
+    "Avap",
+    "aBinirvap",
+    "aBivap",
+    "aDivap",
+    "aDyAvap",
+    "anunirvap",
+    "anupravap",
+    "anuvap",
+    "anvAvap",
+    "apavap",
+    "apivap"
+   ]
+  },
+  "710": {
+   "root_slp1": "vam",
+   "mw_derived_count": 8,
+   "deriv_types": {
+    "prefix+root": 5,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "KAdatavamatA",
+    "aBivam",
+    "nirvam",
+    "parAvam",
+    "udvam",
+    "vAnta",
+    "vamra",
+    "vinirvam"
+   ]
+  },
+  "711": {
+   "root_slp1": "val",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 1,
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "pravAla",
+    "vival"
+   ]
+  },
+  "712": {
+   "root_slp1": "valg",
+   "mw_derived_count": 7,
+   "deriv_types": {
+    "prefix+root": 7
+   },
+   "sample_headwords": [
+    "Avalg",
+    "aBivalg",
+    "parAvalg",
+    "pravalg",
+    "saMvalg",
+    "vivalg",
+    "vyAvalg"
+   ]
+  },
+  "714": {
+   "root_slp1": "vaS",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "root-attribution": 4,
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "OSAna",
+    "aBivaS",
+    "uza",
+    "vASitA",
+    "vazwi"
+   ]
+  },
+  "715": {
+   "root_slp1": "vas",
+   "mw_derived_count": 58,
+   "deriv_types": {
+    "prefix+root": 42,
+    "root-attribution": 15,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "Avas",
+    "aBisaMvas",
+    "aBivas",
+    "aBivivas",
+    "aDinivas",
+    "aDisaMvas",
+    "aDivas",
+    "aDyAvas",
+    "amAvAsyA",
+    "antarvas",
+    "anuvas",
+    "apavas"
+   ]
+  },
+  "716": {
+   "root_slp1": "vas",
+   "mw_derived_count": 58,
+   "deriv_types": {
+    "prefix+root": 42,
+    "root-attribution": 15,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "Avas",
+    "aBisaMvas",
+    "aBivas",
+    "aBivivas",
+    "aDinivas",
+    "aDisaMvas",
+    "aDivas",
+    "aDyAvas",
+    "amAvAsyA",
+    "antarvas",
+    "anuvas",
+    "apavas"
+   ]
+  },
+  "717": {
+   "root_slp1": "vas",
+   "mw_derived_count": 58,
+   "deriv_types": {
+    "prefix+root": 42,
+    "root-attribution": 15,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "Avas",
+    "aBisaMvas",
+    "aBivas",
+    "aBivivas",
+    "aDinivas",
+    "aDisaMvas",
+    "aDivas",
+    "aDyAvas",
+    "amAvAsyA",
+    "antarvas",
+    "anuvas",
+    "apavas"
+   ]
+  },
+  "718": {
+   "root_slp1": "vah",
+   "mw_derived_count": 55,
+   "deriv_types": {
+    "prefix+root": 33,
+    "root-attribution": 20,
+    "compound": 2
+   },
+   "sample_headwords": [
+    "Avah",
+    "AvoDavE",
+    "OGa",
+    "aBipravah",
+    "aBivah",
+    "aByAvah",
+    "aByUQi",
+    "anupravah",
+    "anusaMvah",
+    "anuvah",
+    "anvAvah",
+    "apavah"
+   ]
+  },
+  "719": {
+   "root_slp1": "vA",
+   "mw_derived_count": 24,
+   "deriv_types": {
+    "prefix+root": 19,
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "AvA",
+    "aBivA",
+    "anUdvA",
+    "anunirvA",
+    "anusaMvA",
+    "anuvA",
+    "anuvivA",
+    "apavA",
+    "atipravA",
+    "ativA",
+    "avavA",
+    "nirvA"
+   ]
+  },
+  "720": {
+   "root_slp1": "vA",
+   "mw_derived_count": 24,
+   "deriv_types": {
+    "prefix+root": 19,
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "AvA",
+    "aBivA",
+    "anUdvA",
+    "anunirvA",
+    "anusaMvA",
+    "anuvA",
+    "anuvivA",
+    "apavA",
+    "atipravA",
+    "ativA",
+    "avavA",
+    "nirvA"
+   ]
+  },
+  "722": {
+   "root_slp1": "vAYC",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "vAYC"
+   ]
+  },
+  "723": {
+   "root_slp1": "vAS",
+   "mw_derived_count": 9,
+   "deriv_types": {
+    "prefix+root": 6,
+    "root-attribution": 2,
+    "compound": 1
+   },
+   "sample_headwords": [
+    "aBivAS",
+    "anuvAS",
+    "parivAS",
+    "prativAS",
+    "pravAS",
+    "saMvAS",
+    "udvAS",
+    "vASurA",
+    "vaSA"
+   ]
+  },
+  "724": {
+   "root_slp1": "vAh",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "vAh",
+    "vAw"
+   ]
+  },
+  "725": {
+   "root_slp1": "vic",
+   "mw_derived_count": 7,
+   "deriv_types": {
+    "prefix+root": 4,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "aDyapavic",
+    "apavic",
+    "pravivic",
+    "vecA",
+    "vic",
+    "viveka",
+    "vivic"
+   ]
+  },
+  "726": {
+   "root_slp1": "vic",
+   "mw_derived_count": 7,
+   "deriv_types": {
+    "prefix+root": 4,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "aDyapavic",
+    "apavic",
+    "pravivic",
+    "vecA",
+    "vic",
+    "viveka",
+    "vivic"
+   ]
+  },
+  "727": {
+   "root_slp1": "vij",
+   "mw_derived_count": 13,
+   "deriv_types": {
+    "prefix+root": 8,
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "Avij",
+    "aBivega",
+    "aBivij",
+    "apavij",
+    "paryudvij",
+    "pravij",
+    "prodvij",
+    "saMvega",
+    "saMvejana",
+    "saMvij",
+    "samudvij",
+    "udvij"
+   ]
+  },
+  "728": {
+   "root_slp1": "vid",
+   "mw_derived_count": 39,
+   "deriv_types": {
+    "prefix+root": 29,
+    "root-attribution": 10
+   },
+   "sample_headwords": [
+    "Avid",
+    "aBisaMvid",
+    "aBivid",
+    "aDivid",
+    "anusaMvid",
+    "anuvid",
+    "jAtavedas",
+    "nirvid",
+    "nivid",
+    "parivid",
+    "pratipravid",
+    "pratisaMvid"
+   ]
+  },
+  "729": {
+   "root_slp1": "vid",
+   "mw_derived_count": 39,
+   "deriv_types": {
+    "prefix+root": 29,
+    "root-attribution": 10
+   },
+   "sample_headwords": [
+    "Avid",
+    "aBisaMvid",
+    "aBivid",
+    "aDivid",
+    "anusaMvid",
+    "anuvid",
+    "jAtavedas",
+    "nirvid",
+    "nivid",
+    "parivid",
+    "pratipravid",
+    "pratisaMvid"
+   ]
+  },
+  "730": {
+   "root_slp1": "viD",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "prativiD",
+    "upaviD",
+    "viDu",
+    "vidaTa"
+   ]
+  },
+  "731": {
+   "root_slp1": "viD",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "prativiD",
+    "upaviD",
+    "viDu",
+    "vidaTa"
+   ]
+  },
+  "733": {
+   "root_slp1": "vip",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "vela"
+   ]
+  },
+  "734": {
+   "root_slp1": "viS",
+   "mw_derived_count": 55,
+   "deriv_types": {
+    "prefix+root": 41,
+    "root-attribution": 14
+   },
+   "sample_headwords": [
+    "AveSa",
+    "AviS",
+    "SayyA",
+    "aBiniviS",
+    "aBipraviS",
+    "aBisaMviS",
+    "aBiviS",
+    "aByAviS",
+    "aByupaviS",
+    "aDiviS",
+    "anUpaviS",
+    "anupraviS"
+   ]
+  },
+  "735": {
+   "root_slp1": "viz",
+   "mw_derived_count": 7,
+   "deriv_types": {
+    "root-attribution": 4,
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "pariviz",
+    "saMviz",
+    "upaveza",
+    "upaviz",
+    "veza",
+    "vizRu",
+    "vizaya"
+   ]
+  },
+  "737": {
+   "root_slp1": "vI",
+   "mw_derived_count": 26,
+   "deriv_types": {
+    "root-attribution": 17,
+    "prefix+root": 9
+   },
+   "sample_headwords": [
+    "AvI",
+    "aBivI",
+    "aj",
+    "apavI",
+    "apravItA",
+    "ativI",
+    "avavI",
+    "nivI",
+    "prapravI",
+    "pratIvI",
+    "prativI",
+    "pravAyaka"
+   ]
+  },
+  "740": {
+   "root_slp1": "vf",
+   "mw_derived_count": 58,
+   "deriv_types": {
+    "prefix+root": 35,
+    "root-attribution": 23
+   },
+   "sample_headwords": [
+    "AvAra",
+    "Avaraka",
+    "Avf",
+    "Sokavartavya",
+    "aBisaMvf",
+    "aBivf",
+    "anuvf",
+    "apAvf",
+    "apavf",
+    "apivf",
+    "nirvf",
+    "nivf"
+   ]
+  },
+  "741": {
+   "root_slp1": "vf",
+   "mw_derived_count": 58,
+   "deriv_types": {
+    "prefix+root": 35,
+    "root-attribution": 23
+   },
+   "sample_headwords": [
+    "AvAra",
+    "Avaraka",
+    "Avf",
+    "Sokavartavya",
+    "aBisaMvf",
+    "aBivf",
+    "anuvf",
+    "apAvf",
+    "apavf",
+    "apivf",
+    "nirvf",
+    "nivf"
+   ]
+  },
+  "742": {
+   "root_slp1": "vfMh",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "upabfMhaRa",
+    "upabfMhin"
+   ]
+  },
+  "743": {
+   "root_slp1": "vfj",
+   "mw_derived_count": 32,
+   "deriv_types": {
+    "prefix+root": 20,
+    "root-attribution": 12
+   },
+   "sample_headwords": [
+    "Avarjaka",
+    "Avfj",
+    "aDivfj",
+    "anunivfj",
+    "anupravfj",
+    "apasarjana",
+    "apavarga",
+    "apavfj",
+    "apivfj",
+    "avarjuzI",
+    "avavfj",
+    "nivfj"
+   ]
+  },
+  "744": {
+   "root_slp1": "vft",
+   "mw_derived_count": 97,
+   "deriv_types": {
+    "prefix+root": 74,
+    "root-attribution": 22,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "Apratinivft",
+    "Avarta",
+    "Avft",
+    "aBIvarta",
+    "aBinirvft",
+    "aBinivft",
+    "aBiparyAvft",
+    "aBipravft",
+    "aBisaMvft",
+    "aBisamAvft",
+    "aBisampravft",
+    "aBivft"
+   ]
+  },
+  "745": {
+   "root_slp1": "vfD",
+   "mw_derived_count": 20,
+   "deriv_types": {
+    "prefix+root": 14,
+    "root-attribution": 6
+   },
+   "sample_headwords": [
+    "AvfD",
+    "aBipravfD",
+    "aBivfD",
+    "aDivfD",
+    "anuvfD",
+    "ativfD",
+    "parivfD",
+    "pravarDaka",
+    "pravfD",
+    "saMvarDaka",
+    "saMvfD",
+    "saMvivarDayizu"
+   ]
+  },
+  "746": {
+   "root_slp1": "vfz",
+   "mw_derived_count": 18,
+   "deriv_types": {
+    "prefix+root": 13,
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "Avarza",
+    "Avfz",
+    "aBipravfz",
+    "aBivfz",
+    "anuvfz",
+    "ativfz",
+    "avavarzaRa",
+    "avavfz",
+    "parivfz",
+    "prAvfz",
+    "prativfz",
+    "pravfz"
+   ]
+  },
+  "747": {
+   "root_slp1": "vfh",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "prefix+root": 7,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "Avarha",
+    "Avfh",
+    "aBivfh",
+    "pravarham",
+    "pravarza",
+    "pravfh",
+    "samudvfh",
+    "udvfh",
+    "upapravfh",
+    "vivfh"
+   ]
+  },
+  "748": {
+   "root_slp1": "ven",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "anuven",
+    "apaven",
+    "viven"
+   ]
+  },
+  "750": {
+   "root_slp1": "vezw",
+   "mw_derived_count": 19,
+   "deriv_types": {
+    "prefix+root": 17,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "Avezw",
+    "Avizwita",
+    "aBivezw",
+    "anuvezw",
+    "apavezw",
+    "nirvezw",
+    "nivezw",
+    "parivezw",
+    "pratisaMvezw",
+    "prativezw",
+    "pravezw",
+    "saMvezw"
+   ]
+  },
+  "751": {
+   "root_slp1": "vyac",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "saMvyac"
+   ]
+  },
+  "753": {
+   "root_slp1": "vyaT",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "parivyaT",
+    "pravyaT",
+    "saMvyaT"
+   ]
+  },
+  "754": {
+   "root_slp1": "vyaD",
+   "mw_derived_count": 29,
+   "deriv_types": {
+    "prefix+root": 20,
+    "root-attribution": 9
+   },
+   "sample_headwords": [
+    "AveDa",
+    "AvidDa",
+    "AvyaD",
+    "aBiveDin",
+    "aBivyaD",
+    "aDinivyaD",
+    "anuvyaD",
+    "apavidDa",
+    "apavyaD",
+    "ativyaD",
+    "avavidDa",
+    "avavyaD"
+   ]
+  },
+  "757": {
+   "root_slp1": "vraj",
+   "mw_derived_count": 29,
+   "deriv_types": {
+    "prefix+root": 26,
+    "root-attribution": 2,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "Avraj",
+    "aBipravraj",
+    "aBivraj",
+    "anupravraj",
+    "anusaMvraj",
+    "anuvraj",
+    "apavraj",
+    "ativraj",
+    "guRAntaraMvraj",
+    "nirvraj",
+    "parivraj",
+    "prativraj"
+   ]
+  },
+  "760": {
+   "root_slp1": "vraSc",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "pravfScya",
+    "pravfkRa",
+    "vfScana",
+    "vivfkRa"
+   ]
+  },
+  "765": {
+   "root_slp1": "vlI",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "prefix+root": 5
+   },
+   "sample_headwords": [
+    "aBivlI",
+    "nirvlI",
+    "pravlI",
+    "saMvlI",
+    "vyavavlI"
+   ]
+  },
+  "766": {
+   "root_slp1": "SaMs",
+   "mw_derived_count": 23,
+   "deriv_types": {
+    "prefix+root": 18,
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "ASA",
+    "ASaMs",
+    "SasA",
+    "aBiSaMs",
+    "aBiSasta",
+    "aBipraSaMs",
+    "aBiviSaMs",
+    "anuSaMs",
+    "atiSaMs",
+    "atipraSaMs",
+    "praSaMs",
+    "praSasta"
+   ]
+  },
+  "767": {
+   "root_slp1": "Sak",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "root-attribution": 6
+   },
+   "sample_headwords": [
+    "ASikzA",
+    "SAka",
+    "Sakuna",
+    "Sikva",
+    "pariSaktave",
+    "upaSikzA"
+   ]
+  },
+  "768": {
+   "root_slp1": "SaNk",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "viSaNkA"
+   ]
+  },
+  "770": {
+   "root_slp1": "Sad",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "root-attribution": 6,
+    "prefix+root": 4
+   },
+   "sample_headwords": [
+    "ASad",
+    "SAda",
+    "SAta",
+    "Satru",
+    "SatvarI",
+    "praSad",
+    "saMSad",
+    "upaSada",
+    "viSada",
+    "vyavaSad"
+   ]
+  },
+  "771": {
+   "root_slp1": "Sad",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "root-attribution": 6,
+    "prefix+root": 4
+   },
+   "sample_headwords": [
+    "ASad",
+    "SAda",
+    "SAta",
+    "Satru",
+    "SatvarI",
+    "praSad",
+    "saMSad",
+    "upaSada",
+    "viSada",
+    "vyavaSad"
+   ]
+  },
+  "772": {
+   "root_slp1": "Sap",
+   "mw_derived_count": 7,
+   "deriv_types": {
+    "prefix+root": 5,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "SApa",
+    "aBISApa",
+    "aBiSap",
+    "anuSap",
+    "pariSap",
+    "pratiSap",
+    "saMSap"
+   ]
+  },
+  "773": {
+   "root_slp1": "Sam",
+   "mw_derived_count": 21,
+   "deriv_types": {
+    "prefix+root": 16,
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "SAnta",
+    "SaSamAna",
+    "aBiSam",
+    "aBiniSam",
+    "anuSam",
+    "anuniSam",
+    "niSam",
+    "praSAnta",
+    "praSam",
+    "pratiSam",
+    "pratisamayya",
+    "praviSam"
+   ]
+  },
+  "774": {
+   "root_slp1": "Sam",
+   "mw_derived_count": 21,
+   "deriv_types": {
+    "prefix+root": 16,
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "SAnta",
+    "SaSamAna",
+    "aBiSam",
+    "aBiniSam",
+    "anuSam",
+    "anuniSam",
+    "niSam",
+    "praSAnta",
+    "praSam",
+    "pratiSam",
+    "pratisamayya",
+    "praviSam"
+   ]
+  },
+  "775": {
+   "root_slp1": "Sam",
+   "mw_derived_count": 21,
+   "deriv_types": {
+    "prefix+root": 16,
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "SAnta",
+    "SaSamAna",
+    "aBiSam",
+    "aBiniSam",
+    "anuSam",
+    "anuniSam",
+    "niSam",
+    "praSAnta",
+    "praSam",
+    "pratiSam",
+    "pratisamayya",
+    "praviSam"
+   ]
+  },
+  "776": {
+   "root_slp1": "Sal",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "SAlu"
+   ]
+  },
+  "777": {
+   "root_slp1": "SaS",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "SaSIyas"
+   ]
+  },
+  "778": {
+   "root_slp1": "Sas",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "root-attribution": 4,
+    "prefix+root": 1
+   },
+   "sample_headwords": [
+    "Sas",
+    "Sazpa",
+    "vESasa",
+    "viSas",
+    "viSasta"
+   ]
+  },
+  "780": {
+   "root_slp1": "SAs",
+   "mw_derived_count": 16,
+   "deriv_types": {
+    "prefix+root": 12,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "ASAs",
+    "ASis",
+    "aBiSAs",
+    "aByanuSAs",
+    "anuSAs",
+    "mitraSis",
+    "niHSAs",
+    "niSAs",
+    "praSAs",
+    "pratiSAsana",
+    "saMSAs",
+    "samanuSAs"
+   ]
+  },
+  "781": {
+   "root_slp1": "SAs",
+   "mw_derived_count": 16,
+   "deriv_types": {
+    "prefix+root": 12,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "ASAs",
+    "ASis",
+    "aBiSAs",
+    "aByanuSAs",
+    "anuSAs",
+    "mitraSis",
+    "niHSAs",
+    "niSAs",
+    "praSAs",
+    "pratiSAsana",
+    "saMSAs",
+    "samanuSAs"
+   ]
+  },
+  "782": {
+   "root_slp1": "Sikz",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 5,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Sizwi",
+    "aBiSikz",
+    "anuSikz",
+    "pratiSikz",
+    "saMSikz",
+    "viSikz"
+   ]
+  },
+  "783": {
+   "root_slp1": "SiNG",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "SiNG"
+   ]
+  },
+  "787": {
+   "root_slp1": "Siz",
+   "mw_derived_count": 11,
+   "deriv_types": {
+    "prefix+root": 9,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "Seza",
+    "apaSiz",
+    "atiSiz",
+    "avaSeza",
+    "avaSiz",
+    "niHSiz",
+    "pariSiz",
+    "paryavaSiz",
+    "praviSiz",
+    "ucCiz",
+    "viSiz"
+   ]
+  },
+  "788": {
+   "root_slp1": "SI",
+   "mw_derived_count": 38,
+   "deriv_types": {
+    "prefix+root": 20,
+    "root-attribution": 18
+   },
+   "sample_headwords": [
+    "ASI",
+    "ASaya",
+    "BAvakarman",
+    "SAya",
+    "SI",
+    "SIla",
+    "SIvan",
+    "SaSaya",
+    "Saya",
+    "Sepa",
+    "Seya",
+    "Siva"
+   ]
+  },
+  "789": {
+   "root_slp1": "SI",
+   "mw_derived_count": 38,
+   "deriv_types": {
+    "prefix+root": 20,
+    "root-attribution": 18
+   },
+   "sample_headwords": [
+    "ASI",
+    "ASaya",
+    "BAvakarman",
+    "SAya",
+    "SI",
+    "SIla",
+    "SIvan",
+    "SaSaya",
+    "Saya",
+    "Sepa",
+    "Seya",
+    "Siva"
+   ]
+  },
+  "790": {
+   "root_slp1": "Suc",
+   "mw_derived_count": 21,
+   "deriv_types": {
+    "prefix+root": 14,
+    "root-attribution": 7
+   },
+   "sample_headwords": [
+    "ASuc",
+    "SuSukzaRi",
+    "Suc",
+    "Suka",
+    "Sukra",
+    "Sukta",
+    "Sukti",
+    "Sukzi",
+    "aBiSuc",
+    "anuSuc",
+    "anupraSuc",
+    "apaSuc"
+   ]
+  },
+  "792": {
+   "root_slp1": "SuD",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "prefix+root": 5
+   },
+   "sample_headwords": [
+    "aBipraSuD",
+    "pariSuD",
+    "praviSuD",
+    "saMSuD",
+    "viSuD"
+   ]
+  },
+  "793": {
+   "root_slp1": "SuB",
+   "mw_derived_count": 11,
+   "deriv_types": {
+    "prefix+root": 8,
+    "root-attribution": 2,
+    "other": 1
+   },
+   "sample_headwords": [
+    "SoBa",
+    "SumB",
+    "aBiSuB",
+    "atiSuB",
+    "niSuB",
+    "pariSuB",
+    "praSuB",
+    "saMSuB",
+    "samaBiSuB",
+    "upaSuB",
+    "viSuB"
+   ]
+  },
+  "794": {
+   "root_slp1": "Suz",
+   "mw_derived_count": 15,
+   "deriv_types": {
+    "prefix+root": 11,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "ASuz",
+    "Soza",
+    "Sukzi",
+    "Suz",
+    "aSuza",
+    "anuSuz",
+    "avaSuz",
+    "pariSuz",
+    "praSuz",
+    "pratiSuz",
+    "saMSuz",
+    "samucCuz"
+   ]
+  },
+  "795": {
+   "root_slp1": "Suz",
+   "mw_derived_count": 15,
+   "deriv_types": {
+    "prefix+root": 11,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "ASuz",
+    "Soza",
+    "Sukzi",
+    "Suz",
+    "aSuza",
+    "anuSuz",
+    "avaSuz",
+    "pariSuz",
+    "praSuz",
+    "pratiSuz",
+    "saMSuz",
+    "samucCuz"
+   ]
+  },
+  "796": {
+   "root_slp1": "SU",
+   "mw_derived_count": 8,
+   "deriv_types": {
+    "root-attribution": 8
+   },
+   "sample_headwords": [
+    "SAva",
+    "SUra",
+    "SUza",
+    "Sava",
+    "SiSu",
+    "SoTa",
+    "Soza",
+    "Suna"
+   ]
+  },
+  "797": {
+   "root_slp1": "Sf",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "SaraRa"
+   ]
+  },
+  "798": {
+   "root_slp1": "Sf",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "SaraRa"
+   ]
+  },
+  "799": {
+   "root_slp1": "Sf",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "SaraRa"
+   ]
+  },
+  "800": {
+   "root_slp1": "SfD",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 3,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "SfD",
+    "atipraSfD",
+    "avaSfD",
+    "viSfD"
+   ]
+  },
+  "803": {
+   "root_slp1": "Scut",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "Scut",
+    "stoka"
+   ]
+  },
+  "804": {
+   "root_slp1": "SnaT",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "SiSna"
+   ]
+  },
+  "806": {
+   "root_slp1": "SraT",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 5,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "SiTira",
+    "anuSraT",
+    "avaSraT",
+    "niSraT",
+    "ucCraT",
+    "viSraT"
+   ]
+  },
+  "808": {
+   "root_slp1": "Sram",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 3,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "pariSram",
+    "upaSram",
+    "viSiSramizu",
+    "viSram"
+   ]
+  },
+  "809": {
+   "root_slp1": "SramB",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "SramB"
+   ]
+  },
+  "810": {
+   "root_slp1": "SrA",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "Sarad",
+    "Sfta",
+    "aruHsrARa"
+   ]
+  },
+  "811": {
+   "root_slp1": "Sri",
+   "mw_derived_count": 37,
+   "deriv_types": {
+    "prefix+root": 29,
+    "root-attribution": 8
+   },
+   "sample_headwords": [
+    "ASraya",
+    "ASri",
+    "AsAra",
+    "SarIra",
+    "Sarman",
+    "Sraya",
+    "SreRi",
+    "aBiSri",
+    "aBiniSri",
+    "aBisaMSri",
+    "aByapaSri",
+    "aDiSri"
+   ]
+  },
+  "813": {
+   "root_slp1": "SrI",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "prefix+root": 6,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "ASir",
+    "ASrI",
+    "SrI",
+    "SrayaRa",
+    "aBiSrI",
+    "saMSrI",
+    "saru",
+    "viSrIkf",
+    "vyatiSF"
+   ]
+  },
+  "814": {
+   "root_slp1": "SrI",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "prefix+root": 6,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "ASir",
+    "ASrI",
+    "SrI",
+    "SrayaRa",
+    "aBiSrI",
+    "saMSrI",
+    "saru",
+    "viSrIkf",
+    "vyatiSF"
+   ]
+  },
+  "815": {
+   "root_slp1": "Sru",
+   "mw_derived_count": 22,
+   "deriv_types": {
+    "prefix+root": 17,
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "ASrava",
+    "ASru",
+    "SravaRa",
+    "Srotas",
+    "aBiSru",
+    "aBisaMSru",
+    "anuSru",
+    "atipraSru",
+    "pariSru",
+    "praSru",
+    "prapraSru",
+    "pratiSru"
+   ]
+  },
+  "820": {
+   "root_slp1": "Sliz",
+   "mw_derived_count": 14,
+   "deriv_types": {
+    "prefix+root": 11,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "ASliz",
+    "SlIpada",
+    "SlakzRa",
+    "Sliku",
+    "aBisaMSliz",
+    "atiSliz",
+    "niSliz",
+    "saMSliz",
+    "samASliz",
+    "svASliz",
+    "upASliz",
+    "upaSliz"
+   ]
+  },
+  "822": {
+   "root_slp1": "Svas",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "avaSvasam"
+   ]
+  },
+  "824": {
+   "root_slp1": "Svit",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "SiSvidAna",
+    "avaSvit",
+    "viSvit"
+   ]
+  },
+  "828": {
+   "root_slp1": "sac",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "Ayuzak",
+    "sac",
+    "sakz",
+    "sakzaRi"
+   ]
+  },
+  "829": {
+   "root_slp1": "saj",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Bizaj"
+   ]
+  },
+  "830": {
+   "root_slp1": "sad",
+   "mw_derived_count": 48,
+   "deriv_types": {
+    "prefix+root": 39,
+    "root-attribution": 9
+   },
+   "sample_headwords": [
+    "AsAda",
+    "Asad",
+    "Asanda",
+    "aBinizad",
+    "aBiprasad",
+    "aBizad",
+    "aByAsad",
+    "aByupasad",
+    "aByutsad",
+    "aDinizad",
+    "aDyAsad",
+    "anavasAdya"
+   ]
+  },
+  "831": {
+   "root_slp1": "san",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "root-attribution": 6
+   },
+   "sample_headwords": [
+    "sAnu",
+    "sa",
+    "sanitur",
+    "sasni",
+    "sasnitama",
+    "seya"
+   ]
+  },
+  "836": {
+   "root_slp1": "sah",
+   "mw_derived_count": 21,
+   "deriv_types": {
+    "prefix+root": 13,
+    "root-attribution": 8
+   },
+   "sample_headwords": [
+    "aBiprasah",
+    "aBizah",
+    "aByutsah",
+    "nizah",
+    "parizah",
+    "prasAha",
+    "prasah",
+    "prasakzin",
+    "pratisah",
+    "protsah",
+    "sAha",
+    "sAkz"
+   ]
+  },
+  "837": {
+   "root_slp1": "sA",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "sAman"
+   ]
+  },
+  "838": {
+   "root_slp1": "sA",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "sAman"
+   ]
+  },
+  "839": {
+   "root_slp1": "sAD",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "prefix+root": 5
+   },
+   "sample_headwords": [
+    "parisAD",
+    "prasAD",
+    "saMsAD",
+    "samprasAD",
+    "upasAD"
+   ]
+  },
+  "840": {
+   "root_slp1": "si",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 3,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "Asi",
+    "prasi",
+    "sAya",
+    "senA",
+    "setu",
+    "utsi"
+   ]
+  },
+  "841": {
+   "root_slp1": "sic",
+   "mw_derived_count": 42,
+   "deriv_types": {
+    "prefix+root": 34,
+    "root-attribution": 8
+   },
+   "sample_headwords": [
+    "Asecana",
+    "Asic",
+    "aBiparyAsic",
+    "aBisamAsic",
+    "aBizic",
+    "aByAsic",
+    "aByutsic",
+    "anuparisic",
+    "anusic",
+    "anuvizic",
+    "anuzic",
+    "anvaBizic"
+   ]
+  },
+  "842": {
+   "root_slp1": "siD",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "AsedDf",
+    "parAseDa",
+    "sedDavya",
+    "siD",
+    "sinDu"
+   ]
+  },
+  "843": {
+   "root_slp1": "siD",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "root-attribution": 5
+   },
+   "sample_headwords": [
+    "AsedDf",
+    "parAseDa",
+    "sedDavya",
+    "siD",
+    "sinDu"
+   ]
+  },
+  "846": {
+   "root_slp1": "su",
+   "mw_derived_count": 15,
+   "deriv_types": {
+    "root-attribution": 15
+   },
+   "sample_headwords": [
+    "sAva",
+    "sAvaka",
+    "sUma",
+    "sUpa",
+    "sUra",
+    "sUti",
+    "sava",
+    "savaTa",
+    "savana",
+    "soma",
+    "soni",
+    "sotu"
+   ]
+  },
+  "849": {
+   "root_slp1": "sU",
+   "mw_derived_count": 27,
+   "deriv_types": {
+    "prefix+root": 16,
+    "root-attribution": 11
+   },
+   "sample_headwords": [
+    "AnuzUka",
+    "AsU",
+    "aBiprasU",
+    "aBisU",
+    "aBizU",
+    "aDiprasU",
+    "apasU",
+    "niHzU",
+    "parAsU",
+    "parizU",
+    "prasU",
+    "pratiprasU"
+   ]
+  },
+  "850": {
+   "root_slp1": "sUd",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "aBizUd",
+    "nizUd",
+    "vinisUd"
+   ]
+  },
+  "852": {
+   "root_slp1": "sf",
+   "mw_derived_count": 76,
+   "deriv_types": {
+    "prefix+root": 47,
+    "root-attribution": 28,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "Asf",
+    "aBIsAra",
+    "aBiniHsf",
+    "aBiprasf",
+    "aBisAra",
+    "aBisaMsf",
+    "aBisara",
+    "aBisf",
+    "aByanusf",
+    "aByavasf",
+    "aByupasf",
+    "acCAsf"
+   ]
+  },
+  "854": {
+   "root_slp1": "sfj",
+   "mw_derived_count": 55,
+   "deriv_types": {
+    "prefix+root": 44,
+    "root-attribution": 11
+   },
+   "sample_headwords": [
+    "Asfj",
+    "aBiniHsfj",
+    "aBisarga",
+    "aBisfj",
+    "aBivisfj",
+    "aByanusfj",
+    "aByatisfj",
+    "aByavasfj",
+    "aByutsfj",
+    "anUtsfj",
+    "anusfj",
+    "anuvisfj"
+   ]
+  },
+  "855": {
+   "root_slp1": "sfp",
+   "mw_derived_count": 44,
+   "deriv_types": {
+    "prefix+root": 36,
+    "root-attribution": 8
+   },
+   "sample_headwords": [
+    "aBiniHsfp",
+    "aBiprasfp",
+    "aBisarpaRa",
+    "aBisfp",
+    "aDisfp",
+    "anuprasfp",
+    "anusaMsfp",
+    "anusfp",
+    "apasfp",
+    "atisfp",
+    "avasarpa",
+    "avasarpita"
+   ]
+  },
+  "856": {
+   "root_slp1": "sev",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "seva"
+   ]
+  },
+  "859": {
+   "root_slp1": "sku",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Asku",
+    "pratizku",
+    "sku"
+   ]
+  },
+  "860": {
+   "root_slp1": "skf",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "saMcizkArayizu",
+    "vahni"
+   ]
+  },
+  "861": {
+   "root_slp1": "sKal",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "parisKal",
+    "prasKal",
+    "visKal"
+   ]
+  },
+  "862": {
+   "root_slp1": "stan",
+   "mw_derived_count": 12,
+   "deriv_types": {
+    "prefix+root": 9,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "aBiniHstan",
+    "aBinizwAna",
+    "aBizwan",
+    "izwani",
+    "niHzwan",
+    "nizwan",
+    "pariniHstan",
+    "prastan",
+    "stAmu",
+    "vinizwan",
+    "vistan",
+    "vizwan"
+   ]
+  },
+  "864": {
+   "root_slp1": "stA",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "stena"
+   ]
+  },
+  "865": {
+   "root_slp1": "stiG",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "stiG"
+   ]
+  },
+  "867": {
+   "root_slp1": "stu",
+   "mw_derived_count": 17,
+   "deriv_types": {
+    "prefix+root": 13,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "aBiprastu",
+    "aBisaMstu",
+    "aBizwu",
+    "anuzwu",
+    "atizwu",
+    "nizwu",
+    "parisaMstu",
+    "parizwu",
+    "prastava",
+    "prastu",
+    "pratustuzu",
+    "saMstu"
+   ]
+  },
+  "868": {
+   "root_slp1": "stu",
+   "mw_derived_count": 17,
+   "deriv_types": {
+    "prefix+root": 13,
+    "root-attribution": 4
+   },
+   "sample_headwords": [
+    "aBiprastu",
+    "aBisaMstu",
+    "aBizwu",
+    "anuzwu",
+    "atizwu",
+    "nizwu",
+    "parisaMstu",
+    "parizwu",
+    "prastava",
+    "prastu",
+    "pratustuzu",
+    "saMstu"
+   ]
+  },
+  "870": {
+   "root_slp1": "stf",
+   "mw_derived_count": 21,
+   "deriv_types": {
+    "prefix+root": 14,
+    "root-attribution": 6,
+    "other": 1
+   },
+   "sample_headwords": [
+    "Astara",
+    "Astf",
+    "aBiprastf",
+    "aBistf",
+    "anuprastf",
+    "nistf",
+    "parisaMstf",
+    "paristf",
+    "prastara",
+    "prastf",
+    "pravistf",
+    "saMstara"
+   ]
+  },
+  "874": {
+   "root_slp1": "sTA",
+   "mw_derived_count": 82,
+   "deriv_types": {
+    "prefix+root": 65,
+    "root-attribution": 16,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "AsTA",
+    "DyAna",
+    "Siras",
+    "Sruti",
+    "aBiprasTA",
+    "aBisaMsTA",
+    "aBivizWA",
+    "aBizWA",
+    "aByupasTA",
+    "aByutTA",
+    "aDizWA",
+    "aDyutTA"
+   ]
+  },
+  "875": {
+   "root_slp1": "snA",
+   "mw_derived_count": 8,
+   "deriv_types": {
+    "prefix+root": 5,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "avasnA",
+    "nApita",
+    "nizRA",
+    "prasnA",
+    "saMsnA",
+    "sizRAsu",
+    "susnayu",
+    "utsnA"
+   ]
+  },
+  "876": {
+   "root_slp1": "snih",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "uzRih"
+   ]
+  },
+  "877": {
+   "root_slp1": "snu",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "prefix+root": 2,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "prasnava",
+    "prasnu",
+    "snu",
+    "upasnu"
+   ]
+  },
+  "878": {
+   "root_slp1": "spand",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "vizpanda"
+   ]
+  },
+  "879": {
+   "root_slp1": "spaS",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "vizpaS"
+   ]
+  },
+  "881": {
+   "root_slp1": "spf",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "prefix+root": 6
+   },
+   "sample_headwords": [
+    "Aspf",
+    "apaspf",
+    "avaspf",
+    "niHspf",
+    "vispf",
+    "vizpf"
+   ]
+  },
+  "883": {
+   "root_slp1": "spfS",
+   "mw_derived_count": 17,
+   "deriv_types": {
+    "prefix+root": 17
+   },
+   "sample_headwords": [
+    "AspfS",
+    "aBisaMspfS",
+    "aBispfS",
+    "aDispfS",
+    "anusaMspfS",
+    "anuspfS",
+    "apaspfS",
+    "nispfS",
+    "parisaMspfS",
+    "parispfS",
+    "paryupaspfS",
+    "pratyupaspfS"
+   ]
+  },
+  "886": {
+   "root_slp1": "sPar",
+   "mw_derived_count": 4,
+   "deriv_types": {
+    "root-attribution": 2,
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "AsPAra",
+    "parisPar",
+    "visPar",
+    "vizPar"
+   ]
+  },
+  "887": {
+   "root_slp1": "sPal",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "sPal",
+    "vizPAla"
+   ]
+  },
+  "889": {
+   "root_slp1": "sPuw",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "prefix+root": 4,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "AsPuw",
+    "parisPuw",
+    "prasPuw",
+    "visPowa",
+    "visPuw"
+   ]
+  },
+  "890": {
+   "root_slp1": "sPur",
+   "mw_derived_count": 14,
+   "deriv_types": {
+    "prefix+root": 11,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "anusPur",
+    "apasPur",
+    "avasPur",
+    "niHsPur",
+    "nizPur",
+    "parisPur",
+    "prasPur",
+    "pratisPur",
+    "sPur",
+    "saMsPur",
+    "visPorya",
+    "visPur"
+   ]
+  },
+  "893": {
+   "root_slp1": "smi",
+   "mw_derived_count": 11,
+   "deriv_types": {
+    "prefix+root": 8,
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "aBismi",
+    "aByutsmi",
+    "avasmi",
+    "prasmi",
+    "saMsmi",
+    "smi",
+    "upasmi",
+    "utsmi",
+    "visismApayizu",
+    "vismaya",
+    "vismi"
+   ]
+  },
+  "894": {
+   "root_slp1": "smf",
+   "mw_derived_count": 12,
+   "deriv_types": {
+    "prefix+root": 11,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "aBisaMsmf",
+    "anusaMsmf",
+    "anusmf",
+    "prasmf",
+    "pratisaMsmf",
+    "pratismf",
+    "pratyanusmf",
+    "saMsmf",
+    "samanusmf",
+    "upasmf",
+    "visismArayizu",
+    "vismf"
+   ]
+  },
+  "895": {
+   "root_slp1": "syand",
+   "mw_derived_count": 22,
+   "deriv_types": {
+    "prefix+root": 18,
+    "root-attribution": 3,
+    "stem+root (denominal/cmpd)": 1
+   },
+   "sample_headwords": [
+    "Asyand",
+    "aBinisyand",
+    "aBisyand",
+    "aBivizyand",
+    "aBizyand",
+    "aByavasyand",
+    "acCAsyand",
+    "anusaMsyand",
+    "anuvizyand",
+    "anuzyand",
+    "avasyand",
+    "indra"
+   ]
+  },
+  "896": {
+   "root_slp1": "sraMs",
+   "mw_derived_count": 8,
+   "deriv_types": {
+    "prefix+root": 8
+   },
+   "sample_headwords": [
+    "AsraMs",
+    "aBisraMs",
+    "anuvisraMs",
+    "atisraMs",
+    "avasraMs",
+    "prasraMs",
+    "visraMs",
+    "vyavasraMs"
+   ]
+  },
+  "899": {
+   "root_slp1": "sru",
+   "mw_derived_count": 20,
+   "deriv_types": {
+    "prefix+root": 19,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Asru",
+    "aBisaMsru",
+    "aBisru",
+    "aDisru",
+    "anuparAsru",
+    "anuparisru",
+    "anvavasru",
+    "atisru",
+    "avasru",
+    "niHsru",
+    "nisru",
+    "parisru"
+   ]
+  },
+  "901": {
+   "root_slp1": "svad",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "saMsude",
+    "svAtta"
+   ]
+  },
+  "902": {
+   "root_slp1": "svan",
+   "mw_derived_count": 11,
+   "deriv_types": {
+    "prefix+root": 10,
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "Asvan",
+    "aDizvan",
+    "anusvan",
+    "avasvan",
+    "avazvan",
+    "nisvan",
+    "parizvan",
+    "pratisvan",
+    "svAnta",
+    "visvan",
+    "vizvan"
+   ]
+  },
+  "903": {
+   "root_slp1": "svap",
+   "mw_derived_count": 7,
+   "deriv_types": {
+    "prefix+root": 5,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "niHzvap",
+    "nisvap",
+    "prasup",
+    "prasvap",
+    "saMsvap",
+    "supta",
+    "visvap"
+   ]
+  },
+  "906": {
+   "root_slp1": "svid",
+   "mw_derived_count": 5,
+   "deriv_types": {
+    "prefix+root": 5
+   },
+   "sample_headwords": [
+    "Asvid",
+    "parisvid",
+    "prasvid",
+    "saMsvid",
+    "upasvid"
+   ]
+  },
+  "908": {
+   "root_slp1": "han",
+   "mw_derived_count": 66,
+   "deriv_types": {
+    "prefix+root": 45,
+    "root-attribution": 19,
+    "stem+root (denominal/cmpd)": 1,
+    "compound": 1
+   },
+   "sample_headwords": [
+    "AGAta",
+    "AGnIya",
+    "Ahan",
+    "Avihan",
+    "aBihan",
+    "aBinihan",
+    "aBiparihan",
+    "aBiprahan",
+    "aBisaMhan",
+    "aByAhan",
+    "aDinirhan",
+    "aDyavahan"
+   ]
+  },
+  "910": {
+   "root_slp1": "has",
+   "mw_derived_count": 10,
+   "deriv_types": {
+    "prefix+root": 10
+   },
+   "sample_headwords": [
+    "apahas",
+    "avahas",
+    "parihas",
+    "prahas",
+    "saMvihas",
+    "samprahas",
+    "udDas",
+    "upahas",
+    "vihas",
+    "vyatihas"
+   ]
+  },
+  "911": {
+   "root_slp1": "hA",
+   "mw_derived_count": 43,
+   "deriv_types": {
+    "prefix+root": 36,
+    "root-attribution": 7
+   },
+   "sample_headwords": [
+    "SarDaMjaha",
+    "aBihA",
+    "aBiprahA",
+    "aByudDA",
+    "anUdDA",
+    "anuhA",
+    "apAhAya",
+    "apahA",
+    "atihA",
+    "atiprahA",
+    "atyudDA",
+    "avahA"
+   ]
+  },
+  "912": {
+   "root_slp1": "hA",
+   "mw_derived_count": 43,
+   "deriv_types": {
+    "prefix+root": 36,
+    "root-attribution": 7
+   },
+   "sample_headwords": [
+    "SarDaMjaha",
+    "aBihA",
+    "aBiprahA",
+    "aByudDA",
+    "anUdDA",
+    "anuhA",
+    "apAhAya",
+    "apahA",
+    "atihA",
+    "atiprahA",
+    "atyudDA",
+    "avahA"
+   ]
+  },
+  "914": {
+   "root_slp1": "hi",
+   "mw_derived_count": 13,
+   "deriv_types": {
+    "prefix+root": 7,
+    "root-attribution": 6
+   },
+   "sample_headwords": [
+    "Ahi",
+    "apahi",
+    "haya",
+    "heti",
+    "parihi",
+    "prahArya",
+    "prahAyya",
+    "praheti",
+    "prahi",
+    "prahye",
+    "pratiprahi",
+    "saMhi"
+   ]
+  },
+  "917": {
+   "root_slp1": "hiRq",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "hiRq"
+   ]
+  },
+  "919": {
+   "root_slp1": "hu",
+   "mw_derived_count": 21,
+   "deriv_types": {
+    "root-attribution": 13,
+    "prefix+root": 8
+   },
+   "sample_headwords": [
+    "AhAva",
+    "Ahava",
+    "AhavaBUmi",
+    "Ahu",
+    "Ahuti",
+    "aBihava",
+    "aBihu",
+    "aDihu",
+    "avahu",
+    "hava",
+    "hotf",
+    "juhU"
+   ]
+  },
+  "923": {
+   "root_slp1": "hf",
+   "mw_derived_count": 106,
+   "deriv_types": {
+    "prefix+root": 80,
+    "root-attribution": 26
+   },
+   "sample_headwords": [
+    "AhAra",
+    "Ahara",
+    "Ahf",
+    "AjihIrzu",
+    "BEkza",
+    "aBihara",
+    "aBihf",
+    "aBinirhf",
+    "aBiparihf",
+    "aBisamAhf",
+    "aBivihf",
+    "aBivyAhf"
+   ]
+  },
+  "924": {
+   "root_slp1": "hf",
+   "mw_derived_count": 106,
+   "deriv_types": {
+    "prefix+root": 80,
+    "root-attribution": 26
+   },
+   "sample_headwords": [
+    "AhAra",
+    "Ahara",
+    "Ahf",
+    "AjihIrzu",
+    "BEkza",
+    "aBihara",
+    "aBihf",
+    "aBinirhf",
+    "aBiparihf",
+    "aBisamAhf",
+    "aBivihf",
+    "aBivyAhf"
+   ]
+  },
+  "925": {
+   "root_slp1": "hfz",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "root-attribution": 3
+   },
+   "sample_headwords": [
+    "harza",
+    "praharza",
+    "saMharza"
+   ]
+  },
+  "926": {
+   "root_slp1": "heW",
+   "mw_derived_count": 1,
+   "deriv_types": {
+    "root-attribution": 1
+   },
+   "sample_headwords": [
+    "heW"
+   ]
+  },
+  "929": {
+   "root_slp1": "hnu",
+   "mw_derived_count": 8,
+   "deriv_types": {
+    "prefix+root": 6,
+    "root-attribution": 2
+   },
+   "sample_headwords": [
+    "apahnu",
+    "apanihnu",
+    "apihnu",
+    "hnu",
+    "nihnu",
+    "nijuhnUzu",
+    "vihnu",
+    "vinihnu"
+   ]
+  },
+  "931": {
+   "root_slp1": "hrAd",
+   "mw_derived_count": 3,
+   "deriv_types": {
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "nihrAd",
+    "nirhrAd",
+    "saMhrAd"
+   ]
+  },
+  "935": {
+   "root_slp1": "hlAd",
+   "mw_derived_count": 2,
+   "deriv_types": {
+    "prefix+root": 2
+   },
+   "sample_headwords": [
+    "AhlAd",
+    "prahlAd"
+   ]
+  },
+  "937": {
+   "root_slp1": "hvf",
+   "mw_derived_count": 6,
+   "deriv_types": {
+    "root-attribution": 3,
+    "prefix+root": 3
+   },
+   "sample_headwords": [
+    "AhUrya",
+    "Ahruta",
+    "Ahvf",
+    "upahvf",
+    "vihvarita",
+    "vihvf"
+   ]
+  }
+ }
+}
