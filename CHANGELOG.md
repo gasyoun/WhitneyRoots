@@ -4,6 +4,20 @@ All notable changes to the Whitney Roots data and tooling.
 Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Zalizniak (tiebreaker).**
 
+## [Unreleased]
+### Added
+- **Zaliznyak accent-axis rule table** (`crosswalk/accent_rules.json` + flat
+  `crosswalk/accent_rules.tsv` via `scripts/emit_accent_rules_tsv.py`): Whitney's
+  accent-in-declension prose (§§314–319 + per-class §§350/372/390/423/446, with §§311/316/
+  348–356/361/371–373/389–391/421–427/444–448 context) encoded as 18 formal rules, a 19-cell
+  (stem-class × accent-position) → per-case accent matrix, and a 16-entry lexical-exception
+  registry. Every interpretive cell records the decision AND the rejected alternative (D1–D11),
+  including Whitney's own §319a-vs-§320/§356 contradiction on derivative ī-stem gen. plurals
+  (encoded as a per-lemma variant cell). Encoded by Fable 5 (`claude-fable-5`), 2026-07-02.
+- **Validation spec** (`docs/ACCENT_VALIDATION_SPEC.md`): Sonnet-runnable brief scoring the
+  rule table against attested accented Rig-Veda forms via VedaWeb 2.0 (CC BY 4.0), joined on
+  PWG `key2` udātta positions (`headword_index.tsv`). Advisory-only guardrails baked in.
+
 ## [1.0.0] - 2026-06-13
 ### Added
 - **Whitney Grammar §-citations for all 935 roots.**
