@@ -5,6 +5,8 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Zalizniak (tiebreaker).**
 
 ## [Unreleased]
+
+## [1.1.0] - 2026-07-02
 ### Added
 - **Zaliznyak accent-axis rule table** (`crosswalk/accent_rules.json` + flat
   `crosswalk/accent_rules.tsv` via `scripts/emit_accent_rules_tsv.py`): Whitney's
