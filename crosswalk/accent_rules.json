@@ -1,0 +1,401 @@
+{
+  "_meta": {
+    "title": "Whitney accent-in-declension rules — formal (stem-class, accent-position) → per-case accent table",
+    "created": "02-07-2026",
+    "last_updated": "02-07-2026",
+    "encoded_by": "Fable 5 (claude-fable-5) — frontier-judgment encoding session S8, 2026-07-02; every interpretive cell carries a recorded decision + rejected alternative",
+    "source": "Whitney, Sanskrit Grammar, 2nd ed. (1889), via the Wikisource ingest src/whitney_sections.json (fetch_whitney.py --all, chapters I–XVIII). Sections read verbatim for this encoding: §§83–84 (by reference), 311, 314–320, 348–352, 355–356, 361, 371–373, 389–391, 421–427, 444–448, 483 (by reference), 410 (by reference).",
+    "license": "Rule text public domain (Whitney 1889); Wikisource ingest CC BY-SA 4.0; this curated table CC BY-SA 4.0.",
+    "consumer": "The Zaliznyak-style accent axis (stress scheme S) of RussianTranslation/ZALIZNYAK_INDEX.md; join key = (stem_class T-code, accent_position) from RussianTranslation/src/headword_index.tsv (PWG key2 udātta '/'). Validation: docs/ACCENT_VALIDATION_SPEC.md (VedaWeb 2.0).",
+    "scope_note": "Nominal declension only. Vedic-only axis: Classical headwords carry no recorded accent. Verb accent (§§591–598) and adverbial case-form accent (§1110 ff., flagged by §318e) are OUT of scope.",
+    "guardrail": "Advisory data. NEVER write rule-predicted or corpus-derived accent/class into reviewed spine or app data (the I/VI accent-collapse lesson). Validation output is a report, not a data edit."
+  },
+
+  "conventions": {
+    "accent_position_values": {
+      "barytone": "lexical udātta NOT on the stem-final syllable (PWG key2: '/' not after the last stem vowel), e.g. áṃśa, svásṛ, rā́jan, mánas",
+      "oxytone": "lexical udātta on the stem-final syllable (key2 '/' after the last stem vowel), e.g. agní, devá, senā́, pitṛ́, adánt, ātmán",
+      "monosyllable": "stem of one syllable (vāc, dhī, bhū, pad, nāu); accent position is trivially final — Whitney treats these as their own accentual class (§§316–317)",
+      "unmarked": "no '/' in key2 (Classical entry) — no prediction possible; axis value '—'"
+    },
+    "case_slot_values": {
+      "stem": "accent on the lexically accented stem syllable (barytone anchor)",
+      "stem_final": "accent on the stem-final syllable, in whatever ablaut grade it surfaces (agní-, pitár-/pitā́r-, adánt-)",
+      "ending": "accent on (the first syllable of) the case ending",
+      "first_syllable": "accent on the first syllable of the word (vocative rule)",
+      "fused": "stem-final vowel and ending vowel have coalesced into one syllable, which carries the accent — acute on plain vowel-blend (dattā́s), svarita on semivowelization (nadyàs, -dhyàm; §§83–4, 316a, 352)",
+      "conditional": "value depends on a morphophonemic alternation inside the slot — see the rule's condition field",
+      "variant": "Whitney himself licenses/attests both positions — see the rule's interpretation block"
+    },
+    "tone_note": "Primary comparandum is accent POSITION (which syllable). Tone quality (udātta vs independent svarita) is annotated only where Whitney derives it mechanically: semivowelization yields svarita (§§83–4 via §316a, §352, §356b)."
+  },
+
+  "case_slots": {
+    "strong": {
+      "masc_fem": ["N.sg", "A.sg", "N.du", "A.du", "N.pl"],
+      "whitney": "§311a — 'the five cases whose endings are never accented: 316a'",
+      "note": "V.du and V.pl are listed with the nominative in Whitney's paradigms (§314f) but obey the vocative rule, not the strong-case rule."
+    },
+    "middle": {
+      "masc_fem": ["I.du", "D.du", "Ab.du", "I.pl", "D.pl", "Ab.pl", "L.pl"],
+      "whitney": "§311a — weak cases with consonant-initial endings (bhyām, bhis, bhyas, su)"
+    },
+    "weakest": {
+      "masc_fem": ["I.sg", "D.sg", "Ab.sg", "G.sg", "L.sg", "G.du", "L.du", "G.pl", "A.pl"],
+      "whitney": "§311a — weak cases with vowel-initial endings (ā, e, as, i, os, ām; plus A.pl as/n which patterns with the weak cases)",
+      "note": "A.pl is a weak case for accent (§316a lists only N.pl among the five never-accented endings) but is the systematically deviant slot in monosyllables — see R05/D1."
+    },
+    "neuter_remap": {
+      "N.A.pl": "strong",
+      "N.A.du": "weakest",
+      "N.A.sg": "middle",
+      "whitney": "§311b — validator MUST remap neuter forms before scoring"
+    },
+    "vocative": {
+      "all": ["V.sg", "V.du", "V.pl"],
+      "whitney": "§314 — its own regime, outside the strong/weak system"
+    },
+    "vowel_stem_note": "For monosyllabic stems the middle/weakest distinction is inert: §317 'without distinction of middle and weakest'. For polysyllabic vowel stems mobility is driven by syllabicity of the stem-final, not by the middle/weakest split."
+  },
+
+  "schemes": {
+    "a": "fixed, non-final — accent stays on the lexically accented (non-final) stem syllable through the whole inflection (§315). Zaliznyak-a analog.",
+    "b": "columnar-final — accent stays on the stem-final syllable in all its grades; it surfaces on the ending/fused syllable only where that final loses or merges its syllabicity (fusion §316a, semivowelization §319, syncope §318c/§423, ṛ→r §372), plus the Vedic gen.pl in -nā́m (§319a). Zaliznyak-b analog (ending-tending oxytone).",
+    "c": "fully mobile (hysterodynamic) — strong cases on the stem, ALL weak cases on the ending (§317, §390, §350). The monosyllabic type. Nearest Zaliznyak analog: c/f mobile classes.",
+    "d": "weakest-mobile (proterokinetic edge) — strong AND middle cases on the stem(-final); ONLY the weakest cases shift to the ending (§318, §423, §446).",
+    "f": "lexically irregular — accent behavior is a property of the lemma, not the class (gó §361c, nṛ́ §372, śván/yúvan §427, the §390a/b lists); see lexical_exceptions.",
+    "mapping_note": "Sanskrit case-mobility is quality-driven (strong/middle/weakest), not number-driven like Russian (sg vs pl), so Zaliznyak's six letters over-specify: a/b/c/d/f above are the honest native inventory. Letters keep Zaliznyak's SPIRIT (a=fixed-stem, b=ending-tending, c/d=mobile, f=irregular) so the ZALIZNYAK_INDEX token stays one char."
+  },
+
+  "rules": [
+    {
+      "rule_id": "R01",
+      "name": "Vocative — first syllable, only when initial",
+      "whitney": ["§314a", "§314b", "§314c", "§314d", "§314e", "§314f"],
+      "applies_to": {"stem_classes": ["all"], "accent_position": ["any"]},
+      "accent": {"vocative": "first_syllable"},
+      "condition": "Accented ONLY at the beginning of a sentence / metrical division (pāda); elsewhere accentless-enclitic (§314c). A qualifier phrase forms one accentual unit with its vocative (§314d); coordinate vocatives at pāda-start are each accented (§314e). Vedic split-semivowel vocatives take the accent on the first vowel element, surfacing as circumflex on the written syllable (dyāùs, §314b).",
+      "encoded_behavior": "voc = first_syllable if pāda/sentence-initial, else no accent. 'As a rule without exception' (§314a).",
+      "scheme": null,
+      "examples": ["ágne (voc. of agní)", "pítar (voc. of pitṛ́, §373)", "dā́tar (voc. of dātṛ́)", "ā́tman (voc. of ātmán, §424)"],
+      "interpretation": {
+        "issue": "Is the vocative part of the paradigm's mobility scheme?",
+        "decision": "No — encoded as an independent positional slot; the scheme letters ignore it. The validator must exclude non-pāda-initial vocatives entirely (they are unaccented by syntax, not by paradigm).",
+        "rationale": "§314c makes accentedness a function of sentence position (enclisis), which no per-lemma scheme can carry; §314f shows Whitney himself brackets the vocative out of his paradigm accent statements.",
+        "rejected_alternative": "Folding vocative into the strong-case row — rejected because it would score every mid-pāda unaccented vocative as a rule failure."
+      },
+      "exceptions": []
+    },
+    {
+      "rule_id": "R02",
+      "name": "Barytone polysyllables — accent fixed throughout",
+      "whitney": ["§315"],
+      "applies_to": {"stem_classes": ["T1", "T2", "T3", "T4", "T5", "T6", "T7", "T8n", "T8i", "T8s", "T8t", "T8c", "T8√ (polysyllabic)"], "accent_position": ["barytone"]},
+      "accent": {"strong": "stem", "middle": "stem", "weakest": "stem", "vocative": "first_syllable"},
+      "encoded_behavior": "If the stem is accented on the penult or further back, the accent remains on that syllable through the whole inflection (vocative aside). This is the default that removes ~all barytone lemmas from the mobility question.",
+      "scheme": "a",
+      "examples": ["sárpant → sárpantam, sárpatā", "vā́ri", "bhágavant", "sumánas", "sahásravāja (§315)", "svásṛ → svásāram, svásrā, svásṝṇām (§373)", "rā́jan → rā́jñā, rā́jñām (§424)", "bhávant → bhávatā, bhávatām (§447)", "marút-type barytones"],
+      "interpretation": null,
+      "exceptions": ["A few numeral stems deviate: §315a → §483 (out of nominal-lexicon scope; numerals excluded from the axis)."]
+    },
+    {
+      "rule_id": "R03",
+      "name": "Strong-case endings never attract the accent; fusion is phonology, not mobility",
+      "whitney": ["§316a", "§83–84 (by reference)"],
+      "applies_to": {"stem_classes": ["all"], "accent_position": ["oxytone", "monosyllable"]},
+      "accent": {"strong": "stem_final", "overrides": {"on_vowel_coalescence": "fused"}},
+      "encoded_behavior": "N/A.sg, N/A.du, N.pl endings are accented ONLY when stem-final vowel + ending vowel merge into one syllable: plain blend keeps the acute (dattá+as → dattā́s, dattá+āu → dattāú), semivowelization yields independent svarita (nadī́+as → nadyàs, nadī́+āu → nadyāù).",
+      "scheme": null,
+      "examples": ["dattā́s, dattāú (from dattá)", "nadyàs, nadyāù (from nadī́)"],
+      "interpretation": {
+        "issue": "Are fused forms 'ending-accented'?",
+        "decision": "Encoded as their own value 'fused' with tone derived from mechanism (acute on blend, svarita on semivowelization), kept distinct from true mobility.",
+        "rationale": "§316a derives these purely from sandhi of stem+ending; calling them mobility would make immobile b-stems look mobile in exactly the strong cases Whitney says never shift. The validator scores the surface syllable position, which 'fused' predicts exactly.",
+        "rejected_alternative": "accent='ending' for fused strong cases — rejected: it misstates Whitney's system and would corrupt the scheme assignment (b-stems misread as c)."
+      },
+      "exceptions": []
+    },
+    {
+      "rule_id": "R04",
+      "name": "Weak-ending accentability gradient (framing rule)",
+      "whitney": ["§316b"],
+      "applies_to": {"stem_classes": ["all"], "accent_position": ["oxytone", "monosyllable"]},
+      "accent": {"middle": "conditional", "weakest": "conditional"},
+      "encoded_behavior": "Vowel-initial (weakest) endings take the accent more readily than consonant-initial (middle) endings: nāvā́ AND nāubhís (monosyllable: both shift) vs mahatā́ BUT mahádbhis (polysyllable: only weakest shifts). Not an operative rule itself — it licenses the c vs d split that R05/R10 operationalize.",
+      "scheme": null,
+      "examples": ["nāvā́, nāubhís (nāús)", "mahatā́, mahádbhis (mahánt)"],
+      "interpretation": null,
+      "exceptions": []
+    },
+    {
+      "rule_id": "R05",
+      "name": "Monosyllabic stems — ending accented in ALL weak cases",
+      "whitney": ["§317", "§317a"],
+      "applies_to": {"stem_classes": ["T4/T6 (monosyllabic ī/ū)", "T8√ (monosyllabic consonant)", "diphthong stems §361"], "accent_position": ["monosyllable"]},
+      "accent": {"strong": "stem", "middle": "ending", "weakest": "ending", "vocative": "first_syllable", "overrides": {"A.pl": "variant — default stem, lexical minority ending (D1)"}},
+      "encoded_behavior": "The accent falls upon the ending in all the weak cases, middle and weakest alike: nāvā́, nāubhyā́m, nāvā́m, nāuṣú; vācí, vāgbhís, vācā́m, vākṣú.",
+      "scheme": "c",
+      "examples": ["nāús: nāvā́, nāubhís, nāuṣú (§317, §361a)", "vā́c: vācā́, vāgbhís, vākṣú (§317, §391)", "pád: padā́, padbhís, patsú (§391)", "dhī́: dhiyā́, dhībhís, dhīṣú (§351)"],
+      "interpretation": {
+        "issue": "D1 — the accusative plural. §317 makes A.pl a weak case (→ ending), but §317a: 'in the acc. pl. the stem is even oftener accented than the ending, some words also admitting either accentuation'; §390a gives the ending-accenting minority ('hardly more than a third'); §361a says nāú A.pl is like the nominative.",
+        "decision": "Default A.pl = stem (nom-like); the §390a lemma list overrides to ending (datás, pathás, padás, nidás, apás, uṣás, jñāsás, puṁsás, māsás, mahás) or to free variation (vācás/vā́cas, srucás, hrutás, sridhás, kṣapás, vipás, durás, iṣás, dviṣás, druhás). Both lists carried in lexical_exceptions.",
+        "rationale": "Whitney's own quantified qualification beats his own headline rule: a majority-stem default mispredicts a minority; an ending default would mispredict ~2/3 of stems. The variation lemmas must score EITHER position as correct.",
+        "rejected_alternative": "Uniform A.pl = ending per bare §317 — rejected as directly contradicted by §317a/§390a/§361a."
+      },
+      "exceptions": ["Retainers that keep stem accent through the weak cases: gó (§361c), dyó (§361d), nṛ́/stṛ́ (§372), śván/yúvan (§427), monosyllabic ā-root-stems (§350) — see lexical_exceptions and R07.", "Sporadic stem-accented weak forms + ending-accented strong forms: §390b list."]
+    },
+    {
+      "rule_id": "R06",
+      "name": "Monosyllabic ī/ū-stems — monosyllabic accent, A.pl like nominative",
+      "whitney": ["§350", "§349", "§351 (paradigm)"],
+      "applies_to": {"stem_classes": ["T4/T6 (monosyllabic)"], "accent_position": ["monosyllable"]},
+      "accent": {"strong": "stem", "middle": "ending", "weakest": "ending", "vocative": "first_syllable", "overrides": {"A.pl": "stem (= nom: dhíyas, bhúvas)", "G.pl": "variant — dhiyā́m and dhīnā́m both (§351)", "optional_fuller_endings": "ending (dhiyāí, dhiyā́s, dhiyā́m loc.; later language only — §349: never in the Veda except bhiyāí RV once)"}},
+      "encoded_behavior": "ī→iy, ū→uv before vowel endings with the ending accented (dhiyā́, bhuvā́); middle cases ending-accented (dhībhís, bhūbhyás, dhīṣú); A.pl = nominative (dhíyas); G.pl freely dhiyā́m or dhīnā́m.",
+      "scheme": "c",
+      "examples": ["dhī́s, dhíyam, dhiyā́, dhiyé, dhiyás, dhiyí; dhībhyā́m, dhiyós; dhíyas, dhībhís, dhiyā́m/dhīnā́m, dhīṣú (§351)", "bhū́s, bhúvam, bhuvā́ … bhūṣú (§351)"],
+      "interpretation": {
+        "issue": "D11 — §351's paradigm accents A.sg dhíyam/bhúvam on the STEM while I.sg dhiyā́ shifts; and the du./pl. N.A. dhíyāu/dhíyas are stem-accented. Is A.sg weak here?",
+        "decision": "A.sg/A.du/N.pl/A.pl encoded stem-accented exactly as printed (strong cases + the A.pl=nom rule); only I/D/Ab-G/L sg, G-L du, G.pl and the middle cases shift.",
+        "rationale": "The §351 paradigm is explicit per form; §350's 'all the weak cases except the accus. pl.' confirms. A.sg is a strong case (§311a) so it never shifted to begin with.",
+        "rejected_alternative": "Treating every non-N.sg form of a monosyllable as ending-accented — rejected against the printed paradigm."
+      },
+      "exceptions": ["Fuller singular endings āi/ās/ām are post-Vedic (§349) — the RV validator must not expect them."]
+    },
+    {
+      "rule_id": "R07",
+      "name": "Monosyllabic ā-root-stems — accent fixed on the stem",
+      "whitney": ["§350", "§351 (jā́ paradigm)"],
+      "applies_to": {"stem_classes": ["T2 (monosyllabic root-ā)"], "accent_position": ["monosyllable"]},
+      "accent": {"strong": "stem", "middle": "stem", "weakest": "stem", "vocative": "first_syllable"},
+      "encoded_behavior": "Against the general monosyllabic rule, ā-stems keep the accent on the stem throughout: jā́, jā́m, jā́ (I.sg), jé, jás, jí; jā́bhis, jā́su, jā́nām.",
+      "scheme": "a",
+      "examples": ["jā́ f. progeny: jā́bhis, jā́su, jā́nām (§351)"],
+      "interpretation": {
+        "issue": "§350 hedges: 'the ā-stems APPEAR (the instances are extremely few) to keep the accent upon the stem throughout'; §351a admits the jā́ paradigm is 'rather arbitrarily extended' from four attested cases.",
+        "decision": "Encode fixed-stem (scheme a) but confidence=low; flag the whole cell as thin-evidence so a validation miss here downgrades the cell, not the ruleset.",
+        "rationale": "It is Whitney's stated best reading of the evidence; the alternative has zero textual support.",
+        "rejected_alternative": "Assimilating ā-monosyllables to the c-scheme of dhī́/bhū́ — rejected: contradicts §350's explicit exception, though only weakly attested."
+      },
+      "exceptions": []
+    },
+    {
+      "rule_id": "R08",
+      "name": "Root-final ī/ū as last member of a compound — accent never thrown forward",
+      "whitney": ["§352", "§320", "§356b (svarita mechanics)"],
+      "applies_to": {"stem_classes": ["T4/T6 (root-compound)"], "accent_position": ["oxytone (on the final member)"]},
+      "accent": {"strong": "stem_final", "middle": "stem_final", "weakest": "stem_final", "vocative": "first_syllable", "overrides": {"on_semivowelization": "the y/v syllable is circumflex (svarita): -dhyà-, -bhvà- (§352)"}},
+      "encoded_behavior": "Compounds in -dhī́, -bhū́ etc. retain the accent throughout; when ī/ū is written as y/v the resulting syllable is svarita (-dhyàm, -bhvā̀); the dissyllabic writing (-dhíyam, -bhúvam) keeps the acute on the stem vowel. G.pl -dhíyām/-dhī́nām stays on the stem either way.",
+      "scheme": "a",
+      "examples": ["-dhī́s, -dhíyam/-dhyàm, -dhíyā/-dhyā̀ … -dhī́ṣu (§352)", "-bhū́s, -bhúvā/-bhvā̀ … -bhū́ṣu (§352)"],
+      "interpretation": {
+        "issue": "In the Veda the y/v spellings are 'only graphic' — always read dissyllabically (§352b).",
+        "decision": "Predict acute-on-stem-vowel for the Vedic validator (dissyllabic reading), svarita spelling accepted as an orthographic equivalent of the same position.",
+        "rationale": "§352b says the two forms differ only graphically in the Veda; position, the primary comparandum, is identical.",
+        "rejected_alternative": "Scoring svarita-written forms as a different accent position — rejected: penalizes orthography, not grammar."
+      },
+      "exceptions": []
+    },
+    {
+      "rule_id": "R09",
+      "name": "Polysyllabic oxytone consonant stems — DEFAULT is columnar (no shift)",
+      "whitney": ["§318 (head)", "§391 (marút paradigm)"],
+      "applies_to": {"stem_classes": ["T8√ (polysyllabic)", "T8s", "T8i"], "accent_position": ["oxytone"]},
+      "accent": {"strong": "stem_final", "middle": "stem_final", "weakest": "stem_final", "vocative": "first_syllable"},
+      "encoded_behavior": "'Of polysyllabic stems ending in consonants, only a few shift the accent' — so the default is NO mobility: marút keeps ú in every case (marútā, marúte, marútas, marútām, marútsu). Only the R10 groups shift.",
+      "scheme": "b",
+      "examples": ["marút: marútam, marútā, marúdbhis, marútām, marútsu (§391)", "bhiṣáj: bhiṣájam, bhiṣágbhis, bhiṣákṣu (§391a)", "samrā́j (§391a)"],
+      "interpretation": {
+        "issue": "D6 — §318's headline could be read as 'polysyllabic consonant stems shift in the weakest cases', with the list as examples.",
+        "decision": "The §318a–c enumeration is EXHAUSTIVE-by-intent ('Such are:'), everything else columnar; sporadics (§318d) are lexical, not systematic.",
+        "rationale": "§318 head says 'only a few'; the §391 marút paradigm — Whitney's own chosen model of polysyllabic inflection — is fully columnar.",
+        "rejected_alternative": "Weakest-shift for ALL oxytone consonant stems — rejected: contradicts 'only a few' and the marút model; would wrongly predict *marutā́."
+      },
+      "exceptions": ["§318d: 'other sporadic cases will be noticed under the different declensions' — captured per-class (R15 ṛ-stems, R17 an-stems, R18 nt-stems) and per-lemma (lexical_exceptions).", "§318e: adverbially used case-forms may change accent (§1110 ff.) — out of scope."]
+    },
+    {
+      "rule_id": "R10",
+      "name": "The shifting few — weakest-only shift for -ánt participles, mahánt-type, syncopating stems",
+      "whitney": ["§318a", "§318b", "§318c"],
+      "applies_to": {"stem_classes": ["T8t (oxytone participles/adjectives)", "T8n (oxytone, syncopating — detailed in R17)"], "accent_position": ["oxytone"]},
+      "accent": {"strong": "stem_final", "middle": "stem_final", "weakest": "ending", "vocative": "first_syllable"},
+      "encoded_behavior": "Present participles in -ánt/-át (tudatā́, tudatós, tudatā́m BUT tudádbhyām, tudátsu); participle-shaped adjectives (mahatā́, bṛhatás); stems whose accented final syllable syncopates (majjñā́, mūrdhné, dāmnás → §423).",
+      "scheme": "d",
+      "examples": ["tudánt: tudatā́ vs tudátsu (§318a)", "mahánt: mahatā́ vs mahádbhis (§316b, §318b)", "majján: majjñā́ (§318c)"],
+      "interpretation": null,
+      "exceptions": []
+    },
+    {
+      "rule_id": "R11",
+      "name": "Polysyllabic oxytone short-vowel stems (a/i/u) — retain while the final keeps its syllable",
+      "whitney": ["§319"],
+      "applies_to": {"stem_classes": ["T1", "T3", "T5"], "accent_position": ["oxytone"]},
+      "accent": {"strong": "stem_final (fused where blended: dattāú)", "middle": "stem_final", "weakest": "conditional", "vocative": "first_syllable", "overrides": {"weakest_condition": "stem_final if the final vowel keeps syllabic identity (datténa, agnínā, agnáye, dattébhyas, agníbhis); ending/fused if blended (dattāís, dhenāú, agnī́n, dhenū́s) or semivowelized (dhenvā́, jāmyós, bāhvós)", "G.pl": "see R12"}},
+      "encoded_behavior": "Columnar on the final vowel; the only 'movement' is phonological loss of that syllable into the ending.",
+      "scheme": "b",
+      "examples": ["dattá: datténa, dattā́ya, dattébhyas; dattāís (§319)", "agní: agnínā, agnáye, agníbhis; agnī́n (§319)", "dhenú: dhenvā́, dhenāú, dhenū́s (§319)"],
+      "interpretation": null,
+      "exceptions": []
+    },
+    {
+      "rule_id": "R12",
+      "name": "Genitive plural -nā́m — the ending takes the accent for oxytone í/ú/ṛ́ stems (Vedic: always)",
+      "whitney": ["§319a"],
+      "applies_to": {"stem_classes": ["T3", "T5", "T7"], "accent_position": ["oxytone"]},
+      "accent": {"overrides": {"G.pl": "ending (agnīnā́m, dhenūnā́m, pitṝṇā́m)"}},
+      "encoded_behavior": "ām of G.pl 'may, and in the older language always does, take the accent, though separated by n from the stem'. Stems in á do NOT follow (devā́nām keeps the lengthened stem-final) — only numerals do (§483a: saptānā́m, daśānā́m; numerals out of axis scope).",
+      "scheme": null,
+      "examples": ["agnīnā́m, dhenūnā́m, pitṝṇā́m (§319a)", "counter-example: devā́nām (T1 oxytone, stem-final)"],
+      "interpretation": {
+        "issue": "D2 — 'may, and in the older language always does': optional later, obligatory in the Veda.",
+        "decision": "Encode G.pl = ending as the categorical Vedic value (the axis and the validator are Vedic-only); annotate 'later language optional' for any future Classical use.",
+        "rationale": "The validation corpus is the RV; §319a is unambiguous for that register.",
+        "rejected_alternative": "stem_final default with ending as variant — rejected for the Vedic axis; it is the CLASSICAL citation-form convention, not the RV fact."
+      },
+      "exceptions": []
+    },
+    {
+      "rule_id": "R13",
+      "name": "Derivative long-vowel stems (ā/ī/ū) — like short-vowel stems, except G.pl … (the recorded contradiction)",
+      "whitney": ["§320", "§319a (RV ī-stems)", "§356 (paradigm)"],
+      "applies_to": {"stem_classes": ["T2", "T4", "T6 (derivative, polysyllabic)"], "accent_position": ["oxytone"]},
+      "accent": {"strong": "stem_final (fused/svarita per R03)", "middle": "stem_final", "weakest": "stem_final (svarita where semivowelized: nadyàm read nadíam)", "vocative": "first_syllable", "overrides": {"G.pl (T2 ā-stems)": "stem_final (senā́nām) — §320's 'not thrown forward' holds unchallenged for ā-stems", "G.pl (T4/T6 ī/ū-stems)": "variant — primary ending (-īnā́m: bahvīnā́m, §319a 'in RV … usually'); secondary stem_final (-ī́nām: nadī́nām, tanū́nām as printed in §356)"}},
+      "encoded_behavior": "Treatment identical to §319 stems 'save that the tone is not thrown forward upon the ending in gen. plural' (§320) — but Whitney's own §319a and his own §356 paradigm disagree for ī/ū-stems; encoded as a variant cell.",
+      "scheme": "b",
+      "examples": ["senā́ (T2): senā́nām", "bahvī́ (T4 adj.): bahvīnā́m (§319a)", "nadī́, tanū́ (T4/T6): nadī́nām, tanū́nām (§356) — vs the §319a shift"],
+      "interpretation": {
+        "issue": "D3 — the one place the cited sections SELF-CONTRADICT. §320: derivative long-vowel stems do not throw the G.pl accent forward. §319a: 'In RV., even derivative ī-stems show usually the same shift: bahvīnā́m.' §356's own Vedic paradigm prints nadī́nām/tanū́nām (no shift).",
+        "decision": "Variant cell, per-lemma. Primary prediction = ending (-īnā́m) for derivative FEMININE ADJECTIVE ī-stems (bahvī́-type, §355b's accent-shifted feminines); stem_final (-ī́nām) accepted as correct for noun-type lemmas (nadī́, tanū́). The validator scores the cell per-lemma and reports the empirical split — this cell is a measurement target, not a settled rule.",
+        "rationale": "§319a's 'usually' is a frequency claim about RV that Whitney demonstrably did not reconcile with §320 (a later-language-oriented summary) or with his §356 lemma choice. Both positions are Whitney-licensed; forcing one value would mis-score the other sub-class by design.",
+        "rejected_alternative": "(i) Categorical ending per §319a — rejected: contradicted by Whitney's own printed nadī́nām. (ii) Categorical stem per §320 — rejected: contradicted by his explicit RV usage note. A recorded variant with a validation hook is the only faithful encoding."
+      },
+      "exceptions": []
+    },
+    {
+      "rule_id": "R14",
+      "name": "Vedic polysyllabic root-declension ī/ū-stems — columnar with dissyllabic readings",
+      "whitney": ["§355", "§356"],
+      "applies_to": {"stem_classes": ["T4/T6 (Vedic root-declension polysyllables: nadī́-type as inflected in RV)"], "accent_position": ["oxytone (§355b/c: 'all accented on the final')"]},
+      "accent": {"strong": "stem_final", "middle": "stem_final", "weakest": "stem_final (read dissyllabically: nadíam, tanúā; written nadyàm etc. with svarita)", "vocative": "first_syllable", "overrides": {"G.pl": "stem_final as printed (rathī́nām, nadī́nām, tanū́nām) — subject to the R13/D3 variant"}},
+      "encoded_behavior": "The RV inflection of these ~70 ī- and ~dozen ū-stems keeps the acute on the stem-final vowel in its dissyllabic reading throughout; no case-driven mobility.",
+      "scheme": "b",
+      "examples": ["nadī́s, nadíam, nadíā, nadíe, nadías; nadī́bhis, nadī́nām, nadī́ṣu (§356)"],
+      "interpretation": {
+        "issue": "The written text semivowelizes (nadyàm) where the meter demands two syllables; which is the comparandum?",
+        "decision": "Predict the accent on the stem vowel under the dissyllabic reading; treat a svarita on the written contracted syllable as the SAME position (as in R08/D5).",
+        "rationale": "§356b: the contracted spellings 'are written above according to their true phonetic form' — Whitney's own paradigm is given in the dissyllabic reading.",
+        "rejected_alternative": "Scoring written svarita syllables as ending-accented — rejected: orthographic artifact."
+      },
+      "exceptions": []
+    },
+    {
+      "rule_id": "R15",
+      "name": "ṛ-stems — columnar on the final in all grades; ending when ṛ loses syllabicity; G.pl shifts",
+      "whitney": ["§372", "§371", "§373 (paradigms)"],
+      "applies_to": {"stem_classes": ["T7"], "accent_position": ["oxytone"]},
+      "accent": {"strong": "stem_final (in guṇa/vṛddhi grade: pitáram, dātā́ram)", "middle": "stem_final (pitṛ́bhis, dātṛ́bhyām)", "weakest": "ending where ṛ → r (pitrā́, pitré, pitrós; dātrā́, dātré); Ab-G.sg -úr carries it on the ur syllable (pitúr, dātúr); L.sg on the ári syllable (pitári, dātári)", "vocative": "first_syllable (pítar, dā́tar)", "overrides": {"G.pl": "ending (pitṝṇā́m, dātṝṇā́m; §372 'in the Veda always')"}},
+      "encoded_behavior": "'If on the final of the stem, [the accent] continues, as acute, on the corresponding syllable throughout' — read as: the stem-final SYLLABLE in whatever grade — 'except in the gen. pl.' and 'where, in the weakest cases, ṛ becomes r, the ending has the accent.'",
+      "scheme": "b",
+      "examples": ["pitṛ́: pitā́, pitáram, pitrā́, pitúr, pitári, pitṛ́bhis, pitṝṇā́m, pitṛ́ṣu (§373)", "dātṛ́: dātā́, dātā́ram, dātrā́, dātúr, dātári, dātṛ́bhis, dātṝṇā́m (§373)", "barytone contrast: svásā, svásāram, svásrā, svásur, svásṝṇām (scheme a, R02)"],
+      "interpretation": {
+        "issue": "D8 — what is the 'corresponding syllable' when the stem-final surfaces as ar/ār/ur/ári?",
+        "decision": "The stem-final syllable under ablaut: pitá-ram, dātā́-ram, pitú-r, pitá-ri all count as stem_final; only true desyllabification (ṛ→r before vowel) hands the accent to the ending.",
+        "rationale": "The §373 paradigms accent exactly the graded final syllable in every strong/middle form; treating 'corresponding syllable' as a fixed segment would leave those forms unpredicted.",
+        "rejected_alternative": "Reading Ab-G.sg pitúr / L.sg pitári as ending-accented — rejected as a false mobility signal: -ur/-ari CONTAIN the stem-final r; Whitney presents them as the acute 'continuing'. Validator note: for these two slots position-scoring is insensitive to the choice; the encoding matters only for scheme assignment."
+      },
+      "exceptions": ["nṛ́ and stṛ́ 'do not show the monosyllabic accent': nṛ́bhis, nṛ́ṣu — middle cases stay on the stem; but G.pl nṛṇā́m (Veda; also narā́m §371h,i). stṛ́ defective (§371k).", "usṛ́: gen. usrás, acc.pl usrás, loc. usrā́m — analogic to ī/ū-stems (§371j)."]
+    },
+    {
+      "rule_id": "R16",
+      "name": "Consonant monosyllables — the §317 rule restated, with the A.pl carve-out",
+      "whitney": ["§390", "§390a", "§390b", "§391 (paradigms)"],
+      "applies_to": {"stem_classes": ["T8√ (monosyllabic)"], "accent_position": ["monosyllable"]},
+      "accent": {"strong": "stem", "middle": "ending", "weakest": "ending", "vocative": "first_syllable", "overrides": {"A.pl": "variant — default stem; §390a minority list = ending; §390a second list = free variation (D1)"}},
+      "encoded_behavior": "vā́c-model: vā́k, vā́cam, vācā́, vācé, vācás, vācí; vāgbhyā́m, vācós; vā́cas, vācás/vā́cas (A.pl), vāgbhís, vācā́m, vākṣú. pád adds stem gradation (pā́dam vs padā́) without changing the accent rule.",
+      "scheme": "c",
+      "examples": ["vā́c (§391)", "pád (§391)", "dvíṣ: dviḍbhís, dviṭsú (§391e)", "víś: viḍbhís, viṭsú (§391d)"],
+      "interpretation": {
+        "issue": "Same D1 as R05 (A.pl); plus §390b's two-way leak list.",
+        "decision": "As R05/D1. The §390b sporadics (weak-case stem accents sádā, tánā, ráṇe, kṣámi, sū́rā …; strong-case ending accents mahás N.pl, kāsám; preṣā́ mis-parsed as simple stem) are carried as lexical_exceptions, never generalized.",
+        "rationale": "Whitney marks them 'exceptional instances' — per-lemma noise, exactly what the exception registry is for.",
+        "rejected_alternative": "Deriving sub-rules from §390b (e.g. 'infinitive datives retain') — rejected: over-fitting a list Whitney himself presents as unsystematic."
+      },
+      "exceptions": ["Full §390a/§390b lemma lists in lexical_exceptions.", "añc-stem accent anomalies flagged to §410 (out of cited scope; see matrix T8c)."]
+    },
+    {
+      "rule_id": "R17",
+      "name": "an/man/van-stems — the accent follows the surviving suffix syllable",
+      "whitney": ["§423", "§421", "§424a", "§425 (Vedic)", "§426", "§427"],
+      "applies_to": {"stem_classes": ["T8n"], "accent_position": ["oxytone (accented suffix á: ātmán, mūrdhán, majján)"],
+        "note": "barytones (rā́jan, nā́man, bráhman) are plain R02/scheme a: rā́jñā, rā́jñām keep the root accent"},
+      "accent": {"strong": "stem_final (the lengthened suffix: ātmā́nam, mūrdhā́nam)", "middle": "stem_final (ātmábhis, mūrdhábhis)", "weakest": "conditional", "vocative": "first_syllable (ā́tman)", "overrides": {"weakest_condition": "if the suffix á is syncopated → ending (mūrdhnā́, mūrdhné, mūrdhnás, mūrdhnā́m, majjñā́, dāmnás); if the a is retained (obligatory after consonant clusters §421b, usual in the Veda §425b/f, optional in loc.sg §421b) → the suffix syllable keeps it (ātmánā, ātmáni, mūrdháni, bhū́manā-type only when barytone)", "N.A.du.n": "weakest slot; a-retention optional (§421a)"}},
+      "encoded_behavior": "Mobility is not a property of the case but of the syncope: 'when, in the weakest cases, an acute á of the suffix is lost, the tone is thrown forward upon the ending' (§423).",
+      "scheme": "d",
+      "examples": ["ātmán: ātmā́, ātmā́nam, ātmánā (a retained), ātmáni; ātmábhis, ātmánām (§424)", "mūrdhán: mūrdhnā́, mūrdhné, mūrdhnás, mūrdhnā́m; loc. mūrdhní OR mūrdháni (§424a)", "majján → majjñā́ (§318c)"],
+      "interpretation": {
+        "issue": "D7 — the same case slot (e.g. I.sg) is stem-accented in ātmánā but ending-accented in mūrdhnā́; and the Veda usually keeps the a (§425b/f) where the later language drops it.",
+        "decision": "Encode the weakest slot as CONDITIONAL on syncope, with both surface shapes predicted; the validator matches whichever shape the attested form shows and scores the accent for THAT shape. G.pl ātmánām (a retained, §424) vs mūrdhnā́m (syncopated) both follow automatically.",
+        "rationale": "§423 states the condition explicitly; a per-case constant cannot be faithful. §425f: retained-a weakest forms (bhū́manā, dā́mane, ukṣáṇas) are common in the Veda — a syncope-blind rule would fail exactly there.",
+        "rejected_alternative": "weakest=ending across T8n oxytones — rejected: wrong for every retained-a form (ātmánā, mūrdháni), i.e. for the STATISTICALLY DOMINANT Vedic shapes."
+      },
+      "exceptions": ["śván/yúvan: weakest stems contract to śún/yū́n WITH RETAINED accent: śúnā, śúne, yū́nā (§427) — lexical.", "§426 non-lengthening lemmas (pūṣán, aryamán, ukṣán, yóṣan, vṛ́ṣan, tmán): stem shape differs, accent rule unaffected (pūṣṇā́ follows syncope rule).", "§425e abbreviated instrumentals (mahinā́, variṇā́ …): accent on ending, consistent with syncope.", "§425g vocatives in -vas: voc rule unaffected."]
+    },
+    {
+      "rule_id": "R18",
+      "name": "nt-participles — weakest-only shift; strong/weak collapse for reduplicating stems",
+      "whitney": ["§446", "§446a", "§444", "§447 (paradigms)", "§448", "§445"],
+      "applies_to": {"stem_classes": ["T8t (present/aorist/future participles in -ánt/-át; mahánt-type adjectives via §318b)"], "accent_position": ["oxytone"]},
+      "accent": {"strong": "stem_final (adántam, adántāu, adántas)", "middle": "stem_final (adádbhis, adátsu)", "weakest": "ending (adatā́, adaté, adatás, adatós, adatā́m)", "vocative": "first_syllable (ádan)", "overrides": {"N.A.du.n": "ántī if n retained, atī́ if lost (§446a); same for the fem. stem", "N.A.pl.n": "strong (adánti)"}},
+      "encoded_behavior": "'Stems accented on the final syllable throw the accent forward upon the case-ending in the weakest cases (not in the middle also).' Barytone participles (bhávant) and the n-less reduplicating type (júhvat, §444 — accent on the reduplication, hence barytone) are scheme a with NO strong/weak stem distinction for the latter.",
+      "scheme": "d",
+      "examples": ["adánt: adatā́, adaté, adatās, adatā́m vs adádbhis, adátsu (§447)", "tudánt: tudatā́, tudatós vs tudátsu (§318a)", "bhávant: bhávatā, bhávatām (a)", "júhvat: júhvatā, júhvatām (a; §444/§447)"],
+      "interpretation": {
+        "issue": "§448 flags Vedic anomalies (acodáte, rathirāyátām, vāghádbhis) — middle/weakest forms accented against the rule.",
+        "decision": "Carried as attested lexical anomalies (validator: whitelist, do not fail the rule on these three); rule kept categorical otherwise since §448 calls deviations 'few'.",
+        "rationale": "Three tokens against a whole class; Whitney's own framing ('The Vedic deviations … are few').",
+        "rejected_alternative": "Weakening the rule to 'usually' — rejected: destroys testability for the sake of three forms."
+      },
+      "exceptions": ["§448 list above.", "mahánt: strong stem mahā́nt- (§450b via §311a); accent behavior identical to this rule (§318b)."]
+    }
+  ],
+
+  "matrix": [
+    {"cell": "T1·barytone", "example": "áṃśa", "scheme": "a", "rule_ids": ["R02"], "per_case": {"strong": "stem", "middle": "stem", "weakest": "stem", "V": "first_syllable"}, "confidence": "high"},
+    {"cell": "T1·oxytone", "example": "devá, dattá", "scheme": "b", "rule_ids": ["R11", "R03"], "per_case": {"strong": "stem_final/fused", "middle": "stem_final", "weakest": "stem_final; fused where blended (dattāís)", "G.pl": "stem_final (devā́nām — §319a excludes á-stems)", "V": "first_syllable"}, "confidence": "high"},
+    {"cell": "T2·barytone", "example": "svásā-type ā-stems", "scheme": "a", "rule_ids": ["R02"], "per_case": {"strong": "stem", "middle": "stem", "weakest": "stem", "V": "first_syllable"}, "confidence": "high"},
+    {"cell": "T2·oxytone", "example": "senā́", "scheme": "b", "rule_ids": ["R13", "R03"], "per_case": {"strong": "stem_final/fused", "middle": "stem_final", "weakest": "stem_final (y-inserted singular endings included)", "G.pl": "stem_final (senā́nām, §320)", "V": "first_syllable"}, "confidence": "medium", "notes": "ā-stem detail §§362–368 not among the cited sections; cell derived from §320's 'same as short vowels save gen.pl'. Validate."},
+    {"cell": "T2·monosyllable (root-ā)", "example": "jā́", "scheme": "a", "rule_ids": ["R07"], "per_case": {"strong": "stem", "middle": "stem", "weakest": "stem", "V": "first_syllable"}, "confidence": "low", "notes": "§350 hedged, §351a 'arbitrarily extended' — thin evidence by Whitney's own admission."},
+    {"cell": "T3/T5·barytone", "example": "pá-ti-type", "scheme": "a", "rule_ids": ["R02"], "per_case": {"strong": "stem", "middle": "stem", "weakest": "stem", "V": "first_syllable"}, "confidence": "high"},
+    {"cell": "T3/T5·oxytone", "example": "agní, dhenú", "scheme": "b", "rule_ids": ["R11", "R12", "R03"], "per_case": {"strong": "stem_final/fused (agnī́n)", "middle": "stem_final (agníbhis)", "weakest": "stem_final while syllabic (agnínā, agnáye); ending when semivowelized (dhenvā́, bāhvós)", "G.pl": "ending (agnīnā́m — Vedic categorical, D2)", "V": "first_syllable"}, "confidence": "high"},
+    {"cell": "T4/T6·monosyllable", "example": "dhī́, bhū́", "scheme": "c", "rule_ids": ["R06", "R05"], "per_case": {"strong": "stem (dhíyam, dhíyāu, dhíyas)", "middle": "ending (dhībhís, dhīṣú)", "weakest": "ending (dhiyā́, dhiyé)", "A.pl": "stem (= nom, D1)", "G.pl": "variant dhiyā́m/dhīnā́m", "V": "first_syllable"}, "confidence": "high"},
+    {"cell": "T4/T6·oxytone (derivative/Vedic polysyllable)", "example": "nadī́, bahvī́, tanū́", "scheme": "b", "rule_ids": ["R14", "R13"], "per_case": {"strong": "stem_final (svarita under written contraction)", "middle": "stem_final (nadī́bhis)", "weakest": "stem_final in dissyllabic reading (nadíam)", "G.pl": "VARIANT — ending for bahvī́-type adjectives (§319a) vs stem_final for noun-type (§356); D3, the recorded Whitney self-contradiction", "V": "first_syllable"}, "confidence": "medium", "notes": "The devī́-declension proper (§§362–364) is outside the cited sections; the Vedic root-declension inflection (§§355–356) is what RV validation will actually meet."},
+    {"cell": "T4/T6·root-compound", "example": "-dhī́, -bhū́ compounds", "scheme": "a", "rule_ids": ["R08"], "per_case": {"strong": "stem_final", "middle": "stem_final", "weakest": "stem_final (svarita when written contracted)", "G.pl": "stem_final", "V": "first_syllable"}, "confidence": "high"},
+    {"cell": "T4/T6·barytone", "example": "dévī-type barytones", "scheme": "a", "rule_ids": ["R02"], "per_case": {"strong": "stem", "middle": "stem", "weakest": "stem", "V": "first_syllable"}, "confidence": "high"},
+    {"cell": "T7·barytone", "example": "svásṛ", "scheme": "a", "rule_ids": ["R02"], "per_case": {"strong": "stem (svásāram)", "middle": "stem (svásṛbhis)", "weakest": "stem (svásrā, svásur)", "G.pl": "stem (svásṝṇām)", "V": "first_syllable"}, "confidence": "high"},
+    {"cell": "T7·oxytone", "example": "pitṛ́, dātṛ́, mātṛ́", "scheme": "b", "rule_ids": ["R15", "R12"], "per_case": {"strong": "stem_final in grade (pitáram, dātā́ram)", "middle": "stem_final (pitṛ́bhis)", "weakest": "ending where ṛ→r (pitrā́, pitrós); stem_final syllable in -úr/-ári (pitúr, pitári — D8)", "G.pl": "ending (pitṝṇā́m)", "V": "first_syllable"}, "confidence": "high"},
+    {"cell": "T8√·monosyllable", "example": "vā́c, pád, dvíṣ", "scheme": "c", "rule_ids": ["R16", "R05"], "per_case": {"strong": "stem", "middle": "ending (vāgbhís)", "weakest": "ending (vācā́, vācí)", "A.pl": "variant — default stem, §390a lists override (D1)", "V": "first_syllable"}, "confidence": "high"},
+    {"cell": "T8 (any subtype)·barytone", "example": "mánas, rā́jan, bhávant, bráhman", "scheme": "a", "rule_ids": ["R02"], "per_case": {"strong": "stem", "middle": "stem", "weakest": "stem", "V": "first_syllable"}, "confidence": "high"},
+    {"cell": "T8√/T8s/T8i·oxytone polysyllable", "example": "marút, bhiṣáj, balín-type", "scheme": "b", "rule_ids": ["R09"], "per_case": {"strong": "stem_final", "middle": "stem_final", "weakest": "stem_final", "V": "first_syllable"}, "confidence": "high for T8√ (marút model §391); medium for T8s/T8i (not separately treated in the cited sections — filled from §318's default per D10)"},
+    {"cell": "T8t·oxytone", "example": "adánt, tudánt, mahánt", "scheme": "d", "rule_ids": ["R18", "R10"], "per_case": {"strong": "stem_final", "middle": "stem_final (adádbhis)", "weakest": "ending (adatā́)", "N.A.du.n": "ántī / atī́ (§446a)", "V": "first_syllable"}, "confidence": "high"},
+    {"cell": "T8n·oxytone", "example": "ātmán, mūrdhán, majján", "scheme": "d", "rule_ids": ["R17", "R10"], "per_case": {"strong": "stem_final (ātmā́nam)", "middle": "stem_final (ātmábhis)", "weakest": "CONDITIONAL on syncope — ending if á lost (mūrdhnā́), suffix syllable if a retained (ātmánā, mūrdháni) (D7)", "V": "first_syllable"}, "confidence": "high"},
+    {"cell": "T8c·oxytone", "example": "pratyáñc-type", "scheme": "d", "rule_ids": ["R10"], "per_case": {"strong": "stem_final", "middle": "stem_final", "weakest": "ending on the contracted stem (pratīcós, §311b example)", "V": "first_syllable"}, "confidence": "low", "notes": "añc-stems (§§407–410) are OUTSIDE the cited sections and §390b flags their accent as 'sometimes anomalous' (§410). Cell filled by analogy with the syncope pattern (D10); validation must treat every miss here as expected-unknown, not rule failure."}
+  ],
+
+  "lexical_exceptions": [
+    {"lemma": "gó", "gloss": "bull/cow", "behavior": "monosyllable that keeps the accent on the stem in ALL weak cases: gávā, gáve, gávi, gávos, gávām, góbhis, góṣu (Vedic G.pl also gónām)", "whitney": "§361c", "scheme": "f"},
+    {"lemma": "dyó/dyú (div)", "gloss": "sky, day", "behavior": "double stem; dyó-forms follow gó (stem-retaining); div-forms take ending accent (divā́, divé, divás, diví); acc. dívam/dyā́m; A.pl divás AND dívas both in V.", "whitney": "§361d, §361e", "scheme": "f"},
+    {"lemma": "nāú", "gloss": "ship", "behavior": "regular monosyllabic c-scheme EXCEPT A.pl said to be like the nominative (nā́vas)", "whitney": "§361a", "scheme": "c"},
+    {"lemma": "rāí", "gloss": "wealth", "behavior": "regular c-scheme; Vedic A.pl rāyás OR rā́yas; brief forms rā́m, rā́s; G.sg sometimes anomalously rā́yas", "whitney": "§361b", "scheme": "c"},
+    {"lemma": "nṛ́", "gloss": "man", "behavior": "does NOT show monosyllabic accent in the middle cases: nṛ́bhis, nṛ́ṣu; weakest per ṛ-rule; G.pl nṛṇā́m (metrically often nṝṇā́m) and frequent narā́m", "whitney": "§372, §371h, §371i", "scheme": "f"},
+    {"lemma": "stṛ́", "gloss": "star", "behavior": "as nṛ́ (stṛ́bhis attested); defective — only tā́ras, stṛ́bhis quotable", "whitney": "§372, §371k", "scheme": "f"},
+    {"lemma": "śván", "gloss": "dog", "behavior": "weakest stem contracts to śún- WITH RETAINED accent: śúnā, śúne (not *śunā́); strong/middle regular barytone", "whitney": "§427", "scheme": "f"},
+    {"lemma": "yúvan", "gloss": "young", "behavior": "weakest stem yū́n- with retained accent: yū́nā; strong/middle regular", "whitney": "§427", "scheme": "f"},
+    {"lemma": "usṛ́", "gloss": "dawn", "behavior": "voc. uṣar; gen. usrás, A.pl usrás, loc. usrā́m — analogic with ī/ū-stems", "whitney": "§371j", "scheme": "f"},
+    {"lemma_group": "§390a A.pl ENDING-accented monosyllables", "lemmas": ["dat", "path", "pad", "nid", "ap", "uṣ", "jñās", "puṁs", "mās", "mah"], "behavior": "A.pl accented on the ending (datás, pathás, padás, nidás, apás, uṣás, jñāsás, puṁsás, māsás, mahás)", "whitney": "§390a"},
+    {"lemma_group": "§390a A.pl FREE-VARIATION monosyllables", "lemmas": ["vāc", "sruc", "hrut", "sridh", "kṣap", "vip", "dur", "iṣ", "dviṣ", "druh"], "behavior": "A.pl sometimes ending-accented beside stem-accented (vācás / vā́cas etc.) — validator must accept both", "whitney": "§390a"},
+    {"lemma_group": "§390b weak-case STEM-accented sporadics", "forms": ["sádā", "nádbhyas", "tánā (beside tanā́)", "táne", "bā́dhe (infin.)", "ráṇe", "ráṅsu", "váṅsu", "sváni", "vípas", "kṣámi", "sū́rā", "sū́ras (but sūré)", "áṅhas", "vánas (in vánaspáti)", "bṛ́has (in bṛ́haspáti)"], "behavior": "isolated weak-case forms with the tone on the stem, against the c-scheme", "whitney": "§390b"},
+    {"lemma_group": "§390b strong-case ENDING-accented sporadics", "forms": ["mahás (N.pl)", "kāsám (AV., 'perhaps a false reading')", "preṣā́ (accented as if simple stem, really pra-íṣ)", "vimṛdháḥ ('of doubtful character')"], "behavior": "isolated strong-case forms accented on the ending", "whitney": "§390b"},
+    {"lemma_group": "§448 nt-participle anomalies", "forms": ["acodáte", "rathirāyátām", "vāghádbhis (if a participle)"], "behavior": "Vedic middle/weakest forms accented against R18 — whitelist, do not fail the rule", "whitney": "§448"},
+    {"lemma_group": "§426 non-lengthening an-stems", "lemmas": ["pūṣán", "aryamán", "ukṣán", "yóṣan", "vṛ́ṣan", "tmán"], "behavior": "no ā-lengthening in strong cases (pūṣáṇam); accent rule (R17) unaffected", "whitney": "§426"},
+    {"lemma_group": "§315a numeral deviants", "behavior": "a few numeral stems deviate from the barytone-fixed rule — numerals excluded from the axis", "whitney": "§315a → §483"}
+  ]
+}
