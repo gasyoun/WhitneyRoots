@@ -5,6 +5,8 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Zalizniak (tiebreaker).**
 
 ## [Unreleased]
+
+## [1.2.0] - 2026-07-03
 ### Added
 - **Accent-axis validation results** (`crosswalk/accent_validation.json` +
   `docs/ACCENT_VALIDATION_REPORT.md`): scored the 18-rule/19-cell Whitney accent-in-declension
