@@ -26,6 +26,27 @@ by_no  = {r['whitney_no']: r for r in spine if 'whitney_no' in r}
 ppp_val_p = P('crosswalk', 'ppp_validation.json')
 ppp_val = json.load(open(ppp_val_p, encoding='utf-8')) if os.path.exists(ppp_val_p) else None
 
+# Corpus PPP attestation counts — from the VisualDCS-derived verbal-forms DB extract (sibling
+# repo, same convention as scripts/dcs; see that repo's dcs_ppp_verified.md). Read-only,
+# graceful fallback: if the sibling isn't present the count column just shows '—'.
+ppp_att_p = os.path.normpath(P('..', 'VisualDCS', 'derived-data', 'Glagolnye-formy',
+                               'Bazadannyh-glagolnyh-form-Korpusa', 'dcs_ppp_verified.tsv'))
+ppp_occ = {}   # (root, form) -> corpus occurrences
+if os.path.exists(ppp_att_p):
+    with open(ppp_att_p, encoding='utf-8') as fh:
+        next(fh, None)   # header
+        for line in fh:
+            p = line.rstrip('\n').split('\t')
+            if len(p) >= 5:
+                try:
+                    ppp_occ[(p[0], p[1])] = ppp_occ.get((p[0], p[1]), 0) + int(p[4])
+                except ValueError:
+                    pass
+
+def ppp_count(root, form):
+    """Corpus occurrences of PPP `form` under bare `root` (None if unattested in the VF-DB extract)."""
+    return ppp_occ.get((root, form))
+
 URGENT = {'473','578','890'}   # [I,VI]-onto-empty: the collapse the revert predicate can't catch
 
 # The corpus-corroborated PPP "mismatches" from scripts/vidyut_validate_ppp.py — each verified by a
@@ -303,20 +324,33 @@ if ppp_val:
                '(the Grammar\'s own Appendix there is only a bhū/kṛ synopsis). So these stay **corpus-corroborated '
                'but grammar-unverifiable → leave for later** (a human / Zalizniak call, or the 1885 supplement). '
                'Revisable via `matched_against == "dcs"`.\n')
-    out.append('| # | root | warnemyr PPP = DCS top | vidyut generates (differs) |')
-    out.append('|--:|---|:-:|:-:|')
+    if ppp_occ:
+        out.append('_`corpus occ` = attestations of the warnemyr/DCS-top PPP form in the VisualDCS '
+                   'verbal-forms DB extract '
+                   '([`dcs_ppp_verified.tsv`](https://github.com/gasyoun/VisualDCS/blob/main/derived-data/Glagolnye-formy/Bazadannyh-glagolnyh-form-Korpusa/dcs_ppp_verified.tsv), '
+                   '5,181 attested PPP forms), matched on bare-root × form; `—` = that exact form is not '
+                   'attested under that root there. Magnitude only — it does not change the "leave for later" '
+                   'verdict (frequency is not a grammatical rule)._\n')
+    out.append('| # | root | warnemyr PPP = DCS top | vidyut generates (differs) | corpus occ |')
+    out.append('|--:|---|:-:|:-:|--:|')
     for x in dcs_flips:
-        out.append('| %s | %s | `%s` | `%s` |'
-                   % (x['whitney_no'], x['root'], x['dcs_top_ppp'] or x['matched_form'],
-                      ','.join(x['vidyut_ppp'])))
+        form = x['dcs_top_ppp'] or x['matched_form']
+        occ = ppp_count(x['root'], form)
+        out.append('| %s | %s | `%s` | `%s` | %s |'
+                   % (x['whitney_no'], x['root'], form, ','.join(x['vidyut_ppp']),
+                      str(occ) if occ is not None else '—'))
     out.append('')
 else:
     out.append('_`crosswalk/ppp_validation.json` not present — run `python scripts/vidyut_validate_ppp.py`._\n')
 
 out.append('### 3c. Open editorial call — √dā `dātta`\n')
+_da = {f: c for (r, f), c in ppp_occ.items() if r == 'dā'}
+_da_ev = ('  \n_Corpus evidence (VF-DB extract): `datta` **%d×**, `dāta` %d×, `dita` %d× — and `dātta` **%d×** '
+          '(the long-ā form is unattested). The attestation backs collapsing to `datta`._'
+          % (_da.get('datta', 0), _da.get('dāta', 0), _da.get('dita', 0), _da.get('dātta', 0))) if ppp_occ else ''
 out.append('Ids **349/350/351 (√dā)** carry `ppp = [data, datta, dātta]` — the script added **`dātta`** while '
            'canonical **`datta`** was already present. `dātta` (long ā) is a non-standard PPP rendering. '
-           '**Decide:** keep `dātta`, or collapse to canonical `datta`.\n')
+           '**Decide:** keep `dātta`, or collapse to canonical `datta`.%s\n' % _da_ev)
 out.append('---\n')
 out.append('## 4. Alias-resolution debt — 9 warnemyr pages unmatched to Whitney numbering\n')
 out.append('Vowel-length / bracketed-gloss cases from Phase 0 (see `crosswalk/_unmatched.csv`): '

@@ -126,22 +126,25 @@ A recorded warnemyr PPP form **is** vidyut-generated once we honour the full com
 
 These cleared the flag because **warnemyr's recorded PPP equals the DCS corpus's most-frequent attested PPP**, while vidyut generates a *different* (usually more regular / Pāṇinian) form. That is an **attestation / usage-frequency** agreement, **not a grammatical rule**. ⚠️ Whitney's *Grammar* at Wikisource (§§952–957, §1051 — which confirm the doublet & causative-PPP rules) **cannot adjudicate these**: a grammar states which forms are *possible*, not which is *most frequent in a corpus*. And the exhaustive per-root form list — Whitney's 1885 supplement *Roots, Verb-Forms, and Primary Derivatives* (which warnemyr mirrors) — **is not on Wikisource** (the Grammar's own Appendix there is only a bhū/kṛ synopsis). So these stay **corpus-corroborated but grammar-unverifiable → leave for later** (a human / Zalizniak call, or the 1885 supplement). Revisable via `matched_against == "dcs"`.
 
-| # | root | warnemyr PPP = DCS top | vidyut generates (differs) |
-|--:|---|:-:|:-:|
-| 65 | uṣ | `uṣṭa` | `uṣita` |
-| 112 | kṛś | `kṛśita` | `kṛśa` |
-| 270 | jyā | `jīta` | `jīna` |
-| 376 | dṛh | `dṛḍha` | `dṛnhita` |
-| 544 | math | `mathita` | `manthita` |
-| 548 | mā | `mita` | `mīta` |
-| 561 | mī | `mīta` | `mīna` |
-| 668 | lag | `lagna` | `lagita` |
-| 790 | śuc | `śukta` | `śucita` |
-| 822 | śvas | `śvasita` | `śvasta` |
+_`corpus occ` = attestations of the warnemyr/DCS-top PPP form in the VisualDCS verbal-forms DB extract ([`dcs_ppp_verified.tsv`](https://github.com/gasyoun/VisualDCS/blob/main/derived-data/Glagolnye-formy/Bazadannyh-glagolnyh-form-Korpusa/dcs_ppp_verified.tsv), 5,181 attested PPP forms), matched on bare-root × form; `—` = that exact form is not attested under that root there. Magnitude only — it does not change the "leave for later" verdict (frequency is not a grammatical rule)._
+
+| # | root | warnemyr PPP = DCS top | vidyut generates (differs) | corpus occ |
+|--:|---|:-:|:-:|--:|
+| 65 | uṣ | `uṣṭa` | `uṣita` | — |
+| 112 | kṛś | `kṛśita` | `kṛśa` | 1 |
+| 270 | jyā | `jīta` | `jīna` | 2 |
+| 376 | dṛh | `dṛḍha` | `dṛnhita` | 10 |
+| 544 | math | `mathita` | `manthita` | 75 |
+| 548 | mā | `mita` | `mīta` | 282 |
+| 561 | mī | `mīta` | `mīna` | 1 |
+| 668 | lag | `lagna` | `lagita` | 170 |
+| 790 | śuc | `śukta` | `śucita` | 10 |
+| 822 | śvas | `śvasita` | `śvasta` | 4 |
 
 ### 3c. Open editorial call — √dā `dātta`
 
-Ids **349/350/351 (√dā)** carry `ppp = [data, datta, dātta]` — the script added **`dātta`** while canonical **`datta`** was already present. `dātta` (long ā) is a non-standard PPP rendering. **Decide:** keep `dātta`, or collapse to canonical `datta`.
+Ids **349/350/351 (√dā)** carry `ppp = [data, datta, dātta]` — the script added **`dātta`** while canonical **`datta`** was already present. `dātta` (long ā) is a non-standard PPP rendering. **Decide:** keep `dātta`, or collapse to canonical `datta`.  
+_Corpus evidence (VF-DB extract): `datta` **1471×**, `dāta` 4×, `dita` 2× — and `dātta` **0×** (the long-ā form is unattested). The attestation backs collapsing to `datta`._
 
 ---
 
