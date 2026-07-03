@@ -5,6 +5,19 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Zalizniak (tiebreaker).**
 
 ## [Unreleased]
+### Added
+- **Accent-axis validation results** (`crosswalk/accent_validation.json` +
+  `docs/ACCENT_VALIDATION_REPORT.md`): scored the 18-rule/19-cell Whitney accent-in-declension
+  table against attested Rig-Veda accents from VedaWeb 2.0 (CC BY 4.0) + Casaretto et al.
+  (2025), joined on PWG `key2` udātta positions. **17 of 19 matrix cells GO (≥90% position
+  accuracy), 1 GO-with-exceptions (T8c·oxytone, 82%, driven by the `samyaYc` lemma), 2
+  measurement-only (thin evidence, 0-1 attested lemmas), 0 NO-GO.** D3 empirical split
+  (G.pl `-īnā́m` vs `-ī́nām`) measured at 2/2 `ending` — too thin to resolve Whitney's own
+  §319a/§356 self-contradiction, flagged for a wider pull. Executed per
+  `docs/ACCENT_VALIDATION_SPEC.md` by Sonnet 5 (`claude-sonnet-5`); fixed a case/number
+  override-lookup bug in the scoring pipeline mid-run (9 of 19 cells had `G.pl`/`N.A.du.n`
+  overrides silently falling back to the generic slot rule) and re-scored all 19 cells from
+  the cached VedaWeb data.
 
 ## [1.1.0] - 2026-07-02
 ### Added

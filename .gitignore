@@ -8,6 +8,7 @@ scratch/phase0/wn_cache/
 scratch/wikisource/
 scratch/vidyut_data/
 scratch/ndswsmp/
+scratch/accent_validation/
 
 # python bytecode
 __pycache__/
