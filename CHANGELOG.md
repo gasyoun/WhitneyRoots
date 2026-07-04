@@ -6,6 +6,27 @@ Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Z
 
 ## [Unreleased]
 
+## [1.3.0] - 2026-07-05
+### Fixed
+- **`T8c·oxytone` samyaYc/anvaYc/SvityaYc exception, resolved as a rule gap** (H115):
+  Whitney §407b + §409b/c + §410 (read in full, previously outside the cell's cited
+  scope) show añc-compounds split into a prā́ñc-type (stem accent retained under
+  contraction) and a pratyáñc-type (accent shifts to the ending under contraction,
+  §410's own examples include `samīcī́`) sub-class; the missing rule was that the
+  feminine declension (§407b: "accented like" the weakest-case stem) inherits the
+  weakest-slot accent in ANY case/number, not just the cell's generic `weakest` slot.
+  Patched `crosswalk/accent_rules.json` (new `lexical_exceptions[]` lemma_group entry)
+  and re-scored `crosswalk/accent_validation.json`: `T8c·oxytone` 82.0% (77/94) →
+  **100.0% (94/94)**; `R10` rollup 95.6% (366/383) → **100.0% (383/383)**. 18/19 matrix
+  cells now score unconditional GO.
+- **D3 G.pl split (`T4/T6·oxytone`) relabeling correction**: the 2 attested forms
+  (`rathī́nām`, `vadhū́nām`) were mislabeled `ending` (`-īnā́m`, §319a) in the original
+  run; both carry the acute on the ī/ū vowel itself, which is the `-ī́nām` `stem_final`
+  pattern (§356) — relabeled in `crosswalk/accent_validation.json`. A wider pull to grow
+  n past 2 was attempted (uncapped full-corpus search vs. the original run's
+  `max_locations` browse cap) but blocked mid-run by a `vedaweb.uni-koeln.de` outage
+  (logged in `Uprava/SERVER_OUTAGES.md`); n remains 2, split still unresolved.
+
 ## [1.2.0] - 2026-07-03
 ### Added
 - **Accent-axis validation results** (`crosswalk/accent_validation.json` +

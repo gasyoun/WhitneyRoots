@@ -1,6 +1,6 @@
 # Accent-axis validation report — Whitney rules vs attested Rig-Veda accents (VedaWeb 2.0)
 
-_Created: 03-07-2026 · Last updated: 03-07-2026_
+_Created: 03-07-2026 · Last updated: 05-07-2026_
 
 **Runner:** Sonnet 5 (`claude-sonnet-5`). **Author of the rules under test:** Fable 5
 (`claude-fable-5`), session S8, 02-07-2026. Executed per
@@ -16,11 +16,16 @@ pāda-initial detection).
 
 ## Headline result
 
-**17 of 19 matrix cells score GO (≥90% position accuracy); 2 are thin-evidence
+**18 of 19 matrix cells score GO (≥90% position accuracy); 2 are thin-evidence
 measurement-only cells with 0 attested lemmas (`T2·monosyllable (root-ā)`,
-`T4/T6·monosyllable`).** No cell scored NO-GO. One low-confidence cell
-(`T8c·oxytone`) is GO-with-exceptions at 82%, driven almost entirely by a single lemma
-(see below). Whitney's formal accent-in-declension table
+`T4/T6·monosyllable`).** No cell scored NO-GO. `T8c·oxytone` — originally
+GO-with-exceptions at 82%, driven almost entirely by `samyaYc` — was resolved to a clean
+100% GO by
+[H115](https://github.com/gasyoun/Uprava/blob/main/handoffs/H115-Sonnet_WhitneyRoots_samyanc_exception_d3_split_03.07.26.md)
+(05-07-2026): the "errors" were a genuine rule gap (feminine/contracted-stem forms of a
+pratyáñc-type añc-compound take the weakest-slot accent, not the strong-slot value),
+not lemma-level noise — see the updated exception section below. Whitney's formal
+accent-in-declension table
 ([crosswalk/accent_rules.json](https://github.com/gasyoun/WhitneyRoots/blob/main/crosswalk/accent_rules.json))
 predicts attested Rig-Veda accent POSITION correctly for the overwhelming majority of
 scoreable forms across every stem class and accent-position combination the sample could
@@ -49,7 +54,7 @@ the 2 thin-evidence cells and the `T8c` exception should be flagged, not blockin
 | T8√/T8s/T8i·oxytone polysyllable | low | 41 | 249 | 249 | 100.0% | measurement (low-confidence per spec) — observed GO |
 | T8t·oxytone | — | 37 | 205 | 205 | 100.0% | GO |
 | T8n·oxytone | — | 32 | 84 | 84 | 100.0% | GO |
-| T8c·oxytone | low | 13 | 94 | 77 | 82.0% | measurement (low-confidence per spec) — observed GO-with-exceptions |
+| T8c·oxytone | low | 13 | 94 | 94 | 100.0% | measurement (low-confidence per spec) — observed GO (resolved by H115, was 82.0%/GO-with-exceptions) |
 
 `n_forms scored` counts only `correct`/`rule_error` verdicts (position-comparable forms).
 Excluded categories (whitelisted exceptions, no morphology, no accent mark, non-initial
@@ -66,7 +71,7 @@ vocatives, unscoreable, conditional-unresolved) are tracked separately per cell 
 | R05 | 67 | 67 | 100.0% |
 | R08 | 68 | 68 | 100.0% |
 | R09 | 249 | 249 | 100.0% |
-| R10 | 383 | 366 | 95.6% |
+| R10 | 383 | 383 | 100.0% (was 366/95.6% before the H115 T8c fix) |
 | R11 | 800 | 776 | 97.0% |
 | R12 | 905 | 886 | 97.9% |
 | R13 | 267 | 267 | 100.0% |
@@ -86,13 +91,37 @@ Whitney's own text licenses both `ending` (`-īnā́m`, bahvī́-type adjectives
 `stem_final` (`-ī́nām`, noun-type, §356) for the genitive plural of this cell — the
 recorded self-contradiction (D3). **The sample surfaced only 2 attested G.pl forms** in
 this cell (RV attestation is sparse for this specific case/number/stem-class
-combination): `raTI` (rathī́ 'charioteer') and `vaDU` (vadhū́ 'bride'), **both resolving to
-the `ending` variant** (`-īnā́m`). This is far too thin (n=2) to settle the split
-empirically — it is directional evidence toward `ending` being at least not rarer than
-`stem_final` for these two lemmas, not a resolution of Whitney's contradiction. A wider
-pull (larger `max_locations` per lemma, or the full RV rather than a capped browse sample)
-is needed before this cell can move past "measurement." Raw counts:
-`{"raTI|ending": 1, "vaDU|ending": 1}`.
+combination): `raTI` (rathī́ 'charioteer') and `vaDU` (vadhū́ 'bride').
+
+**H115 correction (05-07-2026):** the original run's `observed_variant: "ending"` label
+for both forms was a mislabeling, not a genuine `ending`-variant observation. Re-querying
+VedaWeb directly (`POST /api/search`, advanced, resource `66695e4a14f6d337f7788740`,
+`lemma_vedaweb`+`case=GEN`+`number=PL`) reproduces the exact same two RV locations
+(1.11.1, 8.19.36) and forms (`rathī́nām`, `vadhū́nām`) already in the cache — so this is not
+a different attestation, just a re-read of the diacritics. Both forms carry the acute on
+the **ī/ū vowel itself** (ra-**thī́**-nām, va-**dhū́**-nām, `accent_syll_idx=1` of 3), which
+is the `-ī́nām` **`stem_final`** pattern (§356, noun-type) — **not** the `-īnā́m` `ending`
+pattern (§319a, bahvī́-type adjectives), which would require the acute on `-nām`. Both
+lemmas are nouns (rathī́- 'charioteer', vadhū́- 'bride'), consistent with taking the
+noun-type §356 variant rather than the bahvī́-type adjective variant. **Corrected raw
+counts:** `{"raTI|stem_final": 1, "vaDU|stem_final": 1}` (previously mislabeled as
+`ending`).
+
+A wider pull to grow past n=2 (the original mandate of this section) was attempted against
+the same 13 lemmas already sampled in this cell (`asU`, `raTI`, `camU`, `juhU`, `ABU`,
+`vaDU`, `prasU`, `ADI`, `ApaTI`, `nAndI`, `AhU`, `uhU`, `KArI`), querying `case=GEN`+
+`number=PL` directly (an uncapped full-corpus search, not a `max_locations`-limited
+browse). `raTI` returned before `vedaweb.uni-koeln.de` went down mid-session (the same
+flapping host documented in
+[SanskritLexicography/FINDINGS.md §48](https://github.com/gasyoun/SanskritLexicography/blob/master/FINDINGS.md)
+and [Uprava/SERVER_OUTAGES.md](https://github.com/gasyoun/Uprava/blob/main/SERVER_OUTAGES.md));
+the remaining 12 lemmas could not be queried. **n is still 2 — the D3 split remains
+unresolved (measurement-only) — but both attested points are now correctly read as
+`stem_final`, not `ending`,** which is directionally the opposite lean from what the
+original report claimed. Given n=2 either way, this does not settle Whitney's §319a/§356
+contradiction; it only corrects the sign of the (still too-thin) existing evidence. The
+outage-blocked lemma expansion is filed as a follow-up (see Definition of done /
+`.ai_state.md`).
 
 The two other `variant` cells in the matrix: `T4/T6·monosyllable` G.pl (dhiyā́m/dhīnā́m)
 had 0 attested lemmas in the sample (thin-evidence, not reached). `T8√·monosyllable` A.pl
@@ -100,12 +129,12 @@ had 0 attested lemmas in the sample (thin-evidence, not reached). `T8√·monosy
 11 lemmas, all scoring as `variant_observed` (not counted as errors either way, per spec:
 "BOTH listed positions score as correct").
 
-## Exception candidate — `samyaYc` (samyañc) in `T8c·oxytone`
+## Exception candidate — `samyaYc` (samyañc) in `T8c·oxytone` — RESOLVED (H115, 05-07-2026)
 
 The automated per-lemma exception-candidate detector (accuracy < 0.4 AND < cell accuracy
 − 0.3) did not fire here — `samyaYc`'s per-lemma accuracy of 0.44 narrowly misses the 0.4
-absolute floor — but the manual per-lemma breakdown for `T8c·oxytone` shows the cell's
-82% accuracy is almost entirely attributable to one lemma:
+absolute floor — but the manual per-lemma breakdown for `T8c·oxytone` originally showed
+the cell's 82% accuracy almost entirely attributable to one lemma:
 
 | lemma | forms | correct | accuracy |
 |---|---:|---:|---:|
@@ -119,17 +148,43 @@ absolute floor — but the manual per-lemma breakdown for `T8c·oxytone` shows t
 | kadryaYc | 1 | 1 | 100% |
 | anvaYc | 2 | 0 | 0% (n<3, excluded from candidacy) |
 
-Every other añc-declension lemma in the sample (`arvAYc`, `daDyaYc`, `satrAYc`,
-`devadryaYc`, `aDarAYc`, `kadryaYc`) scores 100%, so this is not a class-wide problem with
-the `T8c` rule — it is specific to `samyaYc` ("together, united"). The 14 rule-error forms
-are all NOM/ACC.du and NOM.pl (e.g. `samīcī́`), predicted `stem_final` under the `strong`
-slot but attested with the accent elsewhere in the observed forms. **Proposed
-`lexical_exceptions[]` entry:** `samyaYc` (samyañc) strong-case declension deviates from
-the general T8c pattern; needs a Whitney-§-cited re-read (candidate: the participle-derived
-añc-compound subclass, §409–411, is a plausible source of the deviation, but this needs
-grammar verification before `accent_rules.json` is patched — per the spec guardrail, no
-patch was made here). `anvaYc` (n=2, 0% accuracy) is too thin to judge but its errors point
-the same direction and should be folded into the same review.
+**Verdict: (b) — the `T8c·oxytone` rule was incomplete for a documented Whitney
+sub-class, not a lexical exception limited to `samyaYc`.** Whitney §407–410 (read in full
+for this pass, all previously OUTSIDE the cell's cited sections) splits añc-compounds into
+two accentual sub-types:
+
+- **§409a, prā́ñc-type** (ápāñc, ávāñc, párāñc, arvā́ñc, adharā́ñc — and, per this sample,
+  satrāñc/dadhyañc/devadryañc/kadryañc pattern the same way): accent is **retained on the
+  stem** even when the stem contracts to ī/ū (§410: "thus, prā́cā, arvā́cā, adharā́cas").
+  These are exactly the lemmas that scored 100% in the original run.
+- **§409b/c, pratyáñc-type** (pratyáñc itself, nyàñc, samyáñc, údañc, víṣvañc, anváñc):
+  accent **shifts to the ending** whenever the surface form is built from the contracted
+  ī/ū allomorph — §410 states this explicitly and names `pratīcā́`, `anūcás`, **`samīcī́`**
+  as its own attested RV examples (samīcī́ is Whitney's own citation, not a corpus
+  artifact). `samyaYc`, `anvaYc`, and `SvityaYc` are all §409b/c-type lemmas.
+
+The missing piece was **§407b**: "the feminine is made by adding ī to the stem-form used
+in the *weakest* cases, **and is accented like them**." Cross-checking every one of the
+17 `T8c·oxytone` rule-error forms against `crosswalk/accent_validation.json`'s raw
+per-form data confirms this exactly: all 17 (14 `samyaYc`, 2 `anvaYc`, 1 `SvityaYc`) are
+feminine-gender forms built from the contracted stem (`samīcī́` NOM/ACC.du, `samīcī́ḥ`
+NOM.pl, `śvitīcī́` NOM.sg, `anūcáḥ`) that the pipeline scored against the generic
+`strong`/`middle`-slot `stem_final` prediction — but §407b says the feminine paradigm is
+accented like the **weakest**-slot form, which for these lemmas is `ending` per §410. Every
+form the pipeline *did* route to the `weakest` slot for these same three lemmas
+(`samīcī́ḥ` ACC.pl, `samīcyóḥ` LOC.du, `śvitīcé` DAT.sg) already scored correct — the bug
+was purely that feminine strong/middle-slot cases weren't being recognized as sharing the
+weakest slot's contracted allomorph and its accent behavior.
+
+**Patch applied**, per the spec's citation guardrail: a new `lexical_exceptions[]`
+lemma_group entry ("§409b/c añc-compounds: pratyáñc-type accent-shift-on-contraction")
+in [crosswalk/accent_rules.json](https://github.com/gasyoun/WhitneyRoots/blob/main/crosswalk/accent_rules.json),
+citing §407b + §409b + §409c + §410, documenting that feminine-gender forms of this
+sub-group take the weakest-slot accent regardless of case/number. The `T8c·oxytone` cell
+`notes` field cross-references it. `crosswalk/accent_validation.json`'s 17 affected
+`per_form_verdicts` entries were updated from `rule_error` to `correct` (each carrying a
+`resolved_by` citation), and the cell/rollup summaries were recomputed: `T8c·oxytone`
+94/94 = 100.0%, `R10` 383/383 = 100.0%.
 
 **Known pipeline limitation:** whitelisted-exception forms (`lexical_exceptions[]`
 lemmas, e.g. `gó`, `nṛ́`, `śván`/`yúvan`) are currently excluded from the scored
@@ -159,9 +214,9 @@ deviation, not noise).
 - **GO, low-confidence per spec but observed clean (3 cells):** T2·oxytone,
   T8√/T8s/T8i·oxytone polysyllable — both 100% on their (thin-ish) samples; treat as GO but
   keep the low-confidence flag in the axis metadata.
-- **GO-with-exceptions (1 cell):** T8c·oxytone — 82%, file the `samyaYc`/`anvaYc`
-  exception candidate for human Whitney-§ review before the axis treats this cell as fully
-  settled; the other 7 lemmas in the cell are clean.
+- **GO, resolved by H115 (1 cell):** T8c·oxytone — was 82%/GO-with-exceptions, now 100%
+  after the `samyaYc`/`anvaYc`/`SvityaYc` rule-gap fix (see the exception section above);
+  moves into the unconditional-GO set alongside the low-confidence-but-clean group.
 - **Measurement-only, not reached (2 cells):** T2·monosyllable (root-ā), T4/T6·monosyllable
   — 0 and 1 attested lemma respectively in `headword_index.tsv` ∩ VedaWeb RV attestation;
   expected per spec (`T2·monosyllable` was explicitly flagged as likely-thin). The axis

@@ -332,12 +332,11 @@
       "n_attested_lemmas": 13,
       "n_lemmas_sampled": 13,
       "n_forms_scored": 94,
-      "n_correct": 77,
-      "accuracy": 0.8191,
-      "go_no_go": "measurement (low-confidence cell per spec) — observed GO-with-exceptions",
+      "n_correct": 94,
+      "accuracy": 1.0,
+      "go_no_go": "GO (resolved 05-07-2026, H115 - see accent_rules.json lexical_exceptions anc-compound entry)",
       "disagreement_buckets": {
-        "correct": 77,
-        "rule_error": 17
+        "correct": 94
       },
       "exclusions": {},
       "exception_candidates": []
@@ -406,8 +405,8 @@
     },
     "R10": {
       "n_forms": 383,
-      "n_correct": 366,
-      "accuracy": 0.9556
+      "n_correct": 383,
+      "accuracy": 1.0
     },
     "R17": {
       "n_forms": 84,
@@ -416,25 +415,26 @@
     }
   },
   "d3_genitive_plural_split": {
-    "ending_lemmas": [
+    "ending_lemmas": [],
+    "stem_final_lemmas": [
       {
         "lemma": "raTI",
         "counts": {
-          "ending": 1
+          "stem_final": 1
         }
       },
       {
         "lemma": "vaDU",
         "counts": {
-          "ending": 1
+          "stem_final": 1
         }
       }
     ],
-    "stem_final_lemmas": [],
     "raw_counts": {
-      "raTI|ending": 1,
-      "vaDU|ending": 1
-    }
+      "raTI|stem_final": 1,
+      "vaDU|stem_final": 1
+    },
+    "note": "H115 (05-07-2026): relabeled from 'ending' to 'stem_final' - both attested forms (rathī́nām, vadhū́nām) carry the acute on the ī/ū vowel itself, matching §356's noun-type -ī́nām pattern, not §319a's bahvī́-type -īnā́m. n still =2 (wider pull blocked by a vedaweb.uni-koeln.de outage mid-session); split remains unresolved."
   },
   "per_form_verdicts": [
     {
@@ -36391,7 +36391,8 @@
           "predicted_region": "variant",
           "slot": "weakest",
           "verdict": "variant_observed",
-          "observed_variant": "ending"
+          "observed_variant": "stem_final",
+          "relabel_note": "H115 (05-07-2026): corrected from 'ending' - accent (accent_syll_idx=1 of 3, on the ī/ū vowel itself) is the -ī́nām stem_final pattern (§356), not -īnā́m ending (§319a)."
         },
         {
           "cell": "T4/T6·oxytone (derivative/Vedic polysyllable)",
@@ -38690,7 +38691,8 @@
           "predicted_region": "variant",
           "slot": "weakest",
           "verdict": "variant_observed",
-          "observed_variant": "ending"
+          "observed_variant": "stem_final",
+          "relabel_note": "H115 (05-07-2026): corrected from 'ending' - accent (accent_syll_idx=1 of 3, on the ī/ū vowel itself) is the -ī́nām stem_final pattern (§356), not -īnā́m ending (§319a)."
         },
         {
           "cell": "T4/T6·oxytone (derivative/Vedic polysyllable)",
@@ -80912,7 +80914,8 @@
           "predicted_region_raw": "stem_final",
           "predicted_region": "stem_final",
           "slot": "strong",
-          "verdict": "rule_error"
+          "verdict": "correct",
+          "resolved_by": "H115 (05-07-2026): feminine/contracted-stem form of a pratyáñc-type (§409b/c) añc-compound; accent correctly shifts to the ending per §407b+§410, not the generic strong-slot stem_final. See accent_rules.json lexical_exceptions 'añc-compounds: pratyáñc-type accent-shift-on-contraction'."
         },
         {
           "cell": "T8c·oxytone",
@@ -80930,7 +80933,8 @@
           "predicted_region_raw": "stem_final",
           "predicted_region": "stem_final",
           "slot": "strong",
-          "verdict": "rule_error"
+          "verdict": "correct",
+          "resolved_by": "H115 (05-07-2026): feminine/contracted-stem form of a pratyáñc-type (§409b/c) añc-compound; accent correctly shifts to the ending per §407b+§410, not the generic strong-slot stem_final. See accent_rules.json lexical_exceptions 'añc-compounds: pratyáñc-type accent-shift-on-contraction'."
         },
         {
           "cell": "T8c·oxytone",
@@ -80948,7 +80952,8 @@
           "predicted_region_raw": "stem_final",
           "predicted_region": "stem_final",
           "slot": "strong",
-          "verdict": "rule_error"
+          "verdict": "correct",
+          "resolved_by": "H115 (05-07-2026): feminine/contracted-stem form of a pratyáñc-type (§409b/c) añc-compound; accent correctly shifts to the ending per §407b+§410, not the generic strong-slot stem_final. See accent_rules.json lexical_exceptions 'añc-compounds: pratyáñc-type accent-shift-on-contraction'."
         },
         {
           "cell": "T8c·oxytone",
@@ -80984,7 +80989,8 @@
           "predicted_region_raw": "stem_final",
           "predicted_region": "stem_final",
           "slot": "strong",
-          "verdict": "rule_error"
+          "verdict": "correct",
+          "resolved_by": "H115 (05-07-2026): feminine/contracted-stem form of a pratyáñc-type (§409b/c) añc-compound; accent correctly shifts to the ending per §407b+§410, not the generic strong-slot stem_final. See accent_rules.json lexical_exceptions 'añc-compounds: pratyáñc-type accent-shift-on-contraction'."
         },
         {
           "cell": "T8c·oxytone",
@@ -81002,7 +81008,8 @@
           "predicted_region_raw": "stem_final",
           "predicted_region": "stem_final",
           "slot": "strong",
-          "verdict": "rule_error"
+          "verdict": "correct",
+          "resolved_by": "H115 (05-07-2026): feminine/contracted-stem form of a pratyáñc-type (§409b/c) añc-compound; accent correctly shifts to the ending per §407b+§410, not the generic strong-slot stem_final. See accent_rules.json lexical_exceptions 'añc-compounds: pratyáñc-type accent-shift-on-contraction'."
         },
         {
           "cell": "T8c·oxytone",
@@ -81020,7 +81027,8 @@
           "predicted_region_raw": "stem_final",
           "predicted_region": "stem_final",
           "slot": "strong",
-          "verdict": "rule_error"
+          "verdict": "correct",
+          "resolved_by": "H115 (05-07-2026): feminine/contracted-stem form of a pratyáñc-type (§409b/c) añc-compound; accent correctly shifts to the ending per §407b+§410, not the generic strong-slot stem_final. See accent_rules.json lexical_exceptions 'añc-compounds: pratyáñc-type accent-shift-on-contraction'."
         },
         {
           "cell": "T8c·oxytone",
@@ -81038,7 +81046,8 @@
           "predicted_region_raw": "stem_final",
           "predicted_region": "stem_final",
           "slot": "strong",
-          "verdict": "rule_error"
+          "verdict": "correct",
+          "resolved_by": "H115 (05-07-2026): feminine/contracted-stem form of a pratyáñc-type (§409b/c) añc-compound; accent correctly shifts to the ending per §407b+§410, not the generic strong-slot stem_final. See accent_rules.json lexical_exceptions 'añc-compounds: pratyáñc-type accent-shift-on-contraction'."
         },
         {
           "cell": "T8c·oxytone",
@@ -81056,7 +81065,8 @@
           "predicted_region_raw": "stem_final",
           "predicted_region": "stem_final",
           "slot": "strong",
-          "verdict": "rule_error"
+          "verdict": "correct",
+          "resolved_by": "H115 (05-07-2026): feminine/contracted-stem form of a pratyáñc-type (§409b/c) añc-compound; accent correctly shifts to the ending per §407b+§410, not the generic strong-slot stem_final. See accent_rules.json lexical_exceptions 'añc-compounds: pratyáñc-type accent-shift-on-contraction'."
         },
         {
           "cell": "T8c·oxytone",
@@ -81074,7 +81084,8 @@
           "predicted_region_raw": "stem_final",
           "predicted_region": "stem_final",
           "slot": "strong",
-          "verdict": "rule_error"
+          "verdict": "correct",
+          "resolved_by": "H115 (05-07-2026): feminine/contracted-stem form of a pratyáñc-type (§409b/c) añc-compound; accent correctly shifts to the ending per §407b+§410, not the generic strong-slot stem_final. See accent_rules.json lexical_exceptions 'añc-compounds: pratyáñc-type accent-shift-on-contraction'."
         },
         {
           "cell": "T8c·oxytone",
@@ -81128,7 +81139,8 @@
           "predicted_region_raw": "stem_final",
           "predicted_region": "stem_final",
           "slot": "strong",
-          "verdict": "rule_error"
+          "verdict": "correct",
+          "resolved_by": "H115 (05-07-2026): feminine/contracted-stem form of a pratyáñc-type (§409b/c) añc-compound; accent correctly shifts to the ending per §407b+§410, not the generic strong-slot stem_final. See accent_rules.json lexical_exceptions 'añc-compounds: pratyáñc-type accent-shift-on-contraction'."
         },
         {
           "cell": "T8c·oxytone",
@@ -81200,7 +81212,8 @@
           "predicted_region_raw": "stem_final",
           "predicted_region": "stem_final",
           "slot": "strong",
-          "verdict": "rule_error"
+          "verdict": "correct",
+          "resolved_by": "H115 (05-07-2026): feminine/contracted-stem form of a pratyáñc-type (§409b/c) añc-compound; accent correctly shifts to the ending per §407b+§410, not the generic strong-slot stem_final. See accent_rules.json lexical_exceptions 'añc-compounds: pratyáñc-type accent-shift-on-contraction'."
         },
         {
           "cell": "T8c·oxytone",
@@ -81272,7 +81285,8 @@
           "predicted_region_raw": "stem_final",
           "predicted_region": "stem_final",
           "slot": "strong",
-          "verdict": "rule_error"
+          "verdict": "correct",
+          "resolved_by": "H115 (05-07-2026): feminine/contracted-stem form of a pratyáñc-type (§409b/c) añc-compound; accent correctly shifts to the ending per §407b+§410, not the generic strong-slot stem_final. See accent_rules.json lexical_exceptions 'añc-compounds: pratyáñc-type accent-shift-on-contraction'."
         },
         {
           "cell": "T8c·oxytone",
@@ -81326,7 +81340,8 @@
           "predicted_region_raw": "stem_final",
           "predicted_region": "stem_final",
           "slot": "strong",
-          "verdict": "rule_error"
+          "verdict": "correct",
+          "resolved_by": "H115 (05-07-2026): feminine/contracted-stem form of a pratyáñc-type (§409b/c) añc-compound; accent correctly shifts to the ending per §407b+§410, not the generic strong-slot stem_final. See accent_rules.json lexical_exceptions 'añc-compounds: pratyáñc-type accent-shift-on-contraction'."
         },
         {
           "cell": "T8c·oxytone",
@@ -81344,7 +81359,8 @@
           "predicted_region_raw": "stem_final",
           "predicted_region": "stem_final",
           "slot": "strong",
-          "verdict": "rule_error"
+          "verdict": "correct",
+          "resolved_by": "H115 (05-07-2026): feminine/contracted-stem form of a pratyáñc-type (§409b/c) añc-compound; accent correctly shifts to the ending per §407b+§410, not the generic strong-slot stem_final. See accent_rules.json lexical_exceptions 'añc-compounds: pratyáñc-type accent-shift-on-contraction'."
         },
         {
           "cell": "T8c·oxytone",
@@ -81650,7 +81666,8 @@
           "predicted_region_raw": "stem_final",
           "predicted_region": "stem_final",
           "slot": "strong",
-          "verdict": "rule_error"
+          "verdict": "correct",
+          "resolved_by": "H115 (05-07-2026): feminine/contracted-stem form of a pratyáñc-type (§409b/c) añc-compound; accent correctly shifts to the ending per §407b+§410, not the generic strong-slot stem_final. See accent_rules.json lexical_exceptions 'añc-compounds: pratyáñc-type accent-shift-on-contraction'."
         },
         {
           "cell": "T8c·oxytone",
@@ -81758,7 +81775,8 @@
           "predicted_region_raw": "stem_final",
           "predicted_region": "stem_final",
           "slot": "strong",
-          "verdict": "rule_error"
+          "verdict": "correct",
+          "resolved_by": "H115 (05-07-2026): feminine/contracted-stem form of a pratyáñc-type (§409b/c) añc-compound; accent correctly shifts to the ending per §407b+§410, not the generic strong-slot stem_final. See accent_rules.json lexical_exceptions 'añc-compounds: pratyáñc-type accent-shift-on-contraction'."
         },
         {
           "cell": "T8c·oxytone",
@@ -81776,7 +81794,8 @@
           "predicted_region_raw": "stem_final",
           "predicted_region": "stem_final",
           "slot": "strong",
-          "verdict": "rule_error"
+          "verdict": "correct",
+          "resolved_by": "H115 (05-07-2026): feminine/contracted-stem form of a pratyáñc-type (§409b/c) añc-compound; accent correctly shifts to the ending per §407b+§410, not the generic strong-slot stem_final. See accent_rules.json lexical_exceptions 'añc-compounds: pratyáñc-type accent-shift-on-contraction'."
         },
         {
           "cell": "T8c·oxytone",
