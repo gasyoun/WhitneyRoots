@@ -1,5 +1,7 @@
 # WhitneyRoots
 
+_Created: 23-04-2026 · Last updated: 05-07-2026_
+
 > **Reinventing [samskrtam.ru/whitney-roots/roots.html](http://samskrtam.ru/whitney-roots/roots.html)**
 > 
 > 📂 **GitHub Repository:** [https://github.com/gasyoun/WhitneyRoots](https://github.com/gasyoun/WhitneyRoots)
@@ -56,6 +58,39 @@ The [`/Tolchelnikov/`](./Tolchelnikov/) directory contains specific educational 
   * [`Talmud-uroky_raw.md`](./Tolchelnikov/Talmud-uroky_raw.md) - The raw Markdown export of the exercises.
   * [`Talmud-uroky_pipe.md`](./Tolchelnikov/Talmud-uroky_pipe.md) - The processed Markdown version of the exercises.
 
+## Example lookup
+
+The MW↔Whitney crosswalk in [`crosswalk/roots.csv`](./crosswalk/roots.csv) is the
+data spine behind the site and the Python pipeline. A real row — Whitney root
+`#2`, the verbal root **akṣ** ("attain"), class I, homonym 1:
+
+```csv
+whitney_no,root_iast,root_slp1,homonym,class,...,mw_id,apte_id,senses,section_refs
+2,akṣ,akz,1,I,...,423,117,"to reach, RV. x, 22, 11 / To reach.",present_participle:583-584|present_a:733-750|passive_present:768-774|perfect:781-823|...
+```
+
+Read as a lookup: root **akṣ** (SLP1 `akz`) maps to Monier-Williams entry
+`mw_id=423` and Apte entry `apte_id=117`, is attested 4× in the DCS corpus
+(`dcs_freq` column, not shown above), and its inflected forms are cited at
+Whitney *Sanskrit Grammar* §§733–750 (present class), §768–774 (passive), and
+§781–823 (perfect) — the exact `section_refs` also served to the front-end's
+"Grammar Insights" panel via [`src/app_data.json`](./src/app_data.json), where
+the same root appears pre-joined as:
+
+```json
+{
+  "id": "2",
+  "root": "1 akṣ",
+  "meaning": "attain",
+  "classes": ["I"],
+  "ppp": ["asta"],
+  "grammar_ref": { "sections": ["§734"], "type": "generic" }
+}
+```
+
+Query it yourself: `grep ",akz," crosswalk/roots.csv` or open
+`Whitney-numbered-2026.md` at entry 2.
+
 ## Contributing
 
 Contributions, corrections, and enhancements to the parsing scripts or text datasets are welcome. Feel free to open an issue or submit a pull request if you have ideas on how to further improve the data structure or presentation.
@@ -63,3 +98,5 @@ Contributions, corrections, and enhancements to the parsing scripts or text data
 ## License
 
 This project is open-source and released under the [Apache License 2.0](./LICENSE).
+
+_Dr. Mārcis Gasūns_
