@@ -21,7 +21,7 @@ measurement-only cells with 0 attested lemmas (`T2·monosyllable (root-ā)`,
 `T4/T6·monosyllable`).** No cell scored NO-GO. `T8c·oxytone` — originally
 GO-with-exceptions at 82%, driven almost entirely by `samyaYc` — was resolved to a clean
 100% GO by
-[H115](https://github.com/gasyoun/Uprava/blob/main/handoffs/H115-Sonnet_WhitneyRoots_samyanc_exception_d3_split_03.07.26.md)
+[H115](https://github.com/gasyoun/Uprava/blob/main/handoffs/archive/H115-Sonnet_WhitneyRoots_samyanc_exception_d3_split_03.07.26.md)
 (05-07-2026): the "errors" were a genuine rule gap (feminine/contracted-stem forms of a
 pratyáñc-type añc-compound take the weakest-slot accent, not the strong-slot value),
 not lemma-level noise — see the updated exception section below. Whitney's formal
