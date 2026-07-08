@@ -1,6 +1,6 @@
 # WhitneyRoots
 
-_Created: 23-04-2026 · Last updated: 05-07-2026_
+_Created: 23-04-2026 · Last updated: 08-07-2026_
 
 > **Reinventing [samskrtam.ru/whitney-roots/roots.html](http://samskrtam.ru/whitney-roots/roots.html)**
 > 
@@ -90,6 +90,30 @@ the same root appears pre-joined as:
 
 Query it yourself: `grep ",akz," crosswalk/roots.csv` or open
 `Whitney-numbered-2026.md` at entry 2.
+
+### RU root-gloss layer (candidate, machine-derived)
+
+[`crosswalk/ru_root_glosses.tsv`](./crosswalk/ru_root_glosses.tsv), built by
+[`scripts/build_ru_root_glosses.py`](./scripts/build_ru_root_glosses.py),
+joins each of the 930 crosswalk roots against the sibling
+[SanskritRussian](https://github.com/gasyoun/SanskritRussian) repo's
+`root_glossary.jsonl` (corpus_lexicon Sa→Ru alignments, 2,021 roots) on the
+exact `root_slp1` key — both sides use the same length-preserving SLP1
+encoding, so the join needs no lemma-hop or NFD normalization. For each root
+it records the top ≤3 corpus-attested RU glosses ranked by alignment count
+(`gloss_ru_1..3` / `count_1..3`), plus `root_freq_n` / `root_n_forms` /
+`homonym_shared`.
+
+**Coverage: 666/930 roots (71.6%) have ≥1 corpus-attested RU gloss.** Residue:
+264 roots absent from `corpus_lexicon`, 53 present but low-attestation
+(`root_freq_n` < 3). This is a **candidate layer only** — machine-derived and
+unreviewed, corpus-attested-only by construction (no LLM-invented glosses);
+gaps stay gaps. Promotion into any human-reviewed artifact (e.g.
+`src/app_data.json`) is a separate, human-gated step. Regenerate with:
+
+```sh
+python scripts/build_ru_root_glosses.py
+```
 
 ## Contributing
 
