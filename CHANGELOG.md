@@ -5,6 +5,16 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Zalizniak (tiebreaker).**
 
 ## [Unreleased]
+### Added
+- **Operator & build manual** (`docs/BUILD_MANUAL.md`, H503): end-to-end runbook for both
+  halves of the repo — the Python crosswalk pipeline (spine bootstrap from the Warnemyr
+  mirror through the FAIR crosswalk + reader-data emitters, with the exact command,
+  inputs and outputs per stage) and the JS app (edit → `node scripts/bundle.js` → serve →
+  Pages deploy). Includes a one-screen cheat-sheet, data-flow diagram, environment/sibling-repo
+  prerequisites, a 16-row symptom→cause→cure table, glossary, and a maintainer appendix
+  (invariants, per-script traps, the Phase-8 revert archive). Companion metadoc
+  `docs/BUILD_MANUAL.meta.md` (backlog + revision history); linked from the README's new
+  Documentation index. Authored by Fable 5 (`claude-fable-5`).
 
 ## [1.3.0] - 2026-07-05
 ### Fixed
