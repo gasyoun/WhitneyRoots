@@ -1,23 +1,38 @@
 # -*- coding: utf-8 -*-
 """Phase 2a: extract verbal-root entries from MW and Apte (AP90) -> root inventories.
 
-MW   roots: Cologne entries tagged <info verb="genuineroot"/>; SLP1 = <k1>, homonym = <h>,
-            class = '<ab>cl.</ab> N.' (Arabic). Records run <L>...<LEND>.
+MW   roots: record MEMBERSHIP ("is this L a genuineroot?") comes from the canonical
+            csl-orig/v02/mw/mw_roots.tsv (SHARED_CODE.md §11, count-locked 750/2113) —
+            NOT re-decided by regex-scanning mw.txt (that was the duplicate-count trap
+            §11 fixed: three repos independently scanned mw.txt and got three different
+            numbers). Gloss/class TEXT still comes from mw.txt (the TSV carries no gloss
+            and no text-fallback class parse), scoped to the TSV's root L-ids only.
+            SLP1 = <k1>, homonym = <h>, class = '<ab>cl.</ab> N.' (Arabic).
 AP90 roots: Apte entries whose body carries a class marker '{cNc}'; SLP1 = <k1>; homonyms are
             positional (consecutive <L> with the same k1); class from '{cNc}'; gloss from '{@1@}'.
+            (Apte has no canonical inventory TSV yet — SHARED_CODE.md §11 only covers MW.)
 
 Writes crosswalk/mw_roots.json and crosswalk/apte_roots.json + a parse report. No alignment here.
 Reads csl-orig siblings (read-only). UTF-8, no BOM.
 """
-import sys, os, re, json
+import sys, os, re, json, csv
 sys.stdout.reconfigure(encoding='utf-8')
 sys.stderr.reconfigure(encoding='utf-8')
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GH   = os.path.dirname(BASE)
 MW   = os.path.join(GH, 'csl-orig', 'v02', 'mw', 'mw.txt')
+MW_ROOTS_TSV = os.path.join(GH, 'csl-orig', 'v02', 'mw', 'mw_roots.tsv')
 AP90 = os.path.join(GH, 'csl-orig', 'v02', 'ap90', 'ap90.txt')
 OUT  = os.path.join(BASE, 'crosswalk')
+
+
+def genuineroot_Ls(tsv_path=MW_ROOTS_TSV):
+    """SHARED_CODE.md §11: the canonical set of MW record ids tagged verb_type=='genuineroot'."""
+    with open(tsv_path, encoding='utf-8') as f:
+        header = f.readline().rstrip('\n').split('\t')
+        return {row[0] for row in (line.rstrip('\n').split('\t') for line in f)
+                if row[header.index('verb_type')] == 'genuineroot'}
 
 from sanskrit_util import to_roman
 
@@ -29,15 +44,16 @@ def strip_tags(s):
     return re.sub(r'\s+', ' ', s).strip(' ,;:')
 
 def parse_mw():
+    genuine_Ls = genuineroot_Ls()
     raw = open(MW, encoding='utf-8', errors='replace').read()
     roots = []
     for block in raw.split('<LEND>'):
-        if 'verb="genuineroot"' not in block:
+        L  = re.search(r'<L>([^<]*)<', block)
+        if not L or L.group(1) not in genuine_Ls:
             continue
         k1 = re.search(r'<k1>([^<]*)<', block)
         if not k1:
             continue
-        L  = re.search(r'<L>([^<]*)<', block)
         h  = re.search(r'<h>(\d+)', block)
         # class: prefer MW's authoritative machine-readable gaṇa+pada attribute
         # <info verb="genuineroot" cp="6,2,4,5,7P"/> (738/750 roots) — this lists ALL gaṇas and
