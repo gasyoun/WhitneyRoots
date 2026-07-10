@@ -1,6 +1,6 @@
 # WhitneyRoots
 
-_Created: 23-04-2026 · Last updated: 08-07-2026_
+_Created: 23-04-2026 · Last updated: 10-07-2026_
 
 > **Reinventing [samskrtam.ru/whitney-roots/roots.html](http://samskrtam.ru/whitney-roots/roots.html)**
 > 
@@ -13,6 +13,13 @@ _Created: 23-04-2026 · Last updated: 08-07-2026_
 **WhitneyRoots** is an open-source initiative dedicated to digitizing, structuring, and reinventing the digital representation of William Dwight Whitney's seminal work: *The Roots, Verb-forms and Primary Derivatives of the Sanskrit Language*. 
 
 By migrating the data from legacy HTML formats into clean, structured Markdown and text files, this project makes Whitney's linguistic data highly accessible for modern Sanskrit computational linguistics, natural language processing (NLP), and general research.
+
+## Documentation
+
+* [`docs/BUILD_MANUAL.md`](https://github.com/gasyoun/WhitneyRoots/blob/main/docs/BUILD_MANUAL.md) — **the operator & build manual**: regenerate every derived file, run the Python crosswalk pipeline end-to-end, build/serve/deploy the JS app, plus a symptom→cause→cure table and maintainer appendix. Start here to run the repo.
+* [`DESIGN.md`](https://github.com/gasyoun/WhitneyRoots/blob/main/DESIGN.md) — data model: schema, layers, authority order.
+* [`REVIEWER_GUIDE.md`](https://github.com/gasyoun/WhitneyRoots/blob/main/REVIEWER_GUIDE.md) + [`docs/DECISIONS_NEEDED.md`](https://github.com/gasyoun/WhitneyRoots/blob/main/docs/DECISIONS_NEEDED.md) — human adjudication of root-class and PPP questions.
+* [`CLAUDE.md`](https://github.com/gasyoun/WhitneyRoots/blob/main/CLAUDE.md) — conventions for AI coding sessions.
 
 ## Repository Structure
 
