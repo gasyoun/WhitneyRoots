@@ -5,6 +5,8 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Zalizniak (tiebreaker).**
 
 ## [Unreleased]
+
+## [1.4.0] - 2026-07-10
 ### Added
 - **Operator & build manual** (`docs/BUILD_MANUAL.md`, H503): end-to-end runbook for both
   halves of the repo — the Python crosswalk pipeline (spine bootstrap from the Warnemyr
