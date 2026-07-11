@@ -1,6 +1,6 @@
 # BUILD_MANUAL.meta.md — metadoc for the operator manual
 
-_Created: 10-07-2026 · Last updated: 10-07-2026_
+_Created: 10-07-2026 · Last updated: 11-07-2026_
 
 Companion record for [docs/BUILD_MANUAL.md](https://github.com/gasyoun/WhitneyRoots/blob/main/docs/BUILD_MANUAL.md), per the org metadoc convention (a document *about* the document: purpose, provenance, improvement backlog, revision history — never a duplicate of the subject's content).
 
@@ -38,6 +38,27 @@ Give a new operator/contributor a single document from which the whole repo can 
 - The accent-validation runner (`scratch/accent_validation/`) is gitignored and not on disk — that track is documented as archival, not reproducible.
 - The manual does not cover the human-adjudication *content* workflow (Queues A–E) — that is [REVIEWER_GUIDE.md](https://github.com/gasyoun/WhitneyRoots/blob/main/REVIEWER_GUIDE.md)'s job.
 
+## Intended use / known misuse
+
+- **For**: an operator or AI session that needs to regenerate a specific derived file (crosswalk CSV, reader dataset, DCS frequency table) or bring up/deploy the Lexicon Explorer app, working from the manual alone without reading pipeline source. Also the first stop when a stage script fails — the [Symptom → Cause → Cure](https://github.com/gasyoun/WhitneyRoots/blob/main/docs/BUILD_MANUAL.md#symptom--cause--cure) table encodes 16 recorded failure modes.
+- **Known/likely misuse**:
+  - Treating it as documentation of *what the data means* — schema, authority order, and layer model live in [DESIGN.md](https://github.com/gasyoun/WhitneyRoots/blob/main/DESIGN.md), not here.
+  - Running stages out of the canonical 0→5 order on the assumption idempotent guards make order irrelevant — the guards make *re-running a single stage* safe, they do not make *skipping ahead* safe; several stages assert fields only an earlier stage populates.
+  - Copy-pasting the transcribed CLI flags without checking `--help` after the repo has moved past commit `37fb894` — flags were transcribed from source at that commit and the scripts' own `--help` wins on drift (see Known limitations).
+  - Using it to adjudicate a root-class or PPP question — that workflow (Queues A–E) is explicitly out of scope; use [REVIEWER_GUIDE.md](https://github.com/gasyoun/WhitneyRoots/blob/main/REVIEWER_GUIDE.md) instead.
+  - Assuming the accent-validation runner (`scratch/accent_validation/`) is reproducible from the manual — it is documented as archival only, and the runner itself is gitignored and absent from disk.
+
+## Maintenance & sunset plan
+
+- **Owner**: no dedicated maintainer process — the manual is kept current by whichever human or AI session next changes a stage script's CLI surface or the data-flow diagram's shape; there is no scheduled review cadence.
+- **Keeps it alive**: WhitneyRoots' own pipeline and app code (`scripts/`, `scratch/phase0/`, `src/`) — the manual tracks that surface, not an external feed. CI (YAML lint + `ruff`) gates merges to `main` but does not verify the manual's content against the scripts (see backlog item 3, a bundle-freshness gate, for the nearest analogue).
+- **Sunset trigger**: the manual is retired only if Track A (the Python crosswalk pipeline) or Track B (the JS app) is itself retired or replaced by a different build system: if that happens, this file and [docs/BUILD_MANUAL.md](https://github.com/gasyoun/WhitneyRoots/blob/main/docs/BUILD_MANUAL.md) move to an `archive/` folder (per the org's `/handoff-archive` convention) with a pointer to the successor manual.
+- **What "archived" looks like**: file moved under `docs/archive/`, this metadoc's Deprecation status flipped to `superseded by [X]` or `retired`, and any live cross-references (`CLAUDE.md`, repo README) repointed in the same commit.
+
+## Deprecation status
+
+`active`
+
 ## Related documents
 
 - [DESIGN.md](https://github.com/gasyoun/WhitneyRoots/blob/main/DESIGN.md) — schema, authority order, layer model.
@@ -50,5 +71,6 @@ Give a new operator/contributor a single document from which the whole repo can 
 | Date | Change | By |
 |---|---|---|
 | 10-07-2026 | Initial version: cheat-sheet, data-flow diagram, stages 0–5 + branch tracks, Track B (app/bundle/serve/deploy), 16-row Symptom→Cause→Cure, glossary, maintainer appendix (invariants, per-script traps, Phase-8 archive) | Fable 5 (`claude-fable-5`), H503 |
+| 11-07-2026 | template v2 backfill (H663) | Sonnet 5 (`claude-sonnet-5`) |
 
 _Dr. Mārcis Gasūns_
