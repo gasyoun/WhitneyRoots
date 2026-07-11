@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+# Shared-main-tree commit guard — refuse commits made directly in the canonical
+# main-tree checkout of this repo; force all local work through a git worktree.
+#
+# Why: multiple concurrent agent sessions (Claude Code + Codex) share one local
+# clone. A direct commit in the shared tree risks the H214 / H685-close intermix,
+# where a concurrent session sweeps another session's *staged* changes into its
+# own commits. A real git hook is the only enforcement that binds BOTH tools
+# identically — neither tool's hook/notify layer sees the other, but both invoke
+# real `git commit` through this hooks path. Worktrees share .git/config (so
+# core.hooksPath carries into them) but each has its own toplevel, so this never
+# fires inside a worktree.
+#
+# Rolled out 11-07-2026 from the SanskritLexicography/Uprava original.
+# Install once per clone:  git config core.hooksPath .githooks
+# Escape hatch (solo quick fix, no concurrent-session risk):
+#   ALLOW_MAIN_TREE_COMMIT=1 git commit ...
+
+if [ -n "${ALLOW_MAIN_TREE_COMMIT:-}" ]; then
+    exit 0
+fi
+
+CANONICAL_MAIN_TREE="C:/Users/user/Documents/GitHub/WhitneyRoots"
+toplevel="$(git rev-parse --show-toplevel 2>/dev/null || true)"
+norm_toplevel="$(printf '%s' "$toplevel" | tr 'A-Z' 'a-z' | tr '\\' '/')"
+norm_canonical="$(printf '%s' "$CANONICAL_MAIN_TREE" | tr 'A-Z' 'a-z' | tr '\\' '/')"
+
+if [ "$norm_toplevel" = "$norm_canonical" ]; then
+    echo "" >&2
+    echo "BLOCKED: direct commit in the shared main tree of this repo." >&2
+    echo "" >&2
+    echo "This checkout is used by multiple concurrent sessions (Claude Code +" >&2
+    echo "Codex). Committing here risks the H214 / H685-close tree-intermix." >&2
+    echo "Do your work in a git worktree instead:" >&2
+    echo "" >&2
+    echo "  git worktree add -b <branch> ../$(basename "$CANONICAL_MAIN_TREE")-<slug> origin/main" >&2
+    echo "  # ...commit in the worktree, then push:" >&2
+    echo "  git push origin HEAD:main" >&2
+    echo "" >&2
+    echo "Deliberate override (solo quick fix, no concurrent-session risk):" >&2
+    echo "  ALLOW_MAIN_TREE_COMMIT=1 git commit ..." >&2
+    echo "" >&2
+    exit 1
+fi
+
+exit 0
