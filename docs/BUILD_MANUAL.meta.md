@@ -16,7 +16,7 @@ Give a new operator/contributor a single document from which the whole repo can 
 
 ## Provenance
 
-- Authored 10-07-2026 by Fable 5 (`claude-fable-5`) under handoff [H503](https://github.com/gasyoun/Uprava/blob/main/handoffs/H503-Fable_WhitneyRoots_pipeline_and_app_build_manual_10.07.26.md) (manual-coverage census batch H501–H531, 79 active repos surveyed 10-07-2026).
+- Authored 10-07-2026 by Fable 5 (`claude-fable-5`) under handoff [H503](https://github.com/gasyoun/Uprava/blob/main/handoffs/archive/H503-Fable_WhitneyRoots_pipeline_and_app_build_manual_10.07.26.md) (manual-coverage census batch H501–H531, 79 active repos surveyed 10-07-2026).
 - Method: four parallel Explore-agent surveys (Python pipeline map with exact I/O per script; JS app + deploy map; data-file provenance + glossary; gold-standard template skeleton from [RussianRamayana Litpam-Indexator MANUAL.md](https://github.com/gasyoun/RussianRamayana/blob/main/Litpam-Indexator/docs/indesign-pipeline/MANUAL.md)), synthesized against repo state at commit `37fb894`.
 - The manual supersedes the intent of [Whitney_Transition_Runbook.md](https://github.com/gasyoun/WhitneyRoots/blob/main/Whitney_Transition_Runbook.md) (a 2-byte stub that never held content).
 
