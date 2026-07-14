@@ -361,7 +361,7 @@ This repo has a recorded history of **mid-session external edits** (`CHANGELOG.m
 
 ## Provenance & caveats
 
-- Authored 10-07-2026 by Fable 5 (`claude-fable-5`) under handoff [H503](https://github.com/gasyoun/Uprava/blob/main/handoffs/H503-Fable_WhitneyRoots_pipeline_and_app_build_manual_10.07.26.md), from a four-agent survey of the repo (pipeline, app, data provenance, gold-standard template) — see the companion metadoc [docs/BUILD_MANUAL.meta.md](https://github.com/gasyoun/WhitneyRoots/blob/main/docs/BUILD_MANUAL.meta.md) for the improvement backlog and revision history.
+- Authored 10-07-2026 by Fable 5 (`claude-fable-5`) under handoff [H503](https://github.com/gasyoun/Uprava/blob/main/handoffs/archive/H503-Fable_WhitneyRoots_pipeline_and_app_build_manual_10.07.26.md), from a four-agent survey of the repo (pipeline, app, data provenance, gold-standard template) — see the companion metadoc [docs/BUILD_MANUAL.meta.md](https://github.com/gasyoun/WhitneyRoots/blob/main/docs/BUILD_MANUAL.meta.md) for the improvement backlog and revision history.
 - Commands were transcribed from the scripts' own argparse/paths as of commit `37fb894`; if a script's flags drift, its `--help` and source win over this manual.
 - The `1885/` mirror and `scratch/phase0/root_spine.json` are **gitignored** — a fresh clone cannot run Stage 0 without obtaining the mirror first; everything downstream of the committed deliverables (the app, the reader, the crosswalk CSVs) works from a plain clone.
 
