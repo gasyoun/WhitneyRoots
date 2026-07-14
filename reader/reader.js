@@ -14,39 +14,12 @@ function el(tag, cls, text) {
   return e;
 }
 // --- Devanagari → IAST, so Devanagari passages resolve through the same (IAST-built) index ---
-const DV_VOWEL = { 'अ': 'a', 'आ': 'ā', 'इ': 'i', 'ई': 'ī', 'उ': 'u', 'ऊ': 'ū', 'ऋ': 'ṛ', 'ॠ': 'ṝ', 'ऌ': 'ḷ', 'ॡ': 'ḹ', 'ए': 'e', 'ऐ': 'ai', 'ओ': 'o', 'औ': 'au' };
-const DV_MATRA = { 'ा': 'ā', 'ि': 'i', 'ी': 'ī', 'ु': 'u', 'ू': 'ū', 'ृ': 'ṛ', 'ॄ': 'ṝ', 'ॢ': 'ḷ', 'े': 'e', 'ै': 'ai', 'ो': 'o', 'ौ': 'au' };
-const DV_CONS = { 'क': 'k', 'ख': 'kh', 'ग': 'g', 'घ': 'gh', 'ङ': 'ṅ', 'च': 'c', 'छ': 'ch', 'ज': 'j', 'झ': 'jh', 'ञ': 'ñ', 'ट': 'ṭ', 'ठ': 'ṭh', 'ड': 'ḍ', 'ढ': 'ḍh', 'ण': 'ṇ', 'त': 't', 'थ': 'th', 'द': 'd', 'ध': 'dh', 'न': 'n', 'प': 'p', 'फ': 'ph', 'ब': 'b', 'भ': 'bh', 'म': 'm', 'य': 'y', 'र': 'r', 'ल': 'l', 'व': 'v', 'श': 'ś', 'ष': 'ṣ', 'स': 's', 'ह': 'h', 'ळ': 'ḷ' };
-const DV_MARK = { 'ं': 'ṃ', 'ः': 'ḥ', 'ँ': 'ṃ' };
-const VIRAMA = '्';
-function deva2iast(s) {
-  let out = '';
-  for (let i = 0; i < s.length; i++) {
-    const ch = s[i];
-    if (DV_CONS[ch] != null) {
-      out += DV_CONS[ch];
-      const nx = s[i + 1];
-      if (nx === VIRAMA) { i++; }                         // bare consonant (conjunct)
-      else if (DV_MATRA[nx] != null) { out += DV_MATRA[nx]; i++; }
-      else { out += 'a'; }                                // inherent vowel
-    } else if (DV_VOWEL[ch] != null) { out += DV_VOWEL[ch]; }
-    else if (DV_MARK[ch] != null) { out += DV_MARK[ch]; }
-    else if (ch === 'ऽ') { /* avagraha — drop */ }
-    else { out += ch; }
-  }
-  return out;
-}
-const DEVA_RE = /[ऀ-ॿ]/;
-// Mirror of scripts/sanskrit_util.py norm()/nfold(). norm() = EXACT key (transliterate Devanagari,
-// NFD, drop marks, NFC, lower). nfold() additionally folds every nasal → 'n' for the recall fallback.
-function norm(s) {
-  s = s || '';
-  if (DEVA_RE.test(s)) s = deva2iast(s);
-  return s.normalize('NFD').replace(/\p{Mn}/gu, '').normalize('NFC').toLowerCase().trim();
-}
-function nfold(s) {
-  return norm(s).replace(/[mn]/g, 'n');
-}
+// Delegates to the canonical sanskrit-util package (vendor/sanskrit-util.global.js, an IIFE/global
+// build loaded via <script> before this file — see github-spine/SHARED_CODE.md §1-2). This used to
+// be an inline copy of deva2iast/norm/nfold; sanskrit-util's norm() differs only in using a Python-
+// matched whitespace class (wstrim) instead of JS's built-in .trim() for the final trim step — no
+// behavioural difference for real Sanskrit passage text.
+const { deva_to_iast: deva2iast, norm, nfold } = window.SanskritUtil;
 const isWord = (s) => /\p{L}/u.test(s);
 
 // Two-tier: exact form_index first (keeps am/an, kram/kṛ distinct), then the nasal-folded
