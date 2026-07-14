@@ -19,6 +19,10 @@ const FILES_ORDER = [
   'core/achievements.js',
   'core/ai.js',
   'utils/dom.js',
+  // Vendored sanskrit-util (js/index.mjs re-copied verbatim, see ../SHARED_CODE.md §1-2) — must
+  // precede utils/linguistics.js so its plain functions/consts are already in bundle scope by the
+  // time linguistics.js's stripped import line would otherwise leave them undefined.
+  'vendor/sanskrit-util.js',
   'utils/linguistics.js',
   'renderers/cards.js',
   'renderers/lists.js',
@@ -43,6 +47,7 @@ FILES_ORDER.forEach(file => {
     // Remove imports/exports for bundle
     const cleaned = content
       .replace(/import\s+.*?\s+from\s+['"].*?['"];?/g, '')
+      .replace(/export\s+default\s+\{[\s\S]*?\};\s*$/m, '')  // drop multi-line default-export objects (e.g. vendor/sanskrit-util.js) — mirrors sanskrit-util/js/build-global.mjs's own strip
       .replace(/export\s+const\s+/g, 'const ')
       .replace(/export\s+function\s+/g, 'function ')
       .replace(/export\s+default\s+/g, '');

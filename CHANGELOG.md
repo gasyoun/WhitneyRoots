@@ -5,6 +5,27 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Zalizniak (tiebreaker).**
 
 ## [Unreleased]
+### Changed
+- **Reader + linguistics JS now delegate to `sanskrit-util` instead of carrying inline copies**
+  (H922 momentum-axis track; SHARED_CODE.md §1-2 item 6). `reader/reader.js`'s inline
+  `deva2iast`/`norm`/`nfold` and `src/utils/linguistics.js`'s inline `normalizeSanskrit`/
+  `iastToDevanagari` now delegate to the canonical [`sanskrit-util`](https://github.com/sanskrit-lexicon/sanskrit-util)
+  package (the same package `scripts/sanskrit_util.py` has re-exported on the Python side since
+  its extraction) — `reader/` loads the vendored IIFE/global build
+  (`reader/vendor/sanskrit-util.global.js`, `window.SanskritUtil`), `src/` loads a vendored ESM
+  copy (`src/vendor/sanskrit-util.js`, byte-identical to `sanskrit-util/js/index.mjs`, saved
+  `.js` not `.mjs`). Both vendored copies are re-copied whole, never hand-edited. `scripts/bundle.js`
+  gained the vendor file in `FILES_ORDER` (ahead of `utils/linguistics.js`) plus a multi-line
+  `export default {...}` strip (mirroring `sanskrit-util/js/build-global.mjs`'s own strip) so
+  `v3_app.js` keeps regenerating cleanly. **No behavior change** — verified via (1) a Node
+  parity check of every swapped function against the pre-migration implementation over 43 real
+  IAST/Devanāgarī words (0 mismatches, including confirming `iastToDevanagari`'s known display
+  bug is reproduced bug-for-bug, not newly introduced — see SHARED_CODE.md's
+  "iast_to_devanagari is BROKEN" note), and (2) a Playwright load of `reader/index.html` (not
+  Observable-based — plain static `<script>` tags, no dev-server `.mjs` gotcha) showing zero
+  console errors and byte-identical analysis-panel output for both the IAST and Devanāgarī
+  example passages, before vs. after. `BookIndex`'s copy of `linguistics.js` is unaffected —
+  it remains a separate, un-scoped follow-up.
 
 ## [1.4.0] - 2026-07-10
 ### Added
