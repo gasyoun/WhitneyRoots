@@ -1,6 +1,6 @@
 # Contributing to WhitneyRoots
 
-> Part of the [Sanskrit Lexicon](https://github.com/sanskrit-lexicon) project. Inherits the [org-wide contribution standard](https://github.com/sanskrit-lexicon/COLOGNE/blob/master/CONTRIBUTING.md).
+> Part of the [Sanskrit Lexicon](https://github.com/sanskrit-lexicon) project. Inherits the [org-wide contribution standard](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/CONTRIBUTING.md).
 
 1. Fork the repository
 2. Create a feature branch
