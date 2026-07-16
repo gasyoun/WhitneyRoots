@@ -5,6 +5,16 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Zalizniak (tiebreaker).**
 
 ## [Unreleased]
+### Added
+- **Alternation-type seed (`crosswalk/alternation_type_seed.csv` + `.README.md`, 16-07-2026, Opus 4.8 `claude-opus-4-8[1m]`)** —
+  per-root morphological-position × alternation-type data from Tolchelnikov & Shirobokov's *Non-Paninian
+  Approach to Sanskrit Morphonology* (ISCLS 2024). **Seed only** — the ~9 roots the paper's slides
+  document (kṛ, ji, bhū, vac, dhāv, tan, hiṃs, jṛmbh, svar), keyed on `whitney_no`, with the 2MP
+  future-stem grade + `alternation_class` (regular/over-strong/under-strong). **NOT** the full ~820-root
+  classification: that data backbone is not in the paper's slides or this repo; source it from the
+  in-house authors or re-implement the paper's induction over Whitney's forms (README documents the
+  prerequisite). No values fabricated.
+
 ### Changed
 - **Reader + linguistics JS now delegate to `sanskrit-util` instead of carrying inline copies**
   (H922 momentum-axis track; SHARED_CODE.md §1-2 item 6). `reader/reader.js`'s inline
