@@ -6,7 +6,7 @@ Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Z
 
 ## [Unreleased]
 
-## [1.4.0] - 2026-07-17
+## [1.5.0] - 2026-07-17
 ### Added
 - **Full alternation-type classification over Whitney's 930 roots — authorial ingest (H1065).** [crosswalk/alternation_type.csv](https://github.com/gasyoun/WhitneyRoots/blob/main/crosswalk/alternation_type.csv): 794 roots classified from Tolchelnikov's own Приложение 1 ([talmud_appendix1.json](https://github.com/gasyoun/SanskritGrammar/blob/main/TolchelnikovTalmud_2026/data/talmud_appendix1.json), manual 2.1.6) instead of algorithmic induction — the ISCLS-2024 paper's "unpublished" backbone turned out to be the manual's Таблица 5 types I–IV (MG's source ruling in-session). regular 711 · under-strong 71 · over-strong 12; exception rate 10.5% (paper ≈13%); 136 explicitly unclassifiable with reasons. Gold seed: 7/7 high-confidence rows reproduce, svar's "uncertain" resolved (tip II), the low-confidence tan row exposed as a tāy misattribution (erratum in the seed README). Method + validation: [ALTERNATION_TYPE_TALMUD_INGEST_2026.md](https://github.com/gasyoun/WhitneyRoots/blob/main/crosswalk/ALTERNATION_TYPE_TALMUD_INGEST_2026.md); inducer replaced by [scripts/ingest_talmud_alternation.py](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/ingest_talmud_alternation.py). Fable 5 (`claude-fable-5`).
 ### Added
