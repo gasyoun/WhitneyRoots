@@ -13,25 +13,42 @@ Whitney join key). MG pointed at this source when asked per the handoff's gate q
   III (неполноизменяемые)  : слабая / слабая / vṛddhi   -> 2MP слабая  -> under-strong
   IV  (неизменяемые)       : vṛddhi / vṛddhi / vṛddhi   -> 2MP vṛddhi  -> over-strong
 
-The paper's ~110/820 (~13%) exceptions = 2MP-grade deviants = tips III+IV; in Приложение 1
-that is 84/745 = 11.3%.
+The paper's ~110/820 (~13%) exceptions = 2MP-grade deviants = tips III+IV.
 
-Deterministic; UTF-8 stdout. Fable 5 (claude-fable-5), 17-07-2026, per MG's authorization
-on the Opus-tier row.
+WE DO NOT JOIN THE CATALOG OURSELVES — we read the canonical join
+================================================================
+The first cut of this script re-joined `talmud_appendix1.json` against `roots.csv` itself,
+matching on the Whitney spelling. It bound a catalog entry whenever that spelling was
+unique **without checking the homonym the author had indexed**, so ONE authorial entry
+smeared across SEVERAL of Whitney's homonyms — 15 entries onto 31 records, 16 excess
+assertions. The author's «2 iṣ» was asserted of BOTH iṣ¹ and iṣ²; his single «1 śṛ» of
+śṛ¹ AND śṛ² AND śṛ³ — every one still labelled `grade_confidence=authorial`. Same shape
+as the Warnemyr union-smear (FINDINGS §3).
+
+`whitney_talmud.json` (SanskritGrammar, H1065) is the ONE canonical Приложение-1 × Whitney
+join and carries its own audit trail — `talmud_root`, `talmud_ref`, `talmud_match` — so
+this script now **reads** the binding instead of repeating it. That join abstains wherever
+the author's homonym index disagrees with Whitney's (iṣ¹, śṛ², śṛ³, paś², stu², pat², pā³
+…), leaving those roots unclassified pending his ruling rather than guessing.
+
+Consequence: never "fix" a wrong Тип here — fix the join upstream and regenerate. This
+file is a projection, not a source.
+
+Deterministic; UTF-8 stdout. Originally Fable 5 (claude-fable-5) 17-07-2026 over its own
+join; re-pointed at the canonical feed by Opus 4.8 (claude-opus-4-8) the same day.
 """
 
 import csv
 import json
 import sys
-import unicodedata
 from collections import Counter
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 
 REPO = Path(__file__).resolve().parents[1]
-APPENDIX1 = REPO.parent / "SanskritGrammar" / "TolchelnikovTalmud_2026" / "data" / "talmud_appendix1.json"
-ROOTS_CSV = REPO / "crosswalk" / "roots.csv"
+FEED = (REPO.parent / "SanskritGrammar" / "TolchelnikovTalmud_2026"
+        / "data" / "whitney_talmud.json")
 SEED_CSV = REPO / "crosswalk" / "alternation_type_seed.csv"
 OUT_CSV = REPO / "crosswalk" / "alternation_type.csv"
 OUT_JSON = REPO / "crosswalk" / "alternation_type_stats.json"
@@ -45,80 +62,64 @@ TIP_GRADES = {
 TIP_CLASS = {"I": "regular", "II": "regular", "III": "under-strong", "IV": "over-strong"}
 
 
-def nfc(s):
-    return unicodedata.normalize("NFC", (s or "").strip())
-
-
 def main():
-    app = json.load(open(APPENDIX1, encoding="utf-8"))
-    entries = app["roots"]
-
-    # index appendix entries by every whitney spelling (NFC), keeping homonym number
-    by_spelling = {}
-    for e in entries:
-        for sp in (e.get("whitney_spellings") or []):
-            by_spelling.setdefault(nfc(sp), []).append(e)
+    if not FEED.exists():
+        sys.exit(f"canonical join feed not found: {FEED}\n"
+                 "Needs a SanskritGrammar sibling clone (H1065).")
+    records = json.load(open(FEED, encoding="utf-8"))["verbal_roots"]
 
     rows_out = []
     match_kind = Counter()
-    with open(ROOTS_CSV, encoding="utf-8", newline="") as f:
-        for row in csv.DictReader(f):
-            w_no = row["whitney_no"]
-            iast = nfc(row["root_iast"])
-            hom = nfc(row.get("homonym") or "")
-            cands = by_spelling.get(iast, [])
-            chosen, kind = None, None
-            if len(cands) == 1:
-                chosen, kind = cands[0], "unique_spelling"
-            elif len(cands) > 1:
-                by_hom = [e for e in cands if nfc(e.get("whitney_num") or "") == hom]
-                if len(by_hom) == 1:
-                    chosen, kind = by_hom[0], "spelling+homonym"
-                else:
-                    same_tip = {e.get("tip") for e in cands}
-                    if len(same_tip) == 1 and None not in same_tip:
-                        chosen, kind = cands[0], "ambiguous_same_tip"
-                    else:
-                        kind = "ambiguous_conflicting"
-            else:
-                kind = "no_appendix1_entry"
-            match_kind[kind] += 1
+    for r in records:
+        tip = r.get("tip")
+        # `talmud_match` is set iff the canonical join bound an entry to this root. It
+        # abstains on homonym divergence, so a null here means the author asserted NOTHING
+        # about this root — never a licence to fall back on a neighbouring homonym.
+        bound = r.get("talmud_match")
+        match_kind[bound or "no_authorial_binding"] += 1
 
-            if chosen is not None and chosen.get("tip") in TIP_GRADES:
-                tip = chosen["tip"]
-                g1, g2, g3 = TIP_GRADES[tip]
-                rows_out.append({
-                    "whitney_no": w_no, "root_iast": row["root_iast"],
-                    "homonym": row.get("homonym") or "",
-                    "talmud_root": chosen.get("root") or "",
-                    "talmud_whitney_ref": chosen.get("whitney_ref") or "",
-                    "talmud_tip": tip,
-                    "talmud_ryad": chosen.get("ryad") or "",
-                    "talmud_set": chosen.get("set") or "",
-                    "mp1_grade": g1, "mp2_grade": g2, "mp3_grade": g3,
-                    "alternation_class": TIP_CLASS[tip],
-                    "mp1_deviation": "guna_for_basic" if tip == "II" else "",
-                    "derivation_method": "talmud_appendix1",
-                    "grade_confidence": "authorial",
-                    "match_kind": kind, "unclassifiable_reason": "",
-                })
-            else:
-                reason = kind if kind != "unique_spelling" else "appendix1_entry_without_tip"
-                rows_out.append({
-                    "whitney_no": w_no, "root_iast": row["root_iast"],
-                    "homonym": row.get("homonym") or "",
-                    "talmud_root": "", "talmud_whitney_ref": "", "talmud_tip": "",
-                    "talmud_ryad": "", "talmud_set": "",
-                    "mp1_grade": "", "mp2_grade": "", "mp3_grade": "",
-                    "alternation_class": "unclassifiable",
-                    "mp1_deviation": "", "derivation_method": "",
-                    "grade_confidence": "", "match_kind": kind or "",
-                    "unclassifiable_reason": reason,
-                })
+        base = {
+            "whitney_no": str(r["whitney_no"]),
+            "root_iast": r["root_iast"],
+            "homonym": r.get("homonym") or "",
+            "talmud_root": r.get("talmud_root") or "",
+            "talmud_whitney_ref": r.get("talmud_ref") or "",
+            "match_kind": bound or "",
+        }
+        if tip in TIP_GRADES:
+            g1, g2, g3 = TIP_GRADES[tip]
+            rows_out.append({
+                **base,
+                "talmud_tip": tip,
+                "talmud_ryad": r.get("ryad") or "",
+                "talmud_set": r.get("set") or "",
+                "mp1_grade": g1, "mp2_grade": g2, "mp3_grade": g3,
+                "alternation_class": TIP_CLASS[tip],
+                "mp1_deviation": "guna_for_basic" if tip == "II" else "",
+                "derivation_method": "talmud_appendix1_via_whitney_talmud",
+                "grade_confidence": "authorial",
+                "unclassifiable_reason": "",
+            })
+        else:
+            rows_out.append({
+                **base,
+                "talmud_tip": "", "talmud_ryad": "", "talmud_set": "",
+                "mp1_grade": "", "mp2_grade": "", "mp3_grade": "",
+                "alternation_class": "unclassifiable",
+                "mp1_deviation": "", "derivation_method": "", "grade_confidence": "",
+                # bound-but-tipless = the author catalogs the root yet gives no Тип;
+                # unbound = absent from his catalog OR a homonym divergence he must rule on.
+                "unclassifiable_reason": ("authorial_entry_without_tip" if bound
+                                          else "no_authorial_binding"),
+            })
 
-    fieldnames = list(rows_out[0].keys())
+    rows_out.sort(key=lambda x: int(x["whitney_no"]))
+    order = ["whitney_no", "root_iast", "homonym", "talmud_root", "talmud_whitney_ref",
+             "talmud_tip", "talmud_ryad", "talmud_set", "mp1_grade", "mp2_grade",
+             "mp3_grade", "alternation_class", "mp1_deviation", "derivation_method",
+             "grade_confidence", "match_kind", "unclassifiable_reason"]
     with open(OUT_CSV, "w", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=fieldnames)
+        w = csv.DictWriter(f, fieldnames=order)
         w.writeheader()
         w.writerows(rows_out)
 
@@ -142,7 +143,10 @@ def main():
     cls = Counter(r["alternation_class"] for r in classified)
     exc = cls["under-strong"] + cls["over-strong"]
     stats = {
-        "instrument": "ingest_talmud_alternation.py over talmud_appendix1.json (manual 2.1.6) x crosswalk/roots.csv",
+        "instrument": "ingest_talmud_alternation.py over whitney_talmud.json "
+                      "(SanskritGrammar H1065 canonical Приложение-1 × Whitney join)",
+        "source_of_truth": "SanskritGrammar/TolchelnikovTalmud_2026/data/whitney_talmud.json",
+        "join_owner": "build_whitney_talmud.py — NOT re-derived here (see module docstring)",
         "total_whitney_roots": len(rows_out),
         "classified": len(classified),
         "class_counts": dict(cls),

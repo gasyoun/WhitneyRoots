@@ -1,26 +1,28 @@
 {
- "instrument": "ingest_talmud_alternation.py over talmud_appendix1.json (manual 2.1.6) x crosswalk/roots.csv",
+ "instrument": "ingest_talmud_alternation.py over whitney_talmud.json (SanskritGrammar H1065 canonical Приложение-1 × Whitney join)",
+ "source_of_truth": "SanskritGrammar/TolchelnikovTalmud_2026/data/whitney_talmud.json",
+ "join_owner": "build_whitney_talmud.py — NOT re-derived here (see module docstring)",
  "total_whitney_roots": 930,
- "classified": 794,
+ "classified": 787,
  "class_counts": {
-  "regular": 711,
+  "regular": 704,
   "over-strong": 12,
   "under-strong": 71
  },
  "tip_counts": {
-  "II": 275,
-  "I": 436,
+  "II": 276,
+  "I": 428,
   "IV": 12,
   "III": 71
  },
  "exception_rate_pct": 10.5,
  "paper_reference_rate": "~110/820 = ~13% (ISCLS 2024 slides)",
  "match_kinds": {
-  "no_appendix1_entry": 125,
-  "spelling+homonym": 101,
-  "unique_spelling": 679,
-  "ambiguous_conflicting": 11,
-  "ambiguous_same_tip": 14
+  "no_authorial_binding": 143,
+  "ref+hom": 112,
+  "root-uniq": 617,
+  "spelling-alt": 57,
+  "manualroot": 1
  },
  "gold_seed_validation": [
   {
