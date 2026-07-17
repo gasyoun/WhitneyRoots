@@ -54,3 +54,16 @@ by gloss (`uøc`→`vac`/speak, `dhau`→`dhāv`/run, `tai`→`tan`/stretch — 
 `mp1_ppp_form` · `mp3_aorist_form` · `root_match_confidence` · `source`.
 
 _Dr. Mārcis Gasūns_
+
+## Superseded by the full authorial classification (17-07-2026, H1065)
+
+The full 930-root classification now lives at
+[alternation_type.csv](https://github.com/gasyoun/WhitneyRoots/blob/main/crosswalk/alternation_type.csv) —
+ingested from the AUTHORIAL source (Talmud manual 2.1.6, Приложение 1, per MG's ruling that
+the manual is newer than samskrtam.ru/z), not induced. Method + validation:
+[ALTERNATION_TYPE_TALMUD_INGEST_2026.md](https://github.com/gasyoun/WhitneyRoots/blob/main/crosswalk/ALTERNATION_TYPE_TALMUD_INGEST_2026.md).
+All 7 high-confidence seed rows reproduce; svar's "uncertain" resolves to type II (guṇa at 2MP).
+
+**Erratum:** the seed row `whitney_no=293 tan` was a misattribution — the paper slide's
+`tai` is the root **tāy** (Приложение 1: `tai`, tip II), not tan. The row is kept as the
+historical extraction record; consumers should prefer alternation_type.csv.

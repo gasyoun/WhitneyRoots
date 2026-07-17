@@ -1,0 +1,108 @@
+{
+ "instrument": "ingest_talmud_alternation.py over talmud_appendix1.json (manual 2.1.6) x crosswalk/roots.csv",
+ "total_whitney_roots": 930,
+ "classified": 794,
+ "class_counts": {
+  "regular": 711,
+  "over-strong": 12,
+  "under-strong": 71
+ },
+ "tip_counts": {
+  "II": 275,
+  "I": 436,
+  "IV": 12,
+  "III": 71
+ },
+ "exception_rate_pct": 10.5,
+ "paper_reference_rate": "~110/820 = ~13% (ISCLS 2024 slides)",
+ "match_kinds": {
+  "no_appendix1_entry": 125,
+  "spelling+homonym": 101,
+  "unique_spelling": 679,
+  "ambiguous_conflicting": 11,
+  "ambiguous_same_tip": 14
+ },
+ "gold_seed_validation": [
+  {
+   "whitney_no": "106",
+   "root": "kṛ",
+   "seed_class": "regular",
+   "seed_confidence": "high",
+   "talmud_tip": "I",
+   "ingested_class": "regular",
+   "verdict": "MATCH"
+  },
+  {
+   "whitney_no": "258",
+   "root": "ji",
+   "seed_class": "regular",
+   "seed_confidence": "high",
+   "talmud_tip": "I",
+   "ingested_class": "regular",
+   "verdict": "MATCH"
+  },
+  {
+   "whitney_no": "528",
+   "root": "bhū",
+   "seed_class": "regular",
+   "seed_confidence": "high",
+   "talmud_tip": "I",
+   "ingested_class": "regular",
+   "verdict": "MATCH"
+  },
+  {
+   "whitney_no": "699",
+   "root": "vac",
+   "seed_class": "regular",
+   "seed_confidence": "high (paper OCR 'uøc')",
+   "talmud_tip": "I",
+   "ingested_class": "regular",
+   "verdict": "MATCH"
+  },
+  {
+   "whitney_no": "395",
+   "root": "dhāv",
+   "seed_class": "over-strong",
+   "seed_confidence": "high (paper OCR 'dhau')",
+   "talmud_tip": "IV",
+   "ingested_class": "over-strong",
+   "verdict": "MATCH"
+  },
+  {
+   "whitney_no": "293",
+   "root": "tan",
+   "seed_class": "over-strong",
+   "seed_confidence": "low (paper OCR 'tai'; root id uncertain)",
+   "talmud_tip": "I",
+   "ingested_class": "regular",
+   "verdict": "MISMATCH"
+  },
+  {
+   "whitney_no": "915",
+   "root": "hiṃs",
+   "seed_class": "under-strong",
+   "seed_confidence": "high",
+   "talmud_tip": "III",
+   "ingested_class": "under-strong",
+   "verdict": "MATCH"
+  },
+  {
+   "whitney_no": "267",
+   "root": "jṛmbh",
+   "seed_class": "under-strong",
+   "seed_confidence": "high",
+   "talmud_tip": "III",
+   "ingested_class": "under-strong",
+   "verdict": "MATCH"
+  },
+  {
+   "whitney_no": "904",
+   "root": "svar",
+   "seed_class": "uncertain",
+   "seed_confidence": "high",
+   "talmud_tip": "II",
+   "ingested_class": "regular",
+   "verdict": "RESOLVES_UNCERTAIN"
+  }
+ ]
+}
