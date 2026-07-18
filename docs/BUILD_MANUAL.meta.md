@@ -95,5 +95,6 @@ All seven items remain **open** — every one is a code/CI/data change, and the
 | 10-07-2026 | Initial version: cheat-sheet, data-flow diagram, stages 0–5 + branch tracks, Track B (app/bundle/serve/deploy), 16-row Symptom→Cause→Cure, glossary, maintainer appendix (invariants, per-script traps, Phase-8 archive) | Fable 5 (`claude-fable-5`), H503 |
 | 11-07-2026 | template v2 backfill (H663) | Sonnet 5 (`claude-sonnet-5`) |
 | 18-07-2026 | H1245 estate refresh: drift-refresh vs 8 commits (new `ingest_talmud_alternation.py` branch-track row; Track B rewritten for the sanskrit-util re-vendor; bundle 16→17 modules; Stage 0b staleness warning; version bookkeeping to 1.5.1), deepen (six-command spot-run evidence block, two new symptom rows), consolidate (Transition-Runbook stub → pointer body; PPP_CORRECTION_PLAN historical banner), `LAST_VERIFIED` block, backlog reconciled + item 8 added | Fable 5 (`claude-fable-5`) |
+| 18-07-2026 | Gate-1 adversarial fact-check follow-up (7 findings fixed): `root_spine.json` is tracked, not gitignored (systemic, 4 sites); per-script table 16→17 modules; 1.4.0 = the manual itself, ingest is 1.5.0/1.5.1; review_queue live count 16 (3 of 19 later reverted); gold seed is 9 rows; `--chapters` silently wins over the mode flags; authority-order pointer repointed to REVIEWER_GUIDE | Fable 5 (`claude-fable-5`) |
 
 _Dr. Mārcis Gasūns_
