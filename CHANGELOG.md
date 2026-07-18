@@ -6,6 +6,19 @@ Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Z
 
 ## [Unreleased]
 
+### Changed
+- **`docs/BUILD_MANUAL.md` estate refresh (H1245, 18-07-2026, Fable 5 `claude-fable-5`).**
+  Drift-refresh against the 8 commits since 12-07 (new branch-track row for
+  [`scripts/ingest_talmud_alternation.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/ingest_talmud_alternation.py);
+  Track B rewritten for the sanskrit-util re-vendor; bundle is 17 modules; Stage 0b
+  committed-outputs-lag-inputs warning with measured verdict drift; version bookkeeping to
+  1.5.1) + six commands spot-run with real output recorded in the manual and in
+  [`docs/BUILD_MANUAL.meta.md`](https://github.com/gasyoun/WhitneyRoots/blob/main/docs/BUILD_MANUAL.meta.md)'s
+  new `LAST_VERIFIED` block. Consolidation: `Whitney_Transition_Runbook.md` (empty stub)
+  now a pointer to the manual; `PPP_CORRECTION_PLAN.md` carries a historical banner
+  (apparatus-bleed arm measured drained — scanner reports 0 records). Metadoc backlog
+  reconciled; item 8 (refresh stale `extract_dcs.py` projections) added.
+
 ## [1.5.1] - 2026-07-17
 ### Fixed
 - **`alternation_type.csv` asserted the author's Тип for 16 roots he never classified — homonym smear (H1065).** v1.5.0's ingest re-joined [`talmud_appendix1.json`](https://github.com/gasyoun/SanskritGrammar/blob/main/TolchelnikovTalmud_2026/data/talmud_appendix1.json) against [`roots.csv`](https://github.com/gasyoun/WhitneyRoots/blob/main/crosswalk/roots.csv) itself, binding an entry whenever its Whitney spelling was unique **without checking the homonym the author had indexed**. One authorial entry therefore smeared across several of Whitney's homonyms — 15 entries onto 31 records — every row still labelled `grade_confidence=authorial`: the author wrote «2 iṣ» and it was asserted of both `iṣ¹` and `iṣ²`; his single «1 śṛ» was asserted of `śṛ¹`, `śṛ²` **and** `śṛ³`. Also affected `paś²` (DCS rank 24), `pat²` (38), `stu²` (62), `vṛ²` (65), `rudh¹` (184), `tan²` (229). Same shape as the Warnemyr union-smear ([FINDINGS §3](https://github.com/gasyoun/SanskritLexicography/blob/master/FINDINGS.md)). **Fixed by retiring this repo's duplicate join**: [`scripts/ingest_talmud_alternation.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/ingest_talmud_alternation.py) now reads the one canonical Приложение-1 × Whitney join, [`whitney_talmud.json`](https://github.com/gasyoun/SanskritGrammar/blob/main/TolchelnikovTalmud_2026/data/whitney_talmud.json) ([SanskritGrammar PRs #348](https://github.com/gasyoun/SanskritGrammar/pull/348), [#352](https://github.com/gasyoun/SanskritGrammar/pull/352), [#353](https://github.com/gasyoun/SanskritGrammar/pull/353), [#354](https://github.com/gasyoun/SanskritGrammar/pull/354)), which abstains on homonym divergence and carries its own audit trail (`talmud_root`/`talmud_ref`/`talmud_match`). Classified **794 → 787**, homonym smears **15 → 0**, **0** tip-value disagreements on roots classified by both; 15 over-assertions withdrawn, 8 spelling-alt recoveries gained (`gach`, DCS rank 5, keeps its Тип). Exception rate **unchanged at 10.5%** — the paper-level finding never depended on the defect. Gold seed still 7/7 high-confidence + `svar` resolved + the `tan`/`tāy` erratum. 19 unbound roots are homonym divergences parked for Tolchelnikov's ruling. (Opus 4.8 `claude-opus-4-8`)
