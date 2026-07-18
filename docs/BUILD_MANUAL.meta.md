@@ -1,6 +1,6 @@
 # BUILD_MANUAL.meta.md — metadoc for the operator manual
 
-_Created: 10-07-2026 · Last updated: 11-07-2026_
+_Created: 10-07-2026 · Last updated: 18-07-2026_
 
 Companion record for [docs/BUILD_MANUAL.md](https://github.com/gasyoun/WhitneyRoots/blob/main/docs/BUILD_MANUAL.md), per the org metadoc convention (a document *about* the document: purpose, provenance, improvement backlog, revision history — never a duplicate of the subject's content).
 
@@ -18,19 +18,41 @@ Give a new operator/contributor a single document from which the whole repo can 
 
 - Authored 10-07-2026 by Fable 5 (`claude-fable-5`) under handoff [H503](https://github.com/gasyoun/Uprava/blob/main/handoffs/archive/H503-Fable_WhitneyRoots_pipeline_and_app_build_manual_10.07.26.md) (manual-coverage census batch H501–H531, 79 active repos surveyed 10-07-2026).
 - Method: four parallel Explore-agent surveys (Python pipeline map with exact I/O per script; JS app + deploy map; data-file provenance + glossary; gold-standard template skeleton from [RussianRamayana Litpam-Indexator MANUAL.md](https://github.com/gasyoun/RussianRamayana/blob/main/Litpam-Indexator/docs/indesign-pipeline/MANUAL.md)), synthesized against repo state at commit `37fb894`.
-- The manual supersedes the intent of [Whitney_Transition_Runbook.md](https://github.com/gasyoun/WhitneyRoots/blob/main/Whitney_Transition_Runbook.md) (a 2-byte stub that never held content).
+- The manual supersedes the intent of [Whitney_Transition_Runbook.md](https://github.com/gasyoun/WhitneyRoots/blob/main/Whitney_Transition_Runbook.md) — an empty stub until 18-07-2026, when H1245 gave it a pointer body to this manual.
+
+## Verification
+
+```
+LAST_VERIFIED: 18-07-2026
+VERIFIED_BY: Fable 5 (claude-fable-5), H1245
+COMMANDS_SPOT_RUN: 6
+```
+
+Spot-run 18-07-2026 from a fresh worktree (no gitignored spine/mirror): `node
+scripts/bundle.js` (committed bundle proven fresh — timestamp-only diff),
+`python scripts/emit_accent_rules_tsv.py` (sanity OK, TSV in sync),
+`python scripts/dcs/scan_ppp_apparatus.py` (0 records — backlog drained),
+`python scripts/dcs/audit_class_changes.py` (clean),
+`python scripts/ingest_talmud_alternation.py` (idempotent, gold seed reproduced),
+`python scripts/dcs/extract_dcs.py` (runs; surfaced committed-outputs staleness —
+regenerated data discarded, docs-only pass). **Not** spot-run: stages 0–5 proper
+(need the spine/mirror), `vidyut`-dependent scripts, the JS smoke-test checklist.
 
 ## Ranked improvement backlog
 
+All seven items remain **open** — every one is a code/CI/data change, and the
+18-07-2026 pass (H1245) was docs-fenced by design. Reconciled statuses:
+
 | # | Item | Status |
 |---|---|---|
-| 1 | **Pin the environment**: add a `requirements.txt` (or `pyproject.toml`) capturing `vidyut`, `rdflib` and the `sanskrit-util` editable install, so the manual's Environment section becomes one `pip install -r` line | open |
-| 2 | **De-hardcode Stage 0**: `scratch/phase0/parse_warnemyr.py` carries an absolute `BASE` path; make it repo-relative so the bootstrap runs on any clone unchanged | open |
-| 3 | **Bundle-freshness CI gate**: CI does not detect a stale `v3_app.js`; add a job that re-runs `node scripts/bundle.js` and fails on a non-timestamp diff (or retire the bundle — the deployed `index.html` doesn't reference it) | open |
-| 4 | **Decide the `v3_app.js` question**: the deployed HTML loads ES modules directly, so the bundle ships unused in the Pages artifact — either wire it as the production script or document it as the embeddable single-file build and drop it from `_site` | open |
-| 5 | **`1885/` mirror acquisition recipe**: the manual says "copy it from an existing machine or re-mirror" — script the re-mirror (`curl -k` + the `wn_index.tsv` URL map) so a fresh clone can bootstrap unattended | open |
-| 6 | **One-command pipeline driver**: stages 0–5 are hand-ordered; a `run_pipeline.py` (or make-style) driver with per-stage skip flags would eliminate order mistakes the asserts currently catch late | open |
-| 7 | **Time budget table**: the gold standard carries measured per-stage timings; measure a full pipeline run and add one (only `extract_dcs.py` ≈1 min is recorded so far) | open |
+| 1 | **Pin the environment**: add a `requirements.txt` (or `pyproject.toml`) capturing `vidyut`, `rdflib` and the `sanskrit-util` editable install, so the manual's Environment section becomes one `pip install -r` line | open (code — out of docs-pass scope) |
+| 2 | **De-hardcode Stage 0**: `scratch/phase0/parse_warnemyr.py` carries an absolute `BASE` path; make it repo-relative so the bootstrap runs on any clone unchanged | open (code) |
+| 3 | **Bundle-freshness CI gate**: CI does not detect a stale `v3_app.js`; add a job that re-runs `node scripts/bundle.js` and fails on a non-timestamp diff (or retire the bundle — the deployed `index.html` doesn't reference it) | open (CI). 18-07-2026: bundle verified fresh by hand — the gap is the gate, not the current state |
+| 4 | **Decide the `v3_app.js` question**: the deployed HTML loads ES modules directly, so the bundle ships unused in the Pages artifact — either wire it as the production script or document it as the embeddable single-file build and drop it from `_site` | open (@DECIDE-shaped) |
+| 5 | **`1885/` mirror acquisition recipe**: the manual says "copy it from an existing machine or re-mirror" — script the re-mirror (`curl -k` + the `wn_index.tsv` URL map) so a fresh clone can bootstrap unattended | open (code) |
+| 6 | **One-command pipeline driver**: stages 0–5 are hand-ordered; a `run_pipeline.py` (or make-style) driver with per-stage skip flags would eliminate order mistakes the asserts currently catch late | open (code) |
+| 7 | **Time budget table**: the gold standard carries measured per-stage timings; measure a full pipeline run and add one (only `extract_dcs.py` ≈1 min is recorded so far — re-confirmed 18-07-2026) | open (needs a full spine run) |
+| 8 | **Refresh the committed `extract_dcs.py` projections**: they were generated 10-06-2026 and now lag `src/app_data.json` (measured verdict drift 18-07-2026: agree 322→321, conflict 103→97) — a data-refresh PR, deliberately not folded into H1245 | open (data; added 18-07-2026) |
 
 ## Known limitations
 
@@ -72,5 +94,6 @@ Give a new operator/contributor a single document from which the whole repo can 
 |---|---|---|
 | 10-07-2026 | Initial version: cheat-sheet, data-flow diagram, stages 0–5 + branch tracks, Track B (app/bundle/serve/deploy), 16-row Symptom→Cause→Cure, glossary, maintainer appendix (invariants, per-script traps, Phase-8 archive) | Fable 5 (`claude-fable-5`), H503 |
 | 11-07-2026 | template v2 backfill (H663) | Sonnet 5 (`claude-sonnet-5`) |
+| 18-07-2026 | H1245 estate refresh: drift-refresh vs 8 commits (new `ingest_talmud_alternation.py` branch-track row; Track B rewritten for the sanskrit-util re-vendor; bundle 16→17 modules; Stage 0b staleness warning; version bookkeeping to 1.5.1), deepen (six-command spot-run evidence block, two new symptom rows), consolidate (Transition-Runbook stub → pointer body; PPP_CORRECTION_PLAN historical banner), `LAST_VERIFIED` block, backlog reconciled + item 8 added | Fable 5 (`claude-fable-5`) |
 
 _Dr. Mārcis Gasūns_
