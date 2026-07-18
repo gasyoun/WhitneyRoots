@@ -1,5 +1,15 @@
 # PPP Correction Plan
 
+> **Historical (June 2026) — kept for provenance.** This analysis seeded the PPP
+> correction track; execution has since moved on. The apparatus-bleed arm is
+> **fully drained** (`python scripts/dcs/scan_ppp_apparatus.py` reports
+> `0 apparatus-bleed records` as of 18-07-2026) via the idempotent
+> `scripts/dcs/fix_ppp_*` family; current operator guidance lives in
+> [docs/BUILD_MANUAL.md](https://github.com/gasyoun/WhitneyRoots/blob/main/docs/BUILD_MANUAL.md)
+> and the live queues in
+> [docs/DECISIONS_NEEDED.md](https://github.com/gasyoun/WhitneyRoots/blob/main/docs/DECISIONS_NEEDED.md).
+> The verdict counts below describe the June snapshot, not today's data.
+
 _Based on validation of 208 Whitney Roots PPP entries against DCS corpus._
 
 ## Executive Summary

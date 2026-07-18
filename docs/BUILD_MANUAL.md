@@ -14,7 +14,7 @@ The repo has **two halves**:
 > - *What the data means, schema, authority order* → [DESIGN.md](https://github.com/gasyoun/WhitneyRoots/blob/main/DESIGN.md).
 > - *Adjudicate a root-class or PPP question* → [REVIEWER_GUIDE.md](https://github.com/gasyoun/WhitneyRoots/blob/main/REVIEWER_GUIDE.md) (EN/RU) + [docs/DECISIONS_NEEDED.md](https://github.com/gasyoun/WhitneyRoots/blob/main/docs/DECISIONS_NEEDED.md).
 > - *AI-assistant conventions* → [CLAUDE.md](https://github.com/gasyoun/WhitneyRoots/blob/main/CLAUDE.md).
-> - [Whitney_Transition_Runbook.md](https://github.com/gasyoun/WhitneyRoots/blob/main/Whitney_Transition_Runbook.md) is a **2-byte empty stub** — despite the name it contains nothing; this manual is the document that name promises.
+> - [Whitney_Transition_Runbook.md](https://github.com/gasyoun/WhitneyRoots/blob/main/Whitney_Transition_Runbook.md) is a **pointer stub to this manual** (empty from creation until 18-07-2026, when H1245 gave it a pointer body) — this manual is the document that name promised.
 
 ---
 
