@@ -6,6 +6,8 @@ Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Z
 
 ## [Unreleased]
 
+## [1.5.2] - 2026-07-18
+
 ### Changed
 - **`docs/BUILD_MANUAL.md` estate refresh (H1245, 18-07-2026, Fable 5 `claude-fable-5`).**
   Drift-refresh against the 8 commits since 12-07 (new branch-track row for
