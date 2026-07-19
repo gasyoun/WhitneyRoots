@@ -1,0 +1,2210 @@
+{
+  "queue": "E",
+  "generated": "19-07-2026",
+  "generated_by": "Sonnet 5 (claude-sonnet-5), H975",
+  "source": "read-only diff vs git commit 18b51b1:src/app_data.json, reproducing (never executing) the classification logic of scripts/dcs/revert_collapse_additions.py",
+  "produce_not_decide": true,
+  "note": "Candidate pre-fill only. No item below has been adjudicated; decision/verdict fields are intentionally null for a human (then Zalizniak as tiebreaker) to fill in.",
+  "count": 118,
+  "items": [
+    {
+      "id": "8",
+      "root": "aṭ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "13",
+      "root": "am",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "49",
+      "root": "īr",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "52",
+      "root": "īṣ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "53",
+      "root": "īh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "55",
+      "root": "1 ukṣ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "56",
+      "root": "2 ukṣ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "59",
+      "root": "ujh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "62",
+      "root": "ubj",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "78",
+      "root": "ej",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "79",
+      "root": "edh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "80",
+      "root": "katth",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "90",
+      "root": "kāṅkṣ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "111",
+      "root": "kṛp",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "118",
+      "root": "krand",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "121",
+      "root": "krīḍ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "138",
+      "root": "kṣar",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "157",
+      "root": "khan",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "161",
+      "root": "khād",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "174",
+      "root": "gal",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "178",
+      "root": "gāh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "197",
+      "root": "gras",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "201",
+      "root": "ghaṭ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "213",
+      "root": "cakṣ",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "220",
+      "root": "car",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "223",
+      "root": "cal",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "231",
+      "root": "cumb",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "250",
+      "root": "jap",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "254",
+      "root": "jalp",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "260",
+      "root": "jīv",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "262",
+      "root": "juṣ",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "II",
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "267",
+      "root": "jṛmbh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "274",
+      "root": "jval",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "289",
+      "root": "takṣ",
+      "reverted_from": [
+        "I",
+        "II",
+        "V",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II",
+        "V"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "312",
+      "root": "tud",
+      "reverted_from": [
+        "I",
+        "VI",
+        "VII"
+      ],
+      "restored_to": [
+        "VI",
+        "VII"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "326",
+      "root": "tras",
+      "reverted_from": [
+        "I",
+        "IV",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "IV"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "332",
+      "root": "tvar",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "342",
+      "root": "dabh",
+      "reverted_from": [
+        "I",
+        "V",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "V"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "353",
+      "root": "dāś",
+      "reverted_from": [
+        "I",
+        "II",
+        "V",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II",
+        "V"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "356",
+      "root": "diś",
+      "reverted_from": [
+        "I",
+        "III",
+        "IV",
+        "VI"
+      ],
+      "restored_to": [
+        "III",
+        "IV",
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "360",
+      "root": "dīkṣ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "369",
+      "root": "duh",
+      "reverted_from": [
+        "I",
+        "II",
+        "IV",
+        "VI"
+      ],
+      "restored_to": [
+        "II",
+        "IV",
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "390",
+      "root": "dhanv",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "395",
+      "root": "1 dhāv",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "396",
+      "root": "2 dhāv",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "401",
+      "root": "dhūrv",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "407",
+      "root": "dhvaṃs",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "411",
+      "root": "nakṣ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "413",
+      "root": "nad",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "414",
+      "root": "nand",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "416",
+      "root": "nam",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "417",
+      "root": "nard",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "420",
+      "root": "nas",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "431",
+      "root": "nud",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "439",
+      "root": "paṇ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "440",
+      "root": "1 pat",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "441",
+      "root": "2 pat",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "453",
+      "root": "pinv",
+      "reverted_from": [
+        "I",
+        "V",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "V"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "478",
+      "root": "prath",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "491",
+      "root": "1 phal",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "492",
+      "root": "2 phal",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "505",
+      "root": "bhaj",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "509",
+      "root": "bhan",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "518",
+      "root": "bhāṣ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "519",
+      "root": "bhās",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "520",
+      "root": "bhikṣ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "529",
+      "root": "bhūṣ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "531",
+      "root": "bhṛjj",
+      "reverted_from": [
+        "I",
+        "IV",
+        "VI"
+      ],
+      "restored_to": [
+        "IV",
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "535",
+      "root": "bhrāj",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "539",
+      "root": "majj",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "551",
+      "root": "mārg",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "570",
+      "root": "mūrch",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "577",
+      "root": "mṛḍ",
+      "reverted_from": [
+        "I",
+        "IX",
+        "VI"
+      ],
+      "restored_to": [
+        "IX",
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "581",
+      "root": "mṛś",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "597",
+      "root": "yaj",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "598",
+      "root": "yat",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "600",
+      "root": "yam",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "620",
+      "root": "raṇv",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "621",
+      "root": "rad",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "625",
+      "root": "rap",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "628",
+      "root": "rabh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "629",
+      "root": "ram",
+      "reverted_from": [
+        "I",
+        "IX",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "IX"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "633",
+      "root": "ras",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "637",
+      "root": "rāj",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "655",
+      "root": "ruj",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "II",
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "664",
+      "root": "rej",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "670",
+      "root": "lajj",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "672",
+      "root": "lap",
+      "reverted_from": [
+        "I",
+        "IV",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "IV"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "673",
+      "root": "labh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "676",
+      "root": "lal",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "704",
+      "root": "vad",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "707",
+      "root": "vand",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "710",
+      "root": "vam",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "715",
+      "root": "1 vas",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "II",
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "716",
+      "root": "2 vas",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "II",
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "717",
+      "root": "3 vas",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "II",
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "718",
+      "root": "vah",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "722",
+      "root": "vāñch",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "730",
+      "root": "1 vidh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "731",
+      "root": "2 vidh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "734",
+      "root": "viś",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "747",
+      "root": "vṛh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "748",
+      "root": "ven",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "749",
+      "root": "vell",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "772",
+      "root": "śap",
+      "reverted_from": [
+        "I",
+        "IV",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "IV"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "819",
+      "root": "ślāgh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "822",
+      "root": "śvas",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "828",
+      "root": "sac",
+      "reverted_from": [
+        "I",
+        "III",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "III"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "839",
+      "root": "sādh",
+      "reverted_from": [
+        "I",
+        "IV",
+        "V",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "IV",
+        "V"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "851",
+      "root": "sūrkṣ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "895",
+      "root": "syand",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "896",
+      "root": "sraṃs",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "900",
+      "root": "svaj",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "901",
+      "root": "svad",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "902",
+      "root": "svan",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "904",
+      "root": "svar",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "910",
+      "root": "has",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    },
+    {
+      "id": "930",
+      "root": "hras",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to."
+    }
+  ],
+  "priority": "LOWEST of the batch -- optional re-check per .ai_state.md"
+}
