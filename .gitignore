@@ -13,3 +13,6 @@ scratch/accent_validation/
 # python bytecode
 __pycache__/
 *.pyc
+
+# H975 review sheets (personal working artifacts, not repo deliverables)
+review/

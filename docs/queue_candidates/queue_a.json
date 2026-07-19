@@ -1,0 +1,370 @@
+{
+  "queue": "A",
+  "generated": "19-07-2026",
+  "generated_by": "Sonnet 5 (claude-sonnet-5), H975",
+  "source": "review_queue.json + docs/DECISIONS_NEEDED.md S1 (merged, read-only)",
+  "produce_not_decide": true,
+  "note": "Candidate pre-fill only. No item below has been adjudicated; decision/verdict fields are intentionally null for a human (then Zalizniak as tiebreaker) to fill in.",
+  "count": 16,
+  "items": [
+    {
+      "id": "75",
+      "root": "ṛdh",
+      "whitney_roots_classes": [
+        "IV",
+        "V",
+        "VII"
+      ],
+      "current_classes": [
+        "I",
+        "IV",
+        "V",
+        "VII"
+      ],
+      "added": [
+        "I"
+      ],
+      "method": "conflict pipeline (distinct class)",
+      "status": "PENDING_REVIEW",
+      "check_against": "Whitney Grammar §-chapter for the added class; then Zalizniak.",
+      "grammar_support_for_added": "+I: ✗",
+      "proposal": "NEEDS ZALIZNIAK",
+      "decision": null,
+      "decision_note": null
+    },
+    {
+      "id": "120",
+      "root": "krī",
+      "whitney_roots_classes": [
+        "IX"
+      ],
+      "current_classes": [
+        "I",
+        "IX"
+      ],
+      "added": [
+        "I"
+      ],
+      "method": "section-B (DCS metadata ∩ Grammar text)",
+      "status": "PENDING_REVIEW",
+      "check_against": "Whitney Grammar §-chapter for the added class; then Zalizniak.",
+      "grammar_support_for_added": "+I: §734",
+      "proposal": "LEAN KEEP",
+      "decision": null,
+      "decision_note": null
+    },
+    {
+      "id": "141",
+      "root": "1 kṣi",
+      "whitney_roots_classes": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "current_classes": [
+        "I",
+        "II",
+        "IV",
+        "VI"
+      ],
+      "added": [
+        "IV"
+      ],
+      "method": "section-B (DCS metadata ∩ Grammar text)",
+      "status": "PENDING_REVIEW",
+      "check_against": "Whitney Grammar §-chapter for the added class; then Zalizniak.",
+      "grammar_support_for_added": "+IV: §761b",
+      "proposal": "LEAN KEEP",
+      "decision": null,
+      "decision_note": null
+    },
+    {
+      "id": "142",
+      "root": "2 kṣi",
+      "whitney_roots_classes": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "current_classes": [
+        "I",
+        "II",
+        "IV",
+        "VI"
+      ],
+      "added": [
+        "IV"
+      ],
+      "method": "section-B (DCS metadata ∩ Grammar text)",
+      "status": "PENDING_REVIEW",
+      "check_against": "Whitney Grammar §-chapter for the added class; then Zalizniak.",
+      "grammar_support_for_added": "+IV: §761b",
+      "proposal": "LEAN KEEP",
+      "decision": null,
+      "decision_note": null
+    },
+    {
+      "id": "227",
+      "root": "cit",
+      "whitney_roots_classes": [
+        "I"
+      ],
+      "current_classes": [
+        "I",
+        "III"
+      ],
+      "added": [
+        "III"
+      ],
+      "method": "section-B (DCS metadata ∩ Grammar text)",
+      "status": "PENDING_REVIEW",
+      "check_against": "Whitney Grammar §-chapter for the added class; then Zalizniak.",
+      "grammar_support_for_added": "+III: §681",
+      "proposal": "LEAN KEEP",
+      "decision": null,
+      "decision_note": null
+    },
+    {
+      "id": "269",
+      "root": "jñā",
+      "whitney_roots_classes": [
+        "I",
+        "IX"
+      ],
+      "current_classes": [
+        "I",
+        "IV",
+        "IX"
+      ],
+      "added": [
+        "IV"
+      ],
+      "method": "section-B (DCS metadata ∩ Grammar text)",
+      "status": "PENDING_REVIEW",
+      "check_against": "Whitney Grammar §-chapter for the added class; then Zalizniak.",
+      "grammar_support_for_added": "+IV: §770b",
+      "proposal": "LEAN KEEP",
+      "decision": null,
+      "decision_note": null
+    },
+    {
+      "id": "352",
+      "root": "4 dā",
+      "whitney_roots_classes": [],
+      "current_classes": [
+        "III"
+      ],
+      "added": [
+        "III"
+      ],
+      "method": "conflict pipeline (distinct class)",
+      "status": "PENDING_REVIEW",
+      "check_against": "Whitney Grammar §-chapter for the added class; then Zalizniak.",
+      "grammar_support_for_added": "+III: §643b, §649, §667, §668b, §672",
+      "proposal": "LEAN KEEP",
+      "decision": null,
+      "decision_note": null
+    },
+    {
+      "id": "365",
+      "root": "du",
+      "whitney_roots_classes": [
+        "V"
+      ],
+      "current_classes": [
+        "V",
+        "VII"
+      ],
+      "added": [
+        "VII"
+      ],
+      "method": "conflict pipeline (distinct class)",
+      "status": "PENDING_REVIEW",
+      "check_against": "Whitney Grammar §-chapter for the added class; then Zalizniak.",
+      "grammar_support_for_added": "+VII: §687",
+      "proposal": "LEAN KEEP",
+      "decision": null,
+      "decision_note": null
+    },
+    {
+      "id": "397",
+      "root": "dhi",
+      "whitney_roots_classes": [
+        "V"
+      ],
+      "current_classes": [
+        "V",
+        "VII"
+      ],
+      "added": [
+        "VII"
+      ],
+      "method": "conflict pipeline (distinct class)",
+      "status": "PENDING_REVIEW",
+      "check_against": "Whitney Grammar §-chapter for the added class; then Zalizniak.",
+      "grammar_support_for_added": "+VII: §689",
+      "proposal": "LEAN KEEP",
+      "decision": null,
+      "decision_note": null
+    },
+    {
+      "id": "402",
+      "root": "dhṛ",
+      "whitney_roots_classes": [
+        "I"
+      ],
+      "current_classes": [
+        "I",
+        "IV"
+      ],
+      "added": [
+        "IV"
+      ],
+      "method": "section-B (DCS metadata ∩ Grammar text)",
+      "status": "PENDING_REVIEW",
+      "check_against": "Whitney Grammar §-chapter for the added class; then Zalizniak.",
+      "grammar_support_for_added": "+IV: §773",
+      "proposal": "LEAN KEEP",
+      "decision": null,
+      "decision_note": null
+    },
+    {
+      "id": "494",
+      "root": "bandh",
+      "whitney_roots_classes": [
+        "I",
+        "IX"
+      ],
+      "current_classes": [
+        "I",
+        "IV",
+        "IX"
+      ],
+      "added": [
+        "IV"
+      ],
+      "method": "section-B (DCS metadata ∩ Grammar text)",
+      "status": "PENDING_REVIEW",
+      "check_against": "Whitney Grammar §-chapter for the added class; then Zalizniak.",
+      "grammar_support_for_added": "+IV: §769",
+      "proposal": "LEAN KEEP",
+      "decision": null,
+      "decision_note": null
+    },
+    {
+      "id": "719",
+      "root": "1 vā",
+      "whitney_roots_classes": [
+        "II",
+        "IV"
+      ],
+      "current_classes": [
+        "I",
+        "II",
+        "IV"
+      ],
+      "added": [
+        "I"
+      ],
+      "method": "conflict pipeline (distinct class)",
+      "status": "PENDING_REVIEW",
+      "check_against": "Whitney Grammar §-chapter for the added class; then Zalizniak.",
+      "grammar_support_for_added": "+I: §736",
+      "proposal": "LEAN KEEP",
+      "decision": null,
+      "decision_note": null
+    },
+    {
+      "id": "720",
+      "root": "2 vā",
+      "whitney_roots_classes": [
+        "II",
+        "IV"
+      ],
+      "current_classes": [
+        "I",
+        "II",
+        "IV"
+      ],
+      "added": [
+        "I"
+      ],
+      "method": "conflict pipeline (distinct class)",
+      "status": "PENDING_REVIEW",
+      "check_against": "Whitney Grammar §-chapter for the added class; then Zalizniak.",
+      "grammar_support_for_added": "+I: §736",
+      "proposal": "LEAN KEEP",
+      "decision": null,
+      "decision_note": null
+    },
+    {
+      "id": "721",
+      "root": "3 vā",
+      "whitney_roots_classes": [
+        "II",
+        "IV"
+      ],
+      "current_classes": [
+        "I",
+        "II",
+        "IV"
+      ],
+      "added": [
+        "I"
+      ],
+      "method": "conflict pipeline (distinct class)",
+      "status": "PENDING_REVIEW",
+      "check_against": "Whitney Grammar §-chapter for the added class; then Zalizniak.",
+      "grammar_support_for_added": "+I: §736",
+      "proposal": "LEAN KEEP",
+      "decision": null,
+      "decision_note": null
+    },
+    {
+      "id": "862",
+      "root": "stan",
+      "whitney_roots_classes": [
+        "I",
+        "II"
+      ],
+      "current_classes": [
+        "I",
+        "II",
+        "VII"
+      ],
+      "added": [
+        "VII"
+      ],
+      "method": "conflict pipeline (distinct class)",
+      "status": "PENDING_REVIEW",
+      "check_against": "Whitney Grammar §-chapter for the added class; then Zalizniak.",
+      "grammar_support_for_added": "+VII: ✗",
+      "proposal": "NEEDS ZALIZNIAK",
+      "decision": null,
+      "decision_note": null
+    },
+    {
+      "id": "914",
+      "root": "hi",
+      "whitney_roots_classes": [
+        "I",
+        "V"
+      ],
+      "current_classes": [
+        "I",
+        "V",
+        "VII"
+      ],
+      "added": [
+        "VII"
+      ],
+      "method": "conflict pipeline (distinct class)",
+      "status": "PENDING_REVIEW",
+      "check_against": "Whitney Grammar §-chapter for the added class; then Zalizniak.",
+      "grammar_support_for_added": "+VII: §688d",
+      "proposal": "LEAN KEEP",
+      "decision": null,
+      "decision_note": null
+    }
+  ]
+}
