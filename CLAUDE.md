@@ -98,3 +98,12 @@ current phase's actual invocation order; it changes as phases complete/revert).
 - Data files superseded-but-retained for history: `detailed_conflict_triage.md`,
   `candidates_for_addition.md` (Phase 1–6 analysis, subject of the Phase 8
   revert — kept for audit trail only, not current guidance).
+
+## Operational hazard notes
+
+Destructive-risk facts for this repo (do-not-rerun scripts, decoys, traps) are
+registered centrally in an org-private hub
+([Uprava DANGER_FACTS.md](https://github.com/gasyoun/Uprava/blob/main/DANGER_FACTS.md),
+org members only); the public-safe subset is mirrored in the generated block of
+[AGENTS.md](https://github.com/gasyoun/WhitneyRoots/blob/main/AGENTS.md). Check them
+before running anything that writes.
