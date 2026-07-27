@@ -7,6 +7,20 @@ Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Z
 ## [Unreleased]
 
 ### Added
+- **Queue C/D/E agent-verdict pre-resolve** (H1686, 28-07-2026, Sonnet 5 `claude-sonnet-5`):
+  [`scripts/dcs/queue_cde_agent_verdicts.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/dcs/queue_cde_agent_verdicts.py)
+  reads the H975 candidate-prefill files (`docs/queue_candidates/queue_{c,d,e}.json`) plus
+  live `src/app_data.json`, `src/grammar_refs.json`, `src/wg_text.txt`, and the
+  SanskritLexicography `SCH-accents-IAST-20247.txt` accented headword list, and writes a
+  cited agent verdict for every one of the 295 pending rows across queue C (76 malformed-PPP),
+  D (101 grammar-exception tags), and E (118 reverted I/VI pairs) — see
+  `docs/queue_verdicts/SUMMARY.json` and the per-queue `queue_{c,d,e}_verdicts.json` /
+  `queue_{c,d,e}_human_residue.md`. 144/295 resolved by agent verdict (already-fixed by a
+  prior pass, a classifier parse artifact, a cited Whitney infinitive/gerund-bleed pattern,
+  a literal grammar-text citation, a confirmed exception citation, a contamination-cleared
+  false tag, or zero accented-source citability); 151/295 remain genuine human residue.
+  Read-only — no write to `app_data.json`/`grammar_refs.json`/`review_queue.json` (gated on
+  the human residue vote per [H1686](https://github.com/gasyoun/Uprava/blob/main/handoffs/H1686-Sonnet_WhitneyRoots_queues-cde-pattern-preresolve_26.07.26.md)'s DoD). Mandate: [VOTING_SHEET_SCREENING_AUDIT_26-07-2026.md §11](https://github.com/gasyoun/Uprava/blob/main/docs/VOTING_SHEET_SCREENING_AUDIT_26-07-2026.md).
 - **Homonym token-attribution ceiling report** (H1747, 27-07-2026, Grok 4.5): crosswalk/gaps_s4_homonym_ceiling_report.json — 26 reliable / 46 unreliable (38 DCS single-lemma_id lumps).
 
 

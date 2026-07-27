@@ -1,0 +1,34 @@
+{
+  "handoff": "H1686",
+  "agent": "Sonnet 5 (claude-sonnet-5)",
+  "generated": "28-07-2026",
+  "queue_c": {
+    "total": 76,
+    "human_residue": 23,
+    "by_verdict": {
+      "infinitive-bleed-tos": 6,
+      "residue-human": 23,
+      "confirmed-in-grammar-text": 2,
+      "already-fixed": 38,
+      "classifier-parse-artifact": 7
+    }
+  },
+  "queue_d": {
+    "total": 101,
+    "human_residue": 39,
+    "by_verdict": {
+      "contamination-clear": 6,
+      "confirmed-exception": 56,
+      "residue-human": 39
+    }
+  },
+  "queue_e": {
+    "total": 118,
+    "human_residue": 89,
+    "by_verdict": {
+      "short-root-screening-unreliable": 6,
+      "citable-source-candidate": 83,
+      "no-citation-auto-fail": 29
+    }
+  }
+}
