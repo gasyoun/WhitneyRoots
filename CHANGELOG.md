@@ -6,6 +6,10 @@ Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Z
 
 ## [Unreleased]
 
+### Added
+- **Homonym token-attribution ceiling report** (H1747, 27-07-2026, Grok 4.5): crosswalk/gaps_s4_homonym_ceiling_report.json — 26 reliable / 46 unreliable (38 DCS single-lemma_id lumps).
+
+
 ## [1.5.2] - 2026-07-18
 
 ### Changed
