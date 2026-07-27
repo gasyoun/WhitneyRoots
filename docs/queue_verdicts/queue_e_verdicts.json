@@ -1,0 +1,3622 @@
+{
+  "queue": "E",
+  "source": "docs/queue_candidates/queue_e.json + SCH-accents-IAST-20247.txt",
+  "generated": "28-07-2026",
+  "generated_by": "Sonnet 5 (claude-sonnet-5)",
+  "handoff": "H1686",
+  "count": 118,
+  "items": [
+    {
+      "id": "8",
+      "root": "aṭ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "short-root-screening-unreliable",
+      "agent_confidence": "low",
+      "human_residue": true,
+      "agent_evidence": "1 prefix hits for 'aṭ', but root is only 2 chars -- a bare-prefix scan this short cannot distinguish a genuinely cognate accented form from an unrelated word that happens to start the same way (e.g. a negating a- + unrelated stem). Screening inconclusive; kept for the human, matches shown for reference: ['aṭṇārá'].",
+      "agent_citation": null,
+      "accent_source_matches": [
+        "aṭṇārá"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "13",
+      "root": "am",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "short-root-screening-unreliable",
+      "agent_confidence": "low",
+      "human_residue": true,
+      "agent_evidence": "6 prefix hits for 'am', but root is only 2 chars -- a bare-prefix scan this short cannot distinguish a genuinely cognate accented form from an unrelated word that happens to start the same way (e.g. a negating a- + unrelated stem). Screening inconclusive; kept for the human, matches shown for reference: ['áma', 'ámadhyama', 'ámahīyamāna', 'amajjáka', 'ámamri', 'ámanas'].",
+      "agent_citation": null,
+      "accent_source_matches": [
+        "áma",
+        "ámadhyama",
+        "ámahīyamāna",
+        "amajjáka",
+        "ámamri",
+        "ámanas"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "49",
+      "root": "īr",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "short-root-screening-unreliable",
+      "agent_confidence": "low",
+      "human_residue": true,
+      "agent_evidence": "4 prefix hits for 'īr', but root is only 2 chars -- a bare-prefix scan this short cannot distinguish a genuinely cognate accented form from an unrelated word that happens to start the same way (e.g. a negating a- + unrelated stem). Screening inconclusive; kept for the human, matches shown for reference: ['īrmá', 'īrmā́nta', 'īrṣyú', 'īrṣyā́'].",
+      "agent_citation": null,
+      "accent_source_matches": [
+        "īrmá",
+        "īrmā́nta",
+        "īrṣyú",
+        "īrṣyā́"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "52",
+      "root": "īṣ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "short-root-screening-unreliable",
+      "agent_confidence": "low",
+      "human_residue": true,
+      "agent_evidence": "5 prefix hits for 'īṣ', but root is only 2 chars -- a bare-prefix scan this short cannot distinguish a genuinely cognate accented form from an unrelated word that happens to start the same way (e.g. a negating a- + unrelated stem). Screening inconclusive; kept for the human, matches shown for reference: ['īṣát', 'īṣmá', 'ī́ṣva', 'īṣā́', 'ī́ṣīkā'].",
+      "agent_citation": null,
+      "accent_source_matches": [
+        "īṣát",
+        "īṣmá",
+        "ī́ṣva",
+        "īṣā́",
+        "ī́ṣīkā"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "53",
+      "root": "īh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "short-root-screening-unreliable",
+      "agent_confidence": "low",
+      "human_residue": true,
+      "agent_evidence": "1 prefix hits for 'īh', but root is only 2 chars -- a bare-prefix scan this short cannot distinguish a genuinely cognate accented form from an unrelated word that happens to start the same way (e.g. a negating a- + unrelated stem). Screening inconclusive; kept for the human, matches shown for reference: ['īhā́'].",
+      "agent_citation": null,
+      "accent_source_matches": [
+        "īhā́"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "55",
+      "root": "1 ukṣ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'ukṣ': ['ukṣán', 'ukṣatará', 'ukṣavaśá', 'ukṣavehát', 'ukṣaṇyú', 'ukṣaṇyā̀yana']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "ukṣán",
+        "ukṣatará",
+        "ukṣavaśá",
+        "ukṣavehát",
+        "ukṣaṇyú",
+        "ukṣaṇyā̀yana"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "56",
+      "root": "2 ukṣ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'ukṣ': ['ukṣán', 'ukṣatará', 'ukṣavaśá', 'ukṣavehát', 'ukṣaṇyú', 'ukṣaṇyā̀yana']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "ukṣán",
+        "ukṣatará",
+        "ukṣavaśá",
+        "ukṣavehát",
+        "ukṣaṇyú",
+        "ukṣaṇyā̀yana"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "59",
+      "root": "ujh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'ujh' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "62",
+      "root": "ubj",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'ubj' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "78",
+      "root": "ej",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "short-root-screening-unreliable",
+      "agent_confidence": "low",
+      "human_residue": true,
+      "agent_evidence": "3 prefix hits for 'ej', but root is only 2 chars -- a bare-prefix scan this short cannot distinguish a genuinely cognate accented form from an unrelated word that happens to start the same way (e.g. a negating a- + unrelated stem). Screening inconclusive; kept for the human, matches shown for reference: ['ejáthu', 'ejatká', 'éjya'].",
+      "agent_citation": null,
+      "accent_source_matches": [
+        "ejáthu",
+        "ejatká",
+        "éjya"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "79",
+      "root": "edh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "4 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'edh': ['édha', 'edhamānadvíṣ', 'édhas', 'edhatú']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "édha",
+        "edhamānadvíṣ",
+        "édhas",
+        "edhatú"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "80",
+      "root": "katth",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'katth' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "90",
+      "root": "kāṅkṣ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'kāṅkṣ' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "111",
+      "root": "kṛp",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'kṛp': ['kṛ́pa', 'kṛpaṇá', 'kṛpaṇakāśín', 'kṛpaṇín', 'kṛpaṇyú', 'kṛpā́']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "kṛ́pa",
+        "kṛpaṇá",
+        "kṛpaṇakāśín",
+        "kṛpaṇín",
+        "kṛpaṇyú",
+        "kṛpā́"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "118",
+      "root": "krand",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "5 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'krand': ['kránda', 'krandádiṣṭi', 'krandanú', 'krándas', 'krándya']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "kránda",
+        "krandádiṣṭi",
+        "krandanú",
+        "krándas",
+        "krándya"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "121",
+      "root": "krīḍ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "4 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'krīḍ': ['krīḍí', 'krīḍín', 'krīḍú', 'krīḍumánt']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "krīḍí",
+        "krīḍín",
+        "krīḍú",
+        "krīḍumánt"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "138",
+      "root": "kṣar",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "2 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'kṣar': ['kṣará', 'kṣárya']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "kṣará",
+        "kṣárya"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "157",
+      "root": "khan",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'khan': ['khaná', 'khánaka', 'khaní', 'khanitár', 'khanítra', 'khanítrima']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "khaná",
+        "khánaka",
+        "khaní",
+        "khanitár",
+        "khanítra",
+        "khanítrima"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "161",
+      "root": "khād",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'khād': ['khādá', 'khā́daka', 'khādí', 'khā́dihasta', 'khā́dira', 'khā́diraka']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "khādá",
+        "khā́daka",
+        "khādí",
+        "khā́dihasta",
+        "khā́dira",
+        "khā́diraka"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "174",
+      "root": "gal",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "2 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'gal': ['galuntá', 'galyā́']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "galuntá",
+        "galyā́"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "178",
+      "root": "gāh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "1 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'gāh': ['gāhá']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "gāhá"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "197",
+      "root": "gras",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "1 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'gras': ['grásiṣṭha']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "grásiṣṭha"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "201",
+      "root": "ghaṭ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "2 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'ghaṭ': ['ghaṭilá', 'ghaṭālá']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "ghaṭilá",
+        "ghaṭālá"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "213",
+      "root": "cakṣ",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'cakṣ': ['cákṣan', 'cákṣas', 'cákṣaṇa', 'cakṣáṇi', 'cákṣu', 'cakṣurbhṛ́t']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "cákṣan",
+        "cákṣas",
+        "cákṣaṇa",
+        "cakṣáṇi",
+        "cákṣu",
+        "cakṣurbhṛ́t"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "220",
+      "root": "car",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'car': ['cará', 'cáraka', 'caramá', 'caramā́jā', 'carátha', 'caravyà']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "cará",
+        "cáraka",
+        "caramá",
+        "caramā́jā",
+        "carátha",
+        "caravyà"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "223",
+      "root": "cal",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "2 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'cal': ['caléṣu', 'calācalá']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "caléṣu",
+        "calācalá"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "231",
+      "root": "cumb",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'cumb' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "250",
+      "root": "jap",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "1 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'jap': ['jápya']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "jápya"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "254",
+      "root": "jalp",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "4 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'jalp': ['jalpá', 'jálpana', 'jálpi', 'jálpāka']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "jalpá",
+        "jálpana",
+        "jálpi",
+        "jálpāka"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "260",
+      "root": "jīv",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'jīv': ['jīvá', 'jīvábarhis', 'jīvabhójana', 'jīvádhanya', 'jīvádānu', 'jīvagrahá']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "jīvá",
+        "jīvábarhis",
+        "jīvabhójana",
+        "jīvádhanya",
+        "jīvádānu",
+        "jīvagrahá"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "262",
+      "root": "juṣ",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "II",
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "3 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'juṣ': ['júṣya', 'juṣāṇá', 'júṣṭi']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "júṣya",
+        "juṣāṇá",
+        "júṣṭi"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "267",
+      "root": "jṛmbh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'jṛmbh' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "274",
+      "root": "jval",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "1 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'jval': ['jvalá']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "jvalá"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "289",
+      "root": "takṣ",
+      "reverted_from": [
+        "I",
+        "II",
+        "V",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II",
+        "V"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "3 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'takṣ': ['takṣakī́yā', 'tákṣan', 'tákṣya']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "takṣakī́yā",
+        "tákṣan",
+        "tákṣya"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "312",
+      "root": "tud",
+      "reverted_from": [
+        "I",
+        "VI",
+        "VII"
+      ],
+      "restored_to": [
+        "VI",
+        "VII"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'tud' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "326",
+      "root": "tras",
+      "reverted_from": [
+        "I",
+        "IV",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "IV"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "2 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'tras': ['trasádasyu', 'trasnú']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "trasádasyu",
+        "trasnú"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "332",
+      "root": "tvar",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'tvar' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "342",
+      "root": "dabh",
+      "reverted_from": [
+        "I",
+        "V",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "V"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "5 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'dabh': ['dábha', 'dabhrá', 'dabhrácetas', 'dábhya', 'dabhī́ti']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "dábha",
+        "dabhrá",
+        "dabhrácetas",
+        "dábhya",
+        "dabhī́ti"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "353",
+      "root": "dāś",
+      "reverted_from": [
+        "I",
+        "II",
+        "V",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II",
+        "V"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'dāś' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "356",
+      "root": "diś",
+      "reverted_from": [
+        "I",
+        "III",
+        "IV",
+        "VI"
+      ],
+      "restored_to": [
+        "III",
+        "IV",
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'diś' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "360",
+      "root": "dīkṣ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "4 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'dīkṣ': ['dīkṣaṇī́ya', 'dīkṣitá', 'dīkṣā́', 'dīkṣā́pati']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "dīkṣaṇī́ya",
+        "dīkṣitá",
+        "dīkṣā́",
+        "dīkṣā́pati"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "369",
+      "root": "duh",
+      "reverted_from": [
+        "I",
+        "II",
+        "IV",
+        "VI"
+      ],
+      "restored_to": [
+        "II",
+        "IV",
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "2 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'duh': ['duhitár', 'dúhya']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "duhitár",
+        "dúhya"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "390",
+      "root": "dhanv",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'dhanv': ['dhánva', 'dhanvacará', 'dhanvacyút', 'dhánvan', 'dhanvanyà', 'dhánvarṇas']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "dhánva",
+        "dhanvacará",
+        "dhanvacyút",
+        "dhánvan",
+        "dhanvanyà",
+        "dhánvarṇas"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "395",
+      "root": "1 dhāv",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'dhāv' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "396",
+      "root": "2 dhāv",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'dhāv' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "401",
+      "root": "dhūrv",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "1 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'dhūrv': ['dhū́rvan']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "dhū́rvan"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "407",
+      "root": "dhvaṃs",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'dhvaṃs' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "411",
+      "root": "nakṣ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'nakṣ': ['nakṣaddābhá', 'nákṣatra', 'nakṣatradárśa', 'nakṣatrajā́', 'nakṣatraloká', 'nákṣatraśavas']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "nakṣaddābhá",
+        "nákṣatra",
+        "nakṣatradárśa",
+        "nakṣatrajā́",
+        "nakṣatraloká",
+        "nákṣatraśavas"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "413",
+      "root": "nad",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'nad': ['nadá', 'nadanimán', 'nadanú', 'nadanumánt', 'nadará', 'naddhrī́']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "nadá",
+        "nadanimán",
+        "nadanú",
+        "nadanumánt",
+        "nadará",
+        "naddhrī́"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "414",
+      "root": "nand",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "4 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'nand': ['nánda', 'nandantá', 'nandayantá', 'nándi']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "nánda",
+        "nandantá",
+        "nandayantá",
+        "nándi"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "416",
+      "root": "nam",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'nam': ['námas', 'namasá', 'namaskārá', 'námasvant', 'namasvín', 'namasyà']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "námas",
+        "namasá",
+        "namaskārá",
+        "námasvant",
+        "namasvín",
+        "namasyà"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "417",
+      "root": "nard",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'nard' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "420",
+      "root": "nas",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "5 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'nas': ['nastás', 'nasvánt', 'náśvara', 'násya', 'nasyotá']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "nastás",
+        "nasvánt",
+        "náśvara",
+        "násya",
+        "nasyotá"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "431",
+      "root": "nud",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'nud' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "439",
+      "root": "paṇ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'paṇ': ['páṇana', 'paṇasá', 'paṇí', 'páṇya', 'páṇyakambala', 'paṇā́yya']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "páṇana",
+        "paṇasá",
+        "paṇí",
+        "páṇya",
+        "páṇyakambala",
+        "paṇā́yya"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "440",
+      "root": "1 pat",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'pat': ['patá', 'patará', 'patáru', 'patasá', 'pátatra', 'pátatri']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "patá",
+        "patará",
+        "patáru",
+        "patasá",
+        "pátatra",
+        "pátatri"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "441",
+      "root": "2 pat",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'pat': ['patá', 'patará', 'patáru', 'patasá', 'pátatra', 'pátatri']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "patá",
+        "patará",
+        "patáru",
+        "patasá",
+        "pátatra",
+        "pátatri"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "453",
+      "root": "pinv",
+      "reverted_from": [
+        "I",
+        "V",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "V"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "1 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'pinv': ['pínvana']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "pínvana"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "478",
+      "root": "prath",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'prath': ['prathamá', 'prathamabhā́j', 'prathamacchád', 'prathamajá', 'prathamaśrávas', 'prathamavayasín']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "prathamá",
+        "prathamabhā́j",
+        "prathamacchád",
+        "prathamajá",
+        "prathamaśrávas",
+        "prathamavayasín"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "491",
+      "root": "1 phal",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'phal': ['phála', 'phalagráhi', 'phálahārin', 'phalasá', 'phálavant', 'phaleruhā́']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "phála",
+        "phalagráhi",
+        "phálahārin",
+        "phalasá",
+        "phálavant",
+        "phaleruhā́"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "492",
+      "root": "2 phal",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'phal': ['phála', 'phalagráhi', 'phálahārin', 'phalasá', 'phálavant', 'phaleruhā́']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "phála",
+        "phalagráhi",
+        "phálahārin",
+        "phalasá",
+        "phálavant",
+        "phaleruhā́"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "505",
+      "root": "bhaj",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "1 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'bhaj': ['bhajératha']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "bhajératha"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "509",
+      "root": "bhan",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "3 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'bhan': ['bhandádiṣṭi', 'bhandána', 'bhándiṣṭha']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "bhandádiṣṭi",
+        "bhandána",
+        "bhándiṣṭha"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "518",
+      "root": "bhāṣ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "1 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'bhāṣ': ['bhā́ṣitar']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "bhā́ṣitar"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "519",
+      "root": "bhās",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'bhās': ['bhā́sada', 'bhāsantá', 'bhā́sas', 'bhāsmaná', 'bhāsmāyaná', 'bhā́smāyanya']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "bhā́sada",
+        "bhāsantá",
+        "bhā́sas",
+        "bhāsmaná",
+        "bhāsmāyaná",
+        "bhā́smāyanya"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "520",
+      "root": "bhikṣ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'bhikṣ': ['bhikṣitávya', 'bhikṣú', 'bhikṣā́', 'bhíkṣāka', 'bhíkṣāmāṇava', 'bhíkṣāvāsas']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "bhikṣitávya",
+        "bhikṣú",
+        "bhikṣā́",
+        "bhíkṣāka",
+        "bhíkṣāmāṇava",
+        "bhíkṣāvāsas"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "529",
+      "root": "bhūṣ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'bhūṣ' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "531",
+      "root": "bhṛjj",
+      "reverted_from": [
+        "I",
+        "IV",
+        "VI"
+      ],
+      "restored_to": [
+        "IV",
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "1 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'bhṛjj': ['bhṛ́jjana']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "bhṛ́jjana"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "535",
+      "root": "bhrāj",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'bhrāj': ['bhrājá', 'bhrā́jadṛṣṭi', 'bhrā́jajjanman', 'bhrā́jas', 'bhrā́jasvant', 'bhrājasvín']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "bhrājá",
+        "bhrā́jadṛṣṭi",
+        "bhrā́jajjanman",
+        "bhrā́jas",
+        "bhrā́jasvant",
+        "bhrājasvín"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "539",
+      "root": "majj",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "3 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'majj': ['majján', 'majjanvánt', 'majjā́']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "majján",
+        "majjanvánt",
+        "majjā́"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "551",
+      "root": "mārg",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "3 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'mārg': ['mārgaśīrṣá', 'mārgiká', 'mārgārá']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "mārgaśīrṣá",
+        "mārgiká",
+        "mārgārá"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "570",
+      "root": "mūrch",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'mūrch' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "577",
+      "root": "mṛḍ",
+      "reverted_from": [
+        "I",
+        "IX",
+        "VI"
+      ],
+      "restored_to": [
+        "IX",
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "2 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'mṛḍ': ['mṛḍáṅkaṇa', 'mṛḍitár']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "mṛḍáṅkaṇa",
+        "mṛḍitár"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "581",
+      "root": "mṛś",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'mṛś' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "597",
+      "root": "yaj",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'yaj': ['yája', 'yájamāna', 'yajamānabrāhmaṇá', 'yajàs', 'yajatá', 'yajátha']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "yája",
+        "yájamāna",
+        "yajamānabrāhmaṇá",
+        "yajàs",
+        "yajatá",
+        "yajátha"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "598",
+      "root": "yat",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'yat': ['yatamá', 'yatamáthā', 'yatará', 'yatáraśmi', 'yataráthā', 'yátas']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "yatamá",
+        "yatamáthā",
+        "yatará",
+        "yatáraśmi",
+        "yataráthā",
+        "yátas"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "600",
+      "root": "yam",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'yam': ['yáma', 'yamadūtá', 'yamagāthā́', 'yámana', 'yamanakṣatrá', 'yamánetra']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "yáma",
+        "yamadūtá",
+        "yamagāthā́",
+        "yámana",
+        "yamanakṣatrá",
+        "yamánetra"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "620",
+      "root": "raṇv",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "4 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'raṇv': ['raṇvá', 'ráṇvan', 'raṇvásaṃdṛś', 'raṇvitá']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "raṇvá",
+        "ráṇvan",
+        "raṇvásaṃdṛś",
+        "raṇvitá"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "621",
+      "root": "rad",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "4 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'rad': ['radhrá', 'radhracodá', 'radhracódana', 'radhratúra']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "radhrá",
+        "radhracodá",
+        "radhracódana",
+        "radhratúra"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "625",
+      "root": "rap",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "3 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'rap': ['rápas', 'rapśádūdhan', 'rapsúdā']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "rápas",
+        "rapśádūdhan",
+        "rapsúdā"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "628",
+      "root": "rabh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'rabh': ['rábhas', 'rabhasá', 'rábhasvant', 'rabhasāná', 'rábhi', 'rábhiṣṭha']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "rábhas",
+        "rabhasá",
+        "rábhasvant",
+        "rabhasāná",
+        "rábhi",
+        "rábhiṣṭha"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "629",
+      "root": "ram",
+      "reverted_from": [
+        "I",
+        "IX",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "IX"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'ram': ['ramá', 'rámaka', 'ramáti', 'rámaṇa', 'ramáṇya', 'rambhá']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "ramá",
+        "rámaka",
+        "ramáti",
+        "rámaṇa",
+        "ramáṇya",
+        "rambhá"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "633",
+      "root": "ras",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'ras': ['rasaghaná', 'raśanásaṃmita', 'rasantamá', 'raśanā́', 'rásatama', 'rásavant']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "rasaghaná",
+        "raśanásaṃmita",
+        "rasantamá",
+        "raśanā́",
+        "rásatama",
+        "rásavant"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "637",
+      "root": "rāj",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'rāj': ['rājá', 'rā́jabhogīna', 'rājabhojaná', 'rājabhrātár', 'rā́jabrāhmaṇa', 'rā́jadanti']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "rājá",
+        "rā́jabhogīna",
+        "rājabhojaná",
+        "rājabhrātár",
+        "rā́jabrāhmaṇa",
+        "rā́jadanti"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "655",
+      "root": "ruj",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "II",
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "1 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'ruj': ['rujāvín']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "rujāvín"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "664",
+      "root": "rej",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'rej' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "670",
+      "root": "lajj",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'lajj' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "672",
+      "root": "lap",
+      "reverted_from": [
+        "I",
+        "IV",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "IV"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "1 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'lap': ['lapsudín']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "lapsudín"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "673",
+      "root": "labh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "2 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'labh': ['labhasá', 'lábhya']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "labhasá",
+        "lábhya"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "676",
+      "root": "lal",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'lal': ['lalā́ma', 'lalā́magu', 'lalā́ṭa', 'lalāṭapurá', 'lalāṭyà', 'lalāṭūlá']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "lalā́ma",
+        "lalā́magu",
+        "lalā́ṭa",
+        "lalāṭapurá",
+        "lalāṭyà",
+        "lalāṭūlá"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "704",
+      "root": "vad",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'vad': ['vádana', 'vadantí', 'vadhá', 'vádhaka', 'vadhánā', 'vádhar']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "vádana",
+        "vadantí",
+        "vadhá",
+        "vádhaka",
+        "vadhánā",
+        "vádhar"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "707",
+      "root": "vand",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'vand': ['vandádvāra', 'vandádvīra', 'vandhúr', 'vandhureṣṭhā́', 'vandhurāyú', 'vanditár']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "vandádvāra",
+        "vandádvīra",
+        "vandhúr",
+        "vandhureṣṭhā́",
+        "vandhurāyú",
+        "vanditár"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "710",
+      "root": "vam",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "3 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'vam': ['vamín', 'vamrá', 'vamraká']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "vamín",
+        "vamrá",
+        "vamraká"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "715",
+      "root": "1 vas",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "II",
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'vas': ['váśa', 'vásana', 'vasantá', 'vasántā', 'vaśanī́', 'vasarhán']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "váśa",
+        "vásana",
+        "vasantá",
+        "vasántā",
+        "vaśanī́",
+        "vasarhán"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "716",
+      "root": "2 vas",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "II",
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'vas': ['váśa', 'vásana', 'vasantá', 'vasántā', 'vaśanī́', 'vasarhán']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "váśa",
+        "vásana",
+        "vasantá",
+        "vasántā",
+        "vaśanī́",
+        "vasarhán"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "717",
+      "root": "3 vas",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "II",
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'vas': ['váśa', 'vásana', 'vasantá', 'vasántā', 'vaśanī́', 'vasarhán']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "váśa",
+        "vásana",
+        "vasantá",
+        "vasántā",
+        "vaśanī́",
+        "vasarhán"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "718",
+      "root": "vah",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'vah': ['vahantá', 'vahát', 'vahatí', 'vahatú', 'vahín', 'vahítra']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "vahantá",
+        "vahát",
+        "vahatí",
+        "vahatú",
+        "vahín",
+        "vahítra"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "722",
+      "root": "vāñch",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'vāñch' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "730",
+      "root": "1 vidh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'vidh': ['vidhamā́', 'vídharman', 'vidhartár', 'vidhávā', 'vidhú', 'vidhā́']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "vidhamā́",
+        "vídharman",
+        "vidhartár",
+        "vidhávā",
+        "vidhú",
+        "vidhā́"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "731",
+      "root": "2 vidh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'vidh': ['vidhamā́', 'vídharman', 'vidhartár', 'vidhávā', 'vidhú', 'vidhā́']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "vidhamā́",
+        "vídharman",
+        "vidhartár",
+        "vidhávā",
+        "vidhú",
+        "vidhā́"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "734",
+      "root": "viś",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'viś' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "747",
+      "root": "vṛh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "VI"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'vṛh' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "748",
+      "root": "ven",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "3 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'ven': ['vená', 'vennā́', 'venyá']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "vená",
+        "vennā́",
+        "venyá"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "749",
+      "root": "vell",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'vell' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "772",
+      "root": "śap",
+      "reverted_from": [
+        "I",
+        "IV",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "IV"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'śap' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "819",
+      "root": "ślāgh",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'ślāgh' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "822",
+      "root": "śvas",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'śvas' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "828",
+      "root": "sac",
+      "reverted_from": [
+        "I",
+        "III",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "III"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'sac': ['sacakrín', 'sácakṣus', 'sacaná', 'sácanas', 'sacanā́vant', 'sacátha']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "sacakrín",
+        "sácakṣus",
+        "sacaná",
+        "sácanas",
+        "sacanā́vant",
+        "sacátha"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "839",
+      "root": "sādh",
+      "reverted_from": [
+        "I",
+        "IV",
+        "V",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "IV",
+        "V"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'sādh': ['sā́dha', 'sā́dhadiṣṭi', 'sā́dhamitrika', 'sā́dhana', 'sādhantá', 'sā́dhas']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "sā́dha",
+        "sā́dhadiṣṭi",
+        "sā́dhamitrika",
+        "sā́dhana",
+        "sādhantá",
+        "sā́dhas"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "851",
+      "root": "sūrkṣ",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'sūrkṣ' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "895",
+      "root": "syand",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "4 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'syand': ['syandaná', 'syanditā́śva', 'syandrá', 'syandyā̀']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "syandaná",
+        "syanditā́śva",
+        "syandrá",
+        "syandyā̀"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "896",
+      "root": "sraṃs",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "no-citation-auto-fail",
+      "agent_confidence": "high",
+      "human_residue": false,
+      "agent_evidence": "0 entries in SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists) share the bare-root prefix 'sraṃs' (accent marks normalized away, all other IAST diacritics preserved). No citable accented source -- per the sheet's own promotion rule, revert stands.",
+      "agent_citation": null,
+      "accent_source_matches": [],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "900",
+      "root": "svaj",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "3 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'svaj': ['svajá', 'svájanman', 'svájenya']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "svajá",
+        "svájanman",
+        "svájenya"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "901",
+      "root": "svad",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'svad': ['svadayitár', 'svádharman', 'svádhenava', 'svadhicaraṇá', 'svádhita', 'svádhiti']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "svadayitár",
+        "svádharman",
+        "svádhenava",
+        "svadhicaraṇá",
+        "svádhita",
+        "svádhiti"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "902",
+      "root": "svan",
+      "reverted_from": [
+        "I",
+        "II",
+        "VI"
+      ],
+      "restored_to": [
+        "I",
+        "II"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'svan': ['śván', 'svaná', 'svanádratha', 'svanáya', 'śvanín', 'śvànvant']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "śván",
+        "svaná",
+        "svanádratha",
+        "svanáya",
+        "śvanín",
+        "śvànvant"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "904",
+      "root": "svar",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'svar': ['svará', 'svárasaṃpanna', 'svárasāman', 'sváravant', 'svàraṃkṛta', 'sváraṇa']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "svará",
+        "svárasaṃpanna",
+        "svárasāman",
+        "sváravant",
+        "svàraṃkṛta",
+        "sváraṇa"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "910",
+      "root": "has",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "6 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'has': ['hása', 'haskartár', 'haskārá', 'háskṛti', 'hasrá', 'hásta']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "hása",
+        "haskartár",
+        "haskārá",
+        "háskṛti",
+        "hasrá",
+        "hásta"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    },
+    {
+      "id": "930",
+      "root": "hras",
+      "reverted_from": [
+        "I",
+        "VI"
+      ],
+      "restored_to": [
+        "I"
+      ],
+      "reason": "IV/VI accent-collapse (corpus cannot distinguish I from VI)",
+      "source_commit": "6aa5adca3c387a0ada7089c1456faba0a3eb45c0",
+      "status": "PENDING_REVIEW",
+      "decision": null,
+      "decision_note": null,
+      "optional": true,
+      "adjudicable_by": "Only an accented source (e.g. VedaWeb) or Zalizniak can split I vs VI here -- not errors in Whitney, cases the unaccented corpus cannot speak to.",
+      "agent_verdict": "citable-source-candidate",
+      "agent_confidence": "n/a (screening only)",
+      "human_residue": true,
+      "agent_evidence": "2 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'hras': ['hrasimán', 'hrasvá']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.",
+      "agent_citation": "SCH-accents-IAST-20247.txt (SanskritLexicography/HeadwordLists/then-2014/)",
+      "accent_source_matches": [
+        "hrasimán",
+        "hrasvá"
+      ],
+      "agent": "Sonnet 5 (claude-sonnet-5)",
+      "handoff": "H1686"
+    }
+  ]
+}
