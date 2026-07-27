@@ -1,0 +1,204 @@
+{
+  "handoff": "H1747",
+  "gap": "SanskritLexicography/GAPS.md §4",
+  "measured_at": "2026-07-27T11:36:20.133468+00:00",
+  "model": "Grok 4.5 (grok-4.5)",
+  "source": "C:/Users/user/Documents/GitHub/WhitneyRoots-h1747-22440/crosswalk/token_attribution.json",
+  "groups": 72,
+  "reliable": 26,
+  "unreliable": 46,
+  "reason_counts": {
+    "DCS lumps (1 verb lemma_id)": 38,
+    "collapses onto one homonym": 8
+  },
+  "lump_single_lemma_id": 38,
+  "collapse_onto_one": 8,
+  "other_unreliable": 0,
+  "verdict": "HARD CEILING: single-lemma_id lumps cannot be token-attributed without sense/gloss gold (DCS meanings ↔ Warnemyr). Lowering coverage≥0.55 does not create new reliable splits when n_lemma_id=1. Residual requires manual/LLM gloss adjudication, not more morphology.",
+  "sample_lump": [
+    {
+      "lemma": "gam",
+      "reason": "DCS lumps (1 verb lemma_id)",
+      "coverage": 0.0,
+      "glosses": [
+        "",
+        "go"
+      ]
+    },
+    {
+      "lemma": "paś",
+      "reason": "DCS lumps (1 verb lemma_id)",
+      "coverage": 1.0,
+      "glosses": [
+        "see",
+        "bind"
+      ]
+    },
+    {
+      "lemma": "ji",
+      "reason": "DCS lumps (1 verb lemma_id)",
+      "coverage": 1.0,
+      "glosses": [
+        "conquer",
+        "quicken"
+      ]
+    },
+    {
+      "lemma": "i",
+      "reason": "DCS lumps (1 verb lemma_id)",
+      "coverage": 1.0,
+      "glosses": [
+        "go",
+        "send"
+      ]
+    },
+    {
+      "lemma": "pat",
+      "reason": "DCS lumps (1 verb lemma_id)",
+      "coverage": 1.0,
+      "glosses": [
+        "fly, fall",
+        "rule"
+      ]
+    },
+    {
+      "lemma": "stu",
+      "reason": "DCS lumps (1 verb lemma_id)",
+      "coverage": 1.0,
+      "glosses": [
+        "praise",
+        "drip"
+      ]
+    },
+    {
+      "lemma": "vah",
+      "reason": "DCS lumps (1 verb lemma_id)",
+      "coverage": 1.0,
+      "glosses": [
+        "carry",
+        "press"
+      ]
+    },
+    {
+      "lemma": "śam",
+      "reason": "DCS lumps (1 verb lemma_id)",
+      "coverage": 1.0,
+      "glosses": [
+        "labor",
+        "be quiet",
+        "note"
+      ]
+    },
+    {
+      "lemma": "yam",
+      "reason": "DCS lumps (1 verb lemma_id)",
+      "coverage": 0.0,
+      "glosses": [
+        "",
+        "reach"
+      ]
+    },
+    {
+      "lemma": "śrī",
+      "reason": "DCS lumps (1 verb lemma_id)",
+      "coverage": 1.0,
+      "glosses": [
+        "mix",
+        ""
+      ]
+    },
+    {
+      "lemma": "paṭh",
+      "reason": "DCS lumps (1 verb lemma_id)",
+      "coverage": 1.0,
+      "glosses": [
+        "read",
+        "go"
+      ]
+    },
+    {
+      "lemma": "śās",
+      "reason": "DCS lumps (1 verb lemma_id)",
+      "coverage": 1.0,
+      "glosses": [
+        "order",
+        "cut"
+      ]
+    }
+  ],
+  "sample_collapse": [
+    {
+      "lemma": "hā",
+      "reason": "collapses onto one homonym",
+      "coverage": 0.985,
+      "glosses": [
+        "leave",
+        "go forth"
+      ]
+    },
+    {
+      "lemma": "aś",
+      "reason": "collapses onto one homonym",
+      "coverage": 1.0,
+      "glosses": [
+        "attain",
+        "eat"
+      ]
+    },
+    {
+      "lemma": "gā",
+      "reason": "collapses onto one homonym",
+      "coverage": 1.0,
+      "glosses": [
+        "go",
+        "sing"
+      ]
+    },
+    {
+      "lemma": "śī",
+      "reason": "collapses onto one homonym",
+      "coverage": 1.0,
+      "glosses": [
+        "fall",
+        "lie"
+      ]
+    },
+    {
+      "lemma": "gṛ",
+      "reason": "collapses onto one homonym",
+      "coverage": 0.138,
+      "glosses": [
+        "sing",
+        "swallow",
+        "wake"
+      ]
+    },
+    {
+      "lemma": "kṛt",
+      "reason": "collapses onto one homonym",
+      "coverage": 1.0,
+      "glosses": [
+        "cut",
+        "spin"
+      ]
+    },
+    {
+      "lemma": "vidh",
+      "reason": "collapses onto one homonym",
+      "coverage": 0.981,
+      "glosses": [
+        "worship",
+        ""
+      ]
+    },
+    {
+      "lemma": "ru",
+      "reason": "collapses onto one homonym",
+      "coverage": 0.07,
+      "glosses": [
+        "cry",
+        "break"
+      ]
+    }
+  ]
+}
