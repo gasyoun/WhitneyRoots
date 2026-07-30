@@ -152,26 +152,13 @@ function slp1_to_devanagari(slp1) {
   return out;
 }
 
-// ---- IAST -> Devanāgarī (approximate display transcode) ----
-const IAST_TO_DEVA = {
-  a: 'अ', 'ā': 'आ', i: 'इ', 'ī': 'ई', u: 'उ', 'ū': 'ऊ', 'ṛ': 'ऋ', 'ṝ': 'ॠ', 'ḷ': 'ऌ', 'ḹ': 'ॡ',
-  e: 'ए', ai: 'ऐ', o: 'ओ', au: 'औ', 'ṃ': 'ं', 'ḥ': 'ः',
-  k: 'क', kh: 'ख', g: 'ग', gh: 'घ', 'ṅ': 'ङ',
-  c: 'च', ch: 'छ', j: 'ज', jh: 'झ', 'ñ': 'ञ',
-  'ṭ': 'ट', 'ṭh': 'ठ', 'ḍ': 'ड', 'ḍh': 'ढ', 'ṇ': 'ण',
-  t: 'त', th: 'थ', d: 'द', dh: 'ध', n: 'न',
-  p: 'प', ph: 'फ', b: 'ब', bh: 'भ', m: 'म',
-  y: 'य', r: 'र', l: 'ल', v: 'व',
-  'ś': 'श', 'ṣ': 'ष', s: 'स', h: 'ह',
-};
-const IAST_TO_DEVA_KEYS = Object.keys(IAST_TO_DEVA).sort((a, b) => b.length - a.length);
+// ---- IAST -> Devanāgarī (real transcode via to_slp1 -> slp1_to_devanagari composition;
+// virāma + mātrā aware. Previously a naive longest-key-first character substitution that
+// never applied virāma/mātrā and emitted an independent vowel sign after every consonant
+// (wrong on 9 of 9 basic words, e.g. 'ka' -> कअ instead of क). Fixed per H1394.) ----
 
 function iast_to_devanagari(text) {
-  let result = (text || '').toLowerCase();
-  for (const key of IAST_TO_DEVA_KEYS) {
-    result = result.split(key).join(IAST_TO_DEVA[key]);
-  }
-  return result;
+  return slp1_to_devanagari(to_slp1((text || '').toLowerCase()));
 }
 
 // ---- normalization keys ----
