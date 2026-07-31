@@ -6,6 +6,7 @@ Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Z
 
 ## [Unreleased]
 
+## [1.6.0] - 2026-07-31
 ### Added
 - **Queue C/D/E agent-verdict pre-resolve** (H1686, 28-07-2026, Sonnet 5 `claude-sonnet-5`):
   [`scripts/dcs/queue_cde_agent_verdicts.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/dcs/queue_cde_agent_verdicts.py)
