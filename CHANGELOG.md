@@ -21,7 +21,7 @@ Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Z
   a literal grammar-text citation, a confirmed exception citation, a contamination-cleared
   false tag, or zero accented-source citability); 151/295 remain genuine human residue.
   Read-only — no write to `app_data.json`/`grammar_refs.json`/`review_queue.json` (gated on
-  the human residue vote per [H1686](https://github.com/gasyoun/Uprava/blob/main/handoffs/H1686-Sonnet_WhitneyRoots_queues-cde-pattern-preresolve_26.07.26.md)'s DoD). Mandate: [VOTING_SHEET_SCREENING_AUDIT_26-07-2026.md §11](https://github.com/gasyoun/Uprava/blob/main/docs/VOTING_SHEET_SCREENING_AUDIT_26-07-2026.md).
+  the human residue vote per [H1686](https://github.com/gasyoun/Uprava/blob/main/handoffs/archive/H1686-Sonnet_WhitneyRoots_queues-cde-pattern-preresolve_26.07.26.md)'s DoD). Mandate: [VOTING_SHEET_SCREENING_AUDIT_26-07-2026.md §11](https://github.com/gasyoun/Uprava/blob/main/docs/VOTING_SHEET_SCREENING_AUDIT_26-07-2026.md).
 - **Homonym token-attribution ceiling report** (H1747, 27-07-2026, Grok 4.5): crosswalk/gaps_s4_homonym_ceiling_report.json — 26 reliable / 46 unreliable (38 DCS single-lemma_id lumps).
 
 
