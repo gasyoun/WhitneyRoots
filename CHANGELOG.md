@@ -6,6 +6,13 @@ Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Z
 
 ## [Unreleased]
 
+### Changed
+
+- **H2820 — CLAUDE.md truth-pass** (Grok 4.6 `grok-4.6`, 16-08-2026). Dated
+  header, what/run/don't (`node scripts/bundle.js` after every `src/` edit;
+  never hand-edit `v3_app.js`), primer + DANGER_FACTS pointers. AGENTS.md
+  twin regenerated.
+
 ## [1.6.0] - 2026-07-31
 ### Added
 - **Queue C/D/E agent-verdict pre-resolve** (H1686, 28-07-2026, Sonnet 5 `claude-sonnet-5`):
