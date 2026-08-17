@@ -52,7 +52,7 @@ jobs:
       # Retarget to the v0.15.0 tag once it merges.
       - name: Install the shared tripwire checker
         run: |
-          pip install "csl-pyutil @ git+https://github.com/sanskrit-lexicon/csl-pyutil@0b42b7ff8a96e4190031be52d70452f7ed378e8f"
+          pip install "csl-pyutil @ git+https://github.com/sanskrit-lexicon/csl-pyutil@7287d2fa7e46465ff9e617bb7d2e90dcbd1cdaf0"
       - name: Check the reviewed files against their pin
         run: python -m csl_pyutil.integrity_tripwire --check --pin data/integrity/whitney_roots.pin.json
       - name: Negative control — the gate must be able to fail
