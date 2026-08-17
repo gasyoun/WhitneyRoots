@@ -6,6 +6,8 @@ Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Z
 
 ## [Unreleased]
 
+## [1.7.0] - 2026-08-17
+
 ### Added
 
 - **H2892 — the twelve writers over reviewed data now refuse to run** (Opus 5
