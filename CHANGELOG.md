@@ -6,6 +6,36 @@ Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Z
 
 ## [Unreleased]
 
+### Added
+
+- **H2891 — the three human-reviewed files now carry a committed digest, and CI
+  goes red when a writer rewrites one** (Opus 5 `claude-opus-5`, 17-08-2026).
+  This repo has no write lock anywhere. The H2890 census found **eleven**
+  writers that open a reviewed file with `'w'` — nine under `scripts/dcs/`
+  against [`src/app_data.json`](https://github.com/gasyoun/WhitneyRoots/blob/main/src/app_data.json),
+  plus [`dict_align.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/dict_align.py)
+  and [`emit_crosswalk.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/emit_crosswalk.py)
+  against the two crosswalk files — none guarded, none backing anything up.
+  [AGENTS.md](https://github.com/gasyoun/WhitneyRoots/blob/main/AGENTS.md) says
+  "do not re-run these", but prose is not a gate, and Phase 8 already reverted
+  120 of 139 empirical class additions once. New
+  [`data/integrity/whitney_roots.pin.json`](https://github.com/gasyoun/WhitneyRoots/blob/main/data/integrity/whitney_roots.pin.json)
+  pins a SHA-256 over the whole record set of all three files —
+  **1,917 records** (935 lexicon + 930 `roots.csv` + 52 `alignment_review.json`),
+  all key-unique — plus a per-file digest so a red run names the file that
+  moved. Reviewed-ness here is **file-level**: there is no per-row review stamp
+  to key on, so every record counts and any field change is a change, including
+  a *new* field (the projection is `*`, deliberately, not the census's
+  enumerated list). The hasher is the shared
+  [`csl_pyutil.integrity_tripwire`](https://github.com/sanskrit-lexicon/csl-pyutil/pull/28),
+  so this repo cannot drift from pwg_ru and csl-atlas into three hashers. New
+  [`overlay-tripwire.yml`](https://github.com/gasyoun/WhitneyRoots/blob/main/.github/workflows/overlay-tripwire.yml)
+  runs it on every PR, weekly, and on dispatch, and carries a **negative
+  control** that wipes one `meaning` in a scratch copy and fails the job if the
+  gate stays green — a gate nobody has watched fail is a gate nobody should
+  trust. A legitimate rebuild re-pins in the **same commit** with a one-line
+  `reason`; an unintended one restores the file instead.
+
 ### Changed
 
 - **H2820 — CLAUDE.md truth-pass** (Grok 4.6 `grok-4.6`, 16-08-2026). Dated
