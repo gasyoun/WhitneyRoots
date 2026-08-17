@@ -8,6 +8,39 @@ Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Z
 
 ### Added
 
+- **H2892 — the twelve writers over reviewed data now refuse to run** (Opus 5
+  `claude-opus-5`, 17-08-2026). H2891 gave this repo a *detector*; this is the
+  *lock*. Every script the H2890 census lists as opening
+  [`src/app_data.json`](https://github.com/gasyoun/WhitneyRoots/blob/main/src/app_data.json),
+  `crosswalk/roots.csv` or `crosswalk/alignment_review.json` in write mode now
+  calls
+  [`scripts/overlay_guard.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/overlay_guard.py)
+  as its **first executable statement** and exits **2**, having written nothing,
+  unless `ALLOW_OVERLAY_WIPE=1` is set. Exit 2 is deliberately distinct from the
+  scripts' own `SystemExit('ERROR: …')` (1), so a caller can tell a refusal from
+  a data fault. The hatch is an exact match on `1` — `true`, `yes` and an empty
+  value all still refuse, because a half-set hatch must not read as consent.
+  Guarded: the four `scripts/dcs/apply_*.py`, the three `fix_ppp_*.py`,
+  `grammar_ref_builder.py`, `revert_collapse_additions.py`,
+  `corpus_verify_classes.py`,
+  [`dict_align.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/dict_align.py)
+  and [`emit_crosswalk.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/emit_crosswalk.py).
+  `corpus_verify_classes.py` is included even though the census measured it
+  read-only over `app_data.json` — it is named in the DANGER_FACTS do-not-rerun
+  row, and narrowing a safety fence is a human decision, not a side effect of an
+  implementation pass.
+  [`tests/test_overlay_writer_lock.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/tests/test_overlay_writer_lock.py)
+  runs all twelve for real without the hatch and asserts exit 2 **plus**
+  SHA-256-identical reviewed files afterwards — the exit code alone would pass by
+  luck on a machine where an input happens to be missing. Two static tests keep
+  it honest: the guard must be the first statement (AST, not substring — one
+  script documents its own `json.dump` in prose 1.3 KB above the guard), and any
+  future script that opens a reviewed file for writing must import the guard.
+  Watched fail: stripping one guard turns the suite red (3 failures), restoring
+  it turns it green. New CI job *Writer lock refuses without the hatch* in
+  [`overlay-tripwire.yml`](https://github.com/gasyoun/WhitneyRoots/blob/main/.github/workflows/overlay-tripwire.yml).
+  No script was deleted and no reviewed byte changed.
+
 - **H2891 — the three human-reviewed files now carry a committed digest, and CI
   goes red when a writer rewrites one** (Opus 5 `claude-opus-5`, 17-08-2026).
   This repo has no write lock anywhere. The H2890 census found **eleven**

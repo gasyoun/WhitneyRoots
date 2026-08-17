@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-_Created: 03-07-2026 · Last updated: 16-08-2026_
+_Created: 03-07-2026 · Last updated: 17-08-2026_
 
 WhitneyRoots digitizes William Dwight Whitney's *The Roots, Verb-forms and
 Primary Derivatives of the Sanskrit Language* into structured data and a
@@ -34,10 +34,17 @@ python scripts/vidyut_paradigms.py
 python scripts/vidyut_validate_ppp.py
 ```
 
+Two of those — [`dict_align.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/dict_align.py)
+and [`emit_crosswalk.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/emit_crosswalk.py)
+— now **exit 2 and write nothing** unless `ALLOW_OVERLAY_WIPE=1` is set; see
+*The writer lock* below. That is the intended behaviour, not a broken command.
+
 No single test command covers the repo. Pipeline stage order lives in
 [.ai_state.md](https://github.com/gasyoun/WhitneyRoots/blob/main/.ai_state.md).
 CI (`ci.yml`) is the generic satellite baseline (markdown/YAML lint; ruff
-when `.py` exists). Pages deploy: `pages.yml`.
+when `.py` exists); `overlay-tripwire.yml` runs the writer-lock suite
+([tests/test_overlay_writer_lock.py](https://github.com/gasyoun/WhitneyRoots/blob/main/tests/test_overlay_writer_lock.py))
+and the reviewed-file digest check. Pages deploy: `pages.yml`.
 
 ## Key paths
 
@@ -63,6 +70,29 @@ when `.py` exists). Pages deploy: `pages.yml`.
   vidyut / ND-SWSMP without new evidence.
 - `sanskrit-util iast_to_devanagari` is broken — compose `to_slp1()` →
   `slp1_to_devanagari()`.
+
+## The writer lock (H2892)
+
+Three files are human-reviewed overlays: `src/app_data.json`,
+`crosswalk/roots.csv`, `crosswalk/alignment_review.json`. Twelve scripts used to
+rewrite one of them with no gate at all — the `scripts/dcs/apply_*` and `fix_*`
+family, `grammar_ref_builder.py`, `revert_collapse_additions.py`,
+`corpus_verify_classes.py`, plus `dict_align.py` and `emit_crosswalk.py`.
+
+Each now calls
+[`scripts/overlay_guard.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/overlay_guard.py)
+as its first executable statement and **exits 2 before writing anything** unless
+`ALLOW_OVERLAY_WIPE=1`. Exit 2 means "refused"; the scripts' own data errors
+still exit 1.
+
+Setting the hatch is a claim, not a formality: *this run is meant to rewrite a
+reviewed file, and the tripwire pin will be re-pinned with a reason in the same
+commit*. If that is not true, produce a NEW artifact next to the reviewed file
+instead — which is what the DANGER_FACTS do-not-rerun row has always asked for.
+
+`corpus_verify_classes.py` is guarded even though the H2890 census measured it
+as read-only over `app_data.json`: it is named in that danger row, and narrowing
+a safety fence is a human decision.
 
 ## Do not touch
 

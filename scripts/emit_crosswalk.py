@@ -12,6 +12,16 @@ Writes crosswalk/:
 
 Per DESIGN.md §4/§7. CC BY-SA 4.0. No network. UTF-8, never utf-8-sig (no BOM).
 """
+
+# H2892 — refuse-by-default writer lock over the human-reviewed overlays.
+# Must stay the first executable statement: nothing below it may open a
+# reviewed file. Set ALLOW_OVERLAY_WIPE=1 only for a deliberate, re-pinned
+# rewrite (scripts/overlay_guard.py).
+import pathlib as _pathlib, sys as _sys
+_sys.path.insert(0, str(_pathlib.Path(__file__).resolve().parent))
+from overlay_guard import refuse_unless_hatched as _refuse_unless_hatched
+_refuse_unless_hatched(__file__, targets=('crosswalk/roots.csv',))
+
 import sys, os, re, json, csv, sqlite3
 sys.stdout.reconfigure(encoding='utf-8')
 sys.stderr.reconfigure(encoding='utf-8')

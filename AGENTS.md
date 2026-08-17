@@ -22,3 +22,26 @@ This file orients Codex and other non-Claude agent sessions. The section between
 - Gitignored/off-git canonical assets are registered as pointer rows in the org-private [shadow-assets registry](https://github.com/gasyoun/Uprava/blob/main/SHADOW_ASSETS_POINTERS.md).
 
 [/generated-block]
+
+## The do-not-rerun row is now enforced, not advisory (H2892)
+
+The first danger fact above used to be prose only. As of 17-08-2026 the twelve
+scripts it covers — the `scripts/dcs/apply_*` and `fix_*` family,
+`grammar_ref_builder.py`, `revert_collapse_additions.py`,
+`corpus_verify_classes.py`,
+[`dict_align.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/dict_align.py)
+and [`emit_crosswalk.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/emit_crosswalk.py)
+— **exit 2 and write nothing** unless `ALLOW_OVERLAY_WIPE=1` is set.
+
+Do not set that variable to make a command "work". It means: this run is meant
+to rewrite a reviewed file, and
+[`data/integrity/whitney_roots.pin.json`](https://github.com/gasyoun/WhitneyRoots/blob/main/data/integrity/whitney_roots.pin.json)
+will be re-pinned with a reason in the same commit. Otherwise, write a new
+artifact beside the reviewed file rather than over it.
+
+Mechanism and rationale:
+[`scripts/overlay_guard.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/overlay_guard.py).
+Proof it holds:
+[`tests/test_overlay_writer_lock.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/tests/test_overlay_writer_lock.py),
+run by
+[`.github/workflows/overlay-tripwire.yml`](https://github.com/gasyoun/WhitneyRoots/blob/main/.github/workflows/overlay-tripwire.yml).

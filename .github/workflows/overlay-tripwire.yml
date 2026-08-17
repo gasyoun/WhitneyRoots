@@ -39,6 +39,22 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  writer-lock:
+    # H2892. The tripwire below DETECTS a wiped overlay; this job proves the
+    # twelve guarded writers still REFUSE to produce one. Both halves are
+    # needed: a detector alone means the damage already happened, and a lock
+    # nobody exercises rots the first time somebody edits a script header.
+    name: Writer lock refuses without the hatch
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+      - run: pip install pytest
+      - name: Every guarded writer exits 2 and writes nothing
+        run: python -m pytest tests/test_overlay_writer_lock.py -q
+
   reviewed-files:
     name: Reviewed overlay files
     runs-on: ubuntu-latest
