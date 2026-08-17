@@ -1,0 +1,84 @@
+name: Overlay tripwire
+
+# H2891, wave 1 of the Q7 data-integrity programme.
+#
+# This repo has NO write lock anywhere. The H2890 census found eleven writers
+# that open a human-reviewed file with 'w' -- nine `scripts/dcs/apply_*.py` and
+# `fix_*.py` against src/app_data.json, plus dict_align.py and emit_crosswalk.py
+# against the two crosswalk files -- none of them guarded, none of them backing
+# anything up. AGENTS.md says "do not re-run these"; prose is not a gate, and
+# Phase 8 already reverted 120 of 139 empirical class additions once.
+#
+# So the three files declared human-reviewed carry a committed digest of their
+# whole record set. Reviewed-ness here is FILE-LEVEL: there is no per-row review
+# stamp to key on, so every record counts and any field change is a change.
+#
+# RED means one of those files was rewritten. The fix is one commit, not a
+# re-run:
+#   python -m csl_pyutil.integrity_tripwire --extract \
+#          --pin data/integrity/whitney_roots.pin.json --write-pin \
+#          --reason "what changed and why" --updated DD-MM-YYYY
+# and if the rewrite was an apply_* script nobody meant to run, restore the
+# file first -- do not bump the pin.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # Weekly. Not path-filtered: the whole point is to catch a writer that
+    # rewrote a reviewed file, which a filter on the pin path would miss.
+    - cron: "23 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: overlay-tripwire-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  reviewed-files:
+    name: Reviewed overlay files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+      # Pinned to the H2891 feature-branch SHA while
+      # https://github.com/sanskrit-lexicon/csl-pyutil/pull/28 is open.
+      # Retarget to the v0.15.0 tag once it merges.
+      - name: Install the shared tripwire checker
+        run: |
+          pip install "csl-pyutil @ git+https://github.com/sanskrit-lexicon/csl-pyutil@0b42b7ff8a96e4190031be52d70452f7ed378e8f"
+      - name: Check the reviewed files against their pin
+        run: python -m csl_pyutil.integrity_tripwire --check --pin data/integrity/whitney_roots.pin.json
+      - name: Negative control — the gate must be able to fail
+        # A gate nobody has watched fail is a gate nobody should trust. This
+        # mutates a copy of a reviewed file in a scratch tree and asserts the
+        # checker exits 1. It never touches the checkout's own files.
+        run: |
+          set -e
+          scratch="$RUNNER_TEMP/tripwire-control"
+          mkdir -p "$scratch/src" "$scratch/crosswalk" "$scratch/data/integrity"
+          cp src/app_data.json "$scratch/src/"
+          cp crosswalk/roots.csv crosswalk/alignment_review.json "$scratch/crosswalk/"
+          cp data/integrity/whitney_roots.pin.json "$scratch/data/integrity/"
+          python - "$scratch" <<'PY'
+          import json, sys
+          root = sys.argv[1]
+          path = root + "/src/app_data.json"
+          with open(path, encoding="utf-8") as fh:
+              doc = json.load(fh)
+          doc["lexicon"][0]["meaning"] = ""      # what an apply_* wipe looks like
+          with open(path, "w", encoding="utf-8", newline="\n") as fh:
+              json.dump(doc, fh, ensure_ascii=False)
+          PY
+          if python -m csl_pyutil.integrity_tripwire --check \
+               --pin "$scratch/data/integrity/whitney_roots.pin.json" --root "$scratch"; then
+            echo "::error::the tripwire stayed GREEN over a wiped reviewed field"
+            exit 1
+          fi
+          echo "negative control OK — the gate fires"

@@ -1,0 +1,71 @@
+{
+  "store_id": "whitney_roots_reviewed_files",
+  "overlay_sha256": "0ffc8a43b770b49a337f6c299f6f662cc6e4b35427ee31fa139333b31a91a773",
+  "keyset_sha256": "e799b9d1908032f6ed991b5695bd822f6c66a1628c636d202c91999e3901555a",
+  "key_count": 1917,
+  "sources": [
+    {
+      "path": "src/app_data.json",
+      "key_count": 935,
+      "overlay_sha256": "0de6363d5e7fcd03fde9a5c33e936eeb536dd8fe50953ba618a1f4ccb7679b35",
+      "keyset_sha256": "ed531ebc87aebf39fed3f2deab9e5ed0e6a896722d2bc6374838ed7919ed7b05"
+    },
+    {
+      "path": "crosswalk/roots.csv",
+      "key_count": 930,
+      "overlay_sha256": "615084b6ec4aa4466d32c2edc94a247bf9f8a6243da3739406eb7d68273e4874",
+      "keyset_sha256": "9239d0f57d5e7bd0a85fbf2bb94baff44bcc8664a39eddda71ee75cc2834a182"
+    },
+    {
+      "path": "crosswalk/alignment_review.json",
+      "key_count": 52,
+      "overlay_sha256": "34eea4514610cf7a7446ec4f7eea27093ade6c53d818f7229795c1a2f719cfc7",
+      "keyset_sha256": "2f63a8d652a9c7595a2c9e54576349579dcbfbda9c9c7d96dd2777efba82ce25"
+    }
+  ],
+  "reason": "wave-1-baseline",
+  "updated": "17-08-2026",
+  "source_gitignored": false,
+  "spec": {
+    "store_id": "whitney_roots_reviewed_files",
+    "source_gitignored": false,
+    "extract_path": "",
+    "key_fields": [
+      "id",
+      "root"
+    ],
+    "reviewed_fields": "*",
+    "reviewed_predicate": {
+      "description": "No per-row review stamp exists in this repo. Reviewed-ness is FILE-LEVEL: AGENTS.md declares these files human-reviewed overlays that apply_* must never write into, so every record in each listed file counts as reviewed and the projection is the whole record. `*` rather than the census field list on purpose: a file declared wholly human-reviewed should also flag a NEW field, which an enumerated list would silently ignore.",
+      "kind": "file_level",
+      "source_of_truth": "WhitneyRoots/AGENTS.md danger-fact block"
+    },
+    "sources": [
+      {
+        "path": "src/app_data.json",
+        "container": "json",
+        "records_at": "lexicon",
+        "key_fields": [
+          "id",
+          "root"
+        ]
+      },
+      {
+        "path": "crosswalk/roots.csv",
+        "container": "csv",
+        "key_fields": [
+          "whitney_no"
+        ]
+      },
+      {
+        "path": "crosswalk/alignment_review.json",
+        "container": "json",
+        "records_at": "items",
+        "key_fields": [
+          "whitney_no",
+          "root"
+        ]
+      }
+    ]
+  }
+}
