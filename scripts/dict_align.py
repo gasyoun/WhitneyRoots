@@ -10,6 +10,16 @@ Folds mw_id / apte_id (+ homonym, class, gloss) into the spine under a `dict` ke
 `class` (hard-guarded). Writes crosswalk/root_alignment.csv + crosswalk/alignment_review.json.
 Idempotent. UTF-8, no BOM.
 """
+
+# H2892 — refuse-by-default writer lock over the human-reviewed overlays.
+# Must stay the first executable statement: nothing below it may open a
+# reviewed file. Set ALLOW_OVERLAY_WIPE=1 only for a deliberate, re-pinned
+# rewrite (scripts/overlay_guard.py).
+import pathlib as _pathlib, sys as _sys
+_sys.path.insert(0, str(_pathlib.Path(__file__).resolve().parent))
+from overlay_guard import refuse_unless_hatched as _refuse_unless_hatched
+_refuse_unless_hatched(__file__, targets=('crosswalk/alignment_review.json',))
+
 import sys, os, re, json, csv
 sys.stdout.reconfigure(encoding='utf-8')
 sys.stderr.reconfigure(encoding='utf-8')

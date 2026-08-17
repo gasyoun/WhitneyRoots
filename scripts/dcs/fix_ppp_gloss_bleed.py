@@ -33,6 +33,15 @@ CRLF line endings, 2-space indent, and absence of a BOM/trailing newline are
 preserved exactly — a json.dump round-trip would rewrite every line.
 """
 
+# H2892 — refuse-by-default writer lock over the human-reviewed overlays.
+# Must stay the first executable statement: nothing below it may open a
+# reviewed file. Set ALLOW_OVERLAY_WIPE=1 only for a deliberate, re-pinned
+# rewrite (scripts/overlay_guard.py).
+import pathlib as _pathlib, sys as _sys
+_sys.path.insert(0, str(_pathlib.Path(__file__).resolve().parents[1]))
+from overlay_guard import refuse_unless_hatched as _refuse_unless_hatched
+_refuse_unless_hatched(__file__, targets=('src/app_data.json',))
+
 import sys, json, pathlib
 
 sys.stdout.reconfigure(encoding='utf-8')
