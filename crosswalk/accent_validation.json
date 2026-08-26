@@ -415,26 +415,104 @@
     }
   },
   "d3_genitive_plural_split": {
-    "ending_lemmas": [],
-    "stem_final_lemmas": [
-      {
-        "lemma": "raTI",
+    "status": "RESOLVED",
+    "resolved": "26-08-2026",
+    "resolved_by": "H3555, Fable 5 (claude-fable-5)",
+    "method": "Full-corpus census of Rigveda genitive plurals from the Zurich glossed corpus (rigveda/versions/zurich.xlsx in the public VedaWebProject/vedaweb-data GitHub mirror, CC BY 4.0 — same dataset as API resource 66695e4a14f6d337f7788740; the vedaweb.uni-koeln.de API host remains WAF-blocked, HTTP 418 re-probed 26-08-2026). 164,768 token rows -> 2,159 gen.pl tokens -> 477 in long-i/u + nam shape. Script: scripts/d3_genpl_probe.py. Lemma forms below are IAST as in the zurich.xlsx 'lemmata klassisch' column (earlier n=2 entries used SLP1: raTI, vaDU).",
+    "verdict": "Whitney §319a and §320/§356 are both correct — their scopes are disjoint; the recorded self-contradiction dissolves under word-class control. Oxytone derivative ī/ū-stem NOUNS are 44/44 stem_final (zero exceptions): emit stem_final as RULE for the D3 cell over derivative ī/ū noun lemmas. The devī́-declension adjective/participle class (§319a's own scope) genuinely vacillates — per-lemma variant only there and for máh-. Monosyllables follow the separate §355 rule (8/8 ending). Barytones never move (62/62). Verdict of record: SanskritLexicography docs/D3_GENPL_ACCENT_PROBE_26-08-2026.md; residue SanskritLexicography FINDINGS §587 (the ruling) and §588 (the mirror method).",
+    "section_a_lemma_ends_in_long_i_u": {
+      "n_tokens": 71,
+      "oxytone_derivative_nouns_stem_final": {
+        "total": "44/44",
         "counts": {
-          "stem_final": 1
+          "nadī́-": 20,
+          "tanū́-": 15,
+          "rathī́-": 2,
+          "yātujū́-": 2,
+          "ahī́-": 1,
+          "hiraṇyavī́-": 1,
+          "puruṣī́-": 1,
+          "pūrvasū́-": 1,
+          "vadhū́-": 1
         }
       },
-      {
-        "lemma": "vaDU",
+      "monosyllables_ending_per_355": {
+        "total": "8/8",
         "counts": {
-          "stem_final": 1
+          "dhī́- (dhīnā́m)": 7,
+          "śrī́- (śrīṇā́m)": 1
+        }
+      },
+      "barytones_accent_elsewhere": {
+        "total": "19/19",
+        "counts": {
+          "óṣadhī-": 9,
+          "śácī-": 4,
+          "daívī-": 2,
+          "ódatī-": 1,
+          "śyā́vī-": 1,
+          "rópuṣī-": 1,
+          "áruṣī-": 1
         }
       }
-    ],
-    "raw_counts": {
-      "raTI|stem_final": 1,
-      "vaDU|stem_final": 1
     },
-    "note": "H115 (05-07-2026): relabeled from 'ending' to 'stem_final' - both attested forms (rathī́nām, vadhū́nām) carry the acute on the ī/ū vowel itself, matching §356's noun-type -ī́nām pattern, not §319a's bahvī́-type -īnā́m. n still =2 (wider pull blocked by a vedaweb.uni-koeln.de outage mid-session); split remains unresolved."
+    "section_b_feminine_under_non_i_u_lemma": {
+      "n_tokens": 179,
+      "devi_declension_adj_participle_mixed": {
+        "ending": {
+          "bahvīnā́m (bahú-, Whitney's own §319a example)": 2,
+          "vibhātīnā́m (√bhā-)": 2,
+          "āyatīnā́m (√i-)": 2,
+          "parāyatīnā́m (√i-)": 1,
+          "abhibhañjatīnā́m (√bhañj-)": 1,
+          "bhuñjatīnā́m (√bhuj-)": 1
+        },
+        "stem_final": {
+          "kanī́nām (kanyā̀-~kanī́n-)": 6,
+          "aruṇī́nām (aruṇá-)": 1,
+          "babhrū́ṇām (babhrú-)": 1,
+          "bībhatsū́nām (bībhatsú-)": 1,
+          "devayatī́nām (√devay-)": 1,
+          "yatī́nām (√i-)": 1
+        }
+      },
+      "i_u_stem_noun_control_massively_ending": {
+        "counts": {
+          "carṣaṇí-": 35,
+          "matí-": 23,
+          "kṣití-": 15,
+          "kr̥ṣṭí-": 12,
+          "durmatí-": 5,
+          "sumatí-": 4,
+          "dhenú-": 3,
+          "saptatí-": 2,
+          "suṣṭutí-": 2,
+          "dhautí-": 1,
+          "navatí-": 1,
+          "puṣṭí-": 1,
+          "rayí-": 1
+        }
+      },
+      "mah_mixed_lemma": {
+        "mahī́nām (stem_final)": 4,
+        "mahīnā́m (ending)": 1
+      },
+      "barytone_feminines_accent_elsewhere": {
+        "total": "43/43 tokens never move"
+      }
+    },
+    "section_b_non_feminine_control": {
+      "ending": 99,
+      "accent_elsewhere": 126,
+      "stem_final": 2
+    },
+    "history": {
+      "H115 (05-07-2026)": "relabeled the then-only two attested forms (rathī́nām, vadhū́nām) from 'ending' to 'stem_final'; n stayed 2, split unresolved (wider pull blocked by the vedaweb.uni-koeln.de outage).",
+      "raw_counts_pre_H3555": {
+        "raTI|stem_final": 1,
+        "vaDU|stem_final": 1
+      }
+    }
   },
   "per_form_verdicts": [
     {

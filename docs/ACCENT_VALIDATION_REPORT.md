@@ -1,6 +1,6 @@
 # Accent-axis validation report — Whitney rules vs attested Rig-Veda accents (VedaWeb 2.0)
 
-_Created: 03-07-2026 · Last updated: 05-07-2026_
+_Created: 03-07-2026 · Last updated: 26-08-2026_
 
 **Runner:** Sonnet 5 (`claude-sonnet-5`). **Author of the rules under test:** Fable 5
 (`claude-fable-5`), session S8, 02-07-2026. Executed per
@@ -122,6 +122,30 @@ original report claimed. Given n=2 either way, this does not settle Whitney's §
 contradiction; it only corrects the sign of the (still too-thin) existing evidence. The
 outage-blocked lemma expansion is filed as a follow-up (see Definition of done /
 `.ai_state.md`).
+
+**H3555 resolution (26-08-2026, Fable 5 `claude-fable-5`): the D3 split is RESOLVED —
+n grew 2 → 71.** The blocked lemma expansion was completed not through the still-WAF-blocked
+API host (HTTP 418, re-probed 26-08-2026) but through the public
+[VedaWebProject/vedaweb-data](https://github.com/VedaWebProject/vedaweb-data) GitHub mirror
+(`rigveda/versions/zurich.xlsx`, Casaretto et al. 2025, CC BY 4.0 — the same dataset as API
+resource `66695e4a14f6d337f7788740`): a full-corpus census of all 2,159 Rigveda gen.pl
+tokens, 477 in long-ī/ū + `nām` shape, run by
+[scripts/d3_genpl_probe.py](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/d3_genpl_probe.py).
+Verdict: **§319a and §320/§356 are both correct — their scopes are disjoint**, and the
+recorded self-contradiction dissolves under word-class control. Oxytone derivative ī/ū-stem
+*nouns* are **44/44 `stem_final`** with zero exceptions (nadī́- ×20, tanū́- ×15, rathī́- ×2,
+yātujū́- ×2, ahī́-, hiraṇyavī́-, puruṣī́-, pūrvasū́-, vadhū́- ×1 each) — the n=2 lean above was
+the right sign. The vacillation Whitney's §319a describes is real but lives entirely in the
+devī́-declension adjective/participle class (bahvīnā́m ×2 — his own example — plus present
+participles, mixed roughly 9 ending : 11 stem-final); monosyllables follow the separate
+§355 rule (8/8 ending); barytones never move (62/62); máh- is the one mixed lemma (4:1).
+Consequence for this repo: the D3 cell now emits `stem_final` as a **RULE** for derivative
+ī/ū-stem noun lemmas (per-lemma variant reserved for the devī́-class and máh-), recorded in
+[crosswalk/accent_validation.json](https://github.com/gasyoun/WhitneyRoots/blob/main/crosswalk/accent_validation.json)
+under `d3_genitive_plural_split`. Verdict of record with full per-lemma tables:
+[SanskritLexicography docs/D3_GENPL_ACCENT_PROBE_26-08-2026.md](https://github.com/gasyoun/SanskritLexicography/blob/master/docs/D3_GENPL_ACCENT_PROBE_26-08-2026.md);
+residue [SanskritLexicography FINDINGS §587/§588](https://github.com/gasyoun/SanskritLexicography/blob/master/FINDINGS.md);
+shipped via SL [PR #1895](https://github.com/gasyoun/SanskritLexicography/pull/1895).
 
 The two other `variant` cells in the matrix: `T4/T6·monosyllable` G.pl (dhiyā́m/dhīnā́m)
 had 0 attested lemmas in the sample (thin-evidence, not reached). `T8√·monosyllable` A.pl
