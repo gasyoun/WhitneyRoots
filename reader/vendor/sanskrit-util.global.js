@@ -376,10 +376,16 @@ function gmTokenPattern(tok) {
   return tok.replace(/\\/g, '\\\\').replace(/\./g, '\\.').replace(/ /g, '[ \t\n\r]+');
 }
 
+// Module-scope Set construction avoids iterable spread (`[...set]`): bundler
+// loose-mode transforms compile it to `[].concat(set, …)` which does NOT
+// flatten Sets — a consumer (csl-guides, H3488) crashed at module eval with
+// `TypeError: a.replace is not a function` when the Set objects reached
+// gmTokenPattern. Array.from is spread-free and transform-safe.
 const gmSortTokens = (set) =>
-  [...set].sort((a, b) => (b.length - a.length) || (a < b ? -1 : a > b ? 1 : 0));
+  Array.from(set).sort((a, b) => (b.length - a.length) || (a < b ? -1 : a > b ? 1 : 0));
 const GM_DOTTED_RE = new RegExp(
-  GM_L + '(?:' + gmSortTokens(new Set([...GERMAN_GRAMMAR_AB, ...GERMAN_FORMULA_AB]))
+  GM_L + '(?:' +
+  gmSortTokens(new Set(Array.from(GERMAN_GRAMMAR_AB).concat(Array.from(GERMAN_FORMULA_AB))))
     .map(gmTokenPattern).join('|') + ')' + GM_R,
   'gi');
 const GM_BARE_RE = new RegExp(
@@ -387,7 +393,7 @@ const GM_BARE_RE = new RegExp(
   'g');   // case-SENSITIVE: NWS-layer labels, exact form
 const GM_WORD_RE = /[A-Za-zäöüßÄÖÜ]+/g;
 const gmEnsureDot = (t) => (t.endsWith('.') ? t : t + '.');
-const GM_FORMULA_NORM = new Set([...GERMAN_FORMULA_AB].map(gmEnsureDot));
+const GM_FORMULA_NORM = new Set(Array.from(GERMAN_FORMULA_AB).map(gmEnsureDot));
 
 // Detect German lexicographic-apparatus spans; returns [{start, end, text, category}]
 // sorted by position. Categories: 'grammar_label' | 'recurring_formula' |
