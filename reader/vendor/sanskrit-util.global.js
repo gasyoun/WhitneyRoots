@@ -192,6 +192,13 @@ function form_key(s) {
   s = wstrim(s || '').toLowerCase();
   if (s === '-' || s === '–' || s === '—') return '';
   s = s.replace(/ḥ$/, '');
+  // WORD-FINAL anusvāra is underlyingly /m/: Sanskrit writes final -m as anusvāra before a
+  // consonant and as -m in pausa or before a vowel, so `rasaṃ` and `rasam` are one word in
+  // two spellings. Must run BEFORE the general fold below, which would otherwise send the
+  // anusvāra to `n` and leave the real `m` alone — the two spellings then never collide, and
+  // every anusvāra-final attestation reads as un-generated. Deliberately does NOT touch
+  // final `n`: `rājan` and a hypothetical `rājam` stay distinct keys.
+  s = s.replace(/[ṃṁ]$/, 'm');            // final anusvāra -> m (H3911)
   s = s.replace(/[ṃṁṅñṇ]/g, 'n');
   const out = [];
   for (const ch of s.normalize('NFD')) {
@@ -311,7 +318,257 @@ function source_text_to_iast(text, code) {
   return String(text).split('\n').map((l) => source_line_to_iast(l, code)).join('\n');
 }
 
+// ---- German lexicographic-apparatus (metalanguage) detection -----------------
+// Behaviour-identical port of the Python classify_german_metalanguage — see the
+// Python module for the full harvest provenance (pwg_tm_fragmentize GRAMMAR_AB /
+// FORMULA_AB / FORMULA_PHRASES, compile_translatable GRAM, microstructure FUNC_DE
+// ∪ pwg_mask DE_FUNCTION, H2684 extras, H2787 defect formulae). PWG/PW apparatus
+// spans ("eines", "im Comp. vorangehend", "adj.") must never be translated as
+// ordinary gloss prose; 'uncertain' (bare "so" / "Ergänzung") is the consumer's
+// treat-as-not-gloss-and-log case.
+const GERMAN_GRAMMAR_AB = new Set([
+  'adj.', 'adv.', 'm.', 'f.', 'n.', 'm. n.', 'f. n.', 'm. f.', 'm. f. n.',
+  'partic.', 'part.', 'caus.', 'desid.', 'intens.', 'pass.', 'med.', 'act.',
+  'nom.', 'acc.', 'instr.', 'dat.', 'abl.', 'gen.', 'loc.', 'voc.',
+  'sg.', 'du.', 'pl.', 'inf.', 'abs.', 'ger.', 'impf.', 'perf.', 'aor.',
+  'opt.', 'impv.', 'fut.', 'cond.', 'ppp.', 'pp.', 'subst.', 'interj.',
+  'pron.', 'num.', 'indecl.', 'comp.', 'superl.', 'denomin.', 'desid',
+  'partic', 'caus',
+]);
+const GERMAN_GRAMMAR_BARE = new Set([
+  'Subst', 'Adj', 'Adv', 'Indekl', 'PostP', 'mfn', 'ifc', 'NPr',
+  'Pl', 'Sg', 'Du', 'Akk', 'Lok', 'Dat', 'Gen', 'Instr', 'Nom', 'Vok',
+]);
+const GERMAN_FORMULA_AB = new Set([
+  'vgl.', 's. u.', 's. d.', 's. v.', 's. u. d.', 'fgg.', 'fg.', 'dass.',
+  'ebend.', 'u.s.w.', 'desgl.', 'dgl.', 'sc.', 'scil.', 's. u. d. W.',
+  // H2684 one-bounded-repair extras
+  'demin.', 'personif.', 'uebertr.',
+]);
+// Pattern STRINGS (compiled case-insensitive); identical to the Python tuple.
+const GERMAN_FORMULA_PHRASES = [
+  'am Anf(?:ange|\\.) eines Comp(?:ositums?|\\.)?',
+  'am Ende eines Comp(?:ositums?|\\.)?',
+  'an der Spitze eines Comp(?:ositums?|\\.)?',
+  'mit Ergänzung von',
+  'im Comp\\.(?:,? vorangehend[a-z]*)?',
+  'in Verbindung mit',
+  's\\.\\s*u\\.\\s*d\\.\\s*W\\.',
+];
+const GERMAN_FUNCTION_WORDS = new Set(
+  ('der die das den dem des ein eine einen einem eines einer und oder aber auf '
+   + 'in an zu von mit bei nach für so als wie am im zum zur ist sind war wird '
+   + 'auch nur noch nicht wo wenn dass vor über unter durch ohne um bis').split(' '));
+const GERMAN_AMBIGUOUS_TOKENS = new Set(['so', 'ergänzung']);
+
+// Guards: no German letter directly before/after (explicit classes — \b mishandles
+// umlauts and would diverge from the Python port).
+const GM_L = '(?<![A-Za-zäöüßÄÖÜ])';
+const GM_R = '(?![A-Za-zäöüßÄÖÜ])';
+const GM_PHRASE_RES = GERMAN_FORMULA_PHRASES.map((p) => new RegExp(GM_L + p + GM_R, 'gi'));
+
+// '.' is literal; a single space matches a plain-whitespace run ([ \t\n\r]+, NOT \s+,
+// because Python and JS disagree on the \s class edges).  Backslashes are escaped
+// first so a literal '\' in a token can never act as a regex metachar (CodeQL
+// incomplete-string-escaping; inputs today are compile-time constants - hardened
+// so a future dynamic token cannot turn the class into an injection surface).
+function gmTokenPattern(tok) {
+  return tok.replace(/\\/g, '\\\\').replace(/\./g, '\\.').replace(/ /g, '[ \t\n\r]+');
+}
+
+const gmSortTokens = (set) =>
+  [...set].sort((a, b) => (b.length - a.length) || (a < b ? -1 : a > b ? 1 : 0));
+const GM_DOTTED_RE = new RegExp(
+  GM_L + '(?:' + gmSortTokens(new Set([...GERMAN_GRAMMAR_AB, ...GERMAN_FORMULA_AB]))
+    .map(gmTokenPattern).join('|') + ')' + GM_R,
+  'gi');
+const GM_BARE_RE = new RegExp(
+  GM_L + '(?:' + gmSortTokens(GERMAN_GRAMMAR_BARE).join('|') + ')' + GM_R,
+  'g');   // case-SENSITIVE: NWS-layer labels, exact form
+const GM_WORD_RE = /[A-Za-zäöüßÄÖÜ]+/g;
+const gmEnsureDot = (t) => (t.endsWith('.') ? t : t + '.');
+const GM_FORMULA_NORM = new Set([...GERMAN_FORMULA_AB].map(gmEnsureDot));
+
+// Detect German lexicographic-apparatus spans; returns [{start, end, text, category}]
+// sorted by position. Categories: 'grammar_label' | 'recurring_formula' |
+// 'function_word' (whole text is bare function words) | 'uncertain' (whole text is
+// an ambiguous token — consumer treats as not-gloss and logs). Mid-text function
+// words ("Name eines Baumes") are NOT flagged; ordinary gloss prose returns [].
+// Offsets are code-unit-identical to the Python port for BMP text.
+function classify_german_metalanguage(text) {
+  const s = text || '';
+  const spans = [];
+  const keep = (start, end, txt, category) => {
+    for (const sp of spans) if (start < sp.end && sp.start < end) return;
+    spans.push({ start, end, text: txt, category });
+  };
+  for (const rx of GM_PHRASE_RES) {
+    rx.lastIndex = 0;
+    for (const m of s.matchAll(rx)) keep(m.index, m.index + m[0].length, m[0], 'recurring_formula');
+  }
+  GM_DOTTED_RE.lastIndex = 0;
+  for (const m of s.matchAll(GM_DOTTED_RE)) {
+    const tok = gmEnsureDot(m[0].replace(/[ \t\n\r]+/g, ' ').toLowerCase());
+    const cat = GM_FORMULA_NORM.has(tok) ? 'recurring_formula' : 'grammar_label';
+    keep(m.index, m.index + m[0].length, m[0], cat);
+  }
+  GM_BARE_RE.lastIndex = 0;
+  for (const m of s.matchAll(GM_BARE_RE)) keep(m.index, m.index + m[0].length, m[0], 'grammar_label');
+  if (spans.length) {
+    spans.sort((a, b) => (a.start - b.start) || (a.end - b.end));
+    return spans;
+  }
+
+  // nothing matched: is the WHOLE text an apparatus placeholder / ambiguous token?
+  GM_WORD_RE.lastIndex = 0;
+  const words = (s.match(GM_WORD_RE) || []).map((w) => w.toLowerCase());
+  if (words.length
+      && words.every((w) => GERMAN_FUNCTION_WORDS.has(w) || GERMAN_AMBIGUOUS_TOKENS.has(w))) {
+    GM_WORD_RE.lastIndex = 0;
+    const first = GM_WORD_RE.exec(s);
+    const start = first.index;
+    let end = s.length;
+    while (end > start && ' \t\n\r'.includes(s[end - 1])) end -= 1;
+    const cat = words.every((w) => GERMAN_AMBIGUOUS_TOKENS.has(w)) ? 'uncertain' : 'function_word';
+    return [{ start, end, text: s.slice(start, end), category: cat }];
+  }
+  return [];
+}
+
+// ---- linkid: TYPED_LINK_ID_GRAMMAR.md builders/parsers/validators ----------
+// Cross-repo Type-D (grammar <-> non-grammar) link-ID grammar, per the concordance
+// roadmap's @DECIDE D2 spec: Uprava/TYPED_LINK_ID_GRAMMAR.md. Every anchor id and
+// target-locus id is '<prefix>:<tail>' where the tail is copied VERBATIM from that
+// source's own stable id (spec section 0 "reuse, don't mint" — never a fresh
+// synthetic key, never a URL host). The prefixes/patterns/tiers below are locked
+// verbatim against the spec's canonical validator, kosha/scripts/typed_link_lint.py
+// (ANCHOR_PATTERNS / TARGET_PATTERNS / ANCHOR_TYPE_TO_PREFIX) and
+// kosha/scripts/concordance_core.py (TYPE_D_LINK_TYPES / TIER_CONFIDENCE) — behaviour-
+// identical port of the linkid_* section in py/sanskrit_util/__init__.py (proved by
+// ../vectors/vectors.json). JS `\w` is already ASCII-only (unlike Python's
+// Unicode-aware default), so no extra flag is needed here — see the Python port's
+// note on this cross-language parity trap.
+const LINKID_ANCHOR_PREFIXES = ['gra', 'whitney-root', 'whitney-sec', 'root', 'sutra'];
+const LINKID_TARGET_PREFIXES = ['dcs', 'vedaweb', 'commentary', 'subject'];
+const LINKID_LINK_TYPES = ['translation-witness', 'commentary-citation', 'thematic'];
+const LINKID_MATCH_METHODS = ['id-link', 'xref', 'curated', 'exact', 'floor', 'relaxed', 'fuzzy'];
+
+const LINKID_ANCHOR_RE = {
+  'gra': /^\d+(\.\d+)?$/,
+  'whitney-root': /^\d+$/,
+  'whitney-sec': /^\d+(-\d+)?$/,
+  'root': /^[A-Za-z]+$/,
+  'sutra': /^\d+\.\d+\.\d+$/,
+};
+const LINKID_TARGET_RE = {
+  'dcs': /^.+$/,
+  'vedaweb': /^\d+(\.\d+)*:[0-9a-fA-F]{24}$/,
+  'commentary': /^[\w-]+:.+$/,
+  'subject': /^[\w-]+:[\w.-]+$/,
+};
+const LINKID_ANCHOR_TYPE_TO_PREFIX = {
+  'id-gra': 'gra',
+  'whitney-root': 'whitney-root',
+  'whitney-sec': 'whitney-sec',
+  'root': 'root',
+  'panini-sutra': 'sutra',
+};
+const LINKID_DATE_RE = /^\d{2}-\d{2}-\d{4}$/;
+const LINKID_MATCH_METHOD_SET = new Set(LINKID_MATCH_METHODS);
+
+function linkid_build_anchor_id(spec) {
+  if (spec === null || typeof spec !== 'object') return null;
+  const t = spec.type;
+  const tail = spec.tail;
+  const rx = LINKID_ANCHOR_RE[t];
+  if (!rx || typeof tail !== 'string' || !rx.test(tail)) return null;
+  return `${t}:${tail}`;
+}
+
+function linkid_parse_anchor_id(anchorId) {
+  if (typeof anchorId !== 'string' || !anchorId.includes(':')) return null;
+  const i = anchorId.indexOf(':');
+  const prefix = anchorId.slice(0, i);
+  const tail = anchorId.slice(i + 1);
+  const rx = LINKID_ANCHOR_RE[prefix];
+  if (!rx) return null;
+  return { type: prefix, tail, valid: rx.test(tail) };
+}
+
+function linkid_build_target_locus(spec) {
+  if (spec === null || typeof spec !== 'object') return null;
+  const t = spec.type;
+  const tail = spec.tail;
+  const rx = LINKID_TARGET_RE[t];
+  if (!rx || typeof tail !== 'string' || !rx.test(tail)) return null;
+  return `${t}:${tail}`;
+}
+
+function linkid_parse_target_locus(targetLocus) {
+  if (typeof targetLocus !== 'string' || !targetLocus.includes(':')) return null;
+  const i = targetLocus.indexOf(':');
+  const prefix = targetLocus.slice(0, i);
+  const tail = targetLocus.slice(i + 1);
+  const rx = LINKID_TARGET_RE[prefix];
+  if (!rx) return null;
+  return { type: prefix, tail, valid: rx.test(tail) };
+}
+
+function linkid_validate_link_record(record) {
+  const errors = [];
+  if (record === null || typeof record !== 'object') {
+    return { valid: false, errors: ['record is not an object'] };
+  }
+
+  const anchorType = record.anchor_type || '';
+  const anchorId = record.anchor_id || '';
+  const expectedPrefix = LINKID_ANCHOR_TYPE_TO_PREFIX[anchorType];
+  if (!expectedPrefix) {
+    errors.push(`unknown anchor_type '${anchorType}'`);
+  } else {
+    const parsed = linkid_parse_anchor_id(anchorId);
+    if (parsed === null) {
+      errors.push(`anchor_id '${anchorId}' has no known prefix (expected '${expectedPrefix}:...')`);
+    } else if (parsed.type !== expectedPrefix) {
+      errors.push(`anchor_id '${anchorId}' prefix '${parsed.type}' does not match anchor_type '${anchorType}' (expected '${expectedPrefix}:...')`);
+    } else if (!parsed.valid) {
+      errors.push(`anchor_id '${anchorId}': tail '${parsed.tail}' fails '${parsed.type}' syntax`);
+    }
+  }
+
+  const targetLocus = record.target_locus || '';
+  const parsedT = linkid_parse_target_locus(targetLocus);
+  if (parsedT === null) {
+    errors.push(`target_locus '${targetLocus}' has no known prefix`);
+  } else if (!parsedT.valid) {
+    errors.push(`target_locus '${targetLocus}': tail '${parsedT.tail}' fails '${parsedT.type}' syntax`);
+  }
+  if (typeof targetLocus === 'string'
+      && (targetLocus.startsWith('http://') || targetLocus.startsWith('https://') || targetLocus.startsWith('www.'))) {
+    errors.push(`target_locus '${targetLocus}' looks like a URL host — reuse the source's own stable id (spec section 0)`);
+  }
+
+  const linkType = record.link_type || '';
+  if (!LINKID_LINK_TYPES.includes(linkType)) {
+    errors.push(`link_type '${linkType}' not in [${LINKID_LINK_TYPES.join(', ')}]`);
+  }
+
+  const matchMethod = record.match_method || '';
+  if (!LINKID_MATCH_METHOD_SET.has(matchMethod)) {
+    errors.push(`match_method '${matchMethod}' not in [${LINKID_MATCH_METHODS.join(', ')}]`);
+  }
+
+  const date = record.date || '';
+  if (!date) {
+    errors.push('date is missing');
+  } else if (!LINKID_DATE_RE.test(String(date))) {
+    errors.push(`date '${date}' is not DD-MM-YYYY`);
+  }
+
+  return { valid: errors.length === 0, errors };
+}
+
   root.SanskritUtil = Object.freeze({
-    to_slp1, to_roman, from_slp1, deva_to_iast, deva_to_slp1, slp1_to_devanagari, iast_to_devanagari, norm, nfold, form_key, normalize_sanskrit, SLP1_VOWELS, SLP1_MARKS, SLP1_CONSONANTS, SLP1_ALPHABET, strip_slp1_accents, slp1_norm, slp1_form_key, slp1_simplify, source_line_to_iast, source_text_to_iast,
+    to_slp1, to_roman, from_slp1, deva_to_iast, deva_to_slp1, slp1_to_devanagari, iast_to_devanagari, norm, nfold, form_key, normalize_sanskrit, SLP1_VOWELS, SLP1_MARKS, SLP1_CONSONANTS, SLP1_ALPHABET, strip_slp1_accents, slp1_norm, slp1_form_key, slp1_simplify, source_line_to_iast, source_text_to_iast, GERMAN_GRAMMAR_AB, GERMAN_GRAMMAR_BARE, GERMAN_FORMULA_AB, GERMAN_FORMULA_PHRASES, GERMAN_FUNCTION_WORDS, GERMAN_AMBIGUOUS_TOKENS, classify_german_metalanguage, LINKID_ANCHOR_PREFIXES, LINKID_TARGET_PREFIXES, LINKID_LINK_TYPES, LINKID_MATCH_METHODS, linkid_build_anchor_id, linkid_parse_anchor_id, linkid_build_target_locus, linkid_parse_target_locus, linkid_validate_link_record,
   });
 })(typeof globalThis !== 'undefined' ? globalThis : this);

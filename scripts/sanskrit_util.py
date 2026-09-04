@@ -29,6 +29,28 @@ slp1_to_devanagari(slp1) SLP1 -> Devanāgarī (real transcode: virāma conjuncts
                          round-trip partner of deva_to_slp1)
 slp1_simplify(slp1)      fuzzy-match key: fold all SLP1 distinctions to plain ASCII (R→n, K→kh, …)
 
+German-apparatus helpers (the PWG/PW dictionaries carry German lexicographic
+METALANGUAGE — grammar labels, recurring formulae, bare function words — that a
+translation pipeline must never treat as ordinary gloss prose; H2787 measured this
+as the dominant TM defect class):
+classify_german_metalanguage(text)   -> list of span dicts {start, end, text, category}
+GERMAN_GRAMMAR_AB / GERMAN_GRAMMAR_BARE / GERMAN_FORMULA_AB / GERMAN_FORMULA_PHRASES /
+GERMAN_FUNCTION_WORDS / GERMAN_AMBIGUOUS_TOKENS   the harvested token inventories
+
+linkid helpers (build/parse/validate the cross-repo Type-D link-ID grammar,
+Uprava's TYPED_LINK_ID_GRAMMAR.md — grammar-anchor ids like gra:3983,
+whitney-sec:611-641, sutra:1.1.1 and target-locus ids like dcs:588488,
+vedaweb:1.1.6:<objectid>, commentary:<work>:<cite>. Same "reuse, don't mint"
+prefixed-verbatim-tail scheme the kosha typed_link_lint.py validator checks —
+this is the reusable library that logic is locked against, see the module
+comment above linkid_build_anchor_id below):
+linkid_build_anchor_id({type, tail})      -> 'type:tail' or None if invalid
+linkid_parse_anchor_id(anchor_id)         -> {type, tail, valid} or None
+linkid_build_target_locus({type, tail})   -> 'type:tail' or None if invalid
+linkid_parse_target_locus(target_locus)   -> {type, tail, valid} or None
+linkid_validate_link_record(record)       -> {valid, errors}
+LINKID_ANCHOR_PREFIXES / LINKID_TARGET_PREFIXES / LINKID_LINK_TYPES / LINKID_MATCH_METHODS
+
 Pick the right key:
   - norm / nfold        : reversible, diacritic-insensitive (search & index lookup)
   - form_key            : compare *generated* forms vs *recorded* forms (length matters)
@@ -37,7 +59,7 @@ Pick the right key:
 import re
 import unicodedata
 
-__version__ = "0.4.1"
+__version__ = "0.11.0"
 
 __all__ = [
     "to_slp1", "from_slp1", "to_roman", "deva_to_iast", "deva_to_slp1", "iast_to_devanagari",
@@ -49,6 +71,16 @@ __all__ = [
     "slp1_simplify",
     # CDSL raw-source-line display renderer (SLP1-in-markup -> readable IAST)
     "source_line_to_iast", "source_text_to_iast",
+    # German lexicographic-apparatus (metalanguage) detection for the PWG/PW pipelines
+    "classify_german_metalanguage",
+    "GERMAN_GRAMMAR_AB", "GERMAN_GRAMMAR_BARE", "GERMAN_FORMULA_AB",
+    "GERMAN_FORMULA_PHRASES", "GERMAN_FUNCTION_WORDS", "GERMAN_AMBIGUOUS_TOKENS",
+    # linkid: TYPED_LINK_ID_GRAMMAR.md build/parse/validate
+    "linkid_build_anchor_id", "linkid_parse_anchor_id",
+    "linkid_build_target_locus", "linkid_parse_target_locus",
+    "linkid_validate_link_record",
+    "LINKID_ANCHOR_PREFIXES", "LINKID_TARGET_PREFIXES",
+    "LINKID_LINK_TYPES", "LINKID_MATCH_METHODS",
 ]
 
 # ---- IAST -> SLP1 (longest-key-first; aspirates + diphthongs are digraphs) ----
@@ -314,8 +346,6 @@ def form_key(s):
     # send the anusvāra to `n` and leave the real `m` alone — the two spellings then never
     # collide, and every anusvāra-final attestation reads as un-generated. It deliberately
     # does NOT touch final `n`: `rājan` and a hypothetical `rājam` stay distinct keys.
-    # Kept byte-identical with the canonical sanskrit-util port (H3911) — this file is the
-    # regression donor `tools/gen_vectors.py` checks the package against.
     s = re.sub('[ṃṁ]$', 'm', s)                 # final anusvāra -> m (H3911)
     s = re.sub('[ṃṁṅñṇ]', 'n', s)              # anusvāra + ṅ/ñ/ṇ -> n (precomposed, before NFD)
     out = []
@@ -466,3 +496,302 @@ def source_text_to_iast(text, code):
     if text is None:
         return ''
     return '\n'.join(source_line_to_iast(line, code) for line in str(text).split('\n'))
+
+
+# ---- German lexicographic-apparatus (metalanguage) detection -----------------
+# The PWG/PW dictionaries write their APPARATUS in German: grammar labels
+# (<ab>adj.</ab>, "m. f. n."), recurring formulae ("am Ende eines Comp.",
+# "mit Ergänzung von", "vgl."), and bare function words reused as placeholders
+# ("eines", "die"). A DE→RU translation pipeline that treats such a span as an
+# ordinary gloss produces the H2787 arm-B defect class ("eines" → «поручать
+# кому-л.», "die" → «боги»). The token inventories below are HARVESTED, not
+# invented, from the pwg_ru sources that already owned them:
+#   GERMAN_GRAMMAR_AB / GERMAN_FORMULA_AB / GERMAN_FORMULA_PHRASES
+#       ← SanskritLexicography RussianTranslation/src/pwg_tm_fragmentize.py
+#         (GRAMMAR_AB / FORMULA_AB / FORMULA_PHRASES), plus the H2684 repair
+#         extras (demin., personif., Uebertr.) and the corpus-measured
+#         "mit Ergänzung von" (82×) / "an der Spitze eines Comp." (43×) /
+#         "im Comp.(,) vorangehend" formulae (H2787 defect list).
+#   GERMAN_GRAMMAR_BARE ← compile_translatable.py GRAM (NWS-layer labels).
+#   GERMAN_FUNCTION_WORDS ← microstructure.py FUNC_DE ∪ pwg_mask.py DE_FUNCTION.
+# Ambiguity is explicit: "so" is both apparatus and a real gloss word, and a bare
+# "Ergänzung" is apparatus only inside its formula frame — as sole content each
+# classifies 'uncertain'; the CONSUMER treats uncertain as not-gloss and logs.
+GERMAN_GRAMMAR_AB = frozenset({
+    'adj.', 'adv.', 'm.', 'f.', 'n.', 'm. n.', 'f. n.', 'm. f.', 'm. f. n.',
+    'partic.', 'part.', 'caus.', 'desid.', 'intens.', 'pass.', 'med.', 'act.',
+    'nom.', 'acc.', 'instr.', 'dat.', 'abl.', 'gen.', 'loc.', 'voc.',
+    'sg.', 'du.', 'pl.', 'inf.', 'abs.', 'ger.', 'impf.', 'perf.', 'aor.',
+    'opt.', 'impv.', 'fut.', 'cond.', 'ppp.', 'pp.', 'subst.', 'interj.',
+    'pron.', 'num.', 'indecl.', 'comp.', 'superl.', 'denomin.', 'desid',
+    'partic', 'caus',
+})
+GERMAN_GRAMMAR_BARE = frozenset({
+    'Subst', 'Adj', 'Adv', 'Indekl', 'PostP', 'mfn', 'ifc', 'NPr',
+    'Pl', 'Sg', 'Du', 'Akk', 'Lok', 'Dat', 'Gen', 'Instr', 'Nom', 'Vok',
+})
+GERMAN_FORMULA_AB = frozenset({
+    'vgl.', 's. u.', 's. d.', 's. v.', 's. u. d.', 'fgg.', 'fg.', 'dass.',
+    'ebend.', 'u.s.w.', 'desgl.', 'dgl.', 'sc.', 'scil.', 's. u. d. W.',
+    # H2684 one-bounded-repair extras (PWG_TM_GROK46_WAVE1_TRACK_B_14-08-2026.md)
+    'demin.', 'personif.', 'uebertr.',
+})
+# Pattern STRINGS (compile with re.IGNORECASE); donor-shaped so
+# pwg_tm_fragmentize.FORMULA_PHRASES can compile these verbatim.
+GERMAN_FORMULA_PHRASES = (
+    r'am Anf(?:ange|\.) eines Comp(?:ositums?|\.)?',
+    r'am Ende eines Comp(?:ositums?|\.)?',
+    r'an der Spitze eines Comp(?:ositums?|\.)?',
+    r'mit Ergänzung von',
+    r'im Comp\.(?:,? vorangehend[a-z]*)?',
+    r'in Verbindung mit',
+    r's\.\s*u\.\s*d\.\s*W\.',
+)
+GERMAN_FUNCTION_WORDS = frozenset(
+    'der die das den dem des ein eine einen einem eines einer und oder aber auf '
+    'in an zu von mit bei nach für so als wie am im zum zur ist sind war wird '
+    'auch nur noch nicht wo wenn dass vor über unter durch ohne um bis'.split())
+GERMAN_AMBIGUOUS_TOKENS = frozenset({'so', 'ergänzung'})
+
+# Guards: no German letter directly before/after a match ("\b" mishandles umlauts,
+# and JS "\b" would disagree — explicit classes keep the two ports identical).
+_GM_L = '(?<![A-Za-zäöüßÄÖÜ])'
+_GM_R = '(?![A-Za-zäöüßÄÖÜ])'
+_GM_PHRASE_RES = tuple(re.compile(_GM_L + p + _GM_R, re.I) for p in GERMAN_FORMULA_PHRASES)
+
+
+def _gm_token_pattern(tok):
+    # '.' is literal; a single space matches any plain whitespace run (kept as
+    # [ \t\n\r]+, NOT \s+, because Python and JS disagree on the \s class edges).
+    return tok.replace('.', r'\.').replace(' ', '[ \t\n\r]+')
+
+
+_GM_DOTTED_RE = re.compile(
+    _GM_L + '(?:' + '|'.join(
+        _gm_token_pattern(t) for t in sorted(GERMAN_GRAMMAR_AB | GERMAN_FORMULA_AB,
+                                             key=lambda t: (-len(t), t))) + ')' + _GM_R,
+    re.I)
+_GM_BARE_RE = re.compile(
+    _GM_L + '(?:' + '|'.join(sorted(GERMAN_GRAMMAR_BARE, key=lambda t: (-len(t), t)))
+    + ')' + _GM_R)   # case-SENSITIVE: these are NWS-layer labels, exact form
+_GM_WORD_RE = re.compile('[A-Za-zäöüßÄÖÜ]+')
+_GM_WS_RUN = re.compile('[ \t\n\r]+')
+# dot-ensured lowercase lookup sets for classifying a dotted match
+_GM_FORMULA_NORM = frozenset(t if t.endswith('.') else t + '.' for t in GERMAN_FORMULA_AB)
+_GM_GRAMMAR_NORM = frozenset(t if t.endswith('.') else t + '.' for t in GERMAN_GRAMMAR_AB)
+
+
+def classify_german_metalanguage(text):
+    """Detect German lexicographic-apparatus (metalanguage) spans in ``text``.
+
+    Returns a list of span dicts ``{'start': int, 'end': int, 'text': str,
+    'category': str}`` sorted by position, categories:
+
+    - ``'grammar_label'``       — POS/case/number abbreviations (``adj.``, ``m. f. n.``, ``Akk``)
+    - ``'recurring_formula'``   — editorial formulae (``vgl.``, ``am Ende eines Comp.``,
+                                  ``mit Ergänzung von``, ``im Comp. vorangehend``, ``demin.``)
+    - ``'function_word'``       — the WHOLE text is bare German function words
+                                  (``eines``, ``die``) — an apparatus placeholder, not a gloss
+    - ``'uncertain'``           — the whole text is an ambiguous token (``so``,
+                                  ``Ergänzung``): apparatus in one reading, gloss in another.
+                                  Consumers treat uncertain as NOT-gloss and log it.
+
+    Mid-text function words ("Name eines Baumes") are NOT flagged — only a span
+    consisting entirely of function/ambiguous words is apparatus; ordinary German
+    gloss prose returns ``[]``. Offsets are code-unit-identical between the Python
+    and JS ports for BMP text (all German apparatus is BMP).
+    """
+    s = text or ''
+    spans = []
+
+    def _keep(start, end, txt, category):
+        for sp in spans:
+            if start < sp['end'] and sp['start'] < end:
+                return
+        spans.append({'start': start, 'end': end, 'text': txt, 'category': category})
+
+    for rx in _GM_PHRASE_RES:
+        for m in rx.finditer(s):
+            _keep(m.start(), m.end(), m.group(0), 'recurring_formula')
+    for m in _GM_DOTTED_RE.finditer(s):
+        tok = _GM_WS_RUN.sub(' ', m.group(0)).lower()
+        if not tok.endswith('.'):
+            tok += '.'
+        cat = 'recurring_formula' if tok in _GM_FORMULA_NORM else 'grammar_label'
+        _keep(m.start(), m.end(), m.group(0), cat)
+    for m in _GM_BARE_RE.finditer(s):
+        _keep(m.start(), m.end(), m.group(0), 'grammar_label')
+    if spans:
+        spans.sort(key=lambda sp: (sp['start'], sp['end']))
+        return spans
+
+    # nothing matched: is the WHOLE text an apparatus placeholder / ambiguous token?
+    words = [w.lower() for w in _GM_WORD_RE.findall(s)]
+    if words and all(w in GERMAN_FUNCTION_WORDS or w in GERMAN_AMBIGUOUS_TOKENS
+                     for w in words):
+        first = _GM_WORD_RE.search(s)
+        start = first.start()
+        end = len(s)
+        while end > start and s[end - 1] in ' \t\n\r':
+            end -= 1
+        cat = ('uncertain'
+               if all(w in GERMAN_AMBIGUOUS_TOKENS for w in words) else 'function_word')
+        return [{'start': start, 'end': end, 'text': s[start:end], 'category': cat}]
+    return []
+
+
+# ---- linkid: TYPED_LINK_ID_GRAMMAR.md builders/parsers/validators ----------
+# Cross-repo Type-D (grammar <-> non-grammar) link-ID grammar, per the concordance
+# roadmap's @DECIDE D2 spec: Uprava/TYPED_LINK_ID_GRAMMAR.md. Every anchor id and
+# target-locus id is '<prefix>:<tail>' where the tail is copied VERBATIM from that
+# source's own stable id (spec §0 "reuse, don't mint" — never a fresh synthetic
+# key, never a URL host). The prefixes/patterns/tiers below are locked verbatim
+# against the spec's canonical validator, kosha/scripts/typed_link_lint.py
+# (ANCHOR_PATTERNS / TARGET_PATTERNS / ANCHOR_TYPE_TO_PREFIX) and
+# kosha/scripts/concordance_core.py (TYPE_D_LINK_TYPES / TIER_CONFIDENCE) — this
+# module exists so a Type-D builder can call one shared, tested implementation
+# instead of re-rolling the grammar per pilot.
+#
+# `\w` in the target-locus patterns is compiled with re.ASCII to match JS's
+# ASCII-only `\w` (Python's `\w` is Unicode-aware by default) — the same
+# cross-language parity trap as _WS_CHARS/\s above; every known target-locus
+# tail (work slugs, index names) is ASCII.
+LINKID_ANCHOR_PREFIXES = ('gra', 'whitney-root', 'whitney-sec', 'root', 'sutra')
+LINKID_TARGET_PREFIXES = ('dcs', 'vedaweb', 'commentary', 'subject')
+LINKID_LINK_TYPES = ('translation-witness', 'commentary-citation', 'thematic')
+# tier -> confidence; also the canonical match_method membership list (spec §1).
+LINKID_MATCH_METHODS = ('id-link', 'xref', 'curated', 'exact', 'floor', 'relaxed', 'fuzzy')
+
+_LINKID_ANCHOR_RE = {
+    'gra': re.compile(r'^\d+(\.\d+)?$'),              # gra:3983, gra:5833.1 (homonym suffix)
+    'whitney-root': re.compile(r'^\d+$'),             # whitney-root:1
+    'whitney-sec': re.compile(r'^\d+(-\d+)?$'),       # whitney-sec:611[-641]
+    'root': re.compile(r'^[A-Za-z]+$'),               # root:BU (SLP1)
+    'sutra': re.compile(r'^\d+\.\d+\.\d+$'),          # sutra:1.1.1
+}
+_LINKID_TARGET_RE = {
+    'dcs': re.compile(r'^.+$'),                                    # dcs:<sent_id>, opaque
+    'vedaweb': re.compile(r'^\d+(\.\d+)*:[0-9a-fA-F]{24}$', re.ASCII),  # vedaweb:1.1.6:<ObjectId>
+    'commentary': re.compile(r'^[\w-]+:.+$', re.ASCII),            # commentary:<work>:<cite>
+    'subject': re.compile(r'^[\w-]+:[\w.-]+$', re.ASCII),          # subject:<index>:<category>
+}
+# record-level `anchor_type` -> anchor-id prefix (spec §1 vs §2 naming differs for
+# two rows — id-gra/gra, panini-sutra/sutra); verbatim from typed_link_lint.py.
+_LINKID_ANCHOR_TYPE_TO_PREFIX = {
+    'id-gra': 'gra',
+    'whitney-root': 'whitney-root',
+    'whitney-sec': 'whitney-sec',
+    'root': 'root',
+    'panini-sutra': 'sutra',
+}
+_LINKID_DATE_RE = re.compile(r'^\d{2}-\d{2}-\d{4}$')
+_LINKID_MATCH_METHOD_SET = frozenset(LINKID_MATCH_METHODS)
+
+
+def linkid_build_anchor_id(spec):
+    """{'type': <LINKID_ANCHOR_PREFIXES member>, 'tail': <that source's own id, verbatim>}
+    -> '<type>:<tail>', or None if type is unknown or tail fails that prefix's §2 syntax.
+    'Reuse, don't mint' (§0): this only joins and validates, never derives or renumbers
+    the tail."""
+    if not isinstance(spec, dict):
+        return None
+    t = spec.get('type')
+    tail = spec.get('tail')
+    rx = _LINKID_ANCHOR_RE.get(t)
+    if rx is None or not isinstance(tail, str) or not rx.match(tail):
+        return None
+    return t + ':' + tail
+
+
+def linkid_parse_anchor_id(anchor_id):
+    """'<type>:<tail>' -> {'type', 'tail', 'valid'} (valid = tail matches that prefix's §2
+    syntax), or None if there's no ':' or the prefix isn't a known LINKID_ANCHOR_PREFIXES
+    member."""
+    if not isinstance(anchor_id, str) or ':' not in anchor_id:
+        return None
+    prefix, tail = anchor_id.split(':', 1)
+    rx = _LINKID_ANCHOR_RE.get(prefix)
+    if rx is None:
+        return None
+    return {'type': prefix, 'tail': tail, 'valid': bool(rx.match(tail))}
+
+
+def linkid_build_target_locus(spec):
+    """{'type': <LINKID_TARGET_PREFIXES member>, 'tail': <verbatim tail, §3>} ->
+    '<type>:<tail>', or None if type is unknown or tail fails that prefix's syntax.
+    Never a URL host (§0)."""
+    if not isinstance(spec, dict):
+        return None
+    t = spec.get('type')
+    tail = spec.get('tail')
+    rx = _LINKID_TARGET_RE.get(t)
+    if rx is None or not isinstance(tail, str) or not rx.match(tail):
+        return None
+    return t + ':' + tail
+
+
+def linkid_parse_target_locus(target_locus):
+    """'<type>:<tail>' -> {'type', 'tail', 'valid'}, or None if there's no ':' or the
+    prefix isn't a known LINKID_TARGET_PREFIXES member."""
+    if not isinstance(target_locus, str) or ':' not in target_locus:
+        return None
+    prefix, tail = target_locus.split(':', 1)
+    rx = _LINKID_TARGET_RE.get(prefix)
+    if rx is None:
+        return None
+    return {'type': prefix, 'tail': tail, 'valid': bool(rx.match(tail))}
+
+
+def linkid_validate_link_record(record):
+    """Validate one TYPE_D_RECORD_FIELDS-shaped dict against TYPED_LINK_ID_GRAMMAR.md end to
+    end — anchor_id prefix/syntax against its anchor_type, target_locus prefix/syntax, the
+    URL-host ban, link_type/match_method membership, a DD-MM-YYYY date — and return
+    {'valid': bool, 'errors': [str, ...]}. Same checks as kosha/scripts/typed_link_lint.py's
+    lint_row(), minus the line-number framing (one record here, not a TSV row)."""
+    errors = []
+    if not isinstance(record, dict):
+        return {'valid': False, 'errors': ["record is not an object"]}
+
+    anchor_type = (record.get('anchor_type') or '')
+    anchor_id = (record.get('anchor_id') or '')
+    expected_prefix = _LINKID_ANCHOR_TYPE_TO_PREFIX.get(anchor_type)
+    if expected_prefix is None:
+        errors.append("unknown anchor_type '%s'" % (anchor_type,))
+    else:
+        parsed = linkid_parse_anchor_id(anchor_id)
+        if parsed is None:
+            errors.append("anchor_id '%s' has no known prefix (expected '%s:...')"
+                           % (anchor_id, expected_prefix))
+        elif parsed['type'] != expected_prefix:
+            errors.append("anchor_id '%s' prefix '%s' does not match anchor_type '%s' "
+                           "(expected '%s:...')" % (anchor_id, parsed['type'], anchor_type, expected_prefix))
+        elif not parsed['valid']:
+            errors.append("anchor_id '%s': tail '%s' fails '%s' syntax"
+                           % (anchor_id, parsed['tail'], parsed['type']))
+
+    target_locus = (record.get('target_locus') or '')
+    parsed_t = linkid_parse_target_locus(target_locus)
+    if parsed_t is None:
+        errors.append("target_locus '%s' has no known prefix" % (target_locus,))
+    elif not parsed_t['valid']:
+        errors.append("target_locus '%s': tail '%s' fails '%s' syntax"
+                       % (target_locus, parsed_t['tail'], parsed_t['type']))
+    if isinstance(target_locus, str) and target_locus.startswith(('http://', 'https://', 'www.')):
+        errors.append("target_locus '%s' looks like a URL host — reuse the source's own "
+                       "stable id (spec section 0)" % (target_locus,))
+
+    link_type = (record.get('link_type') or '')
+    if link_type not in LINKID_LINK_TYPES:
+        errors.append("link_type '%s' not in [%s]" % (link_type, ', '.join(LINKID_LINK_TYPES)))
+
+    match_method = (record.get('match_method') or '')
+    if match_method not in _LINKID_MATCH_METHOD_SET:
+        errors.append("match_method '%s' not in [%s]" % (match_method, ', '.join(LINKID_MATCH_METHODS)))
+
+    date = (record.get('date') or '')
+    if not date:
+        errors.append("date is missing")
+    elif not _LINKID_DATE_RE.match(str(date)):
+        errors.append("date '%s' is not DD-MM-YYYY" % (date,))
+
+    return {'valid': not errors, 'errors': errors}
