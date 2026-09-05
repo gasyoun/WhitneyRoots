@@ -1,3 +1,5 @@
+_Created: 10-06-2026 · Last updated: 05-09-2026_
+
 <!--
   REVIEWER_GUIDE.md — bilingual (English / Русский)
   Human-reviewer algorithm for the Whitney-Grammar / DCS verification work.
@@ -226,3 +228,5 @@ For provenance, commit messages start `review:` (e.g. `review: revert krī +I pe
 
 _Generated as part of the Whitney Grammar verification work. Keep the authority order sacred:
 Grammar > Roots > corpus > Zalizniak-as-tiebreaker._
+
+_Dr. Mārcis Gasūns_

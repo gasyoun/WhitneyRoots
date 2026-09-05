@@ -1,3 +1,5 @@
+_Created: 10-06-2026 · Last updated: 05-09-2026_
+
 # PPP Source Validation
 
 _Assess whether unattested PPP forms are genuine corpus gaps or source data errors._
@@ -480,3 +482,4 @@ Root appears 1512+ times but PPP "prta" never attested. Either: (1) very rare/po
 
 Root appears 1085+ times but PPP "madita" never attested. Either: (1) very rare/poetic form, (2) source data error, or (3) sandhi variation hides form.
 
+_Dr. Mārcis Gasūns_

@@ -1,3 +1,5 @@
+_Created: 10-06-2026 · Last updated: 05-09-2026_
+
 # PPP Analysis (Section C)
 
 _Unattested PPP forms from Whitney Roots._
@@ -254,3 +256,4 @@ Valid PPP forms that appear nowhere in corpus. High frequency cases are prioriti
 | Tokens (root) | 165 |
 | Unattested (valid) | pyata (VALID) |
 
+_Dr. Mārcis Gasūns_

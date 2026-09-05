@@ -1,3 +1,5 @@
+_Created: 28-07-2026 · Last updated: 05-09-2026_
+
 # Queue E -- reduced human ask (reverted I/VI pairs)
 
 _Generated 28-07-2026 by Sonnet 5 (claude-sonnet-5), H1686. 118 total rows screened; 89 remain for a human; 29 resolved by agent verdict (see docs/queue_verdicts/queue_e_verdicts.json for every row + evidence)._
@@ -624,3 +626,5 @@ _Generated 28-07-2026 by Sonnet 5 (claude-sonnet-5), H1686. 118 total rows scree
 - **restored_to**: ['I']
 - **agent_verdict**: citable-source-candidate (n/a (screening only))
 - **evidence**: 2 accented headword(s) in SCH-accents-IAST-20247.txt share the bare-root prefix 'hras': ['hrasimán', 'hrasvá']. A human must still read these to determine whether any shows the present-stem accent pattern (root-syllable = class I vs thematic vowel = class VI); the agent only screens for citability.
+
+_Dr. Mārcis Gasūns_

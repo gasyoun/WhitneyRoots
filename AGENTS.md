@@ -6,7 +6,7 @@ This file orients Codex and other non-Claude agent sessions. The section between
 ## Shared org context (generated — H1393 layer)
 
 - Encodings / key1/key2 / transcoder traps: [Sanskrit context primer](https://github.com/gasyoun/github-spine/blob/main/SANSKRIT_CONTEXT_PRIMER.md).
-- Task routing: [CLAUDE.md](CLAUDE.md) — matching section, not end-to-end.
+- Task routing: [CLAUDE.md](https://github.com/gasyoun/WhitneyRoots/blob/main/CLAUDE.md) — matching section, not end-to-end.
 - Danger facts (destroy-work-if-missed; full text + sources in [DANGER_FACTS.md](https://github.com/gasyoun/Uprava/blob/main/DANGER_FACTS.md)):
   - apply_* and corpus_verify are DO-NOT-RERUN overlay-wipers (they destroy human-reviewed overlays) — produce new additive artifacts only, never write into reviewed crosswalk files
   - H2892: that row is enforced, not advisory — all 12 writers over the reviewed files (4 apply_*, 3 fix_ppp_*, grammar_ref_builder, revert_collapse_additions, corpus_verify_classes, dict_align, emit_crosswalk) exit 2 and write nothing unless ALLOW_OVERLAY_WIPE=1. Setting the hatch is a claim that the tripwire pin will be re-pinned with a reason in the same commit; if that is not true, write a new artifact beside the reviewed file instead

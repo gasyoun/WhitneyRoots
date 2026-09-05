@@ -1,3 +1,5 @@
+_Created: 10-06-2026 · Last updated: 05-09-2026_
+
 # PPP Priority Review
 
 _Unattested PPP forms prioritized by root frequency (highest first)._
@@ -2287,3 +2289,4 @@ _Unattested PPP forms prioritized by root frequency (highest first)._
 | Unattested form | dina |
 | Morphology | clean ✓ |
 
+_Dr. Mārcis Gasūns_

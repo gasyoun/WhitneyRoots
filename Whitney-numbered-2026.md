@@ -1,3 +1,5 @@
+_Created: 23-04-2026 · Last updated: 05-09-2026_
+
 1. aṃh “be narrow or distressing”
 2. 1 √akṣ “attain”
 3. 2 √akṣ “mutilate”
@@ -935,3 +937,5 @@
 935. √hlād “refresh”
 936. √hval “go wrong”
 937. √hvṛ “be or make crooked”
+
+_Dr. Mārcis Gasūns_

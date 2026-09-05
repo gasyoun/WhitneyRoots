@@ -1,3 +1,5 @@
+_Created: 10-06-2026 · Last updated: 05-09-2026_
+
 > ⚠️ **SUPERSEDED (2026-06-10).** The "HIGH priority — Grammar confirms corpus" verdicts here
 > mostly reflect the I/VI accent-collapse artifact (the corpus can't tell class I from VI) plus
 > short-root text-match contamination. The additions this triage motivated were largely
@@ -481,3 +483,4 @@ Grammar cites ['I', 'IX', 'X'], corpus signals ['VII'], Whitney has ['I', 'IX'].
 
 Grammar cites ['II', 'III', 'IV', 'IX', 'VI', 'V_VIII', 'X'], corpus signals ['VII'], Whitney has ['V'].
 
+_Dr. Mārcis Gasūns_

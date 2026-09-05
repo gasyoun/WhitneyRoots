@@ -1,3 +1,5 @@
+_Created: 23-04-2026 · Last updated: 05-09-2026_
+
 ## Упражнение 1. Ряд
 
 Определите ряд чередования морфем, выделите элементы \[P\], \[E\], \[F\]:
@@ -1808,3 +1810,5 @@ karmavattvakavat
 astika
 
 astitva
+
+_Dr. Mārcis Gasūns_

@@ -1,3 +1,5 @@
+_Created: 10-06-2026 · Last updated: 05-09-2026_
+
 # Whitney ↔ DCS audit
 
 _Source: `dcs_full.sqlite` (2026 CoNLL-U); generated 2026-06-10._
@@ -200,3 +202,5 @@ _Source: `dcs_full.sqlite` (2026 CoNLL-U); generated 2026-06-10._
 ## Lexicon-only roots (37) — DCS lists, corpus never attests
 
 aṃh, aṇṭh, baṃh, cam, chur, daṃs, dhukṣ, gadh, galbh, ghar, gu, hrād, il, kas, kūḍ, laṣ, lok, mreḍ, mīv, paṭ, phaṇ, pru, stigh, tas, tvakṣ, tāv, vaj, valh, vlag, vyaj, vīḍ, īj, śrambh, śvañc, ḍamb, ḍī, ṭīk
+
+_Dr. Mārcis Gasūns_

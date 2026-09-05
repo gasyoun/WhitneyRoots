@@ -1,6 +1,8 @@
+_Created: 13-06-2026 · Last updated: 05-09-2026_
+
 # Form-category → Whitney §-range concordance (Layer 2)
 
-**Status:** 2026-06-13 — all verb chapters (IX–XV) now **WS-fetched** via `--full`; encoded machine-readably as [`src/form_section_concordance.json`](../src/form_section_concordance.json) and wired into the spine as **7315 root→§ edges** (Phase 4, `scripts/build_form_section_edges.py`). · **Scope:** DESIGN.md §7 (`form-category → Whitney §`) and §9 Phase 3–4.
+**Status:** 2026-06-13 — all verb chapters (IX–XV) now **WS-fetched** via `--full`; encoded machine-readably as [`src/form_section_concordance.json`](https://github.com/gasyoun/WhitneyRoots/blob/main/src/form_section_concordance.json) and wired into the spine as **7315 root→§ edges** (Phase 4, `scripts/build_form_section_edges.py`). · **Scope:** DESIGN.md §7 (`form-category → Whitney §`) and §9 Phase 3–4.
 **Maintainer:** gasyoun · **License:** CC BY-SA 4.0
 
 This is the hand-built `form-category → §-range` table that lets the crosswalk
@@ -18,7 +20,7 @@ notation with **zero Whitney/§ citations**, so they cannot index into Whitney
 - **§-range** — the inclusive Whitney §§ that *describe the formation* of that
   category (the chapter section, not scattered exception cross-refs).
 - **Chapter** — Wikisource subpage (`Sanskrit_Grammar_(Whitney)/Chapter_<RN>`),
-  the unit the [fetcher](../scripts/wikisource/fetch_whitney.py) downloads. A
+  the unit the [fetcher](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/wikisource/fetch_whitney.py) downloads. A
   single § is addressable as `…/Chapter_<RN>#<NNN>`.
 - **Source** — provenance of the range bound (see legend below). Every claim is
   citable, per DESIGN.md §11.
@@ -27,9 +29,9 @@ notation with **zero Whitney/§ citations**, so they cannot index into Whitney
 
 | Tag | Meaning |
 |---|---|
-| **WS-fetched** | Range verified against the body text **actually fetched** into [`src/whitney_sections.json`](../src/whitney_sections.json) (pilot = Chapters X, XIII). |
-| **WG-text** | Range verified from the §-numbered body of the PDF cache [`src/wg_text.txt`](../src/wg_text.txt) (chapter heading + first/last § of the sub-section), not yet fetched from Wikisource. |
-| **ToC** | Corroborated by Whitney's own Table of Contents (the chapter list in [`src/wg_text.txt`](../src/wg_text.txt) lines 507–553, which itself is page-numbered — used only as a cross-check on chapter membership, never as the §-bound). |
+| **WS-fetched** | Range verified against the body text **actually fetched** into [`src/whitney_sections.json`](https://github.com/gasyoun/WhitneyRoots/blob/main/src/whitney_sections.json) (pilot = Chapters X, XIII). |
+| **WG-text** | Range verified from the §-numbered body of the PDF cache [`src/wg_text.txt`](https://github.com/gasyoun/WhitneyRoots/blob/main/src/wg_text.txt) (chapter heading + first/last § of the sub-section), not yet fetched from Wikisource. |
+| **ToC** | Corroborated by Whitney's own Table of Contents (the chapter list in [`src/wg_text.txt`](https://github.com/gasyoun/WhitneyRoots/blob/main/src/wg_text.txt) lines 507–553, which itself is page-numbered — used only as a cross-check on chapter membership, never as the §-bound). |
 | **UNVERIFIED** | Bound could not be pinned to a §; needs a check before use. |
 
 > **Caveat on the printed ToC.** Whitney's front-matter ToC lists *page*
@@ -42,7 +44,7 @@ notation with **zero Whitney/§ citations**, so they cannot index into Whitney
 ## A. Present-system — the ten gaṇas (Chapter IX, §§600–779)
 
 Chapter IX opens at §600 (general) and the per-class formations are taken up
-"in order" from §610 (WG-text: [`wg_text.txt`](../src/wg_text.txt) §§600, 610).
+"in order" from §610 (WG-text: [`wg_text.txt`](https://github.com/gasyoun/WhitneyRoots/blob/main/src/wg_text.txt) §§600, 610).
 The class-start §§ below are each the verbatim "The present-stem of this class
 …" / "In this class …" heading in the body. Class numbering follows Whitney's
 own (Hindu-grammar gaṇa number in parentheses).
@@ -79,7 +81,7 @@ own (Hindu-grammar gaṇa number in parentheses).
 
 ## C. Perfect-system (Chapter X, §§780–823) — **WS-fetched**
 
-Entire chapter fetched into [`src/whitney_sections.json`](../src/whitney_sections.json)
+Entire chapter fetched into [`src/whitney_sections.json`](https://github.com/gasyoun/WhitneyRoots/blob/main/src/whitney_sections.json)
 (§§780–823, 44 sections).
 
 | Form-category | §-range | Chapter | Source |
@@ -95,7 +97,7 @@ Entire chapter fetched into [`src/whitney_sections.json`](../src/whitney_section
 ## D. Aorist-system (Chapter XI, §§824–930)
 
 Chapter XI opens at §824 (classification of the three aorists). Sub-type starts
-are verbatim body headings in [`wg_text.txt`](../src/wg_text.txt).
+are verbatim body headings in [`wg_text.txt`](https://github.com/gasyoun/WhitneyRoots/blob/main/src/wg_text.txt).
 
 | Form-category | §-range | Chapter | Source |
 |---|---|---|---|
@@ -127,7 +129,7 @@ are verbatim body headings in [`wg_text.txt`](../src/wg_text.txt).
 
 ## F. Verbal adjectives & nouns (Chapter XIII, §§951–995) — **WS-fetched**
 
-Entire chapter fetched into [`src/whitney_sections.json`](../src/whitney_sections.json)
+Entire chapter fetched into [`src/whitney_sections.json`](https://github.com/gasyoun/WhitneyRoots/blob/main/src/whitney_sections.json)
 (§§951–995, 45 sections).
 
 | Form-category | §-range | Chapter | Source |
@@ -178,10 +180,10 @@ five: Passive, Intensive, Desiderative, Causative, Denominative.
 - **WS-fetched (highest confidence)** — every row in **C** (perfect) and **F**
   (verbal adjectives/nouns incl. PPP, infinitive, gerund, gerundive): bounds
   confirmed against the body actually in
-  [`src/whitney_sections.json`](../src/whitney_sections.json).
+  [`src/whitney_sections.json`](https://github.com/gasyoun/WhitneyRoots/blob/main/src/whitney_sections.json).
 - **WG-text** — all present-class rows (A), aorist sub-types (D), futures (E),
   secondary conjugations (G), and periphrastic/compound (H): bounds confirmed
-  against the §-numbered body of [`src/wg_text.txt`](../src/wg_text.txt); to be
+  against the §-numbered body of [`src/wg_text.txt`](https://github.com/gasyoun/WhitneyRoots/blob/main/src/wg_text.txt); to be
   re-confirmed against Wikisource once Chapters IX, XI, XII, XIV, XV are fetched
   (`--full`).
 - **Rows flagged `UNVERIFIED — needs check`**: **none remain.** Every §-bound is
@@ -196,8 +198,10 @@ five: Passive, Intensive, Desiderative, Causative, Denominative.
    to WS-fetched and independently re-confirm all chapter bounds against
    Wikisource.
 2. Reconcile Wikisource vs PDF orthography: Wikisource preserves Devanagari +
-   IAST inline (e.g. "तु tu"), while [`wg_text.txt`](../src/wg_text.txt) uses
+   IAST inline (e.g. "तु tu"), while [`wg_text.txt`](https://github.com/gasyoun/WhitneyRoots/blob/main/src/wg_text.txt) uses
    `ç` (U+00E7) for IAST `ś` — normalise before any text-level diff.
 3. Encode this table as the machine-readable `§-range(C)` edge set for the RDF
    layer (DESIGN.md §7: `root → has-form-of-category C → §-range`, via
    `cito:isExplainedBy`).
+
+_Dr. Mārcis Gasūns_

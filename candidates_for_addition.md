@@ -1,3 +1,5 @@
+_Created: 10-06-2026 · Last updated: 05-09-2026_
+
 > ⚠️ **SUPERSEDED (2026-06-10).** This document drove a batch of class additions that were
 > later found unsound: the corpus cannot distinguish class I from class VI (accent collapse),
 > so most "candidates" here are spurious. 120 of the resulting additions were **reverted**.
@@ -393,3 +395,4 @@ Corpus shows these classes; Grammar confirms at least one. Consider review.
 | To add | VI |
 | Tokens | 10 |
 
+_Dr. Mārcis Gasūns_

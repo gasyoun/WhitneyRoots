@@ -1,3 +1,5 @@
+_Created: 23-04-2026 · Last updated: 05-09-2026_
+
 <td style="text-align: left;">s</td>
 <td style="text-align: left;">U</td>
 <td style="text-align: left;">1</td>
@@ -3892,3 +3894,5 @@
 <li id="fn10"><p>Но во 2 морф. позиции принимает ступень vṛddhi.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
+
+_Dr. Mārcis Gasūns_

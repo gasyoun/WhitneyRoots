@@ -1,3 +1,5 @@
+_Created: 10-06-2026 · Last updated: 05-09-2026_
+
 # `scripts/dcs/` — Whitney ↔ DCS linkage pipeline
 
 `extract_dcs.py` links every Whitney root to the **Digital Corpus of Sanskrit (DCS)** by
@@ -61,3 +63,5 @@ DCS `grammar` is itself lexicon metadata, so a class disagreement there is *lexi
 not corpus proof. Absence of a finite class in the corpus is *no evidence*, never "Whitney is
 wrong." The present-stem signal is a coarse heuristic; its `athematic` bucket corroborates no
 specific class. After editing any `src/*.js`, run `node scripts/bundle.js`.
+
+_Dr. Mārcis Gasūns_

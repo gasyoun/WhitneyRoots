@@ -1,11 +1,11 @@
 # Alternation-type seed (Non-Paninian morphonology)
 
-_Created: 16-07-2026 · Last updated: 16-07-2026_
+_Created: 16-07-2026 · Last updated: 05-09-2026_
 
 Seed data for a per-root **alternation-type** classification of Whitney's verbal roots, from
 Tolchelnikov & Shirobokov, *A Non-Paninian Approach to Sanskrit Morphonology (Based on the works of
 A. Zaliznyak)*, 7th International Sanskrit Computational Linguistics Symposium (ISCLS), 2024
-(http://sanskrit.anshir.ru/). Companion to [`roots.csv`](roots.csv), keyed on `whitney_no`.
+(http://sanskrit.anshir.ru/). Companion to [`roots.csv`](https://github.com/gasyoun/WhitneyRoots/blob/main/crosswalk/roots.csv), keyed on `whitney_no`.
 
 ## The framework
 
@@ -67,3 +67,5 @@ All 7 high-confidence seed rows reproduce; svar's "uncertain" resolves to type I
 **Erratum:** the seed row `whitney_no=293 tan` was a misattribution — the paper slide's
 `tai` is the root **tāy** (Приложение 1: `tai`, tip II), not tan. The row is kept as the
 historical extraction record; consumers should prefer alternation_type.csv.
+
+_Dr. Mārcis Gasūns_

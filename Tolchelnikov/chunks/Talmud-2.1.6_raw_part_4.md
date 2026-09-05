@@ -1,3 +1,5 @@
+_Created: 23-04-2026 · Last updated: 05-09-2026_
+
 <td style="text-align: left;">aniṭ {2.rø}</td>
 </tr>
 <tr>
@@ -4059,3 +4061,5 @@
 <td style="text-align: left;"></td>
 <td style="text-align: left;">prī</td>
 <td style="text-align: left;">I</td>
+
+_Dr. Mārcis Gasūns_

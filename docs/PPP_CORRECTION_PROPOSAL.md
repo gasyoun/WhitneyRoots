@@ -1,6 +1,8 @@
+_Created: 15-06-2026 · Last updated: 05-09-2026_
+
 # PPP Correction Proposal — Queue B/C residual (Whitney-§-cited)
 
-_Generated 2026-06-15 by the `ppp-correction-proposal` workflow (39 agents: per-form **verify** + **adversarial refute**), grounded in Whitney's *Sanskrit Grammar* §§952–993 (Wikisource-verified this session, see [DECISIONS_NEEDED.md](DECISIONS_NEEDED.md) §3). **Nothing here is applied** — this is a proposal over the `ppp` arrays in [src/app_data.json](../src/app_data.json), to apply once the external actor's in-flight apparatus/infinitive PRs (the #12/#13 line) settle._
+_Generated 2026-06-15 by the `ppp-correction-proposal` workflow (39 agents: per-form **verify** + **adversarial refute**), grounded in Whitney's *Sanskrit Grammar* §§952–993 (Wikisource-verified this session, see [DECISIONS_NEEDED.md](https://github.com/gasyoun/WhitneyRoots/blob/main/docs/DECISIONS_NEEDED.md) §3). **Nothing here is applied** — this is a proposal over the `ppp` arrays in [src/app_data.json](https://github.com/gasyoun/WhitneyRoots/blob/main/src/app_data.json), to apply once the external actor's in-flight apparatus/infinitive PRs (the #12/#13 line) settle._
 
 **Scope:** the suspect PPP forms still present on `origin/main` *after* PRs #12 (apparatus bleed) and #13 (infinitives) — i.e. the residual the mechanical scripts missed (re-derived live from `origin/main:src/app_data.json`, not the stale `ppp_source_validation.md`).
 
@@ -56,7 +58,7 @@ Forms ending `-tos`/`-tum`/`-tvī` (§§968/970/989–991) that slipped past PR 
 
 | id(s) | root | form | recommendation | Whitney § | open question |
 |---|---|---|---|---|---|
-| 349/350/351 | √dā | `dātta` | **DROP** (delete, not string-rewrite) → `["data","datta"]` | §955f / §952 / §957a | Long-ā double-`tt` `dātta` is non-attested in Whitney (the string occurs only in `udātta`/`anudātta`, §81). Canonical `datta` (§952) is already at index 1, so a rewrite would **duplicate**. The original `tta` was Whitney's genuine abbreviated compounding form (`ā́tta`, `prátta`, §955f/§957a); `scripts/dcs/apply_ppp_corrections.py:76-86` manufactured the spurious `dātta` from it. Matches [DECISIONS_NEEDED.md](DECISIONS_NEEDED.md) §3c. **Faithful action = drop `dātta`.** (If a long-ā Vedic form is ever wanted, the real one is `dāta`, single t.) |
+| 349/350/351 | √dā | `dātta` | **DROP** (delete, not string-rewrite) → `["data","datta"]` | §955f / §952 / §957a | Long-ā double-`tt` `dātta` is non-attested in Whitney (the string occurs only in `udātta`/`anudātta`, §81). Canonical `datta` (§952) is already at index 1, so a rewrite would **duplicate**. The original `tta` was Whitney's genuine abbreviated compounding form (`ā́tta`, `prátta`, §955f/§957a); `scripts/dcs/apply_ppp_corrections.py:76-86` manufactured the spurious `dātta` from it. Matches [DECISIONS_NEEDED.md](https://github.com/gasyoun/WhitneyRoots/blob/main/docs/DECISIONS_NEEDED.md) §3c. **Faithful action = drop `dātta`.** (If a long-ā Vedic form is ever wanted, the real one is `dāta`, single t.) |
 | 469/470/471 | √pṛ "fill" | `purita` | **HOLD — human review** (see §5) | §957b | adversarial dispute below |
 
 ---
@@ -70,15 +72,17 @@ Forms ending `-tos`/`-tum`/`-tvī` (§§968/970/989–991) that slipped past PR 
 - warnemyr lists **no `pūrta` at all**, so the "correction" would **delete a real spine-head PPP and add one the spine never lists**.
 - `docs/PPP_APPARATUS_BLEED_WORKLIST.md:115` independently classifies 469/470/471 as "`S1.` + real form `purita`"; MW corroborates a later-language `-pūrita` (`pari-/prati-/pra-/sam-pūrita`).
 
-**Resolution needed:** KEEP `purita` (skeptic) vs CORRECT→`purta` (verifier). The skeptic's case is stronger (spine-head attestation + worklist + the marker already stripped). **Provisional disposition: KEEP `purita`**; separately consider *adding* the Whitney-grammar `pūrta` (§957b) as an additive, not a correction. **Do not auto-apply** — escalate to maintainer ([DECISIONS_NEEDED.md](DECISIONS_NEEDED.md) §3).
+**Resolution needed:** KEEP `purita` (skeptic) vs CORRECT→`purta` (verifier). The skeptic's case is stronger (spine-head attestation + worklist + the marker already stripped). **Provisional disposition: KEEP `purita`**; separately consider *adding* the Whitney-grammar `pūrta` (§957b) as an additive, not a correction. **Do not auto-apply** — escalate to maintainer ([DECISIONS_NEEDED.md](https://github.com/gasyoun/WhitneyRoots/blob/main/docs/DECISIONS_NEEDED.md) §3).
 
 ---
 
 ### 6. How to apply
 
-- All edits target the **`ppp` arrays in [src/app_data.json](../src/app_data.json)** only. No source-table, grammar, or crosswalk edits (those are audit-trail, judged separately).
+- All edits target the **`ppp` arrays in [src/app_data.json](https://github.com/gasyoun/WhitneyRoots/blob/main/src/app_data.json)** only. No source-table, grammar, or crosswalk edits (those are audit-trail, judged separately).
 - **§A (13 removals) + `dā dātta` drop:** mechanical array-element deletions; the retained PPP is already present in every case, so no form is invented.
 - **§B (4 KEEPs):** no-ops; recorded so the stale `-tos/-tum/-tvī` heuristic does not re-flag them.
 - **§C `pṛ purita`:** **hold** pending the §5 dispute.
 - **Coordination:** the external actor has **in-flight apparatus/infinitive PRs (the #12/#13 line)**. **Hold these edits until those settle** to avoid array-index collisions / re-flagging churn; re-verify each array against `origin/main` immediately before applying (some forms may already be removed upstream).
 - **Follow-ups flagged (out of scope here):** duplicate `justa` in id 262; `-ya` gerund `vrjya` in id 743 — a separate dedup/gerund pass.
+
+_Dr. Mārcis Gasūns_

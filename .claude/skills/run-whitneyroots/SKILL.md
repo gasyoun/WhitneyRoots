@@ -1,3 +1,5 @@
+_Created: 13-06-2026 · Last updated: 05-09-2026_
+
 ---
 name: run-whitneyroots
 description: >-
@@ -103,3 +105,5 @@ Stop with Ctrl-C. The server **must be rooted at the repo**, not at `reader/` �
 | `Chromium distribution 'chrome' is not found` | Install Google Chrome, or edit `driver.mjs` `channel:'chrome'` → `'msedge'`/`'chromium'` or set `executablePath` |
 | Driver "FAIL: page had console errors" | A *real* resource 404 or JS error (favicon is already excluded) — the message names the URL/exception |
 | Reader shows "Could not load reader_data.json" | Server isn't rooted at the repo, or `src/reader_data.json` is missing — serve with `--directory .` and rebuild data if needed |
+
+_Dr. Mārcis Gasūns_

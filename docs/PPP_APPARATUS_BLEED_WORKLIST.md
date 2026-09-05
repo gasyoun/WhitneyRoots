@@ -1,6 +1,8 @@
+_Created: 14-06-2026 · Last updated: 05-09-2026_
+
 # PPP Cleanup Worklist — apparatus bleed + verbal-noun (infinitive) bleed
 
-> Normalizing two contaminants in the `ppp` (past-passive-participle) arrays of [`src/app_data.json`](../src/app_data.json): **(A) Whitney's scholarly apparatus** (39 records) and **(B) datival infinitives** captured along with the PPP (9 records, 3 overlapping A). **STATUS: implemented** — apparatus pass = [`scripts/dcs/fix_ppp_apparatus_bleed.py`](../scripts/dcs/fix_ppp_apparatus_bleed.py); infinitive pass = [`scripts/dcs/fix_ppp_infinitives.py`](../scripts/dcs/fix_ppp_infinitives.py). All five original decisions plus (f) are resolved (§4). This doc is the record of what was done and why.
+> Normalizing two contaminants in the `ppp` (past-passive-participle) arrays of [`src/app_data.json`](https://github.com/gasyoun/WhitneyRoots/blob/main/src/app_data.json): **(A) Whitney's scholarly apparatus** (39 records) and **(B) datival infinitives** captured along with the PPP (9 records, 3 overlapping A). **STATUS: implemented** — apparatus pass = [`scripts/dcs/fix_ppp_apparatus_bleed.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/dcs/fix_ppp_apparatus_bleed.py); infinitive pass = [`scripts/dcs/fix_ppp_infinitives.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/dcs/fix_ppp_infinitives.py). All five original decisions plus (f) are resolved (§4). This doc is the record of what was done and why.
 
 ---
 
@@ -8,7 +10,7 @@
 
 ### The source over-captured Whitney's "Verbal Nouns" column
 
-Each lexicon record has a `ppp` array, extracted from the fixed-width column in [`Whitney_roots_class-PP.txt`](../Whitney_roots_class-PP.txt). That column reproduces Whitney's **"Verbal Nouns"** section, which contains the PPP **and** apparatus **and** (for some roots) **datival infinitives** — all of which bled into the array when the column was split on commas.
+Each lexicon record has a `ppp` array, extracted from the fixed-width column in [`Whitney_roots_class-PP.txt`](https://github.com/gasyoun/WhitneyRoots/blob/main/Whitney_roots_class-PP.txt). That column reproduces Whitney's **"Verbal Nouns"** section, which contains the PPP **and** apparatus **and** (for some roots) **datival infinitives** — all of which bled into the array when the column was split on commas.
 
 **(A) Scholarly apparatus**
 
@@ -23,17 +25,17 @@ Each lexicon record has a `ppp` array, extracted from the fixed-width column in 
 
 ### Distinct from the already-fixed "gloss bleed"
 
-English **gloss** bleed was fixed for **6 records** by [`scripts/dcs/fix_ppp_gloss_bleed.py`](../scripts/dcs/fix_ppp_gloss_bleed.py) (19, 100, 182, 184, 347, 831). Those stay **untouched** here.
+English **gloss** bleed was fixed for **6 records** by [`scripts/dcs/fix_ppp_gloss_bleed.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/dcs/fix_ppp_gloss_bleed.py) (19, 100, 182, 184, 347, 831). Those stay **untouched** here.
 
 ### Why it matters (two consumers)
 
-1. **False ✗ chips** — [`src/renderers/detail.js`](../src/renderers/detail.js) `fold()` (lines 291–299) compares each `ppp` to the DCS corpus; `fold("kupita RV1")` and infinitives like `riṣé` never match the PPP corpus → false red ✗. Clean stems restore ✓.
-2. **Inflated scoring** — [`src/core/analytics.js`](../src/core/analytics.js) line 23 `score += item.ppp.length * 2`; length must count only real PPP forms.
+1. **False ✗ chips** — [`src/renderers/detail.js`](https://github.com/gasyoun/WhitneyRoots/blob/main/src/renderers/detail.js) `fold()` (lines 291–299) compares each `ppp` to the DCS corpus; `fold("kupita RV1")` and infinitives like `riṣé` never match the PPP corpus → false red ✗. Clean stems restore ✓.
+2. **Inflated scoring** — [`src/core/analytics.js`](https://github.com/gasyoun/WhitneyRoots/blob/main/src/core/analytics.js) line 23 `score += item.ppp.length * 2`; length must count only real PPP forms.
 
 ### Scope
 
-- **45 distinct records**: **39** apparatus (§2) + **9** infinitive (§2b), **3 overlapping** (227, 472, 649). File: [`src/app_data.json`](../src/app_data.json), `lexicon` (935 entries).
-- Apparatus records classified + adversarially verified (workflow `wf_75c62a06-764`). The infinitive set was found by [`scripts/dcs/scan_ppp_apparatus.py`](../scripts/dcs/scan_ppp_apparatus.py) (now detects `-e/-aye/-vane`) after the maintainer flagged that `rise rises` is not an error. Re-running that scanner on the fixed file reports **0** remaining.
+- **45 distinct records**: **39** apparatus (§2) + **9** infinitive (§2b), **3 overlapping** (227, 472, 649). File: [`src/app_data.json`](https://github.com/gasyoun/WhitneyRoots/blob/main/src/app_data.json), `lexicon` (935 entries).
+- Apparatus records classified + adversarially verified (workflow `wf_75c62a06-764`). The infinitive set was found by [`scripts/dcs/scan_ppp_apparatus.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/dcs/scan_ppp_apparatus.py) (now detects `-e/-aye/-vane`) after the maintainer flagged that `rise rises` is not an error. Re-running that scanner on the fixed file reports **0** remaining.
 
 ---
 
@@ -130,13 +132,13 @@ IAST: cité/citáye, tviṣé, dhúrvaṇe, pṛcé, mihé, muhé, riṣé/riṣ
 
 ## 5. Implementation (as built)
 
-Two surgical, CRLF/BOM-preserving, idempotent passes (mirror [`fix_ppp_gloss_bleed.py`](../scripts/dcs/fix_ppp_gloss_bleed.py)):
-1. [`scripts/dcs/fix_ppp_apparatus_bleed.py`](../scripts/dcs/fix_ppp_apparatus_bleed.py) — 39 apparatus records + `ppp_attestation`/`ppp_uncertain`/`ppp_note`.
-2. [`scripts/dcs/fix_ppp_infinitives.py`](../scripts/dcs/fix_ppp_infinitives.py) — 9 infinitive records: move infinitives to `infinitives`, restore `rises` (649).
+Two surgical, CRLF/BOM-preserving, idempotent passes (mirror [`fix_ppp_gloss_bleed.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/dcs/fix_ppp_gloss_bleed.py)):
+1. [`scripts/dcs/fix_ppp_apparatus_bleed.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/dcs/fix_ppp_apparatus_bleed.py) — 39 apparatus records + `ppp_attestation`/`ppp_uncertain`/`ppp_note`.
+2. [`scripts/dcs/fix_ppp_infinitives.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/dcs/fix_ppp_infinitives.py) — 9 infinitive records: move infinitives to `infinitives`, restore `rises` (649).
 
 **File invariants preserved:** no BOM, CRLF, `ppp` elements at 8-space indent / closing `]` at 6-space, no trailing newline, **935** entries. Shared `ppp` text across records (371/372; 469/470/471; 708/709; 797/798/799) is disambiguated by anchoring on the unique `"id"` first.
 
-**Verification (baked into both scripts):** no BOM; `json.loads` OK; 935 entries; each target id has its expected `ppp` (+ `infinitives`); **no `ppp` string anywhere ends in `-e`/`-aye`/`-vane`**; both scripts idempotent (second run = "Nothing to change"). [`scripts/dcs/scan_ppp_apparatus.py`](../scripts/dcs/scan_ppp_apparatus.py) reports **0** remaining.
+**Verification (baked into both scripts):** no BOM; `json.loads` OK; 935 entries; each target id has its expected `ppp` (+ `infinitives`); **no `ppp` string anywhere ends in `-e`/`-aye`/`-vane`**; both scripts idempotent (second run = "Nothing to change"). [`scripts/dcs/scan_ppp_apparatus.py`](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/dcs/scan_ppp_apparatus.py) reports **0** remaining.
 
 **Consumers:** detail.js chips flip ✓ for affected roots; analytics.js `ppp.length` now counts only real PPPs. No `src/*.js` touched → no `node scripts/bundle.js` needed (app_data.json is fetched at runtime). Sidecars (`crosswalk/ppp_validation.json`, `src/participle_index*.json`, `src/reader_data.json`) untouched and unaffected.
 
@@ -159,3 +161,5 @@ Two surgical, CRLF/BOM-preserving, idempotent passes (mirror [`fix_ppp_gloss_ble
 - ~~id 74's dangling `=` target~~ — **RESOLVED** (§4d): it was a truncated `= S. trans.` diathesis note, not a cross-reference. No open items remain.
 - Inventing warnemyr "spine head" forms not in Whitney's column.
 - Editing `crosswalk/ppp_validation.json` or any DCS sidecar.
+
+_Dr. Mārcis Gasūns_

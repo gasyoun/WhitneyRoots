@@ -1,3 +1,5 @@
+_Created: 10-06-2026 · Last updated: 05-09-2026_
+
 # Changelog
 
 All notable changes to the Whitney Roots data and tooling.
@@ -261,3 +263,5 @@ Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Z
 ### Superseded
 - `detailed_conflict_triage.md` and `candidates_for_addition.md` describe the pre-revert
   proposal set and are retained for history only; the reviewer guide supersedes them.
+
+_Dr. Mārcis Gasūns_

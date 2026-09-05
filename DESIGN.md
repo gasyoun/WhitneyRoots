@@ -1,3 +1,5 @@
+_Created: 13-06-2026 · Last updated: 05-09-2026_
+
 # Whitney-Root Crosswalk — DESIGN
 
 **Status:** design locked 2026-06-10 / -12 · **Phase 0 in progress**
@@ -160,3 +162,5 @@ Two-pane (passage left, sticky analysis panel right — Perseus/Logeion pattern,
 | Dictionaries | **Cologne** Digital Sanskrit Dictionaries (MW, Apte, …) | per CDSL |
 
 Output dataset: **CC BY-SA 4.0**. Every crosswalk claim links to its source (form rule → Whitney §§ / Wikisource; root + paradigm → warnemyr; senses → Cologne; attestation → DCS).
+
+_Dr. Mārcis Gasūns_

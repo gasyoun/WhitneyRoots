@@ -1,3 +1,5 @@
+_Created: 10-06-2026 · Last updated: 05-09-2026_
+
 # Section B Detailed Analysis
 
 _Use Grammar citations to decide whether to add DCS classes._
@@ -1597,3 +1599,4 @@ Grammar cites ['VI'] only. DCS class not in Grammar. Whitney is authority; leave
 
 Grammar cites ['I'] only. DCS class not in Grammar. Whitney is authority; leave unchanged.
 
+_Dr. Mārcis Gasūns_

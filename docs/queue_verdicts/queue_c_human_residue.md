@@ -1,3 +1,5 @@
+_Created: 28-07-2026 · Last updated: 05-09-2026_
+
 # Queue C -- reduced human ask (malformed PPP)
 
 _Generated 28-07-2026 by Sonnet 5 (claude-sonnet-5), H1686. 76 total rows screened; 23 remain for a human; 53 resolved by agent verdict (see docs/queue_verdicts/queue_c_verdicts.json for every row + evidence)._
@@ -231,3 +233,5 @@ _Generated 28-07-2026 by Sonnet 5 (claude-sonnet-5), H1686. 76 total rows screen
 - **error_likelihood_pct**: 50
 - **agent_verdict**: residue-human (low)
 - **evidence**: No already-fixed / parse-artifact / cited-infinitive-suffix / grammar-text-citation pattern matched for 'skavam' (classification UNCERTAIN_ENDING, 50% error likelihood per ppp_source_validation.py). Needs Grammar SS-lookup + Zalizniak per REVIEWER_GUIDE.md Queue C algorithm.
+
+_Dr. Mārcis Gasūns_

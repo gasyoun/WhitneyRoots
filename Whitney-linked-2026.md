@@ -1,3 +1,5 @@
+_Created: 23-04-2026 · Last updated: 05-09-2026_
+
 ### a
 1. [**√aṃh**](https://samskrtam.ru/whitney-roots/root_a_mh.html) “be narrow or distressing”
 2. [**1 √akṣ**](https://samskrtam.ru/whitney-roots/root_ak_s.html) “attain”
@@ -1004,3 +1006,5 @@
 935. [**√hlād**](https://samskrtam.ru/whitney-roots/root_hl_ad.html) “refresh”
 936. [**√hval**](https://samskrtam.ru/whitney-roots/root_hval.html) “go wrong”
 937. [**√hvṛ**](https://samskrtam.ru/whitney-roots/root_hv_r.html) “be or make crooked”
+
+_Dr. Mārcis Gasūns_

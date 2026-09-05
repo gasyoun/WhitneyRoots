@@ -1,3 +1,5 @@
+_Created: 23-04-2026 · Last updated: 05-09-2026_
+
 <td style="text-align: left;">I<sub>2</sub></td>
 <td style="text-align: left;">a</td>
 <td style="text-align: left;">U</td>
@@ -4072,3 +4074,5 @@
 <td style="text-align: left;">viṣṭ, veṣṭ</td>
 <td style="text-align: left;">I</td>
 <td style="text-align: left;">I<sub>1</sub></td>
+
+_Dr. Mārcis Gasūns_

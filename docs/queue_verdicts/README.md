@@ -99,3 +99,5 @@ stated claim, not researching from scratch. Nothing in `app_data.json`, `grammar
 `REVIEWER_GUIDE.md` and the handoff's DoD.
 
 _Sonnet 5 (`claude-sonnet-5`), H1686._
+
+_Dr. Mārcis Gasūns_

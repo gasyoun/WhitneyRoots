@@ -1,3 +1,5 @@
+_Created: 23-04-2026 · Last updated: 05-09-2026_
+
 a
 √aṃh “be narrow or distressing” | 2. 1 √akṣ “attain” | 3. 2 √akṣ “mutilate” | 4. √aṅg “move” | 5. √ac “bend” | 6. √aj “drive” | 7. √añj “anoint” | 8. √aṭ “wander” | 9. √aṇṭh “visit” | 10. √at “wander” | 11. √ad “eat” | 12. √an “breathe” | 13. √am “be injurious or sick” | 14. √ay “go” | 15. √arc “praise” | 16. √arj “procure” | 17. √art “fall” | 18. √arh “deserve” | 19. √av “favor” | 20. 1 √aś “attain” | 21. 2 √aś “eat” | 22. 1 √as “be” | 23. 2 √as “throw” | 24. √ah “say”
 
@@ -105,3 +107,5 @@ s
 
 h
 √had “cacare” | 908. √han “smite” | 909. √har “be gratified” | 910. √has “laugh” | 911. 1 √hā “leave” | 912. 2 √hā “bound” | 913. √hās “laugh” | 914. √hi “impel” | 915. √hiṃs “injure” | 916. √hikk “sob” | 917. √hiṇḍ “wander” | 918. √hīḍ “be hostile” | 919. √hu “sacrifice” | 920. √hur (see √hvṛ) | 921. √hū “call” | 922. √hūrch “fall away” | 923. 1 √hṛ “take” | 924. 2 √hṛ “be angry” | 925. √hṛṣ “be excited” | 926. √heṭh “vex” | 927. √heḍ “be hostile” | 928. √heṣ “whinny” | 929. √hnu “hide” | 930. √hras “shorten” | 931. √hrād “sound” | 932. √hrī “be ashamed” | 933. √hru (see √hvṛ) | 934. √hreṣ “whinny” | 935. √hlād “refresh” | 936. √hval “go wrong” | 937. √hvṛ “be or make crooked”
+
+_Dr. Mārcis Gasūns_

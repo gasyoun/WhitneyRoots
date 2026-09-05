@@ -1,3 +1,5 @@
+_Created: 10-06-2026 · Last updated: 05-09-2026_
+
 # PPP Correction Plan
 
 > **Historical (June 2026) — kept for provenance.** This analysis seeded the PPP
@@ -135,3 +137,5 @@ Correct the UNCERTAIN_ENDING entries (50% error likelihood):
 | PLAUSIBLE_GAP | 88 | Keep (low-freq OK) | — |
 
 **Net result**: ~88 entries require correction or removal (42% of list)
+
+_Dr. Mārcis Gasūns_

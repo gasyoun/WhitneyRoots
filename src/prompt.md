@@ -1,3 +1,5 @@
+_Created: 23-04-2026 · Last updated: 05-09-2026_
+
 1) сравнить между собой https://samskrtam.ru/z/ и
 
 I have a DOCX at C:\Users\user\Pictures\HEIC Conversions\Обновление иллюстрации к презентации\Самасы 2026\Ответы гопоты и клода\Чем кормить\Углубленная морфология 2025-20260411T063917Z-3-001\Углубленная морфология 2025 I want to convert to .md wih Panda installed. Whats next?
@@ -50,3 +52,5 @@ https://docs.google.com/document/d/1yccW7Lkt62G3fuAVO-kL8Xc_60uNzbCRCDQJ77_uZ_k/
 
 Айтарея-упанишада (пятница):
 https://docs.google.com/document/d/1u93gCPS2MSBDvzJhqSxY0CxxN7HcvShBt-KMaxLeFg0/edit?usp=sharing
+
+_Dr. Mārcis Gasūns_

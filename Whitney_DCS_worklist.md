@@ -1,3 +1,5 @@
+_Created: 10-06-2026 · Last updated: 05-09-2026_
+
 # Whitney ↔ DCS editorial worklist
 
 _Source: `dcs_full.sqlite` (2026 CoNLL-U); generated 2026-06-10._
@@ -335,3 +337,5 @@ PPP forms Whitney lists that never appear in DCS. High-frequency roots first (a 
 | 677 | laṣ | lasita | 0 |
 | 809 | śrambh | srabdha | 0 |
 | 931 | hrād | hradita | 0 |
+
+_Dr. Mārcis Gasūns_

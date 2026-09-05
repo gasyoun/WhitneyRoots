@@ -1,3 +1,5 @@
+_Created: 23-04-2026 · Last updated: 05-09-2026_
+
 # Приложение 1. Глагольные корни
 
 <table>
@@ -4071,3 +4073,5 @@
 <td style="text-align: left;">1</td>
 <td style="text-align: left;">5</td>
 <td style="text-align: left;">ALL</td>
+
+_Dr. Mārcis Gasūns_

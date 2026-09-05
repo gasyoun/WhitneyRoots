@@ -1,3 +1,5 @@
+_Created: 13-06-2026 · Last updated: 05-09-2026_
+
 # Phase 0 — class-gap audit (local Whitney vs warnemyr)
 
 Pages parsed: 939 · matched to numbering: 930 · flags: 23
@@ -27,3 +29,5 @@ Pages parsed: 939 · matched to numbering: 930 · flags: 23
 | 878 | spand |  | GAP | — | I |
 | 894 | smṛ |  | GAP | — | I |
 | 924 | hṛ | 2 | SMEAR | I/II/III | IX |
+
+_Dr. Mārcis Gasūns_

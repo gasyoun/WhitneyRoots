@@ -1,3 +1,5 @@
+_Created: 28-07-2026 · Last updated: 05-09-2026_
+
 # Queue D -- reduced human ask (grammar exception tags)
 
 _Generated 28-07-2026 by Sonnet 5 (claude-sonnet-5), H1686. 101 total rows screened; 39 remain for a human; 62 resolved by agent verdict (see docs/queue_verdicts/queue_d_verdicts.json for every row + evidence)._
@@ -313,3 +315,5 @@ _Generated 28-07-2026 by Sonnet 5 (claude-sonnet-5), H1686. 101 total rows scree
 - **short_root_contamination_risk**: LOW
 - **agent_verdict**: residue-human (low)
 - **evidence**: 1 exception-typed section(s) exist for 'śiñj' but none of their snippets contain the root as a clean token match -- needs a human read of the paragraph to confirm relevance.
+
+_Dr. Mārcis Gasūns_
