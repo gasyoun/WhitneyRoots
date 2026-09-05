@@ -22,20 +22,20 @@ The repo has **two halves**:
 
 Run from the repo root. Steps 1–2 are one-time bootstrap; 3–10 regenerate everything; 11–12 are the app.
 
-1. **[Prerequisites](#environment--prerequisites)** — Python 3.7+, Node, sibling repos `sanskrit-util` + `VisualDCS` + `csl-orig`, the local `1885/` mirror, `pip install vidyut rdflib`.
-2. **Spine bootstrap** — `python scratch/phase0/parse_warnemyr.py` → `scratch/phase0/root_spine.json` (the hub every later stage mutates). [Stage 0](#stage-0--bootstrap-the-spine-from-the-warnemyr-mirror)
-3. **DCS extraction** — `python scripts/dcs/extract_dcs.py` → `src/dcs_freq.json` + audits/worklists. [Stage 0b](#stage-0b--dcs-corpus-extraction)
-4. **Corpus fold** — `python scripts/fold_corpus.py`, then `python scripts/token_disambiguate.py`. [Stage 1](#stage-1--fold-the-corpus-into-the-spine)
-5. **Dictionary arm** — `python scripts/extract_dict_roots.py`, then `python scripts/dict_align.py`. [Stage 2](#stage-2--dictionary-arm-mw--apte)
-6. **Grammar §§ ingest** — `python scripts/wikisource/fetch_whitney.py --full` → `src/whitney_sections.json`. [Stage 3](#stage-3--whitney-grammar--ingest-wikisource)
-7. **Form→§ edges** — `python scripts/build_form_section_edges.py`. [Stage 4](#stage-4--form-section-edges)
-8. **Emit deliverables** — `python scripts/emit_crosswalk.py` (FAIR crosswalk) and `python scripts/build_reader_data.py` (reader dataset). [Stage 5](#stage-5--emit-the-crosswalk-and-reader-data)
+1. **[Prerequisites](#environment-prerequisites)** — Python 3.7+, Node, sibling repos `sanskrit-util` + `VisualDCS` + `csl-orig`, the local `1885/` mirror, `pip install vidyut rdflib`.
+2. **Spine bootstrap** — `python scratch/phase0/parse_warnemyr.py` → `scratch/phase0/root_spine.json` (the hub every later stage mutates). [Stage 0](#stage-0-bootstrap-the-spine-from-the-warnemyr-mirror)
+3. **DCS extraction** — `python scripts/dcs/extract_dcs.py` → `src/dcs_freq.json` + audits/worklists. [Stage 0b](#stage-0b-dcs-corpus-extraction)
+4. **Corpus fold** — `python scripts/fold_corpus.py`, then `python scripts/token_disambiguate.py`. [Stage 1](#stage-1-fold-the-corpus-into-the-spine)
+5. **Dictionary arm** — `python scripts/extract_dict_roots.py`, then `python scripts/dict_align.py`. [Stage 2](#stage-2-dictionary-arm-mw-apte)
+6. **Grammar §§ ingest** — `python scripts/wikisource/fetch_whitney.py --full` → `src/whitney_sections.json`. [Stage 3](#stage-3-whitney-grammar-ingest-wikisource)
+7. **Form→§ edges** — `python scripts/build_form_section_edges.py`. [Stage 4](#stage-4-formsection-edges)
+8. **Emit deliverables** — `python scripts/emit_crosswalk.py` (FAIR crosswalk) and `python scripts/build_reader_data.py` (reader dataset). [Stage 5](#stage-5-emit-the-crosswalk-and-reader-data)
 9. **Branch tracks (as needed)** — vidyut paradigms + PPP validation, MW derivations, accent-rules TSV, decisions register. [Branch tracks](#branch-tracks)
-10. **Data fixes** — the idempotent `scripts/dcs/fix_ppp_*` / `apply_ppp_corrections.py` editors of `src/app_data.json`. [Maintainer appendix](#part-ii--maintainer-appendix)
-11. **JS app** — edit under `src/`, run `node scripts/bundle.js`, serve with `python -m http.server 8000`, test at `http://localhost:8000/`. [Track B](#track-b--the-js-web-app)
+10. **Data fixes** — the idempotent `scripts/dcs/fix_ppp_*` / `apply_ppp_corrections.py` editors of `src/app_data.json`. [Maintainer appendix](#part-ii-maintainer-appendix)
+11. **JS app** — edit under `src/`, run `node scripts/bundle.js`, serve with `python -m http.server 8000`, test at `http://localhost:8000/`. [Track B](#track-b-the-js-web-app)
 12. **Ship** — commit → PR (YAML lint + `ruff` error-codes are the only hard CI gates) → merge to `main` → Pages deploys automatically. [Deploy](#deployment-github-pages)
 
-Something broke? Jump to [Symptom → Cause → Cure](#symptom--cause--cure).
+Something broke? Jump to [Symptom → Cause → Cure](#symptom-cause-cure).
 
 ---
 
@@ -257,7 +257,7 @@ Plus [dependabot-auto-merge.yml](https://github.com/gasyoun/WhitneyRoots/blob/ma
 | Symptom | Cause | Cure |
 |---|---|---|
 | `ImportError` from `sanskrit_util` in any script | The [scripts/sanskrit_util.py](https://github.com/gasyoun/WhitneyRoots/blob/main/scripts/sanskrit_util.py) shim can't find the sibling package | Clone [sanskrit-util](https://github.com/sanskrit-lexicon/sanskrit-util) next to this repo, or `pip install -e <path>/sanskrit-util/py` |
-| Downstream stage aborts "run parse_warnemyr.py first" / missing `root_slp1` | `scratch/phase0/root_spine.json` absent or from a stale schema | Run [Stage 0](#stage-0--bootstrap-the-spine-from-the-warnemyr-mirror); it needs the local `1885/` mirror |
+| Downstream stage aborts "run parse_warnemyr.py first" / missing `root_slp1` | `scratch/phase0/root_spine.json` absent or from a stale schema | Run [Stage 0](#stage-0-bootstrap-the-spine-from-the-warnemyr-mirror); it needs the local `1885/` mirror |
 | Stage 0 can't find `1885/` pages | The mirror is gitignored — a fresh clone doesn't have it | Copy it from an existing machine, or re-mirror `warnemyr.com/skrgram` with `curl -k` (invalid cert) via the URL map in `scratch/phase0/wn_index.tsv` — never guess filenames (`ś→z`, `ā→aa`, `ṣ→_s`, `ḷ→_l`) |
 | DCS-reading scripts return near-empty results | Pointed at the 31 MB `dcs.sqlite` **sample** instead of the full DB | Use `../VisualDCS/src/DCS-data-2026/dcs_full.sqlite` (the default; `--db` to override) |
 | Corpus says a thematic root is "class I, VI" | **Accent-collapse**: DCS is unaccented; I (`cárati`) and VI (`tudáti`) are identical without accents. Same trap: `root+ya` passives masquerade as class IV | Never trust corpus-inferred class labels; decide by root-vowel grade per [REVIEWER_GUIDE.md](https://github.com/gasyoun/WhitneyRoots/blob/main/REVIEWER_GUIDE.md). This exact trap caused the Phase-8 revert of 120 additions |
