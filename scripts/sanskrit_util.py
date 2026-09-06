@@ -59,7 +59,7 @@ Pick the right key:
 import re
 import unicodedata
 
-__version__ = "0.11.0"
+__version__ = "0.12.0"
 
 __all__ = [
     "to_slp1", "from_slp1", "to_roman", "deva_to_iast", "deva_to_slp1", "iast_to_devanagari",
@@ -347,6 +347,14 @@ def form_key(s):
     # collide, and every anusvāra-final attestation reads as un-generated. It deliberately
     # does NOT touch final `n`: `rājan` and a hypothetical `rājam` stay distinct keys.
     s = re.sub('[ṃṁ]$', 'm', s)                 # final anusvāra -> m (H3911)
+    # MEDIAL anusvāra directly before a LABIAL (p ph b bh m) is also underlyingly /m/ — that is
+    # the homorganic nasal at that place of articulation, so `saṃbhavaḥ` and `sambhavaḥ` are one
+    # word in two spellings exactly as `rasaṃ`/`rasam` are. The general fold below sends it to
+    # `n` instead and leaves the literal `m` alone, so the pair could never collide. `ph`/`bh`
+    # need no separate class: the digraphs start with `p`/`b`. Deliberately narrow — anusvāra
+    # anywhere else keeps folding to `n` (`saṃskṛta == sanskṛta`, `krāṃta == krānta`), and the
+    # real letters ṅ/ñ/ṇ are never rewritten to `m`.
+    s = re.sub('[ṃṁ](?=[pbm])', 'm', s)         # medial anusvāra before a labial -> m (H3975)
     s = re.sub('[ṃṁṅñṇ]', 'n', s)              # anusvāra + ṅ/ñ/ṇ -> n (precomposed, before NFD)
     out = []
     for ch in unicodedata.normalize('NFD', s):
