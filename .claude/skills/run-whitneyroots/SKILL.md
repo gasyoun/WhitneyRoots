@@ -18,7 +18,7 @@ static root:
   grammar §§ (Wikisource links), MW/Apte sense, and DCS frequency. Loads `src/reader_data.json`.
 - **`index.html` + `v3_app.js`** — the older v3 root-explorer (cards/list/quiz over `src/app_data.json`).
 
-You drive it with **[.claude/skills/run-whitneyroots/driver.mjs](.claude/skills/run-whitneyroots/driver.mjs)**
+You drive it with **.claude/skills/run-whitneyroots/driver.mjs**
 — a Node + `playwright-core` harness that spawns the server, launches the **installed Chrome**
 headless, runs a real flow (resolve tokens, click a homonym, screenshot), asserts, and cleans up.
 (Paths below are relative to the repo root, `WhitneyRoots/`.)
