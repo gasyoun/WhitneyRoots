@@ -1,0 +1,42 @@
+{
+ "_doc": "H4631 sandbox/credential baseline (13-09-2026): minimal agent-tool fences for a repo with active agent traffic. H3502 format; extend per repo as real traps emerge. Provenance: Uprava handoffs H4631 (OxAlpha).",
+ "rules": [
+  {
+   "id": "no-env-files-into-git",
+   "match": {
+    "command_regex": [
+     "git\\s+(?:add|commit|checkout\\s+--)[^\\n]*\\.env(?!\\.example)"
+    ],
+    "tools": [
+     "Bash",
+     "PowerShell"
+    ]
+   },
+   "action": "block",
+   "reason": "Real env files carry credentials and are never committed (H4631 baseline; H4140). Keep secrets in ~/.secrets/; .env.example is the tracked shape.",
+   "overrides": []
+  },
+  {
+   "id": "stenogrammy-fence",
+   "match": {
+    "command_regex": [
+     "(?i)stenogrammy"
+    ],
+    "tools": [
+     "Bash",
+     "PowerShell",
+     "Read",
+     "Write",
+     "Edit",
+     "Grep",
+     "Glob"
+    ]
+   },
+   "action": "block",
+   "reason": "stenogrammy/ carries 152-FZ personal data — never read, export or model-open (Uprava DANGER_FACTS; fence H2641/H3502).",
+   "overrides": [
+    "hermes-sweep-ok"
+   ]
+  }
+ ]
+}
