@@ -16,3 +16,10 @@ __pycache__/
 
 # H975 review sheets (personal working artifacts, not repo deliverables)
 review/
+
+# H4631 sandbox/credential baseline (13-09-2026): real env files are never
+# committed — house convention keeps secrets in ~/.secrets/;
+# .env.example stays tracked.
+.env
+.env.*
+!.env.example
