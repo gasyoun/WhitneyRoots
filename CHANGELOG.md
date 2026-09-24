@@ -1,4 +1,4 @@
-_Created: 10-06-2026 · Last updated: 05-09-2026_
+_Created: 10-06-2026 · Last updated: 24-09-2026_
 
 # Changelog
 
@@ -7,6 +7,26 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Zalizniak (tiebreaker).**
 
 ## [Unreleased]
+
+### Changed
+
+- **H5398 — `gloss_ru_1` put into dictionary form for 385 roots** (Opus 5
+  `claude-opus-5`, 24-09-2026). The H5285 NKRYa gloss lint
+  ([`roots_gloss_lint.tsv`](https://github.com/gasyoun/Systema-Sanscriticum/blob/main/resources/data/nkrya_lint/roots_gloss_lint.tsv),
+  run in Systema-Sanscriticum over the generated
+  `roots_frequency_ru.tsv` seed) flagged 382 machine-derived RU root glosses in
+  [`crosswalk/ru_root_glosses.tsv`](https://github.com/gasyoun/WhitneyRoots/blob/main/crosswalk/ru_root_glosses.tsv)
+  that were inflected word-forms rather than dictionary forms — «сделал» for
+  `kṛ`, «будет» for `bhū`, «поедает» for `ad`. Each was replaced by the
+  pymorphy3 lemma the lint proposed in its `gloss_lemma` column; 3 further
+  `inflected_ambiguous` rows were resolved by hand from the Sanskrit part of
+  speech (all three are verb roots, so infinitive): `svap` «спит» → «спать»,
+  `mi` «сошлись» → «сойтись», `śvit` «белых» → «белеть». 436 rows rewritten
+  (a root shared by several Whitney numbers carries one gloss per `whitney_no`
+  row). Only `gloss_ru_1` was touched — `gloss_ru_2`/`gloss_ru_3`, counts and
+  the join columns are byte-identical, and the layer keeps its
+  machine-derived/UNREVIEWED status. Consumer: Systema-Sanscriticum
+  `database/seeders/data/build_roots_frequency_ru.py`, rebuilt in the same pass.
 
 ## [1.7.0] - 2026-08-17
 
