@@ -1,6 +1,6 @@
 # BUILD_MANUAL.meta.md — metadoc for the operator manual
 
-_Created: 10-07-2026 · Last updated: 18-07-2026_
+_Created: 10-07-2026 · Last updated: 04-10-2026_
 
 Companion record for [docs/BUILD_MANUAL.md](https://github.com/gasyoun/WhitneyRoots/blob/main/docs/BUILD_MANUAL.md), per the org metadoc convention (a document *about* the document: purpose, provenance, improvement backlog, revision history — never a duplicate of the subject's content).
 
@@ -23,10 +23,24 @@ Give a new operator/contributor a single document from which the whole repo can 
 ## Verification
 
 ```
-LAST_VERIFIED: 18-07-2026
-VERIFIED_BY: Fable 5 (claude-fable-5), H1245
+LAST_VERIFIED: 04-10-2026
+VERIFIED_BY: GLM 5.3 Flash (zai-start-plan/GLM-5.3-Flash), H5991
 COMMANDS_SPOT_RUN: 6
 ```
+
+H5991 refresh 04-10-2026 (fresh worktree off `origin/main` f592c95, same command set
+as the 18-07-2026 pass): `scan_ppp_apparatus.py` (`0 apparatus-bleed records`),
+`audit_class_changes.py` (`Clean: no invalid labels…`), `emit_accent_rules_tsv.py`
+(`sanity OK: 18 unique rules, 19 matrix cells…17 lexical-exception entries`; committed
+TSV in sync), `ingest_talmud_alternation.py` (idempotent, gold seed reproduced with the
+recorded `svar` RESOLVES_UNCERTAIN; committed CSV reproduced), `node scripts/bundle.js`
+(17 modules, vendor-before-linguistics order confirmed), `scripts/dcs/extract_dcs.py`
+(runs ~1 min against the VisualDCS sibling; regenerated outputs discarded, docs-only
+pass). **No drift; manual unchanged.** One repo-state observation recorded, not a
+manual defect: the committed `v3_app.js` is now **stale vs `src/`** (re-bundle produces
+a 269/19-line diff — someone edited `src/` after 14-07 without re-bundling), exactly
+the hazard the manual's Track B section documents ("no CI gate checks bundle
+freshness"); refreshing it belongs to a data/app PR, not this docs pass.
 
 Spot-run 18-07-2026 from a fresh worktree (no gitignored spine/mirror): `node
 scripts/bundle.js` (committed bundle proven fresh — timestamp-only diff),
@@ -96,5 +110,6 @@ All seven items remain **open** — every one is a code/CI/data change, and the
 | 11-07-2026 | template v2 backfill (H663) | Sonnet 5 (`claude-sonnet-5`) |
 | 18-07-2026 | H1245 estate refresh: drift-refresh vs 8 commits (new `ingest_talmud_alternation.py` branch-track row; Track B rewritten for the sanskrit-util re-vendor; bundle 16→17 modules; Stage 0b staleness warning; version bookkeeping to 1.5.1), deepen (six-command spot-run evidence block, two new symptom rows), consolidate (Transition-Runbook stub → pointer body; PPP_CORRECTION_PLAN historical banner), `LAST_VERIFIED` block, backlog reconciled + item 8 added | Fable 5 (`claude-fable-5`) |
 | 18-07-2026 | Gate-1 adversarial fact-check follow-up (7 findings fixed): `root_spine.json` is tracked, not gitignored (systemic, 4 sites); per-script table 16→17 modules; 1.4.0 = the manual itself, ingest is 1.5.0/1.5.1; review_queue live count 16 (3 of 19 later reverted); gold seed is 9 rows; `--chapters` silently wins over the mode flags; authority-order pointer repointed to REVIEWER_GUIDE | Fable 5 (`claude-fable-5`) |
+| 04-10-2026 | H5991 monthly refresh: same 6-command set re-run live, all outputs match the manual; no drift, manual unchanged; LAST_VERIFIED re-stamped. Repo-state lead recorded: committed `v3_app.js` stale vs `src/` (269/19-line re-bundle diff) — the manual's own no-gate hazard, refresh belongs to a data PR | GLM 5.3 Flash (`zai-start-plan/GLM-5.3-Flash`) |
 
 _Dr. Mārcis Gasūns_
