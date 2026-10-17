@@ -4,7 +4,7 @@ _Created: 17-07-2026 · Last updated: 17-07-2026_
 
 ## What happened to the induction plan
 
-[H1065](https://github.com/gasyoun/Uprava/blob/main/handoffs/H1065-Opus_WhitneyRoots_alternation-type-induction-nonpaninian_16.07.26.md)
+[H1065](https://github.com/gasyoun/Uprava/blob/main/handoffs/archive/H1065-Opus_WhitneyRoots_alternation-type-induction-nonpaninian_16.07.26.md)
 planned to *re-implement* the ISCLS-2024 Non-Paninian paper's induction (Tolchelnikov &
 Shirobokov), because its per-root alternation-type backbone was "not published and not in
 the repo". Per the handoff's own gate question, MG was asked first — and pointed at the
