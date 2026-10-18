@@ -1,0 +1,5 @@
+repo	path_glob	reason	owner	since
+WhitneyRoots	src/app_data.json	935 human-reviewed lexicon records; a whole-file rewrite destroys the reviewed overlay	Dr. Mārcis Gasūns	2026-08-17
+WhitneyRoots	crosswalk/roots.csv	930-row human-reviewed crosswalk; a whole-file rewrite destroys the reviewed rows	Dr. Mārcis Gasūns	2026-08-17
+WhitneyRoots	crosswalk/alignment_review.json	human-reviewed alignment overlay; a whole-file rewrite destroys the reviewed decisions	Dr. Mārcis Gasūns	2026-08-17
+csl-atlas	src/data/review/r2-checkpoint-review.json	147 reviewed-* rows (10 human-attributed); --reseed blanks the human overlay back to the machine seed	Dr. Mārcis Gasūns	2026-08-17
