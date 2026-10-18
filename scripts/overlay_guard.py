@@ -44,11 +44,22 @@ Usage, at the very top of a writer, before its own imports do any work::
     from overlay_guard import refuse_unless_hatched
     refuse_unless_hatched(__file__)
 """
+import csv
+import fnmatch
 import os
+import subprocess
 import sys
 
 #: The one escape hatch. Exact string match on ``1``.
 HATCH = 'ALLOW_OVERLAY_WIPE'
+
+#: H6980: the protected-path registry, canonical in kosha and vendored here.
+#: The guard refuses by PATH, so a new builder that targets a reviewed file is
+#: caught even when its script name was never on the H2890 list.
+REGISTRY_REL = 'data/manifest/protected_paths.tsv'
+
+#: Test/CI override, mirroring the csl-atlas generator's registry argument.
+REGISTRY_ENV = 'OVERLAY_GUARD_REGISTRY'
 
 #: Verbatim from the generated block of
 #: https://github.com/gasyoun/WhitneyRoots/blob/main/AGENTS.md
@@ -65,7 +76,109 @@ REVIEWED_FILES = (
     'crosswalk/alignment_review.json',
 )
 
+#: H6980 fallback only: when the registry file is absent, the twelve writers the
+#: H2892 census named keep refusing as before. This is NOT the live protection —
+#: the registry is.
+GUARDED_SCRIPT_NAMES = (
+    'apply_corpus_inferred_additions.py',
+    'apply_grammar_confirmed_additions.py',
+    'apply_ppp_corrections.py',
+    'apply_section_b_additions.py',
+    'corpus_verify_classes.py',
+    'fix_ppp_apparatus_bleed.py',
+    'fix_ppp_gloss_bleed.py',
+    'fix_ppp_infinitives.py',
+    'grammar_ref_builder.py',
+    'revert_collapse_additions.py',
+    'dict_align.py',
+    'emit_crosswalk.py',
+)
+
 REFUSAL_EXIT = 2
+
+
+def _repo_root():
+    return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+def _repo_name():
+    """Repo slug for registry rows: env override, git remote, then dirname."""
+    explicit = os.environ.get('OVERLAY_GUARD_REPO')
+    if explicit:
+        return explicit
+    root = _repo_root()
+    try:
+        url = subprocess.check_output(
+            ['git', '-C', root, 'config', '--get', 'remote.origin.url'],
+            stderr=subprocess.DEVNULL, text=True).strip()
+    except Exception:  # pragma: no cover - git absent is not a refusal reason
+        url = ''
+    if url:
+        name = url.rstrip('/').rsplit('/', 1)[-1]
+        if name.endswith('.git'):
+            name = name[:-4]
+        if name:
+            return name
+    return os.path.basename(root)
+
+
+def _normalise(target):
+    """Repo-relative POSIX spelling, so globs match on every platform."""
+    if os.path.isabs(target):
+        try:
+            target = os.path.relpath(target, _repo_root())
+        except ValueError:  # different drive on Windows
+            return str(target).replace('\\', '/')
+    target = str(target).replace('\\', '/')
+    while target.startswith('./'):
+        target = target[2:]
+    return target
+
+
+def registry_path(registry=None, environ=None):
+    env = os.environ if environ is None else environ
+    if registry:
+        return registry
+    override = env.get(REGISTRY_ENV)
+    if override:
+        return override
+    return os.path.join(_repo_root(), *REGISTRY_REL.split('/'))
+
+
+def load_protected_paths(registry=None, environ=None):
+    """Return this repo's protected globs, or ``None`` when no registry exists.
+
+    A missing or malformed registry is not consent: the caller falls back to
+    the embedded H2892 names. An empty tuple means the registry exists and has
+    no rows for this repo, so path matching simply protects nothing here.
+    """
+    path = registry_path(registry=registry, environ=environ)
+    if not path or not os.path.isfile(path):
+        return None
+    with open(path, encoding='utf-8', newline='') as fh:
+        rows = (line for line in fh
+                if line.strip() and not line.lstrip().startswith('#'))
+        reader = csv.DictReader(rows, delimiter='\t')
+        required = {'repo', 'path_glob', 'reason', 'owner', 'since'}
+        if not reader.fieldnames or not required.issubset(reader.fieldnames):
+            return None
+        repo = _repo_name()
+        return tuple(
+            row['path_glob'].strip().replace('\\', '/')
+            for row in reader
+            if (row.get('repo') or '').strip() == repo
+            and (row.get('path_glob') or '').strip()
+        )
+
+
+def is_protected_path(target, protected=None, environ=None):
+    """True when ``target`` matches a registry glob (or a fallback reviewed file)."""
+    if protected is None:
+        protected = load_protected_paths(environ=environ)
+    normalised = _normalise(target)
+    if protected is None:
+        return normalised in REVIEWED_FILES
+    return any(fnmatch.fnmatchcase(normalised, glob) for glob in protected)
 
 
 def hatch_is_set(environ=None):
@@ -74,20 +187,41 @@ def hatch_is_set(environ=None):
     return env.get(HATCH) == '1'
 
 
-def refuse_unless_hatched(script, targets=REVIEWED_FILES, rewrites=True,
-                          environ=None):
-    """Exit 2 with the do-not-rerun sentence unless the hatch is set.
+def refuse_unless_hatched(script, targets=None, rewrites=True,
+                          environ=None, registry=None):
+    """Exit 2 when a target is protected and the hatch is unset.
 
-    ``script`` is the caller's ``__file__``; ``targets`` names the reviewed files
-    this particular writer touches, for the operator reading the refusal.
+    ``script`` is the caller's ``__file__``; ``targets`` names the paths this
+    writer touches. Protection is decided by matching those paths against the
+    registry (H6980), not by the script name, so a new builder over a reviewed
+    file is refused just like the original twelve. When the registry file is
+    missing, the H2892 behaviour is the fallback: the twelve named writers and
+    the three reviewed files still refuse.
+
     ``rewrites=False`` marks a script the census measured as read-only over
     those files but that the DANGER_FACTS fence still names (see the module
     docstring on ``corpus_verify_classes.py``), so the refusal does not claim a
-    write that does not happen. Returns ``None`` when the hatch is set, so a
-    hatched run proceeds untouched.
+    write that does not happen. Returns ``None`` when nothing protected is
+    targeted or the hatch is set, so the run proceeds untouched.
     """
-    if hatch_is_set(environ):
+    env = os.environ if environ is None else environ
+    if hatch_is_set(env):
         return None
+
+    candidates = REVIEWED_FILES if targets is None else tuple(targets)
+    protected = load_protected_paths(registry=registry, environ=env)
+    if protected is None:
+        name = os.path.basename(script)
+        hit = name in GUARDED_SCRIPT_NAMES or any(
+            _normalise(target) in REVIEWED_FILES for target in candidates)
+        if not hit:
+            return None
+        matched = candidates or REVIEWED_FILES
+    else:
+        matched = tuple(target for target in candidates
+                        if is_protected_path(target, protected))
+        if not matched:
+            return None
 
     for stream in (sys.stdout, sys.stderr):
         try:
@@ -96,17 +230,19 @@ def refuse_unless_hatched(script, targets=REVIEWED_FILES, rewrites=True,
             pass
 
     name = os.path.basename(script)
-    listed = '\n'.join('    %s' % target for target in targets)
+    listed = '\n'.join('    %s' % target for target in matched)
     preamble = 'It rewrites, in full:' if rewrites else (
         'The census measured it as read-only over these reviewed files, but the\n'
         'DANGER_FACTS do-not-rerun row names it and only a human may narrow that:')
     sys.stderr.write(
-        'REFUSED: %s is a guarded writer over human-reviewed data (H2892).\n'
+        'REFUSED: %s targets human-reviewed data (H2892/H6980).\n'
         '\n'
         '%s\n'
         '\n'
         '%s\n'
         '%s\n'
+        '\n'
+        'Protected paths come from %s, not from this script name.\n'
         '\n'
         'Nothing was written. If this run is genuinely meant to rewrite a\n'
         'reviewed file, set the hatch and re-pin the tripwire in the same commit:\n'
@@ -118,6 +254,6 @@ def refuse_unless_hatched(script, targets=REVIEWED_FILES, rewrites=True,
         '\n'
         'If it is not, the additive route is a NEW artifact next to the reviewed\n'
         'file, never a rewrite of it.\n'
-        % (name, DONT_RERUN, preamble, listed, HATCH, name)
+        % (name, DONT_RERUN, preamble, listed, REGISTRY_REL, HATCH, name)
     )
     raise SystemExit(REFUSAL_EXIT)
