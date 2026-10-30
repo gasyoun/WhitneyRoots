@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-_Created: 03-07-2026 · Last updated: 15-09-2026_
+_Created: 03-07-2026 · Last updated: 30-10-2026_
 
 WhitneyRoots digitizes William Dwight Whitney's *The Roots, Verb-forms and
 Primary Derivatives of the Sanskrit Language* into structured data and a
@@ -68,8 +68,9 @@ and the reviewed-file digest check. Pages deploy: `pages.yml`.
 - Residual homonym groups are a lexical-semantic problem
   (`token_disambiguate.py`), not a morphology-tool gap. Do not re-pilot
   vidyut / ND-SWSMP without new evidence.
-- `sanskrit-util iast_to_devanagari` is broken — compose `to_slp1()` →
-  `slp1_to_devanagari()`.
+- `sanskrit-util iast_to_devanagari` is fixed (H1394): it now composes
+  `to_slp1()` → `slp1_to_devanagari()` internally (virāma/mātrā aware) —
+  call it directly, no manual composition needed.
 
 ## The writer lock (H2892)
 
