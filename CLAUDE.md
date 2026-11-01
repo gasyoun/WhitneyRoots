@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-_Created: 03-07-2026 · Last updated: 30-10-2026_
+_Created: 03-07-2026 · Last updated: 01-11-2026 — H7274 claims pass: 9/9 paths OK (bundle.js + 7 pipeline scripts + src/)_
 
 WhitneyRoots digitizes William Dwight Whitney's *The Roots, Verb-forms and
 Primary Derivatives of the Sanskrit Language* into structured data and a
