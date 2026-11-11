@@ -17,7 +17,22 @@
    "overrides": []
   },
   {
-   "id": "stenogrammy-fence",
+   "id": "stenogrammy-export-verbs",
+   "match": {
+    "command_regex": [
+     "(?i)(?=.*(?:Uprava-stenogrammy-private|stenogrammy/))(?=.*\\b(?:curl|wget|scp|sftp|rsync|gh\\s+(?:api|release|repo|upload)|gsutil|aws\\s+s3|netlify|vercel|surge|firebase\\s+deploy|transfer\\.sh|paste\\.?bin)\\b)"
+    ],
+    "tools": [
+     "Bash",
+     "PowerShell"
+    ]
+   },
+   "action": "block",
+   "reason": "MG 11-11-2026 (READ-OPEN / PUBLISH-CLOSED): an export/upload verb combined with a stenogrammy path in one command never passes, from any repo. No override — deliberate export of raw bodies needs a separate explicit human ruling. De-id-first derivatives (H5186) are unaffected.",
+   "overrides": []
+  },
+  {
+   "id": "stenogrammy-shell-write-bar",
    "match": {
     "command_regex": [
      "(?i)stenogrammy"
@@ -25,18 +40,33 @@
     "tools": [
      "Bash",
      "PowerShell",
-     "Read",
      "Write",
-     "Edit",
-     "Grep",
-     "Glob"
+     "Edit"
     ]
    },
    "action": "block",
-   "reason": "stenogrammy/ carries 152-FZ personal data — never read, export or model-open (Uprava DANGER_FACTS; fence H2641/H3502).",
+   "reason": "MG 11-11-2026: shell commands naming corpus paths and Write/Edit into the corpus stay barred (read != write; the shell bar is the last line the export-verb regex cannot see). Shell passes only with the literal [stenogrammy-local-ok] marker for MG-sanctioned local work; file-tool writes have no marker channel and stay blocked. File-tool reads are open — see stenogrammy-read-audit. Raw bodies/listings are never published; names only via the consent ledger (status=yes per user_id) and student_story_publish_gate.py.",
    "overrides": [
-    "hermes-sweep-ok"
+    "[stenogrammy-local-ok]"
    ]
+  },
+  {
+   "id": "stenogrammy-read-audit",
+   "match": {
+    "command_regex": [
+     "(?i)stenogrammy"
+    ],
+    "tools": [
+     "Read",
+     "Grep",
+     "Glob",
+     "Bash",
+     "PowerShell"
+    ]
+   },
+   "action": "audit",
+   "reason": "Local read of the 152-FZ corpus is OPEN (MG 12-09-2026, reaffirmed 11-11-2026: agents must read them in full). Audit-level: every access is ledger-logged, never blocks. Export verbs are caught earlier by stenogrammy-export-verbs; unmarked shell/writes by stenogrammy-shell-write-bar.",
+   "overrides": []
   }
  ]
 }
