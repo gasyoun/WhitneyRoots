@@ -8,6 +8,10 @@ Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Z
 
 ## [Unreleased]
 
+### Added
+
+- **H8020 — vidyut dhātupāṭha re-acquired** (parent session, 15-11-2026). `dhatupatha.tsv` (2,259 dhātu, SLP1 + artha) acquired from upstream [ambuda-org/vidyut](https://github.com/ambuda-org/vidyut) (`vidyut-prakriya/data/dhatupatha.tsv` @ `c0fa4163`, MIT) and landed at the gitignored `scratch/vidyut_data/prakriya/` path; provenance + structural catch (gana.sutra code joins DHATUP coordinates only BY ROOT) recorded in [docs/VIDYUT_DHATUPATHA_PROVENANCE.md](docs/VIDYUT_DHATUPATHA_PROVENANCE.md). Unblocks the dhatupatha index mode (H8023 gate).
+
 ### Changed
 
 - **H5398 — `gloss_ru_1` put into dictionary form for 385 roots** (Opus 5
