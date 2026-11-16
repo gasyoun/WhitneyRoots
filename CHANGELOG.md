@@ -1,4 +1,4 @@
-_Created: 10-06-2026 · Last updated: 24-09-2026_
+_Created: 10-06-2026 · Last updated: 16-11-2026_
 
 # Changelog
 
@@ -7,7 +7,9 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 Authority order for all linguistic decisions: **Grammar > Roots > DCS corpus > Zalizniak (tiebreaker).**
 
 ## [Unreleased]
+<!-- entries land in changelog_queue/ -- appended via tools/changelog_queue_consume.py, consumed by cut_release.py at release-cut (H3355); direct bullets here are hook-blocked -->
 
+## [1.7.1] - 2026-11-16
 ### Added
 
 - **H8020 — vidyut dhātupāṭha re-acquired** (parent session, 15-11-2026). `dhatupatha.tsv` (2,259 dhātu, SLP1 + artha) acquired from upstream [ambuda-org/vidyut](https://github.com/ambuda-org/vidyut) (`vidyut-prakriya/data/dhatupatha.tsv` @ `c0fa4163`, MIT) and landed at the gitignored `scratch/vidyut_data/prakriya/` path; provenance + structural catch (gana.sutra code joins DHATUP coordinates only BY ROOT) recorded in [docs/VIDYUT_DHATUPATHA_PROVENANCE.md](docs/VIDYUT_DHATUPATHA_PROVENANCE.md). Unblocks the dhatupatha index mode (H8023 gate).
