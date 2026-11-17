@@ -1,0 +1,10 @@
+# Whitney Roots — Sanskrit Dhatu
+
+> Whitney's Sanskrit verbal-root (dhātu) list as a browsable reader.
+
+## Pages
+
+- [Roots index](https://gasyoun.github.io/WhitneyRoots/)
+- [Reader](https://gasyoun.github.io/WhitneyRoots/reader/)
+
+Source: https://github.com/gasyoun/WhitneyRoots
