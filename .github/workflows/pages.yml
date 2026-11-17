@@ -35,7 +35,7 @@ jobs:
         # crosswalk/, or scratch/ cruft on the public URL.
         run: |
           mkdir -p _site
-          cp index.html index.css v3_app.js .nojekyll _site/
+          cp index.html index.css v3_app.js llms.txt .nojekyll _site/
           cp -r src reader _site/
           echo "Assembled site:" && find _site -maxdepth 2 -type f | sort
 
